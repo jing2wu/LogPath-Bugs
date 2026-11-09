@@ -1,0 +1,34 @@
+{
+ "project": "michelin__ns4kafka",
+ "issue": "GH-359",
+ "summary": "api allows creation of namespaces with dot",
+ "fix_commit": "53e3d071addd8350ccfd736f7346752c975076ac",
+ "buggy_version": "53e3d071ad with src/main/java/com/michelin/ns4kafka/models/ObjectMeta.java, src/main/java/com/michelin/ns4kafka/security/ResourceBasedSecurityRule.java reverted to 53e3d071ad^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "ResourceBasedSecurityRuleTest#shouldReturnAllowedWhenGoodNamespaceName"
+ ],
+ "faulty_lines": [
+  "src/main/java/com/michelin/ns4kafka/security/ResourceBasedSecurityRule.java:32",
+  "src/main/java/com/michelin/ns4kafka/security/ResourceBasedSecurityRule.java:33",
+  "src/main/java/com/michelin/ns4kafka/security/ResourceBasedSecurityRule.java:34"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 55,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 55,
+ "stable": true,
+ "runs": {
+  "ResourceBasedSecurityRuleTest#shouldReturnAllowedWhenGoodNamespaceName": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

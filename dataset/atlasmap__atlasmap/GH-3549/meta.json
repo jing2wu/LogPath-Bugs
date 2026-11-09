@@ -1,0 +1,32 @@
+{
+ "project": "atlasmap__atlasmap",
+ "issue": "GH-3549",
+ "summary": "Data Type Conversion Issue",
+ "fix_commit": "a74a4bab14ebd78dd02f10f9f54425bb2136ad67",
+ "buggy_version": "a74a4bab14 with lib/modules/xml/core/src/main/java/io/atlasmap/xml/core/XmlFieldWriter.java reverted to a74a4bab14^",
+ "jdk": "17",
+ "module": "lib/itests/core",
+ "tests": [
+  "AtlasMap3549Test#test2"
+ ],
+ "faulty_lines": [
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/core/XmlFieldWriter.java:206"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 16,
+ "pairs_exported": 93,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 16,
+ "stable": true,
+ "runs": {
+  "AtlasMap3549Test#test2": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

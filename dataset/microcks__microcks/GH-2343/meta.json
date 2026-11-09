@@ -1,0 +1,49 @@
+{
+ "project": "microcks__microcks",
+ "issue": "GH-2343",
+ "summary": "fix(web): WebhookController fails to register webhooks for operations containing hyphens or slashes",
+ "fix_commit": "da2cb1f250d7e3f6fba7b80c4579db726437ce85",
+ "buggy_version": "da2cb1f250 with webapp/src/main/java/io/github/microcks/web/WebhookController.java reverted to da2cb1f250^",
+ "jdk": "25",
+ "module": "webapp",
+ "tests": [
+  "WebhookControllerTest#shouldRegisterWebhookSuccessfullyForOperationWithEncodedSlashes",
+  "WebhookControllerTest#shouldRegisterWebhookSuccessfullyForOperationWithHyphens"
+ ],
+ "faulty_lines": [
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:100",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:101",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:103",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:110",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:69",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:70",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:76",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:77",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:89",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:90",
+  "webapp/src/main/java/io/github/microcks/web/WebhookController.java:94"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 9,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 9,
+ "stable": true,
+ "runs": {
+  "WebhookControllerTest#shouldRegisterWebhookSuccessfullyForOperationWithEncodedSlashes": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "WebhookControllerTest#shouldRegisterWebhookSuccessfullyForOperationWithHyphens": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

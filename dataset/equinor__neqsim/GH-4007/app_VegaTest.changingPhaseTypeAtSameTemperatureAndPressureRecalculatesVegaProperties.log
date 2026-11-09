@@ -1,0 +1,4 @@
+2026-11-03T21:28:32.398 WARN neqsim.physicalproperties.methods.gasphysicalproperties.diffusivity.Diffusivity [main] - Temperature 4.0 K is outside validated range [200.0-2000.0] for gas diffusivity calculation
+2026-11-03T21:28:32.545 WARN neqsim.physicalproperties.methods.gasphysicalproperties.diffusivity.Diffusivity [main] - Temperature 4.0 K is outside validated range [200.0-2000.0] for gas diffusivity calculation
+2026-11-03T21:28:32.989 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

@@ -1,0 +1,40 @@
+{
+ "project": "kafka-ops__julie",
+ "issue": "GH-364",
+ "summary": "Streams management requires both a read and write topic defined when using ACLs.",
+ "fix_commit": "c3b76b10fa66986adf983e455af8d9bf8a06e262",
+ "buggy_version": "c3b76b10fa with src/main/java/com/purbon/kafka/topology/serdes/TopologyCustomDeserializer.java reverted to c3b76b10fa^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "TopologySerdesTest#testStreamsParsingOnlyReadTopicsShouldNotParseAsNull",
+  "TopologySerdesTest#testStreamsParsingOnlyWriteTopicsShoulRaiseAnException"
+ ],
+ "faulty_lines": [
+  "src/main/java/com/purbon/kafka/topology/serdes/TopologyCustomDeserializer.java:382",
+  "src/main/java/com/purbon/kafka/topology/serdes/TopologyCustomDeserializer.java:384"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 112,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 112,
+ "stable": true,
+ "runs": {
+  "TopologySerdesTest#testStreamsParsingOnlyReadTopicsShouldNotParseAsNull": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "TopologySerdesTest#testStreamsParsingOnlyWriteTopicsShoulRaiseAnException": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,33 @@
+{
+ "project": "openmrs__openmrs-module-chartsearchai",
+ "issue": "GH-433",
+ "summary": "The question-pair arm claims interactionPairs for a question naming ONE substance with route/formulation rows, publishing a structurally-guaranteed zero over the drug-in-play arm's real pairs",
+ "fix_commit": "e0492bb9ae267465be92978f1e4182d1a8f3b64c",
+ "buggy_version": "e0492bb9ae with api/src/main/java/org/openmrs/module/chartsearchai/reference/DrugSafetyValidator.java, api/src/main/java/org/openmrs/module/chartsearchai/reference/PairChipExtent.java reverted to e0492bb9ae^",
+ "jdk": "17",
+ "module": "api",
+ "tests": [
+  "PairChipExtentContextTest#severalRowsOfOneSubstanceAreNotAPairAndLeaveTheFieldToTheArmThatScreened"
+ ],
+ "faulty_lines": [
+  "api/src/main/java/org/openmrs/module/chartsearchai/reference/DrugSafetyValidator.java:6257",
+  "api/src/main/java/org/openmrs/module/chartsearchai/reference/DrugSafetyValidator.java:6258"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 841,
+ "pairs_exported": 3,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 841,
+ "stable": true,
+ "runs": {
+  "PairChipExtentContextTest#severalRowsOfOneSubstanceAreNotAPairAndLeaveTheFieldToTheArmThatScreened": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

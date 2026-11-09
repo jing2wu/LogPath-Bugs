@@ -1,0 +1,40 @@
+2026-11-05T10:32:53.528 INFO org.apache.dolphinscheduler.common.constants.SystemConstants [main] - init timezone: sun.util.calendar.ZoneInfo[id="America/Chicago",offset=-21600000,dstSavings=3600000,useDaylight=true,transitions=361,lastRule=java.util.SimpleTimeZone[id=America/Chicago,offset=-21600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+2026-11-05T10:32:53.764 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: JAVA
+2026-11-05T10:32:53.770 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: JUPYTER
+2026-11-05T10:32:53.778 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: SPARK
+2026-11-05T10:32:53.785 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: FLINK_STREAM
+2026-11-05T10:32:53.789 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: PYTHON
+2026-11-05T10:32:53.797 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: ALIYUN_SERVERLESS_SPARK
+2026-11-05T10:32:53.802 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: DATASYNC
+2026-11-05T10:32:53.807 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: DATA_FACTORY
+2026-11-05T10:32:53.813 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: CHUNJUN
+2026-11-05T10:32:53.816 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: CONDITIONS
+2026-11-05T10:32:53.821 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: REMOTESHELL
+2026-11-05T10:32:53.822 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: SUB_WORKFLOW
+2026-11-05T10:32:53.832 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: PROCEDURE
+2026-11-05T10:32:53.836 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: SHELL
+2026-11-05T10:32:53.838 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: DEPENDENT
+2026-11-05T10:32:53.842 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: MR
+2026-11-05T10:32:53.847 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: SQOOP
+2026-11-05T10:32:53.855 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: K8S
+2026-11-05T10:32:53.869 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: SEATUNNEL
+2026-11-05T10:32:53.874 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: SAGEMAKER
+2026-11-05T10:32:53.881 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: HTTP
+2026-11-05T10:32:53.899 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: EMR
+2026-11-05T10:32:53.905 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: DMS
+2026-11-05T10:32:53.911 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: KUBEFLOW
+2026-11-05T10:32:53.921 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: SQL
+2026-11-05T10:32:53.926 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: DVC
+2026-11-05T10:32:53.939 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: DATAX
+2026-11-05T10:32:53.949 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: ZEPPELIN
+2026-11-05T10:32:53.960 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: DINKY
+2026-11-05T10:32:53.967 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: MLFLOW
+2026-11-05T10:32:53.969 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: SWITCH
+2026-11-05T10:32:53.974 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: OPENMLDB
+2026-11-05T10:32:53.975 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: LogicFakeTask
+2026-11-05T10:32:53.981 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: LINKIS
+2026-11-05T10:32:53.983 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: FLINK
+2026-11-05T10:32:53.988 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: HIVECLI
+2026-11-05T10:32:53.993 INFO org.apache.dolphinscheduler.plugin.task.api.TaskPluginManager [main] - Success register task plugin: GRPC
+2026-11-05T10:32:54.044 INFO org.apache.dolphinscheduler.api.service.impl.WorkflowDefinitionServiceImpl [main] - Save workflow definition complete, workflowDefinitionCode:188893157419424, workflowDefinitionVersion:1.
+2026-11-05T10:32:54.044 INFO org.apache.dolphinscheduler.api.service.impl.WorkflowDefinitionServiceImpl [main] - Save workflow task relations complete, projectCode:1, workflowDefinitionCode:188893157419424, workflowDefinitionVersion:1.

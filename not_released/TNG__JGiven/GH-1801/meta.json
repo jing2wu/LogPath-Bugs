@@ -1,0 +1,39 @@
+{
+ "project": "TNG__JGiven",
+ "issue": "GH-1801",
+ "summary": "IndexOutOfBoundsException when injecting a null value in the second test case using DataProvider on a ParameterizedTest",
+ "fix_commit": "f38d8b52e321f09d90a4b3d58d28aef2783db870",
+ "buggy_version": "f38d8b52e3 with jgiven-junit5/src/main/java/com/tngtech/jgiven/junit5/ArgumentReflectionUtil.java reverted to f38d8b52e3^",
+ "jdk": "17",
+ "module": "jgiven-junit5",
+ "tests": [
+  "ParameterizedTestTest#parameterized_scenario_with_null_arguments_in_first_iteration",
+  "ParameterizedTestTest#parameterized_scenario_with_null_arguments_in_subsequent_test_cases"
+ ],
+ "faulty_lines": [
+  "jgiven-junit5/src/main/java/com/tngtech/jgiven/junit5/ArgumentReflectionUtil.java:45"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 387,
+ "pairs_exported": 139,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "ParameterizedTestTest#parameterized_scenario_with_null_arguments_in_first_iteration": {
+   "threads": 3,
+   "log_threads": 2,
+   "status": "fail",
+   "tests_run": null
+  },
+  "ParameterizedTestTest#parameterized_scenario_with_null_arguments_in_subsequent_test_cases": {
+   "threads": 3,
+   "log_threads": 2,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

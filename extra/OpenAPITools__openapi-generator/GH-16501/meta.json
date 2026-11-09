@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-16501",
+ "summary": "[BUG][Kotlin] Cannot generate Map with nullable value type",
+ "fix_commit": "1283d1bf0fb564d45a9385287f1d4f11f203f35d",
+ "buggy_version": "1283d1bf0f with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java reverted to 1283d1bf0f^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "AbstractKotlinCodegenTest#testNullableMap"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java:397"
+ ],
+ "covering_pairs": 9,
+ "shortest_covering_pair": 361,
+ "pairs_exported": 21,
+ "covering_pairs_printed": 9,
+ "shortest_covering_pair_printed": 361,
+ "stable": true,
+ "runs": {
+  "AbstractKotlinCodegenTest#testNullableMap": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

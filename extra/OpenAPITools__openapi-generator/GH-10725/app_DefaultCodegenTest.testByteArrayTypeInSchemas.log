@@ -1,0 +1,316 @@
+606 [main] DEBUG io.swagger.v3.parser.OpenAPIV3Parser - Loaded raw data: openapi: 3.0.1
+info:
+  title: OpenAPI Petstore
+  description: "byteArray schema isX type checks"
+  license:
+    name: Apache-2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+  - url: http://petstore.swagger.io:80/v2
+tags: []
+paths:
+  /TxRxByteArray:
+    post:
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+              format: byte
+      responses:
+        '200':
+          description: ComposedObject
+          content:
+            application/json:
+              schema:
+                type: string
+                format: byte
+  /RxRefObjectContainingByteArray:
+    get:
+      responses:
+        '200':
+          description: ComposedNumber
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ObjectContainingByteArray'
+components:
+  schemas:
+    ObjectContainingByteArray:
+      type: object
+      properties:
+        byteArray:
+          type: string
+          format: byte
+956 [main] DEBUG org.openapitools.codegen.DefaultCodegen - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: null
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {application/json=class MediaType {
+                schema: class ByteArraySchema {
+                    class Schema {
+                        type: string
+                        format: byte
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: true
+    }
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: ComposedObject
+            headers: null
+            content: class Content {
+                {application/json=class MediaType {
+                    schema: class ByteArraySchema {
+                        class Schema {
+                            type: string
+                            format: byte
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+1033 [main] WARN org.openapitools.codegen.DefaultCodegen - Empty operationId found for path: POST /TxRxByteArray. Renamed to auto-generated operationId: txRxByteArrayPOST
+1035 [main] WARN org.openapitools.codegen.DefaultCodegen - escapeQuotationMark should be overridden in the code generator with proper logic to escape single/double quote
+1056 [main] WARN org.openapitools.codegen.DefaultCodegen - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+1057 [main] WARN org.openapitools.codegen.DefaultCodegen - escapeQuotationMark should be overridden in the code generator with proper logic to escape single/double quote
+1057 [main] WARN org.openapitools.codegen.DefaultCodegen - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+1058 [main] WARN org.openapitools.codegen.DefaultCodegen - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+1265 [main] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for response : class ByteArraySchema {
+    class Schema {
+        type: string
+        format: byte
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+1311 [main] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='string', baseName='response', complexType='ByteArray', getter='getResponse', setter='setResponse', description='null', dataType='byte[]', datatypeWithEnum='byte[]', dataFormat='byte', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='ByteArray', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string",
+  "format" : "byte"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=true, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false}
+1313 [main] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for response : class ByteArraySchema {
+    class Schema {
+        type: string
+        format: byte
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+1313 [main] DEBUG org.openapitools.codegen.DefaultCodegen - Cached fromProperty for response : null
+1361 [main] DEBUG org.openapitools.codegen.DefaultCodegen - Request body = class RequestBody {
+    description: null
+    content: class Content {
+        {application/json=class MediaType {
+            schema: class ByteArraySchema {
+                class Schema {
+                    type: string
+                    format: byte
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: true
+}
+1362 [main] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for PRIMITIVE_REQUEST_BODY : class ByteArraySchema {
+    class Schema {
+        type: string
+        format: byte
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+1387 [main] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='string', baseName='PRIMITIVE_REQUEST_BODY', complexType='ByteArray', getter='getPRIMITIVEUnderscoreREQUESTUnderscoreBODY', setter='setPRIMITIVEUnderscoreREQUESTUnderscoreBODY', description='null', dataType='byte[]', datatypeWithEnum='byte[]', dataFormat='byte', name='PRIMITIVEUnderscoreREQUESTUnderscoreBODY', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.PRIMITIVE_REQUEST_BODY;', baseType='ByteArray', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string",
+  "format" : "byte"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=true, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='PRIMITIVEUnderscoreREQUESTUnderscoreBODY', nameInSnakeCase='P_R_I_M_I_T_I_V_E_UNDERSCORE_R_E_Q_U_E_S_T_UNDERSCORE_B_O_D_Y', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false}

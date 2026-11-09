@@ -1,0 +1,6 @@
+2026-11-03T21:44:33.889 FINER java.lang.ProcessBuilder start - ProcessBuilder.start(): pid: 3930705, dir: null, cmd: "/home/user/.sdkman/candidates/java/25.0.4+1.1-zulu/bin/java" "-Dnet.bytebuddy.agent.attacher.dump=" "-cp" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.18.11/byte-buddy-agent-1.18.11.jar" "net.bytebuddy.agent.Attacher" "com.sun.tools.attach.VirtualMachine" "3930571" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.18.11/byte-buddy-agent-1.18.11.jar" "false" ""
+java.lang.RuntimeException: ProcessBuilder.start() debug
+2026-11-03T21:44:37.616 DEBUG io.github.microcks.web.WebhookController [main] - Registering webhook at 'https://example.com/users' for operation '60f123456789abcdef012345-POST !api!v1!user-profiles'
+2026-11-03T21:44:37.622 ERROR io.github.microcks.web.WebhookController [main] - Invalid operationId received for webhook registration
+2026-11-03T21:44:37.991 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

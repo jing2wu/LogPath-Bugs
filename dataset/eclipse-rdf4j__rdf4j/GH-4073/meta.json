@@ -1,0 +1,33 @@
+{
+ "project": "eclipse-rdf4j__rdf4j",
+ "issue": "GH-4073",
+ "summary": "Query syntax errors are not propagated to the client",
+ "fix_commit": "136844164c1ca154837d94c807b1b89abfeef0f0",
+ "buggy_version": "136844164c with tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/transaction/TransactionController.java reverted to 136844164c^",
+ "jdk": "17",
+ "module": "tools/server-spring",
+ "tests": [
+  "TestTransactionControllerErrorHandling#shouldThrowMalformedQueryExceptionForQuerySyntaxErrors"
+ ],
+ "faulty_lines": [
+  "tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/transaction/TransactionController.java:388",
+  "tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/transaction/TransactionController.java:389"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 62,
+ "pairs_exported": 27,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 62,
+ "stable": true,
+ "runs": {
+  "TestTransactionControllerErrorHandling#shouldThrowMalformedQueryExceptionForQuerySyntaxErrors": {
+   "threads": 2,
+   "log_threads": 2,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

@@ -1,0 +1,8 @@
+354 [TestNG-test=Surefire test-1] WARN org.openapitools.codegen.languages.AbstractPythonCodegen - 1 (model name starts with number) cannot be used as model name. Renamed to Model1
+369 [TestNG-test=Surefire test-1] WARN org.openapitools.codegen.languages.AbstractPythonCodegen - 1 (model name starts with number) cannot be used as model name. Renamed to Model1
+419 [TestNG-test=Surefire test-1] WARN org.openapitools.codegen.languages.AbstractPythonCodegen - 1 (model name starts with number) cannot be used as model name. Renamed to Model1
+429 [TestNG-test=Surefire test-1] WARN org.openapitools.codegen.languages.AbstractPythonCodegen - 1 (model name starts with number) cannot be used as model name. Renamed to Model1
+442 [TestNG-test=Surefire test-1] WARN org.openapitools.codegen.languages.AbstractPythonCodegen - and (reserved word) cannot be used as model name. Renamed to ModelAnd
+456 [TestNG-test=Surefire test-1] WARN org.openapitools.codegen.languages.AbstractPythonCodegen - and (reserved word) cannot be used as model name. Renamed to ModelAnd
+480 [TestNG-test=Surefire test-1] WARN org.openapitools.codegen.languages.AbstractPythonCodegen - and (reserved word) cannot be used as model name. Renamed to ModelAnd
+491 [TestNG-test=Surefire test-1] WARN org.openapitools.codegen.languages.AbstractPythonCodegen - and (reserved word) cannot be used as model name. Renamed to ModelAnd

@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-11323",
+ "summary": "[BUG][JAVA][SPRING] missing JsonValue import if allOf used as inline-scheme composition",
+ "fix_commit": "735dae41a554787910da1cb5d62fda7b3debd978",
+ "buggy_version": "735dae41a5 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java reverted to 735dae41a5^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "SpringCodegenTest#testIssue11323"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5184",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5195"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 168,
+ "pairs_exported": 31,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 168,
+ "stable": true,
+ "runs": {
+  "SpringCodegenTest#testIssue11323": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

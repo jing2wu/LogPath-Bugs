@@ -1,0 +1,322 @@
+2026-11-03T20:43:36.234 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE ModelPropertyTest.testNotBlankNotEmptyWithRequiredModeNotRequired()[pri:0, instance:io.swagger.v3.core.converting.ModelPropertyTest@1f9e9475] 1257770960
+2026-11-03T20:43:36.241 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:43:36.253 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:43:36.254 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:43:36.254 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:43:38.596 DEBUG io.swagger.v3.core.converter.ModelConverters [main] - ModelConverters readAll from io.swagger.v3.core.converter.AnnotatedType@42272a68
+2026-11-03T20:43:38.601 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve class io.swagger.v3.core.converting.ModelPropertyTest$NotBlankNotEmptyWithRequiredModeNotRequiredModel
+2026-11-03T20:43:38.601 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@25c2a9e3
+2026-11-03T20:43:39.263 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel NotBlankNotEmptyWithRequiredModeNotRequiredModel class Schema {
+    type: object
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:43:39.300 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.String]
+2026-11-03T20:43:39.302 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@25c2a9e3
+2026-11-03T20:43:39.303 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.String], java.lang.String
+2026-11-03T20:43:39.629 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [collection type; class java.util.List, contains [simple type, class java.lang.String]]
+2026-11-03T20:43:39.629 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@25c2a9e3
+2026-11-03T20:43:39.629 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [collection type; class java.util.List, contains [simple type, class java.lang.String]], java.util.List
+2026-11-03T20:43:39.638 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.String]
+2026-11-03T20:43:39.638 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@25c2a9e3
+2026-11-03T20:43:39.638 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.String], java.lang.String
+2026-11-03T20:43:39.752 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [collection type; class java.util.Set, contains [simple type, class java.lang.String]]
+2026-11-03T20:43:39.752 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@25c2a9e3
+2026-11-03T20:43:39.752 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [collection type; class java.util.Set, contains [simple type, class java.lang.String]], java.util.Set
+2026-11-03T20:43:39.755 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.String]
+2026-11-03T20:43:39.756 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@25c2a9e3
+2026-11-03T20:43:39.756 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.String], java.lang.String
+2026-11-03T20:43:39.770 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel NotBlankNotEmptyWithRequiredModeNotRequiredModel class Schema {
+    type: object
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: {notBlankNotRequired=class StringSchema {
+        class Schema {
+            type: string
+            format: null
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, notEmptyListNotRequired=class ArraySchema {
+        class Schema {
+            type: array
+            format: null
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, notEmptySetNotRequired=class ArraySchema {
+        class Schema {
+            type: array
+            format: null
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: true
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }}
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:43:39.774 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel NotBlankNotEmptyWithRequiredModeNotRequiredModel class Schema {
+    type: object
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: {notBlankNotRequired=class StringSchema {
+        class Schema {
+            type: string
+            format: null
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, notEmptyListNotRequired=class ArraySchema {
+        class Schema {
+            type: array
+            format: null
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, notEmptySetNotRequired=class ArraySchema {
+        class Schema {
+            type: array
+            format: null
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: true
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }}
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:43:40.074 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE ModelPropertyTest.testNotBlankNotEmptyWithRequiredModeNotRequired()[pri:0, instance:io.swagger.v3.core.converting.ModelPropertyTest@1f9e9475] 1257770960
+2026-11-03T20:43:40.074 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:43:40.074 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:43:40.074 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:43:40.075 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

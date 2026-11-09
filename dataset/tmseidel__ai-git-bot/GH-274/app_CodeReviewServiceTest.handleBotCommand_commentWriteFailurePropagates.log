@@ -1,0 +1,11 @@
+2026-11-03T21:47:57.333 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:47:57.787 FINER java.lang.ProcessBuilder start - ProcessBuilder.start(): pid: 3937355, dir: null, cmd: "/home/user/.sdkman/candidates/java/21.0.12+1.1-zulu/bin/java" "-Dnet.bytebuddy.agent.attacher.dump=" "-cp" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar" "net.bytebuddy.agent.Attacher" "com.sun.tools.attach.VirtualMachine" "3937204" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar" "false" ""
+java.lang.RuntimeException: ProcessBuilder.start() debug
+2026-11-03T21:48:00.643 INFO org.remus.giteabot.review.CodeReviewService [main] - Handling bot command in comment #42 for PR #1 in testowner/testrepo
+2026-11-03T21:48:00.648 DEBUG org.remus.giteabot.review.CodeReviewService [main] - LLM request [chat/botCommand] for PR #1: history size=2, commentBody length=20, systemPrompt length=11
+2026-11-03T21:48:00.648 DEBUG org.remus.giteabot.review.CodeReviewService [main] - LLM request [chat/botCommand] user message: '@ai_bot explain this'
+2026-11-03T21:48:00.649 DEBUG org.remus.giteabot.review.CodeReviewService [main] - LLM response [chat/botCommand] for PR #1: length=18, preview='Generated response'
+2026-11-03T21:48:00.655 ERROR org.remus.giteabot.review.CodeReviewService [main] - Failed to handle bot command for comment #42 on PR #1 in testowner/testrepo: comment write failed
+java.lang.IllegalStateException: comment write failed
+2026-11-03T21:48:00.807 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

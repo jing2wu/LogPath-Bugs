@@ -1,0 +1,56 @@
+{
+ "project": "atlasmap__atlasmap",
+ "issue": "GH-3470",
+ "summary": "[BUG] Same name element with a different inline type in the XSD is wrongly `cached`",
+ "fix_commit": "a7da120f2ae9bc176782c3d86046442e58138bbd",
+ "buggy_version": "a7da120f2a with lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java reverted to a7da120f2a^",
+ "jdk": "17",
+ "module": "lib/modules/xml/core",
+ "tests": [
+  "XmlSchemaInspectionTest#testInspectSchemaFileSameNameElement"
+ ],
+ "faulty_lines": [
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:211",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:223",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:227",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:232",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:236",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:238",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:242",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:247",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:252",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:253",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:258",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:259",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:263",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:278",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:279",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:280",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:281",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:282",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:292",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:340",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:341",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:342",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:343",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:344",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:345"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 94,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 94,
+ "stable": true,
+ "runs": {
+  "XmlSchemaInspectionTest#testInspectSchemaFileSameNameElement": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

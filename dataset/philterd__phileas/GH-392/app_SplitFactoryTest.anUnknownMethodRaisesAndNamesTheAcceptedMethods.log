@@ -1,0 +1,4 @@
+2026-11-03T21:45:56.427 WARN ai.philterd.phileas.services.split.SplitFactory [main] - No matching split service found for sentence. Defaulting to newline split service.
+2026-11-03T21:45:56.523 WARN ai.philterd.phileas.services.split.SplitFactory [main] - No matching split service found for chars. Defaulting to newline split service.
+2026-11-03T21:45:56.541 WARN ai.philterd.phileas.services.split.SplitFactory [main] - No matching split service found for new line. Defaulting to newline split service.
+2026-11-03T21:45:56.571 WARN ai.philterd.phileas.services.split.SplitFactory [main] - No matching split service found for . Defaulting to newline split service.

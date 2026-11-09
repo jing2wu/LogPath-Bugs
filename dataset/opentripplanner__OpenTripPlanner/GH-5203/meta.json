@@ -1,0 +1,52 @@
+{
+ "project": "opentripplanner__OpenTripPlanner",
+ "issue": "GH-5203",
+ "summary": "Performance issue with vertex linking in complex area",
+ "fix_commit": "81e1b7030aef6aca08070e105e50525de72be371",
+ "buggy_version": "81e1b7030a with src/main/java/org/opentripplanner/routing/linking/VertexLinker.java, src/main/java/org/opentripplanner/street/model/edge/StreetEdge.java reverted to 81e1b7030a^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "LinkStopToPlatformTest#testLinkStopInsideArea",
+  "LinkStopToPlatformTest#testLinkStopNearPlatformVertex"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:340",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:363",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:364",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:388",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:543",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:544",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:571",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:600",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:609",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:610",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:624",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:625",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:63",
+  "src/main/java/org/opentripplanner/routing/linking/VertexLinker.java:64"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 55,
+ "pairs_exported": 14,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 55,
+ "stable": true,
+ "runs": {
+  "LinkStopToPlatformTest#testLinkStopInsideArea": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "LinkStopToPlatformTest#testLinkStopNearPlatformVertex": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

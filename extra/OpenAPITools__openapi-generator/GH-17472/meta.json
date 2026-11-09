@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-17472",
+ "summary": "[BUG] generated code cannot be compiled (Java 21)",
+ "fix_commit": "b228133a20a9b9e10363566017a5270c4af362d2",
+ "buggy_version": "b228133a20 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java reverted to b228133a20^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "JavaValidationArrayPrimitivesTest#typeMappingsForCollections"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1011",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1012"
+ ],
+ "covering_pairs": 540,
+ "shortest_covering_pair": 273,
+ "pairs_exported": 650,
+ "covering_pairs_printed": 540,
+ "shortest_covering_pair_printed": 273,
+ "stable": true,
+ "runs": {
+  "JavaValidationArrayPrimitivesTest#typeMappingsForCollections": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 14
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

@@ -1,0 +1,39 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-24298",
+ "summary": "[BUG] [Java] Object defaults with enum properties generate invalid fluent builder expressions",
+ "fix_commit": "095eedab261417fa4d674bb0e34c6d8520550c5b",
+ "buggy_version": "095eedab26 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java reverted to 095eedab26^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "AbstractJavaCodegenTest#toDefaultValueForObjectWithEnumPropertyDefaultTest",
+  "JavaClientCodegenTest#testObjectDefaultWithEnumProperty_issue24298"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1567"
+ ],
+ "covering_pairs": 8,
+ "shortest_covering_pair": 394,
+ "pairs_exported": 63,
+ "covering_pairs_printed": 8,
+ "shortest_covering_pair_printed": 394,
+ "stable": true,
+ "runs": {
+  "AbstractJavaCodegenTest#toDefaultValueForObjectWithEnumPropertyDefaultTest": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "JavaClientCodegenTest#testObjectDefaultWithEnumProperty_issue24298": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-21733",
+ "summary": "[BUG] [kotlin-client][kotlin-spring] Discriminator is serialized twice when defined as property",
+ "fix_commit": "8ce639ddae7b20fc7e0b98f011ca350f04cee3fd",
+ "buggy_version": "8ce639ddae with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java reverted to 8ce639ddae^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "KotlinSpringServerCodegenTest#polymorphicJacksonSerialization"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:427",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:830"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 157,
+ "pairs_exported": 77,
+ "covering_pairs_printed": 6,
+ "shortest_covering_pair_printed": 157,
+ "stable": true,
+ "runs": {
+  "KotlinSpringServerCodegenTest#polymorphicJacksonSerialization": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,40 @@
+{
+ "project": "apache__mina-sshd",
+ "issue": "GH-325",
+ "summary": "exceptions in SftpFileSystemProvider on Files.delete( Path p)",
+ "fix_commit": "2779bbc8d15308ce09b9661df5298c035cc70624",
+ "buggy_version": "2779bbc8d1 with sshd-sftp/src/main/java/org/apache/sshd/sftp/client/fs/SftpFileSystemProvider.java reverted to 2779bbc8d1^",
+ "jdk": "17",
+ "module": "sshd-sftp",
+ "tests": [
+  "SftpFileSystemTest#testDeleteDirectoryLink",
+  "SftpFileSystemTest#testDeleteNonexistingLink"
+ ],
+ "faulty_lines": [
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/fs/SftpFileSystemProvider.java:604",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/fs/SftpFileSystemProvider.java:612"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 24,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "SftpFileSystemTest#testDeleteDirectoryLink": {
+   "threads": 82,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SftpFileSystemTest#testDeleteNonexistingLink": {
+   "threads": 81,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

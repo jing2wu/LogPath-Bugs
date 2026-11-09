@@ -1,0 +1,123 @@
+{
+ "project": "philterd__phileas",
+ "issue": "GH-386",
+ "summary": "Span offsets do not index into the input when splitting is enabled without an overlap",
+ "fix_commit": "cc1b5beb04e54581f4c6ba23a9ce786fde3dd440",
+ "buggy_version": "cc1b5beb04 with src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java, src/main/java/ai/philterd/phileas/services/split/SplitService.java reverted to cc1b5beb04^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "EndToEndWithIncrementalRedactionsTest#endToEndWithSplits",
+  "SplitOverlapTest#piecesAreLocatedPastExactlyWhatTheSplittersTrim",
+  "SplittingOffsetsTest#aDocumentExactlyAtTheThresholdIsSplitAndKeepsItsOffsets",
+  "SplittingOffsetsTest#aDocumentWithNothingToRedactIsReturnedExactlyAsItWas",
+  "SplittingOffsetsTest#anIdentifiedButUnappliedSpanAlsoIndexesIntoTheInput",
+  "SplittingOffsetsTest#awkwardLeadingCharactersDoNotCostTheOffsets",
+  "SplittingOffsetsTest#everyValueIsStillRedactedWithoutAnOverlap",
+  "SplittingOffsetsTest#noValueIsReportedTwiceWithoutAnOverlap",
+  "SplittingOffsetsTest#spanOffsetsIndexIntoTheInput",
+  "SplittingOffsetsTest#spanOffsetsIndexIntoTheInputWhenReplacementsChangeTheLength",
+  "SplittingOffsetsTest#splittingWithoutAnOverlapDoesNotRedactLessThanWithOne",
+  "SplittingOffsetsTest#whitespaceIsPreservedWhenSplitting",
+  "SplittingOffsetsTest#whitespaceOnlyInputIsReturnedUnchanged"
+ ],
+ "faulty_lines": [
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:176",
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:177",
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:178",
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:180",
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:185",
+  "src/main/java/ai/philterd/phileas/services/split/SplitService.java:56",
+  "src/main/java/ai/philterd/phileas/services/split/SplitService.java:61",
+  "src/main/java/ai/philterd/phileas/services/split/SplitService.java:77"
+ ],
+ "covering_pairs": 29,
+ "shortest_covering_pair": 12,
+ "pairs_exported": 95,
+ "covering_pairs_printed": 29,
+ "shortest_covering_pair_printed": 12,
+ "stable": true,
+ "runs": {
+  "EndToEndWithIncrementalRedactionsTest#endToEndWithSplits": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SplitOverlapTest#piecesAreLocatedPastExactlyWhatTheSplittersTrim": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SplittingOffsetsTest#aDocumentExactlyAtTheThresholdIsSplitAndKeepsItsOffsets": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  },
+  "SplittingOffsetsTest#aDocumentWithNothingToRedactIsReturnedExactlyAsItWas": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 3
+  },
+  "SplittingOffsetsTest#anIdentifiedButUnappliedSpanAlsoIndexesIntoTheInput": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 4
+  },
+  "SplittingOffsetsTest#awkwardLeadingCharactersDoNotCostTheOffsets": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  },
+  "SplittingOffsetsTest#everyValueIsStillRedactedWithoutAnOverlap": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SplittingOffsetsTest#noValueIsReportedTwiceWithoutAnOverlap": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  },
+  "SplittingOffsetsTest#spanOffsetsIndexIntoTheInput": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 4
+  },
+  "SplittingOffsetsTest#spanOffsetsIndexIntoTheInputWhenReplacementsChangeTheLength": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 4
+  },
+  "SplittingOffsetsTest#splittingWithoutAnOverlapDoesNotRedactLessThanWithOne": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  },
+  "SplittingOffsetsTest#whitespaceIsPreservedWhenSplitting": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  },
+  "SplittingOffsetsTest#whitespaceOnlyInputIsReturnedUnchanged": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

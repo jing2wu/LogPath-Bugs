@@ -1,0 +1,10 @@
+2026-11-03T21:46:57.084 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:46:57.107 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:46:57.767 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy 9004d0586401716f has no custom dictionaries.
+2026-11-03T21:46:57.790 DEBUG ai.philterd.phileas.services.split.SplitFactory [main] - Instantiating a line width split service.
+2026-11-03T21:46:57.881 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T21:46:57.990 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:46:57.990 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:46:58.009 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy fb9557bd1dc23673 has no custom dictionaries.
+2026-11-03T21:46:58.009 DEBUG ai.philterd.phileas.services.split.SplitFactory [main] - Instantiating a newline split service.
+2026-11-03T21:46:58.017 DEBUG ai.philterd.phileas.services.split.NewLineSplitService [main] - Split large input exceeding threshold into 1 splits using new line split method.

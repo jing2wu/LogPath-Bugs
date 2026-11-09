@@ -1,0 +1,41 @@
+{
+ "project": "vaadin__hilla",
+ "issue": "GH-1935",
+ "summary": "init-app for React does not produce package-info.java",
+ "fix_commit": "3ef265f45b0991b8232f3600ad8ab9aa2a6e452b",
+ "buggy_version": "3ef265f45b with packages/java/plugin-base/src/main/java/dev/hilla/plugin/base/HillaAppInitUtility.java reverted to 3ef265f45b^",
+ "jdk": "17",
+ "module": "packages/java/plugin-base",
+ "tests": [
+  "HillaAppInitUtilityTest#withCorrectHillaReactDependencies_scaffoldForReactSucceeds",
+  "HillaAppInitUtilityTest#withCorrectHillaReactSpringBootStarterDependencies_scaffoldForReactSucceeds"
+ ],
+ "faulty_lines": [
+  "packages/java/plugin-base/src/main/java/dev/hilla/plugin/base/HillaAppInitUtility.java:24",
+  "packages/java/plugin-base/src/main/java/dev/hilla/plugin/base/HillaAppInitUtility.java:75",
+  "packages/java/plugin-base/src/main/java/dev/hilla/plugin/base/HillaAppInitUtility.java:97"
+ ],
+ "covering_pairs": 16,
+ "shortest_covering_pair": 12,
+ "pairs_exported": 16,
+ "covering_pairs_printed": 16,
+ "shortest_covering_pair_printed": 12,
+ "stable": true,
+ "runs": {
+  "HillaAppInitUtilityTest#withCorrectHillaReactDependencies_scaffoldForReactSucceeds": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "HillaAppInitUtilityTest#withCorrectHillaReactSpringBootStarterDependencies_scaffoldForReactSucceeds": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

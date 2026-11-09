@@ -1,0 +1,56 @@
+{
+ "project": "Lincoln-cn__JAiRouter",
+ "issue": "GH-114",
+ "summary": "[P0] SSRF \u95e8\u95e9\u672a\u8986\u76d6\u4e3b\u51fa\u7ad9\u8def\u5f84\uff1aBaseAdapter \u2192 TracingWebClientFactory \u2192 WebClientPool \u5b8c\u5168\u7ed5\u8fc7\u6821\u9a8c",
+ "fix_commit": "042746bd8303b8fd8fd94d1e7ba5dd32c245e8e1",
+ "buggy_version": "042746bd83 with src/main/java/org/unreal/modelrouter/router/http/WebClientPool.java reverted to 042746bd83^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "WebClientPoolSsrfTest#getOrCreate_blocksMetadataHost",
+  "WebClientPoolSsrfTest#getOrCreate_blocksMetadataIp",
+  "WebClientPoolSsrfTest#getOrCreate_trailingSlash_shouldShareCacheEntry",
+  "WebClientPoolTest#getOrCreate_emptyBaseUrl_shouldBeRejected"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/unreal/modelrouter/router/http/WebClientPool.java:115",
+  "src/main/java/org/unreal/modelrouter/router/http/WebClientPool.java:75",
+  "src/main/java/org/unreal/modelrouter/router/http/WebClientPool.java:76",
+  "src/main/java/org/unreal/modelrouter/router/http/WebClientPool.java:85"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 16,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 16,
+ "stable": true,
+ "runs": {
+  "WebClientPoolSsrfTest#getOrCreate_blocksMetadataHost": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "WebClientPoolSsrfTest#getOrCreate_blocksMetadataIp": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "WebClientPoolSsrfTest#getOrCreate_trailingSlash_shouldShareCacheEntry": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "WebClientPoolTest#getOrCreate_emptyBaseUrl_shouldBeRejected": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,39 @@
+diff --git a/src/selogger/weaver/method/JSRInliner.java b/src/selogger/weaver/method/JSRInliner.java
+index 3c31aa8..d632c2e 100644
+--- a/src/selogger/weaver/method/JSRInliner.java
++++ b/src/selogger/weaver/method/JSRInliner.java
+@@ -21,7 +21,7 @@ public class JSRInliner extends JSRInlinerAdapter {
+ 	 */
+ 	public JSRInliner(MethodTransformer mv, int access, String name, String desc, String signature, String[] exceptions) {
+ 		// The second parameter is null so that the object delays the execution of the given MethodTransformer
+-		super(Opcodes.ASM5, null, access, name, desc, signature, exceptions);
++		super(Opcodes.ASM9, null, access, name, desc, signature, exceptions);
+ 		this.analysis = mv;
+ 	}
+ 	
+diff --git a/src/selogger/weaver/method/MethodParameters.java b/src/selogger/weaver/method/MethodParameters.java
+index b55ed95..05fca37 100644
+--- a/src/selogger/weaver/method/MethodParameters.java
++++ b/src/selogger/weaver/method/MethodParameters.java
+@@ -218,7 +218,7 @@ public class MethodParameters {
+ 		 * Initialize the object.
+ 		 */
+ 		public ParameterList() {
+-			super(Opcodes.ASM5);
++			super(Opcodes.ASM9);
+ 		}
+ 		
+ 		/**
+diff --git a/src/selogger/weaver/method/MethodTransformer.java b/src/selogger/weaver/method/MethodTransformer.java
+index 645f073..84b31dc 100644
+--- a/src/selogger/weaver/method/MethodTransformer.java
++++ b/src/selogger/weaver/method/MethodTransformer.java
+@@ -192,7 +192,7 @@ public class MethodTransformer extends LocalVariablesSorter {
+ 	 */
+ 	public MethodTransformer(WeaveLog w, WeaveConfig config, String sourceFileName, String className, String outerClassName, int access,
+ 			String methodName, String methodDesc, String signature, String[] exceptions, MethodVisitor mv) {
+-		super(Opcodes.ASM5, access, methodDesc, mv);
++		super(Opcodes.ASM9, access, methodDesc, mv);
+ 		this.weavingInfo = w;
+ 		this.config = config;
+ 		this.className = className;

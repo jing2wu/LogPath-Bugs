@@ -1,0 +1,33 @@
+{
+ "project": "getodk__javarosa",
+ "issue": "GH-743",
+ "summary": "Don't throw error about label reference when CSV secondary instance is empty",
+ "fix_commit": "f5012d9733b470ae140dbda6ba5fad516b45d326",
+ "buggy_version": "f5012d9733 with src/main/java/org/javarosa/core/model/instance/ExternalDataInstance.java reverted to f5012d9733^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "ExternalSecondaryInstanceParseTest#csvSecondaryInstanceWithHeaderOnly_parsesWithoutError"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/javarosa/core/model/instance/ExternalDataInstance.java:64",
+  "src/main/java/org/javarosa/core/model/instance/ExternalDataInstance.java:65"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 827,
+ "pairs_exported": 8,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 827,
+ "stable": true,
+ "runs": {
+  "ExternalSecondaryInstanceParseTest#csvSecondaryInstanceWithHeaderOnly_parsesWithoutError": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

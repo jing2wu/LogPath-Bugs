@@ -1,0 +1,35 @@
+{
+ "project": "swedenconnect__signservice",
+ "issue": "GH-82",
+ "summary": "Wrong handling of old or not yet valid requests",
+ "fix_commit": "4f562ead1734533a9798ce51c3ccc46927438083",
+ "buggy_version": "4f562ead17 with core/src/main/java/se/swedenconnect/signservice/engine/UnrecoverableErrorCodes.java, engine/src/main/java/se/swedenconnect/signservice/engine/DefaultSignRequestMessageVerifier.java reverted to 4f562ead17^",
+ "jdk": "17",
+ "module": "engine",
+ "tests": [
+  "DefaultSignRequestMessageVerifierTest#testIssuedAtTooOld"
+ ],
+ "faulty_lines": [
+  "engine/src/main/java/se/swedenconnect/signservice/engine/DefaultSignRequestMessageVerifier.java:127",
+  "engine/src/main/java/se/swedenconnect/signservice/engine/DefaultSignRequestMessageVerifier.java:133",
+  "engine/src/main/java/se/swedenconnect/signservice/engine/DefaultSignRequestMessageVerifier.java:134",
+  "engine/src/main/java/se/swedenconnect/signservice/engine/DefaultSignRequestMessageVerifier.java:136"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 11,
+ "pairs_exported": 1,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 11,
+ "stable": true,
+ "runs": {
+  "DefaultSignRequestMessageVerifierTest#testIssuedAtTooOld": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

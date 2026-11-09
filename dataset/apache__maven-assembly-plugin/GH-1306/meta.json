@@ -1,0 +1,33 @@
+{
+ "project": "apache__maven-assembly-plugin",
+ "issue": "GH-1306",
+ "summary": "In multi-module project: \"Artifact is present in the local repository, but cached from a remote repository ID that is unavailable in current build context\"",
+ "fix_commit": "6f86f52782c98aefa9abc128362951d97798b503",
+ "buggy_version": "6f86f52782 with src/main/java/org/apache/maven/plugins/assembly/archive/task/AddDependencySetsTask.java reverted to 6f86f52782^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "AddDependencySetsTaskTest#addDependencySetShouldInterpolateDefaultOutputFileNameMapping"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/apache/maven/plugins/assembly/archive/task/AddDependencySetsTask.java:169",
+  "src/main/java/org/apache/maven/plugins/assembly/archive/task/AddDependencySetsTask.java:170"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 18,
+ "pairs_exported": 6,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 18,
+ "stable": true,
+ "runs": {
+  "AddDependencySetsTaskTest#addDependencySetShouldInterpolateDefaultOutputFileNameMapping": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

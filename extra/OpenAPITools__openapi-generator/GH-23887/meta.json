@@ -1,0 +1,38 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23887",
+ "summary": "[BUG] [PYTHON] Unable to map `number` types to `decimal.Decimal`",
+ "fix_commit": "99a48589bb9723b3e0696156bdb9e71be682a284",
+ "buggy_version": "99a48589bb with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java reverted to 99a48589bb^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "PythonClientCodegenTest#testMapNumberTo"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:1955",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:1956",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:1970",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:1971",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:2280",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:57",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:152"
+ ],
+ "covering_pairs": 72,
+ "shortest_covering_pair": 330,
+ "pairs_exported": 522,
+ "covering_pairs_printed": 72,
+ "shortest_covering_pair_printed": 330,
+ "stable": true,
+ "runs": {
+  "PythonClientCodegenTest#testMapNumberTo": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 10
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

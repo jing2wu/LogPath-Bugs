@@ -1,0 +1,36 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-17494",
+ "summary": "[BUG] [ExampleGenerator] Generated examples from String type with `date` format are in the wrong format (extra T00:00:00.000+00:00)",
+ "fix_commit": "9b62b9bb057dccfdc27555323d8b56a4c7fb5b34",
+ "buggy_version": "9b62b9bb05 with modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java reverted to 9b62b9bb05^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "ExampleGeneratorTest#generateFromResponseSchemaWithDateFormat"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:233",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:234",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:39",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:56",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:57"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 7,
+ "pairs_exported": 8,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 143,
+ "stable": true,
+ "runs": {
+  "ExampleGeneratorTest#generateFromResponseSchemaWithDateFormat": {
+   "threads": 4,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,857 @@
+791 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE DefaultCodegenTest.testAdditionalPropertiesPresentInModelProperties()[pri:0, instance:org.openapitools.codegen.DefaultCodegenTest@485e13d7] -1215480152
+792 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+799 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+799 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+799 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1455 [TestNG-test=Surefire test-1] DEBUG io.swagger.v3.parser.OpenAPIV3Parser - Loaded raw data: openapi: 3.0.1
+info:
+  title: OpenAPI Petstore
+  description: "sample spec"
+  license:
+    name: Apache-2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+  - url: http://petstore.swagger.io:80/v2
+tags:
+  - name: items
+    description: Everything about your Pets
+paths:
+  /ref_array_with_validations_in_items/{items}:
+    post:
+      tags:
+        - items
+      operationId: refArrayWithValidationsInItems
+      parameters:
+        - name: items
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/ArrayWithValidationsInItems'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ArrayWithValidationsInItems'
+        required: true
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ArrayWithValidationsInItems'
+  /array_with_validations_in_items/{items}:
+    post:
+      tags:
+        - items
+      operationId: arrayWithValidationsInItems
+      parameters:
+        - name: items
+          in: path
+          required: true
+          schema:
+            type: array
+            items:
+              type: integer
+              format: int64
+              maximum: 7
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: integer
+                format: int64
+                maximum: 7
+        required: true
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: integer
+                  format: int64
+                  maximum: 7
+  /ref_additional_properties/:
+    post:
+      tags:
+        - additional_properties
+      operationId: arrayWithValidationsInItems
+      parameters:
+        - name: additionalPropertiesUnset
+          in: query
+          required: true
+          schema:
+            $ref: '#/components/schemas/AdditionalPropertiesUnset'
+        - name: additionalPropertiesTrue
+          in: query
+          required: true
+          schema:
+            $ref: '#/components/schemas/AdditionalPropertiesTrue'
+        - name: additionalPropertiesFalse
+          in: query
+          required: true
+          schema:
+            $ref: '#/components/schemas/AdditionalPropertiesFalse'
+        - name: additionalPropertiesSchema
+          in: query
+          required: true
+          schema:
+            $ref: '#/components/schemas/AdditionalPropertiesSchema'
+      responses:
+        "200":
+          description: "200"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AdditionalPropertiesUnset'
+        "201":
+          description: "201"
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/AdditionalPropertiesTrue'
+        "202":
+          description: "202"
+          content:
+            application/x-www-form-urlencoded:
+              schema:
+                $ref: '#/components/schemas/AdditionalPropertiesFalse'
+        "203":
+          description: "203"
+          content:
+            application/*:
+              schema:
+                $ref: '#/components/schemas/AdditionalPropertiesSchema'
+  /additional_properties/:
+    post:
+      tags:
+        - additional_properties
+      operationId: arrayWithValidationsInItems
+      parameters:
+        - name: additionalPropertiesUnset
+          in: query
+          required: true
+          schema:
+            type: object
+        - name: additionalPropertiesTrue
+          in: query
+          required: true
+          schema:
+            type: object
+            additionalProperties: true
+        - name: additionalPropertiesFalse
+          in: query
+          required: true
+          schema:
+            type: object
+            additionalProperties: false
+        - name: additionalPropertiesSchema
+          in: query
+          required: true
+          schema:
+            type: object
+            additionalProperties:
+              type: string
+      responses:
+        "200":
+          description: "200"
+          content:
+            application/json:
+              schema:
+                type: object
+        "201":
+          description: "201"
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+        "202":
+          description: "202"
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: false
+        "203":
+          description: "203"
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: string
+  /object_with_optional_and_required_props/{objectData}:
+    post:
+      tags:
+        - vars
+      operationId: objectWithOptionalAndRequiredProps
+      parameters:
+        - name: objectData
+          in: path
+          required: true
+          schema:
+            type: object
+            properties:
+              a:
+                type: string
+                minLength: 1
+              b:
+                type: string
+                minLength: 1
+              c:
+                type: string
+                minLength: 1
+            required:
+              - a
+              - b
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                a:
+                  type: string
+                  minLength: 1
+                b:
+                  type: string
+                  minLength: 1
+                c:
+                  type: string
+                  minLength: 1
+              required:
+                - a
+                - b
+        required: true
+      responses:
+        200:
+          description: success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  a:
+                    type: string
+                    minLength: 1
+                  b:
+                    type: string
+                    minLength: 1
+                  c:
+                    type: string
+                    minLength: 1
+                required:
+                  - a
+                  - b
+components:
+  schemas:
+    ArrayWithValidationsInItems:
+      type: array
+      items:
+        type: integer
+        format: int64
+        maximum: 7
+    ObjectWithValidationsInArrayPropItems:
+      type: object
+      properties:
+        arrayProp:
+          type: array
+          items:
+            type: integer
+            format: int64
+            maximum: 7
+    ObjectWithValidationsInAdditionalProperties:
+      type: object
+      additionalProperties:
+        type: integer
+        format: int64
+        maximum: 7
+    ComposedOneOfInlineValidation:
+      oneOf:
+        - type: integer
+          format: int64
+          maximum: 7
+    ComposedAnyOfInlineValidation:
+      anyOf:
+        - type: integer
+          format: int64
+          maximum: 7
+    ComposedAllOfInlineValidation:
+      allOf:
+        - type: integer
+          format: int64
+          maximum: 7
+    AdditionalPropertiesUnset:
+      type: object
+    AdditionalPropertiesTrue:
+      type: object
+      additionalProperties: true
+    AdditionalPropertiesFalse:
+      type: object
+      additionalProperties: false
+    AdditionalPropertiesSchema:
+      type: object
+      additionalProperties:
+        type: string
+    ObjectModelWithRefAddPropsInProps:
+      type: object
+      properties:
+        map_with_additional_properties_unset:
+          $ref: '#/components/schemas/AdditionalPropertiesUnset'
+        map_with_additional_properties_true:
+          $ref: '#/components/schemas/AdditionalPropertiesTrue'
+        map_with_additional_properties_false:
+          $ref: '#/components/schemas/AdditionalPropertiesFalse'
+        map_with_additional_properties_schema:
+          $ref: '#/components/schemas/AdditionalPropertiesSchema'
+    ObjectModelWithAddPropsInProps:
+      type: object
+      properties:
+        map_with_additional_properties_unset:
+          type: object
+        map_with_additional_properties_true:
+          type: object
+          additionalProperties: true
+        map_with_additional_properties_false:
+          type: object
+          additionalProperties: false
+        map_with_additional_properties_schema:
+          type: object
+          additionalProperties:
+            type: string
+    ObjectWithOptionalAndRequiredProps:
+      type: object
+      properties:
+        a:
+          type: string
+          minLength: 1
+        b:
+          type: string
+          minLength: 1
+        c:
+          type: string
+          minLength: 1
+      required:
+        - a
+        - b
+    ObjectPropContainsProps:
+      type: object
+      properties:
+        a:
+          type: object
+          properties:
+            a:
+              type: string
+              minLength: 1
+            b:
+              type: string
+              minLength: 1
+            c:
+              type: string
+              minLength: 1
+          required:
+            - a
+            - b
+    ArrayWithObjectWithPropsInItems:
+      type: array
+      items:
+        type: object
+        properties:
+          a:
+            type: string
+            minLength: 1
+          b:
+            type: string
+            minLength: 1
+    ObjectWithObjectWithPropsInAdditionalProperties:
+      type: object
+      additionalProperties:
+        type: object
+        properties:
+          a:
+            type: string
+            minLength: 1
+          b:
+            type: string
+            minLength: 1
+  securitySchemes: {}
+2432 [TestNG-test=Surefire test-1] INFO org.openapitools.codegen.InlineModelResolver - Inline schema created as objectWithOptionalAndRequiredProps_request. To have complete control of the model name, set the `title` field or use the inlineSchemaNameMapping option (--inline-schema-name-mappings in CLI).
+2477 [TestNG-test=Surefire test-1] INFO org.openapitools.codegen.InlineModelResolver - Inline schema created as ArrayWithObjectWithPropsInItems_inner. To have complete control of the model name, set the `title` field or use the inlineSchemaNameMapping option (--inline-schema-name-mappings in CLI).
+2921 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for additional_properties : class Schema {
+    type: null
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+3197 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='AnyType', baseName='additional_properties', complexType='null', getter='getAdditionalUnderscoreproperties', setter='setAdditionalUnderscoreproperties', description='null', dataType='oas_any_type_not_mapped', datatypeWithEnum='oas_any_type_not_mapped', dataFormat='null', name='additionalUnderscoreproperties', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.additional_properties;', baseType='AnyType', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{ }', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=true, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='AdditionalUnderscoreproperties', nameInSnakeCase='ADDITIONAL_UNDERSCOREPROPERTIES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=true, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3197 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for additional_properties : class Schema {
+    type: string
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+3206 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='string', baseName='additional_properties', complexType='string', getter='getAdditionalUnderscoreproperties', setter='setAdditionalUnderscoreproperties', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='additionalUnderscoreproperties', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.additional_properties;', baseType='string', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='AdditionalUnderscoreproperties', nameInSnakeCase='ADDITIONAL_UNDERSCOREPROPERTIES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3243 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for map_with_additional_properties_unset : class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+3246 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for  : class Schema {
+    type: null
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+3248 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='AnyType', baseName='', complexType='null', getter='get', setter='set', description='null', dataType='oas_any_type_not_mapped', datatypeWithEnum='oas_any_type_not_mapped', dataFormat='null', name='', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.;', baseType='AnyType', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{ }', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=true, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='', nameInSnakeCase='', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=true, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3249 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='object', baseName='map_with_additional_properties_unset', complexType='null', getter='getMapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoreunset', setter='setMapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoreunset', description='null', dataType='Object', datatypeWithEnum='Object', dataFormat='null', name='mapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoreunset', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.map_with_additional_properties_unset;', baseType='object', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "object"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=true, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=CodegenProperty{openApiType='AnyType', baseName='', complexType='null', getter='get', setter='set', description='null', dataType='oas_any_type_not_mapped', datatypeWithEnum='oas_any_type_not_mapped', dataFormat='null', name='', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.;', baseType='AnyType', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{ }', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=true, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='', nameInSnakeCase='', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=true, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='MapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoreunset', nameInSnakeCase='MAP_UNDERSCOREWITH_UNDERSCOREADDITIONAL_UNDERSCOREPROPERTIES_UNDERSCOREUNSET', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=true, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3251 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for map_with_additional_properties_true : class MapSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: true
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+3276 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for inner : class Schema {
+    type: null
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+3282 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='AnyType', baseName='inner', complexType='null', getter='getInner', setter='setInner', description='null', dataType='oas_any_type_not_mapped', datatypeWithEnum='oas_any_type_not_mapped', dataFormat='null', name='inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='AnyType', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{ }', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=true, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=true, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3283 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for  : class Schema {
+    type: null
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+3283 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - Cached fromProperty for  : null required=false
+3284 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='object', baseName='map_with_additional_properties_true', complexType='AnyType', getter='getMapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoretrue', setter='setMapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoretrue', description='null', dataType='Map', datatypeWithEnum='Map', dataFormat='null', name='mapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoretrue', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.map_with_additional_properties_true;', baseType='map', containerType='map', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "object",
+  "additionalProperties" : true
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=true, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=true, isArray=false, isMap=true, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=CodegenProperty{openApiType='AnyType', baseName='inner', complexType='null', getter='getInner', setter='setInner', description='null', dataType='oas_any_type_not_mapped', datatypeWithEnum='oas_any_type_not_mapped', dataFormat='null', name='inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='AnyType', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{ }', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=true, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=true, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, additionalProperties=CodegenProperty{openApiType='AnyType', baseName='', complexType='null', getter='get', setter='set', description='null', dataType='oas_any_type_not_mapped', datatypeWithEnum='oas_any_type_not_mapped', dataFormat='null', name='', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.;', baseType='AnyType', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{ }', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=true, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='', nameInSnakeCase='', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=true, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, vars=[], requiredVars=[], mostInnerItems=CodegenProperty{openApiType='AnyType', baseName='inner', complexType='null', getter='getInner', setter='setInner', description='null', dataType='oas_any_type_not_mapped', datatypeWithEnum='oas_any_type_not_mapped', dataFormat='null', name='inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='AnyType', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{ }', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=true, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=true, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='MapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoretrue', nameInSnakeCase='MAP_UNDERSCOREWITH_UNDERSCOREADDITIONAL_UNDERSCOREPROPERTIES_UNDERSCORETRUE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=true, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3284 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for map_with_additional_properties_false : class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: false
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+3292 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='object', baseName='map_with_additional_properties_false', complexType='null', getter='getMapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscorefalse', setter='setMapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscorefalse', description='null', dataType='Object', datatypeWithEnum='Object', dataFormat='null', name='mapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscorefalse', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.map_with_additional_properties_false;', baseType='object', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "object",
+  "additionalProperties" : false
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=true, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='MapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscorefalse', nameInSnakeCase='MAP_UNDERSCOREWITH_UNDERSCOREADDITIONAL_UNDERSCOREPROPERTIES_UNDERSCOREFALSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3293 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for map_with_additional_properties_schema : class MapSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+3333 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for inner : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+3338 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='string', baseName='inner', complexType='string', getter='getInner', setter='setInner', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='string', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3339 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for  : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+3341 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='string', baseName='', complexType='string', getter='get', setter='set', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.;', baseType='string', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='', nameInSnakeCase='', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3346 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging from property return: CodegenProperty{openApiType='object', baseName='map_with_additional_properties_schema', complexType='string', getter='getMapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoreschema', setter='setMapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoreschema', description='null', dataType='Map', datatypeWithEnum='Map', dataFormat='null', name='mapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoreschema', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.map_with_additional_properties_schema;', baseType='map', containerType='map', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "object",
+  "additionalProperties" : {
+    "type" : "string"
+  }
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=true, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=true, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=CodegenProperty{openApiType='string', baseName='inner', complexType='string', getter='getInner', setter='setInner', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='string', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, additionalProperties=CodegenProperty{openApiType='string', baseName='', complexType='string', getter='get', setter='set', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.;', baseType='string', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='', nameInSnakeCase='', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, vars=[], requiredVars=[], mostInnerItems=CodegenProperty{openApiType='string', baseName='inner', complexType='string', getter='getInner', setter='setInner', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='string', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='MapUnderscorewithUnderscoreadditionalUnderscorepropertiesUnderscoreschema', nameInSnakeCase='MAP_UNDERSCOREWITH_UNDERSCOREADDITIONAL_UNDERSCOREPROPERTIES_UNDERSCORESCHEMA', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+3354 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - debugging fromProperty for  : class Schema {
+    type: null
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+3354 [TestNG-test=Surefire test-1] DEBUG org.openapitools.codegen.DefaultCodegen - Cached fromProperty for  : null required=false
+3596 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE DefaultCodegenTest.testAdditionalPropertiesPresentInModelProperties()[pri:0, instance:org.openapitools.codegen.DefaultCodegenTest@485e13d7] -1215480152
+3596 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+3596 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+3596 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+3596 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES

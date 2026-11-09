@@ -1,0 +1,62 @@
+{
+ "project": "reactor__reactor-netty",
+ "issue": "GH-4415",
+ "summary": "HTTP/2: a connection that received GOAWAY keeps its slot in the connection pool until the server closes it",
+ "fix_commit": "a230865a91facc0289d011044185f326b7f6f12e",
+ "buggy_version": "a230865a91 with reactor-netty-http/src/http3Test/java/reactor/netty/http/client/Http3PoolTest.java, reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java, reactor-netty-http/src/main/java/reactor/netty/http/client/Http3Pool.java reverted to a230865a91^",
+ "jdk": "17",
+ "module": "reactor-netty-http",
+ "tests": [
+  "Http2PoolTest#goAwayReceivedClosesConnectionWhenLastStreamCompletes",
+  "Http2PoolTest#goAwayReceivedClosesIdleConnectionOnAcquire",
+  "Http2PoolTest#goAwayReceivedKeepsConnectionOpenOnAcquireWhileStreamIsActive",
+  "DefaultPooledConnectionProviderTest#testHttp2PoolAndGoAway"
+ ],
+ "faulty_lines": [
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:348",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:349",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:540",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:541",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:612",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:613",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http3Pool.java:65",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http3Pool.java:66",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http3Pool.java:86",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http3Pool.java:87"
+ ],
+ "covering_pairs": 10,
+ "shortest_covering_pair": 26,
+ "pairs_exported": 111,
+ "covering_pairs_printed": 7,
+ "shortest_covering_pair_printed": 26,
+ "stable": false,
+ "runs": {
+  "Http2PoolTest#goAwayReceivedClosesConnectionWhenLastStreamCompletes": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  },
+  "Http2PoolTest#goAwayReceivedClosesIdleConnectionOnAcquire": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  },
+  "Http2PoolTest#goAwayReceivedKeepsConnectionOpenOnAcquireWhileStreamIsActive": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  },
+  "DefaultPooledConnectionProviderTest#testHttp2PoolAndGoAway": {
+   "threads": 17,
+   "log_threads": 6,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

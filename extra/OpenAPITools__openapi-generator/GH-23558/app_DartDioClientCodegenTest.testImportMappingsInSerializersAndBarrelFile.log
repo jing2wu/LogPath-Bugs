@@ -1,0 +1,2999 @@
+2026-11-03T21:14:03.669 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:14:04.072 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testInitialFeatures()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@5b6ec132] -681999918
+2026-11-03T21:14:04.072 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testInitialConfigValues()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@5b6ec132] 93153883
+2026-11-03T21:14:04.072 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testImportMappingsInSerializersAndBarrelFile()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@5b6ec132] 921236572
+2026-11-03T21:14:04.072 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.verifyDartDioGeneratorRuns()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@5b6ec132] -1708461588
+2026-11-03T21:14:04.072 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testAdditionalPropertiesPutForConfigValues()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@5b6ec132] -1078219153
+2026-11-03T21:14:04.072 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testSettersForConfigValues()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@5b6ec132] 1070994638
+2026-11-03T21:14:04.073 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testKeywords()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@5b6ec132] -1610623615
+2026-11-03T21:14:04.073 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:14:04.083 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:14:04.084 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:14:04.084 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:14:04.340 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testInitialFeatures()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@4233e892] -1105286862
+2026-11-03T21:14:04.340 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testInitialConfigValues()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@4233e892] -330133061
+2026-11-03T21:14:04.340 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testImportMappingsInSerializersAndBarrelFile()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@4233e892] 497949628
+2026-11-03T21:14:04.340 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.verifyDartDioGeneratorRuns()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@4233e892] -2131748532
+2026-11-03T21:14:04.340 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testAdditionalPropertiesPutForConfigValues()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@4233e892] -1501506097
+2026-11-03T21:14:04.340 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testSettersForConfigValues()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@4233e892] 647707694
+2026-11-03T21:14:04.340 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testKeywords()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@4233e892] -2033910559
+2026-11-03T21:14:04.340 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:14:04.345 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:14:04.345 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:14:04.345 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:14:05.448 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testImportMappingsInSerializersAndBarrelFile()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@5f5b5ca4] 987074510
+2026-11-03T21:14:05.449 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:14:05.449 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:14:05.449 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:14:05.449 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:14:05.667 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='dart-dio', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={Address=CustomAddress}, additionalProperties={gitHost=github.com, pubName=my_api, releaseNote=Minor update, gitRepoId=my-repo, gitUserId=my-user}, importMappings={CustomAddress=package:my_api/src/custom_models/custom_address.dart}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='my-user', gitRepoId='my-repo', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T21:14:06.807 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:14:08.210 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/dart-dio/import_mapping.yaml', outputDir='/tmp/test5959468659353281201', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T21:14:09.025 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: "3.1.0"
+info:
+  title: Example
+  version: "1.0.0"
+paths:
+  /orders:
+    get:
+      operationId: getOrders
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderOut"
+components:
+  schemas:
+    Address:
+      type: object
+      required: [street, city]
+      properties:
+        street:
+          type: string
+        city:
+          type: string
+    OrderOut:
+      type: object
+      required: [id, shippingAddress]
+      properties:
+        id:
+          type: integer
+        shippingAddress:
+          $ref: "#/components/schemas/Address"
+2026-11-03T21:14:10.181 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:14:10.293 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T21:14:10.503 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:14:10.543 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:14:10.543 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: dart-dio (client)
+2026-11-03T21:14:10.548 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'dart-dio' is considered stable.
+2026-11-03T21:14:10.582 INFO org.openapitools.codegen.languages.AbstractDartCodegen [main] - Environment variable DART_POST_PROCESS_FILE not defined so the Dart code may not be properly formatted. To define it, try `export DART_POST_PROCESS_FILE="/usr/local/bin/dartfmt -w"` (Linux/Mac)
+2026-11-03T21:14:10.582 INFO org.openapitools.codegen.languages.AbstractDartCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:14:10.583 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Serialization library not set, using default built_value
+2026-11-03T21:14:10.583 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Date library not set, using default core
+2026-11-03T21:14:10.583 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Equality check method not set, using default default
+2026-11-03T21:14:10.583 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - finalProperties not set, using default true
+2026-11-03T21:14:10.583 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - skipCopyWith not set, using default false
+2026-11-03T21:14:10.635 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Client name not set, using default core
+2026-11-03T21:14:10.783 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T21:14:10.898 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T21:14:10.989 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:11.035 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:11.258 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for street: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.295 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='street', complexType='null', getter='getStreet', setter='setStreet', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='street', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.street;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='street', nameInPascalCase='Street', nameInSnakeCase='STREET', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:11.297 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for city: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.307 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='city', complexType='null', getter='getCity', setter='setCity', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='city', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.city;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='city', nameInPascalCase='City', nameInSnakeCase='CITY', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:11.361 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for id: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.376 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='id', complexType='null', getter='getId', setter='setId', description='null', dataType='int', datatypeWithEnum='int', dataFormat='null', name='id', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.id;', baseType='int', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='id', nameInPascalCase='Id', nameInSnakeCase='ID', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:11.380 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for shippingAddress: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.385 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='CustomAddress', baseName='shippingAddress', complexType='CustomAddress', getter='getShippingAddress', setter='setShippingAddress', description='null', dataType='CustomAddress', datatypeWithEnum='CustomAddress', dataFormat='null', name='shippingAddress', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.shippingAddress;', baseType='CustomAddress', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Address"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='shippingAddress', nameInPascalCase='ShippingAddress', nameInSnakeCase='SHIPPING_ADDRESS', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/Address, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:11.545 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/model/custom_address.dart
+2026-11-03T21:14:11.563 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/test/custom_address_test.dart
+2026-11-03T21:14:11.580 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/doc/CustomAddress.md
+2026-11-03T21:14:11.615 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/model/order_out.dart
+2026-11-03T21:14:11.617 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/test/order_out_test.dart
+2026-11-03T21:14:11.618 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/doc/OrderOut.md
+2026-11-03T21:14:11.619 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: getOrders
+    parameters: null
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: class Content {
+                {application/json=class MediaType {
+                    schema: class JsonSchema {
+                        class Schema {
+                            type: null
+                            format: null
+                            $ref: #/components/schemas/OrderOut
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                            patternProperties: null
+                            contains: null
+                            $id: null
+                            $anchor: null
+                            $schema: null
+                            $vocabulary: null
+                            $dynamicAnchor: null
+                            $dynamicRef: null
+                            const: null
+                            contentEncoding: null
+                            contentMediaType: null
+                            contentSchema: null
+                            propertyNames: null
+                            unevaluatedProperties: null
+                            maxContains: null
+                            minContains: null
+                            additionalItems: null
+                            unevaluatedItems: null
+                            _if: null
+                            _else: null
+                            then: null
+                            dependentRequired: null
+                            dependentSchemas: null
+                            $comment: null
+                            prefixItems: null
+                            booleanSchemaValuenull
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:14:11.644 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.652 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OrderOut', baseName='response', complexType='OrderOut', getter='getResponse', setter='setResponse', description='null', dataType='OrderOut', datatypeWithEnum='OrderOut', dataFormat='null', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='OrderOut', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OrderOut"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='response', nameInPascalCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/OrderOut, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:11.655 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Property type is not primitive: OrderOut
+2026-11-03T21:14:11.657 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor200ResponseBodyApplicationJson: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.667 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OrderOut', baseName='SchemaFor200ResponseBodyApplicationJson', complexType='OrderOut', getter='getSchemaFor200ResponseBodyApplicationJson', setter='setSchemaFor200ResponseBodyApplicationJson', description='null', dataType='OrderOut', datatypeWithEnum='OrderOut', dataFormat='null', name='schemaFor200ResponseBodyApplicationJson', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor200ResponseBodyApplicationJson;', baseType='OrderOut', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OrderOut"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor200ResponseBodyApplicationJson', nameInPascalCase='SchemaFor200ResponseBodyApplicationJson', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_JSON', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/OrderOut, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:11.672 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.678 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:14:11.684 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for id: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.684 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for id : null required=true
+2026-11-03T21:14:11.685 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for shippingAddress: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:11.685 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for shippingAddress : null required=true
+2026-11-03T21:14:11.731 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving model 'OrderOut' to example
+2026-11-03T21:14:11.732 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Creating example from model values
+2026-11-03T21:14:11.732 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:11.733 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:11.733 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving model 'Address' to example
+2026-11-03T21:14:11.733 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Creating example from model values
+2026-11-03T21:14:11.733 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:11.733 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - String property
+2026-11-03T21:14:11.733 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - No values found, using property name street as example
+2026-11-03T21:14:11.733 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:11.734 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - String property
+2026-11-03T21:14:11.734 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - No values found, using property name city as example
+2026-11-03T21:14:11.768 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:11.825 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/api/default_api.dart
+2026-11-03T21:14:11.831 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/test/default_api_test.dart
+2026-11-03T21:14:11.844 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/doc/DefaultApi.md
+2026-11-03T21:14:11.850 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:11.857 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/pubspec.yaml
+2026-11-03T21:14:11.860 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/analysis_options.yaml
+2026-11-03T21:14:11.864 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/.gitignore
+2026-11-03T21:14:11.869 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/README.md
+2026-11-03T21:14:11.873 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/my_api.dart
+2026-11-03T21:14:11.879 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/api.dart
+2026-11-03T21:14:11.882 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/auth/api_key_auth.dart
+2026-11-03T21:14:11.883 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/auth/basic_auth.dart
+2026-11-03T21:14:11.887 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/auth/bearer_auth.dart
+2026-11-03T21:14:11.890 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/auth/oauth.dart
+2026-11-03T21:14:11.892 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/auth/auth.dart
+2026-11-03T21:14:11.897 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/serializers.dart
+2026-11-03T21:14:11.900 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/api_util.dart
+2026-11-03T21:14:11.903 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/model/date.dart
+2026-11-03T21:14:11.905 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/lib/src/date_serializer.dart
+2026-11-03T21:14:11.922 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/.openapi-generator-ignore
+2026-11-03T21:14:11.922 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/.openapi-generator/VERSION
+2026-11-03T21:14:11.933 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5959468659353281201/.openapi-generator/FILES
+2026-11-03T21:14:12.156 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testImportMappingsInSerializersAndBarrelFile()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@11982867] -317564015
+2026-11-03T21:14:12.156 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:14:12.156 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:14:12.156 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:14:12.156 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:14:12.247 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testImportMappingsInSerializersAndBarrelFile()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@6397fa6e] 1058155928
+2026-11-03T21:14:12.247 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:14:12.247 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:14:12.247 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:14:12.247 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:14:12.260 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='dart-dio', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={Address=CustomAddress}, additionalProperties={gitHost=github.com, pubName=my_api, releaseNote=Minor update, gitRepoId=my-repo, gitUserId=my-user}, importMappings={CustomAddress=package:my_api/src/custom_models/custom_address.dart}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='my-user', gitRepoId='my-repo', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T21:14:12.293 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:14:12.427 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/dart-dio/import_mapping.yaml', outputDir='/tmp/test1953910875448290904', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T21:14:12.433 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: "3.1.0"
+info:
+  title: Example
+  version: "1.0.0"
+paths:
+  /orders:
+    get:
+      operationId: getOrders
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderOut"
+components:
+  schemas:
+    Address:
+      type: object
+      required: [street, city]
+      properties:
+        street:
+          type: string
+        city:
+          type: string
+    OrderOut:
+      type: object
+      required: [id, shippingAddress]
+      properties:
+        id:
+          type: integer
+        shippingAddress:
+          $ref: "#/components/schemas/Address"
+2026-11-03T21:14:12.523 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:14:12.695 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T21:14:12.697 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:14:12.704 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:14:12.704 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: dart-dio (client)
+2026-11-03T21:14:12.704 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'dart-dio' is considered stable.
+2026-11-03T21:14:12.705 INFO org.openapitools.codegen.languages.AbstractDartCodegen [main] - Environment variable DART_POST_PROCESS_FILE not defined so the Dart code may not be properly formatted. To define it, try `export DART_POST_PROCESS_FILE="/usr/local/bin/dartfmt -w"` (Linux/Mac)
+2026-11-03T21:14:12.705 INFO org.openapitools.codegen.languages.AbstractDartCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:14:12.705 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Serialization library not set, using default built_value
+2026-11-03T21:14:12.705 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Date library not set, using default core
+2026-11-03T21:14:12.705 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Equality check method not set, using default default
+2026-11-03T21:14:12.705 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - finalProperties not set, using default true
+2026-11-03T21:14:12.705 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - skipCopyWith not set, using default false
+2026-11-03T21:14:12.705 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Client name not set, using default core
+2026-11-03T21:14:12.706 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T21:14:12.712 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T21:14:12.713 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:12.716 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:12.721 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for street: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.730 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='street', complexType='null', getter='getStreet', setter='setStreet', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='street', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.street;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='street', nameInPascalCase='Street', nameInSnakeCase='STREET', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:12.732 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for city: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.739 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='city', complexType='null', getter='getCity', setter='setCity', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='city', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.city;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='city', nameInPascalCase='City', nameInSnakeCase='CITY', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:12.752 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for id: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.760 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='id', complexType='null', getter='getId', setter='setId', description='null', dataType='int', datatypeWithEnum='int', dataFormat='null', name='id', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.id;', baseType='int', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='id', nameInPascalCase='Id', nameInSnakeCase='ID', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:12.761 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for shippingAddress: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.773 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='CustomAddress', baseName='shippingAddress', complexType='CustomAddress', getter='getShippingAddress', setter='setShippingAddress', description='null', dataType='CustomAddress', datatypeWithEnum='CustomAddress', dataFormat='null', name='shippingAddress', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.shippingAddress;', baseType='CustomAddress', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Address"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='shippingAddress', nameInPascalCase='ShippingAddress', nameInSnakeCase='SHIPPING_ADDRESS', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/Address, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:12.842 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/model/custom_address.dart
+2026-11-03T21:14:12.845 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/test/custom_address_test.dart
+2026-11-03T21:14:12.847 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/doc/CustomAddress.md
+2026-11-03T21:14:12.884 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/model/order_out.dart
+2026-11-03T21:14:12.889 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/test/order_out_test.dart
+2026-11-03T21:14:12.890 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/doc/OrderOut.md
+2026-11-03T21:14:12.891 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: getOrders
+    parameters: null
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: class Content {
+                {application/json=class MediaType {
+                    schema: class JsonSchema {
+                        class Schema {
+                            type: null
+                            format: null
+                            $ref: #/components/schemas/OrderOut
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                            patternProperties: null
+                            contains: null
+                            $id: null
+                            $anchor: null
+                            $schema: null
+                            $vocabulary: null
+                            $dynamicAnchor: null
+                            $dynamicRef: null
+                            const: null
+                            contentEncoding: null
+                            contentMediaType: null
+                            contentSchema: null
+                            propertyNames: null
+                            unevaluatedProperties: null
+                            maxContains: null
+                            minContains: null
+                            additionalItems: null
+                            unevaluatedItems: null
+                            _if: null
+                            _else: null
+                            then: null
+                            dependentRequired: null
+                            dependentSchemas: null
+                            $comment: null
+                            prefixItems: null
+                            booleanSchemaValuenull
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:14:12.901 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.921 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OrderOut', baseName='response', complexType='OrderOut', getter='getResponse', setter='setResponse', description='null', dataType='OrderOut', datatypeWithEnum='OrderOut', dataFormat='null', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='OrderOut', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OrderOut"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='response', nameInPascalCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/OrderOut, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:12.927 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Property type is not primitive: OrderOut
+2026-11-03T21:14:12.928 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor200ResponseBodyApplicationJson: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.940 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OrderOut', baseName='SchemaFor200ResponseBodyApplicationJson', complexType='OrderOut', getter='getSchemaFor200ResponseBodyApplicationJson', setter='setSchemaFor200ResponseBodyApplicationJson', description='null', dataType='OrderOut', datatypeWithEnum='OrderOut', dataFormat='null', name='schemaFor200ResponseBodyApplicationJson', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor200ResponseBodyApplicationJson;', baseType='OrderOut', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OrderOut"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor200ResponseBodyApplicationJson', nameInPascalCase='SchemaFor200ResponseBodyApplicationJson', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_JSON', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/OrderOut, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:12.946 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.946 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:14:12.953 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for id: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.953 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for id : null required=true
+2026-11-03T21:14:12.953 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for shippingAddress: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:12.954 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for shippingAddress : null required=true
+2026-11-03T21:14:12.960 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving model 'OrderOut' to example
+2026-11-03T21:14:12.960 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Creating example from model values
+2026-11-03T21:14:12.960 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:12.961 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:12.961 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving model 'Address' to example
+2026-11-03T21:14:12.961 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Creating example from model values
+2026-11-03T21:14:12.961 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:12.961 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - String property
+2026-11-03T21:14:12.961 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - No values found, using property name street as example
+2026-11-03T21:14:12.961 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:12.962 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - String property
+2026-11-03T21:14:12.962 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - No values found, using property name city as example
+2026-11-03T21:14:12.965 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:12.981 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/api/default_api.dart
+2026-11-03T21:14:12.990 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/test/default_api_test.dart
+2026-11-03T21:14:12.997 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/doc/DefaultApi.md
+2026-11-03T21:14:12.998 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:13.000 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/pubspec.yaml
+2026-11-03T21:14:13.005 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/analysis_options.yaml
+2026-11-03T21:14:13.007 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/.gitignore
+2026-11-03T21:14:13.009 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/README.md
+2026-11-03T21:14:13.012 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/my_api.dart
+2026-11-03T21:14:13.017 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/api.dart
+2026-11-03T21:14:13.023 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/auth/api_key_auth.dart
+2026-11-03T21:14:13.032 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/auth/basic_auth.dart
+2026-11-03T21:14:13.034 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/auth/bearer_auth.dart
+2026-11-03T21:14:13.043 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/auth/oauth.dart
+2026-11-03T21:14:13.044 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/auth/auth.dart
+2026-11-03T21:14:13.055 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/serializers.dart
+2026-11-03T21:14:13.061 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/api_util.dart
+2026-11-03T21:14:13.063 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/model/date.dart
+2026-11-03T21:14:13.065 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/lib/src/date_serializer.dart
+2026-11-03T21:14:13.066 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/.openapi-generator-ignore
+2026-11-03T21:14:13.067 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/.openapi-generator/VERSION
+2026-11-03T21:14:13.069 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1953910875448290904/.openapi-generator/FILES
+2026-11-03T21:14:13.142 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testImportMappingsInSerializersAndBarrelFile()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@786560e9] 1407161363
+2026-11-03T21:14:13.142 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:14:13.142 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:14:13.142 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:14:13.142 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:14:13.176 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DartDioClientCodegenTest.testImportMappingsInSerializersAndBarrelFile()[pri:0, instance:org.openapitools.codegen.dart.dio.DartDioClientCodegenTest@1aba0267] -164350575
+2026-11-03T21:14:13.176 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:14:13.176 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:14:13.176 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:14:13.177 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:14:13.186 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='dart-dio', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={Address=CustomAddress}, additionalProperties={gitHost=github.com, pubName=my_api, releaseNote=Minor update, gitRepoId=my-repo, gitUserId=my-user}, importMappings={CustomAddress=package:my_api/src/custom_models/custom_address.dart}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='my-user', gitRepoId='my-repo', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T21:14:13.215 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:14:13.275 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/dart-dio/import_mapping.yaml', outputDir='/tmp/test892779094977360483', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T21:14:13.279 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: "3.1.0"
+info:
+  title: Example
+  version: "1.0.0"
+paths:
+  /orders:
+    get:
+      operationId: getOrders
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderOut"
+components:
+  schemas:
+    Address:
+      type: object
+      required: [street, city]
+      properties:
+        street:
+          type: string
+        city:
+          type: string
+    OrderOut:
+      type: object
+      required: [id, shippingAddress]
+      properties:
+        id:
+          type: integer
+        shippingAddress:
+          $ref: "#/components/schemas/Address"
+2026-11-03T21:14:13.333 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:14:13.387 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T21:14:13.388 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:14:13.388 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:14:13.388 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: dart-dio (client)
+2026-11-03T21:14:13.388 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'dart-dio' is considered stable.
+2026-11-03T21:14:13.388 INFO org.openapitools.codegen.languages.AbstractDartCodegen [main] - Environment variable DART_POST_PROCESS_FILE not defined so the Dart code may not be properly formatted. To define it, try `export DART_POST_PROCESS_FILE="/usr/local/bin/dartfmt -w"` (Linux/Mac)
+2026-11-03T21:14:13.388 INFO org.openapitools.codegen.languages.AbstractDartCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:14:13.389 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Serialization library not set, using default built_value
+2026-11-03T21:14:13.389 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Date library not set, using default core
+2026-11-03T21:14:13.389 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Equality check method not set, using default default
+2026-11-03T21:14:13.389 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - finalProperties not set, using default true
+2026-11-03T21:14:13.389 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - skipCopyWith not set, using default false
+2026-11-03T21:14:13.389 DEBUG org.openapitools.codegen.languages.DartDioClientCodegen [main] - Client name not set, using default core
+2026-11-03T21:14:13.389 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T21:14:13.394 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T21:14:13.395 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:13.395 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:13.400 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for street: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.407 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='street', complexType='null', getter='getStreet', setter='setStreet', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='street', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.street;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='street', nameInPascalCase='Street', nameInSnakeCase='STREET', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:13.408 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for city: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.412 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='city', complexType='null', getter='getCity', setter='setCity', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='city', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.city;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='city', nameInPascalCase='City', nameInSnakeCase='CITY', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:13.419 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for id: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.422 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='id', complexType='null', getter='getId', setter='setId', description='null', dataType='int', datatypeWithEnum='int', dataFormat='null', name='id', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.id;', baseType='int', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='id', nameInPascalCase='Id', nameInSnakeCase='ID', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:13.423 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for shippingAddress: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.427 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='CustomAddress', baseName='shippingAddress', complexType='CustomAddress', getter='getShippingAddress', setter='setShippingAddress', description='null', dataType='CustomAddress', datatypeWithEnum='CustomAddress', dataFormat='null', name='shippingAddress', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.shippingAddress;', baseType='CustomAddress', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Address"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='shippingAddress', nameInPascalCase='ShippingAddress', nameInSnakeCase='SHIPPING_ADDRESS', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/Address, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:13.458 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/model/custom_address.dart
+2026-11-03T21:14:13.465 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/test/custom_address_test.dart
+2026-11-03T21:14:13.472 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/doc/CustomAddress.md
+2026-11-03T21:14:13.483 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/model/order_out.dart
+2026-11-03T21:14:13.485 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/test/order_out_test.dart
+2026-11-03T21:14:13.486 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/doc/OrderOut.md
+2026-11-03T21:14:13.487 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: getOrders
+    parameters: null
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: class Content {
+                {application/json=class MediaType {
+                    schema: class JsonSchema {
+                        class Schema {
+                            type: null
+                            format: null
+                            $ref: #/components/schemas/OrderOut
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                            patternProperties: null
+                            contains: null
+                            $id: null
+                            $anchor: null
+                            $schema: null
+                            $vocabulary: null
+                            $dynamicAnchor: null
+                            $dynamicRef: null
+                            const: null
+                            contentEncoding: null
+                            contentMediaType: null
+                            contentSchema: null
+                            propertyNames: null
+                            unevaluatedProperties: null
+                            maxContains: null
+                            minContains: null
+                            additionalItems: null
+                            unevaluatedItems: null
+                            _if: null
+                            _else: null
+                            then: null
+                            dependentRequired: null
+                            dependentSchemas: null
+                            $comment: null
+                            prefixItems: null
+                            booleanSchemaValuenull
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:14:13.490 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.494 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OrderOut', baseName='response', complexType='OrderOut', getter='getResponse', setter='setResponse', description='null', dataType='OrderOut', datatypeWithEnum='OrderOut', dataFormat='null', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='OrderOut', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OrderOut"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='response', nameInPascalCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/OrderOut, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:13.495 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Property type is not primitive: OrderOut
+2026-11-03T21:14:13.496 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor200ResponseBodyApplicationJson: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.500 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OrderOut', baseName='SchemaFor200ResponseBodyApplicationJson', complexType='OrderOut', getter='getSchemaFor200ResponseBodyApplicationJson', setter='setSchemaFor200ResponseBodyApplicationJson', description='null', dataType='OrderOut', datatypeWithEnum='OrderOut', dataFormat='null', name='schemaFor200ResponseBodyApplicationJson', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor200ResponseBodyApplicationJson;', baseType='OrderOut', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OrderOut"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor200ResponseBodyApplicationJson', nameInPascalCase='SchemaFor200ResponseBodyApplicationJson', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_JSON', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/OrderOut, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:14:13.501 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OrderOut
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.501 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:14:13.503 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for id: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.504 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for id : null required=true
+2026-11-03T21:14:13.504 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for shippingAddress: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}
+2026-11-03T21:14:13.504 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for shippingAddress : null required=true
+2026-11-03T21:14:13.506 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving model 'OrderOut' to example
+2026-11-03T21:14:13.506 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Creating example from model values
+2026-11-03T21:14:13.506 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/Address
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving model 'Address' to example
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Creating example from model values
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - String property
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - No values found, using property name street as example
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - Resolving example for property class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValuenull
+    }
+}...
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - String property
+2026-11-03T21:14:13.507 DEBUG org.openapitools.codegen.examples.ExampleGenerator [main] - No values found, using property name city as example
+2026-11-03T21:14:13.509 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:13.519 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/api/default_api.dart
+2026-11-03T21:14:13.521 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/test/default_api_test.dart
+2026-11-03T21:14:13.524 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/doc/DefaultApi.md
+2026-11-03T21:14:13.525 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:14:13.527 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/pubspec.yaml
+2026-11-03T21:14:13.528 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/analysis_options.yaml
+2026-11-03T21:14:13.531 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/.gitignore
+2026-11-03T21:14:13.533 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/README.md
+2026-11-03T21:14:13.538 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/my_api.dart
+2026-11-03T21:14:13.543 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/api.dart
+2026-11-03T21:14:13.544 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/auth/api_key_auth.dart
+2026-11-03T21:14:13.546 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/auth/basic_auth.dart
+2026-11-03T21:14:13.547 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/auth/bearer_auth.dart
+2026-11-03T21:14:13.548 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/auth/oauth.dart
+2026-11-03T21:14:13.549 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/auth/auth.dart
+2026-11-03T21:14:13.556 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/serializers.dart
+2026-11-03T21:14:13.557 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/api_util.dart
+2026-11-03T21:14:13.558 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/model/date.dart
+2026-11-03T21:14:13.560 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/lib/src/date_serializer.dart
+2026-11-03T21:14:13.562 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/.openapi-generator-ignore
+2026-11-03T21:14:13.562 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/.openapi-generator/VERSION
+2026-11-03T21:14:13.565 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test892779094977360483/.openapi-generator/FILES
+2026-11-03T21:14:13.605 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

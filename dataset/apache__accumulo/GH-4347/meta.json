@@ -1,0 +1,38 @@
+{
+ "project": "apache__accumulo",
+ "issue": "GH-4347",
+ "summary": "Generate Splits produces malformed output",
+ "fix_commit": "92331ea113b12c0a833a0a5ea714294832c6d822",
+ "buggy_version": "92331ea113 with core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java reverted to 92331ea113^",
+ "jdk": "17",
+ "module": "core",
+ "tests": [
+  "GenerateSplitsTest#testNullValues"
+ ],
+ "faulty_lines": [
+  "core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java:263",
+  "core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java:264",
+  "core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java:265",
+  "core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java:268",
+  "core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java:75",
+  "core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java:91",
+  "core/src/main/java/org/apache/accumulo/core/file/rfile/GenerateSplits.java:92"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 154,
+ "pairs_exported": 20,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 154,
+ "stable": true,
+ "runs": {
+  "GenerateSplitsTest#testNullValues": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

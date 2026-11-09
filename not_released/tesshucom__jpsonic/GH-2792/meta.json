@@ -1,0 +1,36 @@
+{
+ "project": "tesshucom__jpsonic",
+ "issue": "GH-2792",
+ "summary": "NoResourceFoundException: No static resource logout",
+ "fix_commit": "e64286cd37342bf4481fb942b8f8cbe6c468ea10",
+ "buggy_version": "e64286cd37 with jpsonic-main/src/main/java/com/tesshu/jpsonic/security/GlobalSecurityConfig.java reverted to e64286cd37^",
+ "jdk": "25",
+ "module": "jpsonic-main",
+ "tests": [
+  "GlobalSecurityConfigLogoutTest#testPostLogoutShouldRedirectToLogin"
+ ],
+ "faulty_lines": [
+  "jpsonic-main/src/main/java/com/tesshu/jpsonic/security/GlobalSecurityConfig.java:285",
+  "jpsonic-main/src/main/java/com/tesshu/jpsonic/security/GlobalSecurityConfig.java:286",
+  "jpsonic-main/src/main/java/com/tesshu/jpsonic/security/GlobalSecurityConfig.java:288",
+  "jpsonic-main/src/main/java/com/tesshu/jpsonic/security/GlobalSecurityConfig.java:289",
+  "jpsonic-main/src/main/java/com/tesshu/jpsonic/security/GlobalSecurityConfig.java:290"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 13,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "GlobalSecurityConfigLogoutTest#testPostLogoutShouldRedirectToLogin": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

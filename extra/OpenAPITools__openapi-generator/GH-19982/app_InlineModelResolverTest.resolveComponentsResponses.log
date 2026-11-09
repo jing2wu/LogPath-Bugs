@@ -1,0 +1,2318 @@
+2026-11-03T20:06:01.704 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T20:06:02.579 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaSkipReuseSetToTrue()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 2083931835
+2026-11-03T20:06:02.579 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -70549377
+2026-11-03T20:06:02.579 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1014940343
+2026-11-03T20:06:02.579 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.nullable()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1144848540
+2026-11-03T20:06:02.579 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 727513836
+2026-11-03T20:06:02.579 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineMapSchemaInResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 337478535
+2026-11-03T20:06:02.581 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1413153040
+2026-11-03T20:06:02.581 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseArrayInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -264631267
+2026-11-03T20:06:02.581 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1783203047
+2026-11-03T20:06:02.581 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.callbacks()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1546615849
+2026-11-03T20:06:02.581 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testNestedAnyOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1309176733
+2026-11-03T20:06:02.581 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithTitleInChinese()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1232093285
+2026-11-03T20:06:02.581 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.emptyExampleOnStringTypeModels()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1425453428
+2026-11-03T20:06:02.581 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 145989753
+2026-11-03T20:06:02.582 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModel2DifferentInnerModelsWithSameTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -949384818
+2026-11-03T20:06:02.582 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaNameMapping()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -860539666
+2026-11-03T20:06:02.582 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModelWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 2049180464
+2026-11-03T20:06:02.582 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWhenNoComponents()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 918180328
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayRequestBodyWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1648631248
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectRequestBodyProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 2131059408
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModelType()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 554651918
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelWithArrayInlineWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1446629319
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 355800989
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelWithArrayInlineWithoutTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 399461921
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1772069896
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithoutTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1376651487
+2026-11-03T20:06:02.583 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveOperationInlineEnumFormParameters()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -2012799974
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseWithAdditionalProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1784489711
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.inheritanceWithInlineDiscriminator()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 2143836170
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1829755499
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaOptions()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 187167723
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.objectComposedWithInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1828294285
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithTitleWithSpaces()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1980295798
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryRequestBodyArrayProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -2100438474
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveComponentsResponses()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -359998067
+2026-11-03T20:06:02.584 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryRequestBodyArray()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 322000003
+2026-11-03T20:06:02.587 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveOperationInlineEnum()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -920762608
+2026-11-03T20:06:02.587 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithRequired()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 824793324
+2026-11-03T20:06:02.587 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaAllOfPropertyOfOneOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -150282144
+2026-11-03T20:06:02.587 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseArray()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1620625790
+2026-11-03T20:06:02.587 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayResponseWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -183756952
+2026-11-03T20:06:02.587 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveRequestBodyInvalidRef()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -188555332
+2026-11-03T20:06:02.588 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModel2EqualInnerModels()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 774618179
+2026-11-03T20:06:02.588 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaSkipReuseSetToFalse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -635667210
+2026-11-03T20:06:02.588 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyAllOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] 1961265561
+2026-11-03T20:06:02.589 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArraySchemaWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -76868152
+2026-11-03T20:06:02.590 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.nonModelRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1658884432
+2026-11-03T20:06:02.591 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModel()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -235883736
+2026-11-03T20:06:02.591 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineObjectResponseWithAdditionalProperties()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@3fb6cf60] -1817693152
+2026-11-03T20:06:02.591 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:06:02.636 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:06:02.638 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:06:02.638 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:06:03.325 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaSkipReuseSetToTrue()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1756896512
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 383589572
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -560801394
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.nullable()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 1598987489
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 1181652785
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineMapSchemaInResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 791617484
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -959014091
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseArrayInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 189507682
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -2057625300
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.callbacks()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1092476900
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testNestedAnyOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -855037784
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithTitleInChinese()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -777954336
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.emptyExampleOnStringTypeModels()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -971314479
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 600128702
+2026-11-03T20:06:03.326 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModel2DifferentInnerModelsWithSameTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -495245869
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaNameMapping()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -406400717
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModelWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1791647883
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWhenNoComponents()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 1372319277
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayRequestBodyWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 2102770197
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectRequestBodyProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1709768939
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModelType()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 1008790867
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelWithArrayInlineWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 1900768268
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 809939938
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelWithArrayInlineWithoutTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 853600870
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -2068758451
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithoutTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 1830790436
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveOperationInlineEnumFormParameters()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1558661025
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseWithAdditionalProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1330350762
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.inheritanceWithInlineDiscriminator()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1696992177
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -2011072848
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaOptions()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 641306672
+2026-11-03T20:06:03.327 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.objectComposedWithInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -2012534062
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithTitleWithSpaces()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1860532549
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryRequestBodyArrayProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1646299525
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveComponentsResponses()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 94140882
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryRequestBodyArray()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 776138952
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveOperationInlineEnum()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -466623659
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithRequired()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 1278932273
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaAllOfPropertyOfOneOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 303856805
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseArray()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 2074764739
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayResponseWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 270381997
+2026-11-03T20:06:03.328 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveRequestBodyInvalidRef()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 265583617
+2026-11-03T20:06:03.332 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModel2EqualInnerModels()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 1228757128
+2026-11-03T20:06:03.332 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaSkipReuseSetToFalse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -181528261
+2026-11-03T20:06:03.332 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyAllOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1879562786
+2026-11-03T20:06:03.332 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArraySchemaWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 377270797
+2026-11-03T20:06:03.332 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.nonModelRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1204745483
+2026-11-03T20:06:03.332 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModel()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] 218255213
+2026-11-03T20:06:03.332 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineObjectResponseWithAdditionalProperties()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5ac86ba5] -1363554203
+2026-11-03T20:06:03.332 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:06:03.338 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:06:03.338 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:06:03.338 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:06:04.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveComponentsResponses()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@770b3be0] 568281613
+2026-11-03T20:06:04.710 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:06:04.710 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:06:04.710 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:06:04.710 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:06:05.377 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /resolve_parameter_inline_enum:
+    get:
+      parameters:
+        - name: status_inline_enum
+          in: query
+          description: Status values that need to be considered for filter
+          required: true
+          style: form
+          explode: false
+          deprecated: true
+          schema:
+            type: array
+            items:
+              type: string
+              enum:
+                - available
+                - pending
+                - sold
+              default: available
+      operationId: resolveParameterInlineEnum
+      responses:
+        '200':
+          description: OK
+  /resolve_parameter_inline_enum_form_parameters:
+    post:
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                enum_form_string_array:
+                  description: Form parameter enum test (string array)
+                  type: array
+                  items:
+                    type: string
+                    default: $
+                    enum:
+                      - '>'
+                      - $
+                enum_form_string:
+                  description: Form parameter enum test (string)
+                  type: string
+                  enum:
+                    - _abc
+                    - '-efg'
+                    - (xyz)
+                  default: '-efg'
+      operationId: resolve_parameter_inline_enum_form_parameters
+      responses:
+        '200':
+          description: OK
+  /resolve_request_body_invalid_ref:
+    post:
+      requestBody:
+        $ref: '#/components/schemas/Invalid'
+      operationId: resolveRequestBodyInvalidRef
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                address:
+                  type: object
+                  properties:
+                    street:
+                      type: string
+      operationId: resolveInlineRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_required:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+        required: true
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_title:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              title: resolve_inline_request_body_with_title
+              type: object
+              properties:
+                name:
+                  type: string
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_title_in_chinese:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              title: 服務條款和私隱政策
+              type: object
+              properties:
+                just_property:
+                  type: string
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /non_model_request_body:
+    post:
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: string
+              format: binary
+      operationId: nonModelRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: object
+                properties:
+                  street:
+                    type: string
+                  city:
+                    type: string
+      operationId: resolveInlineArrayRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_request_body_with_title:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                title: resolveInlineArrayRequestBodyWithTitleItems
+                type: object
+                properties:
+                  street_2:
+                    type: string
+                  city_2:
+                    type: string
+      operationId: resolveInlineArrayRequestBodyWithTitle
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_response:
+    get:
+      operationId: resolveInlineArrayResponse
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    array_response_property:
+                      type: string
+  /resolve_inline_array_response_with_title:
+    get:
+      operationId: resolveInlineArrayResponseWithTitle
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  title: resolveInlineArrayResponseWithTitleItems
+                  type: object
+                  properties:
+                    array_response_with_title_property:
+                      type: string
+  /resolve_inline_object_response_with_additional_properties:
+    get:
+      operationId: resolveInlineObjectResponseWithAdditionalProperties
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+                  properties:
+                    resolve_inline_object_response_with_additional_properties:
+                      type: string
+  /resolve_inline_map_schema_in_response:
+    get:
+      operationId: resolveInlineMapSchemaInResponse
+      responses:
+        '200':
+          description: OK
+          # Swagger parser doesn't use MapSchema currently,
+          # so we need to set a MapSchema instance as the schema manually for testing.
+          # see InlineModelResolverTest#resolveInlineMapSchemaInResponse()
+  /resolve_inline_request_body_allof:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              allOf:
+              - type: object
+                properties:
+                  name:
+                    type: string
+                  address:
+                    type: object
+                    properties:
+                      street:
+                        type: string
+      operationId: resolveInlineRequestBodyAllOf
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+      operationId: arbitraryObjectRequestBody
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_request_body_property:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                arbitrary_object_request_body_property:
+                  type: object
+      operationId: arbitraryObjectRequestBodyProperty
+      responses:
+        '200':
+          description: OK
+  /arbitrary_request_body_array:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: item
+              items:
+                type: object
+      operationId: arbitraryRequestBodyArray
+      responses:
+        '200':
+          description: OK
+  /arbitrary_request_body_array_property:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: item
+              items:
+                type: object
+                properties:
+                  arbitrary_request_body_array_property:
+                    type: object
+      operationId: arbitraryRequestBodyArrayProperty
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_response:
+    get:
+      operationId: arbitraryObjectResponse
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+  /meta:
+    get:
+      operationId: meta
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  id:
+                    type: integer
+  /mega:
+    get:
+      operationId: mega
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  id:
+                    type: integer
+  /arbitrary_object_response_array:
+    get:
+      operationId: arbitraryObjectResponseArray
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /arbitrary_object_response_array_inline:
+    get:
+      operationId: arbitraryObjectResponseArrayInline
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    arbitrary_object_response_array_inline:
+                      type: object
+  /arbitrary_object_response_with_additional_property:
+    get:
+      operationId: arbitraryObjectResponseWithAdditionalProperty
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+  /empty_example_on_string_models:
+    get:
+      operationId: emptyExampleOnStringTypeModels
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/EmptyExampleOnStringTypeModels'
+  /nullable_properties:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nullable_request_body_property:
+                  type: object
+                  nullable: true
+                  properties:
+                    nullable_request_body_property_name:
+                      type: string
+      operationId: arbitraryObjectRequestBodyProperty
+      responses:
+        '200':
+          description: OK
+  /callback:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                callbackUri:
+                  type: string
+      responses:
+        201:
+          headers:
+            Location:
+              description: Contains the URI of the newly created resource
+              schema:
+                type: string
+      callbacks:
+        webhook:
+          '{$request.body#/callbackUri}':
+            post:
+              operationId: webhookNotify
+              requestBody:
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        notificationId:
+                          type: string
+                        action:
+                          type: string
+                        data:
+                          type: string
+components:
+  requestBodies: {}
+  responses:
+    JustAnotherResponse:
+      description: just another response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              uuid:
+                type: integer
+              label:
+                type: string
+  schemas:
+    Users:
+      type: array
+      items:
+        title: User
+        type: object
+        properties:
+          street:
+            type: string
+          city:
+            type: string
+    ComposedObjectModelInline:
+      allOf:
+      - type: object
+        properties:
+          composed_object_model_inline_allOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+      anyOf:
+      - type: object
+        properties:
+          composed_object_model_inline_anyOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+      oneOf:
+      - type: object
+        properties:
+          composed_object_model_inline_oneOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+    ArbitraryObjectModelInline:
+      type: object
+      properties:
+        arbitrary_object_model_inline:
+          type: object
+    ArbitraryObjectModelWithArrayInlineWithoutTitle:
+      type: array
+      items:
+        type: object
+        properties:
+          arbitrary_object_model_with_array_inline_without_title:
+            type: object
+    ArbitraryObjectModelWithArrayInlineWithTitle:
+      type: array
+      items:
+        title: ArbitraryObjectModelWithArrayInlineWithTitleInner
+        type: object
+        properties:
+          arbitrary_object_model_with_array_inline_with_title_property:
+            type: object
+    EmptyExampleOnStringTypeModels:
+      type: string
+      example: ''
+    InlinePropertyIsNullable:
+      type: object
+      properties:
+        nullable_property:
+          type: object
+          nullable: true
+          properties:
+            nullable_property_name:
+              type: string
+2026-11-03T20:06:06.608 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolve_parameter_inline_enum_form_parameters_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolve_parameter_inline_enum_form_parameters_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolve_parameter_inline_enum_form_parameters_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.619 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBody_request_address. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBody_request_address=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBody_request_address=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.648 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBody_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBody_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBody_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.649 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyWithRequired_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyWithRequired_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyWithRequired_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.658 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyWithRequired_request_1. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyWithRequired_request_1=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyWithRequired_request_1=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.669 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineArrayRequestBody_request_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineArrayRequestBody_request_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineArrayRequestBody_request_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.684 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineArrayResponse_200_response_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineArrayResponse_200_response_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineArrayResponse_200_response_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.692 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineObjectResponseWithAdditionalProperties_200_response_value. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineObjectResponseWithAdditionalProperties_200_response_value=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineObjectResponseWithAdditionalProperties_200_response_value=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.715 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyAllOf_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyAllOf_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyAllOf_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.729 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.738 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryRequestBodyArrayProperty_request_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryRequestBodyArrayProperty_request_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryRequestBodyArrayProperty_request_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.766 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as meta_200_response. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings meta_200_response=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings meta_200_response=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.776 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectResponseArrayInline_200_response_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectResponseArrayInline_200_response_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectResponseArrayInline_200_response_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.785 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.786 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request_1. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request_1=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request_1=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.796 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as _callback_post_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings _callback_post_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings _callback_post_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.803 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as webhookNotify_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings webhookNotify_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings webhookNotify_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.814 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:06.822 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_allOf_composed_object_model_inline_allOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_allOf_composed_object_model_inline_allOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_allOf_composed_object_model_inline_allOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.824 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Inline allOf schema ComposedObjectModelInline_allOf not refactored into a separate model using $ref.
+2026-11-03T20:06:06.825 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:06.831 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_anyOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_anyOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_anyOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.839 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:06.844 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_oneOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_oneOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_oneOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.851 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ArbitraryObjectModelWithArrayInlineWithoutTitle_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ArbitraryObjectModelWithArrayInlineWithoutTitle_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ArbitraryObjectModelWithArrayInlineWithoutTitle_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.878 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as InlinePropertyIsNullable_nullable_property. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings InlinePropertyIsNullable_nullable_property=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings InlinePropertyIsNullable_nullable_property=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:06.898 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:06.901 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/resolveInlineRequestBody_request_address
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:06:06.901 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Inline allOf schema resolveInlineRequestBodyAllOf_request_allOf not refactored into a separate model using $ref.
+2026-11-03T20:06:07.253 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveComponentsResponses()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@4e48462d] -115583910
+2026-11-03T20:06:07.253 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:06:07.254 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:06:07.254 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:06:07.254 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:06:07.364 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveComponentsResponses()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@6bf570c] -1315740359
+2026-11-03T20:06:07.365 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:06:07.365 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:06:07.365 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:06:07.365 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:06:07.371 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /resolve_parameter_inline_enum:
+    get:
+      parameters:
+        - name: status_inline_enum
+          in: query
+          description: Status values that need to be considered for filter
+          required: true
+          style: form
+          explode: false
+          deprecated: true
+          schema:
+            type: array
+            items:
+              type: string
+              enum:
+                - available
+                - pending
+                - sold
+              default: available
+      operationId: resolveParameterInlineEnum
+      responses:
+        '200':
+          description: OK
+  /resolve_parameter_inline_enum_form_parameters:
+    post:
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                enum_form_string_array:
+                  description: Form parameter enum test (string array)
+                  type: array
+                  items:
+                    type: string
+                    default: $
+                    enum:
+                      - '>'
+                      - $
+                enum_form_string:
+                  description: Form parameter enum test (string)
+                  type: string
+                  enum:
+                    - _abc
+                    - '-efg'
+                    - (xyz)
+                  default: '-efg'
+      operationId: resolve_parameter_inline_enum_form_parameters
+      responses:
+        '200':
+          description: OK
+  /resolve_request_body_invalid_ref:
+    post:
+      requestBody:
+        $ref: '#/components/schemas/Invalid'
+      operationId: resolveRequestBodyInvalidRef
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                address:
+                  type: object
+                  properties:
+                    street:
+                      type: string
+      operationId: resolveInlineRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_required:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+        required: true
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_title:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              title: resolve_inline_request_body_with_title
+              type: object
+              properties:
+                name:
+                  type: string
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_title_in_chinese:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              title: 服務條款和私隱政策
+              type: object
+              properties:
+                just_property:
+                  type: string
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /non_model_request_body:
+    post:
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: string
+              format: binary
+      operationId: nonModelRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: object
+                properties:
+                  street:
+                    type: string
+                  city:
+                    type: string
+      operationId: resolveInlineArrayRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_request_body_with_title:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                title: resolveInlineArrayRequestBodyWithTitleItems
+                type: object
+                properties:
+                  street_2:
+                    type: string
+                  city_2:
+                    type: string
+      operationId: resolveInlineArrayRequestBodyWithTitle
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_response:
+    get:
+      operationId: resolveInlineArrayResponse
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    array_response_property:
+                      type: string
+  /resolve_inline_array_response_with_title:
+    get:
+      operationId: resolveInlineArrayResponseWithTitle
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  title: resolveInlineArrayResponseWithTitleItems
+                  type: object
+                  properties:
+                    array_response_with_title_property:
+                      type: string
+  /resolve_inline_object_response_with_additional_properties:
+    get:
+      operationId: resolveInlineObjectResponseWithAdditionalProperties
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+                  properties:
+                    resolve_inline_object_response_with_additional_properties:
+                      type: string
+  /resolve_inline_map_schema_in_response:
+    get:
+      operationId: resolveInlineMapSchemaInResponse
+      responses:
+        '200':
+          description: OK
+          # Swagger parser doesn't use MapSchema currently,
+          # so we need to set a MapSchema instance as the schema manually for testing.
+          # see InlineModelResolverTest#resolveInlineMapSchemaInResponse()
+  /resolve_inline_request_body_allof:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              allOf:
+              - type: object
+                properties:
+                  name:
+                    type: string
+                  address:
+                    type: object
+                    properties:
+                      street:
+                        type: string
+      operationId: resolveInlineRequestBodyAllOf
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+      operationId: arbitraryObjectRequestBody
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_request_body_property:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                arbitrary_object_request_body_property:
+                  type: object
+      operationId: arbitraryObjectRequestBodyProperty
+      responses:
+        '200':
+          description: OK
+  /arbitrary_request_body_array:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: item
+              items:
+                type: object
+      operationId: arbitraryRequestBodyArray
+      responses:
+        '200':
+          description: OK
+  /arbitrary_request_body_array_property:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: item
+              items:
+                type: object
+                properties:
+                  arbitrary_request_body_array_property:
+                    type: object
+      operationId: arbitraryRequestBodyArrayProperty
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_response:
+    get:
+      operationId: arbitraryObjectResponse
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+  /meta:
+    get:
+      operationId: meta
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  id:
+                    type: integer
+  /mega:
+    get:
+      operationId: mega
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  id:
+                    type: integer
+  /arbitrary_object_response_array:
+    get:
+      operationId: arbitraryObjectResponseArray
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /arbitrary_object_response_array_inline:
+    get:
+      operationId: arbitraryObjectResponseArrayInline
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    arbitrary_object_response_array_inline:
+                      type: object
+  /arbitrary_object_response_with_additional_property:
+    get:
+      operationId: arbitraryObjectResponseWithAdditionalProperty
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+  /empty_example_on_string_models:
+    get:
+      operationId: emptyExampleOnStringTypeModels
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/EmptyExampleOnStringTypeModels'
+  /nullable_properties:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nullable_request_body_property:
+                  type: object
+                  nullable: true
+                  properties:
+                    nullable_request_body_property_name:
+                      type: string
+      operationId: arbitraryObjectRequestBodyProperty
+      responses:
+        '200':
+          description: OK
+  /callback:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                callbackUri:
+                  type: string
+      responses:
+        201:
+          headers:
+            Location:
+              description: Contains the URI of the newly created resource
+              schema:
+                type: string
+      callbacks:
+        webhook:
+          '{$request.body#/callbackUri}':
+            post:
+              operationId: webhookNotify
+              requestBody:
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        notificationId:
+                          type: string
+                        action:
+                          type: string
+                        data:
+                          type: string
+components:
+  requestBodies: {}
+  responses:
+    JustAnotherResponse:
+      description: just another response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              uuid:
+                type: integer
+              label:
+                type: string
+  schemas:
+    Users:
+      type: array
+      items:
+        title: User
+        type: object
+        properties:
+          street:
+            type: string
+          city:
+            type: string
+    ComposedObjectModelInline:
+      allOf:
+      - type: object
+        properties:
+          composed_object_model_inline_allOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+      anyOf:
+      - type: object
+        properties:
+          composed_object_model_inline_anyOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+      oneOf:
+      - type: object
+        properties:
+          composed_object_model_inline_oneOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+    ArbitraryObjectModelInline:
+      type: object
+      properties:
+        arbitrary_object_model_inline:
+          type: object
+    ArbitraryObjectModelWithArrayInlineWithoutTitle:
+      type: array
+      items:
+        type: object
+        properties:
+          arbitrary_object_model_with_array_inline_without_title:
+            type: object
+    ArbitraryObjectModelWithArrayInlineWithTitle:
+      type: array
+      items:
+        title: ArbitraryObjectModelWithArrayInlineWithTitleInner
+        type: object
+        properties:
+          arbitrary_object_model_with_array_inline_with_title_property:
+            type: object
+    EmptyExampleOnStringTypeModels:
+      type: string
+      example: ''
+    InlinePropertyIsNullable:
+      type: object
+      properties:
+        nullable_property:
+          type: object
+          nullable: true
+          properties:
+            nullable_property_name:
+              type: string
+2026-11-03T20:06:07.448 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolve_parameter_inline_enum_form_parameters_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolve_parameter_inline_enum_form_parameters_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolve_parameter_inline_enum_form_parameters_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.454 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBody_request_address. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBody_request_address=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBody_request_address=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.458 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBody_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBody_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBody_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.464 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyWithRequired_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyWithRequired_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyWithRequired_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.475 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyWithRequired_request_1. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyWithRequired_request_1=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyWithRequired_request_1=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.477 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineArrayRequestBody_request_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineArrayRequestBody_request_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineArrayRequestBody_request_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.483 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineArrayResponse_200_response_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineArrayResponse_200_response_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineArrayResponse_200_response_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.485 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineObjectResponseWithAdditionalProperties_200_response_value. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineObjectResponseWithAdditionalProperties_200_response_value=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineObjectResponseWithAdditionalProperties_200_response_value=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.490 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyAllOf_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyAllOf_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyAllOf_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.496 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.499 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryRequestBodyArrayProperty_request_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryRequestBodyArrayProperty_request_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryRequestBodyArrayProperty_request_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.501 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as meta_200_response. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings meta_200_response=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings meta_200_response=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.509 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectResponseArrayInline_200_response_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectResponseArrayInline_200_response_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectResponseArrayInline_200_response_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.513 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.517 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request_1. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request_1=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request_1=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.518 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as _callback_post_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings _callback_post_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings _callback_post_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.523 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as webhookNotify_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings webhookNotify_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings webhookNotify_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.530 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:07.533 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_allOf_composed_object_model_inline_allOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_allOf_composed_object_model_inline_allOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_allOf_composed_object_model_inline_allOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.534 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Inline allOf schema ComposedObjectModelInline_allOf not refactored into a separate model using $ref.
+2026-11-03T20:06:07.534 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:07.539 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_anyOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_anyOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_anyOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.544 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:07.545 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_oneOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_oneOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_oneOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.548 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ArbitraryObjectModelWithArrayInlineWithoutTitle_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ArbitraryObjectModelWithArrayInlineWithoutTitle_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ArbitraryObjectModelWithArrayInlineWithoutTitle_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.553 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as InlinePropertyIsNullable_nullable_property. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings InlinePropertyIsNullable_nullable_property=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings InlinePropertyIsNullable_nullable_property=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.560 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:07.563 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/resolveInlineRequestBody_request_address
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:06:07.564 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Inline allOf schema resolveInlineRequestBodyAllOf_request_allOf not refactored into a separate model using $ref.
+2026-11-03T20:06:07.698 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveComponentsResponses()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@302da330] -620646051
+2026-11-03T20:06:07.698 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:06:07.698 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:06:07.698 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:06:07.698 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:06:07.775 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveComponentsResponses()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@29f95272] -724737889
+2026-11-03T20:06:07.776 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:06:07.776 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:06:07.776 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:06:07.777 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:06:07.795 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /resolve_parameter_inline_enum:
+    get:
+      parameters:
+        - name: status_inline_enum
+          in: query
+          description: Status values that need to be considered for filter
+          required: true
+          style: form
+          explode: false
+          deprecated: true
+          schema:
+            type: array
+            items:
+              type: string
+              enum:
+                - available
+                - pending
+                - sold
+              default: available
+      operationId: resolveParameterInlineEnum
+      responses:
+        '200':
+          description: OK
+  /resolve_parameter_inline_enum_form_parameters:
+    post:
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                enum_form_string_array:
+                  description: Form parameter enum test (string array)
+                  type: array
+                  items:
+                    type: string
+                    default: $
+                    enum:
+                      - '>'
+                      - $
+                enum_form_string:
+                  description: Form parameter enum test (string)
+                  type: string
+                  enum:
+                    - _abc
+                    - '-efg'
+                    - (xyz)
+                  default: '-efg'
+      operationId: resolve_parameter_inline_enum_form_parameters
+      responses:
+        '200':
+          description: OK
+  /resolve_request_body_invalid_ref:
+    post:
+      requestBody:
+        $ref: '#/components/schemas/Invalid'
+      operationId: resolveRequestBodyInvalidRef
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                address:
+                  type: object
+                  properties:
+                    street:
+                      type: string
+      operationId: resolveInlineRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_required:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+        required: true
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_title:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              title: resolve_inline_request_body_with_title
+              type: object
+              properties:
+                name:
+                  type: string
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_request_body_with_title_in_chinese:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              title: 服務條款和私隱政策
+              type: object
+              properties:
+                just_property:
+                  type: string
+      operationId: resolveInlineRequestBodyWithRequired
+      responses:
+        '200':
+          description: OK
+  /non_model_request_body:
+    post:
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: string
+              format: binary
+      operationId: nonModelRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: object
+                properties:
+                  street:
+                    type: string
+                  city:
+                    type: string
+      operationId: resolveInlineArrayRequestBody
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_request_body_with_title:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                title: resolveInlineArrayRequestBodyWithTitleItems
+                type: object
+                properties:
+                  street_2:
+                    type: string
+                  city_2:
+                    type: string
+      operationId: resolveInlineArrayRequestBodyWithTitle
+      responses:
+        '200':
+          description: OK
+  /resolve_inline_array_response:
+    get:
+      operationId: resolveInlineArrayResponse
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    array_response_property:
+                      type: string
+  /resolve_inline_array_response_with_title:
+    get:
+      operationId: resolveInlineArrayResponseWithTitle
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  title: resolveInlineArrayResponseWithTitleItems
+                  type: object
+                  properties:
+                    array_response_with_title_property:
+                      type: string
+  /resolve_inline_object_response_with_additional_properties:
+    get:
+      operationId: resolveInlineObjectResponseWithAdditionalProperties
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+                  properties:
+                    resolve_inline_object_response_with_additional_properties:
+                      type: string
+  /resolve_inline_map_schema_in_response:
+    get:
+      operationId: resolveInlineMapSchemaInResponse
+      responses:
+        '200':
+          description: OK
+          # Swagger parser doesn't use MapSchema currently,
+          # so we need to set a MapSchema instance as the schema manually for testing.
+          # see InlineModelResolverTest#resolveInlineMapSchemaInResponse()
+  /resolve_inline_request_body_allof:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              allOf:
+              - type: object
+                properties:
+                  name:
+                    type: string
+                  address:
+                    type: object
+                    properties:
+                      street:
+                        type: string
+      operationId: resolveInlineRequestBodyAllOf
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_request_body:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+      operationId: arbitraryObjectRequestBody
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_request_body_property:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                arbitrary_object_request_body_property:
+                  type: object
+      operationId: arbitraryObjectRequestBodyProperty
+      responses:
+        '200':
+          description: OK
+  /arbitrary_request_body_array:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: item
+              items:
+                type: object
+      operationId: arbitraryRequestBodyArray
+      responses:
+        '200':
+          description: OK
+  /arbitrary_request_body_array_property:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: item
+              items:
+                type: object
+                properties:
+                  arbitrary_request_body_array_property:
+                    type: object
+      operationId: arbitraryRequestBodyArrayProperty
+      responses:
+        '200':
+          description: OK
+  /arbitrary_object_response:
+    get:
+      operationId: arbitraryObjectResponse
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+  /meta:
+    get:
+      operationId: meta
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  id:
+                    type: integer
+  /mega:
+    get:
+      operationId: mega
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  id:
+                    type: integer
+  /arbitrary_object_response_array:
+    get:
+      operationId: arbitraryObjectResponseArray
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+  /arbitrary_object_response_array_inline:
+    get:
+      operationId: arbitraryObjectResponseArrayInline
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    arbitrary_object_response_array_inline:
+                      type: object
+  /arbitrary_object_response_with_additional_property:
+    get:
+      operationId: arbitraryObjectResponseWithAdditionalProperty
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+  /empty_example_on_string_models:
+    get:
+      operationId: emptyExampleOnStringTypeModels
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/EmptyExampleOnStringTypeModels'
+  /nullable_properties:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nullable_request_body_property:
+                  type: object
+                  nullable: true
+                  properties:
+                    nullable_request_body_property_name:
+                      type: string
+      operationId: arbitraryObjectRequestBodyProperty
+      responses:
+        '200':
+          description: OK
+  /callback:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                callbackUri:
+                  type: string
+      responses:
+        201:
+          headers:
+            Location:
+              description: Contains the URI of the newly created resource
+              schema:
+                type: string
+      callbacks:
+        webhook:
+          '{$request.body#/callbackUri}':
+            post:
+              operationId: webhookNotify
+              requestBody:
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        notificationId:
+                          type: string
+                        action:
+                          type: string
+                        data:
+                          type: string
+components:
+  requestBodies: {}
+  responses:
+    JustAnotherResponse:
+      description: just another response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              uuid:
+                type: integer
+              label:
+                type: string
+  schemas:
+    Users:
+      type: array
+      items:
+        title: User
+        type: object
+        properties:
+          street:
+            type: string
+          city:
+            type: string
+    ComposedObjectModelInline:
+      allOf:
+      - type: object
+        properties:
+          composed_object_model_inline_allOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+      anyOf:
+      - type: object
+        properties:
+          composed_object_model_inline_anyOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+      oneOf:
+      - type: object
+        properties:
+          composed_object_model_inline_oneOf:
+            type: object
+            properties:
+              prop1:
+                type: string
+    ArbitraryObjectModelInline:
+      type: object
+      properties:
+        arbitrary_object_model_inline:
+          type: object
+    ArbitraryObjectModelWithArrayInlineWithoutTitle:
+      type: array
+      items:
+        type: object
+        properties:
+          arbitrary_object_model_with_array_inline_without_title:
+            type: object
+    ArbitraryObjectModelWithArrayInlineWithTitle:
+      type: array
+      items:
+        title: ArbitraryObjectModelWithArrayInlineWithTitleInner
+        type: object
+        properties:
+          arbitrary_object_model_with_array_inline_with_title_property:
+            type: object
+    EmptyExampleOnStringTypeModels:
+      type: string
+      example: ''
+    InlinePropertyIsNullable:
+      type: object
+      properties:
+        nullable_property:
+          type: object
+          nullable: true
+          properties:
+            nullable_property_name:
+              type: string
+2026-11-03T20:06:07.906 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolve_parameter_inline_enum_form_parameters_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolve_parameter_inline_enum_form_parameters_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolve_parameter_inline_enum_form_parameters_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.913 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBody_request_address. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBody_request_address=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBody_request_address=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.914 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBody_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBody_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBody_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.922 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyWithRequired_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyWithRequired_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyWithRequired_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.934 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyWithRequired_request_1. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyWithRequired_request_1=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyWithRequired_request_1=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.936 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineArrayRequestBody_request_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineArrayRequestBody_request_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineArrayRequestBody_request_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.944 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineArrayResponse_200_response_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineArrayResponse_200_response_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineArrayResponse_200_response_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.952 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineObjectResponseWithAdditionalProperties_200_response_value. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineObjectResponseWithAdditionalProperties_200_response_value=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineObjectResponseWithAdditionalProperties_200_response_value=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.954 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as resolveInlineRequestBodyAllOf_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings resolveInlineRequestBodyAllOf_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings resolveInlineRequestBodyAllOf_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.955 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.971 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryRequestBodyArrayProperty_request_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryRequestBodyArrayProperty_request_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryRequestBodyArrayProperty_request_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.973 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as meta_200_response. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings meta_200_response=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings meta_200_response=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.982 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectResponseArrayInline_200_response_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectResponseArrayInline_200_response_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectResponseArrayInline_200_response_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.983 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request_1_nullable_request_body_property=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.990 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as arbitraryObjectRequestBodyProperty_request_1. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings arbitraryObjectRequestBodyProperty_request_1=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings arbitraryObjectRequestBodyProperty_request_1=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.991 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as _callback_post_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings _callback_post_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings _callback_post_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:07.999 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as webhookNotify_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings webhookNotify_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings webhookNotify_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:08.001 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:08.001 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_allOf_composed_object_model_inline_allOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_allOf_composed_object_model_inline_allOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_allOf_composed_object_model_inline_allOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:08.002 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Inline allOf schema ComposedObjectModelInline_allOf not refactored into a separate model using $ref.
+2026-11-03T20:06:08.008 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:08.014 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_anyOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_anyOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_anyOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:08.018 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:08.019 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ComposedObjectModelInline_oneOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ComposedObjectModelInline_oneOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ComposedObjectModelInline_oneOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:08.021 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as ArbitraryObjectModelWithArrayInlineWithoutTitle_inner. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ArbitraryObjectModelWithArrayInlineWithoutTitle_inner=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ArbitraryObjectModelWithArrayInlineWithoutTitle_inner=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:08.029 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as InlinePropertyIsNullable_nullable_property. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings InlinePropertyIsNullable_nullable_property=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings InlinePropertyIsNullable_nullable_property=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:06:08.035 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:06:08.036 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Schema not yet handled in model resolver: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/resolveInlineRequestBody_request_address
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:06:08.038 DEBUG org.openapitools.codegen.InlineModelResolver [main] - Inline allOf schema resolveInlineRequestBodyAllOf_request_allOf not refactored into a separate model using $ref.
+2026-11-03T20:06:08.102 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

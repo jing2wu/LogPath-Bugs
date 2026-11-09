@@ -1,0 +1,59 @@
+2026-11-03T21:25:46.574 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:25:46.731 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.abstractOperationsDisableBodyGeneration()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@60129b9a] -941222951
+2026-11-03T21:25:46.732 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.abstractClassUsesDefaultVirtualOperations()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@60129b9a] 1584445453
+2026-11-03T21:25:46.732 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.doesNotGenerateObsoleteWwwrootReadme()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@60129b9a] 1044630290
+2026-11-03T21:25:46.732 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.libraryBuildUsesDefaultVirtualOperations()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@60129b9a] -1555293896
+2026-11-03T21:25:46.732 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:25:46.738 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:25:46.738 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:25:46.739 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:25:46.895 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.abstractOperationsDisableBodyGeneration()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@544820b7] -1139042058
+2026-11-03T21:25:46.895 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.abstractClassUsesDefaultVirtualOperations()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@544820b7] 1386626346
+2026-11-03T21:25:46.895 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.doesNotGenerateObsoleteWwwrootReadme()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@544820b7] 846811183
+2026-11-03T21:25:46.896 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.libraryBuildUsesDefaultVirtualOperations()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@544820b7] -1753113003
+2026-11-03T21:25:46.896 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:25:46.896 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:25:46.897 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:25:46.897 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:25:47.692 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.doesNotGenerateObsoleteWwwrootReadme()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@294bdeb4] 125636140
+2026-11-03T21:25:47.693 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:25:47.693 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:25:47.693 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:25:47.693 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:25:48.761 INFO org.openapitools.codegen.languages.AbstractCSharpCodegen [main] - Environment variable CSHARP_POST_PROCESS_FILE not defined so the C# code may not be properly formatted by uncrustify (0.66 or later) or other code formatter. To define it, try `export CSHARP_POST_PROCESS_FILE="/usr/local/bin/uncrustify --no-backup" && export UNCRUSTIFY_CONFIG=/path/to/uncrustify-rules.cfg` (Linux/Mac). Note: replace /path/to with the location of uncrustify-rules.cfg
+2026-11-03T21:25:48.761 INFO org.openapitools.codegen.languages.AbstractCSharpCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:25:48.763 INFO org.openapitools.codegen.languages.AspNetServerCodegen [main] - ASP.NET core version: 8.0
+2026-11-03T21:25:48.763 INFO org.openapitools.codegen.languages.AspNetServerCodegen [main] - Swashbuckle version: 6.4.0
+2026-11-03T21:25:48.763 WARN org.openapitools.codegen.languages.AspNetServerCodegen [main] - ASP.NET core version is 8.0 so changing to use frameworkReference instead of packageReference 
+2026-11-03T21:25:48.928 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.doesNotGenerateObsoleteWwwrootReadme()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@393ae7a0] 392959768
+2026-11-03T21:25:48.928 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:25:48.928 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:25:48.928 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:25:48.928 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:25:48.963 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.doesNotGenerateObsoleteWwwrootReadme()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@8f4b803] -416946309
+2026-11-03T21:25:48.964 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:25:48.964 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:25:48.964 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:25:48.964 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:25:48.978 INFO org.openapitools.codegen.languages.AbstractCSharpCodegen [main] - Environment variable CSHARP_POST_PROCESS_FILE not defined so the C# code may not be properly formatted by uncrustify (0.66 or later) or other code formatter. To define it, try `export CSHARP_POST_PROCESS_FILE="/usr/local/bin/uncrustify --no-backup" && export UNCRUSTIFY_CONFIG=/path/to/uncrustify-rules.cfg` (Linux/Mac). Note: replace /path/to with the location of uncrustify-rules.cfg
+2026-11-03T21:25:48.978 INFO org.openapitools.codegen.languages.AbstractCSharpCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:25:48.979 INFO org.openapitools.codegen.languages.AspNetServerCodegen [main] - ASP.NET core version: 8.0
+2026-11-03T21:25:48.979 INFO org.openapitools.codegen.languages.AspNetServerCodegen [main] - Swashbuckle version: 6.4.0
+2026-11-03T21:25:48.979 WARN org.openapitools.codegen.languages.AspNetServerCodegen [main] - ASP.NET core version is 8.0 so changing to use frameworkReference instead of packageReference 
+2026-11-03T21:25:49.018 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.doesNotGenerateObsoleteWwwrootReadme()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@49e0b123] 672260251
+2026-11-03T21:25:49.019 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:25:49.019 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:25:49.019 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:25:49.019 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:25:49.038 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AspNetServerCodegenTest.doesNotGenerateObsoleteWwwrootReadme()[pri:0, instance:org.openapitools.codegen.csharpnetcore.AspNetServerCodegenTest@aee05f4] -383830676
+2026-11-03T21:25:49.038 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:25:49.038 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:25:49.038 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:25:49.038 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:25:49.043 INFO org.openapitools.codegen.languages.AbstractCSharpCodegen [main] - Environment variable CSHARP_POST_PROCESS_FILE not defined so the C# code may not be properly formatted by uncrustify (0.66 or later) or other code formatter. To define it, try `export CSHARP_POST_PROCESS_FILE="/usr/local/bin/uncrustify --no-backup" && export UNCRUSTIFY_CONFIG=/path/to/uncrustify-rules.cfg` (Linux/Mac). Note: replace /path/to with the location of uncrustify-rules.cfg
+2026-11-03T21:25:49.043 INFO org.openapitools.codegen.languages.AbstractCSharpCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:25:49.043 INFO org.openapitools.codegen.languages.AspNetServerCodegen [main] - ASP.NET core version: 8.0
+2026-11-03T21:25:49.044 INFO org.openapitools.codegen.languages.AspNetServerCodegen [main] - Swashbuckle version: 6.4.0
+2026-11-03T21:25:49.044 WARN org.openapitools.codegen.languages.AspNetServerCodegen [main] - ASP.NET core version is 8.0 so changing to use frameworkReference instead of packageReference 
+2026-11-03T21:25:49.089 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

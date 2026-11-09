@@ -1,0 +1,217 @@
+project,issue,fix_commit,folder,reason
+Beilstein-Institut__BChemXtract,GH-143,865068cead7fdd8800d4fad6e12434a6ed05dc02,dataset,
+BrightSpots__rcv,GH-621,a8308e8614c332815b83ae45422b16c39e6649cd,not_released,a covering pair has a log that was not printed
+Graylog2__graylog2-server,GH-26833,199fefc3ff18dd80d8e3fa211ee5752d7c930685,not_released,a covering pair has a log that was not printed
+IQSS__dataverse,GH-10390,8915dad0b41b79293cb3f7b97db30757fb0e322c,dataset,
+IQSS__dataverse,GH-11169,040ba43f9562e88a306e9459250c9b16f0ddc811,dataset,
+InseeFr__sugoi-api,GH-536,def2fed2581f488b37246e53e77eff1ac89a99ad,dataset,
+InseeFr__sugoi-api,GH-749,019435048f6f715d349d27a3962b32f7b0802e4a,dataset,
+Lincoln-cn__JAiRouter,GH-114,042746bd8303b8fd8fd94d1e7ba5dd32c245e8e1,dataset,
+OpenAPITools__openapi-generator,GH-10725,fe90d9c42606ff19abc53e22408bb9460fe6e122,extra,
+OpenAPITools__openapi-generator,GH-11323,735dae41a554787910da1cb5d62fda7b3debd978,extra,
+OpenAPITools__openapi-generator,GH-11910,7851dfe1488b026734c0930676c4c96251b419fd,extra,
+OpenAPITools__openapi-generator,GH-11958,41451ff5ee33257aeaf1a4abfed9f6ae861dd982,extra,
+OpenAPITools__openapi-generator,GH-12545,1561c339665212757799d1802f3c156b797360fd,extra,
+OpenAPITools__openapi-generator,GH-12838,71a7a822f41ded491d823bafaf0cefb4744b6b71,extra,
+OpenAPITools__openapi-generator,GH-12929,965eb2a02fd23f52d1d931b1684f56cc51553f7d,extra,
+OpenAPITools__openapi-generator,GH-13488,b2280e23f7d537d6d0f1f09b23124249aed2f661,extra,
+OpenAPITools__openapi-generator,GH-14078,3eb90a69e637bd7bf00bcc76aec72716f5ea2b54,extra,
+OpenAPITools__openapi-generator,GH-14233,e384201416f48a79e7f640e5f00b57ecb7fff07b,extra,
+OpenAPITools__openapi-generator,GH-15077,5bc7aa3cd603abff2e320e7a5cefa9abfa5ea936,extra,
+OpenAPITools__openapi-generator,GH-15254,03effd7d0511325a1571971bea4b86cf38a1a17f,extra,
+OpenAPITools__openapi-generator,GH-15476,1531ad48d0f5ed03036d5253e60cd5077d0d90ad,extra,
+OpenAPITools__openapi-generator,GH-16501,1283d1bf0fb564d45a9385287f1d4f11f203f35d,extra,
+OpenAPITools__openapi-generator,GH-16710,c301004b7e5956f4bdaab2dfc9a57ade45fddbd8,extra,
+OpenAPITools__openapi-generator,GH-16857,bfe6157d07dd65d8f4e1e71db3fc4c6623157b9a,dataset,
+OpenAPITools__openapi-generator,GH-17472,b228133a20a9b9e10363566017a5270c4af362d2,extra,
+OpenAPITools__openapi-generator,GH-17494,9b62b9bb057dccfdc27555323d8b56a4c7fb5b34,extra,
+OpenAPITools__openapi-generator,GH-18102,5ed2283e019231d525dd51f46b60a7c9d0fa8947,extra,
+OpenAPITools__openapi-generator,GH-18206,d7dd6d04ccfd1c2ed45db6ac2ba415674895abb0,extra,
+OpenAPITools__openapi-generator,GH-18443,e36172090e4ed7c0658ec181a8217f392068c909,not_released,a covering pair has a log that was not printed
+OpenAPITools__openapi-generator,GH-18959,5532203f9f421582ee219fcf187ff451948ad3b2,dataset,
+OpenAPITools__openapi-generator,GH-19393,8ce332a540f3ece6779bd90d01c73223f5c8edde,extra,
+OpenAPITools__openapi-generator,GH-19890,df2d81bb672fd5de03731ce25d6f34c7a53fc571,extra,
+OpenAPITools__openapi-generator,GH-19982,cbc64e86d33d5a2e1a3736b2d6fd8caadb665ac2,extra,
+OpenAPITools__openapi-generator,GH-20005,301af6050b517f518ab534edce3f728e5100dbf8,extra,
+OpenAPITools__openapi-generator,GH-20115,179acc91ea700eb3f5ba3bff18cb2a63d5c1100e,extra,
+OpenAPITools__openapi-generator,GH-20304,554e10dc345e5142ef222fc3da5d74d6cb167cd0,extra,
+OpenAPITools__openapi-generator,GH-20599,8f8001ea1a386e9c9474b000df503039c8b79701,extra,
+OpenAPITools__openapi-generator,GH-20775,80c08fa3dd27d4e43a6a1f72b3420e8f24b66de5,dataset,
+OpenAPITools__openapi-generator,GH-21077,a4d05b38f57b13c1fb0b6581fb812dee69afa546,extra,
+OpenAPITools__openapi-generator,GH-21144,db38f0f55609e570b1ab224fc167409accae3223,extra,
+OpenAPITools__openapi-generator,GH-21548,a282c80979754e13663a308ba1beba3c992329bf,extra,
+OpenAPITools__openapi-generator,GH-21680,351b601368f741b518d25735a00de67000722c73,extra,
+OpenAPITools__openapi-generator,GH-21733,8ce639ddae7b20fc7e0b98f011ca350f04cee3fd,extra,
+OpenAPITools__openapi-generator,GH-21894,ee40887d47f6d7a16318772f49c63b8eb0553488,extra,
+OpenAPITools__openapi-generator,GH-21898,08733aaf251cede20ac048fa7ff4cf0a64bb929c,extra,
+OpenAPITools__openapi-generator,GH-22066,23a2aafe9171b9f2ff97a320bef08161ba755dfe,dataset,
+OpenAPITools__openapi-generator,GH-22216,f861dffde39d4539a637fd20378e4d8eb635249d,extra,
+OpenAPITools__openapi-generator,GH-22349,039de98d4f195c9d8ae8c86c032a02c77391c9c7,extra,
+OpenAPITools__openapi-generator,GH-22355,cd242fd161b9e13cd0c3f99f5ab606b4ae88dcc2,extra,
+OpenAPITools__openapi-generator,GH-22389,e1edb9e64571c2cbc4ad419573a0ecfd5af15b8d,extra,
+OpenAPITools__openapi-generator,GH-22767,5926c3175e2e5a5409d9fbb9487f615428ede019,extra,
+OpenAPITools__openapi-generator,GH-23102,397645c2cf5065e566898650b899ffcef5d8fee6,extra,
+OpenAPITools__openapi-generator,GH-23139,1d3ef5ca89aa9f462fe27c20cee8c6dbcbb9f70e,dataset,
+OpenAPITools__openapi-generator,GH-23223,231c3c4cf0990ccfb60cf97e85386c643adb444b,extra,
+OpenAPITools__openapi-generator,GH-23278,165465a92ae243f657313fbae161127f26938b2e,dataset,
+OpenAPITools__openapi-generator,GH-23286,e17e024b2bcb9565bbe59586e8ad1cdd2780909f,dataset,
+OpenAPITools__openapi-generator,GH-23464,a79d60b3fb3712497ddd84852f45aa4140654b49,extra,
+OpenAPITools__openapi-generator,GH-23558,388f031deaf7f9186b219960a1f76cf2dcfd34ea,extra,
+OpenAPITools__openapi-generator,GH-23844,50440611d576f89ec8baa08de22c25b0a8ad358f,extra,
+OpenAPITools__openapi-generator,GH-23887,99a48589bb9723b3e0696156bdb9e71be682a284,extra,
+OpenAPITools__openapi-generator,GH-23945,82f86114ec786434d3d397d339d98ae67275ee5b,extra,
+OpenAPITools__openapi-generator,GH-23997,d3dde379a7b401ce971f4e89902dc4e6966b0b72,dataset,
+OpenAPITools__openapi-generator,GH-24119,2f5bf0e61a96144107cfe1747ff683f4bd584259,dataset,
+OpenAPITools__openapi-generator,GH-24139,2c7bbce6fc9d9fa657da29b9f76f470f65418fc9,extra,
+OpenAPITools__openapi-generator,GH-24232,61c6a9ae1e76b6900f7ca65e0b147d252f9ef851,extra,
+OpenAPITools__openapi-generator,GH-24298,095eedab261417fa4d674bb0e34c6d8520550c5b,extra,
+OpenAPITools__openapi-generator,GH-24366,82cb1ad5ab515e81cf54a598b91cf5ff61b718c1,dataset,
+OpenAPITools__openapi-generator,GH-24574,66f697325c1273ce1aa26813afd286a984acdb49,extra,
+OpenAPITools__openapi-generator,GH-24851,5a0fa873919d662c2223df94637cea25bfbca2aa,extra,
+OpenAPITools__openapi-generator,GH-24854,67df0397c1612705d081b2f297ac0c5d9069638a,extra,
+OpenAPITools__openapi-generator,GH-25067,a5e4173d6caa3c24affa52dd71135e96a0bb049e,not_released,a covering pair has a log that was not printed
+OpenAPITools__openapi-generator,GH-25069,ba7fb8baf194d2467bf7c3e86e23b1ff1389cde3,extra,
+OpenAPITools__openapi-generator,GH-25113,065b6c50a424c8f2c8a026828610c01c91e2d094,extra,
+OpenAPITools__openapi-generator,GH-25263,27c33732efd3a759726643eeeb381cd175bc8768,extra,
+OpenIdentityPlatform__commons,GH-346,64fbb9be947d8c91d5f1955c5fb7d04d68d9283e,dataset,
+OpenIntegrationEngine__engine,GH-454,864ede756b0d99f061f8778ba209adf3f2600066,not_released,two recorded runs of the buggy version differ
+TNG__JGiven,GH-1801,f38d8b52e321f09d90a4b3d58d28aef2783db870,not_released,a covering pair has a log that was not printed
+Unleash__unleash-java-sdk,GH-206,499ecd5367491eb387774440eec5bf5a9e3ec763,dataset,
+agentscope-ai__agentscope-java,GH-1289,887728a47597d1083588e1787c4349f2f5b5babf,not_released,a covering pair has a log that was not printed
+agentscope-ai__agentscope-java,GH-1339,9afbe5f9dc345f9320fe32dc4d7062e2058a0794,not_released,a covering pair has a log that was not printed
+agentscope-ai__agentscope-java,GH-1979,284186307c510d2490621fe1815fc619f8d53aba,not_released,a covering pair has a log that was not printed
+agentscope-ai__agentscope-java,GH-2197,5700e5fedeacb3ab0418d5b64028334339cc70e8,not_released,a covering pair has a log that was not printed
+agentscope-ai__agentscope-java,GH-2359,17fee94f4fc3bf308903785d99eaaec9c20325b1,not_released,a covering pair has a log that was not printed
+agentscope-ai__agentscope-java,GH-2366,1a1d3593a512d88b29b9381db4ba3fd5a607934b,not_released,a covering pair has a log that was not printed
+agentscope-ai__agentscope-java,GH-2981,3a04de0d1d6853a21eb5533b86b74a5527c19999,not_released,a covering pair has a log that was not printed
+agentscope-ai__agentscope-java,GH-714,6b535067a463c81fc65f9c9ded9b9471d363f014,not_released,a covering pair has a log that was not printed
+apache__accumulo,GH-3414,487f2a34f126dad45d8c32465e74d19a357bbf4c,dataset,
+apache__accumulo,GH-4347,92331ea113b12c0a833a0a5ea714294832c6d822,dataset,
+apache__arrow-java,GH-994,bdec833fb69f945db9f3c767715c93d09214f2b5,not_released,no log pair covers the fault inside the test method
+apache__dolphinscheduler,GH-10403,dafed572d17cd08dae1c1decf389f0dd4241fdf7,not_released,a covering pair has a log that was not printed
+apache__dolphinscheduler,GH-14869,f6a6794289ff984227548ff74affcf83fbced289,dataset,
+apache__dolphinscheduler,GH-15771,5e3dc7b16ffe8bdf2e06518d4c7080bd39ba228d,dataset,
+apache__dolphinscheduler,GH-17232,7266e3fe9cbd741e6a5ee43021c6fcdfb604bf8b,not_released,no log pair covers the fault inside the test method
+apache__dolphinscheduler,GH-17555,2cdf39fc099d9f25c1c2a7b696738ff0f4348a10,dataset,
+apache__dolphinscheduler,GH-17604,e72716b96231906618ac2f0521bee51008e88043,dataset,
+apache__dolphinscheduler,GH-17637,06d365dbe4b045a349ef78a2a886c5256757aff4,dataset,
+apache__dolphinscheduler,GH-17701,9ce565ecc8d3f752ef4f12be247a8af0d42c20bc,not_released,no log pair covers the fault inside the test method
+apache__dolphinscheduler,GH-17704,4f693a5fa14a433b35d559c612e8e07382cc2910,dataset,
+apache__dolphinscheduler,GH-17798,1629d3302532c8b3a5b81dd4b3aafeddd98262b1,dataset,
+apache__dolphinscheduler,GH-18132,7022d56e4be2fb6bf7dce7f3ef5e9f490bbb1f14,dataset,
+apache__dolphinscheduler,GH-18624,def57c5eb07acbfa624c8b5d4ce2e2e17c0b5633,dataset,
+apache__dolphinscheduler,GH-18696,c366e26217d589378eaa98b64f9b29808927a662,dataset,
+apache__druid,GH-19117,ad1b5f28bfecfd7b3cbd7f86d0d03c0af61df9b8,dataset,
+apache__jena,GH-2992,ac26a8ad9a61cbf7b100526cdc11c662bedad4cb,dataset,
+apache__logging-log4j2,GH-1550,59f88190fcd3bc0e6fbd90668625feae3ad1e671,not_released,a covering pair has a log that was not printed
+apache__maven-assembly-plugin,GH-1306,6f86f52782c98aefa9abc128362951d97798b503,dataset,
+apache__maven-filtering,GH-289,270585b4d8cdec5cb6e1026af3bc7de625d5234b,dataset,
+apache__mina-sshd,GH-318,12e5283710a95a48d17ba70a7082fefe936b4964,not_released,a covering pair has a log that was not printed
+apache__mina-sshd,GH-325,2779bbc8d15308ce09b9661df5298c035cc70624,not_released,no log pair covers the fault inside the test method
+apache__mina-sshd,GH-398,511cd92a68d08c591a2a4030728971a1c36172c3,not_released,no log pair covers the fault inside the test method
+apache__mina-sshd,GH-628,827e81e913fc50aceae736347a99caeee034e162,not_released,a covering pair has a log that was not printed
+apache__mina-sshd,GH-733,b5c3b34dbec73477d47a2312773757a307eb7597,not_released,a covering pair has a log that was not printed
+apache__mina-sshd,GH-754,9d1ff5dd0d9b96f91b34ef24a7d759171ea35972,not_released,no log pair covers the fault inside the test method
+apache__mina-sshd,GH-861,32038f1dc4d1a2f327412336ab1243a34c23846c,not_released,no log pair covers the fault inside the test method
+apache__shardingsphere,GH-39189,f785509568ad93706a675d16c4355def9a391648,not_released,a covering pair has a log that was not printed
+atlasmap__atlasmap,GH-3468,15d9e76f743ce67438316e28bf3c7d6a79a50513,dataset,
+atlasmap__atlasmap,GH-3470,a7da120f2ae9bc176782c3d86046442e58138bbd,dataset,
+atlasmap__atlasmap,GH-3507,43405d92345f0f3795492997dbcf43aee259286d,dataset,
+atlasmap__atlasmap,GH-3549,a74a4bab14ebd78dd02f10f9f54425bb2136ad67,dataset,
+atlasmap__atlasmap,GH-3684,83b40e6e3efa4acd44ca55758000ec91ce4f642c,dataset,
+axel3rd__mpg-coach-bot,GH-255,e59df0baf4cdc27e11ca4a63f45550c5f356c524,dataset,
+camunda-community-hub__spring-zeebe,GH-336,459bd3d25cc814cf8e6ea0c2cbf973759ee97abb,dataset,
+camunda-community-hub__spring-zeebe,GH-835,59874c8dea55a36fa06cab3003c73c167a7f75b8,not_released,no log pair covers the fault inside the test method
+citrusframework__citrus,GH-1094,902df4f0a3a68c09b7945bfb2c1a638d2923ede2,dataset,
+citrusframework__citrus,GH-1676,cc6a8a1360e0530bad8f1bdbd2da7cb95bfe7668,dataset,
+cqframework__clinical-reasoning,GH-466,862b4b1fa2494f6c5891b080566e16e54a19b713,dataset,
+dependency-check__DependencyCheck,GH-5898,949661be7154cae1923652928a8eaa0878e64fa5,dataset,
+dependency-check__DependencyCheck,GH-7976,eaa76f9cc425cfb099b327e568cf396ff6e2b5f4,dataset,
+drmacro__wordinator,GH-116,15ca712f105a1b9d0618f05909d0bfc39f33a121,dataset,
+eclipse-hono__hono,GH-2945,846bcdedc633ed6dc09beaed1056a053503aee0e,dataset,
+eclipse-rdf4j__rdf4j,GH-3624,c5341de15796189857fdc2e6937cae522a423819,dataset,
+eclipse-rdf4j__rdf4j,GH-3781,a08dc48d71f4f8f429ad9defdcfa634f3f6cf5e2,dataset,
+eclipse-rdf4j__rdf4j,GH-4073,136844164c1ca154837d94c807b1b89abfeef0f0,dataset,
+eclipse-rdf4j__rdf4j,GH-4978,192b4ea86f4bd589d1716f8ef4574f53f537d1b9,dataset,
+eclipse-rdf4j__rdf4j,GH-5030,6413b023475b869fcd9e20ec6baf22acea9c5701,dataset,
+eclipse-rdf4j__rdf4j,GH-5123,52602440b9bbe92132eb1178ecd3fd4d88959fe2,dataset,
+eclipse-rdf4j__rdf4j,GH-5227,98d8944c3132f9df031aa80b82df2d9e8595a0e0,dataset,
+eclipse-rdf4j__rdf4j,GH-5229,af17bfaa53e8c318a3aea091a6520f87e0f42971,dataset,
+eclipse-rdf4j__rdf4j,GH-5310,433cddc556b0bf0ca4efd133bf8bbaa0c63b4a1e,dataset,
+elastic__apm-agent-java,GH-2284,3752548664bcd88bd8ee65e798688d089e5f8fee,not_released,a covering pair has a log that was not printed
+elastic__apm-agent-java,GH-4590,5cabf9ceeaea99f7a811b896064bf7aa8b131e5d,dataset,
+epam__dm.ai,GH-409,f49b84ac7289fac2d30d291497b4466e2be73744,dataset,
+equinor__neqsim,GH-2299,2a0ee275e645aea10cdc24b0d2566a4339fc6dfc,dataset,
+equinor__neqsim,GH-3769,bc240a88a3a56226a303ae8f4c2ae02f288efe94,dataset,
+equinor__neqsim,GH-4007,7e5cc35b84b8cf0f832705734eb5192b7ac4eeb0,dataset,
+getodk__javarosa,GH-668,3b174cac08484eb9dbbe8aa36b3d997c41ee5d04,dataset,
+getodk__javarosa,GH-743,f5012d9733b470ae140dbda6ba5fad516b45d326,dataset,
+gitflow-incremental-builder__gitflow-incremental-builder,GH-1256,e142ca21e67e6225de13d9e858daf85ee8b34ebc,dataset,
+integrated-application-development__sonar-delphi,GH-325,223a6c32e27e99c7b86078a66aaab51b587d6c3e,dataset,
+intersoftdatalabs-in__percussioncms,GH-4604,19bb3c76bdc7eeb6cd07313ac9fb03a8864b4346,not_released,no log pair covers the fault inside the test method
+intersoftdatalabs-in__percussioncms,GH-4740,987c340caa044e6a867f2b0510fdfa80c0f2ec31,not_released,no log pair covers the fault inside the test method
+jenkins-infra__plugin-health-scoring,GH-483,f347c18eb12700a4ce723ce77f6ff4661ff2692f,dataset,
+jenkins-infra__plugin-modernizer-tool,GH-572,583361308d028165531eea44dfc1594ffb3a6bcf,dataset,
+jenkinsci__pipeline-graph-view-plugin,GH-224,4d8f64de99d3ded41f378d938a7af658a581dc9c,dataset,
+jenkinsci__pipeline-graph-view-plugin,GH-358,ecb8c5841335c42b0062bf35a885ea8e7f646f9c,dataset,
+kafka-ops__julie,GH-364,c3b76b10fa66986adf983e455af8d9bf8a06e262,dataset,
+kafka-ops__julie,GH-378,365b42699760d9a1eaf0e871b28d613bd09e56d8,dataset,
+kbss-cvut__jopa,GH-199,019d3fe4525e50df2b94f1980c32eea8b456e636,dataset,
+kbss-cvut__jopa,GH-407,f27941e1ff2265cc0cf7fa4010c8af211cc37016,not_released,no log pair covers the fault inside the test method
+kit-data-manager__metastore2,GH-334,34c419146b2d064655604b67829fd7d3fd20bbe8,dataset,
+kusumotolab__FinerGit,GH-152,d55a3d53558dfee5a43b7c97f4911f514c47b8a9,dataset,
+michelin__ns4kafka,GH-359,53e3d071addd8350ccfd736f7346752c975076ac,dataset,
+microcks__microcks,GH-2343,da2cb1f250d7e3f6fba7b80c4579db726437ce85,dataset,
+microcks__microcks,GH-2350,2f112b5fef60f6ba04972b69706fb57e681b7f80,dataset,
+nitrite__nitrite-java,GH-990,2e0b69e2fc7d9b72c66e63b479052211a8cb45c9,dataset,
+nlsfi__hakunapi,GH-232,8a24c0ee9e2649c4e4f81bd4aee40be2e0d1f3d0,dataset,
+ohs-foundation__fhir-gateway,GH-42,3dff3419b69a2d26515a80708f65983838b3bb7e,not_released,a covering pair has a log that was not printed
+openmrs__openmrs-module-chartsearchai,GH-433,e0492bb9ae267465be92978f1e4182d1a8f3b64c,dataset,
+openmrs__openmrs-module-chartsearchai,GH-489,fd24ea36368758245d3b87668ce276528e1c5b88,dataset,
+opensearch-project__security,GH-5832,212c1326192f42b78e3fc7dc6b79040790dcf314,dataset,
+opentripplanner__OpenTripPlanner,GH-5203,81e1b7030aef6aca08070e105e50525de72be371,dataset,
+pf4j__pf4j,GH-670,47b006a0be8c3456073587b5d7306510424c3407,dataset,
+pf4j__pf4j,GH-701,6e1bdbf715e1f99c00361a2360e53b4bf7b6fc4f,dataset,
+phax__phoss-smp,GH-238,b338ed08ef5b4faa9acc87247bb987b4d068fee9,not_released,no log pair covers the fault inside the test method
+philterd__phileas,GH-386,cc1b5beb04e54581f4c6ba23a9ce786fde3dd440,dataset,
+philterd__phileas,GH-392,37d576b335a6650623f187edc1f2f51f102faefc,dataset,
+pmd__pmd,GH-6952,3db1fe0ee1f99c7cca3978b14f66efc417a16d11,not_released,a covering pair has a log that was not printed
+pmd__pmd,GH-6961,a24c49986ee429e4907a182383f5902a5f816694,dataset,
+pmd__pmd,GH-7013,65dca5ed07186213bda4df65a6fae0ce31feaa46,not_released,no log pair covers the fault inside the test method
+powsybl__powsybl-diagram,GH-534,b2277094031df3fed6f25c2d3fd029654f909ccd,not_released,no log pair covers the fault inside the test method
+reactor__reactor-netty,GH-4171,f045bb158cf187a9ec9d3efac0104f90aa9e3154,dataset,
+reactor__reactor-netty,GH-4210,4e228a48e2440dfbdfe41bd017fcb224ecb3118e,dataset,
+reactor__reactor-netty,GH-4251,63fe670db7c0284a91d5cf3bc2f4a04f8bcf4812,not_released,two recorded runs of the buggy version differ
+reactor__reactor-netty,GH-4290,c430260dad0f816c95974cfeafcd66506a81fdf7,dataset,
+reactor__reactor-netty,GH-4415,a230865a91facc0289d011044185f326b7f6f12e,not_released,two recorded runs of the buggy version differ
+rodnansol__spring-configuration-property-documenter,GH-20,bf33575b5c1d5bb20ba5d8ee0554cbaa7b12d8d8,dataset,
+s4u__pgpverify-maven-plugin,GH-499,e12c20274871d47e41cfb5a43a0105ebdff7a599,not_released,a covering pair has a log that was not printed
+skylot__jadx,GH-2949,c5aedb312cbdd31e13ca1359b003c7a0d1400451,not_released,two recorded runs of the buggy version differ
+swagger-api__swagger-core,GH-4682,fe918cc9a1294c52116c1158acf2f6540657c812,dataset,
+swagger-api__swagger-core,GH-4800,0b467f3366e3edadd71bef8dcfd9e19fe6b643a9,dataset,
+swagger-api__swagger-core,GH-4967,23d2971e6f9d2b765615efd874185f1501532f57,dataset,
+swagger-api__swagger-core,GH-5012,75b8a35a59646517ea3e94613a39d47b81a9851e,dataset,
+swagger-api__swagger-core,GH-5032,1dafa44cc59c44595f5de6f6648fbfa92924a1b9,dataset,
+swagger-api__swagger-core,GH-5051,6143beea76144a2ae1ab2a09f1c99a59ef83acfb,dataset,
+swagger-api__swagger-core,GH-5061,395083590a304bb3da382ea5850430b089f9b725,dataset,
+swagger-api__swagger-core,GH-5111,a25200409e5ffca7ddf662e81ceb47690d8f8db3,dataset,
+swagger-api__swagger-core,GH-5168,5239cae1ada50e3c9b78f0e5b3a9c170ec4ec273,dataset,
+swagger-api__swagger-core,GH-5185,6f799eedee6110b7deb82cd093b663db14d06654,dataset,
+swedenconnect__signservice,GH-82,4f562ead1734533a9798ce51c3ccc46927438083,dataset,
+terrakube-io__terrakube,GH-1773,760d766b500bc9d9c6b9df466754c7d9992fa3ae,dataset,
+terrakube-io__terrakube,GH-2300,1d66a53766cc0beb06a81a5668a11ef9916a0a63,not_released,no log pair covers the fault inside the test method
+terrakube-io__terrakube,GH-2855,355fe119c5376a1fa7485dddcccd409a04bcb4a4,not_released,no log pair covers the fault inside the test method
+terrakube-io__terrakube,GH-3412,af51941b945f6cdb725ae6b855547bb75856af2f,dataset,
+terrakube-io__terrakube,GH-3490,bae9d1d8170f0a64f202195982e7e324cafd806c,dataset,
+tesshucom__jpsonic,GH-2792,e64286cd37342bf4481fb942b8f8cbe6c468ea10,not_released,no log pair covers the fault inside the test method
+tmseidel__ai-git-bot,GH-273,239c0ea94afc6a5c3b62bfa484579af495ca2664,dataset,
+tmseidel__ai-git-bot,GH-274,75f372d39f193213a250c505d44642b2c8d54d5c,dataset,
+urlaubsverwaltung__urlaubsverwaltung,GH-4624,a48b1f066bdc80461a04d450abd3b58dc6bbe68d,dataset,
+urlaubsverwaltung__urlaubsverwaltung,GH-5022,86a85c321af32c69d6ef4a08f52336c56d721299,dataset,
+vaadin-miki__super-fields,GH-339,56f5b80660b18da58d2c6548c458a56e7216945d,dataset,
+vaadin__hilla,GH-1935,3ef265f45b0991b8232f3600ad8ab9aa2a6e452b,dataset,
+victools__jsonschema-generator,GH-261,7db0d1acbf48738ec207a3c580c3505dc8bb1c86,dataset,
+vmware__build-tools-for-vmware-aria,GH-210,286f4b8db03211d963a611356092ec44bf3131ed,dataset,
+zaproxy__zaproxy,GH-7134,b53b57f0e831b0e54f858f5a84ec29a8b417aef9,not_released,fixed version failed when rerun
+zowe__api-layer,GH-4777,c7c1051bad5d72225e5b982184a1c12961574d8c,dataset,
+zsmartsystems__com.zsmartsystems.zigbee,GH-1306,18036b298c8c85efc52611110d7dab2481c61f55,not_released,a covering pair has a log that was not printed

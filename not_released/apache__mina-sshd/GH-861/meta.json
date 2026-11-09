@@ -1,0 +1,47 @@
+{
+ "project": "apache__mina-sshd",
+ "issue": "GH-861",
+ "summary": "Throwing a SSH_FX_BAD_MESSAGE exception when file_size % 32726 = 0",
+ "fix_commit": "32038f1dc4d1a2f327412336ab1243a34c23846c",
+ "buggy_version": "32038f1dc4 with sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java reverted to 32038f1dc4^",
+ "jdk": "17",
+ "module": "sshd-sftp",
+ "tests": [
+  "SftpClientTest#writeExactBufferSize"
+ ],
+ "faulty_lines": [
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:293",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:310",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:311",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:336",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:343",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:345",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:350",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:351",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:352",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:353",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:354",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:355",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:360",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:361",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:367",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpOutputStreamAsync.java:368"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 13,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "SftpClientTest#writeExactBufferSize": {
+   "threads": 117,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

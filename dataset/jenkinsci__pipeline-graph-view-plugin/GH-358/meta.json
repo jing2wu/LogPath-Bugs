@@ -1,0 +1,36 @@
+{
+ "project": "jenkinsci__pipeline-graph-view-plugin",
+ "issue": "GH-358",
+ "summary": "Parallel skipped stage from declarative not rendered quite right (blue circle is added)",
+ "fix_commit": "ecb8c5841335c42b0062bf35a885ea8e7f646f9c",
+ "buggy_version": "ecb8c58413 with src/main/java/io/jenkins/plugins/pipelinegraphview/treescanner/ParallelBlockRelationship.java, src/main/java/io/jenkins/plugins/pipelinegraphview/utils/NodeRunStatus.java reverted to ecb8c58413^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "PipelineGraphApiTest#gh_358_parallelStagesMarkedAsSkipped"
+ ],
+ "faulty_lines": [
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/treescanner/ParallelBlockRelationship.java:162",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/utils/NodeRunStatus.java:64",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/utils/NodeRunStatus.java:65",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/utils/NodeRunStatus.java:97",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/utils/NodeRunStatus.java:98"
+ ],
+ "covering_pairs": 27,
+ "shortest_covering_pair": 16,
+ "pairs_exported": 85,
+ "covering_pairs_printed": 27,
+ "shortest_covering_pair_printed": 16,
+ "stable": true,
+ "runs": {
+  "PipelineGraphApiTest#gh_358_parallelStagesMarkedAsSkipped": {
+   "threads": 11,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

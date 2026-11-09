@@ -1,0 +1,335 @@
+2026-11-03T20:55:05.495 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testLogicToAvoidStackOverflow()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@33abde31] 2002351766
+2026-11-03T20:55:05.507 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:55:05.528 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:55:05.528 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:55:05.528 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:55:06.006 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - Generating with dryRun=false
+2026-11-03T20:55:06.009 DEBUG org.openapitools.codegen.config.GeneratorSettings [TestNG-test=Surefire test-1] - GeneratorSettings#build: GeneratorSettings{generatorName='java', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='resttemplate', instantiationTypes={}, typeMappings={}, additionalProperties={apiPackage=xyz.abcdef.api, gitHost=github.com, generateClientAsBean=true, releaseNote=Minor update, gitUserId=GIT_USER_ID, gitRepoId=GIT_REPO_ID}, importMappings={}, languageSpecificPrimitives=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T20:55:07.098 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [TestNG-test=Surefire test-1] - start asciidoc codegen
+2026-11-03T20:55:09.202 DEBUG org.openapitools.codegen.config.WorkflowSettings [TestNG-test=Surefire test-1] - WorkflowSettings#build: %s
+2026-11-03T20:55:09.736 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [TestNG-test=Surefire test-1] - Loaded raw data: openapi: 3.0.1
+info:
+  title: "test"
+  version: "1"
+servers:
+- {url: /}
+paths:
+  /v1/program/{programId}/enrollment/{sourceAccountNumber}/fruits:
+    post:
+      operationId: addFruit
+      parameters:
+      - name: programId
+        in: path
+        required: true
+        schema: {pattern: '^[a-z0-9-]*$', type: string}
+      - name: sourceAccountNumber
+        in: path
+        required: true
+        schema: {pattern: '^[a-z0-9_-]*$', type: string}
+      requestBody:
+        content:
+          application/xml:
+            schema: {$ref: '#/components/schemas/FruitInfo'}
+        required: true
+      responses:
+        '401': 
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
+components:
+  schemas:
+    FruitInfo:
+      type: object
+      properties:
+        model: {maxLength: 255, minLength: 0, type: string }
+        installDate: {type: string, format: date-time}
+        manufacturer: {maxLength: 255, minLength: 0, type: string}
+        uuid: {maxLength: 36, minLength: 0,type: string }
+        fruitType:
+          type: string
+          enum: [CHERRY, APPLE, GENERIC]
+        fruitTypeSpecificFields: {$ref: '#/components/schemas/SpecificFields'}
+      xml: {name: fruitInfo}
+    SpecificFields:
+      type: object
+      discriminator:
+        propertyName: name
+        mapping: {AppleSpecificFields: '#/components/schemas/AppleSpecificFields',
+          CherrySpecificFields: '#/components/schemas/CherrySpecificFields', GenericFruitFields: '#/components/schemas/GenericFruitFields'}
+      oneOf:
+      - {$ref: '#/components/schemas/AppleSpecificFields'}
+      - {$ref: '#/components/schemas/CherrySpecificFields'}
+      - {$ref: '#/components/schemas/GenericFruitFields'}
+    CherrySpecificFields:
+      type: object
+      allOf:
+      - {$ref: '#/components/schemas/SpecificFields'}
+      - type: object
+        properties:
+          chargeCapacity: {type: number,  format: double}
+          dischargeCapacity: {type: number, format: double}
+          storageCapacity: {type: number, format: double}
+    AppleSpecificFields:
+      type: object
+      allOf:
+      - {$ref: '#/components/schemas/SpecificFields'}
+      - type: object
+        properties:
+          evseType:
+            type: string
+            enum: [ONE, TWO, THREE]
+    GenericFruitFields:
+      type: object
+      allOf:
+      - {$ref: '#/components/schemas/SpecificFields'}
+      - type: object
+        properties:
+          category: {maxLength: 255, minLength: 0, type: string}
+2026-11-03T20:55:10.310 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [TestNG-test=Surefire test-1] - start asciidoc codegen
+2026-11-03T20:55:10.550 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [TestNG-test=Surefire test-1] - No .openapi-generator-ignore file found.
+2026-11-03T20:55:10.550 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - OpenAPI Generator: java (client)
+2026-11-03T20:55:10.550 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - Generator 'java' is considered stable.
+2026-11-03T20:55:10.556 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [TestNG-test=Surefire test-1] - Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+2026-11-03T20:55:10.556 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [TestNG-test=Surefire test-1] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:55:10.556 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [TestNG-test=Surefire test-1] - Invoker Package Name, originally not set, is now derived from api package name: xyz.abcdef
+2026-11-03T20:55:10.937 DEBUG org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline allOf schema CherrySpecificFields_allOf not refactored into a separate model using $ref.
+2026-11-03T20:55:10.964 DEBUG org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline allOf schema AppleSpecificFields_allOf not refactored into a separate model using $ref.
+2026-11-03T20:55:10.970 DEBUG org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline allOf schema GenericFruitFields_allOf not refactored into a separate model using $ref.
+2026-11-03T20:55:10.970 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [TestNG-test=Surefire test-1] - Processing operation addFruit
+2026-11-03T20:55:11.026 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:55:11.086 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:55:11.283 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for model : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: 255
+        minLength: 0
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:55:11.328 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='model', complexType='null', getter='getModel', setter='setModel', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='model', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.model;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=255, minLength=0, pattern='null', example='null', jsonSchema='{
+  "maxLength" : 255,
+  "minLength" : 0,
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='Model', nameInSnakeCase='MODEL', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:55:11.330 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for installDate : class DateTimeSchema {
+    class Schema {
+        type: string
+        format: date-time
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:55:11.364 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='installDate', complexType='OffsetDateTime', getter='getInstallDate', setter='setInstallDate', description='null', dataType='OffsetDateTime', datatypeWithEnum='OffsetDateTime', dataFormat='date-time', name='installDate', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.installDate;', baseType='OffsetDateTime', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string",
+  "format" : "date-time"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=true, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='InstallDate', nameInSnakeCase='INSTALL_DATE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=date-time, dependentRequired=null, contains=null}
+2026-11-03T20:55:11.369 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for manufacturer : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: 255
+        minLength: 0
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:55:11.383 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='manufacturer', complexType='null', getter='getManufacturer', setter='setManufacturer', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='manufacturer', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.manufacturer;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=255, minLength=0, pattern='null', example='null', jsonSchema='{
+  "maxLength" : 255,
+  "minLength" : 0,
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='Manufacturer', nameInSnakeCase='MANUFACTURER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:55:11.384 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for uuid : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: 36
+        minLength: 0
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:55:11.392 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='uuid', complexType='null', getter='getUuid', setter='setUuid', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='uuid', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.uuid;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=36, minLength=0, pattern='null', example='null', jsonSchema='{
+  "maxLength" : 36,
+  "minLength" : 0,
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='Uuid', nameInSnakeCase='UUID', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:55:11.393 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for fruitType : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:55:11.416 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='fruitType', complexType='null', getter='getFruitType', setter='setFruitType', description='null', dataType='String', datatypeWithEnum='FruitTypeEnum', dataFormat='null', name='fruitType', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.fruitType;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string",
+  "enum" : [ "CHERRY", "APPLE", "GENERIC" ]
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=true, isInnerEnum=true, isEnumRef=true, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=[CHERRY, APPLE, GENERIC], allowableValues={values=[CHERRY, APPLE, GENERIC]}, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='FruitType', nameInSnakeCase='FRUIT_TYPE', enumName='FruitTypeEnum', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:55:11.420 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for fruitTypeSpecificFields : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/SpecificFields
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:55:11.427 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='SpecificFields', baseName='fruitTypeSpecificFields', complexType='SpecificFields', getter='getFruitTypeSpecificFields', setter='setFruitTypeSpecificFields', description='null', dataType='SpecificFields', datatypeWithEnum='SpecificFields', dataFormat='null', name='fruitTypeSpecificFields', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.fruitTypeSpecificFields;', baseType='SpecificFields', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/SpecificFields"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='FruitTypeSpecificFields', nameInSnakeCase='FRUIT_TYPE_SPECIFIC_FIELDS', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/SpecificFields, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:55:12.247 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testLogicToAvoidStackOverflow()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@33abde31] 2002351766
+2026-11-03T20:55:12.251 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:55:12.251 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:55:12.251 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:55:12.251 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

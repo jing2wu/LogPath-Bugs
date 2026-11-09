@@ -1,0 +1,14 @@
+2026-11-03T19:48:05.149 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry loadTestEngines - Discovered TestEngines with IDs: [junit-jupiter (group ID: org.junit.jupiter, artifact ID: junit-jupiter-engine, version: 5.7.2, location: jar:file:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar!/org/junit/jupiter/engine/JupiterTestEngine.class), junit-vintage (group ID: org.junit.vintage, artifact ID: junit-vintage-engine, version: 5.7.2, location: jar:file:/home/user/.m2/repository/org/junit/vintage/junit-vintage-engine/5.7.2/junit-vintage-engine-5.7.2.jar!/org/junit/vintage/engine/VintageTestEngine.class)]
+2026-11-03T19:48:05.282 CONFIG org.junit.platform.launcher.core.ServiceLoaderPostDiscoveryFilterRegistry loadPostDiscoveryFilters - Loaded PostDiscoveryFilter instances: []
+2026-11-03T19:48:05.340 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestExecutionListenerRegistry loadListeners - Loaded TestExecutionListener instances: []
+2026-11-03T19:48:10.788 TRACE org.eclipse.rdf4j.http.server.repository.statements.StatementsController [main] - Applying default cacheSeconds=-1
+2026-11-03T19:48:10.922 INFO org.eclipse.rdf4j.http.server.repository.statements.StatementsController [main] - POST SPARQL update request to repository
+2026-11-03T19:48:10.944 DEBUG org.eclipse.rdf4j.http.server.ProtocolUtil [main] - update=""
+2026-11-03T19:48:10.964 DEBUG org.eclipse.rdf4j.http.server.repository.statements.StatementsController [main] - query language param = null
+2026-11-03T19:48:11.138 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.XMLSchemaDatatypeHandler
+2026-11-03T19:48:11.146 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.RDFDatatypeHandler
+2026-11-03T19:48:11.166 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.DBPediaDatatypeHandler
+2026-11-03T19:48:11.361 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.VirtuosoGeometryDatatypeHandler
+2026-11-03T19:48:11.371 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.GeoSPARQLDatatypeHandler
+2026-11-03T19:48:11.406 DEBUG org.eclipse.rdf4j.rio.LanguageHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.languages.RFC3066LanguageHandler
+2026-11-03T19:48:11.413 DEBUG org.eclipse.rdf4j.rio.LanguageHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.languages.BCP47LanguageHandler

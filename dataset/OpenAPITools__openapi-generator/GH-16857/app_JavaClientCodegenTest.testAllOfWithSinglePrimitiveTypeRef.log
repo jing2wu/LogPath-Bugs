@@ -1,0 +1,781 @@
+2026-11-03T20:00:48.609 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAllOfWithSinglePrimitiveTypeRef()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@6be25526] -1606056703
+2026-11-03T20:00:48.619 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:48.634 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:48.634 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:48.634 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:00:49.338 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [TestNG-test=Surefire test-1] - Loaded raw data: openapi: 3.0.0
+info:
+  title: Foo
+  version: 1.0.0
+paths:
+  /foo:
+    get:
+      responses:
+        '200':
+          description: example
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                 $ref: '#/components/schemas/Payment'
+components:
+  schemas:
+    DateTime:
+      type: string
+      format: date-time
+      example: "2019-01-01T00:00:00"
+    # the following schema shouldn't be generated as model
+    AllOfDatetime:
+      allOf:
+        - $ref: '#/components/schemas/DateTime'
+      example: "2019-01-01 00:00:00" 
+    Payment:
+      type: object
+      properties:
+        date:
+          $ref: '#/components/schemas/AllOfDatetime'
+        amount:
+          type: number
+          format: float
+          example: 625.0
+2026-11-03T20:00:50.161 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - Generating with dryRun=false
+2026-11-03T20:00:51.661 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [TestNG-test=Surefire test-1] - No .openapi-generator-ignore file found.
+2026-11-03T20:00:51.662 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - OpenAPI Generator: java (client)
+2026-11-03T20:00:51.662 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - Generator 'java' is considered stable.
+2026-11-03T20:00:51.664 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [TestNG-test=Surefire test-1] - Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+2026-11-03T20:00:51.664 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [TestNG-test=Surefire test-1] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:00:51.726 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [TestNG-test=Surefire test-1] - Processing operation null
+2026-11-03T20:00:51.781 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:00:51.867 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:00:52.305 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for all_of_0 : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/DateTime
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:00:52.410 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='all_of_0', complexType='OffsetDateTime', getter='getAllOf0', setter='setAllOf0', description='null', dataType='OffsetDateTime', datatypeWithEnum='OffsetDateTime', dataFormat='date-time', name='allOf0', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.all_of_0;', baseType='OffsetDateTime', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "date-time",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=true, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='AllOf0', nameInSnakeCase='ALL_OF0', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=date-time, dependentRequired=null, contains=null}
+2026-11-03T20:00:52.417 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for OffsetDateTime : class DateTimeSchema {
+    class Schema {
+        type: string
+        format: date-time
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:00:52.429 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='OffsetDateTime', complexType='OffsetDateTime', getter='getOffsetDateTime', setter='setOffsetDateTime', description='null', dataType='OffsetDateTime', datatypeWithEnum='OffsetDateTime', dataFormat='date-time', name='_offsetDateTime', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.OffsetDateTime;', baseType='OffsetDateTime', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "date-time",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=true, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='OffsetDateTime', nameInSnakeCase='OFFSET_DATE_TIME', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=date-time, dependentRequired=null, contains=null}
+2026-11-03T20:00:52.503 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for date : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/AllOfDatetime
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:00:52.518 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='AllOfDatetime', baseName='date', complexType='AllOfDatetime', getter='getDate', setter='setDate', description='null', dataType='AllOfDatetime', datatypeWithEnum='AllOfDatetime', dataFormat='null', name='date', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.date;', baseType='AllOfDatetime', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/AllOfDatetime"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Date', nameInSnakeCase='DATE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/AllOfDatetime, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:00:52.524 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for amount : class NumberSchema {
+    class Schema {
+        type: number
+        format: float
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: 625.0
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:00:52.534 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='number', baseName='amount', complexType='null', getter='getAmount', setter='setAmount', description='null', dataType='Float', datatypeWithEnum='Float', dataFormat='float', name='amount', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.amount;', baseType='Float', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='625.0', jsonSchema='{
+  "example" : 625.0,
+  "format" : "float",
+  "type" : "number"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=true, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Amount', nameInSnakeCase='AMOUNT', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=float, dependentRequired=null, contains=null}
+2026-11-03T20:00:52.782 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/model/AllOfDatetime.java
+2026-11-03T20:00:52.795 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/test/java/org/openapitools/client/model/AllOfDatetimeTest.java
+2026-11-03T20:00:52.815 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/docs/AllOfDatetime.md
+2026-11-03T20:00:52.918 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/model/Payment.java
+2026-11-03T20:00:52.927 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/test/java/org/openapitools/client/model/PaymentTest.java
+2026-11-03T20:00:52.936 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/docs/Payment.md
+2026-11-03T20:00:52.937 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: null
+    parameters: null
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: example
+            headers: null
+            content: class Content {
+                {application/json=class MediaType {
+                    schema: class ArraySchema {
+                        class Schema {
+                            type: array
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T20:00:52.947 WARN org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - Empty operationId found for path: get /foo. Renamed to auto-generated operationId: fooGet
+2026-11-03T20:00:53.009 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for response : class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:00:53.029 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for response : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Payment
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:00:53.038 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='Payment', baseName='response', complexType='Payment', getter='getResponse', setter='setResponse', description='null', dataType='Payment', datatypeWithEnum='Payment', dataFormat='null', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='Payment', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Payment"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Payment, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:00:53.038 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='array', baseName='response', complexType='Payment', getter='getResponse', setter='setResponse', description='null', dataType='List<Payment>', datatypeWithEnum='List<Payment>', dataFormat='null', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='List', containerType='array', containerTypeMapped='List', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "items" : {
+    "$ref" : "#/components/schemas/Payment"
+  },
+  "type" : "array"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=true, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=true, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=CodegenProperty{openApiType='Payment', baseName='response', complexType='Payment', getter='getResponse', setter='setResponse', description='null', dataType='Payment', datatypeWithEnum='Payment', dataFormat='null', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='Payment', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Payment"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Payment, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=CodegenProperty{openApiType='Payment', baseName='response', complexType='Payment', getter='getResponse', setter='setResponse', description='null', dataType='Payment', datatypeWithEnum='Payment', dataFormat='null', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='Payment', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Payment"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Payment, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:00:53.040 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for response : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Payment
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:00:53.041 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - Cached fromProperty for response : null required=false
+2026-11-03T20:00:53.042 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for SchemaFor200ResponseBodyApplicationJson : class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:00:53.056 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for schemaFor200ResponseBodyApplicationJson : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Payment
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:00:53.063 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='Payment', baseName='schemaFor200ResponseBodyApplicationJson', complexType='Payment', getter='getSchemaFor200ResponseBodyApplicationJson', setter='setSchemaFor200ResponseBodyApplicationJson', description='null', dataType='Payment', datatypeWithEnum='Payment', dataFormat='null', name='schemaFor200ResponseBodyApplicationJson', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.schemaFor200ResponseBodyApplicationJson;', baseType='Payment', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Payment"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='SchemaFor200ResponseBodyApplicationJson', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_JSON', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Payment, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:00:53.065 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='array', baseName='SchemaFor200ResponseBodyApplicationJson', complexType='Payment', getter='getSchemaFor200ResponseBodyApplicationJson', setter='setSchemaFor200ResponseBodyApplicationJson', description='null', dataType='List<Payment>', datatypeWithEnum='List<Payment>', dataFormat='null', name='schemaFor200ResponseBodyApplicationJson', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor200ResponseBodyApplicationJson;', baseType='List', containerType='array', containerTypeMapped='List', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "items" : {
+    "$ref" : "#/components/schemas/Payment"
+  },
+  "type" : "array"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=true, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=true, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=CodegenProperty{openApiType='Payment', baseName='schemaFor200ResponseBodyApplicationJson', complexType='Payment', getter='getSchemaFor200ResponseBodyApplicationJson', setter='setSchemaFor200ResponseBodyApplicationJson', description='null', dataType='Payment', datatypeWithEnum='Payment', dataFormat='null', name='schemaFor200ResponseBodyApplicationJson', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.schemaFor200ResponseBodyApplicationJson;', baseType='Payment', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Payment"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='SchemaFor200ResponseBodyApplicationJson', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_JSON', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Payment, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=CodegenProperty{openApiType='Payment', baseName='schemaFor200ResponseBodyApplicationJson', complexType='Payment', getter='getSchemaFor200ResponseBodyApplicationJson', setter='setSchemaFor200ResponseBodyApplicationJson', description='null', dataType='Payment', datatypeWithEnum='Payment', dataFormat='null', name='schemaFor200ResponseBodyApplicationJson', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.schemaFor200ResponseBodyApplicationJson;', baseType='Payment', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Payment"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='SchemaFor200ResponseBodyApplicationJson', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_JSON', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Payment, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='SchemaFor200ResponseBodyApplicationJson', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_JSON', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:00:53.083 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for response : class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:00:53.087 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - Cached fromProperty for response : null required=false
+2026-11-03T20:00:53.087 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for response : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Payment
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:00:53.087 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - Cached fromProperty for response : null required=false
+2026-11-03T20:00:53.135 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - debugging generate in ExampleGenerator
+2026-11-03T20:00:53.135 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving example for property class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}...
+2026-11-03T20:00:53.141 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving example for property class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Payment
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}...
+2026-11-03T20:00:53.141 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving model 'Payment' to example
+2026-11-03T20:00:53.141 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Creating example from model values
+2026-11-03T20:00:53.141 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving example for property class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/AllOfDatetime
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}...
+2026-11-03T20:00:53.142 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving model 'AllOfDatetime' to example
+2026-11-03T20:00:53.142 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Using example from spec: 2019-01-01 00:00:00
+2026-11-03T20:00:53.146 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving example for property class NumberSchema {
+    class Schema {
+        type: number
+        format: float
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: 625.0
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}...
+2026-11-03T20:00:53.146 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Example set in openapi spec, returning example: '625.0'
+2026-11-03T20:00:53.173 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for date : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/AllOfDatetime
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:00:53.174 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - Cached fromProperty for date : null required=false
+2026-11-03T20:00:53.174 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for amount : class NumberSchema {
+    class Schema {
+        type: number
+        format: float
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: 625.0
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:00:53.174 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - Cached fromProperty for amount : null required=false
+2026-11-03T20:00:53.225 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:00:53.279 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/api/DefaultApi.java
+2026-11-03T20:00:53.291 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/test/java/org/openapitools/client/api/DefaultApiTest.java
+2026-11-03T20:00:53.310 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/docs/DefaultApi.md
+2026-11-03T20:00:53.318 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:00:53.588 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/pom.xml
+2026-11-03T20:00:53.596 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/README.md
+2026-11-03T20:00:53.600 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/build.gradle
+2026-11-03T20:00:53.602 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/build.sbt
+2026-11-03T20:00:53.606 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/settings.gradle
+2026-11-03T20:00:53.609 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/gradle.properties
+2026-11-03T20:00:53.612 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/AndroidManifest.xml
+2026-11-03T20:00:53.622 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/.travis.yml
+2026-11-03T20:00:53.642 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/ApiClient.java
+2026-11-03T20:00:53.647 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/ServerConfiguration.java
+2026-11-03T20:00:53.648 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/ServerVariable.java
+2026-11-03T20:00:53.659 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/.github/workflows/maven.yml
+2026-11-03T20:00:53.665 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/api/openapi.yaml
+2026-11-03T20:00:53.681 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/StringUtil.java
+2026-11-03T20:00:53.684 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/auth/HttpBasicAuth.java
+2026-11-03T20:00:53.688 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/auth/HttpBearerAuth.java
+2026-11-03T20:00:53.694 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/auth/ApiKeyAuth.java
+2026-11-03T20:00:53.707 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/gradlew
+2026-11-03T20:00:53.709 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/gradlew.bat
+2026-11-03T20:00:53.714 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/gradle/wrapper/gradle-wrapper.properties
+2026-11-03T20:00:53.727 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/gradle/wrapper/gradle-wrapper.jar
+2026-11-03T20:00:53.730 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/git_push.sh
+2026-11-03T20:00:53.735 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/.gitignore
+2026-11-03T20:00:53.746 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/ApiException.java
+2026-11-03T20:00:53.750 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/Configuration.java
+2026-11-03T20:00:53.763 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/Pair.java
+2026-11-03T20:00:53.767 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/auth/Authentication.java
+2026-11-03T20:00:53.772 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/ApiCallback.java
+2026-11-03T20:00:53.779 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/ApiResponse.java
+2026-11-03T20:00:53.788 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/JSON.java
+2026-11-03T20:00:53.795 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/ProgressRequestBody.java
+2026-11-03T20:00:53.809 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/ProgressResponseBody.java
+2026-11-03T20:00:53.816 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/GzipRequestInterceptor.java
+2026-11-03T20:00:53.831 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/src/main/java/org/openapitools/client/model/AbstractOpenApiSchema.java
+2026-11-03T20:00:53.839 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/.openapi-generator-ignore
+2026-11-03T20:00:53.840 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/.openapi-generator/VERSION
+2026-11-03T20:00:53.872 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test_allOf_primitive_type4514145375814087619/.openapi-generator/FILES
+2026-11-03T20:00:54.129 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAllOfWithSinglePrimitiveTypeRef()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@6be25526] -1606056703
+2026-11-03T20:00:54.129 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:54.130 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:54.130 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:54.130 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

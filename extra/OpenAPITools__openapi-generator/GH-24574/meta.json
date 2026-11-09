@@ -1,0 +1,36 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-24574",
+ "summary": "[BUG][java] OAS 3.1 \"type: string\" schema with plain-string oneOf branches no longer collapses to String, generates useless wrapper model (regression since 7.21.0)",
+ "fix_commit": "66f697325c1273ce1aa26813afd286a984acdb49",
+ "buggy_version": "66f697325c with modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java reverted to 66f697325c^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "OpenAPINormalizerTest#testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1745",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1746",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1747",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1748",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1751"
+ ],
+ "covering_pairs": 23,
+ "shortest_covering_pair": 173,
+ "pairs_exported": 33,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 639,
+ "stable": true,
+ "runs": {
+  "OpenAPINormalizerTest#testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

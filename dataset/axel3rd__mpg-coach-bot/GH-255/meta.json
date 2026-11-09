@@ -1,0 +1,35 @@
+{
+ "project": "axel3rd__mpg-coach-bot",
+ "issue": "GH-255",
+ "summary": "Exclude \"followed\" leagues",
+ "fix_commit": "e59df0baf4cdc27e11ca4a63f45550c5f356c524",
+ "buggy_version": "e59df0baf4 with src/main/java/org/blondin/mpg/Main.java, src/main/java/org/blondin/mpg/root/model/League.java reverted to e59df0baf4^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "MainTest#testFollowed"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/blondin/mpg/Main.java:76",
+  "src/main/java/org/blondin/mpg/root/model/League.java:22",
+  "src/main/java/org/blondin/mpg/root/model/League.java:23",
+  "src/main/java/org/blondin/mpg/root/model/League.java:61"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 13,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 13,
+ "stable": true,
+ "runs": {
+  "MainTest#testFollowed": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

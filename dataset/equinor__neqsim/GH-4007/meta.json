@@ -1,0 +1,62 @@
+{
+ "project": "equinor__neqsim",
+ "issue": "GH-4007",
+ "summary": "Vega forced-liquid phase uses vapor density root and publishes nonphysical Cp",
+ "fix_commit": "7e5cc35b84b8cf0f832705734eb5192b7ac4eeb0",
+ "buggy_version": "7e5cc35b84 with src/main/java/neqsim/thermo/phase/PhaseVegaEos.java, src/main/java/neqsim/thermo/util/Vega/NeqSimVega.java, src/main/java/neqsim/thermo/util/Vega/Vega.java reverted to 7e5cc35b84^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "VegaTest#changingPhaseTypeAtSameTemperatureAndPressureRecalculatesVegaProperties",
+  "VegaTest#forcedLiquidUsesDenseVegaRoot",
+  "VegaTest#liquidWrapperRejectsLowDensityRootEvenWithoutSolverError"
+ ],
+ "faulty_lines": [
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:131",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:135",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:136",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:164",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:165",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:33",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:34",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:62",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:80",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:98",
+  "src/main/java/neqsim/thermo/phase/PhaseVegaEos.java:99",
+  "src/main/java/neqsim/thermo/util/Vega/NeqSimVega.java:102",
+  "src/main/java/neqsim/thermo/util/Vega/NeqSimVega.java:107",
+  "src/main/java/neqsim/thermo/util/Vega/NeqSimVega.java:108",
+  "src/main/java/neqsim/thermo/util/Vega/Vega.java:301",
+  "src/main/java/neqsim/thermo/util/Vega/Vega.java:302",
+  "src/main/java/neqsim/thermo/util/Vega/Vega.java:374"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 1747,
+ "pairs_exported": 3,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 1747,
+ "stable": true,
+ "runs": {
+  "VegaTest#changingPhaseTypeAtSameTemperatureAndPressureRecalculatesVegaProperties": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "VegaTest#forcedLiquidUsesDenseVegaRoot": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "VegaTest#liquidWrapperRejectsLowDensityRootEvenWithoutSolverError": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

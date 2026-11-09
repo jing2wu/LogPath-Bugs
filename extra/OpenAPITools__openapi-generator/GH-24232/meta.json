@@ -1,0 +1,34 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-24232",
+ "summary": "[BUG] [JAVA] [SPRING] missing import for schemaMapping in api",
+ "fix_commit": "61c6a9ae1e76b6900f7ca65e0b147d252f9ef851",
+ "buggy_version": "61c6a9ae1e with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java reverted to 61c6a9ae1e^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "SpringCodegenTest#issue_24232"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:4891",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5135",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5730"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 252,
+ "pairs_exported": 97,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 252,
+ "stable": true,
+ "runs": {
+  "SpringCodegenTest#issue_24232": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

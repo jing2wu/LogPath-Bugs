@@ -1,0 +1,32 @@
+{
+ "project": "apache__druid",
+ "issue": "GH-19117",
+ "summary": "Manual native compaction OOM with wide intervals",
+ "fix_commit": "ad1b5f28bfecfd7b3cbd7f86d0d03c0af61df9b8",
+ "buggy_version": "ad1b5f28bf with indexing-service/src/main/java/org/apache/druid/indexing/common/task/CompactionTask.java reverted to ad1b5f28bf^",
+ "jdk": "17",
+ "module": "indexing-service",
+ "tests": [
+  "CompactionTaskParallelRunTest#testRunParallelWithRangePartitioningAndNoUpfrontSegmentFetching"
+ ],
+ "faulty_lines": [
+  "indexing-service/src/main/java/org/apache/druid/indexing/common/task/CompactionTask.java:639"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 614,
+ "pairs_exported": 302,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 614,
+ "stable": true,
+ "runs": {
+  "CompactionTaskParallelRunTest#testRunParallelWithRangePartitioningAndNoUpfrontSegmentFetching": {
+   "threads": 140,
+   "log_threads": 117,
+   "status": "fail",
+   "tests_run": 2
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "several threads (approximate)"
+}

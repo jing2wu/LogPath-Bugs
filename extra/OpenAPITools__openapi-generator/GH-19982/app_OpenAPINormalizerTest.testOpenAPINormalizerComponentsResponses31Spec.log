@@ -1,0 +1,812 @@
+2026-11-03T20:07:33.405 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T20:07:34.087 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 1812169641
+2026-11-03T20:07:34.087 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -245145001
+2026-11-03T20:07:34.087 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 1548706656
+2026-11-03T20:07:34.087 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 2059758977
+2026-11-03T20:07:34.087 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -670999477
+2026-11-03T20:07:34.087 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 383169189
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -199893934
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 498160088
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -1201251173
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 232537281
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -1523996016
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -1957502580
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -154586876
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -451876586
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -1766705558
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -512872145
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -1779166742
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -548193145
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 723911242
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 1405754606
+2026-11-03T20:07:34.088 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -1172727088
+2026-11-03T20:07:34.089 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -856287507
+2026-11-03T20:07:34.089 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 1542799256
+2026-11-03T20:07:34.089 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -521851859
+2026-11-03T20:07:34.089 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 1051386123
+2026-11-03T20:07:34.089 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] -1655542307
+2026-11-03T20:07:34.089 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 1723249044
+2026-11-03T20:07:34.089 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@46268f08] 304740760
+2026-11-03T20:07:34.089 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:07:34.123 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:07:34.124 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:07:34.124 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:07:34.827 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 1372341907
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -684972735
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 1108878922
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 1619931243
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -1110827211
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -56658545
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -639721668
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 58332354
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -1641078907
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -207290453
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -1963823750
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 1897636982
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -594414610
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -891704320
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 2088434004
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -952699879
+2026-11-03T20:07:34.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 2075972820
+2026-11-03T20:07:34.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -988020879
+2026-11-03T20:07:34.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 284083508
+2026-11-03T20:07:34.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 965926872
+2026-11-03T20:07:34.839 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -1612554822
+2026-11-03T20:07:34.839 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -1296115241
+2026-11-03T20:07:34.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 1102971522
+2026-11-03T20:07:34.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -961679593
+2026-11-03T20:07:34.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 611558389
+2026-11-03T20:07:34.845 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -2095370041
+2026-11-03T20:07:34.846 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] 1283421310
+2026-11-03T20:07:34.846 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2bef51f2] -135086974
+2026-11-03T20:07:34.846 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:07:34.857 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:07:34.858 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:07:34.861 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:07:36.390 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4e38d975] 633576517
+2026-11-03T20:07:36.397 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:07:36.397 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:07:36.397 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:07:36.397 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:07:36.881 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+servers:
+  - url: 'http://petstore.swagger.io/v2'
+info:
+  description: >-
+    This is a sample server Petstore server. For this sample, you can use the api key
+    `special-key` to test the authorization filters.
+  version: 1.0.0
+  title: OpenAPI Petstore
+  license:
+    name: Apache-2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: pet
+    description: Everything about your Pets
+paths:
+  '/pet/{petId}':
+    parameters:
+      - name: petId
+        in: path
+        description: ID of pet to return
+        required: true
+        schema:
+          type: integer
+          format: int64
+    get:
+      tags:
+        - pet
+      summary: Find pet by ID
+      description: Returns a single pet
+      operationId: getPetById
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Pet'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: Pet not found
+      security:
+        - api_key: []
+    delete:
+      tags:
+        - pet
+      summary: Deletes a pet
+      description: ''
+      operationId: deletePet
+      parameters:
+        - name: api_key
+          in: header
+          required: false
+          schema:
+            type: string
+      responses:
+        '400':
+          description: Invalid pet value
+      security:
+        - api_key: []
+    patch:
+      tags:
+        - pet
+      summary: Updates a pet
+      description: ''
+      operationId: updatePet
+      responses:
+        '400':
+          description: Invalid pet value
+      requestBody:
+        $ref: '#/components/requestBodies/Pet'
+      security:
+        - api_key: []
+components:
+  responses:
+    JustAnotherResponse:
+      description: JustAnotherResponse
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              uuid:
+                type: integer
+              label:
+                type: string
+  requestBodies:
+    Pet:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Pet'
+        application/xml:
+          schema:
+            $ref: '#/components/schemas/Pet'
+      description: Pet object that needs to be added to the store
+      required: true
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: api_key
+      in: header
+  schemas:
+    Order:
+      title: Pet Order
+      description: An order for a pets from the pet store
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        petId:
+          type: integer
+          format: int64
+        quantity:
+          type: integer
+          format: int32
+        shipDate:
+          type: string
+          format: date-time
+        status:
+          type: string
+          description: Order Status
+          enum:
+            - placed
+            - approved
+            - delivered
+        complete:
+          type: boolean
+          default: false
+      xml:
+        name: Order
+    Category:
+      title: Pet category
+      description: A category for a pet
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+          pattern: '^[a-zA-Z0-9]+[a-zA-Z0-9\.\-_]*[a-zA-Z0-9]+$'
+      xml:
+        name: Category
+    User:
+      title: a User
+      description: A User who is purchasing from the pet store
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        username:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        phone:
+          type: string
+        userStatus:
+          type: integer
+          format: int32
+          description: User Status
+      xml:
+        name: User
+    Tag:
+      title: Pet Tag
+      description: A tag for a pet
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+      xml:
+        name: Tag
+    Pet:
+      title: a Pet
+      description: A pet for sale in the pet store
+      type: object
+      required:
+        - name
+        - photoUrls
+      properties:
+        id:
+          type: integer
+          format: int64
+        category:
+          $ref: '#/components/schemas/Category'
+        name:
+          type: string
+          example: doggie
+        photoUrls:
+          type: array
+          xml:
+            name: photoUrl
+            wrapped: true
+          items:
+            type: string
+        tags:
+          type: array
+          xml:
+            name: tag
+            wrapped: true
+          items:
+            $ref: '#/components/schemas/Tag'
+        status:
+          type: string
+          description: pet status in the store
+          deprecated: true
+          enum:
+            - available
+            - pending
+            - sold
+      xml:
+        name: Pet
+    ApiResponse:
+      title: An uploaded response
+      description: Describes the result of uploading an image resource
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+        type:
+          type: string
+        message:
+          type: string
+2026-11-03T20:07:37.860 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:07:38.122 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5809fa26] 798276854
+2026-11-03T20:07:38.122 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:07:38.122 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:07:38.122 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:07:38.122 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:07:38.196 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@151732fb] -324930101
+2026-11-03T20:07:38.201 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:07:38.201 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:07:38.201 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:07:38.201 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:07:38.212 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+servers:
+  - url: 'http://petstore.swagger.io/v2'
+info:
+  description: >-
+    This is a sample server Petstore server. For this sample, you can use the api key
+    `special-key` to test the authorization filters.
+  version: 1.0.0
+  title: OpenAPI Petstore
+  license:
+    name: Apache-2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: pet
+    description: Everything about your Pets
+paths:
+  '/pet/{petId}':
+    parameters:
+      - name: petId
+        in: path
+        description: ID of pet to return
+        required: true
+        schema:
+          type: integer
+          format: int64
+    get:
+      tags:
+        - pet
+      summary: Find pet by ID
+      description: Returns a single pet
+      operationId: getPetById
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Pet'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: Pet not found
+      security:
+        - api_key: []
+    delete:
+      tags:
+        - pet
+      summary: Deletes a pet
+      description: ''
+      operationId: deletePet
+      parameters:
+        - name: api_key
+          in: header
+          required: false
+          schema:
+            type: string
+      responses:
+        '400':
+          description: Invalid pet value
+      security:
+        - api_key: []
+    patch:
+      tags:
+        - pet
+      summary: Updates a pet
+      description: ''
+      operationId: updatePet
+      responses:
+        '400':
+          description: Invalid pet value
+      requestBody:
+        $ref: '#/components/requestBodies/Pet'
+      security:
+        - api_key: []
+components:
+  responses:
+    JustAnotherResponse:
+      description: JustAnotherResponse
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              uuid:
+                type: integer
+              label:
+                type: string
+  requestBodies:
+    Pet:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Pet'
+        application/xml:
+          schema:
+            $ref: '#/components/schemas/Pet'
+      description: Pet object that needs to be added to the store
+      required: true
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: api_key
+      in: header
+  schemas:
+    Order:
+      title: Pet Order
+      description: An order for a pets from the pet store
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        petId:
+          type: integer
+          format: int64
+        quantity:
+          type: integer
+          format: int32
+        shipDate:
+          type: string
+          format: date-time
+        status:
+          type: string
+          description: Order Status
+          enum:
+            - placed
+            - approved
+            - delivered
+        complete:
+          type: boolean
+          default: false
+      xml:
+        name: Order
+    Category:
+      title: Pet category
+      description: A category for a pet
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+          pattern: '^[a-zA-Z0-9]+[a-zA-Z0-9\.\-_]*[a-zA-Z0-9]+$'
+      xml:
+        name: Category
+    User:
+      title: a User
+      description: A User who is purchasing from the pet store
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        username:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        phone:
+          type: string
+        userStatus:
+          type: integer
+          format: int32
+          description: User Status
+      xml:
+        name: User
+    Tag:
+      title: Pet Tag
+      description: A tag for a pet
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+      xml:
+        name: Tag
+    Pet:
+      title: a Pet
+      description: A pet for sale in the pet store
+      type: object
+      required:
+        - name
+        - photoUrls
+      properties:
+        id:
+          type: integer
+          format: int64
+        category:
+          $ref: '#/components/schemas/Category'
+        name:
+          type: string
+          example: doggie
+        photoUrls:
+          type: array
+          xml:
+            name: photoUrl
+            wrapped: true
+          items:
+            type: string
+        tags:
+          type: array
+          xml:
+            name: tag
+            wrapped: true
+          items:
+            $ref: '#/components/schemas/Tag'
+        status:
+          type: string
+          description: pet status in the store
+          deprecated: true
+          enum:
+            - available
+            - pending
+            - sold
+      xml:
+        name: Pet
+    ApiResponse:
+      title: An uploaded response
+      description: Describes the result of uploading an image resource
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+        type:
+          type: string
+        message:
+          type: string
+2026-11-03T20:07:38.254 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:07:38.367 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5a05dd30] 831561728
+2026-11-03T20:07:38.368 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:07:38.371 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:07:38.371 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:07:38.371 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:07:38.432 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@370c9018] 244798184
+2026-11-03T20:07:38.433 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:07:38.436 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:07:38.437 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:07:38.438 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:07:38.445 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+servers:
+  - url: 'http://petstore.swagger.io/v2'
+info:
+  description: >-
+    This is a sample server Petstore server. For this sample, you can use the api key
+    `special-key` to test the authorization filters.
+  version: 1.0.0
+  title: OpenAPI Petstore
+  license:
+    name: Apache-2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: pet
+    description: Everything about your Pets
+paths:
+  '/pet/{petId}':
+    parameters:
+      - name: petId
+        in: path
+        description: ID of pet to return
+        required: true
+        schema:
+          type: integer
+          format: int64
+    get:
+      tags:
+        - pet
+      summary: Find pet by ID
+      description: Returns a single pet
+      operationId: getPetById
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Pet'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: Pet not found
+      security:
+        - api_key: []
+    delete:
+      tags:
+        - pet
+      summary: Deletes a pet
+      description: ''
+      operationId: deletePet
+      parameters:
+        - name: api_key
+          in: header
+          required: false
+          schema:
+            type: string
+      responses:
+        '400':
+          description: Invalid pet value
+      security:
+        - api_key: []
+    patch:
+      tags:
+        - pet
+      summary: Updates a pet
+      description: ''
+      operationId: updatePet
+      responses:
+        '400':
+          description: Invalid pet value
+      requestBody:
+        $ref: '#/components/requestBodies/Pet'
+      security:
+        - api_key: []
+components:
+  responses:
+    JustAnotherResponse:
+      description: JustAnotherResponse
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              uuid:
+                type: integer
+              label:
+                type: string
+  requestBodies:
+    Pet:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Pet'
+        application/xml:
+          schema:
+            $ref: '#/components/schemas/Pet'
+      description: Pet object that needs to be added to the store
+      required: true
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: api_key
+      in: header
+  schemas:
+    Order:
+      title: Pet Order
+      description: An order for a pets from the pet store
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        petId:
+          type: integer
+          format: int64
+        quantity:
+          type: integer
+          format: int32
+        shipDate:
+          type: string
+          format: date-time
+        status:
+          type: string
+          description: Order Status
+          enum:
+            - placed
+            - approved
+            - delivered
+        complete:
+          type: boolean
+          default: false
+      xml:
+        name: Order
+    Category:
+      title: Pet category
+      description: A category for a pet
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+          pattern: '^[a-zA-Z0-9]+[a-zA-Z0-9\.\-_]*[a-zA-Z0-9]+$'
+      xml:
+        name: Category
+    User:
+      title: a User
+      description: A User who is purchasing from the pet store
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        username:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        phone:
+          type: string
+        userStatus:
+          type: integer
+          format: int32
+          description: User Status
+      xml:
+        name: User
+    Tag:
+      title: Pet Tag
+      description: A tag for a pet
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+      xml:
+        name: Tag
+    Pet:
+      title: a Pet
+      description: A pet for sale in the pet store
+      type: object
+      required:
+        - name
+        - photoUrls
+      properties:
+        id:
+          type: integer
+          format: int64
+        category:
+          $ref: '#/components/schemas/Category'
+        name:
+          type: string
+          example: doggie
+        photoUrls:
+          type: array
+          xml:
+            name: photoUrl
+            wrapped: true
+          items:
+            type: string
+        tags:
+          type: array
+          xml:
+            name: tag
+            wrapped: true
+          items:
+            $ref: '#/components/schemas/Tag'
+        status:
+          type: string
+          description: pet status in the store
+          deprecated: true
+          enum:
+            - available
+            - pending
+            - sold
+      xml:
+        name: Pet
+    ApiResponse:
+      title: An uploaded response
+      description: Describes the result of uploading an image resource
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+        type:
+          type: string
+        message:
+          type: string
+2026-11-03T20:07:38.508 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:07:38.574 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

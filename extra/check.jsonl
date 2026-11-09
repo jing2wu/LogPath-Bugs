@@ -1,0 +1,54 @@
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-10725", "problems": [], "path_entries": 1327, "pairs": 12}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-11323", "problems": [], "path_entries": 5411, "pairs": 31}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-11910", "problems": [], "path_entries": 40994, "pairs": 121}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-11958", "problems": [], "path_entries": 3818, "pairs": 7}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-12545", "problems": [], "path_entries": 2493, "no_source_entries": 2, "pairs": 10}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-12838", "problems": [], "path_entries": 16187, "pairs": 50}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-12929", "problems": [], "path_entries": 13916, "no_source_entries": 2, "pairs": 24}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-13488", "problems": [], "path_entries": 3828, "no_source_entries": 2, "pairs": 24}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-14078", "problems": [], "path_entries": 34066, "pairs": 164}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-14233", "problems": [], "path_entries": 1862, "pairs": 21}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-15077", "problems": [], "path_entries": 1228, "no_source_entries": 714, "pairs": 2}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-15254", "problems": [], "path_entries": 1688, "no_source_entries": 756, "pairs": 5}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-15476", "problems": [], "path_entries": 2282, "no_source_entries": 2, "pairs": 8}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-16501", "problems": [], "path_entries": 8605, "no_source_entries": 380, "pairs": 21}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-16710", "problems": [], "path_entries": 2548, "no_source_entries": 2, "pairs": 10}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-17472", "problems": [], "path_entries": 239526, "no_source_entries": 1156, "pairs": 650}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-17494", "problems": [], "path_entries": 588, "pairs": 8}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-18102", "problems": [], "path_entries": 15121, "no_source_entries": 2, "pairs": 71}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-18206", "problems": [], "path_entries": 53446, "no_source_entries": 864, "pairs": 210}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-19393", "problems": [], "path_entries": 17892, "no_source_entries": 426, "pairs": 64}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-19890", "problems": [], "path_entries": 61237, "no_source_entries": 430, "pairs": 106}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-19982", "problems": [], "path_entries": 5637, "no_source_entries": 1504, "pairs": 29}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-20005", "problems": [], "path_entries": 1822, "no_source_entries": 752, "pairs": 6}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-20115", "problems": [], "path_entries": 11431, "no_source_entries": 430, "pairs": 56}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-20304", "problems": [], "path_entries": 2054, "no_source_entries": 756, "pairs": 11}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-20599", "problems": [], "path_entries": 106016, "no_source_entries": 428, "pairs": 318}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-21077", "problems": [], "path_entries": 27530, "no_source_entries": 428, "pairs": 73}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-21144", "problems": [], "path_entries": 39113, "no_source_entries": 430, "pairs": 62}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-21548", "problems": [], "path_entries": 90771, "no_source_entries": 860, "pairs": 189}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-21680", "problems": [], "path_entries": 1364, "no_source_entries": 755, "pairs": 3}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-21733", "problems": [], "path_entries": 21241, "no_source_entries": 430, "pairs": 77}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-21894", "problems": [], "path_entries": 55020, "no_source_entries": 428, "pairs": 123}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-21898", "problems": [], "path_entries": 106318, "no_source_entries": 428, "pairs": 319}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-22216", "problems": [], "path_entries": 41543, "no_source_entries": 432, "pairs": 107}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-22349", "problems": [], "path_entries": 37763, "no_source_entries": 430, "pairs": 65}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-22355", "problems": [], "path_entries": 29772, "no_source_entries": 1145, "pairs": 79}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-22389", "problems": [], "path_entries": 11802, "no_source_entries": 1520, "pairs": 36}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-22767", "problems": [], "path_entries": 1800, "no_source_entries": 378, "pairs": 11}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23102", "problems": [], "path_entries": 42322, "no_source_entries": 428, "pairs": 86}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23223", "problems": [], "path_entries": 2623, "no_source_entries": 760, "pairs": 6}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23464", "problems": [], "path_entries": 11954, "no_source_entries": 856, "pairs": 40}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23558", "problems": [], "path_entries": 27368, "no_source_entries": 428, "pairs": 86}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23844", "problems": [], "path_entries": 21951, "no_source_entries": 428, "pairs": 34}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23887", "problems": [], "path_entries": 193839, "no_source_entries": 1090, "pairs": 522}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23945", "problems": [], "path_entries": 1396, "no_source_entries": 760, "pairs": 2}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-24139", "problems": [], "path_entries": 37380, "no_source_entries": 1185, "pairs": 63}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-24232", "problems": [], "path_entries": 58181, "no_source_entries": 430, "pairs": 97}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-24298", "problems": [], "path_entries": 32631, "no_source_entries": 1720, "pairs": 63}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-24574", "problems": [], "path_entries": 7526, "no_source_entries": 760, "pairs": 33}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-24851", "problems": [], "path_entries": 53381, "no_source_entries": 1402, "pairs": 171}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-24854", "problems": [], "path_entries": 137821, "pairs": 321}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-25069", "problems": [], "path_entries": 67577, "no_source_entries": 430, "pairs": 86}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-25113", "problems": [], "path_entries": 128006, "no_source_entries": 860, "pairs": 174}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-25263", "problems": [], "path_entries": 58919, "pairs": 73}

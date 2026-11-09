@@ -1,0 +1,43 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-5032",
+ "summary": "[Bug]: @NotEmpty and @NotBlank validation annotations ignored when combined with @Schema(requiredMode = ...)",
+ "fix_commit": "1dafa44cc59c44595f5de6f6648fbfa92924a1b9",
+ "buggy_version": "1dafa44cc5 with modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java reverted to 1dafa44cc5^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "ModelPropertyTest#testNotBlankNotEmptyWithRequiredModeNotRequired",
+  "ModelPropertyTest#testNotBlankNotEmptyWithRequiredModeRequired"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:1844",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:1866",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:1870",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:1881",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:352"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 768,
+ "pairs_exported": 22,
+ "covering_pairs_printed": 6,
+ "shortest_covering_pair_printed": 768,
+ "stable": true,
+ "runs": {
+  "ModelPropertyTest#testNotBlankNotEmptyWithRequiredModeNotRequired": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ModelPropertyTest#testNotBlankNotEmptyWithRequiredModeRequired": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

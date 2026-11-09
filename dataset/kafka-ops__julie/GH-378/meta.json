@@ -1,0 +1,36 @@
+{
+ "project": "kafka-ops__julie",
+ "issue": "GH-378",
+ "summary": "Connector Deployment Null Pointer",
+ "fix_commit": "365b42699760d9a1eaf0e871b28d613bd09e56d8",
+ "buggy_version": "365b426997 with src/main/java/com/purbon/kafka/topology/api/connect/KConnectApiClient.java, src/main/java/com/purbon/kafka/topology/serdes/TopologyCustomDeserializer.java reverted to 365b426997^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "TopologySerdesTest#testOnlyConnectors"
+ ],
+ "faulty_lines": [
+  "src/main/java/com/purbon/kafka/topology/api/connect/KConnectApiClient.java:24",
+  "src/main/java/com/purbon/kafka/topology/api/connect/KConnectApiClient.java:25",
+  "src/main/java/com/purbon/kafka/topology/api/connect/KConnectApiClient.java:99",
+  "src/main/java/com/purbon/kafka/topology/serdes/TopologyCustomDeserializer.java:350",
+  "src/main/java/com/purbon/kafka/topology/serdes/TopologyCustomDeserializer.java:351"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 148,
+ "pairs_exported": 1,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 148,
+ "stable": true,
+ "runs": {
+  "TopologySerdesTest#testOnlyConnectors": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

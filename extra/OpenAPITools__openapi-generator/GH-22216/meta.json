@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-22216",
+ "summary": "[BUG] [Kotlin] overriden variables are not generated with 'override' keyword",
+ "fix_commit": "f861dffde39d4539a637fd20378e4d8eb635249d",
+ "buggy_version": "f861dffde3 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java reverted to f861dffde3^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "KotlinClientCodegenModelTest#polymorphicReferenceOverrides"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java:1048"
+ ],
+ "covering_pairs": 9,
+ "shortest_covering_pair": 132,
+ "pairs_exported": 107,
+ "covering_pairs_printed": 9,
+ "shortest_covering_pair_printed": 132,
+ "stable": true,
+ "runs": {
+  "KotlinClientCodegenModelTest#polymorphicReferenceOverrides": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

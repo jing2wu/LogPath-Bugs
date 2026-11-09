@@ -1,0 +1,34 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-18624",
+ "summary": "[Bug] [Master] WorkflowSerialCoordinator cannot restart after HA failover, serial dispatch dies silently",
+ "fix_commit": "def57c5eb07acbfa624c8b5d4ce2e2e17c0b5633",
+ "buggy_version": "def57c5eb0 with dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/workflow/serial/WorkflowSerialCoordinator.java reverted to def57c5eb0^",
+ "jdk": "17",
+ "module": "dolphinscheduler-master",
+ "tests": [
+  "WorkflowSerialCoordinatorTest#startAfterCloseShouldNotThrow"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/workflow/serial/WorkflowSerialCoordinator.java:172",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/workflow/serial/WorkflowSerialCoordinator.java:173",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/workflow/serial/WorkflowSerialCoordinator.java:174"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 5,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 5,
+ "stable": true,
+ "runs": {
+  "WorkflowSerialCoordinatorTest#startAfterCloseShouldNotThrow": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

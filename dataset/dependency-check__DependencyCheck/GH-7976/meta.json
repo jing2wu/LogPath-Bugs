@@ -1,0 +1,53 @@
+{
+ "project": "dependency-check__DependencyCheck",
+ "issue": "GH-7976",
+ "summary": "ossIndexRemoteErrorWarnOnly is true but maven is stopping for oss index access errors (HttpResponseException: status code: 407, reason phrase: Proxy Authorization Required)",
+ "fix_commit": "eaa76f9cc425cfb099b327e568cf396ff6e2b5f4",
+ "buggy_version": "eaa76f9cc4 with core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java reverted to eaa76f9cc4^",
+ "jdk": "17",
+ "module": "core",
+ "tests": [
+  "OssIndexAnalyzerTest#should_analyzeDependency_return_a_dedicated_error_message_when_401_response_from_sonatype"
+ ],
+ "faulty_lines": [
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:151",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:155",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:156",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:157",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:158",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:159",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:160",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:161",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:168",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:171",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:172",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:173",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:174",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:175",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:176",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:177",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:178",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:179",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:180",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:182",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:183",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/OssIndexAnalyzer.java:184"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 54,
+ "pairs_exported": 27,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 54,
+ "stable": true,
+ "runs": {
+  "OssIndexAnalyzerTest#should_analyzeDependency_return_a_dedicated_error_message_when_401_response_from_sonatype": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,32 @@
+{
+ "project": "terrakube-io__terrakube",
+ "issue": "GH-2300",
+ "summary": "Webhook Creation Fails: Gitlab Project ID Lookup Issue (424 Failed Dependency)",
+ "fix_commit": "1d66a53766cc0beb06a81a5668a11ef9916a0a63",
+ "buggy_version": "1d66a53766 with api/src/main/java/io/terrakube/api/plugin/vcs/provider/gitlab/GitLabWebhookService.java reverted to 1d66a53766^",
+ "jdk": "17",
+ "module": "api",
+ "tests": [
+  "VcsTests#gitlabGetIdProject"
+ ],
+ "faulty_lines": [
+  "api/src/main/java/io/terrakube/api/plugin/vcs/provider/gitlab/GitLabWebhookService.java:168"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 14,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "VcsTests#gitlabGetIdProject": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

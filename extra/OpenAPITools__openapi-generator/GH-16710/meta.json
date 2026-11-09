@@ -1,0 +1,35 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-16710",
+ "summary": "[BUG] [Java] schema with oneOfs will generated model-code where first entry will match all others",
+ "fix_commit": "c301004b7e5956f4bdaab2dfc9a57ade45fddbd8",
+ "buggy_version": "c301004b7e with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java reverted to c301004b7e^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "DefaultCodegenTest#testOneOfEnum"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:2897",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:932",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:942",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:943"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 211,
+ "pairs_exported": 10,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 211,
+ "stable": true,
+ "runs": {
+  "DefaultCodegenTest#testOneOfEnum": {
+   "threads": 4,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

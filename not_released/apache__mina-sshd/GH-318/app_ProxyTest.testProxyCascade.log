@@ -1,0 +1,28 @@
+2026-11-03T21:02:26.458 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:02:26.538 INFO org.apache.sshd.common.io.DefaultIoServiceFactoryFactory [main] - No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2026-11-03T21:02:28.087 INFO org.apache.sshd.common.util.security.bouncycastle.BouncyCastleSecurityProviderRegistrar [main] - getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2026-11-03T21:02:28.093 INFO org.apache.sshd.common.util.security.eddsa.EdDSASecurityProviderRegistrar [main] - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2026-11-03T21:02:28.880 INFO org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider [main] - generateKeyPair(EC) generating host key=nistp256
+2026-11-03T21:02:30.438 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=34855
+2026-11-03T21:02:30.454 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=35769
+2026-11-03T21:02:30.464 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=40313
+2026-11-03T21:02:31.833 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[10d97b64]-nio2-thread-4] - Server at localhost/127.0.0.1:40313 presented unverified EC key: SHA256:0YfduP3p15eO+RxhVTDoQz5nzDPgXaGAVsdVbaf9tkg
+2026-11-03T21:02:32.406 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[47666b39](port=0)-nio2-thread-8] - Session user2@/127.0.0.1:48370 authenticated
+2026-11-03T21:02:33.986 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[10d97b64]-nio2-thread-1] - Server at localhost/127.0.0.1:34855 presented unverified EC key: SHA256:0YfduP3p15eO+RxhVTDoQz5nzDPgXaGAVsdVbaf9tkg
+2026-11-03T21:02:34.444 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[7858d31d](port=0)-nio2-thread-8] - Session userT@/127.0.0.1:43084 authenticated
+2026-11-03T21:02:35.222 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:02:35.575 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=45761
+2026-11-03T21:02:35.595 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=37897
+2026-11-03T21:02:35.611 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=36897
+2026-11-03T21:02:36.365 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[7c424dfe]-nio2-thread-4] - Server at localhost/127.0.0.1:36897 presented unverified EC key: SHA256:0YfduP3p15eO+RxhVTDoQz5nzDPgXaGAVsdVbaf9tkg
+2026-11-03T21:02:36.777 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[7018636a](port=0)-nio2-thread-7] - Session user2@/127.0.0.1:47588 authenticated
+2026-11-03T21:02:37.838 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[7c424dfe]-nio2-thread-1] - Server at localhost/127.0.0.1:45761 presented unverified EC key: SHA256:0YfduP3p15eO+RxhVTDoQz5nzDPgXaGAVsdVbaf9tkg
+2026-11-03T21:02:38.163 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[4a10e65b](port=0)-nio2-thread-7] - Session userT@/127.0.0.1:53044 authenticated
+2026-11-03T21:02:38.535 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:02:38.904 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=35111
+2026-11-03T21:02:38.908 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=44911
+2026-11-03T21:02:38.914 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=34903
+2026-11-03T21:02:39.176 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[4ac7927a]-nio2-thread-4] - Server at localhost/127.0.0.1:34903 presented unverified EC key: SHA256:0YfduP3p15eO+RxhVTDoQz5nzDPgXaGAVsdVbaf9tkg
+2026-11-03T21:02:39.540 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[4b7704ec](port=0)-nio2-thread-6] - Session user2@/127.0.0.1:53162 authenticated
+2026-11-03T21:02:40.490 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[4ac7927a]-nio2-thread-3] - Server at localhost/127.0.0.1:35111 presented unverified EC key: SHA256:0YfduP3p15eO+RxhVTDoQz5nzDPgXaGAVsdVbaf9tkg
+2026-11-03T21:02:40.934 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[21a14c45](port=0)-nio2-thread-7] - Session userT@/127.0.0.1:36132 authenticated

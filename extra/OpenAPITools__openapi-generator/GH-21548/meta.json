@@ -1,0 +1,42 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-21548",
+ "summary": "[BUG][Kotlin-Spring] Wrong parameter type for multipart-form-data file upload when using kotlin-spring with reactive",
+ "fix_commit": "a282c80979754e13663a308ba1beba3c992329bf",
+ "buggy_version": "a282c80979 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java reverted to a282c80979^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "KotlinSpringServerCodegenTest#givenMultipartForm_whenGenerateReactiveDelegate_thenParametersUseRequestPart",
+  "KotlinSpringServerCodegenTest#testNullableMultipartFileReactive"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:727",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:728",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:89",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:90"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 219,
+ "pairs_exported": 189,
+ "covering_pairs_printed": 6,
+ "shortest_covering_pair_printed": 219,
+ "stable": true,
+ "runs": {
+  "KotlinSpringServerCodegenTest#givenMultipartForm_whenGenerateReactiveDelegate_thenParametersUseRequestPart": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "KotlinSpringServerCodegenTest#testNullableMultipartFileReactive": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

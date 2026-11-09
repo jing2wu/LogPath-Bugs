@@ -1,0 +1,22 @@
+2026-11-03T21:56:34.387 INFO io.getunleash.repository.FeatureBackupHandlerFile [main] - Unleash will try to load feature toggle states from temporary backup
+2026-11-03T21:56:34.389 INFO io.getunleash.repository.FeatureBackupHandlerFile [main] -  Unleash could not find the backup-file '/tmp/unleash-multiple_connection_logging-repo.json'. 
+This is expected behavior the first time unleash runs in a new environment.
+2026-11-03T21:56:34.392 INFO io.getunleash.repository.ToggleBootstrapFileProvider [main] - Trying to read feature toggles from bootstrap file found at null
+2026-11-03T21:56:34.402 FINEST sun.net.www.protocol.http.HttpURLConnection plainConnect0 - ProxySelector Request for http://test:4242/client/features
+2026-11-03T21:56:34.427 FINEST sun.net.www.protocol.http.HttpURLConnection plainConnect0 - ProxySelector Request for http://test:4242/client/register
+2026-11-03T21:56:39.184 WARN io.getunleash.event.UnleashSubscriber [unleash-api-executor] - Could not fetch toggles
+io.getunleash.UnleashException: Could not fetch toggles
+2026-11-03T21:56:44.156 WARN io.getunleash.event.UnleashSubscriber [unleash-api-executor] - Could not post to Unleash API
+io.getunleash.UnleashException: Could not post to Unleash API
+2026-11-03T21:56:44.181 INFO io.getunleash.repository.FeatureBackupHandlerFile [main] - Unleash will try to load feature toggle states from temporary backup
+2026-11-03T21:56:44.181 INFO io.getunleash.repository.FeatureBackupHandlerFile [main] -  Unleash could not find the backup-file '/tmp/unleash-multiple_connection_logging-repo.json'. 
+This is expected behavior the first time unleash runs in a new environment.
+2026-11-03T21:56:44.181 INFO io.getunleash.repository.ToggleBootstrapFileProvider [main] - Trying to read feature toggles from bootstrap file found at null
+2026-11-03T21:56:44.182 FINEST sun.net.www.protocol.http.HttpURLConnection plainConnect0 - ProxySelector Request for http://test:4242/client/features
+2026-11-03T21:56:44.182 FINEST sun.net.www.protocol.http.HttpURLConnection plainConnect0 - ProxySelector Request for http://test:4242/client/register
+2026-11-03T21:56:54.193 ERROR io.getunleash.DefaultUnleash [main] - You already have 1 clients for Unleash Configuration [apiKey:[default:development:1234567890123456] appName:[multiple_connection_logging] instanceId:[multiple_connection_instance_id]] running. Please double check your code where you are instantiating the Unleash SDK
+2026-11-03T21:56:54.193 FINEST sun.net.www.protocol.http.HttpURLConnection plainConnect0 - ProxySelector Request for http://test:4242/client/features
+2026-11-03T21:56:54.194 WARN io.getunleash.event.UnleashSubscriber [unleash-api-executor] - Could not fetch toggles
+io.getunleash.UnleashException: Could not fetch toggles
+2026-11-03T21:56:54.194 WARN io.getunleash.event.UnleashSubscriber [unleash-api-executor] - Could not post to Unleash API
+io.getunleash.UnleashException: Could not post to Unleash API

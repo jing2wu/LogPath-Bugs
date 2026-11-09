@@ -1,0 +1,40 @@
+{
+ "project": "OpenIdentityPlatform__commons",
+ "issue": "GH-346",
+ "summary": "Tamper-evident CSV audit: reading or querying a topic with no event yet throws NullPointerException",
+ "fix_commit": "64fbb9be947d8c91d5f1955c5fb7d04d68d9283e",
+ "buggy_version": "64fbb9be94 with commons/audit/handler-csv/src/main/java/org/forgerock/audit/handlers/csv/CsvAuditEventHandler.java reverted to 64fbb9be94^",
+ "jdk": "17",
+ "module": "commons/audit/handler-csv",
+ "tests": [
+  "CsvAuditEventHandlerTest#testQueryOnTamperEvidentAuditLogWithNoEventYet",
+  "CsvAuditEventHandlerTest#testReadingTamperEvidentAuditLogWithNoEventYet"
+ ],
+ "faulty_lines": [
+  "commons/audit/handler-csv/src/main/java/org/forgerock/audit/handlers/csv/CsvAuditEventHandler.java:538",
+  "commons/audit/handler-csv/src/main/java/org/forgerock/audit/handlers/csv/CsvAuditEventHandler.java:540"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 665,
+ "pairs_exported": 16,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 665,
+ "stable": true,
+ "runs": {
+  "CsvAuditEventHandlerTest#testQueryOnTamperEvidentAuditLogWithNoEventYet": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  },
+  "CsvAuditEventHandlerTest#testReadingTamperEvidentAuditLogWithNoEventYet": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

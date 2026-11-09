@@ -1,0 +1,57 @@
+{
+ "project": "powsybl__powsybl-diagram",
+ "issue": "GH-534",
+ "summary": "NullPointerException creating SubstationGraph with line",
+ "fix_commit": "b2277094031df3fed6f25c2d3fd029654f909ccd",
+ "buggy_version": "b227709403 with single-line-diagram/single-line-diagram-core/src/main/java/com/powsybl/sld/builders/SubstationRawBuilder.java reverted to b227709403^",
+ "jdk": "17",
+ "module": "single-line-diagram/single-line-diagram-core",
+ "tests": [
+  "TestCase11SubstationGraph#testH2With2wts",
+  "TestCase11SubstationGraph#testH2With3wts",
+  "TestCase11SubstationGraph#testV2With2wts",
+  "TestCase11SubstationGraph#testV2With3wts"
+ ],
+ "faulty_lines": [
+  "single-line-diagram/single-line-diagram-core/src/main/java/com/powsybl/sld/builders/SubstationRawBuilder.java:17",
+  "single-line-diagram/single-line-diagram-core/src/main/java/com/powsybl/sld/builders/SubstationRawBuilder.java:33",
+  "single-line-diagram/single-line-diagram-core/src/main/java/com/powsybl/sld/builders/SubstationRawBuilder.java:40",
+  "single-line-diagram/single-line-diagram-core/src/main/java/com/powsybl/sld/builders/SubstationRawBuilder.java:55",
+  "single-line-diagram/single-line-diagram-core/src/main/java/com/powsybl/sld/builders/SubstationRawBuilder.java:75"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 48,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "TestCase11SubstationGraph#testH2With2wts": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "TestCase11SubstationGraph#testH2With3wts": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "TestCase11SubstationGraph#testV2With2wts": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "TestCase11SubstationGraph#testV2With3wts": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

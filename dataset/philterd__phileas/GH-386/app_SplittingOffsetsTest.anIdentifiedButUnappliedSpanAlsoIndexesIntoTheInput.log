@@ -1,0 +1,18 @@
+2026-11-03T21:48:02.720 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:48:02.765 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:48:04.401 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy 4ce0fcea2600df29 has no custom dictionaries.
+2026-11-03T21:48:04.412 DEBUG ai.philterd.phileas.services.split.SplitFactory [main] - Instantiating a line width split service.
+2026-11-03T21:48:05.652 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:48:05.653 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:48:05.677 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy c1b0c1c82c948d75 has no custom dictionaries.
+2026-11-03T21:48:05.677 DEBUG ai.philterd.phileas.services.split.SplitFactory [main] - Instantiating a line width split service.
+2026-11-03T21:48:06.384 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:48:06.385 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:48:06.401 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy 7f55f28e7675f150 has no custom dictionaries.
+2026-11-03T21:48:06.402 DEBUG ai.philterd.phileas.services.split.SplitFactory [main] - Instantiating a newline split service.
+2026-11-03T21:48:06.405 DEBUG ai.philterd.phileas.services.split.NewLineSplitService [main] - Split large input exceeding threshold into 11 splits using new line split method.
+2026-11-03T21:48:07.549 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:48:07.549 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:48:07.565 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy bc971a759039e077 has no custom dictionaries.
+2026-11-03T21:48:07.565 DEBUG ai.philterd.phileas.services.split.SplitFactory [main] - Instantiating a newline split service.
+2026-11-03T21:48:07.566 DEBUG ai.philterd.phileas.services.split.NewLineSplitService [main] - Split large input exceeding threshold into 11 splits using new line split method.

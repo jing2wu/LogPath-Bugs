@@ -1,0 +1,33 @@
+{
+ "project": "apache__mina-sshd",
+ "issue": "GH-733",
+ "summary": "Cannot download file from SFTP in parts - NPE in SftpRemotePathChannel.transferTo (buffer is null)",
+ "fix_commit": "b5c3b34dbec73477d47a2312773757a307eb7597",
+ "buggy_version": "b5c3b34dbe with sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpInputStreamAsync.java, sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpRemotePathChannel.java reverted to b5c3b34dbe^",
+ "jdk": "17",
+ "module": "sshd-sftp",
+ "tests": [
+  "SftpFileSystemTest#fileCopyInChunks"
+ ],
+ "faulty_lines": [
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpInputStreamAsync.java:245",
+  "sshd-sftp/src/main/java/org/apache/sshd/sftp/client/impl/SftpRemotePathChannel.java:368"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 2652,
+ "pairs_exported": 15,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "SftpFileSystemTest#fileCopyInChunks": {
+   "threads": 86,
+   "log_threads": 2,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

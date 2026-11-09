@@ -1,0 +1,40 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-24139",
+ "summary": "[BUG][Kotlin-Spring] JsonSetter(nulls = Nulls.FAIL) generated for nullable properties",
+ "fix_commit": "2c7bbce6fc9d9fa657da29b9f76f470f65418fc9",
+ "buggy_version": "2c7bbce6fc with modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java reverted to 2c7bbce6fc^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "OpenAPINormalizerTest#testIssue24139NullableObjectWithPropertiesGetsNullableTrue",
+  "KotlinSpringServerCodegenTest#testIssue24139NullableRefNoJsonSetterNullsFail"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:982",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:983"
+ ],
+ "covering_pairs": 5,
+ "shortest_covering_pair": 618,
+ "pairs_exported": 63,
+ "covering_pairs_printed": 5,
+ "shortest_covering_pair_printed": 618,
+ "stable": true,
+ "runs": {
+  "OpenAPINormalizerTest#testIssue24139NullableObjectWithPropertiesGetsNullableTrue": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "KotlinSpringServerCodegenTest#testIssue24139NullableRefNoJsonSetterNullsFail": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

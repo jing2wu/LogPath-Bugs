@@ -1,0 +1,32 @@
+{
+ "project": "eclipse-rdf4j__rdf4j",
+ "issue": "GH-4978",
+ "summary": "Geo sparql issues with Lucene",
+ "fix_commit": "192b4ea86f4bd589d1716f8ef4574f53f537d1b9",
+ "buggy_version": "192b4ea86f with core/sail/lucene/src/main/java/org/eclipse/rdf4j/sail/lucene/impl/LuceneDocument.java reverted to 192b4ea86f^",
+ "jdk": "17",
+ "module": "core/sail/lucene",
+ "tests": [
+  "LuceneIndexTest#geoSparqlQueryTest"
+ ],
+ "faulty_lines": [
+  "core/sail/lucene/src/main/java/org/eclipse/rdf4j/sail/lucene/impl/LuceneDocument.java:177"
+ ],
+ "covering_pairs": 5,
+ "shortest_covering_pair": 177,
+ "pairs_exported": 39,
+ "covering_pairs_printed": 5,
+ "shortest_covering_pair_printed": 177,
+ "stable": true,
+ "runs": {
+  "LuceneIndexTest#geoSparqlQueryTest": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

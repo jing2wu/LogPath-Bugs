@@ -1,0 +1,36 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-16857",
+ "summary": "[BUG] [Python] Model generated without any properties",
+ "fix_commit": "bfe6157d07dd65d8f4e1e71db3fc4c6623157b9a",
+ "buggy_version": "bfe6157d07 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java reverted to bfe6157d07^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "JavaClientCodegenTest#testAllOfWithSinglePrimitiveTypeRef"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5990",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5991",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5992",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:6000",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:6005"
+ ],
+ "covering_pairs": 5,
+ "shortest_covering_pair": 185,
+ "pairs_exported": 62,
+ "covering_pairs_printed": 5,
+ "shortest_covering_pair_printed": 185,
+ "stable": true,
+ "runs": {
+  "JavaClientCodegenTest#testAllOfWithSinglePrimitiveTypeRef": {
+   "threads": 4,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

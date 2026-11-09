@@ -1,0 +1,9 @@
+2026-11-03T21:40:38.834 DEBUG ReferenceManager [main] - created
+2026-11-03T21:40:38.842 DEBUG ReferenceManager [main] - added reference factory PrefixedRootFactory{roots=[jr://file-csv/]}
+2026-11-03T21:40:38.843 DEBUG ReferenceManager [main] - added reference factory PrefixedRootFactory{roots=[jr://file/]}
+2026-11-03T21:40:39.287 DEBUG XPathEqExpr [main] - XPathEqExpr@2a492f2a()
+2026-11-03T21:40:39.760 INFO XFormParser [main] - Parsing form...
+2026-11-03T21:40:39.771 INFO XFormParser [main] - Reading XML and parsing with kXML2 finished in 7.408 ms
+2026-11-03T21:40:39.784 INFO XFormParser [main] - Consolidating text finished in 12.177 ms
+2026-11-03T21:40:39.987 INFO XFormParser [main] - Title: "Some form"
+2026-11-03T21:40:40.199 DEBUG ReferenceManager [main] - /home/user/log-dataset/logpath-bugs-work/workspace/rwork/getodk__javarosa_x1/target/test-classes/org/javarosa/xform/parse/header_only.csv was derived from jr://file-csv/header_only.csv

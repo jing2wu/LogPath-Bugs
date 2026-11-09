@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-19393",
+ "summary": "[BUG][JAVA] Compilation error for a `Map<String, Set<InnerEnum>>` due to incompatible types",
+ "fix_commit": "8ce332a540f3ece6779bd90d01c73223f5c8edde",
+ "buggy_version": "8ce332a540 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java reverted to 8ce332a540^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "JavaClientCodegenTest#testMapOfInnerEnum_issue19393"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:4326"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 297,
+ "pairs_exported": 64,
+ "covering_pairs_printed": 6,
+ "shortest_covering_pair_printed": 297,
+ "stable": true,
+ "runs": {
+  "JavaClientCodegenTest#testMapOfInnerEnum_issue19393": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

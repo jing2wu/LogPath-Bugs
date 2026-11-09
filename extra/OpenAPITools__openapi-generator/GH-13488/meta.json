@@ -1,0 +1,38 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-13488",
+ "summary": "[BUG] @RequestMapping annotation not allowed on @FeignClient interfaces",
+ "fix_commit": "b2280e23f7d537d6d0f1f09b23124249aed2f661",
+ "buggy_version": "b2280e23f7 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java reverted to b2280e23f7^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "KotlinSpringServerCodegenTest#testNoRequestMappingAnnotation"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:118",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:119",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:391",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:587",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:588",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:97",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:98"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 165,
+ "pairs_exported": 24,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 165,
+ "stable": true,
+ "runs": {
+  "KotlinSpringServerCodegenTest#testNoRequestMappingAnnotation": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

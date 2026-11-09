@@ -1,0 +1,4 @@
+11 [main] DEBUG com.tngtech.archunit.ArchConfiguration - No configuration found in classpath at archunit.properties => Using default configuration
+1012 [main] INFO au.com.integradev.delphi.coverage.DelphiCodeCoverageParser - Parsing coverage report: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/integrated-application-development__sonar-delphi_x0/delphi-frontend/target/test-classes/au/com/integradev/delphi/projects/SimpleProject/delphicodecoveragereports/MismatchedCasingCoverage.xml
+1054 [main] DEBUG au.com.integradev.delphi.coverage.DelphiCodeCoverageParser - File not found in project: GlObAlS.pas
+1054 [main] DEBUG au.com.integradev.delphi.coverage.DelphiCodeCoverageParser - File not found in project: maINwInDoW.pas

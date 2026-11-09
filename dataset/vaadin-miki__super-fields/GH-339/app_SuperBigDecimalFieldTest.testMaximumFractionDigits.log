@@ -1,0 +1,14 @@
+26 [main] TRACE com.vaadin.flow.server.osgi.OSGiAccess - Exception in OSGi container check (which most likely means that this is not OSGi container)
+java.lang.ClassNotFoundException: org.osgi.framework.FrameworkUtil
+55 [main] INFO com.vaadin.flow.server.DefaultDeploymentConfiguration - 
+Vaadin is running in DEBUG MODE.
+When deploying application for production, remember to disable debug features. See more from https://vaadin.com/docs/
+92 [main] DEBUG com.vaadin.flow.server.VaadinService - The application has the following routes: 
+222 [main] DEBUG com.vaadin.flow.component.internal.UIInternals - Fallback chunk is not available, skipping fallback dependencies load
+324 [main] DEBUG org.vaadin.miki.superfields.numbers.AbstractSuperNumberField - pattern updated to (^-?(((\d{1,1}([  ]?\d{3}){0,715827881}([  ]?\d{0,3})?)|(\d{1,3}([  ]?\d{3}){0,715827880}([  ]?\d{0,3})?))(,\d{0,5})?)?$)
+325 [main] DEBUG org.vaadin.miki.superfields.numbers.AbstractSuperNumberField - value 0 to be presented as 0 with 5 decimal digits
+342 [main] DEBUG org.vaadin.miki.superfields.numbers.AbstractSuperNumberField - value 1234567890.12 to be presented as 1 234 567 890,12 with 5 decimal digits
+343 [main] DEBUG org.vaadin.miki.superfields.numbers.AbstractSuperNumberField - received raw value 1 234 567 890,12, matching? true - parsed as 1234567890.12
+344 [main] DEBUG org.vaadin.miki.superfields.numbers.AbstractSuperNumberField - pattern updated to (^-?(((\d{1,1}([  ]?\d{3}){0,715827881}([  ]?\d{0,3})?)|(\d{1,3}([  ]?\d{3}){0,715827880}([  ]?\d{0,3})?))(,\d{0,1})?)?$)
+344 [main] DEBUG org.vaadin.miki.superfields.numbers.AbstractSuperNumberField - value 1234567890.12 to be presented as 1 234 567 890,1 with 1 decimal digits
+344 [main] DEBUG org.vaadin.miki.superfields.numbers.AbstractSuperNumberField - received raw value 1 234 567 890,1, matching? true - parsed as 1234567890.1

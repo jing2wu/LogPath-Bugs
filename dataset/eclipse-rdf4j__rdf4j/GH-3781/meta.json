@@ -1,0 +1,37 @@
+{
+ "project": "eclipse-rdf4j__rdf4j",
+ "issue": "GH-3781",
+ "summary": "Create/update namespace endpoint does not validate the prefix and the URI",
+ "fix_commit": "a08dc48d71f4f8f429ad9defdcfa634f3f6cf5e2",
+ "buggy_version": "a08dc48d71 with tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/namespaces/NamespaceController.java reverted to a08dc48d71^",
+ "jdk": "17",
+ "module": "tools/server-spring",
+ "tests": [
+  "NamespaceControllerTest#addNamespace_prefix_invalid"
+ ],
+ "faulty_lines": [
+  "tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/namespaces/NamespaceController.java:103",
+  "tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/namespaces/NamespaceController.java:104",
+  "tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/namespaces/NamespaceController.java:105",
+  "tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/namespaces/NamespaceController.java:126",
+  "tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/namespaces/NamespaceController.java:127",
+  "tools/server-spring/src/main/java/org/eclipse/rdf4j/http/server/repository/namespaces/NamespaceController.java:48"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 29,
+ "pairs_exported": 14,
+ "covering_pairs_printed": 6,
+ "shortest_covering_pair_printed": 29,
+ "stable": true,
+ "runs": {
+  "NamespaceControllerTest#addNamespace_prefix_invalid": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 6
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

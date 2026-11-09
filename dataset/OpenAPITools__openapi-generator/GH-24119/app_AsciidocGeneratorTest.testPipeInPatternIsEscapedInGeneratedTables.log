@@ -1,0 +1,1245 @@
+2026-11-03T19:48:13.191 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T19:48:13.986 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPingSpecTitle()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@27216cd] 278554604
+2026-11-03T19:48:13.986 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testHeaderAttributesFlagRemovesAttributesFromMarkupHeaderSection()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@27216cd] 18344597
+2026-11-03T19:48:13.986 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testGenerateIndexAsciidocMarkupContent()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@27216cd] -72705142
+2026-11-03T19:48:13.987 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testAdditionalDirectoriesGeneratedIntoHeaderAttributes()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@27216cd] 2029872692
+2026-11-03T19:48:13.987 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testGenerateIndexAsciidocMarkupFileWithAsciidocGenerator()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@27216cd] 1135795075
+2026-11-03T19:48:13.987 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPipeInPatternIsEscapedInGeneratedTables()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@27216cd] 1260481876
+2026-11-03T19:48:13.987 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:48:14.005 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:48:14.005 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:48:14.005 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:48:14.364 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPingSpecTitle()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@7d42c224] -1955916989
+2026-11-03T19:48:14.365 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testHeaderAttributesFlagRemovesAttributesFromMarkupHeaderSection()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@7d42c224] 2078840300
+2026-11-03T19:48:14.365 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testGenerateIndexAsciidocMarkupContent()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@7d42c224] 1987790561
+2026-11-03T19:48:14.365 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testAdditionalDirectoriesGeneratedIntoHeaderAttributes()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@7d42c224] -204598901
+2026-11-03T19:48:14.369 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testGenerateIndexAsciidocMarkupFileWithAsciidocGenerator()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@7d42c224] -1098676518
+2026-11-03T19:48:14.370 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPipeInPatternIsEscapedInGeneratedTables()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@7d42c224] -973989717
+2026-11-03T19:48:14.370 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:48:14.371 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:48:14.372 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:48:14.372 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:48:15.427 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPipeInPatternIsEscapedInGeneratedTables()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@4248ed58] -1963441185
+2026-11-03T19:48:15.427 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:48:15.427 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:48:15.427 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:48:15.427 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:48:15.873 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:48:15.875 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='asciidoc', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={gitRepoId=GIT_REPO_ID, gitHost=github.com, releaseNote=Minor update, gitUserId=GIT_USER_ID}, importMappings={}, forcedGenerateSchemas=[], languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T19:48:17.708 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T19:48:17.714 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/issue24119-asciidoc-table-cell-pipe.yaml', outputDir='/tmp/test5813546376367546093', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, quiet=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T19:48:18.285 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.3
+info:
+  title: asciidoc pipe escaping test
+  version: '1.0'
+paths:
+  /things:
+    get:
+      operationId: getThing
+      parameters:
+        - name: code
+          in: query
+          required: false
+          description: "Accepts AAA|BBBBB"
+          schema:
+            type: string
+            pattern: "^([0-9A-Z]{3})|([0-9A-Z]{5})$"
+        - name: preEscapedCode
+          in: query
+          required: false
+          schema:
+            type: string
+            pattern: "^A\\|B$"
+      responses:
+        '200':
+          description: OK
+components:
+  schemas:
+    Thing:
+      type: object
+      properties:
+        code:
+          type: string
+          description: "Accepts AAA|BBBBB"
+          pattern: "^([0-9A-Z]{3})|([0-9A-Z]{5})$"
+2026-11-03T19:48:18.868 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T19:48:18.928 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T19:48:18.928 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: asciidoc (documentation)
+2026-11-03T19:48:18.928 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'asciidoc' is considered stable.
+2026-11-03T19:48:18.958 WARN org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - base part for include markup lambda not found: null as /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null
+2026-11-03T19:48:18.969 WARN org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - base part for include markup lambda not found: null as /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null
+2026-11-03T19:48:19.337 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:19.418 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:19.443 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - specs: : included: 0 notFound: 0 from null
+2026-11-03T19:48:19.443 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - snippets: : included: 0 notFound: 0 from null
+2026-11-03T19:48:19.981 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Accepts AAA|BBBBB
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:20.055 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='Accepts AAA|BBBBB', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Accepts AAA|BBBBB', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "description" : "Accepts AAA|BBBBB",
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:20.090 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: getThing
+    parameters: [class QueryParameter {
+        class Parameter {
+            name: code
+            in: null
+            description: Accepts AAA|BBBBB
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: form
+            explode: true
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: query
+    }, class QueryParameter {
+        class Parameter {
+            name: preEscapedCode
+            in: null
+            description: null
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: form
+            explode: true
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: ^A\|B$
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: query
+    }]
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:48:20.388 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:20.400 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:20.404 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:20.404 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for code : null required=false
+2026-11-03T19:48:20.407 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=true, isPathParam=false, isHeaderParam=false, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=true, baseName='code', paramName='code', dataType='String', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='Accepts AAA|BBBBB', unescapedDescription='Accepts AAA|BBBBB', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='form', deepObject='false', isFormStyle='true', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example='code_example', examples='null', jsonSchema='{
+  "name" : "code",
+  "in" : "query",
+  "description" : "Accepts AAA|BBBBB",
+  "required" : false,
+  "style" : "form",
+  "explode" : true,
+  "schema" : {
+    "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=true, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T19:48:20.420 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for preEscapedCode: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^A\|B$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:20.435 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='preEscapedCode', complexType='string', getter='getPreEscapedCode', setter='setPreEscapedCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='preEscapedCode', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.preEscapedCode;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^A\|B$/', example='null', jsonSchema='{
+  "pattern" : "^A\\|B$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='preEscapedCode', nameInPascalCase='PreEscapedCode', nameInSnakeCase='PRE_ESCAPED_CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:20.439 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for preEscapedCode: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^A\|B$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:20.439 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for preEscapedCode : null required=false
+2026-11-03T19:48:20.441 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=true, isPathParam=false, isHeaderParam=false, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=true, baseName='preEscapedCode', paramName='preEscapedCode', dataType='String', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='form', deepObject='false', isFormStyle='true', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example='preEscapedCode_example', examples='null', jsonSchema='{
+  "name" : "preEscapedCode",
+  "in" : "query",
+  "required" : false,
+  "style" : "form",
+  "explode" : true,
+  "schema" : {
+    "pattern" : "^A\\|B$",
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=true, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='/^A\|B$/', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='preEscapedCode', complexType='string', getter='getPreEscapedCode', setter='setPreEscapedCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='preEscapedCode', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.preEscapedCode;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^A\|B$/', example='null', jsonSchema='{
+  "pattern" : "^A\\|B$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='preEscapedCode', nameInPascalCase='PreEscapedCode', nameInSnakeCase='PRE_ESCAPED_CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T19:48:20.463 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:20.474 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:20.509 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/intro.adoc
+2026-11-03T19:48:20.526 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 2. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/spec.adoc
+2026-11-03T19:48:20.554 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/http-request.adoc
+2026-11-03T19:48:20.554 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 2. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/http-response.adoc
+2026-11-03T19:48:20.555 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip link for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/GET.json
+2026-11-03T19:48:20.555 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 3. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/implementation.adoc
+2026-11-03T19:48:20.568 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5813546376367546093/index.adoc
+2026-11-03T19:48:20.569 INFO org.openapitools.codegen.TemplateManager [main] - Skipped /tmp/test5813546376367546093/.openapi-generator-ignore (Skipped by generateMetadata option supplied by user.)
+2026-11-03T19:48:20.573 INFO org.openapitools.codegen.TemplateManager [main] - Skipped /tmp/test5813546376367546093/.openapi-generator/VERSION (Skipped by generateMetadata option supplied by user.)
+2026-11-03T19:48:20.798 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPipeInPatternIsEscapedInGeneratedTables()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@36f93ea3] 2141754666
+2026-11-03T19:48:20.803 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:48:20.806 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:48:20.806 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:48:20.807 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:48:20.847 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPipeInPatternIsEscapedInGeneratedTables()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@14972600] 1564900487
+2026-11-03T19:48:20.847 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:48:20.848 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:48:20.848 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:48:20.848 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:48:20.869 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:48:20.869 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='asciidoc', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={gitRepoId=GIT_REPO_ID, gitHost=github.com, releaseNote=Minor update, gitUserId=GIT_USER_ID}, importMappings={}, forcedGenerateSchemas=[], languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T19:48:20.905 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T19:48:20.912 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/issue24119-asciidoc-table-cell-pipe.yaml', outputDir='/tmp/test3437675497201156089', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, quiet=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T19:48:20.917 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.3
+info:
+  title: asciidoc pipe escaping test
+  version: '1.0'
+paths:
+  /things:
+    get:
+      operationId: getThing
+      parameters:
+        - name: code
+          in: query
+          required: false
+          description: "Accepts AAA|BBBBB"
+          schema:
+            type: string
+            pattern: "^([0-9A-Z]{3})|([0-9A-Z]{5})$"
+        - name: preEscapedCode
+          in: query
+          required: false
+          schema:
+            type: string
+            pattern: "^A\\|B$"
+      responses:
+        '200':
+          description: OK
+components:
+  schemas:
+    Thing:
+      type: object
+      properties:
+        code:
+          type: string
+          description: "Accepts AAA|BBBBB"
+          pattern: "^([0-9A-Z]{3})|([0-9A-Z]{5})$"
+2026-11-03T19:48:20.951 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T19:48:20.954 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T19:48:20.957 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: asciidoc (documentation)
+2026-11-03T19:48:20.957 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'asciidoc' is considered stable.
+2026-11-03T19:48:20.958 WARN org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - base part for include markup lambda not found: null as /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null
+2026-11-03T19:48:20.958 WARN org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - base part for include markup lambda not found: null as /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null
+2026-11-03T19:48:20.963 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:20.965 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:20.966 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - specs: : included: 0 notFound: 0 from null
+2026-11-03T19:48:20.967 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - snippets: : included: 0 notFound: 0 from null
+2026-11-03T19:48:20.972 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Accepts AAA|BBBBB
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:20.980 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='Accepts AAA|BBBBB', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Accepts AAA|BBBBB', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "description" : "Accepts AAA|BBBBB",
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:20.983 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: getThing
+    parameters: [class QueryParameter {
+        class Parameter {
+            name: code
+            in: null
+            description: Accepts AAA|BBBBB
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: form
+            explode: true
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: query
+    }, class QueryParameter {
+        class Parameter {
+            name: preEscapedCode
+            in: null
+            description: null
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: form
+            explode: true
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: ^A\|B$
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: query
+    }]
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:48:20.989 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:20.995 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:20.997 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:20.998 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for code : null required=false
+2026-11-03T19:48:21.002 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=true, isPathParam=false, isHeaderParam=false, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=true, baseName='code', paramName='code', dataType='String', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='Accepts AAA|BBBBB', unescapedDescription='Accepts AAA|BBBBB', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='form', deepObject='false', isFormStyle='true', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example='code_example', examples='null', jsonSchema='{
+  "name" : "code",
+  "in" : "query",
+  "description" : "Accepts AAA|BBBBB",
+  "required" : false,
+  "style" : "form",
+  "explode" : true,
+  "schema" : {
+    "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=true, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T19:48:21.005 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for preEscapedCode: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^A\|B$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:21.012 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='preEscapedCode', complexType='string', getter='getPreEscapedCode', setter='setPreEscapedCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='preEscapedCode', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.preEscapedCode;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^A\|B$/', example='null', jsonSchema='{
+  "pattern" : "^A\\|B$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='preEscapedCode', nameInPascalCase='PreEscapedCode', nameInSnakeCase='PRE_ESCAPED_CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:21.013 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for preEscapedCode: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^A\|B$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:21.013 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for preEscapedCode : null required=false
+2026-11-03T19:48:21.019 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=true, isPathParam=false, isHeaderParam=false, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=true, baseName='preEscapedCode', paramName='preEscapedCode', dataType='String', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='form', deepObject='false', isFormStyle='true', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example='preEscapedCode_example', examples='null', jsonSchema='{
+  "name" : "preEscapedCode",
+  "in" : "query",
+  "required" : false,
+  "style" : "form",
+  "explode" : true,
+  "schema" : {
+    "pattern" : "^A\\|B$",
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=true, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='/^A\|B$/', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='preEscapedCode', complexType='string', getter='getPreEscapedCode', setter='setPreEscapedCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='preEscapedCode', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.preEscapedCode;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^A\|B$/', example='null', jsonSchema='{
+  "pattern" : "^A\\|B$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='preEscapedCode', nameInPascalCase='PreEscapedCode', nameInSnakeCase='PRE_ESCAPED_CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T19:48:21.024 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:21.025 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:21.045 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/intro.adoc
+2026-11-03T19:48:21.049 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 2. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/spec.adoc
+2026-11-03T19:48:21.056 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/http-request.adoc
+2026-11-03T19:48:21.057 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 2. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/http-response.adoc
+2026-11-03T19:48:21.061 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip link for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/GET.json
+2026-11-03T19:48:21.062 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 3. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/implementation.adoc
+2026-11-03T19:48:21.073 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3437675497201156089/index.adoc
+2026-11-03T19:48:21.074 INFO org.openapitools.codegen.TemplateManager [main] - Skipped /tmp/test3437675497201156089/.openapi-generator-ignore (Skipped by generateMetadata option supplied by user.)
+2026-11-03T19:48:21.074 INFO org.openapitools.codegen.TemplateManager [main] - Skipped /tmp/test3437675497201156089/.openapi-generator/VERSION (Skipped by generateMetadata option supplied by user.)
+2026-11-03T19:48:21.171 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPipeInPatternIsEscapedInGeneratedTables()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@4f3d49e4] -1746100117
+2026-11-03T19:48:21.171 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:48:21.172 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:48:21.172 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:48:21.172 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:48:21.217 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AsciidocGeneratorTest.testPipeInPatternIsEscapedInGeneratedTables()[pri:0, instance:org.openapitools.codegen.asciidoc.AsciidocGeneratorTest@53a65166] -1672108051
+2026-11-03T19:48:21.217 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:48:21.217 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:48:21.217 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:48:21.217 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:48:21.226 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:48:21.226 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='asciidoc', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={gitRepoId=GIT_REPO_ID, gitHost=github.com, releaseNote=Minor update, gitUserId=GIT_USER_ID}, importMappings={}, forcedGenerateSchemas=[], languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T19:48:21.251 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T19:48:21.252 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/issue24119-asciidoc-table-cell-pipe.yaml', outputDir='/tmp/test13577902266882111945', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, quiet=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T19:48:21.258 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.3
+info:
+  title: asciidoc pipe escaping test
+  version: '1.0'
+paths:
+  /things:
+    get:
+      operationId: getThing
+      parameters:
+        - name: code
+          in: query
+          required: false
+          description: "Accepts AAA|BBBBB"
+          schema:
+            type: string
+            pattern: "^([0-9A-Z]{3})|([0-9A-Z]{5})$"
+        - name: preEscapedCode
+          in: query
+          required: false
+          schema:
+            type: string
+            pattern: "^A\\|B$"
+      responses:
+        '200':
+          description: OK
+components:
+  schemas:
+    Thing:
+      type: object
+      properties:
+        code:
+          type: string
+          description: "Accepts AAA|BBBBB"
+          pattern: "^([0-9A-Z]{3})|([0-9A-Z]{5})$"
+2026-11-03T19:48:21.291 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T19:48:21.293 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T19:48:21.294 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: asciidoc (documentation)
+2026-11-03T19:48:21.294 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'asciidoc' is considered stable.
+2026-11-03T19:48:21.294 WARN org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - base part for include markup lambda not found: null as /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null
+2026-11-03T19:48:21.294 WARN org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - base part for include markup lambda not found: null as /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null
+2026-11-03T19:48:21.298 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:21.298 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:21.299 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - specs: : included: 0 notFound: 0 from null
+2026-11-03T19:48:21.300 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - snippets: : included: 0 notFound: 0 from null
+2026-11-03T19:48:21.301 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Accepts AAA|BBBBB
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:21.304 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='Accepts AAA|BBBBB', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Accepts AAA|BBBBB', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "description" : "Accepts AAA|BBBBB",
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:21.306 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: getThing
+    parameters: [class QueryParameter {
+        class Parameter {
+            name: code
+            in: null
+            description: Accepts AAA|BBBBB
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: form
+            explode: true
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: query
+    }, class QueryParameter {
+        class Parameter {
+            name: preEscapedCode
+            in: null
+            description: null
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: form
+            explode: true
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: ^A\|B$
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: query
+    }]
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:48:21.312 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:21.315 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:21.316 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^([0-9A-Z]{3})|([0-9A-Z]{5})$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:21.316 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for code : null required=false
+2026-11-03T19:48:21.317 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=true, isPathParam=false, isHeaderParam=false, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=true, baseName='code', paramName='code', dataType='String', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='Accepts AAA|BBBBB', unescapedDescription='Accepts AAA|BBBBB', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='form', deepObject='false', isFormStyle='true', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example='code_example', examples='null', jsonSchema='{
+  "name" : "code",
+  "in" : "query",
+  "description" : "Accepts AAA|BBBBB",
+  "required" : false,
+  "style" : "form",
+  "explode" : true,
+  "schema" : {
+    "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=true, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='code', complexType='string', getter='getCode', setter='setCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^([0-9A-Z]{3})|([0-9A-Z]{5})$/', example='null', jsonSchema='{
+  "pattern" : "^([0-9A-Z]{3})|([0-9A-Z]{5})$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T19:48:21.319 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for preEscapedCode: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^A\|B$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:21.322 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='preEscapedCode', complexType='string', getter='getPreEscapedCode', setter='setPreEscapedCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='preEscapedCode', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.preEscapedCode;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^A\|B$/', example='null', jsonSchema='{
+  "pattern" : "^A\\|B$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='preEscapedCode', nameInPascalCase='PreEscapedCode', nameInSnakeCase='PRE_ESCAPED_CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:48:21.323 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for preEscapedCode: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: ^A\|B$
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:48:21.324 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for preEscapedCode : null required=false
+2026-11-03T19:48:21.327 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=true, isPathParam=false, isHeaderParam=false, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=true, baseName='preEscapedCode', paramName='preEscapedCode', dataType='String', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='form', deepObject='false', isFormStyle='true', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example='preEscapedCode_example', examples='null', jsonSchema='{
+  "name" : "preEscapedCode",
+  "in" : "query",
+  "required" : false,
+  "style" : "form",
+  "explode" : true,
+  "schema" : {
+    "pattern" : "^A\\|B$",
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=true, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='/^A\|B$/', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='preEscapedCode', complexType='string', getter='getPreEscapedCode', setter='setPreEscapedCode', description='null', dataType='String', datatypeWithEnum='String', dataFormat='null', name='preEscapedCode', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.preEscapedCode;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='/^A\|B$/', example='null', jsonSchema='{
+  "pattern" : "^A\\|B$",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=true, isInherited=false, discriminatorValue='null', nameInCamelCase='preEscapedCode', nameInPascalCase='PreEscapedCode', nameInSnakeCase='PRE_ESCAPED_CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T19:48:21.331 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:21.332 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:48:21.334 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/intro.adoc
+2026-11-03T19:48:21.335 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 2. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/spec.adoc
+2026-11-03T19:48:21.343 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/http-request.adoc
+2026-11-03T19:48:21.343 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 2. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/http-response.adoc
+2026-11-03T19:48:21.343 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 1. file not found, skip link for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/GET.json
+2026-11-03T19:48:21.343 DEBUG org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - 3. file not found, skip include for: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/OpenAPITools__openapi-generator_x2/modules/openapi-generator/null/things/GET/implementation.adoc
+2026-11-03T19:48:21.349 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test13577902266882111945/index.adoc
+2026-11-03T19:48:21.350 INFO org.openapitools.codegen.TemplateManager [main] - Skipped /tmp/test13577902266882111945/.openapi-generator-ignore (Skipped by generateMetadata option supplied by user.)
+2026-11-03T19:48:21.350 INFO org.openapitools.codegen.TemplateManager [main] - Skipped /tmp/test13577902266882111945/.openapi-generator/VERSION (Skipped by generateMetadata option supplied by user.)
+2026-11-03T19:48:21.428 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

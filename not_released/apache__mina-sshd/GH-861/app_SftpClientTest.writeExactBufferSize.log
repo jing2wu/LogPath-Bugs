@@ -1,0 +1,14 @@
+2026-11-05T11:08:58.138 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:08:58.553 INFO org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider [main] - generateKeyPair(EC) generating host key=nistp256
+2026-11-05T11:08:58.778 INFO org.apache.sshd.common.io.DefaultIoServiceFactoryFactory [main] - Using Nio2ServiceFactoryFactory
+2026-11-05T11:08:58.811 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=37761
+2026-11-05T11:08:59.084 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[3d195d15]-nio2-thread-4] - Server at /127.0.0.1:37761 presented unverified EC key: SHA256:jwSi50rZ2XvfpIa0o6vdZA3yx/nXPlafDFVxRNXyPJE
+2026-11-05T11:08:59.212 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[ca546a1](port=0)-nio2-thread-6] - Session writeExactBufferSize@/127.0.0.1:34470 authenticated
+2026-11-05T11:09:00.125 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:09:00.129 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=41017
+2026-11-05T11:09:00.161 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[ecc5101]-nio2-thread-4] - Server at /127.0.0.1:41017 presented unverified EC key: SHA256:jwSi50rZ2XvfpIa0o6vdZA3yx/nXPlafDFVxRNXyPJE
+2026-11-05T11:09:00.198 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[5f6e6902](port=0)-nio2-thread-6] - Session writeExactBufferSize@/127.0.0.1:54816 authenticated
+2026-11-05T11:09:00.633 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:09:00.638 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=33199
+2026-11-05T11:09:00.669 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[1080234b]-nio2-thread-4] - Server at /127.0.0.1:33199 presented unverified EC key: SHA256:jwSi50rZ2XvfpIa0o6vdZA3yx/nXPlafDFVxRNXyPJE
+2026-11-05T11:09:00.702 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[1c027237](port=0)-nio2-thread-5] - Session writeExactBufferSize@/127.0.0.1:56092 authenticated

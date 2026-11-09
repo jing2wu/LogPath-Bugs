@@ -1,0 +1,42 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-22389",
+ "summary": "[BUG][Go] Missing imports for array of files and date-time parameters",
+ "fix_commit": "e1edb9e64571c2cbc4ad419573a0ecfd5af15b8d",
+ "buggy_version": "e1edb9e645 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java reverted to e1edb9e645^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "AbstractGoCodegenTest#testOsImportForArrayOfBinaryParametersInOperations",
+  "AbstractGoCodegenTest#testTimeImportForArrayOfDateTimeParametersInOperations"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java:550",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java:556",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java:651",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java:657"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 1070,
+ "pairs_exported": 36,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 1070,
+ "stable": true,
+ "runs": {
+  "AbstractGoCodegenTest#testOsImportForArrayOfBinaryParametersInOperations": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "AbstractGoCodegenTest#testTimeImportForArrayOfDateTimeParametersInOperations": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

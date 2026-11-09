@@ -1,0 +1,41 @@
+{
+ "project": "camunda-community-hub__spring-zeebe",
+ "issue": "GH-336",
+ "summary": "`ProcessDefinitionImporter` only imports 10 definitions",
+ "fix_commit": "459bd3d25cc814cf8e6ea0c2cbf973759ee97abb",
+ "buggy_version": "459bd3d25c with connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/importer/ProcessDefinitionImporter.java, connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/operate/OperateClientFactory.java, connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/operate/OperateClientLifecycle.java reverted to 459bd3d25c^",
+ "jdk": "17",
+ "module": "connector-runtime",
+ "tests": [
+  "ProcessDefinitionImporterTest#shouldRequestProcessDefinition_Pagination"
+ ],
+ "faulty_lines": [
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/importer/ProcessDefinitionImporter.java:52",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/importer/ProcessDefinitionImporter.java:55",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/importer/ProcessDefinitionImporter.java:56",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/importer/ProcessDefinitionImporter.java:58",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/importer/ProcessDefinitionImporter.java:59",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/operate/OperateClientFactory.java:118",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/operate/OperateClientFactory.java:119",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/operate/OperateClientFactory.java:126",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/operate/OperateClientFactory.java:128",
+  "connector-runtime/src/main/java/io/camunda/connector/runtime/inbound/operate/OperateClientFactory.java:132"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 7,
+ "pairs_exported": 1,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 7,
+ "stable": true,
+ "runs": {
+  "ProcessDefinitionImporterTest#shouldRequestProcessDefinition_Pagination": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

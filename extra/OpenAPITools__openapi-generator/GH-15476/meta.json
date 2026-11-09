@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-15476",
+ "summary": "[BUG][python-nextgen] Cannot handle query parameters with non-ref enums",
+ "fix_commit": "1531ad48d0f5ed03036d5253e60cd5077d0d90ad",
+ "buggy_version": "1531ad48d0 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java reverted to 1531ad48d0^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "DefaultCodegenTest#testInlineEnumType"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3953"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 326,
+ "pairs_exported": 8,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 326,
+ "stable": true,
+ "runs": {
+  "DefaultCodegenTest#testInlineEnumType": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

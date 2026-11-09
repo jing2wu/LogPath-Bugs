@@ -1,0 +1,33 @@
+{
+ "project": "tmseidel__ai-git-bot",
+ "issue": "GH-274",
+ "summary": "fix(review): propagate bot response write failures",
+ "fix_commit": "75f372d39f193213a250c505d44642b2c8d54d5c",
+ "buggy_version": "75f372d39f with src/main/java/org/remus/giteabot/review/CodeReviewService.java reverted to 75f372d39f^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "CodeReviewServiceTest#handleBotCommand_commentWriteFailurePropagates"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:217",
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:218"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 10,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 10,
+ "stable": true,
+ "runs": {
+  "CodeReviewServiceTest#handleBotCommand_commentWriteFailurePropagates": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

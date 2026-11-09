@@ -1,0 +1,34 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-18132",
+ "summary": "[Bug][API] WorkflowDefinition version is not synced back after create/update, always returns 0",
+ "fix_commit": "7022d56e4be2fb6bf7dce7f3ef5e9f490bbb1f14",
+ "buggy_version": "7022d56e4b with dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/service/impl/WorkflowDefinitionServiceImpl.java reverted to 7022d56e4b^",
+ "jdk": "17",
+ "module": "dolphinscheduler-api",
+ "tests": [
+  "WorkflowDefinitionServiceTest#testCreateWorkflowDefinitionShouldSyncVersionToResponse"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/service/impl/WorkflowDefinitionServiceImpl.java:332",
+  "dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/service/impl/WorkflowDefinitionServiceImpl.java:333",
+  "dolphinscheduler-api/src/main/java/org/apache/dolphinscheduler/api/service/impl/WorkflowDefinitionServiceImpl.java:824"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 8,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 8,
+ "stable": true,
+ "runs": {
+  "WorkflowDefinitionServiceTest#testCreateWorkflowDefinitionShouldSyncVersionToResponse": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

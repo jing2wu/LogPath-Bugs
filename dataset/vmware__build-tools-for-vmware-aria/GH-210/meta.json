@@ -1,0 +1,33 @@
+{
+ "project": "vmware__build-tools-for-vmware-aria",
+ "issue": "GH-210",
+ "summary": "Cloud Template folder name is used when validating if the record exists on the server, but the name in the details.json is used when creating/updating",
+ "fix_commit": "286f4b8db03211d963a611356092ec44bf3131ed",
+ "buggy_version": "286f4b8db0 with common/artifact-manager/src/main/java/com/vmware/pscoe/iac/artifact/store/vrang/VraNgBlueprintStore.java reverted to 286f4b8db0^",
+ "jdk": "17",
+ "module": "common/artifact-manager",
+ "tests": [
+  "VraNgBlueprintStoreTest#testImportContentWithDiffBlueprintFolderName"
+ ],
+ "faulty_lines": [
+  "common/artifact-manager/src/main/java/com/vmware/pscoe/iac/artifact/store/vrang/VraNgBlueprintStore.java:246",
+  "common/artifact-manager/src/main/java/com/vmware/pscoe/iac/artifact/store/vrang/VraNgBlueprintStore.java:247"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 35,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 35,
+ "stable": true,
+ "runs": {
+  "VraNgBlueprintStoreTest#testImportContentWithDiffBlueprintFolderName": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

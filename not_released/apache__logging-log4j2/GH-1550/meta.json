@@ -1,0 +1,41 @@
+{
+ "project": "apache__logging-log4j2",
+ "issue": "GH-1550",
+ "summary": "Multiple filter invocations in `AsyncLoggerConfig`",
+ "fix_commit": "59f88190fcd3bc0e6fbd90668625feae3ad1e671",
+ "buggy_version": "59f88190fc with log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java, log4j-core/src/main/java/org/apache/logging/log4j/core/config/LoggerConfig.java reverted to 59f88190fc^",
+ "jdk": "17",
+ "module": "log4j-core-test",
+ "tests": [
+  "AsyncLoggerConfigTest#testSingleFilterInvocation"
+ ],
+ "faulty_lines": [
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java:131",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java:137",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java:152",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java:155",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java:156",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java:157",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java:158",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/async/AsyncLoggerConfig.java:190",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/config/LoggerConfig.java:634",
+  "log4j-core/src/main/java/org/apache/logging/log4j/core/config/LoggerConfig.java:636"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 348,
+ "pairs_exported": 8,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "AsyncLoggerConfigTest#testSingleFilterInvocation": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

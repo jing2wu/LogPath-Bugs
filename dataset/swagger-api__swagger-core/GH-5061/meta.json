@@ -1,0 +1,63 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-5061",
+ "summary": "[Bug]: Number example treated as a string when generating swagger file.",
+ "fix_commit": "395083590a304bb3da382ea5850430b089f9b725",
+ "buggy_version": "395083590a with modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java, modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java reverted to 395083590a^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "Issue5061Test#testExampleValuesAreSerializedAsJsonDifferentlyBetweenStringAndNumber",
+  "Issue5061Test#testExamplesArrayValuesAreSerializedAsJsonNumbers",
+  "Issue4339Test#testNonNullableIntegerWithNullExampleAndDefault_OAS31",
+  "Issue4339Test#testNullableIntegerWithMultipleExamplesIncludingNull_OAS31"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:3295",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:132",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:133",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:589",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:780",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:920",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:930",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:949",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:950",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:966",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:986"
+ ],
+ "covering_pairs": 11,
+ "shortest_covering_pair": 509,
+ "pairs_exported": 30,
+ "covering_pairs_printed": 11,
+ "shortest_covering_pair_printed": 509,
+ "stable": true,
+ "runs": {
+  "Issue5061Test#testExampleValuesAreSerializedAsJsonDifferentlyBetweenStringAndNumber": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Issue5061Test#testExamplesArrayValuesAreSerializedAsJsonNumbers": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Issue4339Test#testNonNullableIntegerWithNullExampleAndDefault_OAS31": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Issue4339Test#testNullableIntegerWithMultipleExamplesIncludingNull_OAS31": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

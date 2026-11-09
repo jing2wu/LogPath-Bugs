@@ -1,0 +1,44 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-15077",
+ "summary": "[BUG][TypeScript - axios] Redundant models - the same type is generated multiple times",
+ "fix_commit": "5bc7aa3cd603abff2e320e7a5cefa9abfa5ea936",
+ "buggy_version": "5bc7aa3cd6 with modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java, samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java reverted to 5bc7aa3cd6^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "InlineModelResolverTest#doNotWrapSingleAllOfRefs"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java:234",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:144",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:201",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:349",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:350",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:359",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:368",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:369",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:398",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:399",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:437",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:438",
+  "samples/client/petstore/java/okhttp-gson/src/main/java/org/openapitools/client/model/NewPet.java:71"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 612,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 612,
+ "stable": true,
+ "runs": {
+  "InlineModelResolverTest#doNotWrapSingleAllOfRefs": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

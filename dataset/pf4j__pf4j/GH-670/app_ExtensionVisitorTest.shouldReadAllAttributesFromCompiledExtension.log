@@ -1,0 +1,6 @@
+35 [main] DEBUG org.pf4j.asm.ExtensionVisitor - Load annotation attribute plugins = alpha (java.lang.String)
+36 [main] DEBUG org.pf4j.asm.ExtensionVisitor - Found plugin alpha
+36 [main] DEBUG org.pf4j.asm.ExtensionVisitor - Load annotation attribute plugins = beta (java.lang.String)
+36 [main] DEBUG org.pf4j.asm.ExtensionVisitor - Found plugin beta
+37 [main] DEBUG org.pf4j.asm.ExtensionVisitor - Load annotation attribute points = Ltest/Greeting; (org.objectweb.asm.Type)
+38 [main] DEBUG org.pf4j.asm.ExtensionVisitor - Found point test.Greeting

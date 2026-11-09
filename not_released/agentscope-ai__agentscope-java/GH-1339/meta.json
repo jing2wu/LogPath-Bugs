@@ -1,0 +1,32 @@
+{
+ "project": "agentscope-ai__agentscope-java",
+ "issue": "GH-1339",
+ "summary": "[Bug]:NacosSkillRepository \u6846\u67b6\u5c42 bug\uff0c3 \u5c42\u53e0\u52a0\uff0cai\u5206\u6790\u5bf9\u5417\uff1f",
+ "fix_commit": "9afbe5f9dc345f9320fe32dc4d7062e2058a0794",
+ "buggy_version": "9afbe5f9dc with agentscope-extensions/agentscope-extensions-nacos/agentscope-extensions-nacos-skill/src/main/java/io/agentscope/core/nacos/skill/NacosSkillRepository.java reverted to 9afbe5f9dc^",
+ "jdk": "17",
+ "module": "agentscope-extensions/agentscope-extensions-nacos/agentscope-extensions-nacos-skill",
+ "tests": [
+  "NacosSkillRepositoryTest#testSourceEncodesNamespaceCharacters"
+ ],
+ "faulty_lines": [
+  "agentscope-extensions/agentscope-extensions-nacos/agentscope-extensions-nacos-skill/src/main/java/io/agentscope/core/nacos/skill/NacosSkillRepository.java:147"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 30,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "NacosSkillRepositoryTest#testSourceEncodesNamespaceCharacters": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

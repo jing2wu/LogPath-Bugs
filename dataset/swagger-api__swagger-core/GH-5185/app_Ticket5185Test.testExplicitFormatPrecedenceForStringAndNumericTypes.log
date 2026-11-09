@@ -1,0 +1,522 @@
+2026-11-03T20:39:53.232 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE Ticket5185Test.testExplicitFormatPrecedenceForStringAndNumericTypes()[pri:0, instance:io.swagger.v3.core.resolving.Ticket5185Test@48e92c5c] -731790265
+2026-11-03T20:39:53.237 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:39:53.243 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:39:53.243 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:39:53.243 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:39:55.980 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve class io.swagger.v3.core.resolving.Ticket5185Test$ExplicitFormatExample from 560041895
+2026-11-03T20:39:55.980 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@16073fa8
+2026-11-03T20:39:56.757 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel ExplicitFormatExample class Schema {
+    type: object
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:39:56.816 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.String] from 560041895
+2026-11-03T20:39:56.820 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@16073fa8
+2026-11-03T20:39:56.820 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.String], java.lang.String
+2026-11-03T20:39:57.368 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.String] from 560041895
+2026-11-03T20:39:57.368 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@16073fa8
+2026-11-03T20:39:57.368 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.String], java.lang.String
+2026-11-03T20:39:57.448 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.String] from 560041895
+2026-11-03T20:39:57.448 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@16073fa8
+2026-11-03T20:39:57.448 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.String], java.lang.String
+2026-11-03T20:39:57.464 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.String] from 560041895
+2026-11-03T20:39:57.464 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@16073fa8
+2026-11-03T20:39:57.464 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.String], java.lang.String
+2026-11-03T20:39:57.482 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.Long] from 560041895
+2026-11-03T20:39:57.483 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@16073fa8
+2026-11-03T20:39:57.483 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.Long], java.lang.Long
+2026-11-03T20:39:57.533 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.lang.Integer] from 560041895
+2026-11-03T20:39:57.533 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@16073fa8
+2026-11-03T20:39:57.533 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.lang.Integer], java.lang.Integer
+2026-11-03T20:39:57.551 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel ExplicitFormatExample class Schema {
+    type: object
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: {uuidValue=class UUIDSchema {
+        class Schema {
+            type: string
+            format: uuid
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, emailValue=class EmailSchema {
+        class Schema {
+            type: string
+            format: email
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, emailValidatedValue=class EmailSchema {
+        class Schema {
+            type: string
+            format: email
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, beanValidationEmailValue=class EmailSchema {
+        class Schema {
+            type: string
+            format: email
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, longValue=class IntegerSchema {
+        class Schema {
+            type: integer
+            format: int64
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, integerAsInt64Value=class IntegerSchema {
+        class Schema {
+            type: integer
+            format: int32
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }}
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:39:57.574 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel ExplicitFormatExample class Schema {
+    type: object
+    format: null
+    $ref: null
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: {uuidValue=class UUIDSchema {
+        class Schema {
+            type: string
+            format: uuid
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, emailValue=class EmailSchema {
+        class Schema {
+            type: string
+            format: email
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, emailValidatedValue=class EmailSchema {
+        class Schema {
+            type: string
+            format: email
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, beanValidationEmailValue=class EmailSchema {
+        class Schema {
+            type: string
+            format: email
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, longValue=class IntegerSchema {
+        class Schema {
+            type: integer
+            format: int64
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }, integerAsInt64Value=class IntegerSchema {
+        class Schema {
+            type: integer
+            format: int32
+            $ref: null
+            description: null
+            title: null
+            multipleOf: null
+            maximum: null
+            exclusiveMaximum: null
+            minimum: null
+            exclusiveMinimum: null
+            maxLength: null
+            minLength: null
+            pattern: null
+            maxItems: null
+            minItems: null
+            uniqueItems: null
+            maxProperties: null
+            minProperties: null
+            required: null
+            not: null
+            properties: null
+            additionalProperties: null
+            nullable: null
+            readOnly: null
+            writeOnly: null
+            example: null
+            externalDocs: null
+            deprecated: null
+            discriminator: null
+            xml: null
+        }
+    }}
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:39:57.896 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE Ticket5185Test.testExplicitFormatPrecedenceForStringAndNumericTypes()[pri:0, instance:io.swagger.v3.core.resolving.Ticket5185Test@48e92c5c] -731790265
+2026-11-03T20:39:57.896 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:39:57.896 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:39:57.897 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:39:57.897 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

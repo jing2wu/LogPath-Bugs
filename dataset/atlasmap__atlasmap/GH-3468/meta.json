@@ -1,0 +1,75 @@
+{
+ "project": "atlasmap__atlasmap",
+ "issue": "GH-3468",
+ "summary": "[BUG] No collection suffix in the path for XML field",
+ "fix_commit": "15d9e76f743ce67438316e28bf3c7d6a79a50513",
+ "buggy_version": "15d9e76f74 with lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java reverted to 15d9e76f74^",
+ "jdk": "17",
+ "module": "lib/modules/xml/core",
+ "tests": [
+  "XmlSchemaInspectionMultipleNamespacesTest#testSyndesis",
+  "XmlSchemaInspectionTest#testInspectPOExampleSchemaFile",
+  "XmlSchemaInspectionTest#testInspectSchemaFileSameNameElement"
+ ],
+ "faulty_lines": [
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:209",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:210",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:221",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:223",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:226",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:230",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:235",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:237",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:240",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:245",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:251",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:255",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:257",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:260",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:262",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:271",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:273",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:275",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:284",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:285",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:287",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:292",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:299",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:301",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:304",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:317",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:318",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:333",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:345",
+  "lib/modules/xml/core/src/main/java/io/atlasmap/xml/inspect/XmlSchemaInspector.java:364"
+ ],
+ "covering_pairs": 40,
+ "shortest_covering_pair": 32,
+ "pairs_exported": 47,
+ "covering_pairs_printed": 40,
+ "shortest_covering_pair_printed": 32,
+ "stable": true,
+ "runs": {
+  "XmlSchemaInspectionMultipleNamespacesTest#testSyndesis": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "XmlSchemaInspectionTest#testInspectPOExampleSchemaFile": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "XmlSchemaInspectionTest#testInspectSchemaFileSameNameElement": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

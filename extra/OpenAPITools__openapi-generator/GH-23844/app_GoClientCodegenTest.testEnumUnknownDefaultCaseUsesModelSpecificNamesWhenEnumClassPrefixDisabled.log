@@ -1,0 +1,224 @@
+2026-11-03T21:12:36.785 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:12:37.468 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testPrimitiveTypeInOneOf()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -741999785
+2026-11-03T21:12:37.468 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testAdditionalPropertiesWithoutGoMod()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 505085890
+2026-11-03T21:12:37.468 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testAdditionalPropertiesWithGoMod()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 1056595928
+2026-11-03T21:12:37.469 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testMultipleRequiredPropertiesHasSameOneOfObject()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -362799696
+2026-11-03T21:12:37.469 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.ensureParameterNameUniqueTest()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 500855783
+2026-11-03T21:12:37.469 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testArrayDefaultValue()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -267818167
+2026-11-03T21:12:37.469 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testStructPrefix()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 1635693895
+2026-11-03T21:12:37.472 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.bodyParameterTest()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -925505433
+2026-11-03T21:12:37.472 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testVendorExtensionSkipGenerateUnmarshalJson()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -1265404724
+2026-11-03T21:12:37.472 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testAdditionalPropertiesModelFileFolder()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 1104177273
+2026-11-03T21:12:37.472 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEscapingInExamples()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 23184898
+2026-11-03T21:12:37.472 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyApiTestWithNullResponse()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -190574913
+2026-11-03T21:12:37.472 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyApiWithAllOfMultipleRefAndDiscriminator()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 277866505
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyFormatErrorMessageInUse()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 420415853
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyTestFile()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 1006738361
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -1427007032
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testNoImportsWithoutUnmarshal()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -538149752
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testInitialConfigValues()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -277697814
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testNullableComposition()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -1122517783
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyTestImport()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 1558478960
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testXmlOptionsBeingUsed()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -695920995
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testVendorExtensionGenerateUnmarshalJson()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 493749997
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testFilenames()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -1383159802
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testAdditionalPropertiesPutForConfigValues()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] -855677962
+2026-11-03T21:12:37.473 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testSettersForConfigValues()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@5dcb4f5f] 1293452501
+2026-11-03T21:12:37.474 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:12:37.500 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:12:37.500 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:12:37.500 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testPrimitiveTypeInOneOf()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -866799033
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testAdditionalPropertiesWithoutGoMod()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 380286642
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testAdditionalPropertiesWithGoMod()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 931796680
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testMultipleRequiredPropertiesHasSameOneOfObject()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -487598944
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.ensureParameterNameUniqueTest()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 376056535
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testArrayDefaultValue()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -392617415
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testStructPrefix()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 1510894647
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.bodyParameterTest()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -1050304681
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testVendorExtensionSkipGenerateUnmarshalJson()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -1390203972
+2026-11-03T21:12:38.002 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testAdditionalPropertiesModelFileFolder()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 979378025
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEscapingInExamples()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -101614350
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyApiTestWithNullResponse()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -315374161
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyApiWithAllOfMultipleRefAndDiscriminator()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 153067257
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyFormatErrorMessageInUse()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 295616605
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyTestFile()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 881939113
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -1551806280
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testNoImportsWithoutUnmarshal()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -662949000
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testInitialConfigValues()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -402497062
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testNullableComposition()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -1247317031
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.verifyTestImport()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 1433679712
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testXmlOptionsBeingUsed()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -820720243
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testVendorExtensionGenerateUnmarshalJson()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 368950749
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testFilenames()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -1507959050
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testAdditionalPropertiesPutForConfigValues()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] -980477210
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testSettersForConfigValues()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@565b064f] 1168653253
+2026-11-03T21:12:38.003 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:12:38.021 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:12:38.021 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:12:38.021 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:12:39.813 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@6a714237] -1214804832
+2026-11-03T21:12:39.814 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:12:39.814 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:12:39.814 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:12:39.814 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:12:40.387 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:12:40.392 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='go', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={enumUnknownDefaultCase=true, gitHost=github.com, enumClassPrefix=false, releaseNote=Minor update, gitUserId=GIT_USER_ID, gitRepoId=GIT_REPO_ID}, importMappings={}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T21:12:41.315 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:12:43.781 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/go/enum_unknown_default_case_multiple_models.yaml', outputDir='/tmp/test2450917666793599546', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T21:12:44.251 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.3
+info:
+  title: Go enum unknown default case
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    StatusA:
+      type: string
+      enum:
+        - active
+    StatusB:
+      type: string
+      enum:
+        - active
+2026-11-03T21:12:44.780 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:12:44.986 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:12:44.986 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: go (client)
+2026-11-03T21:12:44.986 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'go' is considered stable.
+2026-11-03T21:12:45.004 INFO org.openapitools.codegen.languages.AbstractGoCodegen [main] - Environment variable GO_POST_PROCESS_FILE not defined so Go code may not be properly formatted. To define it, try `export GO_POST_PROCESS_FILE="/usr/local/bin/gofmt -w"` (Linux/Mac)
+2026-11-03T21:12:45.004 INFO org.openapitools.codegen.languages.AbstractGoCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:12:45.130 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:45.167 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:45.581 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/model_status_a.go
+2026-11-03T21:12:45.592 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/docs/StatusA.md
+2026-11-03T21:12:45.594 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/model_status_b.go
+2026-11-03T21:12:45.599 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/docs/StatusB.md
+2026-11-03T21:12:45.601 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:45.730 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/api/openapi.yaml
+2026-11-03T21:12:45.743 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/README.md
+2026-11-03T21:12:45.749 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/git_push.sh
+2026-11-03T21:12:45.754 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/.gitignore
+2026-11-03T21:12:45.775 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/configuration.go
+2026-11-03T21:12:45.788 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/client.go
+2026-11-03T21:12:45.790 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/response.go
+2026-11-03T21:12:45.792 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/go.mod
+2026-11-03T21:12:45.794 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/go.sum
+2026-11-03T21:12:45.806 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/.travis.yml
+2026-11-03T21:12:45.811 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/utils.go
+2026-11-03T21:12:45.814 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/.openapi-generator-ignore
+2026-11-03T21:12:45.814 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/.openapi-generator/VERSION
+2026-11-03T21:12:45.821 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2450917666793599546/.openapi-generator/FILES
+2026-11-03T21:12:46.188 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@3e5501b7] -1954853856
+2026-11-03T21:12:46.189 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:12:46.189 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:12:46.189 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:12:46.189 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:12:46.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@3a5aa359] -2021593662
+2026-11-03T21:12:46.263 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:12:46.263 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:12:46.263 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:12:46.263 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:12:46.284 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:12:46.284 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='go', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={enumUnknownDefaultCase=true, gitHost=github.com, enumClassPrefix=false, releaseNote=Minor update, gitUserId=GIT_USER_ID, gitRepoId=GIT_REPO_ID}, importMappings={}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T21:12:46.311 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:12:46.484 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/go/enum_unknown_default_case_multiple_models.yaml', outputDir='/tmp/test17843644759080866154', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T21:12:46.489 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.3
+info:
+  title: Go enum unknown default case
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    StatusA:
+      type: string
+      enum:
+        - active
+    StatusB:
+      type: string
+      enum:
+        - active
+2026-11-03T21:12:46.598 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:12:46.827 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:12:46.828 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: go (client)
+2026-11-03T21:12:46.828 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'go' is considered stable.
+2026-11-03T21:12:46.828 INFO org.openapitools.codegen.languages.AbstractGoCodegen [main] - Environment variable GO_POST_PROCESS_FILE not defined so Go code may not be properly formatted. To define it, try `export GO_POST_PROCESS_FILE="/usr/local/bin/gofmt -w"` (Linux/Mac)
+2026-11-03T21:12:46.828 INFO org.openapitools.codegen.languages.AbstractGoCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:12:46.831 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:46.832 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:46.882 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/model_status_a.go
+2026-11-03T21:12:46.887 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/docs/StatusA.md
+2026-11-03T21:12:46.892 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/model_status_b.go
+2026-11-03T21:12:46.896 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/docs/StatusB.md
+2026-11-03T21:12:46.896 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:46.952 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/api/openapi.yaml
+2026-11-03T21:12:46.959 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/README.md
+2026-11-03T21:12:46.963 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/git_push.sh
+2026-11-03T21:12:46.966 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/.gitignore
+2026-11-03T21:12:46.977 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/configuration.go
+2026-11-03T21:12:46.987 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/client.go
+2026-11-03T21:12:46.988 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/response.go
+2026-11-03T21:12:46.989 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/go.mod
+2026-11-03T21:12:46.994 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/go.sum
+2026-11-03T21:12:46.996 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/.travis.yml
+2026-11-03T21:12:46.997 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/utils.go
+2026-11-03T21:12:47.000 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/.openapi-generator-ignore
+2026-11-03T21:12:47.000 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/.openapi-generator/VERSION
+2026-11-03T21:12:47.005 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17843644759080866154/.openapi-generator/FILES
+2026-11-03T21:12:47.101 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@7dfc2a3f] -886934360
+2026-11-03T21:12:47.102 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:12:47.102 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:12:47.102 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:12:47.102 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:12:47.159 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE GoClientCodegenTest.testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled()[pri:0, instance:org.openapitools.codegen.go.GoClientCodegenTest@38957508] -2051293327
+2026-11-03T21:12:47.159 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:12:47.160 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:12:47.160 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:12:47.160 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:12:47.168 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:12:47.168 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='go', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={enumUnknownDefaultCase=true, gitHost=github.com, enumClassPrefix=false, releaseNote=Minor update, gitUserId=GIT_USER_ID, gitRepoId=GIT_REPO_ID}, importMappings={}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T21:12:47.182 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:12:47.278 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/go/enum_unknown_default_case_multiple_models.yaml', outputDir='/tmp/test10027623799485085710', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T21:12:47.280 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.3
+info:
+  title: Go enum unknown default case
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    StatusA:
+      type: string
+      enum:
+        - active
+    StatusB:
+      type: string
+      enum:
+        - active
+2026-11-03T21:12:47.309 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T21:12:47.475 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:12:47.475 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: go (client)
+2026-11-03T21:12:47.475 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'go' is considered stable.
+2026-11-03T21:12:47.476 INFO org.openapitools.codegen.languages.AbstractGoCodegen [main] - Environment variable GO_POST_PROCESS_FILE not defined so Go code may not be properly formatted. To define it, try `export GO_POST_PROCESS_FILE="/usr/local/bin/gofmt -w"` (Linux/Mac)
+2026-11-03T21:12:47.476 INFO org.openapitools.codegen.languages.AbstractGoCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:12:47.479 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:47.479 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:47.502 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/model_status_a.go
+2026-11-03T21:12:47.507 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/docs/StatusA.md
+2026-11-03T21:12:47.516 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/model_status_b.go
+2026-11-03T21:12:47.516 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/docs/StatusB.md
+2026-11-03T21:12:47.522 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:12:47.570 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/api/openapi.yaml
+2026-11-03T21:12:47.583 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/README.md
+2026-11-03T21:12:47.590 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/git_push.sh
+2026-11-03T21:12:47.594 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/.gitignore
+2026-11-03T21:12:47.602 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/configuration.go
+2026-11-03T21:12:47.619 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/client.go
+2026-11-03T21:12:47.627 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/response.go
+2026-11-03T21:12:47.628 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/go.mod
+2026-11-03T21:12:47.638 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/go.sum
+2026-11-03T21:12:47.639 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/.travis.yml
+2026-11-03T21:12:47.644 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/utils.go
+2026-11-03T21:12:47.653 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/.openapi-generator-ignore
+2026-11-03T21:12:47.664 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/.openapi-generator/VERSION
+2026-11-03T21:12:47.665 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test10027623799485085710/.openapi-generator/FILES
+2026-11-03T21:12:47.739 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

@@ -1,0 +1,56 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-19982",
+ "summary": "[BUG] Kotlin generator won't resolve $ref in responses and return Kotlin.Any",
+ "fix_commit": "cbc64e86d33d5a2e1a3736b2d6fd8caadb665ac2",
+ "buggy_version": "cbc64e86d3 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java reverted to cbc64e86d3^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "InlineModelResolverTest#resolveComponentsResponses",
+  "OpenAPINormalizerTest#testOpenAPINormalizerComponentsResponses31Spec"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:4777",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5727",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:6123",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:8184",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java:109",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java:110",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java:355",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1015",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1115",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1151",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:289",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:290",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:448",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:449",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:450",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:451",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:452",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:453"
+ ],
+ "covering_pairs": 7,
+ "shortest_covering_pair": 197,
+ "pairs_exported": 29,
+ "covering_pairs_printed": 7,
+ "shortest_covering_pair_printed": 197,
+ "stable": true,
+ "runs": {
+  "InlineModelResolverTest#resolveComponentsResponses": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "OpenAPINormalizerTest#testOpenAPINormalizerComponentsResponses31Spec": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,35 @@
+{
+ "project": "jenkins-infra__plugin-modernizer-tool",
+ "issue": "GH-572",
+ "summary": "UpdateBomVersionVisitor is failing when bom artifact id is non-standard",
+ "fix_commit": "583361308d028165531eea44dfc1594ffb3a6bcf",
+ "buggy_version": "583361308d with plugin-modernizer-core/src/main/java/io/jenkins/tools/pluginmodernizer/core/visitors/UpdateBomVersionVisitor.java reverted to 583361308d^",
+ "jdk": "21",
+ "module": "plugin-modernizer-core",
+ "tests": [
+  "UpdateBomTest#shouldUpgradePropertyForVersion"
+ ],
+ "faulty_lines": [
+  "plugin-modernizer-core/src/main/java/io/jenkins/tools/pluginmodernizer/core/visitors/UpdateBomVersionVisitor.java:65",
+  "plugin-modernizer-core/src/main/java/io/jenkins/tools/pluginmodernizer/core/visitors/UpdateBomVersionVisitor.java:66",
+  "plugin-modernizer-core/src/main/java/io/jenkins/tools/pluginmodernizer/core/visitors/UpdateBomVersionVisitor.java:72",
+  "plugin-modernizer-core/src/main/java/io/jenkins/tools/pluginmodernizer/core/visitors/UpdateBomVersionVisitor.java:79"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 22,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 22,
+ "stable": true,
+ "runs": {
+  "UpdateBomTest#shouldUpgradePropertyForVersion": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

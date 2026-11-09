@@ -1,0 +1,299 @@
+2026-11-03T22:14:02.352 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = JMImplementation:type=MBeanServerDelegate
+2026-11-03T22:14:02.372 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = JMImplementation:type=MBeanServerDelegate
+2026-11-03T22:14:02.373 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object JMImplementation:type=MBeanServerDelegate
+2026-11-03T22:14:02.374 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered JMImplementation:type=MBeanServerDelegate
+2026-11-03T22:14:02.392 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.RuntimeImpl
+2026-11-03T22:14:02.393 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Runtime
+2026-11-03T22:14:02.397 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Runtime
+2026-11-03T22:14:02.397 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Runtime
+2026-11-03T22:14:02.398 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Runtime
+2026-11-03T22:14:02.410 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotThreadImpl
+2026-11-03T22:14:02.410 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Threading
+2026-11-03T22:14:02.411 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Threading
+2026-11-03T22:14:02.411 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Threading
+2026-11-03T22:14:02.411 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Threading
+2026-11-03T22:14:02.424 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.OperatingSystemImpl
+2026-11-03T22:14:02.425 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=OperatingSystem
+2026-11-03T22:14:02.425 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=OperatingSystem
+2026-11-03T22:14:02.426 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=OperatingSystem
+2026-11-03T22:14:02.426 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=OperatingSystem
+2026-11-03T22:14:02.435 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T22:14:02.436 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T22:14:02.436 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T22:14:02.437 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T22:14:02.440 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T22:14:02.441 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T22:14:02.441 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T22:14:02.441 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T22:14:02.442 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T22:14:02.442 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T22:14:02.446 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T22:14:02.447 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T22:14:02.447 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T22:14:02.448 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T22:14:02.450 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T22:14:02.451 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T22:14:02.451 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T22:14:02.452 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T22:14:02.452 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T22:14:02.452 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T22:14:02.453 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T22:14:02.454 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T22:14:02.454 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T22:14:02.454 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T22:14:02.454 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T22:14:02.454 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T22:14:02.455 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T22:14:02.455 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T22:14:02.455 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T22:14:02.455 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T22:14:02.455 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T22:14:02.456 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T22:14:02.456 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T22:14:02.457 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T22:14:02.457 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T22:14:02.457 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T22:14:02.457 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T22:14:02.458 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T22:14:02.459 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T22:14:02.459 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T22:14:02.459 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T22:14:02.460 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T22:14:02.460 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T22:14:02.460 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T22:14:02.460 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T22:14:02.463 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T22:14:02.464 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T22:14:02.464 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T22:14:02.464 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T22:14:02.464 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T22:14:02.466 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.CompilationImpl
+2026-11-03T22:14:02.466 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Compilation
+2026-11-03T22:14:02.466 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Compilation
+2026-11-03T22:14:02.467 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Compilation
+2026-11-03T22:14:02.467 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Compilation
+2026-11-03T22:14:02.468 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryImpl
+2026-11-03T22:14:02.468 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Memory
+2026-11-03T22:14:02.469 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Memory
+2026-11-03T22:14:02.469 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Memory
+2026-11-03T22:14:02.469 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Memory
+2026-11-03T22:14:02.472 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+2026-11-03T22:14:02.472 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.util.logging:type=Logging
+2026-11-03T22:14:02.472 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.util.logging:type=Logging
+2026-11-03T22:14:02.472 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.util.logging:type=Logging
+2026-11-03T22:14:02.473 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.util.logging:type=Logging
+2026-11-03T22:14:02.474 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ClassLoadingImpl
+2026-11-03T22:14:02.475 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=ClassLoading
+2026-11-03T22:14:02.475 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=ClassLoading
+2026-11-03T22:14:02.475 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=ClassLoading
+2026-11-03T22:14:02.475 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=ClassLoading
+2026-11-03T22:14:02.496 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=DiagnosticCommand
+2026-11-03T22:14:02.496 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=DiagnosticCommand
+2026-11-03T22:14:02.497 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=DiagnosticCommand
+2026-11-03T22:14:02.497 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=DiagnosticCommand
+2026-11-03T22:14:02.498 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T22:14:02.498 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T22:14:02.502 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T22:14:02.502 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T22:14:02.502 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T22:14:02.503 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T22:14:02.503 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T22:14:02.503 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T22:14:02.503 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T22:14:02.504 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T22:14:02.509 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotDiagnostic
+2026-11-03T22:14:02.509 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T22:14:02.510 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T22:14:02.510 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=HotSpotDiagnostic
+2026-11-03T22:14:02.510 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=HotSpotDiagnostic
+2026-11-03T22:14:02.512 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T22:14:02.512 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped,type=BufferPool
+2026-11-03T22:14:02.513 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped,type=BufferPool
+2026-11-03T22:14:02.513 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped,type=BufferPool
+2026-11-03T22:14:02.513 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped,type=BufferPool
+2026-11-03T22:14:02.513 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T22:14:02.513 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=direct,type=BufferPool
+2026-11-03T22:14:02.514 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=direct,type=BufferPool
+2026-11-03T22:14:02.514 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=direct,type=BufferPool
+2026-11-03T22:14:02.514 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=direct,type=BufferPool
+2026-11-03T22:14:02.514 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T22:14:02.514 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T22:14:02.515 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T22:14:02.515 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T22:14:02.515 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T22:14:02.523 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for jdk.management.jfr.FlightRecorderMXBeanImpl
+2026-11-03T22:14:02.526 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = jdk.management.jfr:type=FlightRecorder
+2026-11-03T22:14:02.526 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = jdk.management.jfr:type=FlightRecorder
+2026-11-03T22:14:02.527 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object jdk.management.jfr:type=FlightRecorder
+2026-11-03T22:14:02.527 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered jdk.management.jfr:type=FlightRecorder
+2026-11-03T22:14:02.529 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T22:14:02.533 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T22:14:02.533 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T22:14:02.533 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T22:14:02.533 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T22:14:02.535 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T22:14:02.539 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T22:14:02.539 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T22:14:02.539 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=StatusLogger,type=1dbd16a6
+2026-11-03T22:14:02.539 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T22:14:02.542 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T22:14:02.543 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T22:14:02.543 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T22:14:02.543 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=ContextSelector,type=1dbd16a6
+2026-11-03T22:14:02.543 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T22:14:02.545 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T22:14:02.545 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T22:14:02.545 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T22:14:02.546 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=Loggers,name=,type=1dbd16a6
+2026-11-03T22:14:02.546 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T22:14:02.547 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T22:14:02.548 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T22:14:02.549 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T22:14:02.549 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=Appenders,name=F,type=1dbd16a6
+2026-11-03T22:14:02.549 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T22:14:02.804 DEBUG nitrite [main] - Loading default unique indexer
+2026-11-03T22:14:02.817 DEBUG nitrite [main] - Loading default non-unique indexer
+2026-11-03T22:14:02.819 DEBUG nitrite [main] - Loading nitrite text indexer
+2026-11-03T22:14:02.839 DEBUG nitrite [main] - Loading mappable mapper
+2026-11-03T22:14:02.897 DEBUG nitrite [main] - Loading entity converters
+2026-11-03T22:14:03.367 DEBUG nitrite [main] - No documents found for filter org.dizitart.no2.filters.Filter$$Lambda$157/0x00007345941ee3b8@6342d610
+2026-11-03T22:14:03.393 DEBUG nitrite [main] - Total 3 document(s) to be inserted in test
+2026-11-03T22:14:03.397 DEBUG nitrite [main] - initialised with node id 956
+2026-11-03T22:14:03.399 DEBUG nitrite [main] - Processed document with id: [2117832723626967040]NO₂
+2026-11-03T22:14:03.400 DEBUG nitrite [main] - Inserting processed document with id [2117832723626967040]NO₂
+2026-11-03T22:14:03.437 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:03.438 DEBUG nitrite [main] - Processed document with id: [2117832723790544896]NO₂
+2026-11-03T22:14:03.438 DEBUG nitrite [main] - Inserting processed document with id [2117832723790544896]NO₂
+2026-11-03T22:14:03.443 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:03.444 DEBUG nitrite [main] - Processed document with id: [2117832723815710720]NO₂
+2026-11-03T22:14:03.444 DEBUG nitrite [main] - Inserting processed document with id [2117832723815710720]NO₂
+2026-11-03T22:14:03.457 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:03.458 DEBUG nitrite [main] - Returning write result WriteResultImpl(nitriteIds=[[2117832723626967040]NO₂, [2117832723790544896]NO₂, [2117832723815710720]NO₂]) for collection test
+2026-11-03T22:14:03.460 DEBUG nitrite [main] - Loading default unique indexer
+2026-11-03T22:14:03.460 DEBUG nitrite [main] - Loading default non-unique indexer
+2026-11-03T22:14:03.460 DEBUG nitrite [main] - Loading nitrite text indexer
+2026-11-03T22:14:03.460 DEBUG nitrite [main] - Loading mappable mapper
+2026-11-03T22:14:03.460 DEBUG nitrite [main] - Loading entity converters
+2026-11-03T22:14:03.474 INFO nitrite-mvstore [main] - Upgrading old database format to new database format
+2026-11-03T22:14:03.834 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.841 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.843 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.849 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.857 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.912 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.918 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.921 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.921 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:03.927 ERROR org.dizitart.no2.NitriteTest [main] - Error while updating document
+org.dizitart.no2.exceptions.InvalidIdException: Invalid _id found 34883372236166
+2026-11-03T22:14:03.943 DEBUG nitrite [main] - Processed document with id : [2117832723626967040]NO₂
+2026-11-03T22:14:03.949 DEBUG nitrite [main] - Removed document with id {firstName=fn1, lastName=ln1, birthDay=2012-07-01T16:02:48.440-0500, data=[1, 2, 3], body=a quick brown fox jump over the lazy dog, _id=2117832723626967040, _revision=2, _modified=1793765643943} from test
+2026-11-03T22:14:03.950 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:03.950 DEBUG nitrite [main] - Processed document with id : [2117832723790544896]NO₂
+2026-11-03T22:14:03.955 DEBUG nitrite [main] - Removed document with id {firstName=fn2, lastName=ln2, birthDay=2010-06-12T16:02:48.440-0500, data=[3, 4, 3], body=hello world from nitrite, _id=2117832723790544896, _revision=2, _modified=1793765643951} from test
+2026-11-03T22:14:03.956 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:03.957 DEBUG nitrite [main] - Processed document with id : [2117832723815710720]NO₂
+2026-11-03T22:14:03.965 DEBUG nitrite [main] - Removed document with id {firstName=fn3, lastName=ln2, birthDay=2014-04-17T16:02:48.440-0500, data=[9, 4, 8], body=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc mi, mattis ullamcorper dignissim vitae, condimentum non lorem., _id=2117832723815710720, _revision=2, _modified=1793765643957} from test
+2026-11-03T22:14:03.965 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:03.965 DEBUG nitrite [main] - Removed 3 documents for filter : org.dizitart.no2.filters.Filter$$Lambda$157/0x00007345941ee3b8@6342d610
+2026-11-03T22:14:03.966 DEBUG nitrite [main] - Unsaved changes detected, committing the changes.
+2026-11-03T22:14:03.993 DEBUG nitrite [main] - Unsaved changes has been committed successfully.
+2026-11-03T22:14:04.000 INFO nitrite [main] - Nitrite database has been closed successfully.
+2026-11-03T22:14:04.014 WARN org.dizitart.no2.integration.Retry [main] - testUpdateDocumentsFromVersion3(org.dizitart.no2.NitriteTest): run 1 failed
+2026-11-03T22:14:04.015 DEBUG nitrite [main] - Loading default unique indexer
+2026-11-03T22:14:04.015 DEBUG nitrite [main] - Loading default non-unique indexer
+2026-11-03T22:14:04.015 DEBUG nitrite [main] - Loading nitrite text indexer
+2026-11-03T22:14:04.016 DEBUG nitrite [main] - Loading mappable mapper
+2026-11-03T22:14:04.016 DEBUG nitrite [main] - Loading entity converters
+2026-11-03T22:14:04.062 DEBUG nitrite [main] - No documents found for filter org.dizitart.no2.filters.Filter$$Lambda$157/0x00007345941ee3b8@6342d610
+2026-11-03T22:14:04.065 DEBUG nitrite [main] - Total 3 document(s) to be inserted in test
+2026-11-03T22:14:04.066 DEBUG nitrite [main] - Processed document with id: [2117832726428762112]NO₂
+2026-11-03T22:14:04.067 DEBUG nitrite [main] - Inserting processed document with id [2117832726428762112]NO₂
+2026-11-03T22:14:04.073 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:04.076 DEBUG nitrite [main] - Processed document with id: [2117832726458122240]NO₂
+2026-11-03T22:14:04.076 DEBUG nitrite [main] - Inserting processed document with id [2117832726458122240]NO₂
+2026-11-03T22:14:04.079 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:04.079 DEBUG nitrite [main] - Processed document with id: [2117832726483288064]NO₂
+2026-11-03T22:14:04.079 DEBUG nitrite [main] - Inserting processed document with id [2117832726483288064]NO₂
+2026-11-03T22:14:04.088 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:04.089 DEBUG nitrite [main] - Returning write result WriteResultImpl(nitriteIds=[[2117832726428762112]NO₂, [2117832726458122240]NO₂, [2117832726483288064]NO₂]) for collection test
+2026-11-03T22:14:04.090 DEBUG nitrite [main] - Loading default unique indexer
+2026-11-03T22:14:04.090 DEBUG nitrite [main] - Loading default non-unique indexer
+2026-11-03T22:14:04.090 DEBUG nitrite [main] - Loading nitrite text indexer
+2026-11-03T22:14:04.090 DEBUG nitrite [main] - Loading mappable mapper
+2026-11-03T22:14:04.090 DEBUG nitrite [main] - Loading entity converters
+2026-11-03T22:14:04.092 INFO nitrite-mvstore [main] - Upgrading old database format to new database format
+2026-11-03T22:14:04.119 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.120 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.121 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.122 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.127 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.141 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.144 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.145 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.146 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.148 ERROR org.dizitart.no2.NitriteTest [main] - Error while updating document
+org.dizitart.no2.exceptions.InvalidIdException: Invalid _id found 34883372236166
+2026-11-03T22:14:04.150 DEBUG nitrite [main] - Processed document with id : [2117832726428762112]NO₂
+2026-11-03T22:14:04.153 DEBUG nitrite [main] - Removed document with id {firstName=fn1, lastName=ln1, birthDay=2012-07-01T16:02:48.440-0500, data=[1, 2, 3], body=a quick brown fox jump over the lazy dog, _id=2117832726428762112, _revision=2, _modified=1793765644150} from test
+2026-11-03T22:14:04.154 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:04.154 DEBUG nitrite [main] - Processed document with id : [2117832726458122240]NO₂
+2026-11-03T22:14:04.157 DEBUG nitrite [main] - Removed document with id {firstName=fn2, lastName=ln2, birthDay=2010-06-12T16:02:48.440-0500, data=[3, 4, 3], body=hello world from nitrite, _id=2117832726458122240, _revision=2, _modified=1793765644154} from test
+2026-11-03T22:14:04.158 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:04.158 DEBUG nitrite [main] - Processed document with id : [2117832726483288064]NO₂
+2026-11-03T22:14:04.162 DEBUG nitrite [main] - Removed document with id {firstName=fn3, lastName=ln2, birthDay=2014-04-17T16:02:48.440-0500, data=[9, 4, 8], body=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc mi, mattis ullamcorper dignissim vitae, condimentum non lorem., _id=2117832726483288064, _revision=2, _modified=1793765644158} from test
+2026-11-03T22:14:04.162 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:04.162 DEBUG nitrite [main] - Removed 3 documents for filter : org.dizitart.no2.filters.Filter$$Lambda$157/0x00007345941ee3b8@6342d610
+2026-11-03T22:14:04.163 DEBUG nitrite [main] - Unsaved changes detected, committing the changes.
+2026-11-03T22:14:04.170 DEBUG nitrite [main] - Unsaved changes has been committed successfully.
+2026-11-03T22:14:04.173 INFO nitrite [main] - Nitrite database has been closed successfully.
+2026-11-03T22:14:04.173 WARN org.dizitart.no2.integration.Retry [main] - testUpdateDocumentsFromVersion3(org.dizitart.no2.NitriteTest): run 2 failed
+2026-11-03T22:14:04.174 DEBUG nitrite [main] - Loading default unique indexer
+2026-11-03T22:14:04.174 DEBUG nitrite [main] - Loading default non-unique indexer
+2026-11-03T22:14:04.174 DEBUG nitrite [main] - Loading nitrite text indexer
+2026-11-03T22:14:04.174 DEBUG nitrite [main] - Loading mappable mapper
+2026-11-03T22:14:04.174 DEBUG nitrite [main] - Loading entity converters
+2026-11-03T22:14:04.197 DEBUG nitrite [main] - No documents found for filter org.dizitart.no2.filters.Filter$$Lambda$157/0x00007345941ee3b8@6342d610
+2026-11-03T22:14:04.199 DEBUG nitrite [main] - Total 3 document(s) to be inserted in test
+2026-11-03T22:14:04.199 DEBUG nitrite [main] - Processed document with id: [2117832726986604544]NO₂
+2026-11-03T22:14:04.200 DEBUG nitrite [main] - Inserting processed document with id [2117832726986604544]NO₂
+2026-11-03T22:14:04.204 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:04.205 DEBUG nitrite [main] - Processed document with id: [2117832727011770368]NO₂
+2026-11-03T22:14:04.205 DEBUG nitrite [main] - Inserting processed document with id [2117832727011770368]NO₂
+2026-11-03T22:14:04.207 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:04.208 DEBUG nitrite [main] - Processed document with id: [2117832727020158976]NO₂
+2026-11-03T22:14:04.208 DEBUG nitrite [main] - Inserting processed document with id [2117832727020158976]NO₂
+2026-11-03T22:14:04.212 DEBUG nitrite [main] - Alerting event listeners for action : Insert in test
+2026-11-03T22:14:04.212 DEBUG nitrite [main] - Returning write result WriteResultImpl(nitriteIds=[[2117832726986604544]NO₂, [2117832727011770368]NO₂, [2117832727020158976]NO₂]) for collection test
+2026-11-03T22:14:04.213 DEBUG nitrite [main] - Loading default unique indexer
+2026-11-03T22:14:04.213 DEBUG nitrite [main] - Loading default non-unique indexer
+2026-11-03T22:14:04.213 DEBUG nitrite [main] - Loading nitrite text indexer
+2026-11-03T22:14:04.213 DEBUG nitrite [main] - Loading mappable mapper
+2026-11-03T22:14:04.214 DEBUG nitrite [main] - Loading entity converters
+2026-11-03T22:14:04.215 INFO nitrite-mvstore [main] - Upgrading old database format to new database format
+2026-11-03T22:14:04.225 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.226 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.226 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.227 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.230 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.242 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.243 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.244 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.246 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T22:14:04.247 ERROR org.dizitart.no2.NitriteTest [main] - Error while updating document
+org.dizitart.no2.exceptions.InvalidIdException: Invalid _id found 34883372236166
+2026-11-03T22:14:04.249 DEBUG nitrite [main] - Processed document with id : [2117832726986604544]NO₂
+2026-11-03T22:14:04.251 DEBUG nitrite [main] - Removed document with id {firstName=fn1, lastName=ln1, birthDay=2012-07-01T16:02:48.440-0500, data=[1, 2, 3], body=a quick brown fox jump over the lazy dog, _id=2117832726986604544, _revision=2, _modified=1793765644249} from test
+2026-11-03T22:14:04.251 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:04.252 DEBUG nitrite [main] - Processed document with id : [2117832727011770368]NO₂
+2026-11-03T22:14:04.253 DEBUG nitrite [main] - Removed document with id {firstName=fn2, lastName=ln2, birthDay=2010-06-12T16:02:48.440-0500, data=[3, 4, 3], body=hello world from nitrite, _id=2117832727011770368, _revision=2, _modified=1793765644252} from test
+2026-11-03T22:14:04.254 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:04.254 DEBUG nitrite [main] - Processed document with id : [2117832727020158976]NO₂
+2026-11-03T22:14:04.257 DEBUG nitrite [main] - Removed document with id {firstName=fn3, lastName=ln2, birthDay=2014-04-17T16:02:48.440-0500, data=[9, 4, 8], body=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc mi, mattis ullamcorper dignissim vitae, condimentum non lorem., _id=2117832727020158976, _revision=2, _modified=1793765644254} from test
+2026-11-03T22:14:04.257 DEBUG nitrite [main] - Alerting event listeners for action : Remove in test
+2026-11-03T22:14:04.258 DEBUG nitrite [main] - Removed 3 documents for filter : org.dizitart.no2.filters.Filter$$Lambda$157/0x00007345941ee3b8@6342d610
+2026-11-03T22:14:04.258 DEBUG nitrite [main] - Unsaved changes detected, committing the changes.
+2026-11-03T22:14:04.263 DEBUG nitrite [main] - Unsaved changes has been committed successfully.
+2026-11-03T22:14:04.265 INFO nitrite [main] - Nitrite database has been closed successfully.
+2026-11-03T22:14:04.266 WARN org.dizitart.no2.integration.Retry [main] - testUpdateDocumentsFromVersion3(org.dizitart.no2.NitriteTest): run 3 failed
+2026-11-03T22:14:04.266 ERROR org.dizitart.no2.integration.Retry [main] - testUpdateDocumentsFromVersion3(org.dizitart.no2.NitriteTest): giving up after 3 failures

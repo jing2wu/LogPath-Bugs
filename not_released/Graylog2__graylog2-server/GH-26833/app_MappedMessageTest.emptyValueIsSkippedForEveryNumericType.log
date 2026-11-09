@@ -1,0 +1,35 @@
+2026-11-03T21:56:42.375 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse('CEF:0|SecureAuth|SecureAuth IdP|9.3|90030|Application - End request|4|cfp1= dlat= flexNumber1= cn1= type= cs1=AUDIT')
+2026-11-03T21:56:42.379 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - event matches standard CEF pattern '^((?<timestamp>.+)\s+(?<host>\S+)\s+).*?(?<cs0>CEF:\d+)|^.*?(?<cs1>CEF:\d+)'.
+2026-11-03T21:56:42.379 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - timestampText = 'null' host='null'
+2026-11-03T21:56:42.379 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - cefstartIndex = 0
+2026-11-03T21:56:42.379 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - parts[0] = 'CEF:0'
+2026-11-03T21:56:42.379 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - parts[1] = 'SecureAuth'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - parts[2] = 'SecureAuth IdP'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - parts[3] = '9.3'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - parts[4] = '90030'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - parts[5] = 'Application - End request'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - parts[6] = '4'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - parts[7] = 'cfp1= dlat= flexNumber1= cn1= type= cs1=AUDIT'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - index=0, token='CEF:0'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - index=1, token='SecureAuth'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - index=2, token='SecureAuth IdP'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - index=3, token='9.3'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - index=4, token='90030'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - index=5, token='Application - End request'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - index=6, token='4'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - index=7, token='cfp1= dlat= flexNumber1= cn1= type= cs1=AUDIT'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - extension = 'cfp1= dlat= flexNumber1= cn1= type= cs1=AUDIT'
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - matcher.start() = 0, matcher.end() = 5
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - matcher.start() = 6, matcher.end() = 11
+2026-11-03T21:56:42.380 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - key='cfp1' value=''
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - matcher.start() = 12, matcher.end() = 24
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - key='dlat' value=''
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - matcher.start() = 25, matcher.end() = 29
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - key='flexNumber1' value=''
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - matcher.start() = 30, matcher.end() = 35
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - key='cn1' value=''
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - matcher.start() = 36, matcher.end() = 40
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - key='type' value=''
+2026-11-03T21:56:42.381 TRACE com.github.jcustenborder.cef.CEFParserImpl [main] - parse() - key='cs1' value='AUDIT'
+2026-11-03T21:56:42.546 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

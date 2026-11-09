@@ -1,0 +1,34 @@
+{
+ "project": "eclipse-rdf4j__rdf4j",
+ "issue": "GH-5227",
+ "summary": "FedX: optimizer does not insert (external) bindings prior to source selection",
+ "fix_commit": "98d8944c3132f9df031aa80b82df2d9e8595a0e0",
+ "buggy_version": "98d8944c31 with tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java reverted to 98d8944c31^",
+ "jdk": "17",
+ "module": "tools/federation",
+ "tests": [
+  "FederationEvalStrategyTest#testSourceSelectionCache_setBindings"
+ ],
+ "faulty_lines": [
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:150",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:212",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:214"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 255,
+ "pairs_exported": 98,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 255,
+ "stable": true,
+ "runs": {
+  "FederationEvalStrategyTest#testSourceSelectionCache_setBindings": {
+   "threads": 14,
+   "log_threads": 12,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

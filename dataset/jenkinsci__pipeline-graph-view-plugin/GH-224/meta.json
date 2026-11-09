@@ -1,0 +1,59 @@
+{
+ "project": "jenkinsci__pipeline-graph-view-plugin",
+ "issue": "GH-224",
+ "summary": "Latest released version does not properly display logs",
+ "fix_commit": "4d8f64de99d3ded41f378d938a7af658a581dc9c",
+ "buggy_version": "4d8f64de99 with src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java reverted to 4d8f64de99^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "PipelineConsoleViewActionTest#getConsoleLogOfStepWithOutputAndException"
+ ],
+ "faulty_lines": [
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:131",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:134",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:135",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:136",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:137",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:139",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:140",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:142",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:144",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:145",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:146",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:148",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:149",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:150",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:151",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:152",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:153",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:154",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:155",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:156",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:157",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:158",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:159",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:161",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:162",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:163",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:164",
+  "src/main/java/io/jenkins/plugins/pipelinegraphview/consoleview/PipelineConsoleViewAction.java:165"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 59,
+ "pairs_exported": 17,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 59,
+ "stable": true,
+ "runs": {
+  "PipelineConsoleViewActionTest#getConsoleLogOfStepWithOutputAndException": {
+   "threads": 10,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

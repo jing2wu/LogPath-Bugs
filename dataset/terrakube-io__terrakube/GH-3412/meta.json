@@ -1,0 +1,32 @@
+{
+ "project": "terrakube-io__terrakube",
+ "issue": "GH-3412",
+ "summary": "Mirrored providers with trust_signature fail due to truncation",
+ "fix_commit": "af51941b945f6cdb725ae6b855547bb75856af2f",
+ "buggy_version": "af51941b94 with api/src/main/java/io/terrakube/api/plugin/scheduler/provider/ProviderRefreshJob.java reverted to af51941b94^",
+ "jdk": "25",
+ "module": "api",
+ "tests": [
+  "ProviderRefreshJobTest#preservesFullTrustSignature"
+ ],
+ "faulty_lines": [
+  "api/src/main/java/io/terrakube/api/plugin/scheduler/provider/ProviderRefreshJob.java:266"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 40,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 40,
+ "stable": true,
+ "runs": {
+  "ProviderRefreshJobTest#preservesFullTrustSignature": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

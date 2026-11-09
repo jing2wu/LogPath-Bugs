@@ -1,0 +1,6 @@
+2026-11-03T21:43:58.604 DEBUG io.github.microcks.util.el.ExpressionParser [main] - hasRedirect:false
+2026-11-03T21:43:58.607 DEBUG io.github.microcks.util.el.ExpressionParser [main] - hasFallback:false
+2026-11-03T21:43:58.607 DEBUG io.github.microcks.util.el.ExpressionParser [main] - hasVariable:true hasArgs:true isPostmanFunction:false varBeforeArgs:false
+2026-11-03T21:43:58.607 DEBUG io.github.microcks.util.el.ExpressionParser [main] - Found a function expression request.body/a)
+2026-11-03T21:43:58.643 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

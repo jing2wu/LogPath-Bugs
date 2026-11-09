@@ -1,0 +1,42 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-4800",
+ "summary": "BUG @Schema annotation is propagated from a property to the class defined in @Schema#implementation ",
+ "fix_commit": "0b467f3366e3edadd71bef8dcfd9e19fe6b643a9",
+ "buggy_version": "0b467f3366 with modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java, modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java reverted to 0b467f3366^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "Ticket4800Test#testCustomSchemaImplementation"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:754",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:755",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:756",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:757",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:766",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:767",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:768",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:825",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:826",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:2918",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:2919"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 424,
+ "pairs_exported": 12,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 424,
+ "stable": true,
+ "runs": {
+  "Ticket4800Test#testCustomSchemaImplementation": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

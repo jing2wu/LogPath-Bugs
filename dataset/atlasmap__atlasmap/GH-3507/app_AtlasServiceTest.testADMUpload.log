@@ -1,0 +1,447 @@
+2026-11-03T21:15:37.222 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry loadTestEngines - Discovered TestEngines with IDs: [junit-jupiter (group ID: org.junit.jupiter, artifact ID: junit-jupiter-engine, version: 5.8.1, location: jar:file:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/org/junit/jupiter/engine/JupiterTestEngine.class)]
+2026-11-03T21:15:37.325 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestExecutionListenerRegistry loadListeners - Loaded TestExecutionListener instances: []
+2026-11-03T21:15:39.475 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:15:39.483 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:15:39.484 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:15:39.488 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:15:39.524 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.RuntimeImpl
+2026-11-03T21:15:39.525 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Runtime
+2026-11-03T21:15:39.526 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Runtime
+2026-11-03T21:15:39.527 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Runtime
+2026-11-03T21:15:39.527 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Runtime
+2026-11-03T21:15:39.544 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotThreadImpl
+2026-11-03T21:15:39.545 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Threading
+2026-11-03T21:15:39.547 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Threading
+2026-11-03T21:15:39.548 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Threading
+2026-11-03T21:15:39.548 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Threading
+2026-11-03T21:15:39.571 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.OperatingSystemImpl
+2026-11-03T21:15:39.572 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=OperatingSystem
+2026-11-03T21:15:39.572 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=OperatingSystem
+2026-11-03T21:15:39.573 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=OperatingSystem
+2026-11-03T21:15:39.574 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=OperatingSystem
+2026-11-03T21:15:39.582 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T21:15:39.584 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:15:39.585 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:15:39.588 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:15:39.589 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:15:39.589 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T21:15:39.589 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:15:39.590 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:15:39.590 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:15:39.590 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:15:39.598 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:15:39.598 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:15:39.600 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:15:39.604 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:15:39.604 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:15:39.605 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:15:39.605 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:15:39.605 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:15:39.606 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:15:39.606 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:15:39.606 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:15:39.607 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:15:39.613 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:15:39.613 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:15:39.614 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:15:39.620 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:15:39.621 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:15:39.621 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:15:39.621 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:15:39.621 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:15:39.622 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:15:39.622 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:15:39.622 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:15:39.622 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:15:39.623 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:15:39.631 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:15:39.632 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:15:39.632 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:15:39.632 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:15:39.632 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:15:39.633 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:15:39.636 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:15:39.636 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:15:39.637 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:15:39.637 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:15:39.637 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:15:39.637 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:15:39.638 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:15:39.638 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:15:39.638 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:15:39.643 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.CompilationImpl
+2026-11-03T21:15:39.644 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Compilation
+2026-11-03T21:15:39.644 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Compilation
+2026-11-03T21:15:39.644 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Compilation
+2026-11-03T21:15:39.644 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Compilation
+2026-11-03T21:15:39.645 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryImpl
+2026-11-03T21:15:39.645 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Memory
+2026-11-03T21:15:39.646 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Memory
+2026-11-03T21:15:39.646 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Memory
+2026-11-03T21:15:39.646 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Memory
+2026-11-03T21:15:39.651 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+2026-11-03T21:15:39.655 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.util.logging:type=Logging
+2026-11-03T21:15:39.655 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.util.logging:type=Logging
+2026-11-03T21:15:39.656 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.util.logging:type=Logging
+2026-11-03T21:15:39.656 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.util.logging:type=Logging
+2026-11-03T21:15:39.657 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ClassLoadingImpl
+2026-11-03T21:15:39.657 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=ClassLoading
+2026-11-03T21:15:39.657 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=ClassLoading
+2026-11-03T21:15:39.657 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=ClassLoading
+2026-11-03T21:15:39.657 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=ClassLoading
+2026-11-03T21:15:39.687 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=DiagnosticCommand
+2026-11-03T21:15:39.688 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=DiagnosticCommand
+2026-11-03T21:15:39.691 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=DiagnosticCommand
+2026-11-03T21:15:39.691 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=DiagnosticCommand
+2026-11-03T21:15:39.693 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T21:15:39.693 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:15:39.698 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:15:39.698 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:15:39.700 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:15:39.701 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T21:15:39.701 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:15:39.701 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:15:39.702 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:15:39.702 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:15:39.707 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotDiagnostic
+2026-11-03T21:15:39.707 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:15:39.709 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:15:39.709 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:15:39.710 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:15:39.712 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:15:39.715 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped,type=BufferPool
+2026-11-03T21:15:39.715 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped,type=BufferPool
+2026-11-03T21:15:39.716 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped,type=BufferPool
+2026-11-03T21:15:39.716 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped,type=BufferPool
+2026-11-03T21:15:39.716 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:15:39.716 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=direct,type=BufferPool
+2026-11-03T21:15:39.716 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=direct,type=BufferPool
+2026-11-03T21:15:39.716 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=direct,type=BufferPool
+2026-11-03T21:15:39.716 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=direct,type=BufferPool
+2026-11-03T21:15:39.717 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:15:39.717 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:15:39.717 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:15:39.717 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:15:39.717 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:15:39.740 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for jdk.management.jfr.FlightRecorderMXBeanImpl
+2026-11-03T21:15:39.743 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:15:39.745 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:15:39.746 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:15:39.746 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:15:39.754 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:15:39.755 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:15:39.755 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:15:39.755 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:15:39.761 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:15:39.762 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:15:39.762 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=StatusLogger,type=1dbd16a6
+2026-11-03T21:15:39.762 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:15:39.767 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:15:39.768 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:15:39.768 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=ContextSelector,type=1dbd16a6
+2026-11-03T21:15:39.769 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:15:39.770 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:15:39.771 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:15:39.771 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=Loggers,name=,type=1dbd16a6
+2026-11-03T21:15:39.771 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:15:39.779 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:15:39.779 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:15:39.779 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=Appenders,name=F,type=1dbd16a6
+2026-11-03T21:15:39.780 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:15:40.180 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.BigDecimalConverter
+2026-11-03T21:15:40.265 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.BigIntegerConverter
+2026-11-03T21:15:40.293 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.BooleanConverter
+2026-11-03T21:15:40.312 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.ByteConverter
+2026-11-03T21:15:40.330 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.CalendarConverter
+2026-11-03T21:15:40.348 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.CharacterConverter
+2026-11-03T21:15:40.389 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.CharBufferConverter
+2026-11-03T21:15:40.401 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.CharSequenceConverter
+2026-11-03T21:15:40.415 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.DateConverter
+2026-11-03T21:15:40.450 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.DoubleConverter
+2026-11-03T21:15:40.466 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.FloatConverter
+2026-11-03T21:15:40.493 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.GregorianCalendarConverter
+2026-11-03T21:15:40.506 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.IntegerConverter
+2026-11-03T21:15:40.514 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.LocalDateConverter
+2026-11-03T21:15:40.525 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.LocalDateTimeConverter
+2026-11-03T21:15:40.537 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.LocalTimeConverter
+2026-11-03T21:15:40.544 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.LongConverter
+2026-11-03T21:15:40.558 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.NumberConverter
+2026-11-03T21:15:40.561 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.ShortConverter
+2026-11-03T21:15:40.566 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.SqlDateConverter
+2026-11-03T21:15:40.570 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.SqlTimeConverter
+2026-11-03T21:15:40.573 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.SqlTimestampConverter
+2026-11-03T21:15:40.579 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.StringConverter
+2026-11-03T21:15:40.585 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.StringBufferConverter
+2026-11-03T21:15:40.592 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.StringBuilderConverter
+2026-11-03T21:15:40.594 DEBUG io.atlasmap.core.DefaultAtlasConversionService [main] - Loading converter : io.atlasmap.converters.ZonedDateTimeConverter
+2026-11-03T21:15:40.967 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringSimpleFieldActions
+2026-11-03T21:15:41.520 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringComplexFieldActions
+2026-11-03T21:15:41.750 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.NumberFieldActions
+2026-11-03T21:15:41.847 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.CollectionActions
+2026-11-03T21:15:41.855 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ObjectFieldActions
+2026-11-03T21:15:41.877 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.DateFieldActions
+2026-11-03T21:15:41.908 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ExpressionFieldAction
+2026-11-03T21:15:41.921 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loaded 62 Field Actions
+2026-11-03T21:15:41.934 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringSimpleFieldActions
+2026-11-03T21:15:41.979 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringComplexFieldActions
+2026-11-03T21:15:42.064 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.NumberFieldActions
+2026-11-03T21:15:42.139 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.CollectionActions
+2026-11-03T21:15:42.146 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ObjectFieldActions
+2026-11-03T21:15:42.165 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.DateFieldActions
+2026-11-03T21:15:42.181 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ExpressionFieldAction
+2026-11-03T21:15:42.184 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loaded 62 Field Actions
+2026-11-03T21:15:42.270 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da
+2026-11-03T21:15:42.279 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da
+2026-11-03T21:15:42.280 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da
+2026-11-03T21:15:42.280 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object io.atlasmap:factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,type=AtlasServiceFactory
+2026-11-03T21:15:42.280 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da
+2026-11-03T21:15:42.280 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Registered AtlasContextFactory with JMX
+2026-11-03T21:15:42.445 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - io.atlasmap.java.module.JavaModule is a 'AtlasModule' implementation
+2026-11-03T21:15:42.485 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Module: io.atlasmap.java.module.JavaModule supports data formats: [java]
+2026-11-03T21:15:42.485 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Module: io.atlasmap.java.module.JavaModule config packages: [io.atlasmap.java.v2]
+2026-11-03T21:15:42.489 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:42.491 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:42.492 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:42.492 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object io.atlasmap:factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,moduleName=JavaModule,modules=AvailableModules,type=AtlasServiceFactory
+2026-11-03T21:15:42.493 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:42.493 DEBUG io.atlasmap.core.DefaultAtlasModuleInfoRegistry [main] - Registered AtlasModule 'JavaModule' with JMX
+2026-11-03T21:15:42.493 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Loaded: 1 of 1 detected modules
+2026-11-03T21:15:42.493 DEBUG io.atlasmap.service.AtlasService [main] - AtlasMap backend Working directory: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/atlasmap__atlasmap_x2/lib/service/target/with space
+2026-11-03T21:15:42.501 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Using /home/user/log-dataset/logpath-bugs-work/workspace/rwork/atlasmap__atlasmap_x2/lib/service/target/with space/lib as a lib directory
+2026-11-03T21:15:42.502 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Reloading library jars: []
+2026-11-03T21:15:42.512 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:42.513 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:42.514 FINER com.sun.jmx.mbeanserver.Repository remove - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:42.518 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object io.atlasmap:factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,moduleName=JavaModule,modules=AvailableModules,type=AtlasServiceFactory
+2026-11-03T21:15:42.519 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:42.524 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Unloaded: 1 modules
+2026-11-03T21:15:42.524 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da
+2026-11-03T21:15:42.525 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da
+2026-11-03T21:15:42.525 FINER com.sun.jmx.mbeanserver.Repository remove - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da
+2026-11-03T21:15:42.525 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object io.atlasmap:factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da,type=AtlasServiceFactory
+2026-11-03T21:15:42.525 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered io.atlasmap:type=AtlasServiceFactory,factoryUuid=16b01ee1-10c9-4c0e-a27e-ddea47d763da
+2026-11-03T21:15:42.526 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Unregistered AtlasContextFactory with JMX
+2026-11-03T21:15:42.531 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/io.atlasmap.v2.Action]
+2026-11-03T21:15:42.536 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.AbsoluteValue
+2026-11-03T21:15:42.536 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Add
+2026-11-03T21:15:42.536 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.AddDays
+2026-11-03T21:15:42.536 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.AddSeconds
+2026-11-03T21:15:42.536 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Append
+2026-11-03T21:15:42.537 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Average
+2026-11-03T21:15:42.537 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Camelize
+2026-11-03T21:15:42.542 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Capitalize
+2026-11-03T21:15:42.542 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Ceiling
+2026-11-03T21:15:42.542 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Concatenate
+2026-11-03T21:15:42.543 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Contains
+2026-11-03T21:15:42.543 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.ConvertAreaUnit
+2026-11-03T21:15:42.543 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.ConvertDistanceUnit
+2026-11-03T21:15:42.543 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.ConvertMassUnit
+2026-11-03T21:15:42.543 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.ConvertVolumeUnit
+2026-11-03T21:15:42.543 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Count
+2026-11-03T21:15:42.544 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.CurrentDate
+2026-11-03T21:15:42.548 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.CurrentDateTime
+2026-11-03T21:15:42.548 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.CurrentTime
+2026-11-03T21:15:42.548 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.CustomAction
+2026-11-03T21:15:42.552 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.DayOfMonth
+2026-11-03T21:15:42.552 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.DayOfWeek
+2026-11-03T21:15:42.552 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.DayOfYear
+2026-11-03T21:15:42.552 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Divide
+2026-11-03T21:15:42.552 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.EndsWith
+2026-11-03T21:15:42.552 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Equals
+2026-11-03T21:15:42.553 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Expression
+2026-11-03T21:15:42.553 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.FileExtension
+2026-11-03T21:15:42.556 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Floor
+2026-11-03T21:15:42.557 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Format
+2026-11-03T21:15:42.557 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.GenerateUUID
+2026-11-03T21:15:42.557 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.IndexOf
+2026-11-03T21:15:42.557 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.IsNull
+2026-11-03T21:15:42.557 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.ItemAt
+2026-11-03T21:15:42.561 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.LastIndexOf
+2026-11-03T21:15:42.561 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Length
+2026-11-03T21:15:42.561 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Lowercase
+2026-11-03T21:15:42.562 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.LowercaseChar
+2026-11-03T21:15:42.562 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.CopyTo
+2026-11-03T21:15:42.562 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Maximum
+2026-11-03T21:15:42.562 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Minimum
+2026-11-03T21:15:42.562 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Multiply
+2026-11-03T21:15:42.566 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Normalize
+2026-11-03T21:15:42.566 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.PadStringLeft
+2026-11-03T21:15:42.567 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.PadStringRight
+2026-11-03T21:15:42.567 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Prepend
+2026-11-03T21:15:42.567 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.RemoveFileExtension
+2026-11-03T21:15:42.567 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.ReplaceAll
+2026-11-03T21:15:42.567 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.ReplaceFirst
+2026-11-03T21:15:42.567 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Round
+2026-11-03T21:15:42.567 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.SeparateByDash
+2026-11-03T21:15:42.572 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.SeparateByUnderscore
+2026-11-03T21:15:42.572 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Split
+2026-11-03T21:15:42.572 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.StartsWith
+2026-11-03T21:15:42.572 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.SubString
+2026-11-03T21:15:42.573 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.SubStringAfter
+2026-11-03T21:15:42.573 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.SubStringBefore
+2026-11-03T21:15:42.573 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Subtract
+2026-11-03T21:15:42.573 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Trim
+2026-11-03T21:15:42.573 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.TrimLeft
+2026-11-03T21:15:42.573 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.TrimRight
+2026-11-03T21:15:42.573 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Uppercase
+2026-11-03T21:15:42.577 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.UppercaseChar
+2026-11-03T21:15:42.577 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Repeat
+2026-11-03T21:15:42.583 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/io.atlasmap.spi.AtlasFieldAction]
+2026-11-03T21:15:42.583 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.actions.StringSimpleFieldActions
+2026-11-03T21:15:42.584 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringSimpleFieldActions
+2026-11-03T21:15:42.657 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.actions.StringComplexFieldActions
+2026-11-03T21:15:42.657 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringComplexFieldActions
+2026-11-03T21:15:42.812 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.actions.NumberFieldActions
+2026-11-03T21:15:42.817 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.NumberFieldActions
+2026-11-03T21:15:42.922 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.actions.CollectionActions
+2026-11-03T21:15:42.923 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.CollectionActions
+2026-11-03T21:15:42.932 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.actions.ObjectFieldActions
+2026-11-03T21:15:42.932 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ObjectFieldActions
+2026-11-03T21:15:42.979 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.actions.DateFieldActions
+2026-11-03T21:15:42.979 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.DateFieldActions
+2026-11-03T21:15:43.021 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.actions.ExpressionFieldAction
+2026-11-03T21:15:43.022 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ExpressionFieldAction
+2026-11-03T21:15:43.034 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loaded 62 Field Actions
+2026-11-03T21:15:43.034 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92
+2026-11-03T21:15:43.041 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92
+2026-11-03T21:15:43.041 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92
+2026-11-03T21:15:43.042 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object io.atlasmap:factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,type=AtlasServiceFactory
+2026-11-03T21:15:43.042 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92
+2026-11-03T21:15:43.048 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Registered AtlasContextFactory with JMX
+2026-11-03T21:15:43.049 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/atlas/module/atlas.module]
+2026-11-03T21:15:43.049 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.java.module.JavaModule
+2026-11-03T21:15:43.051 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - io.atlasmap.java.module.JavaModule is a 'AtlasModule' implementation
+2026-11-03T21:15:43.051 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Module: io.atlasmap.java.module.JavaModule supports data formats: [java]
+2026-11-03T21:15:43.051 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Module: io.atlasmap.java.module.JavaModule config packages: [io.atlasmap.java.v2]
+2026-11-03T21:15:43.051 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:43.058 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:43.059 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:43.061 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object io.atlasmap:factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,moduleName=JavaModule,modules=AvailableModules,type=AtlasServiceFactory
+2026-11-03T21:15:43.061 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:43.065 DEBUG io.atlasmap.core.DefaultAtlasModuleInfoRegistry [main] - Registered AtlasModule 'JavaModule' with JMX
+2026-11-03T21:15:43.065 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Loaded: 1 of 1 detected modules
+2026-11-03T21:15:43.300 DEBUG io.atlasmap.service.AtlasService [main] - createMappingRequest (save) with format 'ZIP'
+2026-11-03T21:15:43.432 DEBUG io.atlasmap.service.AtlasService [main] -   importADMArchiveRequest - ID:'0'
+2026-11-03T21:15:43.441 DEBUG io.atlasmap.core.ADMArchiveHandler [main] -   Extracting ADM file entry 'atlasmapping-UI.0.json'
+2026-11-03T21:15:43.443 DEBUG io.atlasmap.core.ADMArchiveHandler [main] -   Extracting ADM file entry 'adm-catalog-files-0.gz'
+2026-11-03T21:15:43.443 DEBUG io.atlasmap.core.ADMArchiveHandler [main] -   Extracting ADM file entry 'lib/'
+2026-11-03T21:15:43.443 DEBUG io.atlasmap.core.ADMArchiveHandler [main] - Ignoring file 'lib/' in .adm archive
+2026-11-03T21:15:43.449 DEBUG io.atlasmap.core.ADMArchiveHandler [main] -   Extracting ADM file entry 'lib/f17f3c48-78eb-47ac-ac36-f278d966a9ca.jar'
+2026-11-03T21:15:43.727 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.AtlasMapping
+2026-11-03T21:15:43.728 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.json.v2.JsonDataSource
+2026-11-03T21:15:43.746 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.DataSource
+2026-11-03T21:15:43.747 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.xml.v2.XmlDataSource
+2026-11-03T21:15:43.807 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.v2.Mapping
+2026-11-03T21:15:43.862 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.json.v2.JsonField
+2026-11-03T21:15:43.920 WARN io.atlasmap.core.ADMArchiveHandler [main] - Invalid serialized mapping definition content detected, discarding
+2026-11-03T21:15:43.920 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Reloading library jars: [file:/home/user/log-dataset/logpath-bugs-work/workspace/rwork/atlasmap__atlasmap_x2/lib/service/target/with%20space/lib/f17f3c48-78eb-47ac-ac36-f278d966a9ca.jar]
+2026-11-03T21:15:43.921 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:43.921 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:43.922 FINER com.sun.jmx.mbeanserver.Repository remove - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:43.922 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object io.atlasmap:factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,moduleName=JavaModule,modules=AvailableModules,type=AtlasServiceFactory
+2026-11-03T21:15:43.922 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:43.922 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Unloaded: 1 modules
+2026-11-03T21:15:43.922 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92
+2026-11-03T21:15:43.922 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92
+2026-11-03T21:15:43.923 FINER com.sun.jmx.mbeanserver.Repository remove - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92
+2026-11-03T21:15:43.923 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object io.atlasmap:factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92,type=AtlasServiceFactory
+2026-11-03T21:15:43.933 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered io.atlasmap:type=AtlasServiceFactory,factoryUuid=3a3d21b1-a7d7-40d3-828a-f986e6afec92
+2026-11-03T21:15:43.934 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Unregistered AtlasContextFactory with JMX
+2026-11-03T21:15:43.935 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:java.net.URLClassLoader@6888a33, name:META-INF/services/io.atlasmap.v2.Action]
+2026-11-03T21:15:43.936 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:java.net.URLClassLoader@6888a33, name:META-INF/services/io.atlasmap.v2.Action]
+2026-11-03T21:15:43.943 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/io.atlasmap.v2.Action]
+2026-11-03T21:15:43.959 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.service.my.MyFieldActionsModel
+2026-11-03T21:15:43.981 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:java.net.URLClassLoader@6888a33, name:META-INF/services/io.atlasmap.spi.AtlasFieldAction]
+2026-11-03T21:15:43.981 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:java.net.URLClassLoader@6888a33, name:META-INF/services/io.atlasmap.spi.AtlasFieldAction]
+2026-11-03T21:15:43.982 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/io.atlasmap.spi.AtlasFieldAction]
+2026-11-03T21:15:43.988 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringSimpleFieldActions
+2026-11-03T21:15:44.057 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringComplexFieldActions
+2026-11-03T21:15:44.148 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.NumberFieldActions
+2026-11-03T21:15:44.237 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.CollectionActions
+2026-11-03T21:15:44.241 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ObjectFieldActions
+2026-11-03T21:15:44.263 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.DateFieldActions
+2026-11-03T21:15:44.288 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ExpressionFieldAction
+2026-11-03T21:15:44.294 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.service.my.MyFieldActions
+2026-11-03T21:15:44.299 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.service.my.MyFieldActions
+2026-11-03T21:15:44.304 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loaded 63 Field Actions
+2026-11-03T21:15:44.304 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104
+2026-11-03T21:15:44.308 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104
+2026-11-03T21:15:44.310 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104
+2026-11-03T21:15:44.312 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object io.atlasmap:factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,type=AtlasServiceFactory
+2026-11-03T21:15:44.314 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104
+2026-11-03T21:15:44.314 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Registered AtlasContextFactory with JMX
+2026-11-03T21:15:44.315 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:java.net.URLClassLoader@6888a33, name:META-INF/services/atlas/module/atlas.module]
+2026-11-03T21:15:44.315 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/atlas/module/atlas.module]
+2026-11-03T21:15:44.315 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.java.module.JavaModule
+2026-11-03T21:15:44.315 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - io.atlasmap.java.module.JavaModule is a 'AtlasModule' implementation
+2026-11-03T21:15:44.316 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Module: io.atlasmap.java.module.JavaModule supports data formats: [java]
+2026-11-03T21:15:44.316 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Module: io.atlasmap.java.module.JavaModule config packages: [io.atlasmap.java.v2]
+2026-11-03T21:15:44.316 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.317 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.320 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.324 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object io.atlasmap:factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,moduleName=JavaModule,modules=AvailableModules,type=AtlasServiceFactory
+2026-11-03T21:15:44.325 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.326 DEBUG io.atlasmap.core.DefaultAtlasModuleInfoRegistry [main] - Registered AtlasModule 'JavaModule' with JMX
+2026-11-03T21:15:44.326 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Loaded: 1 of 1 detected modules
+2026-11-03T21:15:44.327 DEBUG io.atlasmap.service.AtlasService [main] -   importADMArchiveRequest complete - ID:'0'
+2026-11-03T21:15:44.378 DEBUG io.atlasmap.service.AtlasService [main] - getMappingRequest: JSON '0'
+2026-11-03T21:15:44.380 DEBUG io.atlasmap.service.AtlasService [main] - Mapping definition not found for ID:0
+2026-11-03T21:15:44.405 DEBUG io.atlasmap.service.AtlasService [main] - resetUserLibs
+2026-11-03T21:15:44.415 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Reloading library jars: []
+2026-11-03T21:15:44.415 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.416 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.416 FINER com.sun.jmx.mbeanserver.Repository remove - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.416 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object io.atlasmap:factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,moduleName=JavaModule,modules=AvailableModules,type=AtlasServiceFactory
+2026-11-03T21:15:44.420 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.420 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Unloaded: 1 modules
+2026-11-03T21:15:44.420 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104
+2026-11-03T21:15:44.420 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104
+2026-11-03T21:15:44.421 FINER com.sun.jmx.mbeanserver.Repository remove - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104
+2026-11-03T21:15:44.421 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object io.atlasmap:factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104,type=AtlasServiceFactory
+2026-11-03T21:15:44.421 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered io.atlasmap:type=AtlasServiceFactory,factoryUuid=9a8e26d8-4d7f-4acc-9768-3ac765b3b104
+2026-11-03T21:15:44.421 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Unregistered AtlasContextFactory with JMX
+2026-11-03T21:15:44.422 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/io.atlasmap.v2.Action]
+2026-11-03T21:15:44.437 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/io.atlasmap.spi.AtlasFieldAction]
+2026-11-03T21:15:44.441 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringSimpleFieldActions
+2026-11-03T21:15:44.494 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.StringComplexFieldActions
+2026-11-03T21:15:44.559 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.NumberFieldActions
+2026-11-03T21:15:44.616 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.CollectionActions
+2026-11-03T21:15:44.626 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ObjectFieldActions
+2026-11-03T21:15:44.652 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.DateFieldActions
+2026-11-03T21:15:44.674 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loading FieldAction class: io.atlasmap.actions.ExpressionFieldAction
+2026-11-03T21:15:44.676 DEBUG io.atlasmap.core.DefaultAtlasFieldActionService [main] - Loaded 62 Field Actions
+2026-11-03T21:15:44.676 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f
+2026-11-03T21:15:44.680 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = io.atlasmap:type=AtlasServiceFactory,factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f
+2026-11-03T21:15:44.680 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f
+2026-11-03T21:15:44.681 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object io.atlasmap:factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f,type=AtlasServiceFactory
+2026-11-03T21:15:44.681 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered io.atlasmap:type=AtlasServiceFactory,factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f
+2026-11-03T21:15:44.681 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Registered AtlasContextFactory with JMX
+2026-11-03T21:15:44.683 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Found resource:[ClassLoader:jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6, name:META-INF/services/atlas/module/atlas.module]
+2026-11-03T21:15:44.683 DEBUG io.atlasmap.service.AtlasLibraryLoader [main] - Loading Class:io.atlasmap.java.module.JavaModule
+2026-11-03T21:15:44.684 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - io.atlasmap.java.module.JavaModule is a 'AtlasModule' implementation
+2026-11-03T21:15:44.684 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Module: io.atlasmap.java.module.JavaModule supports data formats: [java]
+2026-11-03T21:15:44.684 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Module: io.atlasmap.java.module.JavaModule config packages: [io.atlasmap.java.v2]
+2026-11-03T21:15:44.684 FINER com.sun.jmx.mbeanserver.Repository contains - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.685 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = io.atlasmap:type=AtlasServiceFactory,factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.685 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = io.atlasmap:type=AtlasServiceFactory,factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.685 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object io.atlasmap:factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f,moduleName=JavaModule,modules=AvailableModules,type=AtlasServiceFactory
+2026-11-03T21:15:44.685 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered io.atlasmap:type=AtlasServiceFactory,factoryUuid=b658ea12-3372-4b05-9977-b11e009abf0f,modules=AvailableModules,moduleName=JavaModule
+2026-11-03T21:15:44.685 DEBUG io.atlasmap.core.DefaultAtlasModuleInfoRegistry [main] - Registered AtlasModule 'JavaModule' with JMX
+2026-11-03T21:15:44.686 DEBUG io.atlasmap.core.DefaultAtlasContextFactory [main] - Loaded: 1 of 1 detected modules
+2026-11-03T21:15:44.686 DEBUG io.atlasmap.service.AtlasService [main] - resetAllMappings
+2026-11-03T21:15:44.798 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:15:44.799 FINER com.sun.jmx.mbeanserver.Repository remove - name = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:15:44.799 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:15:44.799 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:15:44.799 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:15:44.799 FINER com.sun.jmx.mbeanserver.Repository remove - name = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:15:44.799 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object org.apache.logging.log4j2:component=StatusLogger,type=1dbd16a6
+2026-11-03T21:15:44.799 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:15:44.800 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:15:44.800 FINER com.sun.jmx.mbeanserver.Repository remove - name = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:15:44.800 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object org.apache.logging.log4j2:component=ContextSelector,type=1dbd16a6
+2026-11-03T21:15:44.800 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:15:44.800 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:15:44.800 FINER com.sun.jmx.mbeanserver.Repository remove - name = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:15:44.800 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object org.apache.logging.log4j2:component=Loggers,name=,type=1dbd16a6
+2026-11-03T21:15:44.801 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=

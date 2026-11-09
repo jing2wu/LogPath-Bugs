@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23223",
+ "summary": "[BUG][ASPNETCORE] README.md is outdated",
+ "fix_commit": "231c3c4cf0990ccfb60cf97e85386c643adb444b",
+ "buggy_version": "231c3c4cf0 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AspNetServerCodegen.java reverted to 231c3c4cf0^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "AspNetServerCodegenTest#doesNotGenerateObsoleteWwwrootReadme"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AspNetServerCodegen.java:470"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 1211,
+ "pairs_exported": 6,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 1211,
+ "stable": true,
+ "runs": {
+  "AspNetServerCodegenTest#doesNotGenerateObsoleteWwwrootReadme": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

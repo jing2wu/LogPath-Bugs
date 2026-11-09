@@ -1,0 +1,32 @@
+{
+ "project": "opensearch-project__security",
+ "issue": "GH-5832",
+ "summary": "[BUG] LDAP auth broke after upgrading from opensearch:2 to opensearch:3",
+ "fix_commit": "212c1326192f42b78e3fc7dc6b79040790dcf314",
+ "buggy_version": "212c132619 with src/main/java/org/opensearch/security/auth/ldap/backend/LDAPAuthorizationBackend.java reverted to 212c132619^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "LdapBackendTest#testLdapAuthorizationDnNested_withLdapEntry"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/opensearch/security/auth/ldap/backend/LDAPAuthorizationBackend.java:905"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 37,
+ "pairs_exported": 21,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 37,
+ "stable": true,
+ "runs": {
+  "LdapBackendTest#testLdapAuthorizationDnNested_withLdapEntry": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

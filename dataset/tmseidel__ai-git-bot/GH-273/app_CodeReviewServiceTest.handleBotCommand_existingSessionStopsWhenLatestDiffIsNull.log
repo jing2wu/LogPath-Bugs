@@ -1,0 +1,10 @@
+2026-11-03T21:49:10.171 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:49:10.342 FINER java.lang.ProcessBuilder start - ProcessBuilder.start(): pid: 3939376, dir: null, cmd: "/home/user/.sdkman/candidates/java/21.0.12+1.1-zulu/bin/java" "-Dnet.bytebuddy.agent.attacher.dump=" "-cp" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar" "net.bytebuddy.agent.Attacher" "com.sun.tools.attach.VirtualMachine" "3939279" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar" "false" ""
+java.lang.RuntimeException: ProcessBuilder.start() debug
+2026-11-03T21:49:11.717 INFO org.remus.giteabot.review.CodeReviewService [main] - Handling bot command in comment #42 for PR #1 in testowner/testrepo
+2026-11-03T21:49:11.722 DEBUG org.remus.giteabot.review.CodeReviewService [main] - LLM request [chat/botCommand] for PR #1: history size=0, commentBody length=33, systemPrompt length=11
+2026-11-03T21:49:11.723 DEBUG org.remus.giteabot.review.CodeReviewService [main] - LLM request [chat/botCommand] user message: '@ai_bot inspect the latest change'
+2026-11-03T21:49:11.723 DEBUG org.remus.giteabot.review.CodeReviewService [main] - LLM response [chat/botCommand] for PR #1: length=0, preview='null'
+2026-11-03T21:49:11.725 INFO org.remus.giteabot.review.CodeReviewService [main] - Bot command handled for comment #42 on PR #1 in testowner/testrepo
+2026-11-03T21:49:11.815 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

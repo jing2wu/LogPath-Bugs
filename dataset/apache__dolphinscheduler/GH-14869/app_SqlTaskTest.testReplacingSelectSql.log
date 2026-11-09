@@ -1,0 +1,22 @@
+2026-11-03T19:32:53.733 INFO org.apache.dolphinscheduler.common.utils.JSONUtils [main] - init timezone: sun.util.calendar.ZoneInfo[id="America/Chicago",offset=-21600000,dstSavings=3600000,useDaylight=true,transitions=361,lastRule=java.util.SimpleTimeZone[id=America/Chicago,offset=-21600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]]
+2026-11-03T19:32:54.411 INFO org.apache.dolphinscheduler.plugin.task.api.AbstractTask [main] - Initialize sql task parameter {
+  "localParams" : null,
+  "varPool" : null,
+  "type" : "HIVE",
+  "datasource" : 1,
+  "sql" : "select 1",
+  "sqlType" : 0,
+  "sendEmail" : null,
+  "displayRows" : 0,
+  "udfs" : null,
+  "showType" : null,
+  "connParams" : null,
+  "preStatements" : null,
+  "postStatements" : null,
+  "groupId" : 0,
+  "title" : null,
+  "limit" : 0
+}
+2026-11-03T19:32:54.466 INFO org.apache.dolphinscheduler.plugin.task.api.AbstractTask [main] - setSqlParamsMap: Property with paramName: dt put in sqlParamsMap of content select id from student where dt='${dt}' successfully.
+2026-11-03T19:32:54.470 INFO org.apache.dolphinscheduler.plugin.task.api.AbstractTask [main] - setSqlParamsMap: Property with paramName: dt put in sqlParamsMap of content select id from student where dt="${dt}" successfully.
+2026-11-03T19:32:54.475 ERROR org.apache.dolphinscheduler.plugin.task.api.AbstractTask [main] - setSqlParamsMap: No Property with paramName: null is found in paramsPropsMap of task instance with id: 1. So couldn't put Property in sqlParamsMap.

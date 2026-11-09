@@ -1,0 +1,263 @@
+2026-11-03T20:02:05.117 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultCodegenTest.testOneOfEnum()[pri:0, instance:org.openapitools.codegen.DefaultCodegenTest@11c581a0] -1529452979
+2026-11-03T20:02:05.127 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:02:05.137 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:02:05.138 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:02:05.138 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:02:06.136 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [TestNG-test=Surefire test-1] - Loaded raw data: {
+  "openapi": "3.0.1",
+  "info": {
+    "version": "1.0.0",
+    "title": "OpenAPI Petstore"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "description": "get all pets in a household",
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Household"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Household": {
+        "title": "Household",
+        "type" : "object",
+        "required": [
+          "pets"
+        ],
+        "properties": {
+          "pets": {
+            "type": "array",
+            "title": "pets",
+            "items" : {
+              "title": "petItems",
+              "oneOf" : [ {
+                "$ref" : "#/components/schemas/Dog"
+              }, {
+                "$ref" : "#/components/schemas/Cat"
+              } ]
+            }
+          }
+        }
+      },
+      "Dog": {
+        "type" : "object",
+        "title": "Dog",
+        "properties" : {
+          "type" : {
+            "type" : "string",
+            "enum" : [ "dog" ]
+          }
+        },
+        "required" : [ "type" ]
+      },
+      "Cat": {
+        "type" : "object",
+        "title": "Cat",
+        "properties" : {
+          "type" : {
+            "type" : "string",
+            "enum" : [ "cat" ]
+          }
+        },
+        "required" : [ "type" ]
+      }
+    }
+  }
+}
+2026-11-03T20:02:07.374 WARN org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T20:02:07.495 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for one_of_0 : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Dog
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:02:07.563 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='Dog', baseName='one_of_0', complexType='Dog', getter='getOneUnderscoreofUnderscore0', setter='setOneUnderscoreofUnderscore0', description='null', dataType='Dog', datatypeWithEnum='Dog', dataFormat='null', name='oneUnderscoreofUnderscore0', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.one_of_0;', baseType='Dog', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Dog"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='OneUnderscoreofUnderscore0', nameInSnakeCase='ONE_UNDERSCOREOF_UNDERSCORE0', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Dog, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:02:07.566 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for one_of_1 : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Cat
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:02:07.572 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='Cat', baseName='one_of_1', complexType='Cat', getter='getOneUnderscoreofUnderscore1', setter='setOneUnderscoreofUnderscore1', description='null', dataType='Cat', datatypeWithEnum='Cat', dataFormat='null', name='oneUnderscoreofUnderscore1', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.one_of_1;', baseType='Cat', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Cat"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='OneUnderscoreofUnderscore1', nameInSnakeCase='ONE_UNDERSCOREOF_UNDERSCORE1', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Cat, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:02:07.581 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for Dog : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Dog
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:02:07.585 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='Dog', baseName='Dog', complexType='Dog', getter='getDog', setter='setDog', description='null', dataType='Dog', datatypeWithEnum='Dog', dataFormat='null', name='Dog', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Dog;', baseType='Dog', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Dog"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Dog', nameInSnakeCase='DOG', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Dog, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:02:07.590 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for Cat : class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Cat
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:02:07.595 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='Cat', baseName='Cat', complexType='Cat', getter='getCat', setter='setCat', description='null', dataType='Cat', datatypeWithEnum='Cat', dataFormat='null', name='Cat', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Cat;', baseType='Cat', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Cat"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Cat', nameInSnakeCase='CAT', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=#/components/schemas/Cat, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:02:07.598 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for type : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:02:07.622 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='type', complexType='string', getter='getType', setter='setType', description='null', dataType='String', datatypeWithEnum='TypeEnum', dataFormat='null', name='type', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.type;', baseType='string', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string",
+  "enum" : [ "cat" ]
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=true, isInnerEnum=true, isEnumRef=true, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=[cat], allowableValues={values=[cat]}, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Type', nameInSnakeCase='TYPE', enumName='TypeEnum', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:02:07.626 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - The property `type` already defined in the child model. Using the one from child.
+2026-11-03T20:02:07.919 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultCodegenTest.testOneOfEnum()[pri:0, instance:org.openapitools.codegen.DefaultCodegenTest@11c581a0] -1529452979
+2026-11-03T20:02:07.919 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:02:07.921 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:02:07.921 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:02:07.921 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

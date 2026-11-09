@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-24119",
+ "summary": "[BUG][AsciiDoc] Pipe Characters in patterns break table layout",
+ "fix_commit": "2f5bf0e61a96144107cfe1747ff683f4bd584259",
+ "buggy_version": "2f5bf0e61a with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AsciidocDocumentationCodegen.java reverted to 2f5bf0e61a^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "AsciidocGeneratorTest#testPipeInPatternIsEscapedInGeneratedTables"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AsciidocDocumentationCodegen.java:153",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AsciidocDocumentationCodegen.java:278"
+ ],
+ "covering_pairs": 12,
+ "shortest_covering_pair": 106,
+ "pairs_exported": 48,
+ "covering_pairs_printed": 12,
+ "shortest_covering_pair_printed": 106,
+ "stable": true,
+ "runs": {
+  "AsciidocGeneratorTest#testPipeInPatternIsEscapedInGeneratedTables": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

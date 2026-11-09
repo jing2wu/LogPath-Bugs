@@ -1,0 +1,2 @@
+16 [main] DEBUG net.sourceforge.pmd.doc.internal.DeadLinksChecker - Checking src/test/resources/ruletagchecker/docs/pages/ruletag-examples.md
+24 [main] WARN net.sourceforge.pmd.doc.internal.DeadLinksChecker - File src/test/resources/ruletagchecker/docs/pages/pmd/rules/java/notexistingcategory.md not found.

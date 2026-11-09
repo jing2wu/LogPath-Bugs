@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-12545",
+ "summary": "[BUG][JAVA] Client files generated for object with multiple `oneOf` items only have last entry",
+ "fix_commit": "1561c339665212757799d1802f3c156b797360fd",
+ "buggy_version": "1561c33966 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java reverted to 1561c33966^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "DefaultCodegenTest#testOneOfEnum"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:2739",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:2815"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 190,
+ "pairs_exported": 10,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 190,
+ "stable": true,
+ "runs": {
+  "DefaultCodegenTest#testOneOfEnum": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

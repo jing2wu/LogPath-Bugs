@@ -1,0 +1,2043 @@
+2026-11-03T21:18:22.502 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:18:23.279 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testToPythonExamplePrefersExampleOverExamples()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@312b34e3] 1104384745
+2026-11-03T21:18:23.279 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@312b34e3] -1947963536
+2026-11-03T21:18:23.279 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testToPythonExampleWithPluralExamples()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@312b34e3] -1785185030
+2026-11-03T21:18:23.279 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testContainerType()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@312b34e3] 475349773
+2026-11-03T21:18:23.279 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testRequestBodyExampleInBodyMetadata()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@312b34e3] -1589455419
+2026-11-03T21:18:23.279 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryResponseUsesBytesNotFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@312b34e3] 2063804074
+2026-11-03T21:18:23.280 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testSchemaPropertyExamplesInMetadata()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@312b34e3] -2089409815
+2026-11-03T21:18:23.280 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:18:23.303 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:18:23.304 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:18:23.307 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:18:23.670 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testToPythonExamplePrefersExampleOverExamples()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@136965e3] 605144041
+2026-11-03T21:18:23.681 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@136965e3] 1847763056
+2026-11-03T21:18:23.681 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testToPythonExampleWithPluralExamples()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@136965e3] 2010541562
+2026-11-03T21:18:23.681 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testContainerType()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@136965e3] -23890931
+2026-11-03T21:18:23.681 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testRequestBodyExampleInBodyMetadata()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@136965e3] -2088696123
+2026-11-03T21:18:23.682 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryResponseUsesBytesNotFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@136965e3] 1564563370
+2026-11-03T21:18:23.682 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testSchemaPropertyExamplesInMetadata()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@136965e3] 1706316777
+2026-11-03T21:18:23.682 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:18:23.694 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:18:23.695 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:18:23.695 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:18:24.917 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryResponseUsesBytesNotFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@8a6631b] 1384010978
+2026-11-03T21:18:24.917 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:18:24.918 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:18:24.918 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:18:24.918 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:18:26.205 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: binary response typing
+  version: 1.0.0
+paths:
+  /resource:
+    get:
+      tags:
+        - resource
+      description: Binary response body (full or partial)
+      operationId: resourceInResponse
+      parameters:
+        - name: Range
+          in: header
+          required: false
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Full binary body
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+        "206":
+          description: Partial binary body
+          headers:
+            Content-Range:
+              required: true
+              schema:
+                type: string
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+2026-11-03T21:18:27.309 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:18:27.359 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:18:27.372 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: python-fastapi (server)
+2026-11-03T21:18:27.372 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'python-fastapi' is considered beta.
+2026-11-03T21:18:27.407 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Environment variable PYTHON_POST_PROCESS_FILE not defined so the Python code may not be properly formatted. To define it, try 'export PYTHON_POST_PROCESS_FILE="/usr/local/bin/yapf -i"' (Linux/Mac)
+2026-11-03T21:18:27.408 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:18:27.408 INFO org.openapitools.codegen.languages.PythonFastAPIServerCodegen [main] - Skipping sorting of path operations, order matters, let the developer decide via their specification file.
+2026-11-03T21:18:27.872 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:27.943 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:27.964 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: [resource]
+    summary: null
+    description: Binary response body (full or partial)
+    externalDocs: null
+    operationId: resourceInResponse
+    parameters: [class HeaderParameter {
+        class Parameter {
+            name: Range
+            in: null
+            description: null
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: simple
+            explode: false
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: header
+    }]
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: Full binary body
+            headers: null
+            content: class Content {
+                {application/octet-stream=class MediaType {
+                    schema: class BinarySchema {
+                        class Schema {
+                            type: string
+                            format: binary
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }, 206=class ApiResponse {
+            description: Partial binary body
+            headers: {Content-Range=class Header {
+                description: null
+                required: true
+                deprecated: null
+                style: simple
+                explode: false
+                schema: class StringSchema {
+                    class Schema {
+                        type: string
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                }
+                examples: null
+                example: null
+                content: null
+                $ref: null
+            }}
+            content: class Content {
+                {application/octet-stream=class MediaType {
+                    schema: class BinarySchema {
+                        class Schema {
+                            type: string
+                            format: binary
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:18:28.388 WARN org.openapitools.codegen.utils.ExamplesUtils [main] - No application/json content media type found in response. Response examples can currently only be generated for application/json media type.
+2026-11-03T21:18:28.618 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:28.722 WARN org.openapitools.codegen.utils.ModelUtils [main] - Failed to get the schema name: null
+2026-11-03T21:18:28.722 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='response', complexType='null', getter='getResponse', setter='setResponse', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='response', nameInPascalCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:28.734 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor200ResponseBodyApplicationOctetStream: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:28.759 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='SchemaFor200ResponseBodyApplicationOctetStream', complexType='null', getter='getSchemaFor200ResponseBodyApplicationOctetStream', setter='setSchemaFor200ResponseBodyApplicationOctetStream', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='schema_for200_response_body_application_octet_stream', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor200ResponseBodyApplicationOctetStream;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor200ResponseBodyApplicationOctetStream', nameInPascalCase='SchemaFor200ResponseBodyApplicationOctetStream', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_OCTET_STREAM', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:28.863 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:28.889 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Content-Range', complexType='null', getter='getContentRange', setter='setContentRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='content_range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Content-Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='contentRange', nameInPascalCase='ContentRange', nameInSnakeCase='CONTENT_RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:18:28.890 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:28.891 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:18:29.020 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:29.021 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Content-Range : null required=false
+2026-11-03T21:18:29.021 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:29.021 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Content-Range : null required=false
+2026-11-03T21:18:29.022 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=false, isPathParam=false, isHeaderParam=true, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=false, baseName='Content-Range', paramName='content_range', dataType='str', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='simple', deepObject='false', isFormStyle='false', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example=''content_range_example'', examples='null', jsonSchema='{
+  "name" : "Content-Range",
+  "in" : "header",
+  "required" : true,
+  "style" : "simple",
+  "explode" : false,
+  "schema" : {
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=false, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=true, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='null', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='Content-Range', complexType='null', getter='getContentRange', setter='setContentRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='content_range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Content-Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='contentRange', nameInPascalCase='ContentRange', nameInSnakeCase='CONTENT_RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T21:18:29.029 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor206ResponseBodyApplicationOctetStream: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:29.041 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='SchemaFor206ResponseBodyApplicationOctetStream', complexType='null', getter='getSchemaFor206ResponseBodyApplicationOctetStream', setter='setSchemaFor206ResponseBodyApplicationOctetStream', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='schema_for206_response_body_application_octet_stream', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor206ResponseBodyApplicationOctetStream;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor206ResponseBodyApplicationOctetStream', nameInPascalCase='SchemaFor206ResponseBodyApplicationOctetStream', nameInSnakeCase='SCHEMA_FOR206_RESPONSE_BODY_APPLICATION_OCTET_STREAM', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:29.050 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:29.057 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:18:29.103 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:29.118 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Range', complexType='null', getter='getRange', setter='setRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='range', nameInPascalCase='Range', nameInSnakeCase='RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:18:29.120 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:29.120 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Range : null required=false
+2026-11-03T21:18:29.123 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=false, isPathParam=false, isHeaderParam=true, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=false, baseName='Range', paramName='range', dataType='str', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='simple', deepObject='false', isFormStyle='false', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example=''range_example'', examples='null', jsonSchema='{
+  "name" : "Range",
+  "in" : "header",
+  "required" : false,
+  "style" : "simple",
+  "explode" : false,
+  "schema" : {
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=false, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='null', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='Range', complexType='null', getter='getRange', setter='setRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='range', nameInPascalCase='Range', nameInSnakeCase='RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T21:18:29.211 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:29.323 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/src/openapi_server/apis/resource_api.py
+2026-11-03T21:18:29.334 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/src/openapi_server/apis/resource_api_base.py
+2026-11-03T21:18:29.355 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/tests/test_resource_api.py
+2026-11-03T21:18:29.357 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:29.534 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/README.md
+2026-11-03T21:18:29.535 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/openapi.yaml
+2026-11-03T21:18:29.550 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/src/openapi_server/main.py
+2026-11-03T21:18:29.558 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/docker-compose.yaml
+2026-11-03T21:18:29.561 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/Dockerfile
+2026-11-03T21:18:29.564 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/requirements.txt
+2026-11-03T21:18:29.572 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/src/openapi_server/security_api.py
+2026-11-03T21:18:29.576 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/src/openapi_server/models/extra_models.py
+2026-11-03T21:18:29.581 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/src/openapi_server/models/__init__.py
+2026-11-03T21:18:29.581 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/src/openapi_server/apis/__init__.py
+2026-11-03T21:18:29.587 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/src/openapi_server/impl/__init__.py
+2026-11-03T21:18:29.590 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/tests/conftest.py
+2026-11-03T21:18:29.592 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/.gitignore
+2026-11-03T21:18:29.593 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/pyproject.toml
+2026-11-03T21:18:29.595 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/setup.cfg
+2026-11-03T21:18:29.598 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/.flake8
+2026-11-03T21:18:29.614 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/.openapi-generator-ignore
+2026-11-03T21:18:29.615 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/.openapi-generator/VERSION
+2026-11-03T21:18:29.632 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test8041899281791700895/.openapi-generator/FILES
+2026-11-03T21:18:29.939 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryResponseUsesBytesNotFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@7ff26b29] -909484816
+2026-11-03T21:18:29.941 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:18:29.941 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:18:29.941 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:18:29.941 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:18:29.996 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryResponseUsesBytesNotFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@2d6a6887] 2000837198
+2026-11-03T21:18:29.997 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:18:29.997 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:18:29.997 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:18:29.997 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:18:30.017 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: binary response typing
+  version: 1.0.0
+paths:
+  /resource:
+    get:
+      tags:
+        - resource
+      description: Binary response body (full or partial)
+      operationId: resourceInResponse
+      parameters:
+        - name: Range
+          in: header
+          required: false
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Full binary body
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+        "206":
+          description: Partial binary body
+          headers:
+            Content-Range:
+              required: true
+              schema:
+                type: string
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+2026-11-03T21:18:30.035 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:18:30.036 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:18:30.036 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: python-fastapi (server)
+2026-11-03T21:18:30.036 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'python-fastapi' is considered beta.
+2026-11-03T21:18:30.036 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Environment variable PYTHON_POST_PROCESS_FILE not defined so the Python code may not be properly formatted. To define it, try 'export PYTHON_POST_PROCESS_FILE="/usr/local/bin/yapf -i"' (Linux/Mac)
+2026-11-03T21:18:30.036 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:18:30.036 INFO org.openapitools.codegen.languages.PythonFastAPIServerCodegen [main] - Skipping sorting of path operations, order matters, let the developer decide via their specification file.
+2026-11-03T21:18:30.047 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:30.048 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:30.054 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: [resource]
+    summary: null
+    description: Binary response body (full or partial)
+    externalDocs: null
+    operationId: resourceInResponse
+    parameters: [class HeaderParameter {
+        class Parameter {
+            name: Range
+            in: null
+            description: null
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: simple
+            explode: false
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: header
+    }]
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: Full binary body
+            headers: null
+            content: class Content {
+                {application/octet-stream=class MediaType {
+                    schema: class BinarySchema {
+                        class Schema {
+                            type: string
+                            format: binary
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }, 206=class ApiResponse {
+            description: Partial binary body
+            headers: {Content-Range=class Header {
+                description: null
+                required: true
+                deprecated: null
+                style: simple
+                explode: false
+                schema: class StringSchema {
+                    class Schema {
+                        type: string
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                }
+                examples: null
+                example: null
+                content: null
+                $ref: null
+            }}
+            content: class Content {
+                {application/octet-stream=class MediaType {
+                    schema: class BinarySchema {
+                        class Schema {
+                            type: string
+                            format: binary
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:18:30.071 WARN org.openapitools.codegen.utils.ExamplesUtils [main] - No application/json content media type found in response. Response examples can currently only be generated for application/json media type.
+2026-11-03T21:18:30.072 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.078 WARN org.openapitools.codegen.utils.ModelUtils [main] - Failed to get the schema name: null
+2026-11-03T21:18:30.078 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='response', complexType='null', getter='getResponse', setter='setResponse', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='response', nameInPascalCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.080 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor200ResponseBodyApplicationOctetStream: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.089 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='SchemaFor200ResponseBodyApplicationOctetStream', complexType='null', getter='getSchemaFor200ResponseBodyApplicationOctetStream', setter='setSchemaFor200ResponseBodyApplicationOctetStream', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='schema_for200_response_body_application_octet_stream', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor200ResponseBodyApplicationOctetStream;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor200ResponseBodyApplicationOctetStream', nameInPascalCase='SchemaFor200ResponseBodyApplicationOctetStream', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_OCTET_STREAM', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.097 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.104 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Content-Range', complexType='null', getter='getContentRange', setter='setContentRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='content_range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Content-Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='contentRange', nameInPascalCase='ContentRange', nameInSnakeCase='CONTENT_RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.105 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.108 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:18:30.109 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.109 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Content-Range : null required=false
+2026-11-03T21:18:30.110 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.110 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Content-Range : null required=false
+2026-11-03T21:18:30.116 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=false, isPathParam=false, isHeaderParam=true, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=false, baseName='Content-Range', paramName='content_range', dataType='str', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='simple', deepObject='false', isFormStyle='false', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example=''content_range_example'', examples='null', jsonSchema='{
+  "name" : "Content-Range",
+  "in" : "header",
+  "required" : true,
+  "style" : "simple",
+  "explode" : false,
+  "schema" : {
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=false, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=true, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='null', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='Content-Range', complexType='null', getter='getContentRange', setter='setContentRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='content_range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Content-Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='contentRange', nameInPascalCase='ContentRange', nameInSnakeCase='CONTENT_RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T21:18:30.117 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor206ResponseBodyApplicationOctetStream: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.127 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='SchemaFor206ResponseBodyApplicationOctetStream', complexType='null', getter='getSchemaFor206ResponseBodyApplicationOctetStream', setter='setSchemaFor206ResponseBodyApplicationOctetStream', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='schema_for206_response_body_application_octet_stream', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor206ResponseBodyApplicationOctetStream;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor206ResponseBodyApplicationOctetStream', nameInPascalCase='SchemaFor206ResponseBodyApplicationOctetStream', nameInSnakeCase='SCHEMA_FOR206_RESPONSE_BODY_APPLICATION_OCTET_STREAM', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.128 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.128 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:18:30.130 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.136 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Range', complexType='null', getter='getRange', setter='setRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='range', nameInPascalCase='Range', nameInSnakeCase='RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.137 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.140 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Range : null required=false
+2026-11-03T21:18:30.142 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=false, isPathParam=false, isHeaderParam=true, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=false, baseName='Range', paramName='range', dataType='str', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='simple', deepObject='false', isFormStyle='false', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example=''range_example'', examples='null', jsonSchema='{
+  "name" : "Range",
+  "in" : "header",
+  "required" : false,
+  "style" : "simple",
+  "explode" : false,
+  "schema" : {
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=false, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='null', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='Range', complexType='null', getter='getRange', setter='setRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='range', nameInPascalCase='Range', nameInSnakeCase='RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T21:18:30.147 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:30.181 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/src/openapi_server/apis/resource_api.py
+2026-11-03T21:18:30.191 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/src/openapi_server/apis/resource_api_base.py
+2026-11-03T21:18:30.202 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/tests/test_resource_api.py
+2026-11-03T21:18:30.205 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:30.308 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/README.md
+2026-11-03T21:18:30.312 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/openapi.yaml
+2026-11-03T21:18:30.322 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/src/openapi_server/main.py
+2026-11-03T21:18:30.327 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/docker-compose.yaml
+2026-11-03T21:18:30.328 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/Dockerfile
+2026-11-03T21:18:30.335 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/requirements.txt
+2026-11-03T21:18:30.345 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/src/openapi_server/security_api.py
+2026-11-03T21:18:30.347 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/src/openapi_server/models/extra_models.py
+2026-11-03T21:18:30.348 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/src/openapi_server/models/__init__.py
+2026-11-03T21:18:30.359 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/src/openapi_server/apis/__init__.py
+2026-11-03T21:18:30.359 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/src/openapi_server/impl/__init__.py
+2026-11-03T21:18:30.360 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/tests/conftest.py
+2026-11-03T21:18:30.362 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/.gitignore
+2026-11-03T21:18:30.367 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/pyproject.toml
+2026-11-03T21:18:30.372 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/setup.cfg
+2026-11-03T21:18:30.374 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/.flake8
+2026-11-03T21:18:30.377 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/.openapi-generator-ignore
+2026-11-03T21:18:30.378 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/.openapi-generator/VERSION
+2026-11-03T21:18:30.392 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test7408020078003602485/.openapi-generator/FILES
+2026-11-03T21:18:30.500 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryResponseUsesBytesNotFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@76e56b17] -1061331746
+2026-11-03T21:18:30.500 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:18:30.500 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:18:30.500 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:18:30.500 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:18:30.562 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryResponseUsesBytesNotFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@6abdead7] -1265247074
+2026-11-03T21:18:30.562 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:18:30.563 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:18:30.563 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:18:30.563 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:18:30.590 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: binary response typing
+  version: 1.0.0
+paths:
+  /resource:
+    get:
+      tags:
+        - resource
+      description: Binary response body (full or partial)
+      operationId: resourceInResponse
+      parameters:
+        - name: Range
+          in: header
+          required: false
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Full binary body
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+        "206":
+          description: Partial binary body
+          headers:
+            Content-Range:
+              required: true
+              schema:
+                type: string
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+2026-11-03T21:18:30.607 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T21:18:30.608 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T21:18:30.608 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: python-fastapi (server)
+2026-11-03T21:18:30.608 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'python-fastapi' is considered beta.
+2026-11-03T21:18:30.608 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Environment variable PYTHON_POST_PROCESS_FILE not defined so the Python code may not be properly formatted. To define it, try 'export PYTHON_POST_PROCESS_FILE="/usr/local/bin/yapf -i"' (Linux/Mac)
+2026-11-03T21:18:30.608 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T21:18:30.608 INFO org.openapitools.codegen.languages.PythonFastAPIServerCodegen [main] - Skipping sorting of path operations, order matters, let the developer decide via their specification file.
+2026-11-03T21:18:30.620 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:30.620 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:30.621 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: [resource]
+    summary: null
+    description: Binary response body (full or partial)
+    externalDocs: null
+    operationId: resourceInResponse
+    parameters: [class HeaderParameter {
+        class Parameter {
+            name: Range
+            in: null
+            description: null
+            required: false
+            deprecated: null
+            allowEmptyValue: null
+            style: simple
+            explode: false
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: header
+    }]
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: Full binary body
+            headers: null
+            content: class Content {
+                {application/octet-stream=class MediaType {
+                    schema: class BinarySchema {
+                        class Schema {
+                            type: string
+                            format: binary
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }, 206=class ApiResponse {
+            description: Partial binary body
+            headers: {Content-Range=class Header {
+                description: null
+                required: true
+                deprecated: null
+                style: simple
+                explode: false
+                schema: class StringSchema {
+                    class Schema {
+                        type: string
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                }
+                examples: null
+                example: null
+                content: null
+                $ref: null
+            }}
+            content: class Content {
+                {application/octet-stream=class MediaType {
+                    schema: class BinarySchema {
+                        class Schema {
+                            type: string
+                            format: binary
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }
+                    examples: null
+                    example: null
+                    encoding: null
+                }}
+            }
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:18:30.630 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.632 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='response', complexType='null', getter='getResponse', setter='setResponse', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='response', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.response;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='response', nameInPascalCase='Response', nameInSnakeCase='RESPONSE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.641 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor200ResponseBodyApplicationOctetStream: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.644 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='SchemaFor200ResponseBodyApplicationOctetStream', complexType='null', getter='getSchemaFor200ResponseBodyApplicationOctetStream', setter='setSchemaFor200ResponseBodyApplicationOctetStream', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='schema_for200_response_body_application_octet_stream', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor200ResponseBodyApplicationOctetStream;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor200ResponseBodyApplicationOctetStream', nameInPascalCase='SchemaFor200ResponseBodyApplicationOctetStream', nameInSnakeCase='SCHEMA_FOR200_RESPONSE_BODY_APPLICATION_OCTET_STREAM', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.659 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.684 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Content-Range', complexType='null', getter='getContentRange', setter='setContentRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='content_range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Content-Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='contentRange', nameInPascalCase='ContentRange', nameInSnakeCase='CONTENT_RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.685 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.689 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:18:30.700 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.701 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Content-Range : null required=false
+2026-11-03T21:18:30.701 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Content-Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.701 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Content-Range : null required=false
+2026-11-03T21:18:30.702 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=false, isPathParam=false, isHeaderParam=true, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=false, baseName='Content-Range', paramName='content_range', dataType='str', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='simple', deepObject='false', isFormStyle='false', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example=''content_range_example'', examples='null', jsonSchema='{
+  "name" : "Content-Range",
+  "in" : "header",
+  "required" : true,
+  "style" : "simple",
+  "explode" : false,
+  "schema" : {
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=false, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=true, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='null', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='Content-Range', complexType='null', getter='getContentRange', setter='setContentRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='content_range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Content-Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='contentRange', nameInPascalCase='ContentRange', nameInSnakeCase='CONTENT_RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T21:18:30.703 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for SchemaFor206ResponseBodyApplicationOctetStream: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.719 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='SchemaFor206ResponseBodyApplicationOctetStream', complexType='null', getter='getSchemaFor206ResponseBodyApplicationOctetStream', setter='setSchemaFor206ResponseBodyApplicationOctetStream', description='null', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='schema_for206_response_body_application_octet_stream', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.SchemaFor206ResponseBodyApplicationOctetStream;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='schemaFor206ResponseBodyApplicationOctetStream', nameInPascalCase='SchemaFor206ResponseBodyApplicationOctetStream', nameInSnakeCase='SCHEMA_FOR206_RESPONSE_BODY_APPLICATION_OCTET_STREAM', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.720 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for response: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.729 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for response : null required=false
+2026-11-03T21:18:30.730 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.736 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Range', complexType='null', getter='getRange', setter='setRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='range', nameInPascalCase='Range', nameInSnakeCase='RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:18:30.738 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Range: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:18:30.738 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for Range : null required=false
+2026-11-03T21:18:30.739 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=false, isPathParam=false, isHeaderParam=true, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=false, baseName='Range', paramName='range', dataType='str', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', containerTypeMapped='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='simple', deepObject='false', isFormStyle='false', isSpaceDelimited='false', isPipeDelimited='false', isMatrix='false', allowEmptyValue='false', example=''range_example'', examples='null', jsonSchema='{
+  "name" : "Range",
+  "in" : "header",
+  "required" : false,
+  "style" : "simple",
+  "explode" : false,
+  "schema" : {
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, queryIsJsonMimeType=false, isOptional=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=false, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='null', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='Range', complexType='null', getter='getRange', setter='setRange', description='null', dataType='str', datatypeWithEnum='str', dataFormat='null', name='range', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Range;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='range', nameInPascalCase='Range', nameInSnakeCase='RANGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T21:18:30.745 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:30.772 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/src/openapi_server/apis/resource_api.py
+2026-11-03T21:18:30.777 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/src/openapi_server/apis/resource_api_base.py
+2026-11-03T21:18:30.782 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/tests/test_resource_api.py
+2026-11-03T21:18:30.783 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T21:18:30.864 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/README.md
+2026-11-03T21:18:30.865 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/openapi.yaml
+2026-11-03T21:18:30.876 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/src/openapi_server/main.py
+2026-11-03T21:18:30.880 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/docker-compose.yaml
+2026-11-03T21:18:30.886 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/Dockerfile
+2026-11-03T21:18:30.895 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/requirements.txt
+2026-11-03T21:18:30.898 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/src/openapi_server/security_api.py
+2026-11-03T21:18:30.902 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/src/openapi_server/models/extra_models.py
+2026-11-03T21:18:30.907 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/src/openapi_server/models/__init__.py
+2026-11-03T21:18:30.908 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/src/openapi_server/apis/__init__.py
+2026-11-03T21:18:30.909 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/src/openapi_server/impl/__init__.py
+2026-11-03T21:18:30.913 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/tests/conftest.py
+2026-11-03T21:18:30.918 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/.gitignore
+2026-11-03T21:18:30.924 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/pyproject.toml
+2026-11-03T21:18:30.926 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/setup.cfg
+2026-11-03T21:18:30.933 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/.flake8
+2026-11-03T21:18:30.934 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/.openapi-generator-ignore
+2026-11-03T21:18:30.934 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/.openapi-generator/VERSION
+2026-11-03T21:18:30.946 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test4132006352461485171/.openapi-generator/FILES
+2026-11-03T21:18:31.057 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

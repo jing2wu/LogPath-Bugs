@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-25263",
+ "summary": "[BUG] [Go] `pattern` values containing control characters are copied raw into generated struct tags, producing invalid Go source (`illegal character NUL`)",
+ "fix_commit": "27c33732efd3a759726643eeeb381cd175bc8768",
+ "buggy_version": "27c33732ef with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java reverted to 27c33732ef^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "GoClientCodegenTest#testControlCharactersInPatternAreEscaped"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java:825"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 768,
+ "pairs_exported": 73,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 768,
+ "stable": true,
+ "runs": {
+  "GoClientCodegenTest#testControlCharactersInPatternAreEscaped": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

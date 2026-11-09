@@ -1,0 +1,48 @@
+{
+ "project": "s4u__pgpverify-maven-plugin",
+ "issue": "GH-499",
+ "summary": "Incorrect reading of the file with artifact key identifiers",
+ "fix_commit": "e12c20274871d47e41cfb5a43a0105ebdff7a599",
+ "buggy_version": "e12c202748 with src/main/java/org/simplify4u/plugins/keysmap/ArtifactData.java, src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java, src/main/java/org/simplify4u/plugins/keysmap/KeyItems.java reverted to e12c202748^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "KeysMapTest#baseVersionFromArtifactShouldBeUsed"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactData.java:31",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactData.java:42",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:158",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:35",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:37",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:38",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:39",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:41",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:42",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:47",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:48",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:50",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:51",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:52",
+  "src/main/java/org/simplify4u/plugins/keysmap/ArtifactPattern.java:53",
+  "src/main/java/org/simplify4u/plugins/keysmap/KeyItems.java:103",
+  "src/main/java/org/simplify4u/plugins/keysmap/KeyItems.java:31"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 87,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "KeysMapTest#baseVersionFromArtifactShouldBeUsed": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

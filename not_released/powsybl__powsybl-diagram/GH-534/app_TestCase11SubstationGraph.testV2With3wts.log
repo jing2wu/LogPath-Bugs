@@ -1,0 +1,45 @@
+1 [main] INFO com.powsybl.sld.library.ResourcesComponentLibrary - Loading component library from /ConvergenceLibrary...
+170 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/breaker-closed.svg
+176 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/breaker-open.svg
+177 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/load-break-switch-closed.svg
+177 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/load-break-switch-open.svg
+178 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/load.svg
+178 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/battery.svg
+179 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/generator.svg
+179 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/2-windings-transformer-winding1.svg
+180 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/2-windings-transformer-winding2.svg
+180 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/3-windings-transformer-winding1.svg
+181 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/3-windings-transformer-winding2.svg
+181 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/3-windings-transformer-winding3.svg
+182 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/capacitor.svg
+182 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/inductor.svg
+183 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/disconnector-closed.svg
+183 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/disconnector-open.svg
+183 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/bus_connection.svg
+184 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/node.svg
+184 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/phase-shifter-winding1.svg
+184 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/phase-shifter-winding2.svg
+185 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/phase-shifter-arrow.svg
+185 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/svc.svg
+186 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/vsc.svg
+186 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/flash.svg
+186 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/lock.svg
+187 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/unknown-component.svg
+187 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/arrow-up.svg
+187 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/arrow-down.svg
+188 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/arrow-up.svg
+188 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/arrow-down.svg
+188 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/arrow-up.svg
+188 [main] DEBUG com.powsybl.sld.library.ResourcesComponentLibrary - Reading subComponent /ConvergenceLibrary/arrow-down.svg
+293 [main] INFO com.powsybl.sld.layout.PositionVoltageLevelLayout - Running voltage level layout
+302 [main] INFO com.powsybl.sld.layout.ImplicitCellDetector - Detecting cells...
+322 [main] INFO com.powsybl.sld.model.graphs.VoltageLevelGraph - 5 cells detected ({INTERN=0, EXTERN=5, SHUNT=0})
+323 [main] WARN com.powsybl.sld.model.graphs.VoltageLevelGraph - 1/26 nodes not associated to a cell ({BUS=1, FEEDER=0, INTERNAL=0, SWITCH=0})
+323 [main] INFO com.powsybl.sld.layout.BlockOrganizer - Organizing graph cells into blocks
+372 [main] INFO com.powsybl.sld.layout.BlockOrganizer - Determining stackable Blocks
+390 [main] WARN com.powsybl.sld.layout.positionfromextension.PositionFromExtension - Unable to build the layout only with Extension
+problematic cells :
+391 [main] INFO com.powsybl.sld.layout.positionfromextension.PositionFromExtension - Cell Nb : 1, Order : null, Type : EXTERN
+391 [main] INFO com.powsybl.sld.layout.positionfromextension.PositionFromExtension - Cell Nb : 2, Order : null, Type : EXTERN
+391 [main] INFO com.powsybl.sld.layout.positionfromextension.PositionFromExtension - Cell Nb : 3, Order : null, Type : EXTERN
+391 [main] INFO com.powsybl.sld.layout.positionfromextension.PositionFromExtension - Cell Nb : 4, Order : null, Type : EXTERN

@@ -1,0 +1,39 @@
+{
+ "project": "IQSS__dataverse",
+ "issue": "GH-10390",
+ "summary": "MultiPid UI selector incorrect for sub-collections",
+ "fix_commit": "8915dad0b41b79293cb3f7b97db30757fb0e322c",
+ "buggy_version": "8915dad0b4 with src/main/java/edu/harvard/iq/dataverse/DataversePage.java, src/main/java/edu/harvard/iq/dataverse/DvObjectContainer.java, src/main/java/edu/harvard/iq/dataverse/api/Datasets.java reverted to 8915dad0b4^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "PidUtilTest#testFindingPidGenerators"
+ ],
+ "faulty_lines": [
+  "src/main/java/edu/harvard/iq/dataverse/DataversePage.java:1316",
+  "src/main/java/edu/harvard/iq/dataverse/DataversePage.java:1317",
+  "src/main/java/edu/harvard/iq/dataverse/DataversePage.java:1318",
+  "src/main/java/edu/harvard/iq/dataverse/DvObjectContainer.java:204",
+  "src/main/java/edu/harvard/iq/dataverse/DvObjectContainer.java:205",
+  "src/main/java/edu/harvard/iq/dataverse/DvObjectContainer.java:206",
+  "src/main/java/edu/harvard/iq/dataverse/DvObjectContainer.java:255",
+  "src/main/java/edu/harvard/iq/dataverse/api/Datasets.java:4591"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 63,
+ "pairs_exported": 27,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 63,
+ "stable": true,
+ "runs": {
+  "PidUtilTest#testFindingPidGenerators": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

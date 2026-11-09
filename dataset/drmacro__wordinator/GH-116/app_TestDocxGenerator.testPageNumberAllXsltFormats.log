@@ -1,0 +1,199 @@
+2026-11-03T22:07:33.060 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection [main] - Parsing relationship: /customXml/_rels/item1.xml.rels
+2026-11-03T22:07:33.067 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection [main] - Parsing relationship: /word/_rels/document.xml.rels
+2026-11-03T22:07:33.069 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection [main] - Parsing relationship: /_rels/.rels
+2026-11-03T22:07:33.098 DEBUG org.apache.poi.ooxml.POIXMLFactory [main] - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml
+2026-11-03T22:07:33.099 DEBUG org.apache.poi.ooxml.POIXMLFactory [main] - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable
+2026-11-03T22:07:33.099 DEBUG org.apache.poi.ooxml.POIXMLFactory [main] - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings
+2026-11-03T22:07:33.100 DEBUG org.apache.poi.ooxml.POIXMLFactory [main] - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps
+2026-11-03T22:07:33.125 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2026-11-03T22:07:33.127 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2026-11-03T22:07:33.127 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2026-11-03T22:07:33.127 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2026-11-03T22:07:33.128 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2026-11-03T22:07:33.128 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2026-11-03T22:07:33.136 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2026-11-03T22:07:33.136 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2026-11-03T22:07:33.140 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2026-11-03T22:07:33.141 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2026-11-03T22:07:33.141 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2026-11-03T22:07:33.142 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2026-11-03T22:07:33.142 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2026-11-03T22:07:33.142 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2026-11-03T22:07:33.182 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2026-11-03T22:07:33.182 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle document2bd9doctype
+2026-11-03T22:07:33.221 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctdocument64adtype
+2026-11-03T22:07:33.233 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle footnotes8773doctype
+2026-11-03T22:07:33.235 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctfootnotes691ftype
+2026-11-03T22:07:33.238 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctftnedncad9type
+2026-11-03T22:07:33.245 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctpa1e2type
+2026-11-03T22:07:33.250 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctppr01c0type
+2026-11-03T22:07:33.255 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctr8120type
+2026-11-03T22:07:33.260 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctempty3fa5type
+2026-11-03T22:07:33.261 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctrpr097etype
+2026-11-03T22:07:33.265 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle cttext7f5btype
+2026-11-03T22:07:33.265 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle space9344attrtypetype
+2026-11-03T22:07:33.266 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle spaceb986attrtype
+2026-11-03T22:07:33.266 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving attribute for handle spaceattribute
+2026-11-03T22:07:33.268 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle endnotes960edoctype
+2026-11-03T22:07:33.270 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctendnotescee2type
+2026-11-03T22:07:33.272 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctbody0f06type
+2026-11-03T22:07:33.276 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctftnednref89eetype
+2026-11-03T22:07:33.277 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stdecimalnumber8d28type
+2026-11-03T22:07:33.299 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle cttblc014type
+2026-11-03T22:07:33.306 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stborderd7ectype
+2026-11-03T22:07:33.309 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctrow3b78type
+2026-11-03T22:07:33.313 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle cttc4019type
+2026-11-03T22:07:33.316 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stverticaljc3629type
+2026-11-03T22:07:33.317 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle cttcpree37type
+2026-11-03T22:07:33.322 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctsectpr1123type
+2026-11-03T22:07:33.326 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle sthdrftr30catype
+2026-11-03T22:07:33.327 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle cthdrftrref224dtype
+2026-11-03T22:07:33.328 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle strelationshipid1e94type
+2026-11-03T22:07:33.330 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ftre182doctype
+2026-11-03T22:07:33.333 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle cthdrftr26datype
+2026-11-03T22:07:33.338 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctsdtrun5c60type
+2026-11-03T22:07:33.339 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctsdtpre24dtype
+2026-11-03T22:07:33.343 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctsdtcontentruna0fdtype
+2026-11-03T22:07:33.347 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctfldchare83etype
+2026-11-03T22:07:33.348 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctbr7dd8type
+2026-11-03T22:07:33.353 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctsimplefieldacaatype
+2026-11-03T22:07:33.363 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle themefd26doctype
+2026-11-03T22:07:33.366 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctofficestylesheetce25type
+2026-11-03T22:07:33.368 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle numbering1c4ddoctype
+2026-11-03T22:07:33.373 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctnumberingfdf9type
+2026-11-03T22:07:33.374 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctnume94ctype
+2026-11-03T22:07:33.376 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctabstractnum588etype
+2026-11-03T22:07:33.378 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle styles2732doctype
+2026-11-03T22:07:33.397 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctstyles8506type
+2026-11-03T22:07:33.399 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctstyle41c1type
+2026-11-03T22:07:33.407 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctdocdefaults2ea8type
+2026-11-03T22:07:33.408 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctrprdefault5ebbtype
+2026-11-03T22:07:33.408 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctpprdefaultf839type
+2026-11-03T22:07:33.409 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctpprgenerald6f2type
+2026-11-03T22:07:33.411 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctlatentstyles2e3atype
+2026-11-03T22:07:33.412 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle settings9dd1doctype
+2026-11-03T22:07:33.414 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctsettingsd6a5type
+2026-11-03T22:07:33.420 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle hdra530doctype
+2026-11-03T22:07:33.425 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctpicture1054type
+2026-11-03T22:07:33.450 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctpicture1d48type
+2026-11-03T22:07:33.451 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctchartc108type
+2026-11-03T22:07:33.656 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle propertiesee84doctype
+2026-11-03T22:07:33.661 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctproperties3f10type
+2026-11-03T22:07:33.668 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle properties288cdoctype
+2026-11-03T22:07:33.670 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctproperties2c18type
+2026-11-03T22:07:33.741 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctcompatee66type
+2026-11-03T22:07:33.747 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctcompatsettingf724type
+2026-11-03T22:07:33.750 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ststring76cbtype
+2026-11-03T22:07:33.763 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctsecttype7cebtype
+2026-11-03T22:07:33.767 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stsectionmark2010type
+2026-11-03T22:07:33.770 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctpagenumber7570type
+2026-11-03T22:07:33.773 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.775 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stnumberformat0fb8type
+2026-11-03T22:07:33.805 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctstring9c37type
+2026-11-03T22:07:33.824 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle ctpagesz2d12type
+2026-11-03T22:07:33.830 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stpageorientation8781type
+2026-11-03T22:07:33.843 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle sttwipsmeasure9c4ftype
+2026-11-03T22:07:33.849 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stunsigneddecimalnumber7db5type
+2026-11-03T22:07:33.850 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stpositiveuniversalmeasure3166type
+2026-11-03T22:07:33.851 TRACE org.apache.xmlbeans.impl.common.XBeanDebug [main] - Resolving type for handle stuniversalmeasure148dtype
+2026-11-03T22:07:33.857 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.869 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.890 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.903 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.908 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.917 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.924 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.943 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.953 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.961 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:33.967 WARN org.wordinator.xml2docx.generator.DocxGenerator [main] - Page number format "custom" not supported. Use Word-specific values. Using "decimal"
+2026-11-03T22:07:34.067 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save core properties part
+2026-11-03T22:07:34.067 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save content types part
+2026-11-03T22:07:34.148 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.165 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.189 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.191 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.193 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.243 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.244 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.256 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.260 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.263 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.430 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save package relationships
+2026-11-03T22:07:34.462 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.464 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.474 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.478 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.480 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.492 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'docProps/app.xml'
+2026-11-03T22:07:34.493 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'docProps/core.xml'
+2026-11-03T22:07:34.523 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.525 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.529 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.531 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.533 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.544 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/document.xml'
+2026-11-03T22:07:34.560 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.567 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.572 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.573 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.574 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.585 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header1.xml'
+2026-11-03T22:07:34.586 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header2.xml'
+2026-11-03T22:07:34.586 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header3.xml'
+2026-11-03T22:07:34.587 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header4.xml'
+2026-11-03T22:07:34.587 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header5.xml'
+2026-11-03T22:07:34.587 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header6.xml'
+2026-11-03T22:07:34.588 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header7.xml'
+2026-11-03T22:07:34.588 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header8.xml'
+2026-11-03T22:07:34.588 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header9.xml'
+2026-11-03T22:07:34.588 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header10.xml'
+2026-11-03T22:07:34.588 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header11.xml'
+2026-11-03T22:07:34.589 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header12.xml'
+2026-11-03T22:07:34.589 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header13.xml'
+2026-11-03T22:07:34.589 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/numbering.xml'
+2026-11-03T22:07:34.590 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/settings.xml'
+2026-11-03T22:07:34.590 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/styles.xml'
+2026-11-03T22:07:34.595 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save content types part
+2026-11-03T22:07:34.609 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.612 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.617 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.621 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.622 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.634 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save package relationships
+2026-11-03T22:07:34.648 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.649 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.653 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.654 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.657 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.665 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'docProps/app.xml'
+2026-11-03T22:07:34.666 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'docProps/core.xml'
+2026-11-03T22:07:34.681 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.682 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.689 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.690 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.690 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.705 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/document.xml'
+2026-11-03T22:07:34.722 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:48:1b:6a:07:26:d2:e8:3f:26:02:d4:82:5a:cd, Subject:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:-1157145865, Valid from:6/14/16, 7:00 PM, Valid until:6/14/24, 7:00 PM
+2026-11-03T22:07:34.723 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:e4:ae:c7:a1:1b:1b:b9:13:b1:2c:37, Subject:EMAILADDRESS=mike@saxonica.com, CN=Saxonica Limited, O=Saxonica Limited, L=Reading, ST=Berkshire, C=GB, Issuer:CN=GlobalSign CodeSigning CA - SHA256 - G3, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1239559202, Valid from:6/14/18, 4:03 AM, Valid until:8/27/21, 9:33 AM
+2026-11-03T22:07:34.730 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:50:67:fa:46:ce:6c:fe:95:15:a6:9e:b2, Subject:CN=GlobalSign TSA for Advanced - G3 - 003-02, O=GMO GlobalSign K.K., C=JP, Issuer:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:1979224538, Valid from:6/14/18, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.731 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:31:89:c6:50:04, Subject:CN=GlobalSign Timestamping CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:930288084, Valid from:8/2/11, 5:00 AM, Valid until:3/29/29, 5:00 AM
+2026-11-03T22:07:34.734 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:04:00:00:00:00:01:21:58:53:08:a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 AM, Valid until:3/18/29, 5:00 AM
+2026-11-03T22:07:34.748 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header1.xml'
+2026-11-03T22:07:34.748 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header2.xml'
+2026-11-03T22:07:34.748 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header3.xml'
+2026-11-03T22:07:34.749 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header4.xml'
+2026-11-03T22:07:34.749 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header5.xml'
+2026-11-03T22:07:34.749 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header6.xml'
+2026-11-03T22:07:34.750 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header7.xml'
+2026-11-03T22:07:34.751 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header8.xml'
+2026-11-03T22:07:34.751 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header9.xml'
+2026-11-03T22:07:34.751 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header10.xml'
+2026-11-03T22:07:34.751 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header11.xml'
+2026-11-03T22:07:34.751 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header12.xml'
+2026-11-03T22:07:34.752 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/header13.xml'
+2026-11-03T22:07:34.752 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/numbering.xml'
+2026-11-03T22:07:34.754 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/settings.xml'
+2026-11-03T22:07:34.754 DEBUG org.apache.poi.openxml4j.opc.ZipPackage [main] - Save part 'word/styles.xml'
+2026-11-03T22:07:34.772 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection [main] - Parsing relationship: /word/_rels/document.xml.rels
+2026-11-03T22:07:34.776 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection [main] - Parsing relationship: /_rels/.rels

@@ -1,0 +1,212 @@
+2026-11-03T21:35:11.418 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:35:11.430 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:35:11.431 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:35:11.431 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:35:11.439 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.RuntimeImpl
+2026-11-03T21:35:11.439 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Runtime
+2026-11-03T21:35:11.440 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Runtime
+2026-11-03T21:35:11.440 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Runtime
+2026-11-03T21:35:11.440 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Runtime
+2026-11-03T21:35:11.446 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotThreadImpl
+2026-11-03T21:35:11.446 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Threading
+2026-11-03T21:35:11.446 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Threading
+2026-11-03T21:35:11.447 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Threading
+2026-11-03T21:35:11.447 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Threading
+2026-11-03T21:35:11.454 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.OperatingSystemImpl
+2026-11-03T21:35:11.454 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=OperatingSystem
+2026-11-03T21:35:11.454 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=OperatingSystem
+2026-11-03T21:35:11.454 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=OperatingSystem
+2026-11-03T21:35:11.454 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=OperatingSystem
+2026-11-03T21:35:11.457 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T21:35:11.457 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:35:11.457 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:35:11.458 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:35:11.458 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:35:11.458 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T21:35:11.458 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:35:11.459 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:35:11.459 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:35:11.459 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:35:11.461 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:35:11.461 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:35:11.462 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:35:11.462 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:35:11.462 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:35:11.463 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:35:11.463 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:35:11.463 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:35:11.464 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:35:11.464 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:35:11.464 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:35:11.464 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:35:11.464 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:35:11.464 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:35:11.465 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:35:11.465 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:35:11.465 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:35:11.465 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:35:11.465 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:35:11.465 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:35:11.466 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:35:11.466 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:35:11.466 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:35:11.466 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:35:11.466 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:35:11.467 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:35:11.467 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:35:11.467 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:35:11.467 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:35:11.467 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:35:11.467 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:35:11.467 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:35:11.468 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:35:11.468 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:35:11.468 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:35:11.468 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:35:11.468 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:35:11.468 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:35:11.468 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:35:11.469 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:35:11.469 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.CompilationImpl
+2026-11-03T21:35:11.470 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Compilation
+2026-11-03T21:35:11.470 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Compilation
+2026-11-03T21:35:11.470 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Compilation
+2026-11-03T21:35:11.470 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Compilation
+2026-11-03T21:35:11.470 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryImpl
+2026-11-03T21:35:11.471 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Memory
+2026-11-03T21:35:11.471 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Memory
+2026-11-03T21:35:11.471 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Memory
+2026-11-03T21:35:11.471 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Memory
+2026-11-03T21:35:11.473 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+2026-11-03T21:35:11.473 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.util.logging:type=Logging
+2026-11-03T21:35:11.473 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.util.logging:type=Logging
+2026-11-03T21:35:11.473 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.util.logging:type=Logging
+2026-11-03T21:35:11.473 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.util.logging:type=Logging
+2026-11-03T21:35:11.474 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ClassLoadingImpl
+2026-11-03T21:35:11.474 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=ClassLoading
+2026-11-03T21:35:11.474 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=ClassLoading
+2026-11-03T21:35:11.474 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=ClassLoading
+2026-11-03T21:35:11.474 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=ClassLoading
+2026-11-03T21:35:11.481 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=DiagnosticCommand
+2026-11-03T21:35:11.481 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=DiagnosticCommand
+2026-11-03T21:35:11.481 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=DiagnosticCommand
+2026-11-03T21:35:11.481 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=DiagnosticCommand
+2026-11-03T21:35:11.482 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T21:35:11.482 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:35:11.482 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:35:11.482 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:35:11.483 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:35:11.483 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T21:35:11.483 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:35:11.483 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:35:11.483 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:35:11.483 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:35:11.484 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotDiagnostic
+2026-11-03T21:35:11.485 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:35:11.485 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:35:11.485 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:35:11.485 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:35:11.486 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:35:11.486 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped,type=BufferPool
+2026-11-03T21:35:11.487 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped,type=BufferPool
+2026-11-03T21:35:11.487 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped,type=BufferPool
+2026-11-03T21:35:11.487 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped,type=BufferPool
+2026-11-03T21:35:11.487 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:35:11.487 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=direct,type=BufferPool
+2026-11-03T21:35:11.487 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=direct,type=BufferPool
+2026-11-03T21:35:11.487 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=direct,type=BufferPool
+2026-11-03T21:35:11.487 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=direct,type=BufferPool
+2026-11-03T21:35:11.487 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:35:11.488 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:35:11.488 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:35:11.488 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:35:11.488 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:35:11.490 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for jdk.management.jfr.FlightRecorderMXBeanImpl
+2026-11-03T21:35:11.491 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:35:11.492 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:35:11.492 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:35:11.492 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:35:11.494 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:35:11.495 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:35:11.495 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:35:11.495 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:35:11.495 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:35:11.496 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:35:11.497 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:35:11.497 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:35:11.497 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=StatusLogger,type=1dbd16a6
+2026-11-03T21:35:11.497 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:35:11.497 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:35:11.498 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:35:11.498 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:35:11.498 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=ContextSelector,type=1dbd16a6
+2026-11-03T21:35:11.498 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:35:11.499 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:35:11.499 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:35:11.499 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:35:11.499 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=Loggers,name=,type=1dbd16a6
+2026-11-03T21:35:11.499 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:35:11.500 FINER com.sun.jmx.mbeanserver.Repository contains - name = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:35:11.500 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:35:11.500 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:35:11.500 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=Appenders,name=F,type=1dbd16a6
+2026-11-03T21:35:11.500 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:35:12.091 DEBUG org.apache.accumulo.core.crypto.CryptoFactoryLoader [main] - Creating new crypto factory class org.apache.accumulo.core.spi.crypto.GenericCryptoServiceFactory
+2026-11-03T21:35:12.187 INFO org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Trying to load codec class org.apache.hadoop.io.compress.SnappyCodec
+2026-11-03T21:35:12.201 INFO org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Trying to load codec class org.apache.hadoop.io.compress.DefaultCodec
+2026-11-03T21:35:12.245 INFO org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Trying to load codec class org.apache.hadoop.io.compress.BZip2Codec
+2026-11-03T21:35:12.248 INFO org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Trying to load codec class org.apache.hadoop.io.compress.LzoCodec
+2026-11-03T21:35:12.250 DEBUG org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - ClassNotFoundException creating codec class org.apache.hadoop.io.compress.LzoCodec for io.compression.codec.lzo.class. Enable trace logging for stacktrace.
+2026-11-03T21:35:12.250 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Unable to load codec class due to 
+java.lang.ClassNotFoundException: org.apache.hadoop.io.compress.LzoCodec
+2026-11-03T21:35:12.265 INFO org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Trying to load codec class org.apache.accumulo.core.file.rfile.bcfile.IdentityCodec
+2026-11-03T21:35:12.269 INFO org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Trying to load codec class org.apache.hadoop.io.compress.ZStandardCodec
+2026-11-03T21:35:12.270 INFO org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Trying to load codec class org.apache.hadoop.io.compress.Lz4Codec
+2026-11-03T21:35:12.499 TRACE org.apache.hadoop.io.FastByteComparisons [main] - Unsafe comparer selected for byte unaligned system architecture
+2026-11-03T21:35:12.559 DEBUG org.apache.hadoop.util.NativeCodeLoader [main] - Trying to load the custom-built native-hadoop library...
+2026-11-03T21:35:12.560 DEBUG org.apache.hadoop.util.NativeCodeLoader [main] - Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2026-11-03T21:35:12.560 DEBUG org.apache.hadoop.util.NativeCodeLoader [main] - java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2026-11-03T21:35:12.560 WARN org.apache.hadoop.util.NativeCodeLoader [main] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-11-03T21:35:12.562 INFO org.apache.hadoop.io.compress.CodecPool [main] - Got brand-new compressor [.deflate]
+2026-11-03T21:35:12.571 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Got a compressor: 526655415
+2026-11-03T21:35:12.590 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Return a compressor: 526655415
+2026-11-03T21:35:12.605 DEBUG org.apache.hadoop.io.compress.CodecPool [main] - Got recycled compressor
+2026-11-03T21:35:12.606 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Got a compressor: 526655415
+2026-11-03T21:35:12.607 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Return a compressor: 526655415
+2026-11-03T21:35:12.610 DEBUG org.apache.hadoop.io.compress.CodecPool [main] - Got recycled compressor
+2026-11-03T21:35:12.610 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Got a compressor: 526655415
+2026-11-03T21:35:12.611 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Return a compressor: 526655415
+2026-11-03T21:35:12.615 DEBUG org.apache.hadoop.io.compress.CodecPool [main] - Got recycled compressor
+2026-11-03T21:35:12.615 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Got a compressor: 526655415
+2026-11-03T21:35:12.617 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Return a compressor: 526655415
+2026-11-03T21:35:12.621 INFO org.apache.accumulo.core.file.rfile.GenerateSplitsTest [main] - Wrote to file file:/tmp/junit10490054196538977968/testGenerateSplits.rf
+2026-11-03T21:35:12.642 DEBUG org.apache.accumulo.core.crypto.CryptoFactoryLoader [main] - Creating new crypto factory class org.apache.accumulo.core.spi.crypto.GenericCryptoServiceFactory
+2026-11-03T21:35:12.644 DEBUG org.apache.hadoop.io.compress.CodecPool [main] - Got recycled compressor
+2026-11-03T21:35:12.645 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Got a compressor: 526655415
+2026-11-03T21:35:12.648 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Return a compressor: 526655415
+2026-11-03T21:35:12.650 DEBUG org.apache.hadoop.io.compress.CodecPool [main] - Got recycled compressor
+2026-11-03T21:35:12.651 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Got a compressor: 526655415
+2026-11-03T21:35:12.652 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Return a compressor: 526655415
+2026-11-03T21:35:12.653 DEBUG org.apache.hadoop.io.compress.CodecPool [main] - Got recycled compressor
+2026-11-03T21:35:12.653 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Got a compressor: 526655415
+2026-11-03T21:35:12.654 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Return a compressor: 526655415
+2026-11-03T21:35:12.654 DEBUG org.apache.hadoop.io.compress.CodecPool [main] - Got recycled compressor
+2026-11-03T21:35:12.654 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Got a compressor: 526655415
+2026-11-03T21:35:12.654 TRACE org.apache.accumulo.core.file.rfile.bcfile.CompressionAlgorithm [main] - Return a compressor: 526655415
+2026-11-03T21:35:12.655 INFO org.apache.accumulo.core.file.rfile.GenerateSplitsTest [main] - Wrote to file file:/tmp/junit10490054196538977968/testGenerateSplitsWithNulls.rf
+2026-11-03T21:35:12.710 INFO org.apache.accumulo.core.conf.SiteConfiguration [main] - Found Accumulo configuration on classpath at /home/user/log-dataset/logpath-bugs-work/workspace/rwork/apache__accumulo_x1/core/target/test-classes/accumulo.properties
+2026-11-03T21:35:12.760 DEBUG org.apache.accumulo.core.crypto.CryptoFactoryLoader [main] - Creating new crypto factory class org.apache.accumulo.core.spi.crypto.GenericCryptoServiceFactory
+2026-11-03T21:35:12.789 DEBUG org.apache.hadoop.util.Shell [main] - Failed to detect a valid hadoop home directory
+java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+2026-11-03T21:35:12.801 DEBUG org.apache.hadoop.util.Shell [main] - setsid exited with exit code 0
+2026-11-03T21:35:12.825 DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory [main] - field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName="Ops", valueName="Time", about="", interval=10, type=DEFAULT, value={"GetGroups"})
+2026-11-03T21:35:12.828 DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory [main] - field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName="Ops", valueName="Time", about="", interval=10, type=DEFAULT, value={"Rate of failed kerberos logins and latency (milliseconds)"})
+2026-11-03T21:35:12.828 DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory [main] - field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName="Ops", valueName="Time", about="", interval=10, type=DEFAULT, value={"Rate of successful kerberos logins and latency (milliseconds)"})
+2026-11-03T21:35:12.828 DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory [main] - field private org.apache.hadoop.metrics2.lib.MutableGaugeInt org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailures with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName="Ops", valueName="Time", about="", interval=10, type=DEFAULT, value={"Renewal failures since last successful login"})
+2026-11-03T21:35:12.828 DEBUG org.apache.hadoop.metrics2.lib.MutableMetricsFactory [main] - field private org.apache.hadoop.metrics2.lib.MutableGaugeLong org.apache.hadoop.security.UserGroupInformation$UgiMetrics.renewalFailuresTotal with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName="Ops", valueName="Time", about="", interval=10, type=DEFAULT, value={"Renewal failures since startup"})
+2026-11-03T21:35:12.829 DEBUG org.apache.hadoop.metrics2.impl.MetricsSystemImpl [main] - UgiMetrics, User and group related metrics
+2026-11-03T21:35:12.840 DEBUG org.apache.hadoop.security.SecurityUtil [main] - Setting hadoop.security.token.service.use_ip to true
+2026-11-03T21:35:12.852 DEBUG org.apache.hadoop.security.Groups [main] -  Creating new Groups object
+2026-11-03T21:35:12.853 DEBUG org.apache.hadoop.util.PerformanceAdvisory [main] - Falling back to shell based
+2026-11-03T21:35:12.854 DEBUG org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback [main] - Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+2026-11-03T21:35:12.856 DEBUG org.apache.hadoop.security.Groups [main] - Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000

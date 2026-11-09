@@ -1,0 +1,52 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-5012",
+ "summary": "[Bug]: The OAS 3.1 is missing information from the @ArraysSchema.arraySchema",
+ "fix_commit": "75b8a35a59646517ea3e94613a39d47b81a9851e",
+ "buggy_version": "75b8a35a59 with modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java reverted to 75b8a35a59^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "ModelResolverOAS31Test#testAnnotatedArrayProperty",
+  "ModelResolverOAS31Test#testAnnotatedArrayPropertyReadWrite",
+  "ModelResolverOAS31Test#testAnnotatedArrayPropertyWriteOnly"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:558",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:559",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:560",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:561",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:562",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:563",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:569"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 1104,
+ "pairs_exported": 21,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 1104,
+ "stable": true,
+ "runs": {
+  "ModelResolverOAS31Test#testAnnotatedArrayProperty": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ModelResolverOAS31Test#testAnnotatedArrayPropertyReadWrite": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ModelResolverOAS31Test#testAnnotatedArrayPropertyWriteOnly": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

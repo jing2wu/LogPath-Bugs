@@ -1,0 +1,34 @@
+{
+ "project": "reactor__reactor-netty",
+ "issue": "GH-4171",
+ "summary": "Http2Pool: `computeMaxConcurrentStreams()` returns 0 during TLS handshake, and `deliver()` reuses invalidated slots",
+ "fix_commit": "f045bb158cf187a9ec9d3efac0104f90aa9e3154",
+ "buggy_version": "f045bb158c with reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java reverted to f045bb158c^",
+ "jdk": "17",
+ "module": "reactor-netty-http",
+ "tests": [
+  "Http2PoolTest#deliverDoesNotDeactivateInvalidatedSlot"
+ ],
+ "faulty_lines": [
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:1091",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:577",
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2Pool.java:876"
+ ],
+ "covering_pairs": 5,
+ "shortest_covering_pair": 50,
+ "pairs_exported": 9,
+ "covering_pairs_printed": 5,
+ "shortest_covering_pair_printed": 50,
+ "stable": true,
+ "runs": {
+  "Http2PoolTest#deliverDoesNotDeactivateInvalidatedSlot": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

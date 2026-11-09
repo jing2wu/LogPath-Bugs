@@ -1,0 +1,39 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-20775",
+ "summary": "[BUG] [python] [server] [fastapi] Generates invalid typings for binary responses",
+ "fix_commit": "80c08fa3dd27d4e43a6a1f72b3420e8f24b66de5",
+ "buggy_version": "80c08fa3dd with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonFastAPIServerCodegen.java reverted to 80c08fa3dd^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "PythonFastAPIServerCodegenTest#testBinaryResponseUsesBytesNotFile",
+  "PythonFastapiCodegenTest#testBinaryResponseUsesBytesNotFile"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonFastAPIServerCodegen.java:103"
+ ],
+ "covering_pairs": 8,
+ "shortest_covering_pair": 933,
+ "pairs_exported": 132,
+ "covering_pairs_printed": 8,
+ "shortest_covering_pair_printed": 933,
+ "stable": true,
+ "runs": {
+  "PythonFastAPIServerCodegenTest#testBinaryResponseUsesBytesNotFile": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "PythonFastapiCodegenTest#testBinaryResponseUsesBytesNotFile": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

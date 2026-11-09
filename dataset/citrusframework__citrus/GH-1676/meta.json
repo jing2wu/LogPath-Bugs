@@ -1,0 +1,44 @@
+{
+ "project": "citrusframework__citrus",
+ "issue": "GH-1676",
+ "summary": "Stale AWS clients in registry when LocalStack containers are recreated between tests",
+ "fix_commit": "cc6a8a1360e0530bad8f1bdbd2da7cb95bfe7668",
+ "buggy_version": "cc6a8a1360 with connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/actions/StartTestcontainersAction.java, connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartFlociAction.java, connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartLocalStackAction.java reverted to cc6a8a1360^",
+ "jdk": "17",
+ "module": "connectors/citrus-testcontainers",
+ "tests": [
+  "StartLocalStackContainerIT#shouldOverwriteExistingClient"
+ ],
+ "faulty_lines": [
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/actions/StartTestcontainersAction.java:71",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartFlociAction.java:78",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartFlociAction.java:79",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartFlociAction.java:81",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartFlociAction.java:82",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartFlociAction.java:85",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartFlociAction.java:86",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartLocalStackAction.java:100",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartLocalStackAction.java:92",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartLocalStackAction.java:93",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartLocalStackAction.java:95",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartLocalStackAction.java:96",
+  "connectors/citrus-testcontainers/src/main/java/org/citrusframework/testcontainers/aws2/StartLocalStackAction.java:99"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 14,
+ "pairs_exported": 91,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 14,
+ "stable": true,
+ "runs": {
+  "StartLocalStackContainerIT#shouldOverwriteExistingClient": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

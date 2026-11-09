@@ -1,0 +1,40 @@
+{
+ "project": "integrated-application-development__sonar-delphi",
+ "issue": "GH-325",
+ "summary": "DelphiCoverageSensor case sensitivity issue",
+ "fix_commit": "223a6c32e27e99c7b86078a66aaab51b587d6c3e",
+ "buggy_version": "223a6c32e2 with delphi-frontend/src/main/java/au/com/integradev/delphi/coverage/DelphiCodeCoverageParser.java, delphi-frontend/src/main/java/au/com/integradev/delphi/msbuild/DelphiProjectHelper.java reverted to 223a6c32e2^",
+ "jdk": "17",
+ "module": "delphi-frontend",
+ "tests": [
+  "DelphiCoverageToolParserTest#testMismatchedCasingAllowed"
+ ],
+ "faulty_lines": [
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/coverage/DelphiCodeCoverageParser.java:44",
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/coverage/DelphiCodeCoverageParser.java:47",
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/coverage/DelphiCodeCoverageParser.java:48",
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/coverage/DelphiCodeCoverageParser.java:92",
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/coverage/DelphiCodeCoverageParser.java:97",
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/coverage/DelphiCodeCoverageParser.java:98",
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/msbuild/DelphiProjectHelper.java:368",
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/msbuild/DelphiProjectHelper.java:369",
+  "delphi-frontend/src/main/java/au/com/integradev/delphi/msbuild/DelphiProjectHelper.java:370"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 8,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 8,
+ "stable": true,
+ "runs": {
+  "DelphiCoverageToolParserTest#testMismatchedCasingAllowed": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

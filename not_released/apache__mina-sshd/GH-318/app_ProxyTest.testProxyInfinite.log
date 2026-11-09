@@ -1,0 +1,26 @@
+2026-11-03T21:04:22.199 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:04:22.273 INFO org.apache.sshd.common.io.DefaultIoServiceFactoryFactory [main] - No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2026-11-03T21:04:24.050 INFO org.apache.sshd.common.util.security.bouncycastle.BouncyCastleSecurityProviderRegistrar [main] - getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2026-11-03T21:04:24.078 INFO org.apache.sshd.common.util.security.eddsa.EdDSASecurityProviderRegistrar [main] - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2026-11-03T21:04:24.851 INFO org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider [main] - generateKeyPair(EC) generating host key=nistp256
+2026-11-03T21:04:25.997 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=40261
+2026-11-03T21:04:26.010 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=45907
+2026-11-03T21:04:26.021 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=46319
+2026-11-03T21:04:27.496 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[10d97b64]-nio2-thread-4] - Server at localhost/127.0.0.1:46319 presented unverified EC key: SHA256:ESkd1EnGZMCzs9QghjNhvQA5N8oOUQrPUU57xRyXZ8o
+2026-11-03T21:04:28.079 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[47666b39](port=0)-nio2-thread-7] - Session user2@/127.0.0.1:52022 authenticated
+2026-11-03T21:04:28.314 ERROR org.apache.sshd.common.io.nio2.Nio2Acceptor [sshd-SshClient[10d97b64]-nio2-thread-8] - =====> onCompleted(/127.0.0.1:39745) no longer accepting incoming connections <====
+2026-11-03T21:04:28.417 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:04:28.688 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=46385
+2026-11-03T21:04:28.695 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=40693
+2026-11-03T21:04:28.711 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=35043
+2026-11-03T21:04:29.154 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[20c55658]-nio2-thread-5] - Server at localhost/127.0.0.1:35043 presented unverified EC key: SHA256:ESkd1EnGZMCzs9QghjNhvQA5N8oOUQrPUU57xRyXZ8o
+2026-11-03T21:04:29.612 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[58e2af93](port=0)-nio2-thread-6] - Session user2@/127.0.0.1:57640 authenticated
+2026-11-03T21:04:29.745 WARN org.apache.sshd.common.forward.DefaultForwarder [main] - Failed (SshException) to open channel for session=Nio2Session[local=/127.0.0.1:38741, remote=/127.0.0.1:38880]: Closed
+2026-11-03T21:04:29.844 WARN org.apache.sshd.server.session.ServerConnectionService [sshd-SshServer[58e2af93](port=0)-nio2-thread-7] - operationComplete(ServerConnectionService[ServerSessionImpl[user2@/127.0.0.1:57640]]) SshException: Write attempt on closing session: SSH_MSG_CHANNEL_OPEN_FAILURE
+2026-11-03T21:04:29.885 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:04:30.229 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=33919
+2026-11-03T21:04:30.241 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=44195
+2026-11-03T21:04:30.254 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=38389
+2026-11-03T21:04:30.728 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[4a5cddd9]-nio2-thread-4] - Server at localhost/127.0.0.1:38389 presented unverified EC key: SHA256:ESkd1EnGZMCzs9QghjNhvQA5N8oOUQrPUU57xRyXZ8o
+2026-11-03T21:04:31.139 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[6d4062fd](port=0)-nio2-thread-6] - Session user2@/127.0.0.1:40294 authenticated
+2026-11-03T21:04:31.274 WARN org.apache.sshd.common.forward.DefaultForwarder [main] - Failed (SshException) to open channel for session=Nio2Session[local=/127.0.0.1:44135, remote=/127.0.0.1:34992]: Closed

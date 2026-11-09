@@ -1,0 +1,61 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-4682",
+ "summary": "BUG properties of type Object do not have any type information when generating open api 3.1.0",
+ "fix_commit": "fe918cc9a1294c52116c1158acf2f6540657c812",
+ "buggy_version": "fe918cc9a1 with modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java, modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java, modules/swagger-core/src/main/java/io/swagger/v3/core/util/PrimitiveType.java reverted to fe918cc9a1^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "ModelResolverOAS31Test#testOAS31Fields",
+  "Oas31ObjectFieldTest#listOfObjectItemsShouldBeObjectSchema",
+  "Oas31ObjectFieldTest#mapOfObjectAdditionalPropertiesShouldBeObjectSchema",
+  "Oas31ObjectFieldTest#rawObjectPropertyShouldBeObjectSchema"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:3218",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:3219",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:681",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:682",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:683",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:684",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:685",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:686",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/PrimitiveType.java:242"
+ ],
+ "covering_pairs": 12,
+ "shortest_covering_pair": 414,
+ "pairs_exported": 77,
+ "covering_pairs_printed": 12,
+ "shortest_covering_pair_printed": 414,
+ "stable": true,
+ "runs": {
+  "ModelResolverOAS31Test#testOAS31Fields": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Oas31ObjectFieldTest#listOfObjectItemsShouldBeObjectSchema": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Oas31ObjectFieldTest#mapOfObjectAdditionalPropertiesShouldBeObjectSchema": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Oas31ObjectFieldTest#rawObjectPropertyShouldBeObjectSchema": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

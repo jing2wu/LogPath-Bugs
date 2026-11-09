@@ -1,0 +1,34 @@
+{
+ "project": "apache__jena",
+ "issue": "GH-2992",
+ "summary": "Service enhancer queries violate the specification",
+ "fix_commit": "ac26a8ad9a61cbf7b100526cdc11c662bedad4cb",
+ "buggy_version": "ac26a8ad9a with jena-extras/jena-serviceenhancer/src/main/java/org/apache/jena/sparql/service/enhancer/impl/BatchQueryRewriter.java reverted to ac26a8ad9a^",
+ "jdk": "17",
+ "module": "jena-extras/jena-serviceenhancer",
+ "tests": [
+  "TestServiceEnhancerBatchQueryRewriter#testReport_01"
+ ],
+ "faulty_lines": [
+  "jena-extras/jena-serviceenhancer/src/main/java/org/apache/jena/sparql/service/enhancer/impl/BatchQueryRewriter.java:166",
+  "jena-extras/jena-serviceenhancer/src/main/java/org/apache/jena/sparql/service/enhancer/impl/BatchQueryRewriter.java:190",
+  "jena-extras/jena-serviceenhancer/src/main/java/org/apache/jena/sparql/service/enhancer/impl/BatchQueryRewriter.java:191"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 4566,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 4566,
+ "stable": true,
+ "runs": {
+  "TestServiceEnhancerBatchQueryRewriter#testReport_01": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

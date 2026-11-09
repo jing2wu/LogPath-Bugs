@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23139",
+ "summary": "[BUG][Java][feign-hc5] templateResourcePath / templateDir is overwritten by feign-hc5 library in processOpts()",
+ "fix_commit": "1d3ef5ca89aa9f462fe27c20cee8c6dbcbb9f70e",
+ "buggy_version": "1d3ef5ca89 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/JavaClientCodegen.java reverted to 1d3ef5ca89^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "JavaClientCodegenTest#testFeignHc5CustomTemplateDirIsPreserved"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/JavaClientCodegen.java:853"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 1230,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 1230,
+ "stable": true,
+ "runs": {
+  "JavaClientCodegenTest#testFeignHc5CustomTemplateDirIsPreserved": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

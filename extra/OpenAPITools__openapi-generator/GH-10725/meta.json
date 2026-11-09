@@ -1,0 +1,63 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-10725",
+ "summary": "[BUG] [Core] ByteArray is marked as String at the same time",
+ "fix_commit": "fe90d9c42606ff19abc53e22408bb9460fe6e122",
+ "buggy_version": "fe90d9c426 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java reverted to fe90d9c426^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "DefaultCodegenTest#testByteArrayTypeInSchemas"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3338",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3339",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:4279",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:4280",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:6531",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:6532",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1690",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1694",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1695",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1696",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1698",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1699",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1700",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1701",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1702",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1703",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1704",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1705",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1706",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1707",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1708",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1709",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1710",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1711",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1712",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1713",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1714",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1715",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1716",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1717",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1718",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1719"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 209,
+ "pairs_exported": 12,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 209,
+ "stable": true,
+ "runs": {
+  "DefaultCodegenTest#testByteArrayTypeInSchemas": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

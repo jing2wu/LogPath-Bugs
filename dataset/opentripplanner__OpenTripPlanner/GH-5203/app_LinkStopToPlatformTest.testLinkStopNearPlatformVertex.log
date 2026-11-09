@@ -1,0 +1,157 @@
+2026-11-03T22:18:09.448 FINER org.geotools.metadata.i18n.Vocabulary_en getObject - Loaded resources for English from bundle "org.geotools.metadata.i18n".
+2026-11-03T22:18:09.493 FINER org.geotools.metadata.i18n.Loggings_en getObject - Loaded resources for English from bundle "org.geotools.metadata.i18n".
+2026-11-03T22:18:09.502 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (ReferencingFactoryContainer)
+2026-11-03T22:18:09.505 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (MathTransformFactory, MATH_TRANSFORM_FACTORY)
+2026-11-03T22:18:09.511 CONFIG org.geotools.util.factory.FactoryRegistry scanForPlugins - Factory implementations for category MathTransformFactory:
+  org.geotools.referencing.operation.DefaultMathTransformFactory
+2026-11-03T22:18:09.511 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (MathTransformFactory, MATH_TRANSFORM_FACTORY): found implementation Optional.
+2026-11-03T22:18:09.512 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (DatumFactory, DATUM_FACTORY)
+2026-11-03T22:18:09.518 CONFIG org.geotools.util.factory.FactoryRegistry scanForPlugins - Factory implementations for category DatumFactory:
+  org.geotools.referencing.factory.ReferencingObjectFactory
+  org.geotools.referencing.factory.DatumAliases
+2026-11-03T22:18:09.519 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (DatumFactory, DATUM_FACTORY): found implementation Optional.
+2026-11-03T22:18:09.519 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (CSFactory, CS_FACTORY)
+2026-11-03T22:18:09.520 CONFIG org.geotools.util.factory.FactoryRegistry scanForPlugins - Factory implementations for category CSFactory:
+  org.geotools.referencing.factory.ReferencingObjectFactory
+2026-11-03T22:18:09.521 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (CSFactory, CS_FACTORY): found implementation Optional.
+2026-11-03T22:18:09.521 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (CRSFactory, CRS_FACTORY)
+2026-11-03T22:18:09.522 CONFIG org.geotools.util.factory.FactoryRegistry scanForPlugins - Factory implementations for category CRSFactory:
+  org.geotools.referencing.factory.ReferencingObjectFactory
+2026-11-03T22:18:09.522 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (CRSFactory, CRS_FACTORY): found implementation Optional.
+2026-11-03T22:18:09.523 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (ReferencingFactoryContainer): found implementation Optional.
+2026-11-03T22:18:09.599 FINE tech.units.indriya.unit.UnitDimension of - Quantity type: interface si.uom.quantity.RadiantIntensity unknown
+2026-11-03T22:18:09.602 FINE tech.units.indriya.unit.UnitDimension of - Quantity type: interface si.uom.quantity.Radiance unknown
+2026-11-03T22:18:09.603 FINE tech.units.indriya.unit.UnitDimension of - Quantity type: interface si.uom.quantity.Intensity unknown
+2026-11-03T22:18:09.611 FINE tech.units.indriya.unit.UnitDimension of - Quantity type: interface si.uom.quantity.DynamicViscosity unknown
+2026-11-03T22:18:09.611 FINE tech.units.indriya.unit.UnitDimension of - Quantity type: interface si.uom.quantity.KinematicViscosity unknown
+2026-11-03T22:18:09.612 FINE tech.units.indriya.unit.UnitDimension of - Quantity type: interface si.uom.quantity.IonizingRadiation unknown
+2026-11-03T22:18:09.640 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (ReferencingFactoryContainer)
+2026-11-03T22:18:09.640 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (ReferencingFactoryContainer): found implementation Optional.
+2026-11-03T22:18:09.643 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (ReferencingFactoryContainer)
+2026-11-03T22:18:09.644 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (ReferencingFactoryContainer): found implementation Optional.
+2026-11-03T22:18:09.646 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (ReferencingFactoryContainer)
+2026-11-03T22:18:09.647 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (ReferencingFactoryContainer): found implementation Optional.
+2026-11-03T22:18:09.647 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (ReferencingFactoryContainer)
+2026-11-03T22:18:09.648 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (ReferencingFactoryContainer): found implementation Optional.
+2026-11-03T22:18:09.659 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (ReferencingFactoryContainer)
+2026-11-03T22:18:09.659 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (ReferencingFactoryContainer): found implementation Optional.
+2026-11-03T22:18:09.663 FINE org.geotools.referencing.factory.epsg.ThreadedEpsgFactory <init> - Setting the EPSG factory org.geotools.referencing.factory.epsg.hsql.ThreadedHsqlEpsgFactory to a 1800000ms timeout
+2026-11-03T22:18:09.665 CONFIG org.geotools.util.factory.FactoryRegistry scanForPlugins - Factory implementations for category CRSAuthorityFactory:
+  org.geotools.referencing.factory.epsg.FactoryUsingWKT
+  org.geotools.referencing.factory.epsg.LongitudeFirstFactory
+  org.geotools.referencing.factory.epsg.CartesianAuthorityFactory
+  org.geotools.referencing.factory.wms.AutoCRSFactory
+  org.geotools.referencing.factory.wms.WebCRSFactory
+  org.geotools.referencing.factory.wms.OGCAPICRSFactory
+  org.geotools.referencing.factory.URN_AuthorityFactory
+  org.geotools.referencing.factory.HTTP_AuthorityFactory
+  org.geotools.referencing.factory.HTTP_URI_AuthorityFactory
+  org.geotools.referencing.factory.epsg.LongitudeFirstEpsgDecorator
+  org.geotools.referencing.factory.epsg.hsql.ThreadedHsqlEpsgFactory
+2026-11-03T22:18:09.667 FINE org.geotools.referencing.factory.epsg.hsql.ThreadedHsqlEpsgFactory createDataSource - Building new data source for org.geotools.referencing.factory.epsg.hsql.ThreadedHsqlEpsgFactory
+2026-11-03T22:18:09.673 FINE org.geotools.referencing.factory.epsg.hsql.ThreadedHsqlEpsgFactory createBackingStore - Building backing store for org.geotools.referencing.factory.epsg.hsql.ThreadedHsqlEpsgFactory
+2026-11-03T22:18:09.678 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (ReferencingFactoryContainer)
+2026-11-03T22:18:09.679 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (ReferencingFactoryContainer): found implementation Optional.
+2026-11-03T22:18:10.169 CONFIG org.geotools.referencing.factory.epsg.ThreadedEpsgFactory createBackingStore - Connected to EPSG database "jdbc:hsqldb:file:/tmp/GeoTools/Databases/HSQL/v9.6.1/EPSG;shutdown=true;readonly=true" on "HSQL Database Engine".
+2026-11-03T22:18:10.185 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY)
+2026-11-03T22:18:10.185 FINEST org.geotools.util.factory.FactoryRegistry getFactory - CHECK  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): user provided a Class.
+2026-11-03T22:18:10.185 FINEST org.geotools.util.factory.FactoryRegistry getFactory - CHECK  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): consider hint[last] ThreadedEpsgFactory.
+2026-11-03T22:18:10.185 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): found implementation Optional.
+2026-11-03T22:18:10.187 FINER org.geotools.metadata.i18n.Errors_en getObject - Loaded resources for English from bundle "org.geotools.metadata.i18n".
+2026-11-03T22:18:10.189 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY)
+2026-11-03T22:18:10.190 FINEST org.geotools.util.factory.FactoryRegistry getFactory - CHECK  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): user provided a Class.
+2026-11-03T22:18:10.190 FINEST org.geotools.util.factory.FactoryRegistry getFactory - CHECK  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): consider hint[last] AbstractEpsgMediator.
+2026-11-03T22:18:10.190 FINEST org.geotools.util.factory.FactoryRegistry getFactory - THROW  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): could not find implementation.
+2026-11-03T22:18:10.191 FINE org.geotools.referencing.DefaultAuthorityFactory getBackingFactory - Factories with FORCE_LONGITUDE_FIRST_AXIS_ORDER=true :
+  org.geotools.referencing.factory.epsg.LongitudeFirstFactory
+  org.geotools.referencing.factory.epsg.CartesianAuthorityFactory
+  org.geotools.referencing.factory.wms.AutoCRSFactory
+  org.geotools.referencing.factory.wms.OGCAPICRSFactory
+  org.geotools.referencing.factory.wms.WebCRSFactory
+2026-11-03T22:18:10.193 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY)
+2026-11-03T22:18:10.193 FINEST org.geotools.util.factory.FactoryRegistry getFactory - CHECK  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): user provided a Class.
+2026-11-03T22:18:10.193 FINEST org.geotools.util.factory.FactoryRegistry getFactory - CHECK  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): consider hint[last] AbstractEpsgMediator.
+2026-11-03T22:18:10.194 FINEST org.geotools.util.factory.FactoryRegistry getFactory - THROW  (CRSAuthorityFactory, CRS_AUTHORITY_FACTORY): could not find implementation.
+2026-11-03T22:18:10.195 FINE org.geotools.referencing.DefaultAuthorityFactory getBackingFactory - Factories used as backingFactory :
+  org.geotools.referencing.factory.epsg.LongitudeFirstFactory
+  org.geotools.referencing.factory.epsg.CartesianAuthorityFactory
+  org.geotools.referencing.factory.wms.AutoCRSFactory
+  org.geotools.referencing.factory.wms.OGCAPICRSFactory
+  org.geotools.referencing.factory.wms.WebCRSFactory
+  org.geotools.referencing.factory.epsg.hsql.ThreadedHsqlEpsgFactory
+  org.geotools.referencing.factory.epsg.CartesianAuthorityFactory
+  org.geotools.referencing.factory.HTTP_AuthorityFactory
+  org.geotools.referencing.factory.wms.AutoCRSFactory
+  org.geotools.referencing.factory.URN_AuthorityFactory
+  org.geotools.referencing.factory.wms.OGCAPICRSFactory
+  org.geotools.referencing.factory.wms.WebCRSFactory
+  org.geotools.referencing.factory.HTTP_URI_AuthorityFactory
+2026-11-03T22:18:10.207 FINE org.geotools.referencing.DefaultAuthorityFactory createCoordinateReferenceSystem - Create CRS with code:EPSG:4326
+2026-11-03T22:18:10.235 FINE org.geotools.referencing.factory.DatumAliases reload - Loading datum aliases from "jar:file:/home/user/.m2/repository/org/geotools/gt-referencing/29.1/gt-referencing-29.1.jar!/org/geotools/referencing/factory/DatumAliasesTable.txt".
+2026-11-03T22:18:10.277 FINEST org.geotools.util.WeakHashSet unique - Rehash from 7 to 13
+2026-11-03T22:18:10.280 FINEST org.geotools.util.factory.FactoryRegistry getFactory - ENTRY  (ReferencingFactoryContainer)
+2026-11-03T22:18:10.280 FINEST org.geotools.util.factory.FactoryRegistry getFactory - RETURN (ReferencingFactoryContainer): found implementation Optional.
+2026-11-03T22:18:10.281 FINE org.geotools.referencing.factory.AuthorityFactoryAdapter notifySuccess - CRS for code:EPSG:4326 found by factory:org.geotools.referencing.factory.epsg.hsql.ThreadedHsqlEpsgFactory
+2026-11-03T22:18:10.308 FINE tech.units.indriya.unit.UnitDimension of - Quantity type: interface si.uom.quantity.AngularSpeed unknown
+2026-11-03T22:18:10.325 FINER tech.units.indriya.function.Calculus$Pi arccot - arccot: ARGUMENT=5 (nearZero=1E-44)
+2026-11-03T22:18:10.325 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=0.00266666666666666666666666666666666666666666
+2026-11-03T22:18:10.326 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=0.00006400000000000000000000000000000000000000
+2026-11-03T22:18:10.326 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=0.00000182857142857142857142857142857142857142
+2026-11-03T22:18:10.327 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=5.688888888888888888888888888888888888E-8
+2026-11-03T22:18:10.327 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=1.86181818181818181818181818181818181E-9
+2026-11-03T22:18:10.327 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=6.301538461538461538461538461538461E-11
+2026-11-03T22:18:10.328 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.18453333333333333333333333333333E-12
+2026-11-03T22:18:10.328 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=7.710117647058823529411764705882E-14
+2026-11-03T22:18:10.328 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.75941052631578947368421052631E-15
+2026-11-03T22:18:10.328 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=9.986438095238095238095238095E-17
+2026-11-03T22:18:10.328 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=3.64722086956521739130434782E-18
+2026-11-03T22:18:10.329 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=1.3421772800000000000000000E-19
+2026-11-03T22:18:10.329 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=4.97102696296296296296296E-21
+2026-11-03T22:18:10.329 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=1.8512790068965517241379E-22
+2026-11-03T22:18:10.330 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=6.92736660645161290322E-24
+2026-11-03T22:18:10.330 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.6030104824242424242E-25
+2026-11-03T22:18:10.330 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=9.81706810514285714E-27
+2026-11-03T22:18:10.330 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=3.7145663100540540E-28
+2026-11-03T22:18:10.330 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=1.409630292020512E-29
+2026-11-03T22:18:10.330 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=5.3634713550048E-31
+2026-11-03T22:18:10.330 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.045603028420E-32
+2026-11-03T22:18:10.331 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=7.8187493530E-34
+2026-11-03T22:18:10.331 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.994414645E-35
+2026-11-03T22:18:10.331 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=1.14887745E-36
+2026-11-03T22:18:10.332 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=4.415293E-38
+2026-11-03T22:18:10.332 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=1.69947E-39
+2026-11-03T22:18:10.332 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=6.550E-41
+2026-11-03T22:18:10.332 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.52E-42
+2026-11-03T22:18:10.333 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=9E-44
+2026-11-03T22:18:10.333 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=0E-44
+2026-11-03T22:18:10.333 FINER tech.units.indriya.function.Calculus$Pi arccot - arccot: done. nTerms=30
+2026-11-03T22:18:10.333 FINER tech.units.indriya.function.Calculus$Pi arccot - arccot: ARGUMENT=239 (nearZero=1E-44)
+2026-11-03T22:18:10.333 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.441659178708380362741189230124595182E-8
+2026-11-03T22:18:10.334 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.5647231442464736570520711088299E-13
+2026-11-03T22:18:10.334 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=3.20713065778469471704435835E-18
+2026-11-03T22:18:10.335 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=4.366931524403918974984E-23
+2026-11-03T22:18:10.335 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=6.2550445099215653E-28
+2026-11-03T22:18:10.335 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=9.26582162415E-33
+2026-11-03T22:18:10.335 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=1.4058540E-37
+2026-11-03T22:18:10.335 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=2.17E-42
+2026-11-03T22:18:10.336 FINEST tech.units.indriya.function.Calculus$Pi arccot - arccot: term=0E-44
+2026-11-03T22:18:10.336 FINER tech.units.indriya.function.Calculus$Pi arccot - arccot: done. nTerms=9
+2026-11-03T22:18:10.338 FINER org.geotools.referencing.factory.ThreadedAuthorityFactory createCoordinateReferenceSystem - Created CRS with code:EPSG:4326
+GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+2026-11-03T22:18:10.339 FINE org.geotools.referencing.factory.ThreadedAuthorityFactory createCoordinateReferenceSystem - Using CRS[EPSG:WGS 84] for code:EPSG:4326
+2026-11-03T22:18:10.651 INFO org.opentripplanner.transit.service.TransitModel [main] - Index transit model...
+2026-11-03T22:18:10.660 INFO org.opentripplanner.transit.service.TransitModelIndex [main] - Transit model index init...
+2026-11-03T22:18:10.673 INFO org.opentripplanner.transit.service.TransitModelIndex [main] - Transit Model index init complete.
+2026-11-03T22:18:10.673 INFO org.opentripplanner.transit.service.TransitModel [main] - Index transit model complete.
+2026-11-03T22:18:10.673 INFO org.opentripplanner.routing.graph.Graph [main] - Index street model...
+2026-11-03T22:18:10.748 INFO org.opentripplanner.routing.graph.index.StreetIndex [main] - Index street vertex progress tracking started.
+2026-11-03T22:18:10.772 INFO org.opentripplanner.routing.graph.index.StreetIndex [main] - Index street vertex progress tracking complete. 4 done in 0s (200 per second). 
+2026-11-03T22:18:10.773 INFO org.opentripplanner.routing.graph.Graph [main] - Index street model complete.

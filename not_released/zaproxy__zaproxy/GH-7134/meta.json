@@ -1,0 +1,40 @@
+{
+ "project": "zaproxy__zaproxy",
+ "issue": "GH-7134",
+ "summary": "Scan Policy Manager Policy multiplies while modifying the name",
+ "fix_commit": "b53b57f0e831b0e54f858f5a84ec29a8b417aef9",
+ "buggy_version": "b53b57f0e8 with zap/src/main/java/org/zaproxy/zap/extension/ascan/PolicyAllCategoryPanel.java, zap/src/main/java/org/zaproxy/zap/extension/ascan/PolicyManager.java reverted to b53b57f0e8^",
+ "jdk": "17",
+ "module": "zap",
+ "tests": [
+  "PolicyManagerUnitTest#shouldChangePolicyFileNameIfModifyingPolicyName",
+  "PolicyManagerUnitTest#shouldChangePolicyNameIfModifyingUpperOrLowerCase"
+ ],
+ "faulty_lines": [
+  "zap/src/main/java/org/zaproxy/zap/extension/ascan/PolicyAllCategoryPanel.java:538",
+  "zap/src/main/java/org/zaproxy/zap/extension/ascan/PolicyManager.java:107"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 46,
+ "pairs_exported": 42,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "PolicyManagerUnitTest#shouldChangePolicyFileNameIfModifyingPolicyName": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "no_tests_run",
+   "tests_run": null
+  },
+  "PolicyManagerUnitTest#shouldChangePolicyNameIfModifyingUpperOrLowerCase": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "no_tests_run",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "no_tests_run",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

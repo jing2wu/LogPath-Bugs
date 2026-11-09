@@ -1,0 +1,42 @@
+{
+ "project": "eclipse-rdf4j__rdf4j",
+ "issue": "GH-5030",
+ "summary": "FedX does not correctly reduce federation members, when the query contains a FROM clause",
+ "fix_commit": "6413b023475b869fcd9e20ec6baf22acea9c5701",
+ "buggy_version": "6413b02347 with core/query/src/main/java/org/eclipse/rdf4j/query/impl/FallbackDataset.java, tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java reverted to 6413b02347^",
+ "jdk": "17",
+ "module": "tools/federation",
+ "tests": [
+  "BasicTests#test_reduceFederation"
+ ],
+ "faulty_lines": [
+  "core/query/src/main/java/org/eclipse/rdf4j/query/impl/FallbackDataset.java:116",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:182",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:184",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:185",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:186",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:188",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:189",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:190",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:192",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:193",
+  "tools/federation/src/main/java/org/eclipse/rdf4j/federated/evaluation/FederationEvalStrategy.java:194"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 183,
+ "pairs_exported": 124,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 183,
+ "stable": true,
+ "runs": {
+  "BasicTests#test_reduceFederation": {
+   "threads": 21,
+   "log_threads": 21,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

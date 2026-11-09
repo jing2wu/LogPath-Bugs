@@ -1,0 +1,2 @@
+2026-11-03T21:46:28.524 DEBUG ai.philterd.phileas.services.split.NewLineSplitService [main] - Split large input exceeding threshold into 3 splits using new line split method.
+2026-11-03T21:46:28.529 WARN ai.philterd.phileas.services.split.SplitService [main] - Split pieces are not verbatim in the input; splitting without an overlap.

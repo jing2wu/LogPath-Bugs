@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-12838",
+ "summary": "[BUG] [Engine] InlineModelResolver creates weird named duplicate inline models and there is no way to turn it off",
+ "fix_commit": "71a7a822f41ded491d823bafaf0cefb4744b6b71",
+ "buggy_version": "71a7a822f4 with modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java reverted to 71a7a822f4^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "GoClientCodegenTest#testNullableComposition"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java:199",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java:203"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 250,
+ "pairs_exported": 50,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 250,
+ "stable": true,
+ "runs": {
+  "GoClientCodegenTest#testNullableComposition": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

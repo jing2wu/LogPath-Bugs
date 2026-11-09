@@ -1,0 +1,34 @@
+{
+ "project": "apache__shardingsphere",
+ "issue": "GH-39189",
+ "summary": "Hibernate fails with \"Operation not allowed after ResultSet closed\" when using ShardingSphere JDBC",
+ "fix_commit": "f785509568ad93706a675d16c4355def9a391648",
+ "buggy_version": "f785509568 with jdbc/src/main/java/org/apache/shardingsphere/driver/jdbc/adapter/AbstractStatementAdapter.java, jdbc/src/main/java/org/apache/shardingsphere/driver/jdbc/core/connection/ShardingSphereConnection.java reverted to f785509568^",
+ "jdk": "21",
+ "module": "jdbc",
+ "tests": [
+  "ShardingSphereDriverTest#assertResultSetRemainsUsableAfterAnotherStatementCloses"
+ ],
+ "faulty_lines": [
+  "jdbc/src/main/java/org/apache/shardingsphere/driver/jdbc/adapter/AbstractStatementAdapter.java:86",
+  "jdbc/src/main/java/org/apache/shardingsphere/driver/jdbc/core/connection/ShardingSphereConnection.java:342",
+  "jdbc/src/main/java/org/apache/shardingsphere/driver/jdbc/core/connection/ShardingSphereConnection.java:343"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 2561,
+ "pairs_exported": 8,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "ShardingSphereDriverTest#assertResultSetRemainsUsableAfterAnotherStatementCloses": {
+   "threads": 4,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

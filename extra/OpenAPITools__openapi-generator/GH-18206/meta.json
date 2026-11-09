@@ -1,0 +1,39 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-18206",
+ "summary": "[BUG][Kotlin][kotlin-spring] Multi-level inheritance doesn't work",
+ "fix_commit": "d7dd6d04ccfd1c2ed45db6ac2ba415674895abb0",
+ "buggy_version": "d7dd6d04cc with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java reverted to d7dd6d04cc^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "KotlinSpringServerCodegenTest#testMultiLevelAllOfInheritance",
+  "KotlinSpringServerCodegenTest#testMultiLevelAllOfWithEscapedPropertyNames"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinSpringServerCodegen.java:1562"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 525,
+ "pairs_exported": 210,
+ "covering_pairs_printed": 6,
+ "shortest_covering_pair_printed": 525,
+ "stable": true,
+ "runs": {
+  "KotlinSpringServerCodegenTest#testMultiLevelAllOfInheritance": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "KotlinSpringServerCodegenTest#testMultiLevelAllOfWithEscapedPropertyNames": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

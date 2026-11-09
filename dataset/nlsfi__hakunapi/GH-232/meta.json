@@ -1,0 +1,36 @@
+{
+ "project": "nlsfi__hakunapi",
+ "issue": "GH-232",
+ "summary": "Unexpected error when requesting a non configured CRS",
+ "fix_commit": "8a24c0ee9e2649c4e4f81bd4aee40be2e0d1f3d0",
+ "buggy_version": "8a24c0ee9e with src/hakunapi-core/src/main/java/fi/nls/hakunapi/core/param/CrsParam.java, webapp-jakarta/hakunapi-simple-webapp-jakarta/src/main/java/fi/nls/hakunapi/simple/webapp/jakarta/HakunaContextListener.java reverted to 8a24c0ee9e^",
+ "jdk": "25",
+ "module": "webapp-jakarta/hakunapi-simple-webapp-test-jakarta",
+ "tests": [
+  "UnknownSridStartupTest#testCollectionSridMissingFromGlobalSridFailsStartup"
+ ],
+ "faulty_lines": [
+  "src/hakunapi-core/src/main/java/fi/nls/hakunapi/core/param/CrsParam.java:36",
+  "src/hakunapi-core/src/main/java/fi/nls/hakunapi/core/param/CrsParam.java:37",
+  "webapp-jakarta/hakunapi-simple-webapp-jakarta/src/main/java/fi/nls/hakunapi/simple/webapp/jakarta/HakunaContextListener.java:108",
+  "webapp-jakarta/hakunapi-simple-webapp-jakarta/src/main/java/fi/nls/hakunapi/simple/webapp/jakarta/HakunaContextListener.java:109",
+  "webapp-jakarta/hakunapi-simple-webapp-jakarta/src/main/java/fi/nls/hakunapi/simple/webapp/jakarta/HakunaContextListener.java:215"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 317,
+ "pairs_exported": 9,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 317,
+ "stable": true,
+ "runs": {
+  "UnknownSridStartupTest#testCollectionSridMissingFromGlobalSridFailsStartup": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

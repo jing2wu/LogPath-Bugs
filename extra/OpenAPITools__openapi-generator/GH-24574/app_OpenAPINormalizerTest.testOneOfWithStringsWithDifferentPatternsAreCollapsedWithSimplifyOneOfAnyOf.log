@@ -1,0 +1,845 @@
+2026-11-03T20:00:44.897 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T20:00:45.965 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithMethod()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1552266723
+2026-11-03T20:00:45.965 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSecuritySchemesFilterAndBearerAuthName()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 681191163
+2026-11-03T20:00:45.965 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 49923435
+2026-11-03T20:00:45.965 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 782469217
+2026-11-03T20:00:45.966 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testLooseNullDefinitions()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1906576703
+2026-11-03T20:00:45.966 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 164914334
+2026-11-03T20:00:45.966 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1857241770
+2026-11-03T20:00:45.966 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -681733197
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClassFallsBackWhenContextClassLoaderCannotResolveClass()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -915710993
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 2004218962
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidFilterDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -426086044
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31BinaryContentMediaType()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -714693965
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -487832630
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testReplaceOneOfByDiscriminatorMapping()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -931402008
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerBearerAuthSpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1645105387
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -2099951312
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139ImpliedObjectSchemaKeepsProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 2052596747
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithTag()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -2077635098
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationIdFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1996119108
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxNumericOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1142062702
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSortModelPropertiesDisabledByDefault()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -337203858
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxBooleanExclusiveAlreadySet()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1646203259
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1505972842
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1189533261
+2026-11-03T20:00:45.967 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 106515896
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1209553502
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSimplifyOneOfAnyOfEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 978881742
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -855097613
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxStricterThanMinMax()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1461291180
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternalFromInlineProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1201266393
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 718140369
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1390003290
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToVendorExtension()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1317263480
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSortModelProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -514848896
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1135842145
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1478923887
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1726513223
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -578390755
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1004245231
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -533139688
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1534496927
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -100708473
+2026-11-03T20:00:45.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSecuritySchemesFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -2002290984
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxInclusiveStricterThanExclusiveValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -328246125
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testCustomRoleFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1850900253
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithConstsIsUntouchedBySimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1088360716
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllofWithMetadataOnlySchemas()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -411813902
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -785122340
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxEqualToMinMax()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 2038776486
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerOtherThanObjectWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 828083018
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationsFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -866072586
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -846117899
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue14769()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 22544604
+2026-11-03T20:00:45.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testMultiFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -374280675
+2026-11-03T20:00:45.983 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.oneOfIssue23276()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1093417896
+2026-11-03T20:00:45.983 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizer31SpecNullMapAdditionalProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1675920961
+2026-11-03T20:00:45.983 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -2112412496
+2026-11-03T20:00:45.983 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -881438899
+2026-11-03T20:00:45.983 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 390665488
+2026-11-03T20:00:45.983 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1072508852
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClass()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 303329581
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1561505358
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClassFallsBackToDefaultClassLoaderWhenContextClassLoaderIsNull()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1341210394
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClassNotFoundProducesClearErrorMessage()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 873035877
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 1442403985
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidSyntaxDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1062432879
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -1988788061
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClassLoadsFromContextClassLoaderWhenNotOnDefaultClassLoader()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] 2120528092
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3249a1ce] -28504994
+2026-11-03T20:00:45.984 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:46.052 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:46.059 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:46.059 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:00:46.832 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithMethod()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 2000616129
+2026-11-03T20:00:46.833 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSecuritySchemesFilterAndBearerAuthName()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -60893281
+2026-11-03T20:00:46.833 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -692161009
+2026-11-03T20:00:46.833 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 40384773
+2026-11-03T20:00:46.833 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testLooseNullDefinitions()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1646306149
+2026-11-03T20:00:46.833 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -577170110
+2026-11-03T20:00:46.833 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1695641082
+2026-11-03T20:00:46.833 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1423817641
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClassFallsBackWhenContextClassLoaderCannotResolveClass()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1657795437
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1262134518
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidFilterDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1168170488
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31BinaryContentMediaType()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1456778409
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1229917074
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testReplaceOneOfByDiscriminatorMapping()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1673486452
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerBearerAuthSpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 903020943
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1452931540
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139ImpliedObjectSchemaKeepsProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1310512303
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithTag()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1475247754
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationIdFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1254034664
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxNumericOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 399978258
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSortModelPropertiesDisabledByDefault()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1079288302
+2026-11-03T20:00:46.834 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxBooleanExclusiveAlreadySet()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 904118815
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 2046910010
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1931617705
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -635568548
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 467469058
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSimplifyOneOfAnyOfEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 236797298
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1597182057
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxStricterThanMinMax()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 719206736
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternalFromInlineProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 459181949
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -23944075
+2026-11-03T20:00:46.835 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 647918846
+2026-11-03T20:00:46.836 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToVendorExtension()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -2059347924
+2026-11-03T20:00:46.836 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSortModelProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1256933340
+2026-11-03T20:00:46.836 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1877926589
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 736839443
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 984428779
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1320475199
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1746329675
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1275224132
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 2018385925
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -842792917
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSecuritySchemesFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1550591868
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxInclusiveStricterThanExclusiveValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1070330569
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testCustomRoleFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1108815809
+2026-11-03T20:00:46.837 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithConstsIsUntouchedBySimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 346276272
+2026-11-03T20:00:46.838 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllofWithMetadataOnlySchemas()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1153898346
+2026-11-03T20:00:46.838 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1527206784
+2026-11-03T20:00:46.839 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxEqualToMinMax()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1296692042
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerOtherThanObjectWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 85998574
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationsFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1608157030
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1588202343
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue14769()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -719539840
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testMultiFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1116365119
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.oneOfIssue23276()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1835502340
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizer31SpecNullMapAdditionalProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1876961891
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1440470356
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1623523343
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -351418956
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 330424408
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClass()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -438754863
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 819420914
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClassFallsBackToDefaultClassLoaderWhenContextClassLoaderIsNull()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -2083294838
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClassNotFoundProducesClearErrorMessage()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 130951433
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 700319541
+2026-11-03T20:00:46.840 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidSyntaxDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -1804517323
+2026-11-03T20:00:46.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1564094791
+2026-11-03T20:00:46.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClassLoadsFromContextClassLoaderWhenNotOnDefaultClassLoader()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] 1378443648
+2026-11-03T20:00:46.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60e5272] -770589438
+2026-11-03T20:00:46.841 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:46.862 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:46.862 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:46.862 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:00:48.462 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@a9f023e] 776910593
+2026-11-03T20:00:48.462 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:48.462 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:48.463 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:48.463 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:00:48.911 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnyOfTest"
+components:
+  schemas:
+    AnyOfTest:
+      description: to test anyOf
+      anyOf:
+        - type: string
+        - type: 'null'
+        - type: null
+        - $ref: null
+    OneOfTest:
+      description: to test oneOf
+      oneOf:
+        - type: integer
+        - type: 'null'
+        - type: null
+        - $ref: null
+    OneOfTest2:
+      description: to test oneOf
+      oneOf:
+        - type: string
+        - type: 'null'
+    OneOfNullableTest:
+      description: to test oneOf nullable
+      oneOf:
+        - type: integer
+        - type: string
+        - $ref: null
+    SingleAnyOfTest:
+      description: to test anyOf (enum string only)
+      anyOf:
+        - type: string
+          enum:
+            - A
+            - B
+    Parent:
+      type: object
+      properties:
+        number:
+          anyOf:
+            - $ref: '#/components/schemas/Number'
+    ParentWithOneOfProperty:
+      type: object
+      properties:
+        number:
+          oneOf:
+            - $ref: '#/components/schemas/Number'
+    ParentWithPluralOneOfProperty:
+      type: object
+      properties:
+        number:
+          oneOf:
+            - $ref: '#/components/schemas/Number'
+            - $ref: '#/components/schemas/Number2'
+    PropertiesWithAnyOf:
+      additionalProperties: false
+      type: object
+      properties:
+        anyof_nullable_string:
+          anyOf:
+            - type: string
+            - type: null
+        anyof_nullable_number:
+          anyOf:
+            - type: number
+            - type: null
+    Number:
+      enum:
+        - one
+        - two
+        - three
+      type: string
+    Number2:
+      enum:
+        - one
+        - two
+      type: string
+    AnyOfStringArrayOfString:
+      anyOf:
+        - type: string
+        - type: array
+          items:
+            type: string
+    AnyOfAnyType:
+      anyOf:
+        - type: boolean
+        - type: array
+          items: {}
+        - type: object
+        - type: string
+        - type: number
+        - type: integer
+    OneOfAnyType:
+      oneOf:
+        - type: object
+        - type: boolean
+        - type: number
+        - type: string
+        - type: integer
+        - type: array
+          items: {}
+    TypeIntegerWithOneOf:
+      type: integer
+      oneOf:
+        - title: ITEM A
+          description: This permission is for item A.
+          const: 1
+          deprecated: true
+        - title: ITEM B
+          description: This permission is for item B.
+          const: 2
+        - title: ITEM C
+          description: This permission is for item C.
+          const: 4
+      format: int32
+    # need to repeat the issue when it only occurs with the 3rd, 4th, 5th, etc schemas with oneOf(type: null, $ref)
+    OneOfNullAndRef:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    OneOfNullAndRef2:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    OneOfNullAndRef3:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    StringPatternsWithOneOf:
+      type: string
+      oneOf:
+        - type: string
+          description: Numeric identifier
+          pattern: '^\d{1,35}$'
+        - type: string
+          description: UUID identifier
+          pattern: '^[0-9a-f-]{36}$'
+2026-11-03T20:00:49.694 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule SIMPLIFY_ONEOF_ANYOF => true
+2026-11-03T20:00:49.846 WARN org.openapitools.codegen.utils.ModelUtils [main] - Failed to get the schema name: null
+2026-11-03T20:00:50.214 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Simplified oneOf with enum sub-schemas to single enum: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: int32
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+} since rule SIMPLIFY_ONEOF_ANYOF_ENUM was enabled
+2026-11-03T20:00:50.520 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@590013c7] 2091894922
+2026-11-03T20:00:50.521 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:50.523 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:50.523 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:50.523 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:00:50.643 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2e2b9f53] 1373328406
+2026-11-03T20:00:50.647 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:50.647 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:50.647 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:50.647 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:00:50.660 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnyOfTest"
+components:
+  schemas:
+    AnyOfTest:
+      description: to test anyOf
+      anyOf:
+        - type: string
+        - type: 'null'
+        - type: null
+        - $ref: null
+    OneOfTest:
+      description: to test oneOf
+      oneOf:
+        - type: integer
+        - type: 'null'
+        - type: null
+        - $ref: null
+    OneOfTest2:
+      description: to test oneOf
+      oneOf:
+        - type: string
+        - type: 'null'
+    OneOfNullableTest:
+      description: to test oneOf nullable
+      oneOf:
+        - type: integer
+        - type: string
+        - $ref: null
+    SingleAnyOfTest:
+      description: to test anyOf (enum string only)
+      anyOf:
+        - type: string
+          enum:
+            - A
+            - B
+    Parent:
+      type: object
+      properties:
+        number:
+          anyOf:
+            - $ref: '#/components/schemas/Number'
+    ParentWithOneOfProperty:
+      type: object
+      properties:
+        number:
+          oneOf:
+            - $ref: '#/components/schemas/Number'
+    ParentWithPluralOneOfProperty:
+      type: object
+      properties:
+        number:
+          oneOf:
+            - $ref: '#/components/schemas/Number'
+            - $ref: '#/components/schemas/Number2'
+    PropertiesWithAnyOf:
+      additionalProperties: false
+      type: object
+      properties:
+        anyof_nullable_string:
+          anyOf:
+            - type: string
+            - type: null
+        anyof_nullable_number:
+          anyOf:
+            - type: number
+            - type: null
+    Number:
+      enum:
+        - one
+        - two
+        - three
+      type: string
+    Number2:
+      enum:
+        - one
+        - two
+      type: string
+    AnyOfStringArrayOfString:
+      anyOf:
+        - type: string
+        - type: array
+          items:
+            type: string
+    AnyOfAnyType:
+      anyOf:
+        - type: boolean
+        - type: array
+          items: {}
+        - type: object
+        - type: string
+        - type: number
+        - type: integer
+    OneOfAnyType:
+      oneOf:
+        - type: object
+        - type: boolean
+        - type: number
+        - type: string
+        - type: integer
+        - type: array
+          items: {}
+    TypeIntegerWithOneOf:
+      type: integer
+      oneOf:
+        - title: ITEM A
+          description: This permission is for item A.
+          const: 1
+          deprecated: true
+        - title: ITEM B
+          description: This permission is for item B.
+          const: 2
+        - title: ITEM C
+          description: This permission is for item C.
+          const: 4
+      format: int32
+    # need to repeat the issue when it only occurs with the 3rd, 4th, 5th, etc schemas with oneOf(type: null, $ref)
+    OneOfNullAndRef:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    OneOfNullAndRef2:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    OneOfNullAndRef3:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    StringPatternsWithOneOf:
+      type: string
+      oneOf:
+        - type: string
+          description: Numeric identifier
+          pattern: '^\d{1,35}$'
+        - type: string
+          description: UUID identifier
+          pattern: '^[0-9a-f-]{36}$'
+2026-11-03T20:00:50.735 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule SIMPLIFY_ONEOF_ANYOF => true
+2026-11-03T20:00:50.789 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Simplified oneOf with enum sub-schemas to single enum: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: int32
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+} since rule SIMPLIFY_ONEOF_ANYOF_ENUM was enabled
+2026-11-03T20:00:50.993 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4bbf20d1] 1869534612
+2026-11-03T20:00:50.993 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:50.993 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:50.993 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:50.993 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:00:51.121 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOneOfWithStringsWithDifferentPatternsAreCollapsedWithSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@3f1158ee] 1656819121
+2026-11-03T20:00:51.125 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:00:51.125 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:00:51.125 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:00:51.125 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:00:51.143 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnyOfTest"
+components:
+  schemas:
+    AnyOfTest:
+      description: to test anyOf
+      anyOf:
+        - type: string
+        - type: 'null'
+        - type: null
+        - $ref: null
+    OneOfTest:
+      description: to test oneOf
+      oneOf:
+        - type: integer
+        - type: 'null'
+        - type: null
+        - $ref: null
+    OneOfTest2:
+      description: to test oneOf
+      oneOf:
+        - type: string
+        - type: 'null'
+    OneOfNullableTest:
+      description: to test oneOf nullable
+      oneOf:
+        - type: integer
+        - type: string
+        - $ref: null
+    SingleAnyOfTest:
+      description: to test anyOf (enum string only)
+      anyOf:
+        - type: string
+          enum:
+            - A
+            - B
+    Parent:
+      type: object
+      properties:
+        number:
+          anyOf:
+            - $ref: '#/components/schemas/Number'
+    ParentWithOneOfProperty:
+      type: object
+      properties:
+        number:
+          oneOf:
+            - $ref: '#/components/schemas/Number'
+    ParentWithPluralOneOfProperty:
+      type: object
+      properties:
+        number:
+          oneOf:
+            - $ref: '#/components/schemas/Number'
+            - $ref: '#/components/schemas/Number2'
+    PropertiesWithAnyOf:
+      additionalProperties: false
+      type: object
+      properties:
+        anyof_nullable_string:
+          anyOf:
+            - type: string
+            - type: null
+        anyof_nullable_number:
+          anyOf:
+            - type: number
+            - type: null
+    Number:
+      enum:
+        - one
+        - two
+        - three
+      type: string
+    Number2:
+      enum:
+        - one
+        - two
+      type: string
+    AnyOfStringArrayOfString:
+      anyOf:
+        - type: string
+        - type: array
+          items:
+            type: string
+    AnyOfAnyType:
+      anyOf:
+        - type: boolean
+        - type: array
+          items: {}
+        - type: object
+        - type: string
+        - type: number
+        - type: integer
+    OneOfAnyType:
+      oneOf:
+        - type: object
+        - type: boolean
+        - type: number
+        - type: string
+        - type: integer
+        - type: array
+          items: {}
+    TypeIntegerWithOneOf:
+      type: integer
+      oneOf:
+        - title: ITEM A
+          description: This permission is for item A.
+          const: 1
+          deprecated: true
+        - title: ITEM B
+          description: This permission is for item B.
+          const: 2
+        - title: ITEM C
+          description: This permission is for item C.
+          const: 4
+      format: int32
+    # need to repeat the issue when it only occurs with the 3rd, 4th, 5th, etc schemas with oneOf(type: null, $ref)
+    OneOfNullAndRef:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    OneOfNullAndRef2:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    OneOfNullAndRef3:
+      oneOf:
+        - $ref: '#/components/schemas/Parent'
+        - type: "null"
+    StringPatternsWithOneOf:
+      type: string
+      oneOf:
+        - type: string
+          description: Numeric identifier
+          pattern: '^\d{1,35}$'
+        - type: string
+          description: UUID identifier
+          pattern: '^[0-9a-f-]{36}$'
+2026-11-03T20:00:51.216 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule SIMPLIFY_ONEOF_ANYOF => true
+2026-11-03T20:00:51.220 WARN org.openapitools.codegen.utils.ModelUtils [main] - Failed to get the schema name: null
+2026-11-03T20:00:51.272 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Simplified oneOf with enum sub-schemas to single enum: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: int32
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+} since rule SIMPLIFY_ONEOF_ANYOF_ENUM was enabled
+2026-11-03T20:00:51.343 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

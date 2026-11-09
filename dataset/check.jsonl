@@ -1,0 +1,116 @@
+{"project": "Beilstein-Institut__BChemXtract", "issue": "GH-143", "problems": [], "path_entries": 6588, "pairs": 120}
+{"project": "IQSS__dataverse", "issue": "GH-10390", "problems": [], "path_entries": 890, "pairs": 27}
+{"project": "IQSS__dataverse", "issue": "GH-11169", "problems": [], "path_entries": 195, "pairs": 10}
+{"project": "InseeFr__sugoi-api", "issue": "GH-536", "problems": [], "path_entries": 798, "pairs": 10}
+{"project": "InseeFr__sugoi-api", "issue": "GH-749", "problems": [], "path_entries": 633, "pairs": 4}
+{"project": "Lincoln-cn__JAiRouter", "issue": "GH-114", "problems": [], "path_entries": 66, "pairs": 5}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-16857", "problems": [], "path_entries": 11681, "no_source_entries": 2, "pairs": 62}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-18959", "problems": [], "path_entries": 15963, "no_source_entries": 407, "pairs": 60}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-20775", "problems": [], "path_entries": 56732, "no_source_entries": 1294, "pairs": 132}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-22066", "problems": [], "path_entries": 16564, "no_source_entries": 759, "pairs": 49}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23139", "problems": [], "path_entries": 3096, "no_source_entries": 755, "pairs": 5}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23278", "problems": [], "path_entries": 49675, "no_source_entries": 428, "pairs": 94}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23286", "problems": [], "path_entries": 55290, "pairs": 60}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-23997", "problems": [], "path_entries": 65018, "no_source_entries": 428, "pairs": 121}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-24119", "problems": [], "path_entries": 14123, "no_source_entries": 430, "pairs": 48}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-24366", "problems": [], "path_entries": 46658, "no_source_entries": 430, "pairs": 89}
+{"project": "OpenIdentityPlatform__commons", "issue": "GH-346", "problems": [], "path_entries": 3105, "no_source_entries": 11, "pairs": 16}
+{"project": "Unleash__unleash-java-sdk", "issue": "GH-206", "problems": [], "path_entries": 471, "pairs": 5}
+{"project": "apache__accumulo", "issue": "GH-3414", "problems": [], "path_entries": 1358, "pairs": 97}
+{"project": "apache__accumulo", "issue": "GH-4347", "problems": [], "path_entries": 2642, "pairs": 20}
+{"project": "apache__dolphinscheduler", "issue": "GH-14869", "problems": [], "path_entries": 362, "pairs": 10}
+{"project": "apache__dolphinscheduler", "issue": "GH-15771", "problems": [], "path_entries": 579, "pairs": 5}
+{"project": "apache__dolphinscheduler", "issue": "GH-17555", "problems": [], "path_entries": 35, "pairs": 3}
+{"project": "apache__dolphinscheduler", "issue": "GH-17604", "problems": [], "path_entries": 199, "pairs": 5}
+{"project": "apache__dolphinscheduler", "issue": "GH-17637", "problems": [], "path_entries": 179, "pairs": 3}
+{"project": "apache__dolphinscheduler", "issue": "GH-17704", "problems": [], "path_entries": 150, "pairs": 2}
+{"project": "apache__dolphinscheduler", "issue": "GH-17798", "problems": [], "path_entries": 139, "pairs": 3}
+{"project": "apache__dolphinscheduler", "issue": "GH-18132", "problems": [], "path_entries": 488, "pairs": 5}
+{"project": "apache__dolphinscheduler", "issue": "GH-18624", "problems": [], "path_entries": 27, "pairs": 2}
+{"project": "apache__dolphinscheduler", "issue": "GH-18696", "problems": [], "path_entries": 144, "pairs": 2}
+{"project": "apache__druid", "issue": "GH-19117", "problems": [], "path_entries": 89787, "no_source_entries": 195, "pairs": 302}
+{"project": "apache__jena", "issue": "GH-2992", "problems": [], "path_entries": 7633, "pairs": 5}
+{"project": "apache__maven-assembly-plugin", "issue": "GH-1306", "problems": [], "path_entries": 313, "no_source_entries": 23, "pairs": 6}
+{"project": "apache__maven-filtering", "issue": "GH-289", "problems": [], "path_entries": 474, "pairs": 12}
+{"project": "atlasmap__atlasmap", "issue": "GH-3468", "problems": [], "path_entries": 4757, "pairs": 47}
+{"project": "atlasmap__atlasmap", "issue": "GH-3470", "problems": [], "path_entries": 455, "pairs": 4}
+{"project": "atlasmap__atlasmap", "issue": "GH-3507", "problems": [], "path_entries": 6527, "no_source_entries": 1, "pairs": 85}
+{"project": "atlasmap__atlasmap", "issue": "GH-3549", "problems": [], "path_entries": 8212, "pairs": 93}
+{"project": "atlasmap__atlasmap", "issue": "GH-3684", "problems": [], "path_entries": 39161, "pairs": 1261}
+{"project": "axel3rd__mpg-coach-bot", "issue": "GH-255", "problems": [], "path_entries": 230, "pairs": 4}
+{"project": "camunda-community-hub__spring-zeebe", "issue": "GH-336", "problems": [], "path_entries": 9, "pairs": 1}
+{"project": "citrusframework__citrus", "issue": "GH-1094", "problems": [], "path_entries": 533, "pairs": 16}
+{"project": "citrusframework__citrus", "issue": "GH-1676", "problems": [], "path_entries": 5487, "pairs": 91}
+{"project": "cqframework__clinical-reasoning", "issue": "GH-466", "problems": [], "path_entries": 603, "no_source_entries": 10, "pairs": 5}
+{"project": "dependency-check__DependencyCheck", "issue": "GH-5898", "problems": [], "path_entries": 4354, "pairs": 92}
+{"project": "dependency-check__DependencyCheck", "issue": "GH-7976", "problems": [], "path_entries": 1380, "pairs": 27}
+{"project": "drmacro__wordinator", "issue": "GH-116", "problems": [], "path_entries": 3183, "pairs": 11}
+{"project": "eclipse-hono__hono", "issue": "GH-2945", "problems": [], "path_entries": 166, "no_source_entries": 28, "pairs": 6}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-3624", "problems": [], "path_entries": 379, "pairs": 6}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-3781", "problems": [], "path_entries": 2082, "pairs": 14}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-4073", "problems": [], "path_entries": 1570, "pairs": 27}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-4978", "problems": [], "path_entries": 28158, "pairs": 39}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-5030", "problems": [], "path_entries": 56309, "no_source_entries": 2, "pairs": 124}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-5123", "problems": [], "path_entries": 10012, "no_source_entries": 4, "pairs": 38}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-5227", "problems": [], "path_entries": 36665, "no_source_entries": 2, "pairs": 98}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-5229", "problems": [], "path_entries": 53554, "no_source_entries": 2, "pairs": 128}
+{"project": "eclipse-rdf4j__rdf4j", "issue": "GH-5310", "problems": [], "path_entries": 3176, "no_source_entries": 2, "pairs": 10}
+{"project": "elastic__apm-agent-java", "issue": "GH-4590", "problems": [], "path_entries": 1124, "pairs": 6}
+{"project": "epam__dm.ai", "issue": "GH-409", "problems": [], "path_entries": 765, "no_source_entries": 7, "pairs": 25}
+{"project": "equinor__neqsim", "issue": "GH-2299", "problems": [], "path_entries": 272321, "pairs": 277}
+{"project": "equinor__neqsim", "issue": "GH-3769", "problems": [], "path_entries": 5574, "pairs": 6}
+{"project": "equinor__neqsim", "issue": "GH-4007", "problems": [], "path_entries": 5268, "pairs": 3}
+{"project": "getodk__javarosa", "issue": "GH-668", "problems": [], "path_entries": 4068, "pairs": 9}
+{"project": "getodk__javarosa", "issue": "GH-743", "problems": [], "path_entries": 1327, "pairs": 8}
+{"project": "gitflow-incremental-builder__gitflow-incremental-builder", "issue": "GH-1256", "problems": [], "path_entries": 137, "pairs": 2}
+{"project": "integrated-application-development__sonar-delphi", "issue": "GH-325", "problems": [], "path_entries": 32, "pairs": 2}
+{"project": "jenkins-infra__plugin-health-scoring", "issue": "GH-483", "problems": [], "path_entries": 20, "pairs": 2}
+{"project": "jenkins-infra__plugin-modernizer-tool", "issue": "GH-572", "problems": [], "path_entries": 114, "pairs": 2}
+{"project": "jenkinsci__pipeline-graph-view-plugin", "issue": "GH-224", "problems": [], "path_entries": 464, "pairs": 17}
+{"project": "jenkinsci__pipeline-graph-view-plugin", "issue": "GH-358", "problems": [], "path_entries": 3124, "pairs": 85}
+{"project": "kafka-ops__julie", "issue": "GH-364", "problems": [], "path_entries": 246, "pairs": 4}
+{"project": "kafka-ops__julie", "issue": "GH-378", "problems": [], "path_entries": 150, "pairs": 1}
+{"project": "kbss-cvut__jopa", "issue": "GH-199", "problems": [], "path_entries": 135, "pairs": 3}
+{"project": "kit-data-manager__metastore2", "issue": "GH-334", "problems": [], "path_entries": 1808, "no_source_entries": 1708, "pairs": 7}
+{"project": "kusumotolab__FinerGit", "issue": "GH-152", "problems": [], "path_entries": 128, "pairs": 1}
+{"project": "michelin__ns4kafka", "issue": "GH-359", "problems": [], "path_entries": 354, "no_source_entries": 95, "pairs": 5}
+{"project": "microcks__microcks", "issue": "GH-2343", "problems": [], "path_entries": 22, "pairs": 2}
+{"project": "microcks__microcks", "issue": "GH-2350", "problems": [], "path_entries": 70, "pairs": 7}
+{"project": "nitrite__nitrite-java", "issue": "GH-990", "problems": [], "path_entries": 8084, "pairs": 32}
+{"project": "nlsfi__hakunapi", "issue": "GH-232", "problems": [], "path_entries": 799, "pairs": 9}
+{"project": "openmrs__openmrs-module-chartsearchai", "issue": "GH-433", "problems": [], "path_entries": 1279, "pairs": 3}
+{"project": "openmrs__openmrs-module-chartsearchai", "issue": "GH-489", "problems": [], "path_entries": 4574, "pairs": 12}
+{"project": "opensearch-project__security", "issue": "GH-5832", "problems": [], "path_entries": 187, "no_source_entries": 6, "pairs": 21}
+{"project": "opentripplanner__OpenTripPlanner", "issue": "GH-5203", "problems": [], "path_entries": 600, "pairs": 14}
+{"project": "pf4j__pf4j", "issue": "GH-670", "problems": [], "path_entries": 43, "pairs": 5}
+{"project": "pf4j__pf4j", "issue": "GH-701", "problems": [], "path_entries": 123, "pairs": 9}
+{"project": "philterd__phileas", "issue": "GH-386", "problems": [], "path_entries": 17909, "pairs": 95}
+{"project": "philterd__phileas", "issue": "GH-392", "problems": [], "path_entries": 1128, "pairs": 11}
+{"project": "pmd__pmd", "issue": "GH-6961", "problems": [], "path_entries": 40, "pairs": 1}
+{"project": "reactor__reactor-netty", "issue": "GH-4171", "problems": [], "path_entries": 1471, "no_source_entries": 749, "pairs": 9}
+{"project": "reactor__reactor-netty", "issue": "GH-4210", "problems": [], "path_entries": 7874, "no_source_entries": 4173, "pairs": 28}
+{"project": "reactor__reactor-netty", "issue": "GH-4290", "problems": [], "path_entries": 10441, "no_source_entries": 3761, "pairs": 37}
+{"project": "rodnansol__spring-configuration-property-documenter", "issue": "GH-20", "problems": [], "path_entries": 310, "pairs": 4}
+{"project": "swagger-api__swagger-core", "issue": "GH-4682", "problems": [], "path_entries": 32652, "pairs": 77}
+{"project": "swagger-api__swagger-core", "issue": "GH-4800", "problems": [], "path_entries": 3614, "pairs": 12}
+{"project": "swagger-api__swagger-core", "issue": "GH-4967", "problems": [], "path_entries": 4286, "pairs": 11}
+{"project": "swagger-api__swagger-core", "issue": "GH-5012", "problems": [], "path_entries": 7385, "pairs": 21}
+{"project": "swagger-api__swagger-core", "issue": "GH-5032", "problems": [], "path_entries": 8470, "pairs": 22}
+{"project": "swagger-api__swagger-core", "issue": "GH-5051", "problems": [], "path_entries": 23382, "pairs": 50}
+{"project": "swagger-api__swagger-core", "issue": "GH-5061", "problems": [], "path_entries": 13119, "pairs": 30}
+{"project": "swagger-api__swagger-core", "issue": "GH-5111", "problems": [], "path_entries": 33447, "pairs": 79}
+{"project": "swagger-api__swagger-core", "issue": "GH-5168", "problems": [], "path_entries": 4716, "pairs": 9}
+{"project": "swagger-api__swagger-core", "issue": "GH-5185", "problems": [], "path_entries": 8092, "pairs": 18}
+{"project": "swedenconnect__signservice", "issue": "GH-82", "problems": [], "path_entries": 13, "pairs": 1}
+{"project": "terrakube-io__terrakube", "issue": "GH-1773", "problems": [], "path_entries": 90, "pairs": 7}
+{"project": "terrakube-io__terrakube", "issue": "GH-3412", "problems": [], "path_entries": 119, "pairs": 4}
+{"project": "terrakube-io__terrakube", "issue": "GH-3490", "problems": [], "path_entries": 588, "pairs": 29}
+{"project": "tmseidel__ai-git-bot", "issue": "GH-273", "problems": [], "path_entries": 146, "pairs": 16}
+{"project": "tmseidel__ai-git-bot", "issue": "GH-274", "problems": [], "path_entries": 37, "pairs": 4}
+{"project": "urlaubsverwaltung__urlaubsverwaltung", "issue": "GH-4624", "problems": [], "path_entries": 2622, "pairs": 23}
+{"project": "urlaubsverwaltung__urlaubsverwaltung", "issue": "GH-5022", "problems": [], "path_entries": 272, "pairs": 2}
+{"project": "vaadin-miki__super-fields", "issue": "GH-339", "problems": [], "path_entries": 472, "pairs": 15}
+{"project": "vaadin__hilla", "issue": "GH-1935", "problems": [], "path_entries": 316, "pairs": 16}
+{"project": "victools__jsonschema-generator", "issue": "GH-261", "problems": [], "path_entries": 627, "pairs": 4}
+{"project": "vmware__build-tools-for-vmware-aria", "issue": "GH-210", "problems": [], "path_entries": 66, "pairs": 4}
+{"project": "zowe__api-layer", "issue": "GH-4777", "problems": [], "path_entries": 637, "no_source_entries": 115, "pairs": 21}

@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-21898",
+ "summary": "[BUG] [Golang] xml wrapped and name is ignored",
+ "fix_commit": "08733aaf251cede20ac048fa7ff4cf0a64bb929c",
+ "buggy_version": "08733aaf25 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java reverted to 08733aaf25^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "GoClientCodegenTest#testXmlOptionsBeingUsed"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java:802",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractGoCodegen.java:803"
+ ],
+ "covering_pairs": 18,
+ "shortest_covering_pair": 450,
+ "pairs_exported": 319,
+ "covering_pairs_printed": 18,
+ "shortest_covering_pair_printed": 450,
+ "stable": true,
+ "runs": {
+  "GoClientCodegenTest#testXmlOptionsBeingUsed": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

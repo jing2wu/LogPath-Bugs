@@ -1,0 +1,34 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-25069",
+ "summary": "[BUG][Python] not with enum is ignored during model validation",
+ "fix_commit": "ba7fb8baf194d2467bf7c3e86e23b1ff1389cde3",
+ "buggy_version": "ba7fb8baf1 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java reverted to ba7fb8baf1^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "PythonClientCodegenTest#testOneOfNotEnumValidation"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:1125",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1050",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1051"
+ ],
+ "covering_pairs": 9,
+ "shortest_covering_pair": 834,
+ "pairs_exported": 86,
+ "covering_pairs_printed": 9,
+ "shortest_covering_pair_printed": 834,
+ "stable": true,
+ "runs": {
+  "PythonClientCodegenTest#testOneOfNotEnumValidation": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,54 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-11910",
+ "summary": " [BUG][kotlin][client][okhttp4] non-file parts are serialized as the string without Content-Type in multipart/form-data (variant of #7658 / #11289)",
+ "fix_commit": "7851dfe1488b026734c0930676c4c96251b419fd",
+ "buggy_version": "7851dfe148 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinClientCodegen.java reverted to 7851dfe148^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "DefaultGeneratorTest#testBuiltinLibraryTemplates",
+  "DefaultGeneratorTest#testBuiltinNonLibraryTemplates",
+  "DefaultGeneratorTest#testCustomLibraryTemplates",
+  "DefaultGeneratorTest#testCustomNonLibraryTemplates"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinClientCodegen.java:709",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinClientCodegen.java:710"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 378,
+ "pairs_exported": 121,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 378,
+ "stable": true,
+ "runs": {
+  "DefaultGeneratorTest#testBuiltinLibraryTemplates": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "DefaultGeneratorTest#testBuiltinNonLibraryTemplates": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "DefaultGeneratorTest#testCustomLibraryTemplates": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "DefaultGeneratorTest#testCustomNonLibraryTemplates": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

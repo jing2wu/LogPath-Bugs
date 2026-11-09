@@ -1,0 +1,33 @@
+{
+ "project": "gitflow-incremental-builder__gitflow-incremental-builder",
+ "issue": "GH-1256",
+ "summary": "Under mvnd, a build in a second clone reuses the first clone's repository and finds no changes",
+ "fix_commit": "e142ca21e67e6225de13d9e858daf85ee8b34ebc",
+ "buggy_version": "e142ca21e6 with src/main/java/io/github/gitflowincrementalbuilder/jgit/GitProvider.java reverted to e142ca21e6^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "GitProviderTest#getProjectRoot_otherRepoAfterClose"
+ ],
+ "faulty_lines": [
+  "src/main/java/io/github/gitflowincrementalbuilder/jgit/GitProvider.java:62",
+  "src/main/java/io/github/gitflowincrementalbuilder/jgit/GitProvider.java:63"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 103,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 103,
+ "stable": true,
+ "runs": {
+  "GitProviderTest#getProjectRoot_otherRepoAfterClose": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

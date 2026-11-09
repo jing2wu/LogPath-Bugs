@@ -1,0 +1,36 @@
+{
+ "project": "intersoftdatalabs-in__percussioncms",
+ "issue": "GH-4740",
+ "summary": "issue 4531 slice 19: PublishingShell item publish history",
+ "fix_commit": "987c340caa044e6a867f2b0510fdfa80c0f2ec31",
+ "buggy_version": "987c340caa with projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java reverted to 987c340caa^",
+ "jdk": "21",
+ "module": "projects/sitemanage",
+ "tests": [
+  "PSItemServicePublishingHistoryTest#blankIdIsBadRequest"
+ ],
+ "faulty_lines": [
+  "projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java:691",
+  "projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java:693",
+  "projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java:694",
+  "projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java:695",
+  "projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java:703"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "PSItemServicePublishingHistoryTest#blankIdIsBadRequest": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

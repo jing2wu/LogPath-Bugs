@@ -1,0 +1,2105 @@
+2026-11-03T19:41:54.113 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithMethod()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1836902469
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1194288141
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1441877477
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -863026501
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1288880977
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -234712311
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 497833471
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -817775434
+2026-11-03T19:41:55.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -119721412
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1819132673
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -385344219
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -2141877516
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -966368943
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testCustomRoleFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1566264507
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1719583216
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidFilterDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -710721790
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -772468376
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllofWithMetadataOnlySchemas()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -696449648
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1069758086
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerOtherThanObjectWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 543447272
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerBearerAuthSpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1360469641
+2026-11-03T19:41:55.263 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1910380238
+2026-11-03T19:41:55.264 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1130753645
+2026-11-03T19:41:55.264 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -237629112
+2026-11-03T19:41:55.264 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithTag()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1932696452
+2026-11-03T19:41:55.266 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testMultiFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -658916421
+2026-11-03T19:41:55.266 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1897919054
+2026-11-03T19:41:55.267 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1166074645
+2026-11-03T19:41:55.273 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 106029742
+2026-11-03T19:41:55.273 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 787873106
+2026-11-03T19:41:55.273 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationIdFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1711483362
+2026-11-03T19:41:55.273 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClass()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 18693835
+2026-11-03T19:41:55.273 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1276869612
+2026-11-03T19:41:55.273 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1790608588
+2026-11-03T19:41:55.273 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1474169007
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -178119850
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 924917756
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSimplifyOneOfAnyOfEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 694245996
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1139733359
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternalFromInlineProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 916630647
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidSyntaxDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1347068625
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 433504623
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 2021543489
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] 1105367544
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToVendorExtension()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -1601899226
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@21526f6c] -313140740
+2026-11-03T19:41:55.274 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:41:55.319 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:41:55.319 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:41:55.319 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:41:55.884 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithMethod()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1945273565
+2026-11-03T19:41:55.887 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 681496879
+2026-11-03T19:41:55.887 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 929086215
+2026-11-03T19:41:55.887 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1375817763
+2026-11-03T19:41:55.887 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1801672239
+2026-11-03T19:41:55.887 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -747503573
+2026-11-03T19:41:55.887 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -14957791
+2026-11-03T19:41:55.887 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1330566696
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -632512674
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1963043361
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -898135481
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1640298518
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1479160205
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testCustomRoleFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1053473245
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1206791954
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidFilterDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1223513052
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1285259638
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllofWithMetadataOnlySchemas()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1209240910
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1582549348
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerOtherThanObjectWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 30656010
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerBearerAuthSpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 847678379
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1397588976
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1643544907
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -750420374
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithTag()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1419905190
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testMultiFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1171707683
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1385127792
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1678865907
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -406761520
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 275081844
+2026-11-03T19:41:55.888 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationIdFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1198692100
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClass()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -494097427
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 764078350
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1991567446
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1986960269
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -690911112
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 412126494
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSimplifyOneOfAnyOfEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 181454734
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1652524621
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternalFromInlineProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 403839385
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidSyntaxDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -1859859887
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -79286639
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 1508752227
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] 592576282
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToVendorExtension()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -2114690488
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2c1dc8e] -825932002
+2026-11-03T19:41:55.889 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:41:55.901 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:41:55.901 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:41:55.901 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:41:57.502 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@499683c4] 1952419908
+2026-11-03T19:41:57.502 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:41:57.503 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:41:57.509 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:41:57.510 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:41:58.095 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+info:
+  version: 1.0.0
+  title: Example
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Dummy"
+components:
+  schemas:
+    RefSchema:
+      description: reference schema
+      properties:
+        id:
+          type: string
+    Dummy:
+      type: object
+      properties:
+        property1:
+          type: string
+          allOf:
+            - pattern: "[abc]"
+            - pattern: "[a-z]"
+        property2:
+          type: object
+          allOf:
+            - if:
+                properties:
+                  aBooleanCheck:
+                    const: false
+              then:
+                required:
+                  - condition
+            - if:
+                properties:
+                  aBooleanCheck:
+                    const: true
+              then:
+                required:
+                  - purpose
+          properties:
+            aBooleanCheck:
+              type: boolean
+            condition:
+              type: string
+            purpose:
+              type: array
+              items:
+                type: string
+                enum:
+                  - FIRST
+                  - SECOND
+                  - THIRD
+        property3:
+          $ref: "#/components/schemas/RefSchema"
+          description: Override description in $ref schema
+2026-11-03T19:41:58.868 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T19:41:58.889 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: [abc]
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:58.890 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: [a-z]
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:58.890 INFO org.openapitools.codegen.OpenAPINormalizer [main] - Unset/Removed allOf after cleaning up allOf sub-schemas that are not yet supported.
+2026-11-03T19:41:58.892 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: {aBooleanCheck=class JsonSchema {
+                    class Schema {
+                        type: null
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                        patternProperties: null
+                        contains: null
+                        $id: null
+                        $anchor: null
+                        $schema: null
+                        $vocabulary: null
+                        $dynamicAnchor: null
+                        $dynamicRef: null
+                        const: false
+                        contentEncoding: null
+                        contentMediaType: null
+                        contentSchema: null
+                        propertyNames: null
+                        unevaluatedProperties: null
+                        maxContains: null
+                        minContains: null
+                        additionalItems: null
+                        unevaluatedItems: null
+                        _if: null
+                        _else: null
+                        then: null
+                        dependentRequired: null
+                        dependentSchemas: null
+                        $comment: null
+                        prefixItems: null
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        _else: null
+        then: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [condition]
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:58.894 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: {aBooleanCheck=class JsonSchema {
+                    class Schema {
+                        type: null
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                        patternProperties: null
+                        contains: null
+                        $id: null
+                        $anchor: null
+                        $schema: null
+                        $vocabulary: null
+                        $dynamicAnchor: null
+                        $dynamicRef: null
+                        const: true
+                        contentEncoding: null
+                        contentMediaType: null
+                        contentSchema: null
+                        propertyNames: null
+                        unevaluatedProperties: null
+                        maxContains: null
+                        minContains: null
+                        additionalItems: null
+                        unevaluatedItems: null
+                        _if: null
+                        _else: null
+                        then: null
+                        dependentRequired: null
+                        dependentSchemas: null
+                        $comment: null
+                        prefixItems: null
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        _else: null
+        then: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [purpose]
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:58.895 INFO org.openapitools.codegen.OpenAPINormalizer [main] - Unset/Removed allOf after cleaning up allOf sub-schemas that are not yet supported.
+2026-11-03T19:41:59.174 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@68b11545] -1820712507
+2026-11-03T19:41:59.175 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:41:59.182 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:41:59.182 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:41:59.182 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:41:59.307 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@570ba13] 809092755
+2026-11-03T19:41:59.308 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:41:59.308 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:41:59.308 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:41:59.308 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:41:59.322 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+info:
+  version: 1.0.0
+  title: Example
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Dummy"
+components:
+  schemas:
+    RefSchema:
+      description: reference schema
+      properties:
+        id:
+          type: string
+    Dummy:
+      type: object
+      properties:
+        property1:
+          type: string
+          allOf:
+            - pattern: "[abc]"
+            - pattern: "[a-z]"
+        property2:
+          type: object
+          allOf:
+            - if:
+                properties:
+                  aBooleanCheck:
+                    const: false
+              then:
+                required:
+                  - condition
+            - if:
+                properties:
+                  aBooleanCheck:
+                    const: true
+              then:
+                required:
+                  - purpose
+          properties:
+            aBooleanCheck:
+              type: boolean
+            condition:
+              type: string
+            purpose:
+              type: array
+              items:
+                type: string
+                enum:
+                  - FIRST
+                  - SECOND
+                  - THIRD
+        property3:
+          $ref: "#/components/schemas/RefSchema"
+          description: Override description in $ref schema
+2026-11-03T19:41:59.397 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T19:41:59.398 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: [abc]
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:59.399 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: [a-z]
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:59.399 INFO org.openapitools.codegen.OpenAPINormalizer [main] - Unset/Removed allOf after cleaning up allOf sub-schemas that are not yet supported.
+2026-11-03T19:41:59.399 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: {aBooleanCheck=class JsonSchema {
+                    class Schema {
+                        type: null
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                        patternProperties: null
+                        contains: null
+                        $id: null
+                        $anchor: null
+                        $schema: null
+                        $vocabulary: null
+                        $dynamicAnchor: null
+                        $dynamicRef: null
+                        const: false
+                        contentEncoding: null
+                        contentMediaType: null
+                        contentSchema: null
+                        propertyNames: null
+                        unevaluatedProperties: null
+                        maxContains: null
+                        minContains: null
+                        additionalItems: null
+                        unevaluatedItems: null
+                        _if: null
+                        _else: null
+                        then: null
+                        dependentRequired: null
+                        dependentSchemas: null
+                        $comment: null
+                        prefixItems: null
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        _else: null
+        then: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [condition]
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:59.411 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: {aBooleanCheck=class JsonSchema {
+                    class Schema {
+                        type: null
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                        patternProperties: null
+                        contains: null
+                        $id: null
+                        $anchor: null
+                        $schema: null
+                        $vocabulary: null
+                        $dynamicAnchor: null
+                        $dynamicRef: null
+                        const: true
+                        contentEncoding: null
+                        contentMediaType: null
+                        contentSchema: null
+                        propertyNames: null
+                        unevaluatedProperties: null
+                        maxContains: null
+                        minContains: null
+                        additionalItems: null
+                        unevaluatedItems: null
+                        _if: null
+                        _else: null
+                        then: null
+                        dependentRequired: null
+                        dependentSchemas: null
+                        $comment: null
+                        prefixItems: null
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        _else: null
+        then: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [purpose]
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:59.412 INFO org.openapitools.codegen.OpenAPINormalizer [main] - Unset/Removed allOf after cleaning up allOf sub-schemas that are not yet supported.
+2026-11-03T19:41:59.579 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@377949f1] 1648514673
+2026-11-03T19:41:59.584 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:41:59.584 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:41:59.584 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:41:59.584 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:41:59.686 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@44e4cb76] 1873663990
+2026-11-03T19:41:59.686 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:41:59.686 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:41:59.686 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:41:59.686 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:41:59.701 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.0
+info:
+  version: 1.0.0
+  title: Example
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Dummy"
+components:
+  schemas:
+    RefSchema:
+      description: reference schema
+      properties:
+        id:
+          type: string
+    Dummy:
+      type: object
+      properties:
+        property1:
+          type: string
+          allOf:
+            - pattern: "[abc]"
+            - pattern: "[a-z]"
+        property2:
+          type: object
+          allOf:
+            - if:
+                properties:
+                  aBooleanCheck:
+                    const: false
+              then:
+                required:
+                  - condition
+            - if:
+                properties:
+                  aBooleanCheck:
+                    const: true
+              then:
+                required:
+                  - purpose
+          properties:
+            aBooleanCheck:
+              type: boolean
+            condition:
+              type: string
+            purpose:
+              type: array
+              items:
+                type: string
+                enum:
+                  - FIRST
+                  - SECOND
+                  - THIRD
+        property3:
+          $ref: "#/components/schemas/RefSchema"
+          description: Override description in $ref schema
+2026-11-03T19:41:59.754 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T19:41:59.755 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: [abc]
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:59.756 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: [a-z]
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:59.756 INFO org.openapitools.codegen.OpenAPINormalizer [main] - Unset/Removed allOf after cleaning up allOf sub-schemas that are not yet supported.
+2026-11-03T19:41:59.757 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: {aBooleanCheck=class JsonSchema {
+                    class Schema {
+                        type: null
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                        patternProperties: null
+                        contains: null
+                        $id: null
+                        $anchor: null
+                        $schema: null
+                        $vocabulary: null
+                        $dynamicAnchor: null
+                        $dynamicRef: null
+                        const: false
+                        contentEncoding: null
+                        contentMediaType: null
+                        contentSchema: null
+                        propertyNames: null
+                        unevaluatedProperties: null
+                        maxContains: null
+                        minContains: null
+                        additionalItems: null
+                        unevaluatedItems: null
+                        _if: null
+                        _else: null
+                        then: null
+                        dependentRequired: null
+                        dependentSchemas: null
+                        $comment: null
+                        prefixItems: null
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        _else: null
+        then: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [condition]
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:59.757 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - Removed allOf sub-schema that's not yet supported: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: {aBooleanCheck=class JsonSchema {
+                    class Schema {
+                        type: null
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: null
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                        patternProperties: null
+                        contains: null
+                        $id: null
+                        $anchor: null
+                        $schema: null
+                        $vocabulary: null
+                        $dynamicAnchor: null
+                        $dynamicRef: null
+                        const: true
+                        contentEncoding: null
+                        contentMediaType: null
+                        contentSchema: null
+                        propertyNames: null
+                        unevaluatedProperties: null
+                        maxContains: null
+                        minContains: null
+                        additionalItems: null
+                        unevaluatedItems: null
+                        _if: null
+                        _else: null
+                        then: null
+                        dependentRequired: null
+                        dependentSchemas: null
+                        $comment: null
+                        prefixItems: null
+                    }
+                }}
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        _else: null
+        then: class JsonSchema {
+            class Schema {
+                type: null
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: [purpose]
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+            }
+        }
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+    }
+}
+2026-11-03T19:41:59.758 INFO org.openapitools.codegen.OpenAPINormalizer [main] - Unset/Removed allOf after cleaning up allOf sub-schemas that are not yet supported.
+2026-11-03T19:41:59.812 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

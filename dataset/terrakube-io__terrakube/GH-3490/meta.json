@@ -1,0 +1,51 @@
+{
+ "project": "terrakube-io__terrakube",
+ "issue": "GH-3490",
+ "summary": "Executor discards all Terraform output when the process-stream drain fails (\"Failed to capture process output stream\")",
+ "fix_commit": "bae9d1d8170f0a64f202195982e7e324cafd806c",
+ "buggy_version": "bae9d1d817 with executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java reverted to bae9d1d817^",
+ "jdk": "25",
+ "module": "executor",
+ "tests": [
+  "TerraformExecutorServiceImplTest#planKeepsAlreadyStreamedOutputWhenTheClientFutureFails",
+  "TerraformExecutorServiceImplTest#planSurvivesAFailureRaisedFromInsideTheJsonLineConsumer"
+ ],
+ "faulty_lines": [
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:198",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:204",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:209",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:274",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:354",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:368",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:398",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:446",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:479",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:582",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:774",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:775",
+  "executor/src/main/java/io/terrakube/executor/service/terraform/TerraformExecutorServiceImpl.java:783"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 36,
+ "pairs_exported": 29,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 36,
+ "stable": true,
+ "runs": {
+  "TerraformExecutorServiceImplTest#planKeepsAlreadyStreamedOutputWhenTheClientFutureFails": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "TerraformExecutorServiceImplTest#planSurvivesAFailureRaisedFromInsideTheJsonLineConsumer": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

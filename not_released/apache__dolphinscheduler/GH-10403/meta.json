@@ -1,0 +1,35 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-10403",
+ "summary": "[Bug] [dolphinscheduler-spi] JSONUtils parse LocalDateTime error",
+ "fix_commit": "dafed572d17cd08dae1c1decf389f0dd4241fdf7",
+ "buggy_version": "dafed572d1 with dolphinscheduler-spi/src/main/java/org/apache/dolphinscheduler/spi/utils/JSONUtils.java reverted to dafed572d1^",
+ "jdk": "17",
+ "module": "dolphinscheduler-spi",
+ "tests": [
+  "JSONUtilsTest#stringToLocalDateTime"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-spi/src/main/java/org/apache/dolphinscheduler/spi/utils/JSONUtils.java:291",
+  "dolphinscheduler-spi/src/main/java/org/apache/dolphinscheduler/spi/utils/JSONUtils.java:292",
+  "dolphinscheduler-spi/src/main/java/org/apache/dolphinscheduler/spi/utils/JSONUtils.java:69",
+  "dolphinscheduler-spi/src/main/java/org/apache/dolphinscheduler/spi/utils/JSONUtils.java:70"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 13,
+ "pairs_exported": 1,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "JSONUtilsTest#stringToLocalDateTime": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

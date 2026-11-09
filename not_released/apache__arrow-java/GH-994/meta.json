@@ -1,0 +1,34 @@
+{
+ "project": "apache__arrow-java",
+ "issue": "GH-994",
+ "summary": "[FlightSQL][JDBC] NullPointerException in DatabaseMetadata methods when SqlInfo is unavailable",
+ "fix_commit": "bdec833fb69f945db9f3c767715c93d09214f2b5",
+ "buggy_version": "bdec833fb6 with flight/flight-sql-jdbc-core/src/main/java/org/apache/arrow/driver/jdbc/ArrowDatabaseMetadata.java reverted to bdec833fb6^",
+ "jdk": "17",
+ "module": "flight/flight-sql-jdbc-core",
+ "tests": [
+  "ArrowDatabaseMetadataTest#testEmptySqlInfo"
+ ],
+ "faulty_lines": [
+  "flight/flight-sql-jdbc-core/src/main/java/org/apache/arrow/driver/jdbc/ArrowDatabaseMetadata.java:777",
+  "flight/flight-sql-jdbc-core/src/main/java/org/apache/arrow/driver/jdbc/ArrowDatabaseMetadata.java:91",
+  "flight/flight-sql-jdbc-core/src/main/java/org/apache/arrow/driver/jdbc/ArrowDatabaseMetadata.java:92"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 12,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "ArrowDatabaseMetadataTest#testEmptySqlInfo": {
+   "threads": 16,
+   "log_threads": 3,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

@@ -1,0 +1,39 @@
+{
+ "project": "camunda-community-hub__spring-zeebe",
+ "issue": "GH-835",
+ "summary": "[Connectors] Issue when using SimpleAuthentication with Operate",
+ "fix_commit": "59874c8dea55a36fa06cab3003c73c167a7f75b8",
+ "buggy_version": "59874c8dea with camunda-sdk-java/java-common/src/main/java/io/camunda/common/auth/SimpleAuthentication.java reverted to 59874c8dea^",
+ "jdk": "17",
+ "module": "spring-boot-starter-camunda",
+ "tests": [
+  "AuthenticationConfigurationSimpleTest#shouldHaveOperateAuth",
+  "AuthenticationConfigurationSimpleTest#shouldHaveTasklistAuth"
+ ],
+ "faulty_lines": [
+  "camunda-sdk-java/java-common/src/main/java/io/camunda/common/auth/SimpleAuthentication.java:46"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 16,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "AuthenticationConfigurationSimpleTest#shouldHaveOperateAuth": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "AuthenticationConfigurationSimpleTest#shouldHaveTasklistAuth": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

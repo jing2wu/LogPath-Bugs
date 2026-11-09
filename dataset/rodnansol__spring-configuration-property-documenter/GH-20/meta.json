@@ -1,0 +1,34 @@
+{
+ "project": "rodnansol__spring-configuration-property-documenter",
+ "issue": "GH-20",
+ "summary": "Null Pointer Exception in the MetadataReader when a property group is not having any property",
+ "fix_commit": "bf33575b5c1d5bb20ba5d8ee0554cbaa7b12d8d8",
+ "buggy_version": "bf33575b5c with spring-configuration-property-documenter-core/src/main/java/org/rodnansol/core/generator/reader/MetadataReader.java, spring-configuration-property-documenter-core/src/main/java/org/rodnansol/core/generator/template/customization/HtmlTemplateCustomization.java reverted to bf33575b5c^",
+ "jdk": "17",
+ "module": "spring-configuration-property-documenter-core",
+ "tests": [
+  "MetadataReaderTest#readPropertiesAsPropertyGroupList_shouldReturnListOfPropertyGroup_whenInputIsGiven"
+ ],
+ "faulty_lines": [
+  "spring-configuration-property-documenter-core/src/main/java/org/rodnansol/core/generator/reader/MetadataReader.java:78",
+  "spring-configuration-property-documenter-core/src/main/java/org/rodnansol/core/generator/reader/MetadataReader.java:80",
+  "spring-configuration-property-documenter-core/src/main/java/org/rodnansol/core/generator/template/customization/HtmlTemplateCustomization.java:63"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 67,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 67,
+ "stable": true,
+ "runs": {
+  "MetadataReaderTest#readPropertiesAsPropertyGroupList_shouldReturnListOfPropertyGroup_whenInputIsGiven": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 6
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

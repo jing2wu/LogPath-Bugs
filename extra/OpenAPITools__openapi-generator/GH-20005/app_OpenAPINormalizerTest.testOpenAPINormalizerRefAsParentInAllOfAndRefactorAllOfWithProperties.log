@@ -1,0 +1,1645 @@
+2026-11-03T20:58:54.228 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T20:58:54.548 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 1108290830
+2026-11-03T20:58:54.548 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -949023812
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 844827845
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 1355880166
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1374878288
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -320709622
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -903772745
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -205718723
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1905129984
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -471341530
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 2067092469
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1052366254
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 1633585905
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -858465687
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1155755397
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 1824382927
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1216750956
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 1811921743
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1252071956
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 20032431
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 701875795
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1876605899
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1560166318
+2026-11-03T20:58:54.549 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 838920445
+2026-11-03T20:58:54.550 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -1225730670
+2026-11-03T20:58:54.550 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 347507312
+2026-11-03T20:58:54.550 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 1935546178
+2026-11-03T20:58:54.550 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] 1019370233
+2026-11-03T20:58:54.550 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1c32386d] -399138051
+2026-11-03T20:58:54.550 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:54.563 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:54.563 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:54.563 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:54.757 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -2101334279
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 136318375
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 1930170032
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -1853744943
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -289536101
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 764632565
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 181569442
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 879623464
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -819787797
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 614000657
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -1142532640
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 32975933
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -1576039204
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 226876500
+2026-11-03T20:58:54.758 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -70413210
+2026-11-03T20:58:54.759 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -1385242182
+2026-11-03T20:58:54.759 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -131408769
+2026-11-03T20:58:54.759 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -1397703366
+2026-11-03T20:58:54.760 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -166729769
+2026-11-03T20:58:54.760 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 1105374618
+2026-11-03T20:58:54.760 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 1787217982
+2026-11-03T20:58:54.760 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -791263712
+2026-11-03T20:58:54.760 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -474824131
+2026-11-03T20:58:54.760 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 1924262632
+2026-11-03T20:58:54.760 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -140388483
+2026-11-03T20:58:54.761 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 1432849499
+2026-11-03T20:58:54.761 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] -1274078931
+2026-11-03T20:58:54.761 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 2104712420
+2026-11-03T20:58:54.761 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@5ce33a58] 686204136
+2026-11-03T20:58:54.761 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:54.769 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:54.769 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:54.770 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:55.342 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@6075b2d3] 92906680
+2026-11-03T20:58:55.342 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:55.342 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:55.342 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:55.342 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:55.585 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Person"
+components:
+  schemas:
+    Person:
+      description: person using x-parent (abstract) to indicate it's a parent class
+      type: object
+      x-parent: "abstract"
+      properties:
+        $_type:
+          type: string
+        lastName:
+          type: string
+        firstName:
+          type: string
+    Adult:
+      description: A representation of an adult
+      allOf:
+      - $ref: '#/components/schemas/Person'
+      - type: object
+        properties:
+          children:
+            type: array
+            items:
+              $ref: "#/components/schemas/Child"
+    Child:
+      description: A representation of a child
+      allOf:
+      - type: object
+        properties:
+          age:
+            type: integer
+            format: int32
+      - $ref: '#/components/schemas/Person'
+    AnotherChild:
+      description: another child class that does NOT extend/inherit AnotherPerson
+      allOf:
+        - type: object
+          properties:
+            age:
+              type: integer
+              format: int32
+        - $ref: '#/components/schemas/AnotherPerson'
+    AnotherPerson:
+      description: person object without x-parent extension
+      type: object
+      allOf:
+        - properties:
+            $_type:
+              type: string
+            lastName:
+              type: string
+            firstName:
+              type: string
+        - $ref: '#/components/schemas/AnotherParent'
+    AnotherParent:
+      description: parent object without x-parent extension
+      type: object
+      properties:
+        isParent:
+          type: boolean
+        mum_or_dad:
+          type: string
+    allOfWithProperties:
+      description: parent object without x-parent extension
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/AnotherParent'
+      properties:
+        isParent:
+          type: boolean
+        mum_or_dad:
+          type: string
+      required:
+        - isParent
+    allOfWithSingleItem:
+      description: allOf with a single item
+      nullable: true
+      allOf:
+        - $ref: '#/components/schemas/AnotherParent'
+    Ancestor:
+      type: object
+      properties:
+        p1:
+          type: integer
+    Offspring:
+      properties:
+        p2:
+          type: string
+      allOf:
+        - $ref: '#/components/schemas/Ancestor'
+2026-11-03T20:58:55.918 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule REF_AS_PARENT_IN_ALLOF => true
+2026-11-03T20:58:55.918 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule REFACTOR_ALLOF_WITH_PROPERTIES_ONLY => true
+2026-11-03T20:58:55.922 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person using x-parent (abstract) to indicate it's a parent class
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {$_type=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, lastName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, firstName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:55.923 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person using x-parent (abstract) to indicate it's a parent class
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {$_type=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, lastName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, firstName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:55.925 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ComposedSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person object without x-parent extension
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:55.926 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: parent object without x-parent extension
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {isParent=class BooleanSchema {
+            class Schema {
+                type: boolean
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, mum_or_dad=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.055 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@6e829e50] 328634421
+2026-11-03T20:58:56.055 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:56.055 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:56.056 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:56.056 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:56.087 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@9687f55] -1367576262
+2026-11-03T20:58:56.087 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:56.087 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:56.087 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:56.087 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:56.092 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Person"
+components:
+  schemas:
+    Person:
+      description: person using x-parent (abstract) to indicate it's a parent class
+      type: object
+      x-parent: "abstract"
+      properties:
+        $_type:
+          type: string
+        lastName:
+          type: string
+        firstName:
+          type: string
+    Adult:
+      description: A representation of an adult
+      allOf:
+      - $ref: '#/components/schemas/Person'
+      - type: object
+        properties:
+          children:
+            type: array
+            items:
+              $ref: "#/components/schemas/Child"
+    Child:
+      description: A representation of a child
+      allOf:
+      - type: object
+        properties:
+          age:
+            type: integer
+            format: int32
+      - $ref: '#/components/schemas/Person'
+    AnotherChild:
+      description: another child class that does NOT extend/inherit AnotherPerson
+      allOf:
+        - type: object
+          properties:
+            age:
+              type: integer
+              format: int32
+        - $ref: '#/components/schemas/AnotherPerson'
+    AnotherPerson:
+      description: person object without x-parent extension
+      type: object
+      allOf:
+        - properties:
+            $_type:
+              type: string
+            lastName:
+              type: string
+            firstName:
+              type: string
+        - $ref: '#/components/schemas/AnotherParent'
+    AnotherParent:
+      description: parent object without x-parent extension
+      type: object
+      properties:
+        isParent:
+          type: boolean
+        mum_or_dad:
+          type: string
+    allOfWithProperties:
+      description: parent object without x-parent extension
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/AnotherParent'
+      properties:
+        isParent:
+          type: boolean
+        mum_or_dad:
+          type: string
+      required:
+        - isParent
+    allOfWithSingleItem:
+      description: allOf with a single item
+      nullable: true
+      allOf:
+        - $ref: '#/components/schemas/AnotherParent'
+    Ancestor:
+      type: object
+      properties:
+        p1:
+          type: integer
+    Offspring:
+      properties:
+        p2:
+          type: string
+      allOf:
+        - $ref: '#/components/schemas/Ancestor'
+2026-11-03T20:58:56.122 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule REF_AS_PARENT_IN_ALLOF => true
+2026-11-03T20:58:56.122 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule REFACTOR_ALLOF_WITH_PROPERTIES_ONLY => true
+2026-11-03T20:58:56.123 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person using x-parent (abstract) to indicate it's a parent class
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {$_type=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, lastName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, firstName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.124 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person using x-parent (abstract) to indicate it's a parent class
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {$_type=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, lastName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, firstName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.125 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ComposedSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person object without x-parent extension
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.126 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: parent object without x-parent extension
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {isParent=class BooleanSchema {
+            class Schema {
+                type: boolean
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, mum_or_dad=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.161 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@481b2f10] -315678475
+2026-11-03T20:58:56.161 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:56.161 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:56.161 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:56.161 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:56.184 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@7a083b96] 521940347
+2026-11-03T20:58:56.184 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:56.184 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:56.184 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:56.184 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:56.187 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: Example
+  license:
+    name: MIT
+servers:
+  - url: http://api.example.xyz/v1
+paths:
+  /person/display/{personId}:
+    get:
+      parameters:
+        - name: personId
+          in: path
+          required: true
+          description: The id of the person to retrieve
+          schema:
+            type: string
+      operationId: list
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Person"
+components:
+  schemas:
+    Person:
+      description: person using x-parent (abstract) to indicate it's a parent class
+      type: object
+      x-parent: "abstract"
+      properties:
+        $_type:
+          type: string
+        lastName:
+          type: string
+        firstName:
+          type: string
+    Adult:
+      description: A representation of an adult
+      allOf:
+      - $ref: '#/components/schemas/Person'
+      - type: object
+        properties:
+          children:
+            type: array
+            items:
+              $ref: "#/components/schemas/Child"
+    Child:
+      description: A representation of a child
+      allOf:
+      - type: object
+        properties:
+          age:
+            type: integer
+            format: int32
+      - $ref: '#/components/schemas/Person'
+    AnotherChild:
+      description: another child class that does NOT extend/inherit AnotherPerson
+      allOf:
+        - type: object
+          properties:
+            age:
+              type: integer
+              format: int32
+        - $ref: '#/components/schemas/AnotherPerson'
+    AnotherPerson:
+      description: person object without x-parent extension
+      type: object
+      allOf:
+        - properties:
+            $_type:
+              type: string
+            lastName:
+              type: string
+            firstName:
+              type: string
+        - $ref: '#/components/schemas/AnotherParent'
+    AnotherParent:
+      description: parent object without x-parent extension
+      type: object
+      properties:
+        isParent:
+          type: boolean
+        mum_or_dad:
+          type: string
+    allOfWithProperties:
+      description: parent object without x-parent extension
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/AnotherParent'
+      properties:
+        isParent:
+          type: boolean
+        mum_or_dad:
+          type: string
+      required:
+        - isParent
+    allOfWithSingleItem:
+      description: allOf with a single item
+      nullable: true
+      allOf:
+        - $ref: '#/components/schemas/AnotherParent'
+    Ancestor:
+      type: object
+      properties:
+        p1:
+          type: integer
+    Offspring:
+      properties:
+        p2:
+          type: string
+      allOf:
+        - $ref: '#/components/schemas/Ancestor'
+2026-11-03T20:58:56.199 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule REF_AS_PARENT_IN_ALLOF => true
+2026-11-03T20:58:56.199 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule REFACTOR_ALLOF_WITH_PROPERTIES_ONLY => true
+2026-11-03T20:58:56.200 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person using x-parent (abstract) to indicate it's a parent class
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {$_type=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, lastName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, firstName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.201 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person using x-parent (abstract) to indicate it's a parent class
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {$_type=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, lastName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, firstName=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.201 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ComposedSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: person object without x-parent extension
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.202 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processUseAllOfRefAsParent added `x-parent: true` to class ObjectSchema {
+    class Schema {
+        type: object
+        format: null
+        $ref: null
+        description: parent object without x-parent extension
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {isParent=class BooleanSchema {
+            class Schema {
+                type: boolean
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }, mum_or_dad=class StringSchema {
+            class Schema {
+                type: string
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:56.219 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

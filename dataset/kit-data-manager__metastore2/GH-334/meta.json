@@ -1,0 +1,61 @@
+{
+ "project": "kit-data-manager__metastore2",
+ "issue": "GH-334",
+ "summary": "Once a label set for a schema it can't be removed afterwards.",
+ "fix_commit": "34c419146b2d064655604b67829fd7d3fd20bbe8",
+ "buggy_version": "34c419146b with src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java reverted to 34c419146b^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "MetadataSchemaRecordUtilTest#testMergeRecords"
+ ],
+ "faulty_lines": [
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:566",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:567",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:880",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:918",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:919",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:920",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:921",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:922",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:923",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:925",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:926",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:927",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:928",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:929",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:932",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:933",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:934",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:935",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:936",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:937",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:939",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:944",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:951",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:969",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:970",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:971",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:972",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:973",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:974",
+  "src/main/java/edu/kit/datamanager/metastore2/util/MetadataSchemaRecordUtil.java:975"
+ ],
+ "covering_pairs": 5,
+ "shortest_covering_pair": 247,
+ "pairs_exported": 7,
+ "covering_pairs_printed": 5,
+ "shortest_covering_pair_printed": 247,
+ "stable": true,
+ "runs": {
+  "MetadataSchemaRecordUtilTest#testMergeRecords": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

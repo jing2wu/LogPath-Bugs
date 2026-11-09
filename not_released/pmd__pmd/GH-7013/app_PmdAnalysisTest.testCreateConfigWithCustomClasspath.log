@@ -1,0 +1,48 @@
+702 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+784 [main] TRACE net.sourceforge.pmd.lang.document.FileCollector - Adding file /home/user/log-dataset/logpath-bugs-work/workspace/rwork/pmd__pmd_x0/pmd-core/fname1.dummy (lang: dummy 1.7) 
+788 [main] TRACE net.sourceforge.pmd.PmdAnalysis - Using Dummy version ''dummy 1.7''
+896 [PmdThread 1] TRACE net.sourceforge.pmd.lang.impl.PmdRunnable - Processing file (lang: dummy+version:1.7): /home/user/log-dataset/logpath-bugs-work/workspace/rwork/pmd__pmd_x0/pmd-core/fname1.dummy
+1094 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1096 [main] ERROR net.sourceforge.pmd.PmdAnalysis - No such file sample-source/dummy
+1098 [main] WARN net.sourceforge.pmd.PmdAnalysis - No files to analyze. Check input paths and exclude parameters, use --debug to see file collection traces.
+1115 [main] WARN net.sourceforge.pmd.PmdAnalysis - This analysis could be faster, please consider using Incremental Analysis: https://docs.pmd-code.org/latest/pmd_userdocs_incremental_analysis.html
+1120 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1122 [main] TRACE net.sourceforge.pmd.lang.document.FileCollector - Adding file /home/user/log-dataset/logpath-bugs-work/workspace/rwork/pmd__pmd_x0/pmd-core/foo.txt (lang: dummy2 1.0) 
+1123 [main] TRACE net.sourceforge.pmd.PmdAnalysis - Using Dummy2 version ''dummy2 1.0''
+1131 [main] DEBUG net.sourceforge.pmd.PmdAnalysis - Using 16 threads for analysis
+1133 [PmdThread 1] TRACE net.sourceforge.pmd.lang.impl.PmdRunnable - Processing file (lang: dummy2+version:1.0): /home/user/log-dataset/logpath-bugs-work/workspace/rwork/pmd__pmd_x0/pmd-core/foo.txt
+1177 [main] WARN net.sourceforge.pmd.PmdAnalysis - Unsupported classloader for auxClasspath detected: jdk.internal.loader.ClassLoaders$AppClassLoader. Only java.net.URLClassLoader is supported.
+1178 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy))
+1191 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1198 [main] TRACE net.sourceforge.pmd.lang.document.FileCollector - Adding file /home/user/log-dataset/logpath-bugs-work/workspace/rwork/pmd__pmd_x0/pmd-core/src/test/resources/sample-source/dummy/foo.txt (lang: dummy2 1.0) 
+1199 [main] TRACE net.sourceforge.pmd.PmdAnalysis - Using Dummy2 version ''dummy2 1.0''
+1203 [main] DEBUG net.sourceforge.pmd.PmdAnalysis - Using 16 threads for analysis
+1206 [PmdThread 1] TRACE net.sourceforge.pmd.lang.impl.PmdRunnable - Processing file (lang: dummy2+version:1.0): /home/user/log-dataset/logpath-bugs-work/workspace/rwork/pmd__pmd_x0/pmd-core/src/test/resources/sample-source/dummy/foo.txt
+1213 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1222 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1228 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1360 [main] DEBUG net.sourceforge.pmd.lang.rule.RuleSetLoader - Rules loaded from rulesets/dummy/basic.xml:
+1360 [main] DEBUG net.sourceforge.pmd.lang.rule.RuleSetLoader - - DummyBasicMockRule (Dummy)
+1360 [main] DEBUG net.sourceforge.pmd.lang.rule.RuleSetLoader - - SampleXPathRule (Dummy)
+1360 [main] DEBUG net.sourceforge.pmd.lang.rule.RuleSetLoader - - DeprecatedRule (Dummy)
+1364 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1368 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1390 [main] DEBUG net.sourceforge.pmd.lang.rule.RuleSetLoader - Rules loaded from rulesets/dummy/basic.xml:
+1390 [main] DEBUG net.sourceforge.pmd.lang.rule.RuleSetLoader - - DummyBasicMockRule (Dummy)
+1390 [main] DEBUG net.sourceforge.pmd.lang.rule.RuleSetLoader - - SampleXPathRule (Dummy)
+1390 [main] DEBUG net.sourceforge.pmd.lang.rule.RuleSetLoader - - DeprecatedRule (Dummy)
+1392 [main] ERROR net.sourceforge.pmd.PmdAnalysis - Cannot load ruleset rulesets/xxxe/notaruleset.xml: Cannot resolve rule/ruleset reference 'rulesets/xxxe/notaruleset.xml'.  Make sure the resource is a valid file or URL and is on the CLASSPATH. Use --debug (or a fine log level) to see the current classpath.
+1394 [main] DEBUG net.sourceforge.pmd.PmdAnalysis - net.sourceforge.pmd.lang.rule.RuleSetLoadException: Cannot load ruleset rulesets/xxxe/notaruleset.xml: Cannot resolve rule/ruleset reference 'rulesets/xxxe/notaruleset.xml'.  Make sure the resource is a valid file or URL and is on the CLASSPATH. Use --debug (or a fine log level) to see the current classpath.
+1398 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect))
+1452 [main] DEBUG net.sourceforge.pmd.lang.document.FileCollector - Created new FileCollector with LanguageVersionDiscoverer(LanguageRegistry(dummy, dummy2, dummydialect),forcedVersion=dummy+version:parserThrows)
+1453 [main] TRACE net.sourceforge.pmd.lang.document.FileCollector - Adding file /home/user/log-dataset/logpath-bugs-work/workspace/rwork/pmd__pmd_x0/pmd-core/file (lang: dummy parserThrows) 
+1453 [main] TRACE net.sourceforge.pmd.PmdAnalysis - Using Dummy version ''dummy 1.7''
+1454 [main] WARN net.sourceforge.pmd.PmdAnalysis - This analysis could be faster, please consider using Incremental Analysis: https://docs.pmd-code.org/latest/pmd_userdocs_incremental_analysis.html
+1457 [main] DEBUG net.sourceforge.pmd.PmdAnalysis - Using 1 thread for analysis
+1458 [main] DEBUG net.sourceforge.pmd.PmdAnalysis - Using 1 thread for analysis
+1458 [PmdThread 1] TRACE net.sourceforge.pmd.lang.impl.PmdRunnable - Processing file (lang: dummy+version:parserThrows): /home/user/log-dataset/logpath-bugs-work/workspace/rwork/pmd__pmd_x0/pmd-core/file
+1462 [main] INFO net.sourceforge.pmd.PmdAnalysis - An error occurred while executing PMD.
+Run in verbose mode to see a stack-trace.
+If you think this is a bug in PMD, please report this issue at https://github.com/pmd/pmd/issues/new/choose
+If you do so, please include a stack-trace, the code sample
+ causing the issue, and details about your run configuration.

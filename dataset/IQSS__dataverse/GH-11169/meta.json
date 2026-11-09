@@ -1,0 +1,33 @@
+{
+ "project": "IQSS__dataverse",
+ "issue": "GH-11169",
+ "summary": "Shape files with upper upper case extensions are not re-zipped",
+ "fix_commit": "040ba43f9562e88a306e9459250c9b16f0ddc811",
+ "buggy_version": "040ba43f95 with src/main/java/edu/harvard/iq/dataverse/util/ShapefileHandler.java reverted to 040ba43f95^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "ShapefileHandlerTest#testZippedTwoShapefiles"
+ ],
+ "faulty_lines": [
+  "src/main/java/edu/harvard/iq/dataverse/util/ShapefileHandler.java:564",
+  "src/main/java/edu/harvard/iq/dataverse/util/ShapefileHandler.java:573"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 17,
+ "pairs_exported": 10,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 17,
+ "stable": true,
+ "runs": {
+  "ShapefileHandlerTest#testZippedTwoShapefiles": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,37 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-24854",
+ "summary": "[BUG] [cpp-httplib-server] Primitive and binary response types incorrectly generated as models",
+ "fix_commit": "67df0397c1612705d081b2f297ac0c5d9069638a",
+ "buggy_version": "67df0397c1 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/CppHttplibServerCodegen.java reverted to 67df0397c1^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "CppHttplibServerCodegenTest#testApiSourceUsesModelNamespaceWhenModelsAreUsed"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/CppHttplibServerCodegen.java:1043",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/CppHttplibServerCodegen.java:1044",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/CppHttplibServerCodegen.java:1045",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/CppHttplibServerCodegen.java:1046",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/CppHttplibServerCodegen.java:946",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/CppHttplibServerCodegen.java:947"
+ ],
+ "covering_pairs": 12,
+ "shortest_covering_pair": 219,
+ "pairs_exported": 321,
+ "covering_pairs_printed": 12,
+ "shortest_covering_pair_printed": 219,
+ "stable": true,
+ "runs": {
+  "CppHttplibServerCodegenTest#testApiSourceUsesModelNamespaceWhenModelsAreUsed": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

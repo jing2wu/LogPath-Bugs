@@ -1,0 +1,74 @@
+repository,category,kloc,stars,contributors,releases
+2E2I/mamomo-server,course or training project,2.8,5,2,1
+COS301-SE-2026/CloudSherpa,course or training project,29.5,6,7,0
+Eagle-Strike-7/stelligence-backend,course or training project,8.0,5,4,0
+Firmwehr/gentle,course or training project,18.8,5,5,0
+GoogleCloudPlatform/java-docs-samples,examples or demo application,110.1,1909,418,1
+IT-Academy-BCN/ita-challenges-backend,personal practice project,6.9,29,139,1
+Kernel360/f1-JDON-Backend,course or training project,11.6,5,5,0
+Kernel360/f1-Orury-Backend,course or training project,13.7,6,6,0
+Meatwo310/custom-mdk,project template,4.3,18,2,0
+NBC-finalProject/CS25-BE,course or training project,8.3,7,7,0
+OP-TED/eforms-notice-viewer,examples or demo application,1.8,14,8,16
+PROCOM-ERP/IMT-3A-PROCOM-ERP,examples or demo application,11.9,5,10,3
+ReLive27/spring-security-oauth2-sample,examples or demo application,9.7,240,3,4
+SOEN490-SportsApp/SportsApp,course or training project,8.5,11,11,10
+SasanLabs/VulnerableApp,test suite,14.3,474,99,17
+Studiofarma/Infolab,course or training project,3.9,5,14,3
+UQcsse3200/2023-studio-2,course or training project,24.0,10,56,1
+UruruLab/Ururu-Backend,course or training project,18.3,7,6,0
+activecourses/upwork-clone-backend,personal practice project,2.1,19,3,0
+alicanli1995/uber-api-saga-outbox-event-driven-microservices,personal practice project,7.5,16,1,0
+antfl/adminx-server,project template,5.7,8,3,0
+apache/accumulo-examples,examples or demo application,4.4,37,19,0
+apache/incubator-kie-examples,examples or demo application,8.5,298,116,13
+barsifedron/candid-cqrs,examples or demo application,3.7,39,5,0
+besscroft/pisces-cloud,course or training project,5.5,33,1,18
+beyond-sw-camp/be18-fin-FIVEGUYS-RIA-BE,course or training project,19.7,5,6,0
+cezarysanecki/parking-domain,personal practice project,5.3,17,2,0
+citerus/dddsample-core,examples or demo application,4.0,5293,41,0
+corebank-tech/corebank-server,course or training project,39.3,19,8,0
+edeandrea/non-deterministic-no-problem,examples or demo application,2.2,9,3,0
+emichael/dslabs,course or training project,1.9,1728,15,0
+f-lab-edu/Goods-For-You,course or training project,1.7,11,2,0
+f-lab-edu/dduikka,course or training project,2.6,8,3,0
+f-lab-edu/off-coupon,course or training project,3.5,60,1,0
+f-lab-edu/recipetory,course or training project,4.7,5,2,0
+hifly81/kafka-examples,examples or demo application,9.2,118,6,0
+huseynovvusal/spring-blog-api,personal practice project,2.8,49,32,0
+ilgolf/new_blog,personal practice project,3.2,23,2,0
+intershop/iom-blueprint-project,examples or demo application,5.5,5,9,12
+isopropylcyanide/Jwt-Spring-Security-JPA,examples or demo application,3.3,555,12,0
+jakartaee/persistence,test suite,153.6,271,32,7
+jakartaee/platform-tck,test suite,701.7,142,82,13
+kakao-tech-campus-2nd-step3/Team10_BE,course or training project,8.9,10,6,0
+kakao-tech-campus-2nd-step3/Team13_BE,course or training project,6.2,19,3,0
+kakao-tech-campus-2nd-step3/Team23_BE,course or training project,3.2,14,5,0
+keycloak/keycloak-quickstarts,examples or demo application,3.4,2368,63,0
+kodesalon/project,personal practice project,1.9,7,2,0
+micronaut-projects/micronaut-guides,examples or demo application,26.9,50,48,1
+nettee-space/backend-sample-multi-module,examples or demo application,5.7,11,7,0
+opengeospatial/ets-gpkg12,test suite,5.5,7,19,0
+opengeospatial/ets-ogcapi-features10,test suite,4.8,17,15,0
+opengeospatial/ets-wfs20,test suite,7.9,9,15,8
+prgrms-be-adv-devcourse/beadv4_4_Team201_BE,course or training project,22.8,5,5,13
+prgrms-be-adv-devcourse/beadv7_7_GrafanaOn_BE,course or training project,16.7,5,6,0
+prgrms-be-devcourse/BE-03-Prolog,course or training project,2.9,11,4,2
+prgrms-web-devcourse-final-project/WEB1_1_Bongdari_BE,course or training project,14.5,5,4,0
+prgrms-web-devcourse-final-project/WEB4_5_NOBREAKTIME_BE,course or training project,13.7,5,6,0
+prgrms-web-devcourse-final-project/WEB5_6_DOD_BE,course or training project,10.2,5,5,0
+prgrms-web-devcourse/Team-10jo-10wonmoa-BE,course or training project,4.4,9,5,1
+prgrms-web-devcourse/Team-6Jeans-Hype-BE,course or training project,3.7,8,3,0
+prgrms-web-devcourse/Team-DarkNight-Kkini-BE,course or training project,5.6,34,4,2
+prgrms-web-devcourse/Team-Gaerval-Dadok-BE,course or training project,9.1,9,3,0
+prgrms-web-devcourse/Team_i6_comepet_BE,course or training project,8.2,16,4,0
+qa-guru/niffler,course or training project,8.4,59,10,0
+quarkus-qe/quarkus-test-suite,test suite,39.6,17,35,0
+rajadilipkolli/spring-boot-microservices-series-v2,examples or demo application,12.0,59,17,0
+rchillyard/INFO6205,course or training project,15.2,46,8,0
+reactor/projectreactor.io,examples or demo application,1.2,55,34,0
+sermant-io/Sermant-examples,examples or demo application,3.4,14,12,7
+spring-petclinic/spring-petclinic-microservices,examples or demo application,1.4,2224,55,10
+unknowIfGuestInDream/javafxTool,project template,46.7,17,12,16
+websight-io/kyanite,examples or demo application,7.4,7,23,79
+woowa-techcamp-2024/Team7-ELEVEN,course or training project,3.3,7,4,1

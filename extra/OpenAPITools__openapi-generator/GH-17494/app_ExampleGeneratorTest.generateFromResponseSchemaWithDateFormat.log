@@ -1,0 +1,303 @@
+2026-11-03T19:27:59.294 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE ExampleGeneratorTest.generateFromResponseSchemaWithDateFormat()[pri:0, instance:org.openapitools.codegen.ExampleGeneratorTest@1255b1d1] -111123777
+2026-11-03T19:27:59.303 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:27:59.315 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:27:59.315 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:27:59.315 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:27:59.966 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [TestNG-test=Surefire test-1] - Loaded raw data: openapi: 3.0.2
+info:
+  version: 1.0.0
+  title: OpenAPI Petstore
+  license:
+    name: Apache-2.0
+paths:
+  /generate_from_response_schema_with_no_example:
+    get:
+      operationId: generateFromResponseSchemaWithNoExample
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: string
+  /generate_from_response_schema_with_primitive_type:
+    get:
+      operationId: generateFromResponseSchemaWithNoExample
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: string
+                example: primitive type example value
+  /generate_from_response_schema_with_date_format:
+    get:
+      operationId: generateFromResponseSchemaWithDateFormat
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DateSchema'
+  /generate_from_response_schema_with_array_of_model:
+    get:
+      operationId: generateFromResponseSchemaWithArrayOfModel
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/StringSchema'
+  /generate_from_response_schema_with_array_of_primitive_types:
+    get:
+      operationId: generateFromResponseSchemaWithArrayOfPrimitiveTypes
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+                  example: primitive types example value
+  /generate_from_response_schema_with_model:
+    get:
+      operationId: generateFromResponseSchemaWithModel
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExampleSchema'
+  /generate_from_response_schema_with_allOf_composed_model:
+    get:
+      operationId: generateFromResponseSchemaWithAllOfModel
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExampleAllOfSchema'
+  /generate_from_response_schema_with_anyOf_composed_model:
+    get:
+      operationId: generateFromResponseSchemaWithAnyOfModel
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExampleAnyOfSchema'
+  /generate_from_response_schema_with_oneOf_composed_model:
+    get:
+      operationId: generateFromResponseSchemaWithOneOfModel
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExampleOneOfSchema'
+components:
+  schemas:
+    DateSchema:
+      type: object
+      properties:
+        date_with_example:
+          type: string
+          format: date
+          example: 2024-01-01
+        date_without_example:
+          type: string
+          format: date
+    StringSchema:
+      type: string
+      example: string schema example value
+    ExampleSchema:
+      type: object
+      properties:
+        example_schema_property:
+          type: string
+          example: example schema property value
+    ExampleAllOfSchema:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/ExampleSchema'
+        - type: object
+          properties:
+            example_schema_property_composed:
+              type: string
+              example: example schema property value composed
+    ExampleAnyOfSchema:
+      type: object
+      anyOf:
+        - $ref: '#/components/schemas/ExampleSchema'
+        - type: object
+          properties:
+            example_schema_property_composed:
+              type: string
+              example: example schema property value composed
+    ExampleOneOfSchema:
+      type: object
+      oneOf:
+        - $ref: '#/components/schemas/ExampleSchema'
+        - type: object
+          properties:
+            example_schema_property_composed:
+              type: string
+              example: example schema property value composed
+2026-11-03T19:28:01.446 DEBUG org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: example schema property value composed
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:28:01.677 DEBUG org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline allOf schema ExampleAllOfSchema_allOf not refactored into a separate model using $ref.
+2026-11-03T19:28:01.724 INFO org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline schema created as ExampleAnyOfSchema_anyOf. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings ExampleAnyOfSchema_anyOf=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings ExampleAnyOfSchema_anyOf=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T19:28:01.748 DEBUG org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Schema not yet handled in model resolver: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: example schema property value composed
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:28:01.751 DEBUG org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline allOf schema ExampleAllOfSchema_allOf not refactored into a separate model using $ref.
+2026-11-03T19:28:01.835 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving model 'DateSchema' to example
+2026-11-03T19:28:01.835 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Creating example from model values
+2026-11-03T19:28:01.835 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving example for property class DateSchema {
+    class Schema {
+        type: string
+        format: date
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: Sun Dec 31 18:00:00 CST 2023
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}...
+2026-11-03T19:28:01.836 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Example set in openapi spec, returning example: 'Sun Dec 31 18:00:00 CST 2023'
+2026-11-03T19:28:01.836 DEBUG org.openapitools.codegen.examples.ExampleGenerator [TestNG-test=Surefire test-1] - Resolving example for property class DateSchema {
+    class Schema {
+        type: string
+        format: date
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}...
+2026-11-03T19:28:02.269 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE ExampleGeneratorTest.generateFromResponseSchemaWithDateFormat()[pri:0, instance:org.openapitools.codegen.ExampleGeneratorTest@1255b1d1] -111123777
+2026-11-03T19:28:02.272 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:28:02.272 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:28:02.272 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:28:02.272 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

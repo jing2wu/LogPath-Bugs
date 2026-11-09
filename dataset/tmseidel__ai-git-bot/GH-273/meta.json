@@ -1,0 +1,59 @@
+{
+ "project": "tmseidel__ai-git-bot",
+ "issue": "GH-273",
+ "summary": "fix(review): include current diff in bot follow-ups",
+ "fix_commit": "239c0ea94afc6a5c3b62bfa484579af495ca2664",
+ "buggy_version": "239c0ea94a with src/main/java/org/remus/giteabot/review/CodeReviewService.java reverted to 239c0ea94a^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "CodeReviewServiceTest#handleBotCommand_existingSessionIncludesLatestDiffButStoresOriginalComment",
+  "CodeReviewServiceTest#handleBotCommand_existingSessionStopsWhenLatestDiffFetchFails",
+  "CodeReviewServiceTest#handleBotCommand_existingSessionStopsWhenLatestDiffIsNull",
+  "CodeReviewServiceTest#handleBotCommand_existingSessionTruncatesLatestDiff"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:176",
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:179",
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:180",
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:188",
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:189",
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:194",
+  "src/main/java/org/remus/giteabot/review/CodeReviewService.java:251"
+ ],
+ "covering_pairs": 8,
+ "shortest_covering_pair": 5,
+ "pairs_exported": 16,
+ "covering_pairs_printed": 8,
+ "shortest_covering_pair_printed": 5,
+ "stable": true,
+ "runs": {
+  "CodeReviewServiceTest#handleBotCommand_existingSessionIncludesLatestDiffButStoresOriginalComment": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "CodeReviewServiceTest#handleBotCommand_existingSessionStopsWhenLatestDiffFetchFails": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "CodeReviewServiceTest#handleBotCommand_existingSessionStopsWhenLatestDiffIsNull": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "CodeReviewServiceTest#handleBotCommand_existingSessionTruncatesLatestDiff": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

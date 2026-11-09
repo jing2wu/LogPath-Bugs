@@ -1,0 +1,34 @@
+{
+ "project": "agentscope-ai__agentscope-java",
+ "issue": "GH-2366",
+ "summary": "[Bug]: Streaming: non-chunk chat.completion summary event (MiniMax-M3) doubles accumulated content, halting the agent",
+ "fix_commit": "1a1d3593a512d88b29b9381db4ba3fd5a607934b",
+ "buggy_version": "1a1d3593a5 with agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/main/java/io/agentscope/extensions/model/openai/OpenAIClient.java reverted to 1a1d3593a5^",
+ "jdk": "17",
+ "module": "agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai",
+ "tests": [
+  "MinimaxDoubledSummaryReplayTest#reasoningAndToolArgsNotDoubled"
+ ],
+ "faulty_lines": [
+  "agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/main/java/io/agentscope/extensions/model/openai/OpenAIClient.java:403",
+  "agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/main/java/io/agentscope/extensions/model/openai/OpenAIClient.java:426",
+  "agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-openai/src/main/java/io/agentscope/extensions/model/openai/OpenAIClient.java:427"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 218,
+ "pairs_exported": 12,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "MinimaxDoubledSummaryReplayTest#reasoningAndToolArgsNotDoubled": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

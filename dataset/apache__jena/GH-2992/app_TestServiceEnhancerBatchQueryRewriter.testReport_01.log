@@ -1,0 +1,26 @@
+2026-11-03T22:03:30.147 TRACE org.apache.jena.riot.system.stream.LocatorFile [main] - Not found: location-mapping.ttl
+2026-11-03T22:03:30.150 TRACE org.apache.jena.riot.system.stream.LocatorClassLoader [main] - Failed to open: location-mapping.ttl
+2026-11-03T22:03:30.150 TRACE org.apache.jena.riot.system.stream.LocatorFile [main] - Not found: location-mapping.rdf
+2026-11-03T22:03:30.150 TRACE org.apache.jena.riot.system.stream.LocatorClassLoader [main] - Failed to open: location-mapping.rdf
+2026-11-03T22:03:30.150 TRACE org.apache.jena.riot.system.stream.LocatorFile [main] - Not found: etc/location-mapping.rdf
+2026-11-03T22:03:30.150 TRACE org.apache.jena.riot.system.stream.LocatorClassLoader [main] - Failed to open: etc/location-mapping.rdf
+2026-11-03T22:03:30.150 TRACE org.apache.jena.riot.system.stream.LocatorFile [main] - Not found: etc/location-mapping.ttl
+2026-11-03T22:03:30.151 TRACE org.apache.jena.riot.system.stream.LocatorClassLoader [main] - Failed to open: etc/location-mapping.ttl
+2026-11-03T22:03:30.151 DEBUG org.apache.jena.riot.system.stream.JenaIOEnvironment [main] - Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+2026-11-03T22:03:31.022 DEBUG org.apache.jena.dboe.System [main] - System architecture: 64 bit
+2026-11-03T22:03:31.829 INFO org.apache.jena.sparql.service.enhancer.impl.BatchQueryRewriter [main] - Rewritten bulk query: SELECT  *
+WHERE
+  {   { ?COMPOUND  <http://bioinfo.uochb.cas.cz/rdf/v1.0/sachem#substructureSearch>  _:b0 .
+        _:b0      <http://bioinfo.uochb.cas.cz/rdf/v1.0/sachem#query>  "[He]"
+        BIND(0 AS ?idx)
+      }
+    UNION
+      {   { ?COMPOUND  <http://bioinfo.uochb.cas.cz/rdf/v1.0/sachem#substructureSearch>  _:b0 .
+            _:b0      <http://bioinfo.uochb.cas.cz/rdf/v1.0/sachem#query>  "[Ar]"
+            BIND(1 AS ?idx)
+          }
+        UNION
+          { BIND(1000000000 AS ?idx) }
+      }
+  }
+ORDER BY ASC(?idx)

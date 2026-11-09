@@ -1,0 +1,36 @@
+{
+ "project": "eclipse-rdf4j__rdf4j",
+ "issue": "GH-5310",
+ "summary": "Possible bug with aggregates and fts (solr) search.",
+ "fix_commit": "433cddc556b0bf0ca4efd133bf8bbaa0c63b4a1e",
+ "buggy_version": "433cddc556 with core/queryalgebra/evaluation/src/main/java/org/eclipse/rdf4j/query/algebra/evaluation/iterator/GroupIterator.java, core/queryalgebra/evaluation/src/main/java/org/eclipse/rdf4j/query/algebra/evaluation/optimizer/ConstantOptimizer.java reverted to 433cddc556^",
+ "jdk": "17",
+ "module": "core/queryalgebra/evaluation",
+ "tests": [
+  "ConstantOptimizerTest#testAllAggregateOptimizations"
+ ],
+ "faulty_lines": [
+  "core/queryalgebra/evaluation/src/main/java/org/eclipse/rdf4j/query/algebra/evaluation/iterator/GroupIterator.java:324",
+  "core/queryalgebra/evaluation/src/main/java/org/eclipse/rdf4j/query/algebra/evaluation/iterator/GroupIterator.java:325",
+  "core/queryalgebra/evaluation/src/main/java/org/eclipse/rdf4j/query/algebra/evaluation/iterator/GroupIterator.java:399",
+  "core/queryalgebra/evaluation/src/main/java/org/eclipse/rdf4j/query/algebra/evaluation/iterator/GroupIterator.java:400",
+  "core/queryalgebra/evaluation/src/main/java/org/eclipse/rdf4j/query/algebra/evaluation/optimizer/ConstantOptimizer.java:226"
+ ],
+ "covering_pairs": 10,
+ "shortest_covering_pair": 67,
+ "pairs_exported": 10,
+ "covering_pairs_printed": 10,
+ "shortest_covering_pair_printed": 67,
+ "stable": true,
+ "runs": {
+  "ConstantOptimizerTest#testAllAggregateOptimizations": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,2 @@
+2026-11-03T22:11:39.216 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

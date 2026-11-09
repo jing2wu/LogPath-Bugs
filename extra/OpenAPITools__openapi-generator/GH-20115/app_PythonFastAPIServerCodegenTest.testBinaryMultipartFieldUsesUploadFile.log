@@ -1,0 +1,1607 @@
+2026-11-03T19:44:20.280 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T19:44:21.006 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testToPythonExamplePrefersExampleOverExamples()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@62e93c3a] 1938922048
+2026-11-03T19:44:21.006 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@62e93c3a] -1113426233
+2026-11-03T19:44:21.006 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testToPythonExampleWithPluralExamples()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@62e93c3a] -950647727
+2026-11-03T19:44:21.006 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testContainerType()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@62e93c3a] 1309887076
+2026-11-03T19:44:21.006 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testRequestBodyExampleInBodyMetadata()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@62e93c3a] -754918116
+2026-11-03T19:44:21.007 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testSchemaPropertyExamplesInMetadata()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@62e93c3a] -1254872512
+2026-11-03T19:44:21.007 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:44:21.043 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:44:21.043 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:44:21.043 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:44:21.528 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testToPythonExamplePrefersExampleOverExamples()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@47c40b56] 1483499868
+2026-11-03T19:44:21.532 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@47c40b56] -1568848413
+2026-11-03T19:44:21.532 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testToPythonExampleWithPluralExamples()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@47c40b56] -1406069907
+2026-11-03T19:44:21.532 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testContainerType()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@47c40b56] 854464896
+2026-11-03T19:44:21.532 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testRequestBodyExampleInBodyMetadata()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@47c40b56] -1210340296
+2026-11-03T19:44:21.532 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testSchemaPropertyExamplesInMetadata()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@47c40b56] -1710294692
+2026-11-03T19:44:21.532 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:44:21.534 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:44:21.535 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:44:21.535 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:44:22.669 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@2accaec2] -2054821553
+2026-11-03T19:44:22.680 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:44:22.680 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:44:22.680 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:44:22.680 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:44:24.090 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: Issue 20115 reproducer
+  version: 1.0.0
+paths:
+  /upload:
+    post:
+      operationId: uploadCsv
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                csv_file:
+                  type: string
+                  format: binary
+                  description: The CSV file to upload
+                collection_name:
+                  type: string
+                  description: Name of the collection
+              required:
+                - csv_file
+                - collection_name
+      responses:
+        '200':
+          description: OK
+  /upload-optional:
+    post:
+      operationId: uploadOptional
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                image:
+                  type: string
+                  format: binary
+                  description: Optional image upload
+      responses:
+        '200':
+          description: OK
+2026-11-03T19:44:25.125 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:44:25.206 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T19:44:25.210 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: python-fastapi (server)
+2026-11-03T19:44:25.210 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'python-fastapi' is considered beta.
+2026-11-03T19:44:25.243 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Environment variable PYTHON_POST_PROCESS_FILE not defined so the Python code may not be properly formatted. To define it, try 'export PYTHON_POST_PROCESS_FILE="/usr/local/bin/yapf -i"' (Linux/Mac)
+2026-11-03T19:44:25.244 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T19:44:25.244 INFO org.openapitools.codegen.languages.PythonFastAPIServerCodegen [main] - Skipping sorting of path operations, order matters, let the developer decide via their specification file.
+2026-11-03T19:44:25.901 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as uploadCsv_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings uploadCsv_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings uploadCsv_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T19:44:25.909 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as uploadOptional_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings uploadOptional_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings uploadOptional_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T19:44:25.976 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:26.038 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:26.059 INFO org.openapitools.codegen.DefaultGenerator [main] - Model uploadOptional_request not generated since it's marked as unused (due to form parameters) and `skipFormModel` (global property) set to true (default)
+2026-11-03T19:44:26.059 INFO org.openapitools.codegen.DefaultGenerator [main] - Model uploadCsv_request not generated since it's marked as unused (due to form parameters) and `skipFormModel` (global property) set to true (default)
+2026-11-03T19:44:26.079 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: uploadCsv
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class Schema {
+                    type: null
+                    format: null
+                    $ref: #/components/schemas/uploadCsv_request
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: true
+    }
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:44:26.671 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class Schema {
+                type: null
+                format: null
+                $ref: #/components/schemas/uploadCsv_request
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: true
+}
+2026-11-03T19:44:26.675 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty csv_file: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: The CSV file to upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:26.679 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for csv_file: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: The CSV file to upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:26.801 WARN org.openapitools.codegen.utils.ModelUtils [main] - Failed to get the schema name: null
+2026-11-03T19:44:26.801 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='csv_file', complexType='null', getter='getCsvFile', setter='setCsvFile', description='The CSV file to upload', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='csv_file', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.csv_file;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='The CSV file to upload', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "description" : "The CSV file to upload",
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='csvFile', nameInPascalCase='CsvFile', nameInSnakeCase='CSV_FILE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T19:44:26.818 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty collection_name: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Name of the collection
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:26.818 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for collection_name: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Name of the collection
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:26.839 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='collection_name', complexType='null', getter='getCollectionName', setter='setCollectionName', description='Name of the collection', dataType='str', datatypeWithEnum='str', dataFormat='null', name='collection_name', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.collection_name;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Name of the collection', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "description" : "Name of the collection",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='collectionName', nameInPascalCase='CollectionName', nameInSnakeCase='COLLECTION_NAME', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:44:26.859 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: uploadOptional
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class Schema {
+                    type: null
+                    format: null
+                    $ref: #/components/schemas/uploadOptional_request
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: null
+    }
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:44:26.868 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class Schema {
+                type: null
+                format: null
+                $ref: #/components/schemas/uploadOptional_request
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: null
+}
+2026-11-03T19:44:26.868 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty image: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: Optional image upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:26.872 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for image: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: Optional image upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:26.886 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='image', complexType='null', getter='getImage', setter='setImage', description='Optional image upload', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='image', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.image;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Optional image upload', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "description" : "Optional image upload",
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='image', nameInPascalCase='Image', nameInSnakeCase='IMAGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T19:44:26.981 WARN org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Codegen property is null (e.g. map/dict of undefined type). Default to typing.Any.
+2026-11-03T19:44:26.982 WARN org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Codegen property is null (e.g. map/dict of undefined type). Default to typing.Any.
+2026-11-03T19:44:26.984 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:27.162 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/src/openapi_server/apis/default_api.py
+2026-11-03T19:44:27.172 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/src/openapi_server/apis/default_api_base.py
+2026-11-03T19:44:27.202 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/tests/test_default_api.py
+2026-11-03T19:44:27.211 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:27.458 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/README.md
+2026-11-03T19:44:27.459 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/openapi.yaml
+2026-11-03T19:44:27.462 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/src/openapi_server/main.py
+2026-11-03T19:44:27.463 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/docker-compose.yaml
+2026-11-03T19:44:27.468 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/Dockerfile
+2026-11-03T19:44:27.474 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/requirements.txt
+2026-11-03T19:44:27.480 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/src/openapi_server/security_api.py
+2026-11-03T19:44:27.486 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/src/openapi_server/models/extra_models.py
+2026-11-03T19:44:27.487 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/src/openapi_server/models/__init__.py
+2026-11-03T19:44:27.491 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/src/openapi_server/apis/__init__.py
+2026-11-03T19:44:27.493 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/src/openapi_server/impl/__init__.py
+2026-11-03T19:44:27.494 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/tests/conftest.py
+2026-11-03T19:44:27.496 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/.gitignore
+2026-11-03T19:44:27.498 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/pyproject.toml
+2026-11-03T19:44:27.501 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/setup.cfg
+2026-11-03T19:44:27.504 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/.flake8
+2026-11-03T19:44:27.529 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/.openapi-generator-ignore
+2026-11-03T19:44:27.531 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/.openapi-generator/VERSION
+2026-11-03T19:44:27.552 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17380573737254533584/.openapi-generator/FILES
+2026-11-03T19:44:27.820 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@15d0f2a3] 1888103728
+2026-11-03T19:44:27.821 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:44:27.821 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:44:27.821 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:44:27.821 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:44:27.870 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@5581e273] -1338303232
+2026-11-03T19:44:27.882 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:44:27.883 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:44:27.883 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:44:27.883 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:44:27.914 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: Issue 20115 reproducer
+  version: 1.0.0
+paths:
+  /upload:
+    post:
+      operationId: uploadCsv
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                csv_file:
+                  type: string
+                  format: binary
+                  description: The CSV file to upload
+                collection_name:
+                  type: string
+                  description: Name of the collection
+              required:
+                - csv_file
+                - collection_name
+      responses:
+        '200':
+          description: OK
+  /upload-optional:
+    post:
+      operationId: uploadOptional
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                image:
+                  type: string
+                  format: binary
+                  description: Optional image upload
+      responses:
+        '200':
+          description: OK
+2026-11-03T19:44:27.935 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:44:27.935 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T19:44:27.935 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: python-fastapi (server)
+2026-11-03T19:44:27.936 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'python-fastapi' is considered beta.
+2026-11-03T19:44:27.936 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Environment variable PYTHON_POST_PROCESS_FILE not defined so the Python code may not be properly formatted. To define it, try 'export PYTHON_POST_PROCESS_FILE="/usr/local/bin/yapf -i"' (Linux/Mac)
+2026-11-03T19:44:27.940 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T19:44:27.940 INFO org.openapitools.codegen.languages.PythonFastAPIServerCodegen [main] - Skipping sorting of path operations, order matters, let the developer decide via their specification file.
+2026-11-03T19:44:27.944 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as uploadCsv_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings uploadCsv_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings uploadCsv_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T19:44:27.948 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as uploadOptional_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings uploadOptional_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings uploadOptional_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T19:44:27.949 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:27.950 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:27.952 INFO org.openapitools.codegen.DefaultGenerator [main] - Model uploadOptional_request not generated since it's marked as unused (due to form parameters) and `skipFormModel` (global property) set to true (default)
+2026-11-03T19:44:27.953 INFO org.openapitools.codegen.DefaultGenerator [main] - Model uploadCsv_request not generated since it's marked as unused (due to form parameters) and `skipFormModel` (global property) set to true (default)
+2026-11-03T19:44:27.953 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: uploadCsv
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class Schema {
+                    type: null
+                    format: null
+                    $ref: #/components/schemas/uploadCsv_request
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: true
+    }
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:44:27.954 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class Schema {
+                type: null
+                format: null
+                $ref: #/components/schemas/uploadCsv_request
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: true
+}
+2026-11-03T19:44:27.958 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty csv_file: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: The CSV file to upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:27.958 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for csv_file: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: The CSV file to upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:27.968 WARN org.openapitools.codegen.utils.ModelUtils [main] - Failed to get the schema name: null
+2026-11-03T19:44:27.968 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='csv_file', complexType='null', getter='getCsvFile', setter='setCsvFile', description='The CSV file to upload', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='csv_file', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.csv_file;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='The CSV file to upload', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "description" : "The CSV file to upload",
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='csvFile', nameInPascalCase='CsvFile', nameInSnakeCase='CSV_FILE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T19:44:27.972 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty collection_name: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Name of the collection
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:27.972 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for collection_name: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Name of the collection
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:27.977 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='collection_name', complexType='null', getter='getCollectionName', setter='setCollectionName', description='Name of the collection', dataType='str', datatypeWithEnum='str', dataFormat='null', name='collection_name', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.collection_name;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Name of the collection', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "description" : "Name of the collection",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='collectionName', nameInPascalCase='CollectionName', nameInSnakeCase='COLLECTION_NAME', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:44:27.992 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: uploadOptional
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class Schema {
+                    type: null
+                    format: null
+                    $ref: #/components/schemas/uploadOptional_request
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: null
+    }
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:44:27.999 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class Schema {
+                type: null
+                format: null
+                $ref: #/components/schemas/uploadOptional_request
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: null
+}
+2026-11-03T19:44:28.000 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty image: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: Optional image upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:28.000 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for image: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: Optional image upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:28.004 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='image', complexType='null', getter='getImage', setter='setImage', description='Optional image upload', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='image', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.image;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Optional image upload', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "description" : "Optional image upload",
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='image', nameInPascalCase='Image', nameInSnakeCase='IMAGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T19:44:28.012 WARN org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Codegen property is null (e.g. map/dict of undefined type). Default to typing.Any.
+2026-11-03T19:44:28.013 WARN org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Codegen property is null (e.g. map/dict of undefined type). Default to typing.Any.
+2026-11-03T19:44:28.016 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:28.046 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/src/openapi_server/apis/default_api.py
+2026-11-03T19:44:28.054 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/src/openapi_server/apis/default_api_base.py
+2026-11-03T19:44:28.065 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/tests/test_default_api.py
+2026-11-03T19:44:28.066 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:28.160 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/README.md
+2026-11-03T19:44:28.165 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/openapi.yaml
+2026-11-03T19:44:28.174 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/src/openapi_server/main.py
+2026-11-03T19:44:28.176 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/docker-compose.yaml
+2026-11-03T19:44:28.181 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/Dockerfile
+2026-11-03T19:44:28.183 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/requirements.txt
+2026-11-03T19:44:28.193 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/src/openapi_server/security_api.py
+2026-11-03T19:44:28.197 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/src/openapi_server/models/extra_models.py
+2026-11-03T19:44:28.205 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/src/openapi_server/models/__init__.py
+2026-11-03T19:44:28.206 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/src/openapi_server/apis/__init__.py
+2026-11-03T19:44:28.208 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/src/openapi_server/impl/__init__.py
+2026-11-03T19:44:28.209 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/tests/conftest.py
+2026-11-03T19:44:28.215 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/.gitignore
+2026-11-03T19:44:28.223 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/pyproject.toml
+2026-11-03T19:44:28.225 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/setup.cfg
+2026-11-03T19:44:28.237 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/.flake8
+2026-11-03T19:44:28.240 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/.openapi-generator-ignore
+2026-11-03T19:44:28.240 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/.openapi-generator/VERSION
+2026-11-03T19:44:28.244 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test2296092376937210318/.openapi-generator/FILES
+2026-11-03T19:44:28.349 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@7d569c10] -670050659
+2026-11-03T19:44:28.359 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:44:28.359 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:44:28.359 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:44:28.359 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:44:28.437 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE PythonFastAPIServerCodegenTest.testBinaryMultipartFieldUsesUploadFile()[pri:0, instance:org.openapitools.codegen.python.PythonFastAPIServerCodegenTest@10ef09e3] 1806189680
+2026-11-03T19:44:28.445 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:44:28.445 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:44:28.445 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:44:28.445 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:44:28.461 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: Issue 20115 reproducer
+  version: 1.0.0
+paths:
+  /upload:
+    post:
+      operationId: uploadCsv
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                csv_file:
+                  type: string
+                  format: binary
+                  description: The CSV file to upload
+                collection_name:
+                  type: string
+                  description: Name of the collection
+              required:
+                - csv_file
+                - collection_name
+      responses:
+        '200':
+          description: OK
+  /upload-optional:
+    post:
+      operationId: uploadOptional
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                image:
+                  type: string
+                  format: binary
+                  description: Optional image upload
+      responses:
+        '200':
+          description: OK
+2026-11-03T19:44:28.493 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:44:28.496 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T19:44:28.496 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: python-fastapi (server)
+2026-11-03T19:44:28.496 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'python-fastapi' is considered beta.
+2026-11-03T19:44:28.497 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Environment variable PYTHON_POST_PROCESS_FILE not defined so the Python code may not be properly formatted. To define it, try 'export PYTHON_POST_PROCESS_FILE="/usr/local/bin/yapf -i"' (Linux/Mac)
+2026-11-03T19:44:28.497 INFO org.openapitools.codegen.languages.AbstractPythonCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T19:44:28.497 INFO org.openapitools.codegen.languages.PythonFastAPIServerCodegen [main] - Skipping sorting of path operations, order matters, let the developer decide via their specification file.
+2026-11-03T19:44:28.503 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as uploadCsv_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings uploadCsv_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings uploadCsv_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T19:44:28.504 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as uploadOptional_request. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings uploadOptional_request=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings uploadOptional_request=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T19:44:28.506 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:28.507 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:28.509 INFO org.openapitools.codegen.DefaultGenerator [main] - Model uploadOptional_request not generated since it's marked as unused (due to form parameters) and `skipFormModel` (global property) set to true (default)
+2026-11-03T19:44:28.509 INFO org.openapitools.codegen.DefaultGenerator [main] - Model uploadCsv_request not generated since it's marked as unused (due to form parameters) and `skipFormModel` (global property) set to true (default)
+2026-11-03T19:44:28.509 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: uploadCsv
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class Schema {
+                    type: null
+                    format: null
+                    $ref: #/components/schemas/uploadCsv_request
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: true
+    }
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:44:28.511 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class Schema {
+                type: null
+                format: null
+                $ref: #/components/schemas/uploadCsv_request
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: true
+}
+2026-11-03T19:44:28.514 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty csv_file: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: The CSV file to upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:28.514 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for csv_file: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: The CSV file to upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:28.517 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='csv_file', complexType='null', getter='getCsvFile', setter='setCsvFile', description='The CSV file to upload', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='csv_file', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.csv_file;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='The CSV file to upload', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "description" : "The CSV file to upload",
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='csvFile', nameInPascalCase='CsvFile', nameInSnakeCase='CSV_FILE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T19:44:28.523 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty collection_name: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Name of the collection
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:28.523 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for collection_name: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: Name of the collection
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:28.529 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='collection_name', complexType='null', getter='getCollectionName', setter='setCollectionName', description='Name of the collection', dataType='str', datatypeWithEnum='str', dataFormat='null', name='collection_name', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.collection_name;', baseType='str', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Name of the collection', maxLength=null, minLength=null, pattern='null', example='''', jsonSchema='{
+  "description" : "Name of the collection",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='collectionName', nameInPascalCase='CollectionName', nameInSnakeCase='COLLECTION_NAME', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:44:28.534 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: uploadOptional
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class Schema {
+                    type: null
+                    format: null
+                    $ref: #/components/schemas/uploadOptional_request
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: null
+    }
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:44:28.538 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class Schema {
+                type: null
+                format: null
+                $ref: #/components/schemas/uploadOptional_request
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: null
+}
+2026-11-03T19:44:28.539 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty image: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: Optional image upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:28.541 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for image: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: Optional image upload
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:44:28.543 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='image', complexType='null', getter='getImage', setter='setImage', description='Optional image upload', dataType='file', datatypeWithEnum='file', dataFormat='binary', name='image', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.image;', baseType='file', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='Optional image upload', maxLength=null, minLength=null, pattern='null', example='bytes(b'blah')', jsonSchema='{
+  "description" : "Optional image upload",
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='image', nameInPascalCase='Image', nameInSnakeCase='IMAGE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T19:44:28.553 WARN org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Codegen property is null (e.g. map/dict of undefined type). Default to typing.Any.
+2026-11-03T19:44:28.554 WARN org.openapitools.codegen.languages.AbstractPythonCodegen [main] - Codegen property is null (e.g. map/dict of undefined type). Default to typing.Any.
+2026-11-03T19:44:28.554 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:28.588 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/src/openapi_server/apis/default_api.py
+2026-11-03T19:44:28.600 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/src/openapi_server/apis/default_api_base.py
+2026-11-03T19:44:28.617 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/tests/test_default_api.py
+2026-11-03T19:44:28.619 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:44:28.707 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/README.md
+2026-11-03T19:44:28.708 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/openapi.yaml
+2026-11-03T19:44:28.715 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/src/openapi_server/main.py
+2026-11-03T19:44:28.716 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/docker-compose.yaml
+2026-11-03T19:44:28.723 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/Dockerfile
+2026-11-03T19:44:28.724 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/requirements.txt
+2026-11-03T19:44:28.734 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/src/openapi_server/security_api.py
+2026-11-03T19:44:28.735 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/src/openapi_server/models/extra_models.py
+2026-11-03T19:44:28.738 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/src/openapi_server/models/__init__.py
+2026-11-03T19:44:28.742 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/src/openapi_server/apis/__init__.py
+2026-11-03T19:44:28.743 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/src/openapi_server/impl/__init__.py
+2026-11-03T19:44:28.744 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/tests/conftest.py
+2026-11-03T19:44:28.756 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/.gitignore
+2026-11-03T19:44:28.763 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/pyproject.toml
+2026-11-03T19:44:28.765 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/setup.cfg
+2026-11-03T19:44:28.768 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/.flake8
+2026-11-03T19:44:28.769 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/.openapi-generator-ignore
+2026-11-03T19:44:28.771 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/.openapi-generator/VERSION
+2026-11-03T19:44:28.783 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test5454140506951516841/.openapi-generator/FILES
+2026-11-03T19:44:28.848 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

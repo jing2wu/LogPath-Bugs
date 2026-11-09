@@ -1,0 +1,149 @@
+2026-11-03T19:33:31.237 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T19:33:32.153 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testCustomNonLibraryTemplates()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 1510225880
+2026-11-03T19:33:32.153 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testBuiltinLibraryTemplates()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -813820751
+2026-11-03T19:33:32.153 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.dryRunWithModelsOnly()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 88063172
+2026-11-03T19:33:32.156 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.supportCustomTemplateEngine()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -1507803964
+2026-11-03T19:33:32.156 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testGenerateRecursiveDependentModelsIssue19220()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -1765042285
+2026-11-03T19:33:32.156 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testGenerateMultiLinePropertiesIssue19628()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 771489244
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testBuiltinNonLibraryTemplates()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -2120430170
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testRecursionBug4650()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -54546705
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testProcessUserDefinedTemplatesWithConfig()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -621154608
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsInServers()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -913871890
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testIgnoreFileProcessing()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 1456494045
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesTrailingSlashInServers()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -1813553459
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testGenerateRecursiveDependentModelsIssue18444()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -1763616130
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsWithSpecialChars()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -602527107
+2026-11-03T19:33:32.157 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testCustomLibraryTemplates()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -681469585
+2026-11-03T19:33:32.161 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.dryRunWithApisOnly()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 356671989
+2026-11-03T19:33:32.161 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.dryRunWithSupportFilesSelections()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 1918806555
+2026-11-03T19:33:32.161 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testNonStrictProcessPaths()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 647556749
+2026-11-03T19:33:32.161 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testProcessPaths()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 899184703
+2026-11-03T19:33:32.161 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testRefModelValidationProperties()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] 716718556
+2026-11-03T19:33:32.161 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testGenerateRecursiveDependentModelsBackwardCompatibilityIssue18444()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -1432247443
+2026-11-03T19:33:32.161 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testFilesAreNeverOverwritten()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5922ae77] -116285622
+2026-11-03T19:33:32.163 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:33:32.195 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:33:32.195 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:33:32.196 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:33:32.968 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testCustomNonLibraryTemplates()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 1548442990
+2026-11-03T19:33:32.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testBuiltinLibraryTemplates()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -775603641
+2026-11-03T19:33:32.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.dryRunWithModelsOnly()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 126280282
+2026-11-03T19:33:32.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.supportCustomTemplateEngine()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -1469586854
+2026-11-03T19:33:32.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testGenerateRecursiveDependentModelsIssue19220()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -1726825175
+2026-11-03T19:33:32.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testGenerateMultiLinePropertiesIssue19628()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 809706354
+2026-11-03T19:33:32.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testBuiltinNonLibraryTemplates()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -2082213060
+2026-11-03T19:33:32.969 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testRecursionBug4650()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -16329595
+2026-11-03T19:33:32.970 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testProcessUserDefinedTemplatesWithConfig()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -582937498
+2026-11-03T19:33:32.978 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsInServers()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -875654780
+2026-11-03T19:33:32.978 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testIgnoreFileProcessing()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 1494711155
+2026-11-03T19:33:32.978 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesTrailingSlashInServers()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -1775336349
+2026-11-03T19:33:32.978 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testGenerateRecursiveDependentModelsIssue18444()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -1725399020
+2026-11-03T19:33:32.978 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsWithSpecialChars()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -564309997
+2026-11-03T19:33:32.978 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testCustomLibraryTemplates()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -643252475
+2026-11-03T19:33:32.979 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.dryRunWithApisOnly()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 394889099
+2026-11-03T19:33:32.979 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.dryRunWithSupportFilesSelections()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 1957023665
+2026-11-03T19:33:32.979 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testNonStrictProcessPaths()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 685773859
+2026-11-03T19:33:32.979 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testProcessPaths()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 937401813
+2026-11-03T19:33:32.979 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testRefModelValidationProperties()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] 754935666
+2026-11-03T19:33:32.979 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testGenerateRecursiveDependentModelsBackwardCompatibilityIssue18444()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -1394030333
+2026-11-03T19:33:32.979 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testFilesAreNeverOverwritten()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@5b69d40d] -78068512
+2026-11-03T19:33:32.979 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:33:32.993 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:33:32.993 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:33:32.993 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:33:34.516 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsWithSpecialChars()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@23382f76] -1507087492
+2026-11-03T19:33:34.522 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:33:34.522 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:33:34.525 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:33:34.525 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:33:35.503 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: OpenAPI Petstore
+  description: "sample spec"
+  license:
+    name: Apache-2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+  - url: /api-v3
+tags: []
+paths: {}
+components:
+  schemas: {}
+  securitySchemes: {}
+2026-11-03T19:33:38.387 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:33:38.447 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - Output directory () does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.
+2026-11-03T19:33:38.753 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:38.819 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:38.832 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:38.833 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:38.839 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:38.839 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:39.254 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsWithSpecialChars()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@41abee65] -996185493
+2026-11-03T19:33:39.256 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:33:39.257 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:33:39.257 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:33:39.257 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:33:39.338 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsWithSpecialChars()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@f837c11] -1837697001
+2026-11-03T19:33:39.338 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:33:39.338 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:33:39.338 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:33:39.338 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:33:39.370 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: OpenAPI Petstore
+  description: "sample spec"
+  license:
+    name: Apache-2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+  - url: /api-v3
+tags: []
+paths: {}
+components:
+  schemas: {}
+  securitySchemes: {}
+2026-11-03T19:33:39.394 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:33:39.394 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - Output directory () does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.
+2026-11-03T19:33:39.400 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:39.404 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:39.404 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:39.405 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:39.405 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:39.405 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:39.554 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsWithSpecialChars()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@184bb873] -1690356615
+2026-11-03T19:33:39.554 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:33:39.554 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:33:39.554 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:33:39.554 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:33:39.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultGeneratorTest.testHandlesRelativeUrlsWithSpecialChars()[pri:0, instance:org.openapitools.codegen.DefaultGeneratorTest@1f8d42d1] -1568620841
+2026-11-03T19:33:39.614 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:33:39.614 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:33:39.614 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:33:39.614 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:33:39.635 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.1
+info:
+  title: OpenAPI Petstore
+  description: "sample spec"
+  license:
+    name: Apache-2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+  - url: /api-v3
+tags: []
+paths: {}
+components:
+  schemas: {}
+  securitySchemes: {}
+2026-11-03T19:33:39.665 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T19:33:39.666 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - Output directory () does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.
+2026-11-03T19:33:39.677 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:39.677 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:39.678 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:39.678 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:39.679 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/api-v3]
+2026-11-03T19:33:39.679 WARN org.openapitools.codegen.DefaultCodegen [main] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T19:33:39.734 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

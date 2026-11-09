@@ -1,0 +1,52 @@
+{
+ "project": "InseeFr__sugoi-api",
+ "issue": "GH-536",
+ "summary": ":bug: Unable to erase a field",
+ "fix_commit": "def2fed2581f488b37246e53e77eff1ac89a99ad",
+ "buggy_version": "def2fed258 with sugoi-api-core/src/main/java/fr/insee/sugoi/core/service/impl/UserServiceImpl.java, sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java, sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/mapper/GenericLdapMapper.java reverted to def2fed258^",
+ "jdk": "17",
+ "module": "sugoi-api-ldap-store-provider",
+ "tests": [
+  "LdapWriterStoreTest#testUpdateUserWithEmptyValue"
+ ],
+ "faulty_lines": [
+  "sugoi-api-core/src/main/java/fr/insee/sugoi/core/service/impl/UserServiceImpl.java:170",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:117",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:122",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:123",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:124",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:125",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:126",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:127",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:128",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:129",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:130",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:131",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:132",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:133",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:135",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/LdapUtils.java:136",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/mapper/GenericLdapMapper.java:225",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/mapper/GenericLdapMapper.java:226",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/mapper/GenericLdapMapper.java:227",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/mapper/GenericLdapMapper.java:228",
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/mapper/GenericLdapMapper.java:229"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 143,
+ "pairs_exported": 10,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 143,
+ "stable": true,
+ "runs": {
+  "LdapWriterStoreTest#testUpdateUserWithEmptyValue": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

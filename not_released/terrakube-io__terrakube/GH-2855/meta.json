@@ -1,0 +1,34 @@
+{
+ "project": "terrakube-io__terrakube",
+ "issue": "GH-2855",
+ "summary": "Cannot create a GitLab webhook",
+ "fix_commit": "355fe119c5376a1fa7485dddcccd409a04bcb4a4",
+ "buggy_version": "355fe119c5 with api/src/main/java/io/terrakube/api/plugin/vcs/provider/gitlab/GitLabWebhookService.java reverted to 355fe119c5^",
+ "jdk": "25",
+ "module": "api",
+ "tests": [
+  "VcsGitlabTests#gitlabDirectLookup"
+ ],
+ "faulty_lines": [
+  "api/src/main/java/io/terrakube/api/plugin/vcs/provider/gitlab/GitLabWebhookService.java:403",
+  "api/src/main/java/io/terrakube/api/plugin/vcs/provider/gitlab/GitLabWebhookService.java:404",
+  "api/src/main/java/io/terrakube/api/plugin/vcs/provider/gitlab/GitLabWebhookService.java:553"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 19,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "VcsGitlabTests#gitlabDirectLookup": {
+   "threads": 13,
+   "log_threads": 11,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

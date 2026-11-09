@@ -1,0 +1,29 @@
+2026-11-03T22:29:00.408 DEBUG io.netty.util.internal.logging.InternalLoggerFactory [Test worker] - Using SLF4J as the default logging framework
+2026-11-03T22:29:00.411 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - -Dio.netty.noUnsafe: false
+2026-11-03T22:29:00.411 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - Java version: 21
+2026-11-03T22:29:00.411 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - sun.misc.Unsafe.theUnsafe: available
+2026-11-03T22:29:00.412 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - sun.misc.Unsafe.copyMemory: available
+2026-11-03T22:29:00.412 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - sun.misc.Unsafe.storeFence: available
+2026-11-03T22:29:00.412 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - java.nio.Buffer.address: available
+2026-11-03T22:29:00.413 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+2026-11-03T22:29:00.415 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - java.nio.Bits.unaligned: available, true
+2026-11-03T22:29:00.415 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @986b619
+2026-11-03T22:29:00.416 DEBUG io.netty.util.internal.PlatformDependent0 [Test worker] - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2026-11-03T22:29:00.417 DEBUG io.netty.util.internal.PlatformDependent [Test worker] - sun.misc.Unsafe: available
+2026-11-03T22:29:00.417 DEBUG io.netty.util.internal.PlatformDependent [Test worker] - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2026-11-03T22:29:00.417 DEBUG io.netty.util.internal.PlatformDependent [Test worker] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2026-11-03T22:29:00.417 DEBUG io.netty.util.internal.PlatformDependent [Test worker] - -Dio.netty.maxDirectMemory: -1 bytes
+2026-11-03T22:29:00.417 DEBUG io.netty.util.internal.PlatformDependent [Test worker] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2026-11-03T22:29:00.418 DEBUG io.netty.util.internal.CleanerJava9 [Test worker] - java.nio.ByteBuffer.cleaner(): available
+2026-11-03T22:29:00.418 DEBUG io.netty.util.internal.PlatformDependent [Test worker] - -Dio.netty.noPreferDirect: false
+2026-11-03T22:29:00.430 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Found matching RoleBinding : RoleBinding(apiVersion=v1, kind=RoleBinding, metadata=ObjectMeta(name=null, namespace=namespace, cluster=null, labels=null, generation=0, creationTimestamp=null), spec=RoleBinding.RoleBindingSpec(role=RoleBinding.Role(resourceTypes=[topics], verbs=[GET]), subject=RoleBinding.Subject(subjectType=null, subjectName=group1)))
+2026-11-03T22:29:00.430 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Authorized user [user] on path [/api/namespaces/namespace/topics]
+2026-11-03T22:29:00.457 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Found matching RoleBinding : RoleBinding(apiVersion=v1, kind=RoleBinding, metadata=ObjectMeta(name=null, namespace=name-space, cluster=null, labels=null, generation=0, creationTimestamp=null), spec=RoleBinding.RoleBindingSpec(role=RoleBinding.Role(resourceTypes=[topics], verbs=[GET]), subject=RoleBinding.Subject(subjectType=null, subjectName=group1)))
+2026-11-03T22:29:00.457 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Authorized user [user] on path [/api/namespaces/name-space/topics]
+2026-11-03T22:29:00.464 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Invalid namespaced resource for path [/api/namespaces/name.space/topics]. Returning unknown.
+2026-11-03T22:29:00.478 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Found matching RoleBinding : RoleBinding(apiVersion=v1, kind=RoleBinding, metadata=ObjectMeta(name=null, namespace=_name_space_, cluster=null, labels=null, generation=0, creationTimestamp=null), spec=RoleBinding.RoleBindingSpec(role=RoleBinding.Role(resourceTypes=[topics], verbs=[GET]), subject=RoleBinding.Subject(subjectType=null, subjectName=group1)))
+2026-11-03T22:29:00.478 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Authorized user [user] on path [/api/namespaces/_name_space_/topics]
+2026-11-03T22:29:00.485 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Found matching RoleBinding : RoleBinding(apiVersion=v1, kind=RoleBinding, metadata=ObjectMeta(name=null, namespace=namespace123, cluster=null, labels=null, generation=0, creationTimestamp=null), spec=RoleBinding.RoleBindingSpec(role=RoleBinding.Role(resourceTypes=[topics], verbs=[GET]), subject=RoleBinding.Subject(subjectType=null, subjectName=group1)))
+2026-11-03T22:29:00.485 DEBUG com.michelin.ns4kafka.security.ResourceBasedSecurityRule [Test worker] - Authorized user [user] on path [/api/namespaces/namespace123/topics]

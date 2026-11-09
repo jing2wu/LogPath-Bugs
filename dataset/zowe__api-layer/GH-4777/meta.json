@@ -1,0 +1,37 @@
+{
+ "project": "zowe__api-layer",
+ "issue": "GH-4777",
+ "summary": "Peer node read timeout too short (15s) \u2014 causes cascading retry loop under load",
+ "fix_commit": "c7c1051bad5d72225e5b982184a1c12961574d8c",
+ "buggy_version": "c7c1051bad with apiml-common/src/main/java/org/zowe/apiml/product/eureka/client/ApimlPeerEurekaNode.java reverted to c7c1051bad^",
+ "jdk": "17",
+ "module": "apiml-common",
+ "tests": [
+  "ReplicationTaskProcessorTest#whenReadTimeoutRepeatedMultipleTimes_thenEscalatesToPermanentError"
+ ],
+ "faulty_lines": [
+  "apiml-common/src/main/java/org/zowe/apiml/product/eureka/client/ApimlPeerEurekaNode.java:345",
+  "apiml-common/src/main/java/org/zowe/apiml/product/eureka/client/ApimlPeerEurekaNode.java:367",
+  "apiml-common/src/main/java/org/zowe/apiml/product/eureka/client/ApimlPeerEurekaNode.java:421",
+  "apiml-common/src/main/java/org/zowe/apiml/product/eureka/client/ApimlPeerEurekaNode.java:423",
+  "apiml-common/src/main/java/org/zowe/apiml/product/eureka/client/ApimlPeerEurekaNode.java:458",
+  "apiml-common/src/main/java/org/zowe/apiml/product/eureka/client/ApimlPeerEurekaNode.java:460"
+ ],
+ "covering_pairs": 19,
+ "shortest_covering_pair": 19,
+ "pairs_exported": 21,
+ "covering_pairs_printed": 19,
+ "shortest_covering_pair_printed": 19,
+ "stable": true,
+ "runs": {
+  "ReplicationTaskProcessorTest#whenReadTimeoutRepeatedMultipleTimes_thenEscalatesToPermanentError": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

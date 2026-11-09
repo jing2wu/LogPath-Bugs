@@ -1,0 +1,38 @@
+{
+ "project": "drmacro__wordinator",
+ "issue": "GH-116",
+ "summary": "Is the documentation for page number formatting correct?",
+ "fix_commit": "15ca712f105a1b9d0618f05909d0bfc39f33a121",
+ "buggy_version": "15ca712f10 with src/main/java/org/wordinator/xml2docx/generator/DocxGenerator.java reverted to 15ca712f10^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "TestDocxGenerator#testPageNumberAllXsltFormats"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/wordinator/xml2docx/generator/DocxGenerator.java:1509",
+  "src/main/java/org/wordinator/xml2docx/generator/DocxGenerator.java:1513",
+  "src/main/java/org/wordinator/xml2docx/generator/DocxGenerator.java:1514",
+  "src/main/java/org/wordinator/xml2docx/generator/DocxGenerator.java:1517",
+  "src/main/java/org/wordinator/xml2docx/generator/DocxGenerator.java:1518",
+  "src/main/java/org/wordinator/xml2docx/generator/DocxGenerator.java:1522",
+  "src/main/java/org/wordinator/xml2docx/generator/DocxGenerator.java:1523"
+ ],
+ "covering_pairs": 11,
+ "shortest_covering_pair": 287,
+ "pairs_exported": 11,
+ "covering_pairs_printed": 11,
+ "shortest_covering_pair_printed": 287,
+ "stable": true,
+ "runs": {
+  "TestDocxGenerator#testPageNumberAllXsltFormats": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

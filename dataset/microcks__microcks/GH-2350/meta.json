@@ -1,0 +1,39 @@
+{
+ "project": "microcks__microcks",
+ "issue": "GH-2350",
+ "summary": "ExpressionParser: hasArgs compares argsStart with 1 instead of -1",
+ "fix_commit": "2f112b5fef60f6ba04972b69706fb57e681b7f80",
+ "buggy_version": "2f112b5fef with commons/util-el/src/main/java/io/github/microcks/util/el/ExpressionParser.java reverted to 2f112b5fef^",
+ "jdk": "25",
+ "module": "commons/util-el",
+ "tests": [
+  "ExpressionParserTest#testParseClosingParenWithoutOpeningParen",
+  "ExpressionParserTest#testParseFunctionWithSingleCharName"
+ ],
+ "faulty_lines": [
+  "commons/util-el/src/main/java/io/github/microcks/util/el/ExpressionParser.java:216"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 12,
+ "pairs_exported": 7,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 12,
+ "stable": true,
+ "runs": {
+  "ExpressionParserTest#testParseClosingParenWithoutOpeningParen": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ExpressionParserTest#testParseFunctionWithSingleCharName": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

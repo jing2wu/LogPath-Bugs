@@ -1,0 +1,35 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-19890",
+ "summary": "[BUG][Bounty][typescript-axios] Doesn't generate an union with null when type is an array (works in Stoplight)",
+ "fix_commit": "df2d81bb672fd5de03731ce25d6f34c7a53fc571",
+ "buggy_version": "df2d81bb67 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java reverted to df2d81bb67^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "TypeScriptAxiosClientCodegenTest#generatesNullUnionsForOpenApi31NullableContainers"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3927",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3979",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:4082",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java:1970"
+ ],
+ "covering_pairs": 30,
+ "shortest_covering_pair": 328,
+ "pairs_exported": 106,
+ "covering_pairs_printed": 30,
+ "shortest_covering_pair_printed": 328,
+ "stable": true,
+ "runs": {
+  "TypeScriptAxiosClientCodegenTest#generatesNullUnionsForOpenApi31NullableContainers": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,54 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-14233",
+ "summary": "[BUG]  Java Feign multiple Accept header values not working",
+ "fix_commit": "e384201416f48a79e7f640e5f00b57ecb7fff07b",
+ "buggy_version": "e384201416 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java reverted to e384201416^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "AbstractJavaCodegenTest#testPreprocessOpenApiIncludeAllMediaTypesInAcceptHeader"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1739",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1790",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1791",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1792",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1793",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1795",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1797",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1798",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1799",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1800",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1801",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1802",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1803",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1804",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1805",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1806",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1807",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1808",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1809",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1810",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1811",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1812",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1815"
+ ],
+ "covering_pairs": 19,
+ "shortest_covering_pair": 36,
+ "pairs_exported": 21,
+ "covering_pairs_printed": 19,
+ "shortest_covering_pair_printed": 36,
+ "stable": true,
+ "runs": {
+  "AbstractJavaCodegenTest#testPreprocessOpenApiIncludeAllMediaTypesInAcceptHeader": {
+   "threads": 4,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

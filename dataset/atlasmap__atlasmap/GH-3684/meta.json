@@ -1,0 +1,46 @@
+{
+ "project": "atlasmap__atlasmap",
+ "issue": "GH-3684",
+ "summary": "[BUG] Circular dependency problem for using  '/inspect'  with JSON schema",
+ "fix_commit": "83b40e6e3efa4acd44ca55758000ec91ce4f642c",
+ "buggy_version": "83b40e6e3e with lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java reverted to 83b40e6e3e^",
+ "jdk": "17",
+ "module": "lib/modules/json/core",
+ "tests": [
+  "JsonSchemaInspectorTest#inspectJsonSchemaRecursiveObject"
+ ],
+ "faulty_lines": [
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:122",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:137",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:144",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:160",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:184",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:192",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:202",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:208",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:240",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:275",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:287",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:288",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:294",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:295",
+  "lib/modules/json/core/src/main/java/io/atlasmap/json/inspect/JsonSchemaInspector.java:80"
+ ],
+ "covering_pairs": 1261,
+ "shortest_covering_pair": 22,
+ "pairs_exported": 1261,
+ "covering_pairs_printed": 1260,
+ "shortest_covering_pair_printed": 22,
+ "stable": true,
+ "runs": {
+  "JsonSchemaInspectorTest#inspectJsonSchemaRecursiveObject": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,40 @@
+{
+ "project": "zsmartsystems__com.zsmartsystems.zigbee",
+ "issue": "GH-1306",
+ "summary": "ClassCastException in energy scan",
+ "fix_commit": "18036b298c8c85efc52611110d7dab2481c61f55",
+ "buggy_version": "18036b298c with com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java reverted to 18036b298c^",
+ "jdk": "17",
+ "module": "com.zsmartsystems.zigbee.dongle.ember",
+ "tests": [
+  "EmberNcpTest#doEnergyScan"
+ ],
+ "faulty_lines": [
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1084",
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1085",
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1087",
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1088",
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1089",
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1090",
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1092",
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1094",
+  "com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java:1096"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 41,
+ "pairs_exported": 1,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "EmberNcpTest#doEnergyScan": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,243 @@
+2026-11-03T21:19:57.763 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry loadTestEngines - Discovered TestEngines with IDs: [junit-jupiter (group ID: org.junit.jupiter, artifact ID: junit-jupiter-engine, version: 5.8.1, location: jar:file:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/org/junit/jupiter/engine/JupiterTestEngine.class)]
+2026-11-03T21:19:57.864 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestExecutionListenerRegistry loadListeners - Loaded TestExecutionListener instances: []
+2026-11-03T21:20:00.024 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:20:00.031 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:20:00.032 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:20:00.038 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:20:00.061 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.RuntimeImpl
+2026-11-03T21:20:00.063 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Runtime
+2026-11-03T21:20:00.064 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Runtime
+2026-11-03T21:20:00.065 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Runtime
+2026-11-03T21:20:00.066 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Runtime
+2026-11-03T21:20:00.088 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotThreadImpl
+2026-11-03T21:20:00.089 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Threading
+2026-11-03T21:20:00.091 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Threading
+2026-11-03T21:20:00.092 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Threading
+2026-11-03T21:20:00.093 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Threading
+2026-11-03T21:20:00.108 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.OperatingSystemImpl
+2026-11-03T21:20:00.108 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=OperatingSystem
+2026-11-03T21:20:00.109 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=OperatingSystem
+2026-11-03T21:20:00.111 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=OperatingSystem
+2026-11-03T21:20:00.112 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=OperatingSystem
+2026-11-03T21:20:00.119 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T21:20:00.119 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:20:00.120 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:20:00.122 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:20:00.126 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:20:00.127 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T21:20:00.127 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:20:00.130 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:20:00.133 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:20:00.133 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:20:00.141 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:20:00.143 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:20:00.146 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:20:00.149 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:20:00.150 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:20:00.151 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:20:00.151 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:20:00.154 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:20:00.154 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:20:00.155 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:20:00.155 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:20:00.155 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:20:00.156 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:20:00.156 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:20:00.156 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:20:00.156 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:20:00.156 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:20:00.157 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:20:00.162 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:20:00.163 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:20:00.164 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:20:00.165 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:20:00.170 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:20:00.171 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:20:00.171 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:20:00.171 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:20:00.172 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:20:00.172 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:20:00.182 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:20:00.182 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:20:00.184 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:20:00.185 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:20:00.185 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:20:00.185 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:20:00.185 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:20:00.186 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:20:00.186 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:20:00.186 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:20:00.186 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:20:00.186 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:20:00.191 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.CompilationImpl
+2026-11-03T21:20:00.192 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Compilation
+2026-11-03T21:20:00.192 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Compilation
+2026-11-03T21:20:00.192 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Compilation
+2026-11-03T21:20:00.192 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Compilation
+2026-11-03T21:20:00.194 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryImpl
+2026-11-03T21:20:00.196 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Memory
+2026-11-03T21:20:00.196 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Memory
+2026-11-03T21:20:00.196 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Memory
+2026-11-03T21:20:00.197 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Memory
+2026-11-03T21:20:00.200 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+2026-11-03T21:20:00.201 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.util.logging:type=Logging
+2026-11-03T21:20:00.202 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.util.logging:type=Logging
+2026-11-03T21:20:00.203 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.util.logging:type=Logging
+2026-11-03T21:20:00.203 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.util.logging:type=Logging
+2026-11-03T21:20:00.204 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ClassLoadingImpl
+2026-11-03T21:20:00.204 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=ClassLoading
+2026-11-03T21:20:00.205 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=ClassLoading
+2026-11-03T21:20:00.206 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=ClassLoading
+2026-11-03T21:20:00.206 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=ClassLoading
+2026-11-03T21:20:00.225 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=DiagnosticCommand
+2026-11-03T21:20:00.226 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=DiagnosticCommand
+2026-11-03T21:20:00.226 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=DiagnosticCommand
+2026-11-03T21:20:00.226 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=DiagnosticCommand
+2026-11-03T21:20:00.229 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T21:20:00.230 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:20:00.230 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:20:00.231 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:20:00.231 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:20:00.232 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T21:20:00.232 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:20:00.232 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:20:00.232 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:20:00.232 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:20:00.234 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotDiagnostic
+2026-11-03T21:20:00.235 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:20:00.235 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:20:00.236 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:20:00.236 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:20:00.238 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:20:00.239 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped,type=BufferPool
+2026-11-03T21:20:00.239 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped,type=BufferPool
+2026-11-03T21:20:00.240 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped,type=BufferPool
+2026-11-03T21:20:00.241 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped,type=BufferPool
+2026-11-03T21:20:00.242 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:20:00.246 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=direct,type=BufferPool
+2026-11-03T21:20:00.246 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=direct,type=BufferPool
+2026-11-03T21:20:00.247 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=direct,type=BufferPool
+2026-11-03T21:20:00.247 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=direct,type=BufferPool
+2026-11-03T21:20:00.247 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:20:00.247 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:20:00.247 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:20:00.248 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:20:00.248 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:20:00.264 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for jdk.management.jfr.FlightRecorderMXBeanImpl
+2026-11-03T21:20:00.267 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:20:00.268 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:20:00.272 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:20:00.274 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:20:00.278 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:20:00.278 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:20:00.278 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:20:00.281 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6
+2026-11-03T21:20:00.286 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:20:00.286 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:20:00.288 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=StatusLogger,type=1dbd16a6
+2026-11-03T21:20:00.288 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=StatusLogger
+2026-11-03T21:20:00.289 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:20:00.289 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:20:00.290 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=ContextSelector,type=1dbd16a6
+2026-11-03T21:20:00.290 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=ContextSelector
+2026-11-03T21:20:00.292 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:20:00.292 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:20:00.293 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=Loggers,name=,type=1dbd16a6
+2026-11-03T21:20:00.293 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=Loggers,name=
+2026-11-03T21:20:00.294 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:20:00.295 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:20:00.295 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.logging.log4j2:component=Appenders,name=F,type=1dbd16a6
+2026-11-03T21:20:00.295 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.logging.log4j2:type=1dbd16a6,component=Appenders,name=F
+2026-11-03T21:20:00.475 FINE com.sun.xml.xsom.parser.JAXPParser allowFileAccess - Property "http://javax.xml.XMLConstants/property/accessExternalSchema" is supported and has been successfuly set by used JAXP implementation.
+2026-11-03T21:20:00.754 TRACE io.atlasmap.xml.core.schema.AtlasXmlSchemaSetParser [main] - >>> <?xml version="1.0" encoding="UTF-8"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/po.xsd" elementFormDefault="unqualified" targetNamespace="http://tempuri.org/po.xsd">
+  <xs:annotation>
+    <xs:documentation xml:lang="en">
+      Purchase order
+      schema for Example.com.
+      Copyright 2000 Example.com. All
+      rights reserved.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:element name="purchaseOrder" type="PurchaseOrderType"/>
+  <xs:element name="comment" type="xs:string"/>
+  <xs:complexType name="PurchaseOrderType">
+    <xs:sequence>
+      <xs:element name="shipTo" type="USAddress"/>
+      <xs:element name="billTo" type="USAddress"/>
+      <xs:element minOccurs="0" ref="comment"/>
+      <xs:element name="items" type="Items"/>
+    </xs:sequence>
+    <xs:attribute name="orderDate" type="xs:date"/>
+  </xs:complexType>
+  <xs:complexType name="USAddress">
+    <xs:annotation>
+      <xs:documentation>
+        Purchase order schema for
+        Example.Microsoft.com.
+        Copyright 2001
+        Example.Microsoft.com. All rights reserved.
+      </xs:documentation>
+      <xs:appinfo>
+        Application info.
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="street" type="xs:string"/>
+      <xs:element name="city" type="xs:string"/>
+      <xs:element name="state" type="xs:string"/>
+      <xs:element name="zip" type="xs:decimal"/>
+    </xs:sequence>
+    <xs:attribute fixed="US" name="country" type="xs:NMTOKEN"/>
+  </xs:complexType>
+  <xs:complexType name="Items">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="item">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="productName" type="xs:string"/>
+            <xs:element name="quantity">
+              <xs:simpleType>
+                <xs:restriction base="xs:positiveInteger">
+                  <xs:maxExclusive value="100"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+            <xs:element name="USPrice" type="xs:decimal"/>
+            <xs:element minOccurs="0" ref="comment"/>
+            <xs:element minOccurs="0" name="shipDate" type="xs:date"/>
+          </xs:sequence>
+          <xs:attribute name="partNum" type="SKU" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <!-- Stock Keeping Unit, a code for identifying products -->
+  <xs:simpleType name="SKU">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{3}-[A-Z]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+2026-11-03T21:20:00.765 FINE com.sun.xml.xsom.parser.JAXPParser allowFileAccess - Property "http://javax.xml.XMLConstants/property/accessExternalSchema" is supported and has been successfuly set by used JAXP implementation.
+2026-11-03T21:20:00.874 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/shipTo/name
+2026-11-03T21:20:00.899 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/shipTo/street
+2026-11-03T21:20:00.902 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/shipTo/city
+2026-11-03T21:20:00.908 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/shipTo/state
+2026-11-03T21:20:00.912 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/shipTo/zip
+2026-11-03T21:20:00.913 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/shipTo
+2026-11-03T21:20:00.914 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/billTo/name
+2026-11-03T21:20:00.920 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/billTo/street
+2026-11-03T21:20:00.924 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/billTo/city
+2026-11-03T21:20:00.929 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/billTo/state
+2026-11-03T21:20:00.938 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/billTo/zip
+2026-11-03T21:20:00.939 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/billTo
+2026-11-03T21:20:00.943 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/tns:comment
+2026-11-03T21:20:00.963 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/items/item/productName
+2026-11-03T21:20:00.965 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/items/item/quantity
+2026-11-03T21:20:00.969 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/items/item/USPrice
+2026-11-03T21:20:00.974 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/items/item/tns:comment
+2026-11-03T21:20:00.976 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/items/item/shipDate
+2026-11-03T21:20:00.977 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/items/item
+2026-11-03T21:20:00.977 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - Element: /tns:purchaseOrder/items
+2026-11-03T21:20:00.977 TRACE io.atlasmap.xml.inspect.XmlSchemaInspector [main] - adding a namespace >>> prefix=tns, uri=http://tempuri.org/po.xsd

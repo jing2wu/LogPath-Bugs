@@ -1,0 +1,70 @@
+2026-11-03T19:38:26.891 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T19:38:28.108 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToEnumValue()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] 733298923
+2026-11-03T19:38:28.108 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testBestFittingIntegerType()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] 255382895
+2026-11-03T19:38:28.108 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testCanFitIntoUnsigned()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] 1079925300
+2026-11-03T19:38:28.108 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToModelName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] -100551033
+2026-11-03T19:38:28.108 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToApiName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] -903785916
+2026-11-03T19:38:28.108 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToOperationId()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] 750892537
+2026-11-03T19:38:28.108 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testSanitizeIdentifier()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] 1941954408
+2026-11-03T19:38:28.108 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToModelFileName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] 987577067
+2026-11-03T19:38:28.109 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToEnumName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] -1171409531
+2026-11-03T19:38:28.109 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToApiFilename()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] -697217864
+2026-11-03T19:38:28.109 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToEnumVarName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] -1079659928
+2026-11-03T19:38:28.109 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testIsReservedWord()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] 770619790
+2026-11-03T19:38:28.109 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToParamName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] -450128973
+2026-11-03T19:38:28.109 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToVarName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@5b275174] 1913136905
+2026-11-03T19:38:28.109 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:38:28.135 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:38:28.135 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:38:28.135 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToEnumValue()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -33295715
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testBestFittingIntegerType()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -511211743
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testCanFitIntoUnsigned()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] 313330662
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToModelName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -867145671
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToApiName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -1670380554
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToOperationId()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -15702101
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testSanitizeIdentifier()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] 1175359770
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToModelFileName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] 220982429
+2026-11-03T19:38:28.614 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToEnumName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -1938004169
+2026-11-03T19:38:28.615 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToApiFilename()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -1463812502
+2026-11-03T19:38:28.615 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToEnumVarName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -1846254566
+2026-11-03T19:38:28.615 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testIsReservedWord()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] 4025152
+2026-11-03T19:38:28.615 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToParamName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] -1216723611
+2026-11-03T19:38:28.615 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testToVarName()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@2d760326] 1146542267
+2026-11-03T19:38:28.615 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:38:28.618 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:38:28.618 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:38:28.618 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:38:29.599 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testSanitizeIdentifier()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@626e0c86] 2064030330
+2026-11-03T19:38:29.599 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:38:29.599 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:38:29.599 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:38:29.600 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:38:29.808 WARN org.openapitools.codegen.languages.AbstractRustCodegen [main] - pet_name cannot be used as a Rust name. Renamed to pet_name
+2026-11-03T19:38:29.821 WARN org.openapitools.codegen.languages.AbstractRustCodegen [main] - microsoft/graph/fido2_authentication_method cannot be used as a Rust name. Renamed to microsoft_period_graph_period_fido2_authentication_method
+2026-11-03T19:38:30.183 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testSanitizeIdentifier()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@64279ab] 517670815
+2026-11-03T19:38:30.183 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:38:30.184 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:38:30.202 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:38:30.202 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:38:30.286 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testSanitizeIdentifier()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@7d484fcd] -1780425279
+2026-11-03T19:38:30.287 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:38:30.292 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:38:30.292 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:38:30.292 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:38:30.302 WARN org.openapitools.codegen.languages.AbstractRustCodegen [main] - pet_name cannot be used as a Rust name. Renamed to pet_name
+2026-11-03T19:38:30.303 WARN org.openapitools.codegen.languages.AbstractRustCodegen [main] - microsoft/graph/fido2_authentication_method cannot be used as a Rust name. Renamed to microsoft_period_graph_period_fido2_authentication_method
+2026-11-03T19:38:30.408 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testSanitizeIdentifier()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@165614f5] 787391209
+2026-11-03T19:38:30.408 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:38:30.408 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:38:30.408 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:38:30.408 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:38:30.465 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractRustCodegenTest.testSanitizeIdentifier()[pri:0, instance:org.openapitools.codegen.rust.AbstractRustCodegenTest@1abcd059] 861232717
+2026-11-03T19:38:30.465 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:38:30.466 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:38:30.466 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:38:30.466 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:38:30.479 WARN org.openapitools.codegen.languages.AbstractRustCodegen [main] - pet_name cannot be used as a Rust name. Renamed to pet_name
+2026-11-03T19:38:30.492 WARN org.openapitools.codegen.languages.AbstractRustCodegen [main] - microsoft/graph/fido2_authentication_method cannot be used as a Rust name. Renamed to microsoft_period_graph_period_fido2_authentication_method
+2026-11-03T19:38:30.544 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

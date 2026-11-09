@@ -1,0 +1,262 @@
+2026-11-03T20:54:17.279 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T20:54:17.849 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithMethod()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 2050530054
+2026-11-03T20:54:17.849 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSecuritySchemesFilterAndBearerAuthName()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -10979356
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -642247084
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 90298698
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testLooseNullDefinitions()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1696220074
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -527256185
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1745555007
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1373903716
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1312048443
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidFilterDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1118256563
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31BinaryContentMediaType()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1406864484
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1180003149
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testReplaceOneOfByDiscriminatorMapping()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1623572527
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerBearerAuthSpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 952934868
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1502845465
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139ImpliedObjectSchemaKeepsProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1360426228
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithTag()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1525161679
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationIdFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1303948589
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxNumericOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 449892183
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSortModelPropertiesDisabledByDefault()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1029374377
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxBooleanExclusiveAlreadySet()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 954032740
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 2096823935
+2026-11-03T20:54:17.850 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1881703780
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -585654623
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 517382983
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSimplifyOneOfAnyOfEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 286711223
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1547268132
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxStricterThanMinMax()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 769120661
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternalFromInlineProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 509095874
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 25969850
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 697832771
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToVendorExtension()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -2009433999
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSortModelProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1207019415
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1828012664
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 786753368
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1034342704
+2026-11-03T20:54:17.851 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1270561274
+2026-11-03T20:54:17.857 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1696415750
+2026-11-03T20:54:17.857 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1225310207
+2026-11-03T20:54:17.857 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 2068299850
+2026-11-03T20:54:17.857 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -792878992
+2026-11-03T20:54:17.857 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSecuritySchemesFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1600505793
+2026-11-03T20:54:17.857 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxInclusiveStricterThanExclusiveValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1020416644
+2026-11-03T20:54:17.857 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testCustomRoleFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1158729734
+2026-11-03T20:54:17.858 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllofWithMetadataOnlySchemas()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1103984421
+2026-11-03T20:54:17.858 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1477292859
+2026-11-03T20:54:17.858 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxEqualToMinMax()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1346605967
+2026-11-03T20:54:17.858 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerOtherThanObjectWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 135912499
+2026-11-03T20:54:17.859 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationsFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1558243105
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1538288418
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue14769()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -669625915
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testMultiFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1066451194
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.oneOfIssue23276()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1785588415
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1490384281
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1573609418
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -301505031
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 380338333
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClass()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -388840938
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 869334839
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidSyntaxDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -1754603398
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] 1614008716
+2026-11-03T20:54:17.860 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@907f2b7] -720675513
+2026-11-03T20:54:17.861 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:54:17.887 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:54:17.888 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:54:17.888 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:54:18.438 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithMethod()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1249468980
+2026-11-03T20:54:18.438 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSecuritySchemesFilterAndBearerAuthName()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 983988906
+2026-11-03T20:54:18.438 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 352721178
+2026-11-03T20:54:18.438 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1085266960
+2026-11-03T20:54:18.438 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testLooseNullDefinitions()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1603778960
+2026-11-03T20:54:18.438 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerComponentsResponses31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 467712077
+2026-11-03T20:54:18.438 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRemoveAnyOfOneOfAndKeepPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1554444027
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -378935454
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetPrimitiveTypesToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1987950591
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidFilterDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -123288301
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31BinaryContentMediaType()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -411896222
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOfStringAndEnumString()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -185034887
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testReplaceOneOfByDiscriminatorMapping()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -628604265
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerBearerAuthSpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1947903130
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDisableAll()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1797153569
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139ImpliedObjectSchemaKeepsProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1939572806
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterWithTag()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1774837355
+2026-11-03T20:54:18.440 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationIdFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1996050445
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxNumericOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1444860445
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSortModelPropertiesDisabledByDefault()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -34406115
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxBooleanExclusiveAlreadySet()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1949001002
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Schema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1203175099
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testAddUnsignedToIntegerWithInvalidMaxValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -886735518
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfWithSingleRef()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 409313639
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1512351245
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSimplifyOneOfAnyOfEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1281679485
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternal()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -552299870
+2026-11-03T20:54:18.441 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxStricterThanMinMax()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1764088923
+2026-11-03T20:54:18.442 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testRemoveXInternalFromInlineProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1504064136
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnum()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1020938112
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyBooleanEnumWithComposedSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1692801033
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToVendorExtension()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1014465737
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSortModelProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -212051153
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -833044402
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31Parameters()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1781721630
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31SpecForIssue18184()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 2029310966
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testComposedSchemaDoesNotThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -275593012
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -701447488
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerConvertEnumNullToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -230341945
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSetContainerToNullable()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1231699184
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSimplifyOneOfAnyOf31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 202089270
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testSecuritySchemesFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1699493241
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxInclusiveStricterThanExclusiveValue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -25448382
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testCustomRoleFilter()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -2141269300
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllofWithMetadataOnlySchemas()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -109016159
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsInAllOperations()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -482324597
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalize31ExclusiveMinMaxEqualToMinMax()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1953393067
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerOtherThanObjectWithProperties()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1130880761
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOperationsFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -563274843
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerDefaultRules()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -543320156
+2026-11-03T20:54:18.443 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue14769()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 325342347
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testMultiFilterParsing()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -71482932
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.oneOfIssue23276()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -790620153
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingAllOfSchema31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1809614753
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerEnableKeepOnlyFirstTagInOperation()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -578641156
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerProcessingArraySchema31NullabilitySpec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 693463231
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerRefactorAllOfWithPropertiesOnly()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1375306595
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testNormalizerClass()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 606127324
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerNormalizeReferenceSchema()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 1864303101
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testFilterInvalidSyntaxDoesThrow()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -759635136
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSetTagsToOperationId()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] -1685990318
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testOpenAPINormalizerSingleConstEnum31Spec()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@4455f57d] 274292749
+2026-11-03T20:54:18.444 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:54:18.450 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:54:18.450 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:54:18.450 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:54:19.521 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@2e8a1ab4] -1198725755
+2026-11-03T20:54:19.521 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:54:19.521 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:54:19.521 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:54:19.521 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:54:19.925 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.1
+info:
+  title: Test issue 24139
+  version: 1.0.0
+components:
+  schemas:
+    NestedNullable:
+      type: [ object, "null" ]
+      properties:
+        value:
+          type: [ number, "null" ]
+    Nested:
+      type: object
+      properties:
+        value:
+          type: [ number, "null" ]
+    # OAS 3.1 allows object schemas with properties but no explicit type declaration.
+    # This must not lose its properties after normalization.
+    ImpliedObject:
+      properties:
+        name:
+          type: string
+    Item:
+      type: object
+      properties:
+        nestedNullable:
+          $ref: '#/components/schemas/NestedNullable'
+        nestedNullable2:
+          anyOf:
+            - $ref: '#/components/schemas/Nested'
+            - type: 'null'
+        nested:
+          $ref: '#/components/schemas/Nested'
+2026-11-03T20:54:20.469 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:54:20.741 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@60b5e80d] -356994338
+2026-11-03T20:54:20.741 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:54:20.742 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:54:20.742 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:54:20.742 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:54:20.832 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@68631b1d] -228203026
+2026-11-03T20:54:20.832 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:54:20.832 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:54:20.832 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:54:20.832 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:54:20.844 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.1
+info:
+  title: Test issue 24139
+  version: 1.0.0
+components:
+  schemas:
+    NestedNullable:
+      type: [ object, "null" ]
+      properties:
+        value:
+          type: [ number, "null" ]
+    Nested:
+      type: object
+      properties:
+        value:
+          type: [ number, "null" ]
+    # OAS 3.1 allows object schemas with properties but no explicit type declaration.
+    # This must not lose its properties after normalization.
+    ImpliedObject:
+      properties:
+        name:
+          type: string
+    Item:
+      type: object
+      properties:
+        nestedNullable:
+          $ref: '#/components/schemas/NestedNullable'
+        nestedNullable2:
+          anyOf:
+            - $ref: '#/components/schemas/Nested'
+            - type: 'null'
+        nested:
+          $ref: '#/components/schemas/Nested'
+2026-11-03T20:54:20.869 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:54:20.955 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@19662208] -1553404711
+2026-11-03T20:54:20.958 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:54:20.958 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:54:20.958 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:54:20.958 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:54:21.031 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE OpenAPINormalizerTest.testIssue24139NullableObjectWithPropertiesGetsNullableTrue()[pri:0, instance:org.openapitools.codegen.OpenAPINormalizerTest@1373e3ee] -1653166401
+2026-11-03T20:54:21.031 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:54:21.031 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:54:21.031 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:54:21.031 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:54:21.038 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.1.1
+info:
+  title: Test issue 24139
+  version: 1.0.0
+components:
+  schemas:
+    NestedNullable:
+      type: [ object, "null" ]
+      properties:
+        value:
+          type: [ number, "null" ]
+    Nested:
+      type: object
+      properties:
+        value:
+          type: [ number, "null" ]
+    # OAS 3.1 allows object schemas with properties but no explicit type declaration.
+    # This must not lose its properties after normalization.
+    ImpliedObject:
+      properties:
+        name:
+          type: string
+    Item:
+      type: object
+      properties:
+        nestedNullable:
+          $ref: '#/components/schemas/NestedNullable'
+        nestedNullable2:
+          anyOf:
+            - $ref: '#/components/schemas/Nested'
+            - type: 'null'
+        nested:
+          $ref: '#/components/schemas/Nested'
+2026-11-03T20:54:21.074 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:54:21.130 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

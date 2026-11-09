@@ -1,0 +1,54 @@
+{
+ "project": "philterd__phileas",
+ "issue": "GH-392",
+ "summary": "An unknown split method silently falls back to newline splitting",
+ "fix_commit": "37d576b335a6650623f187edc1f2f51f102faefc",
+ "buggy_version": "37d576b335 with src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java, src/main/java/ai/philterd/phileas/services/split/SplitFactory.java reverted to 37d576b335^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "SplitFactoryTest#anUnknownMethodRaisesAndNamesTheAcceptedMethods",
+  "SplitFactoryTest#anUnknownMethodRaisesForADocumentOverTheThreshold",
+  "SplitFactoryTest#theCharacterAliasFiltersADocumentOverTheThreshold"
+ ],
+ "faulty_lines": [
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:164",
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:167",
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:168",
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:169",
+  "src/main/java/ai/philterd/phileas/services/filters/filtering/PlainTextFilterService.java:170",
+  "src/main/java/ai/philterd/phileas/services/split/SplitFactory.java:27",
+  "src/main/java/ai/philterd/phileas/services/split/SplitFactory.java:40",
+  "src/main/java/ai/philterd/phileas/services/split/SplitFactory.java:47",
+  "src/main/java/ai/philterd/phileas/services/split/SplitFactory.java:48"
+ ],
+ "covering_pairs": 7,
+ "shortest_covering_pair": 7,
+ "pairs_exported": 11,
+ "covering_pairs_printed": 7,
+ "shortest_covering_pair_printed": 7,
+ "stable": true,
+ "runs": {
+  "SplitFactoryTest#anUnknownMethodRaisesAndNamesTheAcceptedMethods": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 4
+  },
+  "SplitFactoryTest#anUnknownMethodRaisesForADocumentOverTheThreshold": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SplitFactoryTest#theCharacterAliasFiltersADocumentOverTheThreshold": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

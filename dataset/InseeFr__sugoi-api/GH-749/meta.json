@@ -1,0 +1,32 @@
+{
+ "project": "InseeFr__sugoi-api",
+ "issue": "GH-749",
+ "summary": "[BUG] :bug: appSource is lost when realm update",
+ "fix_commit": "019435048f6f715d349d27a3962b32f7b0802e4a",
+ "buggy_version": "019435048f with sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/mapper/RealmLdapMapper.java reverted to 019435048f^",
+ "jdk": "17",
+ "module": "sugoi-api-ldap-config-provider",
+ "tests": [
+  "LdapRealmProviderWriteTest#addOrganizationMappingTest_shouldkeepappsource"
+ ],
+ "faulty_lines": [
+  "sugoi-api-ldap-utils/src/main/java/fr/insee/sugoi/ldap/utils/mapper/RealmLdapMapper.java:129"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 310,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 310,
+ "stable": true,
+ "runs": {
+  "LdapRealmProviderWriteTest#addOrganizationMappingTest_shouldkeepappsource": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

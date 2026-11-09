@@ -1,0 +1,15 @@
+2026-11-03T21:11:13.810 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:11:15.796 INFO org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider [main] - generateKeyPair(EC) generating host key=nistp256
+2026-11-03T21:11:16.550 INFO org.apache.sshd.common.io.DefaultIoServiceFactoryFactory [main] - Using Nio2ServiceFactoryFactory
+2026-11-03T21:11:16.700 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=46417
+2026-11-03T21:11:17.939 INFO org.apache.sshd.client.config.hosts.DefaultConfigFileHostEntryResolver [main] - resolveEffectiveResolver(fileCopyInChunks@127.0.0.1:46417/null) no configuration file at /home/user/.ssh/config
+2026-11-03T21:11:18.717 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[e98004e]-nio2-thread-4] - Server at /127.0.0.1:46417 presented unverified EC key: SHA256:rEJ5pt7w0b0urSKBa82jGiXaveibJYpWFKQDMYGR/+Y
+2026-11-03T21:11:19.209 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[6113a26f](port=0)-nio2-thread-5] - Session fileCopyInChunks@/127.0.0.1:55662 authenticated
+2026-11-03T21:11:24.367 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:11:24.402 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=33037
+2026-11-03T21:11:24.581 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[e98004e]-nio2-thread-3] - Server at /127.0.0.1:33037 presented unverified EC key: SHA256:rEJ5pt7w0b0urSKBa82jGiXaveibJYpWFKQDMYGR/+Y
+2026-11-03T21:11:24.815 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[451f08ea](port=0)-nio2-thread-5] - Session fileCopyInChunks@/127.0.0.1:42678 authenticated
+2026-11-03T21:11:26.761 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:11:26.780 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=33607
+2026-11-03T21:11:26.939 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[e98004e]-nio2-thread-15] - Server at /127.0.0.1:33607 presented unverified EC key: SHA256:rEJ5pt7w0b0urSKBa82jGiXaveibJYpWFKQDMYGR/+Y
+2026-11-03T21:11:27.091 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[41fc5625](port=0)-nio2-thread-7] - Session fileCopyInChunks@/127.0.0.1:56106 authenticated

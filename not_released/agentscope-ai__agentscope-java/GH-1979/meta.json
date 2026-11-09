@@ -1,0 +1,56 @@
+{
+ "project": "agentscope-ai__agentscope-java",
+ "issue": "GH-1979",
+ "summary": "[Bug]: ClasspathSkillRepository failed to load skills in jar application",
+ "fix_commit": "284186307c510d2490621fe1815fc619f8d53aba",
+ "buggy_version": "284186307c with agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java reverted to 284186307c^",
+ "jdk": "17",
+ "module": "agentscope-core",
+ "tests": [
+  "ClasspathSkillRepositoryTest#testReuseJarFileSystemAcrossDifferentRootsInSameJar",
+  "ClasspathSkillRepositoryTest#testReuseJarFileSystemAcrossRepositories",
+  "ClasspathSkillRepositoryTest#testReuseNestedJarFileSystemAcrossRepositories"
+ ],
+ "faulty_lines": [
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:142",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:150",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:151",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:269",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:286",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:288",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:293",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:294",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:77",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:81",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/repository/ClasspathSkillRepository.java:82"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 10,
+ "pairs_exported": 9,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "ClasspathSkillRepositoryTest#testReuseJarFileSystemAcrossDifferentRootsInSameJar": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ClasspathSkillRepositoryTest#testReuseJarFileSystemAcrossRepositories": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ClasspathSkillRepositoryTest#testReuseNestedJarFileSystemAcrossRepositories": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

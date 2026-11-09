@@ -1,0 +1,294 @@
+2026-11-03T20:49:45.351 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T20:49:45.935 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaSkipReuseSetToTrue()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1702813475
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 437672609
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -506718357
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.nullable()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 1653070526
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 1235735822
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineMapSchemaInResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 845700521
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -904931054
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseArrayInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 243590719
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -2003542263
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.callbacks()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1038393863
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testNestedAnyOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -800954747
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithTitleInChinese()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -723871299
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.emptyExampleOnStringTypeModels()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -917231442
+2026-11-03T20:49:45.936 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 654211739
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModel2DifferentInnerModelsWithSameTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -441162832
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaNameMapping()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -352317680
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModelWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1737564846
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWhenNoComponents()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 1426402314
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayRequestBodyWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -2138114062
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectRequestBodyProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1655685902
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModelType()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 1062873904
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelWithArrayInlineWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 1954851305
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 864022975
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelWithArrayInlineWithoutTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 907683907
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -2014675414
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithoutTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 1884873473
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveOperationInlineEnumFormParameters()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1504577988
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseWithAdditionalProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1276267725
+2026-11-03T20:49:45.937 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.inheritanceWithInlineDiscriminator()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1642909140
+2026-11-03T20:49:45.938 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1956989811
+2026-11-03T20:49:45.938 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaOptions()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 695389709
+2026-11-03T20:49:45.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.objectComposedWithInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1958451025
+2026-11-03T20:49:45.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithTitleWithSpaces()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1806449512
+2026-11-03T20:49:45.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryRequestBodyArrayProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1592216488
+2026-11-03T20:49:45.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryRequestBodyArray()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 830221989
+2026-11-03T20:49:45.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveOperationInlineEnum()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -412540622
+2026-11-03T20:49:45.945 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithRequired()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 1333015310
+2026-11-03T20:49:45.945 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaAllOfPropertyOfOneOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 357939842
+2026-11-03T20:49:45.945 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseArray()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 2128847776
+2026-11-03T20:49:45.945 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayResponseWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 324465034
+2026-11-03T20:49:45.945 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveRequestBodyInvalidRef()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 319666654
+2026-11-03T20:49:45.945 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModel2EqualInnerModels()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 1282840165
+2026-11-03T20:49:45.945 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaSkipReuseSetToFalse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -127445224
+2026-11-03T20:49:45.946 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyAllOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1825479749
+2026-11-03T20:49:45.946 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArraySchemaWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 431353834
+2026-11-03T20:49:45.946 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.nonModelRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1150662446
+2026-11-03T20:49:45.946 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModel()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] 272338250
+2026-11-03T20:49:45.950 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineObjectResponseWithAdditionalProperties()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5e01a982] -1309471166
+2026-11-03T20:49:45.951 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:49:46.008 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:49:46.008 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:49:46.014 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaSkipReuseSetToTrue()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1031360470
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1123120742
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -2067511708
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.nullable()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 92277175
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -325057529
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineMapSchemaInResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -715092830
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1829242891
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseArrayInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1317202632
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 730631682
+2026-11-03T20:49:46.709 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.callbacks()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1695780082
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testNestedAnyOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1933219198
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithTitleInChinese()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 2010302646
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.emptyExampleOnStringTypeModels()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1816942503
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -906581612
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModel2DifferentInnerModelsWithSameTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -2001956183
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaNameMapping()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1913111031
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModelWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 996609099
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWhenNoComponents()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -134391037
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayRequestBodyWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 596059883
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectRequestBodyProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1078488043
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModelType()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -497919447
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelWithArrayInlineWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 394057954
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -696770376
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectModelWithArrayInlineWithoutTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -653109444
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 719498531
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithoutTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 324080122
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveOperationInlineEnumFormParameters()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1229595957
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseWithAdditionalProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1457906220
+2026-11-03T20:49:46.710 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.inheritanceWithInlineDiscriminator()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1091264805
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 777184134
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaOptions()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -865403642
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.objectComposedWithInline()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 775722920
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModelTestWithTitleWithSpaces()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 927724433
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryRequestBodyArrayProperty()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1141957457
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryRequestBodyArray()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -730571362
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveOperationInlineEnum()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1973333973
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyWithRequired()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -227778041
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaAllOfPropertyOfOneOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1202853509
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.arbitraryObjectResponseArray()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 568054425
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArrayResponseWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1236328317
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveRequestBodyInvalidRef()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1241126697
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineModel2EqualInnerModels()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -277953186
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineSchemaSkipReuseSetToFalse()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1688238575
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineRequestBodyAllOf()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 908694196
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineArraySchemaWithTitle()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1129439517
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.nonModelRequestBody()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1583511499
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.testInlineResponseModel()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] -1288455101
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.resolveInlineObjectResponseWithAdditionalProperties()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@f9d87b] 1424702779
+2026-11-03T20:49:46.711 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:49:46.723 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:49:46.723 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:49:46.723 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:49:48.164 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@23e44287] 1316419598
+2026-11-03T20:49:48.165 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:49:48.176 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:49:48.176 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:49:48.176 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:49:48.861 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Property refs using allOf
+paths:
+  /limits:
+    get:
+      operationId: getLimits
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Limits'
+components:
+  schemas:
+    NumberRange:
+      type: object
+      properties:
+        min:
+          type: number
+        max:
+          type: number
+      required:
+        - min
+        - max
+    Limits:
+      type: object
+      properties:
+        allOfRef:
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithDescription:
+          description: |
+            Description for this property
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithReadonly:
+          readOnly: true
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithDescriptionAndReadonly:
+          description: |
+            Description for this readonly property
+          readOnly: true
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+      required:
+        - allOfRef
+        - allOfRefWithDescription
+        - allOfRefWithReadonly
+        - allOfRefWithDescriptionAndReadonly
+2026-11-03T20:49:49.843 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as Limits_allOfRefWithDescriptionAndReadonly. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings Limits_allOfRefWithDescriptionAndReadonly=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings Limits_allOfRefWithDescriptionAndReadonly=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:49:50.140 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@1fd7a37] 747646910
+2026-11-03T20:49:50.140 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:49:50.140 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:49:50.140 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:49:50.140 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:49:50.233 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@115dcaea] 1005617265
+2026-11-03T20:49:50.234 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:49:50.235 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:49:50.235 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:49:50.235 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:49:50.246 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Property refs using allOf
+paths:
+  /limits:
+    get:
+      operationId: getLimits
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Limits'
+components:
+  schemas:
+    NumberRange:
+      type: object
+      properties:
+        min:
+          type: number
+        max:
+          type: number
+      required:
+        - min
+        - max
+    Limits:
+      type: object
+      properties:
+        allOfRef:
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithDescription:
+          description: |
+            Description for this property
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithReadonly:
+          readOnly: true
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithDescriptionAndReadonly:
+          description: |
+            Description for this readonly property
+          readOnly: true
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+      required:
+        - allOfRef
+        - allOfRefWithDescription
+        - allOfRefWithReadonly
+        - allOfRefWithDescriptionAndReadonly
+2026-11-03T20:49:50.296 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as Limits_allOfRefWithDescriptionAndReadonly. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings Limits_allOfRefWithDescriptionAndReadonly=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings Limits_allOfRefWithDescriptionAndReadonly=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:49:50.462 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@4f281aaf] 2042286134
+2026-11-03T20:49:50.463 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:49:50.470 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:49:50.470 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:49:50.470 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:49:50.580 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE InlineModelResolverTest.doNotWrapSingleAllOfRefs()[pri:0, instance:org.openapitools.codegen.InlineModelResolverTest@5c059a68] -2036838417
+2026-11-03T20:49:50.580 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:49:50.580 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:49:50.580 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:49:50.580 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:49:50.591 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Property refs using allOf
+paths:
+  /limits:
+    get:
+      operationId: getLimits
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Limits'
+components:
+  schemas:
+    NumberRange:
+      type: object
+      properties:
+        min:
+          type: number
+        max:
+          type: number
+      required:
+        - min
+        - max
+    Limits:
+      type: object
+      properties:
+        allOfRef:
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithDescription:
+          description: |
+            Description for this property
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithReadonly:
+          readOnly: true
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+        allOfRefWithDescriptionAndReadonly:
+          description: |
+            Description for this readonly property
+          readOnly: true
+          allOf:
+            - $ref: '#/components/schemas/NumberRange'
+      required:
+        - allOfRef
+        - allOfRefWithDescription
+        - allOfRefWithReadonly
+        - allOfRefWithDescriptionAndReadonly
+2026-11-03T20:49:50.652 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as Limits_allOfRefWithDescriptionAndReadonly. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings Limits_allOfRefWithDescriptionAndReadonly=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings Limits_allOfRefWithDescriptionAndReadonly=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:49:50.698 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

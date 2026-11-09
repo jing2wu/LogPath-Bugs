@@ -1,0 +1,34 @@
+{
+ "project": "pmd__pmd",
+ "issue": "GH-6952",
+ "summary": "[core] Ruleset references that are relative to another ruleset cannot be resolved",
+ "fix_commit": "3db1fe0ee1f99c7cca3978b14f66efc417a16d11",
+ "buggy_version": "3db1fe0ee1 with pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/RuleSetFactory.java, pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/internal/RuleSetReferenceId.java reverted to 3db1fe0ee1^",
+ "jdk": "17",
+ "module": "pmd-ant",
+ "tests": [
+  "PMDTaskTest#testRelativeRulesetReference"
+ ],
+ "faulty_lines": [
+  "pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/RuleSetFactory.java:333",
+  "pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/RuleSetFactory.java:334",
+  "pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/internal/RuleSetReferenceId.java:192"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 476,
+ "pairs_exported": 24,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "PMDTaskTest#testRelativeRulesetReference": {
+   "threads": 3,
+   "log_threads": 3,
+   "status": "fail",
+   "tests_run": 7
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "several threads (approximate)"
+}

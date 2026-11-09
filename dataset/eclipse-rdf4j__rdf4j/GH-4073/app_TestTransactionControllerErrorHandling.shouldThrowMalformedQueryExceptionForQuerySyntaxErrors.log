@@ -1,0 +1,33 @@
+2026-11-03T19:49:02.797 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - Initializing NativeStore...
+2026-11-03T19:49:02.918 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - Data dir is /tmp/test-repo10354762299053377666
+2026-11-03T19:49:04.032 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - Data store upgraded to version devel
+2026-11-03T19:49:04.448 DEBUG org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - No indexes specified, using default indexes: spoc,posc
+2026-11-03T19:49:04.459 TRACE org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - Initializing index 'spoc'...
+2026-11-03T19:49:04.700 TRACE org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - Initializing index 'posc'...
+2026-11-03T19:49:04.824 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - context index has not been created yet: context index file /tmp/test-repo10354762299053377666/contexts.dat does not exist
+2026-11-03T19:49:04.824 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - initializing context cache
+2026-11-03T19:49:05.071 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - context index construction complete
+2026-11-03T19:49:05.230 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - NativeStore initialized
+2026-11-03T19:49:06.339 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [rdf4j-transaction-0] - Registered service class org.eclipse.rdf4j.rio.datatypes.XMLSchemaDatatypeHandler
+2026-11-03T19:49:06.341 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [rdf4j-transaction-0] - Registered service class org.eclipse.rdf4j.rio.datatypes.RDFDatatypeHandler
+2026-11-03T19:49:06.350 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [rdf4j-transaction-0] - Registered service class org.eclipse.rdf4j.rio.datatypes.DBPediaDatatypeHandler
+2026-11-03T19:49:06.372 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [rdf4j-transaction-0] - Registered service class org.eclipse.rdf4j.rio.datatypes.VirtuosoGeometryDatatypeHandler
+2026-11-03T19:49:06.377 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [rdf4j-transaction-0] - Registered service class org.eclipse.rdf4j.rio.datatypes.GeoSPARQLDatatypeHandler
+2026-11-03T19:49:06.411 DEBUG org.eclipse.rdf4j.rio.LanguageHandlerRegistry [rdf4j-transaction-0] - Registered service class org.eclipse.rdf4j.rio.languages.RFC3066LanguageHandler
+2026-11-03T19:49:06.444 DEBUG org.eclipse.rdf4j.rio.LanguageHandlerRegistry [rdf4j-transaction-0] - Registered service class org.eclipse.rdf4j.rio.languages.BCP47LanguageHandler
+2026-11-03T19:49:06.580 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.ActiveTransactionRegistry [main] - secondary cache expire time 60 seconds
+2026-11-03T19:49:06.598 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.ActiveTransactionRegistry [main] - registered transaction dec849f5-dc3f-4086-b779-2376d8f37ead 
+2026-11-03T19:49:06.982 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.TransactionController [main] - txnID is 'dec849f5-dc3f-4086-b779-2376d8f37ead'
+2026-11-03T19:49:06.982 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.TransactionController [main] - transaction id: dec849f5-dc3f-4086-b779-2376d8f37ead
+2026-11-03T19:49:06.982 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.TransactionController [main] - request content type: application/sparql-query; charset=utf-8
+2026-11-03T19:49:06.992 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.ActiveTransactionRegistry [main] - secondary cache update transaction dec849f5-dc3f-4086-b779-2376d8f37ead
+2026-11-03T19:49:07.019 INFO org.eclipse.rdf4j.http.server.repository.transaction.TransactionController [main] - PUT txn query request
+2026-11-03T19:49:07.051 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.TransactionController [main] - query language param = null
+2026-11-03T19:49:07.271 DEBUG org.eclipse.rdf4j.query.parser.QueryParserRegistry [rdf4j-transaction-0] - Registered service class org.eclipse.rdf4j.query.parser.sparql.SPARQLParserFactory
+2026-11-03T19:49:08.096 INFO org.eclipse.rdf4j.http.server.repository.transaction.TransactionController [main] - Query interrupted
+java.util.concurrent.ExecutionException: org.eclipse.rdf4j.query.MalformedQueryException: org.eclipse.rdf4j.query.parser.sparql.ast.VisitorException: QName 'ex:data' uses an undefined prefix
+2026-11-03T19:49:08.119 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.ActiveTransactionRegistry [main] - primary cache removal txid dec849f5-dc3f-4086-b779-2376d8f37ead
+2026-11-03T19:49:08.120 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.ActiveTransactionRegistry [main] - secondary cache removal
+2026-11-03T19:49:08.121 DEBUG org.eclipse.rdf4j.http.server.repository.transaction.ActiveTransactionRegistry [main] - deregistered transaction dec849f5-dc3f-4086-b779-2376d8f37ead
+2026-11-03T19:49:08.133 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - Shutting down NativeStore...
+2026-11-03T19:49:08.140 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - NativeStore shut down

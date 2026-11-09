@@ -1,0 +1,35 @@
+{
+ "project": "pf4j__pf4j",
+ "issue": "GH-670",
+ "summary": "Extension#ordinal is never read by the ASM-based ExtensionInfo",
+ "fix_commit": "47b006a0be8c3456073587b5d7306510424c3407",
+ "buggy_version": "47b006a0be with pf4j/src/main/java/org/pf4j/asm/ExtensionVisitor.java reverted to 47b006a0be^",
+ "jdk": "17",
+ "module": "pf4j",
+ "tests": [
+  "ExtensionVisitorTest#shouldReadAllAttributesFromCompiledExtension"
+ ],
+ "faulty_lines": [
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionVisitor.java:65",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionVisitor.java:71",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionVisitor.java:72",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionVisitor.java:73"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 6,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 6,
+ "stable": true,
+ "runs": {
+  "ExtensionVisitorTest#shouldReadAllAttributesFromCompiledExtension": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-21077",
+ "summary": "[BUG] [GOLANG] Generating client with array query parameters with defaults",
+ "fix_commit": "a4d05b38f57b13c1fb0b6581fb812dee69afa546",
+ "buggy_version": "a4d05b38f5 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/GoClientCodegen.java reverted to a4d05b38f5^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "GoClientCodegenTest#testArrayDefaultValue"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/GoClientCodegen.java:443"
+ ],
+ "covering_pairs": 12,
+ "shortest_covering_pair": 146,
+ "pairs_exported": 73,
+ "covering_pairs_printed": 12,
+ "shortest_covering_pair_printed": 146,
+ "stable": true,
+ "runs": {
+  "GoClientCodegenTest#testArrayDefaultValue": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

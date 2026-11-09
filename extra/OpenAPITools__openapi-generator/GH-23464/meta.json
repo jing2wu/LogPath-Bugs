@@ -1,0 +1,35 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23464",
+ "summary": "[BUG][scala-sttp][circe] Circe codecs do not preserve original JSON field names for non-camelCase properties",
+ "fix_commit": "a79d60b3fb3712497ddd84852f45aa4140654b49",
+ "buggy_version": "a79d60b3fb with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/ScalaSttpClientCodegen.java reverted to a79d60b3fb^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "SttpCodegenTest#verifyCirceSerdeWithMixedCaseFields"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/ScalaSttpClientCodegen.java:111",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/ScalaSttpClientCodegen.java:113",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/ScalaSttpClientCodegen.java:150",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/ScalaSttpClientCodegen.java:169"
+ ],
+ "covering_pairs": 5,
+ "shortest_covering_pair": 609,
+ "pairs_exported": 40,
+ "covering_pairs_printed": 5,
+ "shortest_covering_pair_printed": 609,
+ "stable": true,
+ "runs": {
+  "SttpCodegenTest#verifyCirceSerdeWithMixedCaseFields": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

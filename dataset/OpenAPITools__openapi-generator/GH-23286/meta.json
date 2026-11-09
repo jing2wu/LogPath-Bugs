@@ -1,0 +1,43 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23286",
+ "summary": "[BUG][typescript] Missing import statements in model with circular oneOf",
+ "fix_commit": "e17e024b2bcb9565bbe59586e8ad1cdd2780909f",
+ "buggy_version": "e17e024b2b with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptClientCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptReduxQueryClientCodegen.java reverted to e17e024b2b^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "TypeScriptClientCodegenTest#testCircularOneOfGeneratesImports"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptClientCodegen.java:410",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptClientCodegen.java:411",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptClientCodegen.java:412",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptClientCodegen.java:413",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptClientCodegen.java:414",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptClientCodegen.java:416",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptReduxQueryClientCodegen.java:151",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptReduxQueryClientCodegen.java:152",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptReduxQueryClientCodegen.java:153",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptReduxQueryClientCodegen.java:154",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptReduxQueryClientCodegen.java:155",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/TypeScriptReduxQueryClientCodegen.java:157"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 617,
+ "pairs_exported": 60,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 617,
+ "stable": true,
+ "runs": {
+  "TypeScriptClientCodegenTest#testCircularOneOfGeneratesImports": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

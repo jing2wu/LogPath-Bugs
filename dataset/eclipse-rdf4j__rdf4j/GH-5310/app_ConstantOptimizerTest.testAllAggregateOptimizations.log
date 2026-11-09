@@ -1,0 +1,21 @@
+2026-11-03T20:02:43.520 DEBUG org.eclipse.rdf4j.query.parser.QueryParserRegistry [main] - Registered service class org.eclipse.rdf4j.query.parser.sparql.SPARQLParserFactory
+2026-11-03T20:02:45.870 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Max
+2026-11-03T20:02:45.871 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Min
+2026-11-03T20:02:45.874 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Avg
+2026-11-03T20:02:45.877 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Count
+2026-11-03T20:02:45.880 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Count
+2026-11-03T20:02:45.881 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Max
+2026-11-03T20:02:45.882 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Min
+2026-11-03T20:02:45.883 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Avg
+2026-11-03T20:02:45.884 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Count
+2026-11-03T20:02:45.884 ERROR org.eclipse.rdf4j.query.algebra.evaluation.optimizer.ConstantOptimizer [main] - Query evaluation exception caught
+org.eclipse.rdf4j.query.QueryEvaluationException: Unsupported value expr type: class org.eclipse.rdf4j.query.algebra.Count

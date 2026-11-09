@@ -1,0 +1,43 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-25113",
+ "summary": "[BUG] [JAVA] items: allOf: [$ref: Pet] does not generate List<@Valid Pet>",
+ "fix_commit": "065b6c50a424c8f2c8a026828610c01c91e2d094",
+ "buggy_version": "065b6c50a4 with modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java reverted to 065b6c50a4^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "SpringCodegenTest#listItems_annotated_with_x_field_extra_annotation",
+  "SpringCodegenTest#listItems_with_additionalItemsAnnotations"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1143",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1144",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1147",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1251",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1253"
+ ],
+ "covering_pairs": 48,
+ "shortest_covering_pair": 357,
+ "pairs_exported": 174,
+ "covering_pairs_printed": 48,
+ "shortest_covering_pair_printed": 357,
+ "stable": true,
+ "runs": {
+  "SpringCodegenTest#listItems_annotated_with_x_field_extra_annotation": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SpringCodegenTest#listItems_with_additionalItemsAnnotations": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,42 @@
+{
+ "project": "ohs-foundation__fhir-gateway",
+ "issue": "GH-42",
+ "summary": "Pass body of FHIR operation error responses to the client",
+ "fix_commit": "3dff3419b69a2d26515a80708f65983838b3bb7e",
+ "buggy_version": "3dff3419b6 with server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java, server/src/main/java/com/google/fhir/proxy/HttpUtil.java reverted to 3dff3419b6^",
+ "jdk": "17",
+ "module": "server",
+ "tests": [
+  "BearerAuthorizationInterceptorTest#authorizeRequestTestResourceErrorResponse"
+ ],
+ "faulty_lines": [
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:273",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:276",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:277",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:278",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:279",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:282",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:283",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:284",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:285",
+  "server/src/main/java/com/google/fhir/proxy/BearerAuthorizationInterceptor.java:286",
+  "server/src/main/java/com/google/fhir/proxy/HttpUtil.java:58"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 18,
+ "pairs_exported": 7,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "BearerAuthorizationInterceptorTest#authorizeRequestTestResourceErrorResponse": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

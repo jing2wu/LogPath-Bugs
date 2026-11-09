@@ -1,0 +1,33 @@
+{
+ "project": "apache__accumulo",
+ "issue": "GH-3414",
+ "summary": "TableOperationsImpl.locate Retry can fail when backOffFactor > 1",
+ "fix_commit": "487f2a34f126dad45d8c32465e74d19a357bbf4c",
+ "buggy_version": "487f2a34f1 with core/src/main/java/org/apache/accumulo/core/util/Retry.java reverted to 487f2a34f1^",
+ "jdk": "17",
+ "module": "core",
+ "tests": [
+  "RetryTest#testInfiniteRetryWithBackoff"
+ ],
+ "faulty_lines": [
+  "core/src/main/java/org/apache/accumulo/core/util/Retry.java:188",
+  "core/src/main/java/org/apache/accumulo/core/util/Retry.java:189"
+ ],
+ "covering_pairs": 97,
+ "shortest_covering_pair": 12,
+ "pairs_exported": 97,
+ "covering_pairs_printed": 97,
+ "shortest_covering_pair_printed": 12,
+ "stable": true,
+ "runs": {
+  "RetryTest#testInfiniteRetryWithBackoff": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,36 @@
+{
+ "project": "elastic__apm-agent-java",
+ "issue": "GH-2284",
+ "summary": "About hostname",
+ "fix_commit": "3752548664bcd88bd8ee65e798688d089e5f8fee",
+ "buggy_version": "3752548664 with apm-agent-core/src/main/java/co/elastic/apm/agent/impl/metadata/SystemInfo.java reverted to 3752548664^",
+ "jdk": "17",
+ "module": "apm-agent-core",
+ "tests": [
+  "SystemInfoTest#testHostnameDiscoveryThroughCommand"
+ ],
+ "faulty_lines": [
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/impl/metadata/SystemInfo.java:142",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/impl/metadata/SystemInfo.java:143",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/impl/metadata/SystemInfo.java:153",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/impl/metadata/SystemInfo.java:154",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/impl/metadata/SystemInfo.java:197"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 46,
+ "pairs_exported": 39,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "SystemInfoTest#testHostnameDiscoveryThroughCommand": {
+   "threads": 8,
+   "log_threads": 3,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

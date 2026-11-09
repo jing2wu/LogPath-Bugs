@@ -1,0 +1,82 @@
+2026-11-04T03:32:05.049 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - rezipShapefileSets
+2026-11-04T03:32:05.062 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - Try to create directory: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345
+2026-11-04T03:32:05.063 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - unzipFilesToDirectory: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345
+2026-11-04T03:32:05.064 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape1.shp
+2026-11-04T03:32:05.065 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.066 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape1.shp
+2026-11-04T03:32:05.068 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape1.shx
+2026-11-04T03:32:05.069 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.069 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape1.shx
+2026-11-04T03:32:05.070 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape1.DBF
+2026-11-04T03:32:05.070 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.070 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape1.DBF
+2026-11-04T03:32:05.071 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape1.prj
+2026-11-04T03:32:05.072 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.072 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape1.prj
+2026-11-04T03:32:05.073 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape1.fbn
+2026-11-04T03:32:05.073 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.073 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape1.fbn
+2026-11-04T03:32:05.074 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape1.fbx
+2026-11-04T03:32:05.075 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.076 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape1.fbx
+2026-11-04T03:32:05.076 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape2.shp
+2026-11-04T03:32:05.077 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.077 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape2.shp
+2026-11-04T03:32:05.078 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape2.shx
+2026-11-04T03:32:05.079 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.079 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape2.shx
+2026-11-04T03:32:05.080 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape2.dbf
+2026-11-04T03:32:05.080 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.080 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape2.dbf
+2026-11-04T03:32:05.081 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape2.prj
+2026-11-04T03:32:05.081 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.082 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape2.prj
+2026-11-04T03:32:05.082 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape2.txt
+2026-11-04T03:32:05.083 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.083 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape2.txt
+2026-11-04T03:32:05.084 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape2.pdf
+2026-11-04T03:32:05.084 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.084 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape2.pdf
+2026-11-04T03:32:05.084 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shape2
+2026-11-04T03:32:05.085 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.085 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shape2
+2026-11-04T03:32:05.085 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: README.MD
+2026-11-04T03:32:05.086 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.086 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/README.MD
+2026-11-04T03:32:05.086 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: shp_dictionary.xls
+2026-11-04T03:32:05.086 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.086 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/shp_dictionary.xls
+2026-11-04T03:32:05.087 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - 
+Original entry name: notes
+2026-11-04T03:32:05.087 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - file found!
+2026-11-04T03:32:05.087 FINE edu.harvard.iq.dataverse.util.ShapefileHandler unzipFilesToDirectory - Write zip file: /tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345/notes
+2026-11-04T03:32:05.089 FINE edu.harvard.iq.dataverse.util.ShapefileHandler redistributeFilesFromZip - redistributeFilesFromZip. source: '/tmp/junit1588926589921640315/test_unzip/scratch-for-unzip-12345'  target: '/tmp/junit1588926589921640315/test_unzip'
+2026-11-04T03:32:05.122 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - Post redistribute:)
+2026-11-04T03:32:05.122 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape2
+2026-11-04T03:32:05.122 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/README.MD
+2026-11-04T03:32:05.122 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape2.pdf
+2026-11-04T03:32:05.123 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape1.fbn
+2026-11-04T03:32:05.123 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape1.DBF
+2026-11-04T03:32:05.123 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape1.shp
+2026-11-04T03:32:05.123 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/notes
+2026-11-04T03:32:05.123 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape1.prj
+2026-11-04T03:32:05.124 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape1.fbx
+2026-11-04T03:32:05.124 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape1.shx
+2026-11-04T03:32:05.124 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shp_dictionary.xls
+2026-11-04T03:32:05.125 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape2.zip
+2026-11-04T03:32:05.125 FINE edu.harvard.iq.dataverse.util.ShapefileHandler rezipShapefileSets - File exists: /tmp/junit1588926589921640315/test_unzip/shape2.txt

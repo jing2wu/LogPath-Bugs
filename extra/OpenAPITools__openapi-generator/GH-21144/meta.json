@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-21144",
+ "summary": "[BUG][rust-axum] Generated Server fails to supply correct number of Generic Arguments in routing",
+ "fix_commit": "db38f0f55609e570b1ab224fc167409accae3223",
+ "buggy_version": "db38f0f556 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustAxumServerCodegen.java reverted to db38f0f556^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "RustAxumServerCodegenTest#testPreventDuplicateOperationDeclaration"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustAxumServerCodegen.java:431",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustAxumServerCodegen.java:432"
+ ],
+ "covering_pairs": 12,
+ "shortest_covering_pair": 338,
+ "pairs_exported": 62,
+ "covering_pairs_printed": 12,
+ "shortest_covering_pair_printed": 338,
+ "stable": true,
+ "runs": {
+  "RustAxumServerCodegenTest#testPreventDuplicateOperationDeclaration": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

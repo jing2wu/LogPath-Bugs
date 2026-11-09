@@ -1,0 +1,45 @@
+{
+ "project": "apache__maven-filtering",
+ "issue": "GH-289",
+ "summary": "File name filtering does not work when the escapeString is the same as the file separator",
+ "fix_commit": "270585b4d8cdec5cb6e1026af3bc7de625d5234b",
+ "buggy_version": "270585b4d8 with src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java reverted to 270585b4d8^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "DefaultMavenResourcesFilteringTest#filterFileNameWithFileSeparatorAsEscape"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:504",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:505",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:506",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:507",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:509",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:510",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:511",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:513",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:514",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:516",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:517",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:518",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:519",
+  "src/main/java/org/apache/maven/shared/filtering/DefaultMavenResourcesFiltering.java:520"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 18,
+ "pairs_exported": 12,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 18,
+ "stable": true,
+ "runs": {
+  "DefaultMavenResourcesFilteringTest#filterFileNameWithFileSeparatorAsEscape": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

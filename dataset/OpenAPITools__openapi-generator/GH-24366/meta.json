@@ -1,0 +1,34 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-24366",
+ "summary": "[BUG] rust-server codegen: enum parameters in form bodies incorrectly serialized as their enum variant names by clients, rather than the values described in the OpenAPI definition",
+ "fix_commit": "82cb1ad5ab515e81cf54a598b91cf5ff61b718c1",
+ "buggy_version": "82cb1ad5ab with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java reverted to 82cb1ad5ab^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "RustServerCodegenTest#testFormEnumArrayUsesDisplay"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1756",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1768",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustServerCodegen.java:1801"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 638,
+ "pairs_exported": 89,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 638,
+ "stable": true,
+ "runs": {
+  "RustServerCodegenTest#testFormEnumArrayUsesDisplay": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

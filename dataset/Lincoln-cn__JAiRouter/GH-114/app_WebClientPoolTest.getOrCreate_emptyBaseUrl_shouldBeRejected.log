@@ -1,0 +1,32 @@
+2026-11-03T21:57:34.906 INFO org.unreal.modelrouter.router.http.WebClientPool [main] - WebClientPool 初始化完成
+2026-11-03T21:57:34.915 DEBUG org.unreal.modelrouter.router.http.WebClientPool [main] - 创建 WebClient: baseUrl=
+2026-11-03T21:57:34.924 DEBUG reactor.util.Loggers [main] - Using Slf4j logging framework
+2026-11-03T21:57:34.951 DEBUG io.netty.util.internal.logging.InternalLoggerFactory [main] - Using SLF4J as the default logging framework
+2026-11-03T21:57:34.952 DEBUG io.netty.util.internal.PlatformDependent0 [main] - Java version: 17
+2026-11-03T21:57:34.952 DEBUG io.netty.util.internal.PlatformDependent0 [main] - -Dio.netty.noUnsafe: false
+2026-11-03T21:57:34.953 DEBUG io.netty.util.internal.PlatformDependent0 [main] - Thread.isVirtual() is not available: 
+java.lang.NoSuchMethodException: java.lang.Thread.isVirtual()
+2026-11-03T21:57:34.955 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.lang.BaseVirtualThread is not available: 
+java.lang.ClassNotFoundException: java.lang.BaseVirtualThread
+2026-11-03T21:57:34.956 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.theUnsafe: available
+2026-11-03T21:57:34.957 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe base methods: all available
+2026-11-03T21:57:34.957 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.storeFence: available
+2026-11-03T21:57:34.958 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Buffer.address: available
+2026-11-03T21:57:34.958 DEBUG io.netty.util.internal.PlatformDependent0 [main] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+2026-11-03T21:57:34.959 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Bits.unaligned: available, true
+2026-11-03T21:57:34.960 DEBUG io.netty.util.internal.PlatformDependent0 [main] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7722c3c3
+2026-11-03T21:57:34.962 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2026-11-03T21:57:34.962 DEBUG io.netty.util.internal.PlatformDependent [main] - sun.misc.Unsafe: available
+2026-11-03T21:57:34.962 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2026-11-03T21:57:34.962 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2026-11-03T21:57:34.963 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.maxDirectMemory: -1 bytes
+2026-11-03T21:57:34.963 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2026-11-03T21:57:34.963 DEBUG io.netty.util.internal.CleanerJava9 [main] - java.nio.ByteBuffer.cleaner(): available
+2026-11-03T21:57:34.963 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.noPreferDirect: false
+2026-11-03T21:57:34.985 DEBUG io.netty.util.internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2026-11-03T21:57:34.985 DEBUG io.netty.util.internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2026-11-03T21:57:35.002 DEBUG io.netty.util.ResourceLeakDetector [main] - -Dio.netty.leakDetection.level: simple
+2026-11-03T21:57:35.002 DEBUG io.netty.util.ResourceLeakDetector [main] - -Dio.netty.leakDetection.targetRecords: 4
+2026-11-03T21:57:35.018 DEBUG io.netty.handler.codec.compression.Brotli [main] - brotli4j not in the classpath; Brotli support will be unavailable.

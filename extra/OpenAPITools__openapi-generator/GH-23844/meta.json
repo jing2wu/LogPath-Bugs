@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23844",
+ "summary": "[BUG][Go] enumUnknownDefaultCase generates colliding UNKNOWN_DEFAULT_OPEN_API constants when enumClassPrefix=false",
+ "fix_commit": "50440611d576f89ec8baa08de22c25b0a8ad358f",
+ "buggy_version": "50440611d5 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/GoClientCodegen.java reverted to 50440611d5^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "GoClientCodegenTest#testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/GoClientCodegen.java:516",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/GoClientCodegen.java:517"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 829,
+ "pairs_exported": 34,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 829,
+ "stable": true,
+ "runs": {
+  "GoClientCodegenTest#testEnumUnknownDefaultCaseUsesModelSpecificNamesWhenEnumClassPrefixDisabled": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

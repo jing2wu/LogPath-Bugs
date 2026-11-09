@@ -1,0 +1,19 @@
+2026-11-05T11:06:16.615 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:06:17.084 INFO org.apache.sshd.common.util.security.bouncycastle.BouncyCastleSecurityProviderRegistrar [main] - getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2026-11-05T11:06:17.088 INFO org.apache.sshd.common.util.security.eddsa.EdDSASecurityProviderRegistrar [main] - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2026-11-05T11:06:17.346 INFO org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider [main] - generateKeyPair(EC) generating host key=nistp256
+2026-11-05T11:06:17.537 INFO org.apache.sshd.common.io.DefaultIoServiceFactoryFactory [main] - No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2026-11-05T11:06:17.570 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=43429
+2026-11-05T11:06:18.110 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[213c812a]-nio2-thread-4] - Server at /127.0.0.1:43429 presented unverified EC key: SHA256:NwvkxHP+RrE5IxAPfex8oecVpt4u8c6atV12B6DNBQU
+2026-11-05T11:06:18.210 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[15371de2](port=0)-nio2-thread-7] - Session localForwardingNativeError@/127.0.0.1:49380 authenticated
+2026-11-05T11:06:18.245 ERROR org.apache.sshd.common.io.nio2.Nio2Acceptor [main] - bind(/127.0.0.1:22) - failed (BindException) to bind: Permission denied
+2026-11-05T11:06:18.309 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:06:18.315 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=41605
+2026-11-05T11:06:18.474 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[33c91567]-nio2-thread-4] - Server at /127.0.0.1:41605 presented unverified EC key: SHA256:NwvkxHP+RrE5IxAPfex8oecVpt4u8c6atV12B6DNBQU
+2026-11-05T11:06:18.612 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[4b4b02d](port=0)-nio2-thread-7] - Session localForwardingNativeError@/127.0.0.1:37834 authenticated
+2026-11-05T11:06:18.616 ERROR org.apache.sshd.common.io.nio2.Nio2Acceptor [main] - bind(/127.0.0.1:22) - failed (BindException) to bind: Permission denied
+2026-11-05T11:06:18.641 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:06:18.644 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=34065
+2026-11-05T11:06:18.774 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[1b914e36]-nio2-thread-4] - Server at /127.0.0.1:34065 presented unverified EC key: SHA256:NwvkxHP+RrE5IxAPfex8oecVpt4u8c6atV12B6DNBQU
+2026-11-05T11:06:18.885 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[1da40ae8](port=0)-nio2-thread-7] - Session localForwardingNativeError@/127.0.0.1:54938 authenticated
+2026-11-05T11:06:18.888 ERROR org.apache.sshd.common.io.nio2.Nio2Acceptor [main] - bind(/127.0.0.1:22) - failed (BindException) to bind: Permission denied

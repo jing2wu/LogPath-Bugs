@@ -1,0 +1,32 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-17232",
+ "summary": "[Bug] [Master] when use K8S to  deploy master nodes use scroll batch deploy mode,  the master nodes may gain the same slot id",
+ "fix_commit": "7266e3fe9cbd741e6a5ee43021c6fcdfb604bf8b",
+ "buggy_version": "7266e3fe9c with dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/cluster/MasterSlotManager.java reverted to 7266e3fe9c^",
+ "jdk": "17",
+ "module": "dolphinscheduler-master",
+ "tests": [
+  "MasterSlotManagerTest#getNormalServersInAscendingOrder"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/cluster/MasterSlotManager.java:63"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 3,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "MasterSlotManagerTest#getNormalServersInAscendingOrder": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

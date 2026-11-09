@@ -1,0 +1,39 @@
+{
+ "project": "atlasmap__atlasmap",
+ "issue": "GH-3507",
+ "summary": "[BUG] Mappings aren't restored in 1st .adm import attempt",
+ "fix_commit": "43405d92345f0f3795492997dbcf43aee259286d",
+ "buggy_version": "43405d9234 with lib/core/src/main/java/io/atlasmap/core/ADMArchiveHandler.java, lib/service/src/main/java/io/atlasmap/service/AtlasService.java reverted to 43405d9234^",
+ "jdk": "17",
+ "module": "lib/service",
+ "tests": [
+  "AtlasServiceTest#testADMUpload"
+ ],
+ "faulty_lines": [
+  "lib/core/src/main/java/io/atlasmap/core/ADMArchiveHandler.java:219",
+  "lib/core/src/main/java/io/atlasmap/core/ADMArchiveHandler.java:220",
+  "lib/service/src/main/java/io/atlasmap/service/AtlasService.java:132",
+  "lib/service/src/main/java/io/atlasmap/service/AtlasService.java:133",
+  "lib/service/src/main/java/io/atlasmap/service/AtlasService.java:134",
+  "lib/service/src/main/java/io/atlasmap/service/AtlasService.java:446",
+  "lib/service/src/main/java/io/atlasmap/service/AtlasService.java:447",
+  "lib/service/src/main/java/io/atlasmap/service/AtlasService.java:448"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 23,
+ "pairs_exported": 85,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 23,
+ "stable": true,
+ "runs": {
+  "AtlasServiceTest#testADMUpload": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

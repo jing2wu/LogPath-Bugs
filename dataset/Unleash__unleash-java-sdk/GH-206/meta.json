@@ -1,0 +1,39 @@
+{
+ "project": "Unleash__unleash-java-sdk",
+ "issue": "GH-206",
+ "summary": "SDK exposes Api key in logs",
+ "fix_commit": "499ecd5367491eb387774440eec5bf5a9e3ec763",
+ "buggy_version": "499ecd5367 with src/main/java/io/getunleash/DefaultUnleash.java, src/main/java/io/getunleash/util/UnleashConfig.java reverted to 499ecd5367^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "DefaultUnleashTest#multiple_instantiations_of_the_same_config_gives_errors"
+ ],
+ "faulty_lines": [
+  "src/main/java/io/getunleash/DefaultUnleash.java:103",
+  "src/main/java/io/getunleash/DefaultUnleash.java:109",
+  "src/main/java/io/getunleash/DefaultUnleash.java:110",
+  "src/main/java/io/getunleash/util/UnleashConfig.java:274",
+  "src/main/java/io/getunleash/util/UnleashConfig.java:275",
+  "src/main/java/io/getunleash/util/UnleashConfig.java:276",
+  "src/main/java/io/getunleash/util/UnleashConfig.java:277",
+  "src/main/java/io/getunleash/util/UnleashConfig.java:423"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 183,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 183,
+ "stable": true,
+ "runs": {
+  "DefaultUnleashTest#multiple_instantiations_of_the_same_config_gives_errors": {
+   "threads": 3,
+   "log_threads": 2,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

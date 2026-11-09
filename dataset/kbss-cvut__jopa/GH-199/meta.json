@@ -1,0 +1,37 @@
+{
+ "project": "kbss-cvut__jopa",
+ "issue": "GH-199",
+ "summary": "jopa-maven-plugin: Some code generation issues with ODRL 2.2 ontology",
+ "fix_commit": "019d3fe4525e50df2b94f1980c32eea8b456e636",
+ "buggy_version": "019d3fe452 with jopa-owl2java/src/main/java/cz/cvut/kbss/jopa/owl2java/JavaTransformer.java reverted to 019d3fe452^",
+ "jdk": "17",
+ "module": "jopa-owl2java",
+ "tests": [
+  "JavaTransformerTest#generateModelDisambiguateClassesWithIdenticalJavaName"
+ ],
+ "faulty_lines": [
+  "jopa-owl2java/src/main/java/cz/cvut/kbss/jopa/owl2java/JavaTransformer.java:107",
+  "jopa-owl2java/src/main/java/cz/cvut/kbss/jopa/owl2java/JavaTransformer.java:393",
+  "jopa-owl2java/src/main/java/cz/cvut/kbss/jopa/owl2java/JavaTransformer.java:415",
+  "jopa-owl2java/src/main/java/cz/cvut/kbss/jopa/owl2java/JavaTransformer.java:438",
+  "jopa-owl2java/src/main/java/cz/cvut/kbss/jopa/owl2java/JavaTransformer.java:441",
+  "jopa-owl2java/src/main/java/cz/cvut/kbss/jopa/owl2java/JavaTransformer.java:484"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 24,
+ "pairs_exported": 3,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 24,
+ "stable": true,
+ "runs": {
+  "JavaTransformerTest#generateModelDisambiguateClassesWithIdenticalJavaName": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

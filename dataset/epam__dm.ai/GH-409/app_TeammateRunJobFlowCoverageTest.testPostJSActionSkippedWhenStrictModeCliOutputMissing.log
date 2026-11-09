@@ -1,0 +1,28 @@
+2026-11-03T22:34:30.372 INFO com.github.istin.dmtools.teammate.Teammate [Test worker] - Processing ticket: TEST-1
+2026-11-03T22:34:30.375 DEBUG com.github.istin.dmtools.job.JavaScriptExecutor [Test worker] - No JavaScript code provided, skipping execution
+2026-11-03T22:34:30.380 DEBUG com.github.istin.dmtools.common.utils.PropertyReader [Test worker] - No Gradle project markers found, using user.dir as project root: /tmp/junit-7895315104670134118
+2026-11-03T22:34:30.381 DEBUG com.github.istin.dmtools.common.utils.PropertyReader [Test worker] - dmtools.env not found in project root (/tmp/junit-7895315104670134118) or working directory (/tmp/junit-7895315104670134118)
+2026-11-03T22:34:30.408 INFO com.github.istin.dmtools.teammate.Teammate [Test worker] - GENERATION TOKEN LIMIT: 24946
+2026-11-03T22:34:30.408 INFO com.github.istin.dmtools.teammate.Teammate [Test worker] - skipAIProcessing=true: skipping context/attachment chunk building; attachments are delivered to the CLI agent via the input folder
+2026-11-03T22:34:30.453 INFO com.github.istin.dmtools.teammate.CliCommandBuilder [Test worker] - No CLI prompt provided, running commands as-is
+2026-11-03T22:34:30.464 INFO com.github.istin.dmtools.teammate.TicketInputContextBuilder [Test worker] - Building input context for ticket: TEST-1
+2026-11-03T22:34:30.467 INFO com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - Created input folder: /tmp/junit-7895315104670134118/input/TEST-1
+2026-11-03T22:34:30.470 INFO com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - Created request file: /tmp/junit-7895315104670134118/input/TEST-1/request.md (11 bytes)
+2026-11-03T22:34:30.471 DEBUG com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - 📎 Ticket TEST-1 has 0 attachments
+2026-11-03T22:34:30.474 INFO com.github.istin.dmtools.teammate.AgentParamsFileWriter [Test worker] - Written combined text instructions: /tmp/junit-7895315104670134118/input/TEST-1/instructions/instructions_text.md (17 chars)
+2026-11-03T22:34:30.474 DEBUG com.github.istin.dmtools.teammate.AgentParamsFileWriter [Test worker] - Skipping 'ai_role.md' — plain-text value is not written to a file
+2026-11-03T22:34:30.475 DEBUG com.github.istin.dmtools.teammate.AgentParamsFileWriter [Test worker] - Skipping 'known_info.md' — plain-text value is not written to a file
+2026-11-03T22:34:30.475 DEBUG com.github.istin.dmtools.teammate.AgentParamsFileWriter [Test worker] - Skipping 'formatting_rules.md' — plain-text value is not written to a file
+2026-11-03T22:34:30.475 DEBUG com.github.istin.dmtools.teammate.AgentParamsFileWriter [Test worker] - Skipping 'few_shots.md' — plain-text value is not written to a file
+2026-11-03T22:34:30.483 DEBUG com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - No Confluence URLs detected in ticket text
+2026-11-03T22:34:30.483 INFO com.github.istin.dmtools.teammate.TicketInputContextBuilder [Test worker] - Input context ready at: /tmp/junit-7895315104670134118/input/TEST-1
+2026-11-03T22:34:30.491 INFO com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - Set working directory to: /tmp/junit-7895315104670134118
+2026-11-03T22:34:30.491 INFO com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - Executing CLI command: echo ok
+2026-11-03T22:34:30.492 INFO com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - CLI command completed successfully
+2026-11-03T22:34:30.494 INFO com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - No output response file found at: /tmp/junit-7895315104670134118/output/response.md
+2026-11-03T22:34:30.494 INFO com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - No fallback output response file found at: /tmp/junit-7895315104670134118/outputs/response.md
+2026-11-03T22:34:30.517 INFO com.github.istin.dmtools.teammate.CliExecutionHelper [Test worker] - Cleaned up input folder: /tmp/junit-7895315104670134118/input/TEST-1
+2026-11-03T22:34:30.517 INFO com.github.istin.dmtools.teammate.Teammate [Test worker] - Cleaned up input folder (cleanupInputFolder=true)
+2026-11-03T22:34:30.518 WARN com.github.istin.dmtools.teammate.Teammate [Test worker] - CLI output file (response.md) is missing or empty for ticket TEST-1, but requireCliOutputFile=true. Will skip field update and post error comment.
+2026-11-03T22:34:30.523 WARN com.github.istin.dmtools.teammate.Teammate [Test worker] - Skipping output processing for ticket TEST-1 due to missing CLI output file (requireCliOutputFile=true)
+2026-11-03T22:34:30.527 INFO com.github.istin.dmtools.teammate.Teammate [Test worker] - Posted error comment to ticket TEST-1 instead of processing output (outputType=comment)

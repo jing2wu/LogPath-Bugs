@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-15254",
+ "summary": "[BUG][RUST] New AbstractRustCodegen.java not handling period-delimited model names well.",
+ "fix_commit": "03effd7d0511325a1571971bea4b86cf38a1a17f",
+ "buggy_version": "03effd7d05 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractRustCodegen.java reverted to 03effd7d05^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "AbstractRustCodegenTest#testSanitizeIdentifier"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractRustCodegen.java:187"
+ ],
+ "covering_pairs": 5,
+ "shortest_covering_pair": 59,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 5,
+ "shortest_covering_pair_printed": 59,
+ "stable": true,
+ "runs": {
+  "AbstractRustCodegenTest#testSanitizeIdentifier": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

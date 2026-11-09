@@ -1,0 +1,130 @@
+2026-11-03T21:49:44.713 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:49:45.001 FINER java.lang.ProcessBuilder start - ProcessBuilder.start(): pid: 3940207, dir: null, cmd: "/home/user/.sdkman/candidates/java/21.0.12+1.1-zulu/bin/java" "-Dnet.bytebuddy.agent.attacher.dump=" "-cp" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.10/byte-buddy-agent-1.15.10.jar" "net.bytebuddy.agent.Attacher" "com.sun.tools.attach.VirtualMachine" "3940115" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.10/byte-buddy-agent-1.15.10.jar" "false" ""
+java.lang.RuntimeException: ProcessBuilder.start() debug
+2026-11-03T21:49:47.593 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> HOST_OR_PATH, index=0, componentIndex=0
+2026-11-03T21:49:47.593 TRACE _org.springframework.web.util.RfcUriParser [main] - HOST_OR_PATH -> PATH, index=1, componentIndex=0
+2026-11-03T21:49:47.593 TRACE _org.springframework.web.util.RfcUriParser [main] - path set to '/web/sicknote/new'
+2026-11-03T21:49:47.969 DEBUG org.jboss.logging [main] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2026-11-03T21:49:47.975 INFO org.hibernate.validator.internal.util.Version [main] - HV000001: Hibernate Validator 8.0.1.Final
+2026-11-03T21:49:48.021 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [main] - Loaded expression factory via original TCCL
+2026-11-03T21:49:48.021 DEBUG org.hibernate.validator.internal.engine.AbstractConfigurationImpl [main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2026-11-03T21:49:48.030 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser [main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-11-03T21:49:48.031 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [main] - Trying to load META-INF/validation.xml via TCCL
+2026-11-03T21:49:48.032 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-11-03T21:49:48.032 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser [main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2026-11-03T21:49:48.045 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers [main] - Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2026-11-03T21:49:48.047 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers [main] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-11-03T21:49:48.235 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-11-03T21:49:48.244 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-11-03T21:49:48.244 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-11-03T21:49:48.244 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-11-03T21:49:48.244 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-11-03T21:49:48.245 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-11-03T21:49:48.487 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - 
+2026-11-03T21:49:48.536 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - 11 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+2026-11-03T21:49:48.787 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-11-03T21:49:48.813 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-11-03T21:49:48.829 INFO org.springframework.mock.web.MockServletContext [main] - Initializing Spring TestDispatcherServlet ''
+2026-11-03T21:49:48.829 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] - Initializing Servlet ''
+2026-11-03T21:49:48.831 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - No MultipartResolver 'multipartResolver' declared
+2026-11-03T21:49:48.831 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@7381d6f0
+2026-11-03T21:49:48.831 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected org.springframework.web.servlet.theme.FixedThemeResolver@2f262474
+2026-11-03T21:49:48.832 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected DefaultRequestToViewNameTranslator
+2026-11-03T21:49:48.832 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected SessionFlashMapManager
+2026-11-03T21:49:48.833 DEBUG org.springframework.test.web.servlet.TestDispatcherServlet [main] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-11-03T21:49:48.834 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] - Completed initialization in 4 ms
+2026-11-03T21:49:48.860 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - GET "/web/sicknote/new", parameters={masked}, headers={} in DispatcherServlet ''
+2026-11-03T21:49:48.872 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - Mapped to org.synyx.urlaubsverwaltung.sicknote.sicknote.SickNoteViewController#newSickNote(Long, String, Optional, Model)
+2026-11-03T21:49:48.902 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@1805ca5c]
+2026-11-03T21:49:48.920 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@602c167e]
+2026-11-03T21:49:48.922 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@e7b3e54]
+2026-11-03T21:49:48.928 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [1, null, Optional.empty, {}]
+2026-11-03T21:49:48.938 INFO org.synyx.urlaubsverwaltung.sicknote.sicknote.SickNoteViewController [main] - sick note of last work day found
+2026-11-03T21:49:48.944 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] - Applying default cacheSeconds=-1
+2026-11-03T21:49:48.947 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Rendering view [org.springframework.web.servlet.view.RedirectView: [RedirectView]; URL [/web/sicknote/extend]] 
+2026-11-03T21:49:48.949 DEBUG org.springframework.web.servlet.view.RedirectView [main] - View [RedirectView], model {}
+2026-11-03T21:49:48.952 DEBUG org.springframework.test.web.servlet.TestDispatcherServlet [main] - Completed 302 FOUND, headers={masked}
+2026-11-03T21:49:49.006 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> HOST_OR_PATH, index=0, componentIndex=0
+2026-11-03T21:49:49.007 TRACE _org.springframework.web.util.RfcUriParser [main] - HOST_OR_PATH -> PATH, index=1, componentIndex=0
+2026-11-03T21:49:49.008 TRACE _org.springframework.web.util.RfcUriParser [main] - path set to '/web/sicknote/new'
+2026-11-03T21:49:49.010 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [main] - Loaded expression factory via original TCCL
+2026-11-03T21:49:49.010 DEBUG org.hibernate.validator.internal.engine.AbstractConfigurationImpl [main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2026-11-03T21:49:49.010 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser [main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-11-03T21:49:49.010 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [main] - Trying to load META-INF/validation.xml via TCCL
+2026-11-03T21:49:49.011 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-11-03T21:49:49.011 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser [main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2026-11-03T21:49:49.011 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers [main] - Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2026-11-03T21:49:49.011 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers [main] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-11-03T21:49:49.016 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-11-03T21:49:49.017 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-11-03T21:49:49.018 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-11-03T21:49:49.018 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-11-03T21:49:49.018 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-11-03T21:49:49.019 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-11-03T21:49:49.036 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - 
+2026-11-03T21:49:49.045 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - 11 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+2026-11-03T21:49:49.051 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-11-03T21:49:49.051 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-11-03T21:49:49.052 INFO org.springframework.mock.web.MockServletContext [main] - Initializing Spring TestDispatcherServlet ''
+2026-11-03T21:49:49.052 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] - Initializing Servlet ''
+2026-11-03T21:49:49.052 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - No MultipartResolver 'multipartResolver' declared
+2026-11-03T21:49:49.052 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@336070ab
+2026-11-03T21:49:49.052 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected org.springframework.web.servlet.theme.FixedThemeResolver@3be50b2c
+2026-11-03T21:49:49.052 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected DefaultRequestToViewNameTranslator
+2026-11-03T21:49:49.052 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected SessionFlashMapManager
+2026-11-03T21:49:49.052 DEBUG org.springframework.test.web.servlet.TestDispatcherServlet [main] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-11-03T21:49:49.052 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] - Completed initialization in 0 ms
+2026-11-03T21:49:49.053 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - GET "/web/sicknote/new", parameters={masked}, headers={} in DispatcherServlet ''
+2026-11-03T21:49:49.053 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - Mapped to org.synyx.urlaubsverwaltung.sicknote.sicknote.SickNoteViewController#newSickNote(Long, String, Optional, Model)
+2026-11-03T21:49:49.056 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@20a4cba7]
+2026-11-03T21:49:49.056 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2ed35f24]
+2026-11-03T21:49:49.057 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@3d405fe5]
+2026-11-03T21:49:49.057 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [1, null, Optional.empty, {}]
+2026-11-03T21:49:49.058 INFO org.synyx.urlaubsverwaltung.sicknote.sicknote.SickNoteViewController [main] - sick note of last work day found
+2026-11-03T21:49:49.059 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] - Applying default cacheSeconds=-1
+2026-11-03T21:49:49.059 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Rendering view [org.springframework.web.servlet.view.RedirectView: [RedirectView]; URL [/web/sicknote/extend]] 
+2026-11-03T21:49:49.059 DEBUG org.springframework.web.servlet.view.RedirectView [main] - View [RedirectView], model {}
+2026-11-03T21:49:49.059 DEBUG org.springframework.test.web.servlet.TestDispatcherServlet [main] - Completed 302 FOUND, headers={masked}
+2026-11-03T21:49:49.085 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> HOST_OR_PATH, index=0, componentIndex=0
+2026-11-03T21:49:49.085 TRACE _org.springframework.web.util.RfcUriParser [main] - HOST_OR_PATH -> PATH, index=1, componentIndex=0
+2026-11-03T21:49:49.085 TRACE _org.springframework.web.util.RfcUriParser [main] - path set to '/web/sicknote/new'
+2026-11-03T21:49:49.092 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [main] - Loaded expression factory via original TCCL
+2026-11-03T21:49:49.092 DEBUG org.hibernate.validator.internal.engine.AbstractConfigurationImpl [main] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2026-11-03T21:49:49.092 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser [main] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2026-11-03T21:49:49.092 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [main] - Trying to load META-INF/validation.xml via TCCL
+2026-11-03T21:49:49.093 DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [main] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2026-11-03T21:49:49.093 DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser [main] - No META-INF/validation.xml found. Using annotation based configuration only.
+2026-11-03T21:49:49.093 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers [main] - Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2026-11-03T21:49:49.093 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers [main] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2026-11-03T21:49:49.095 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2026-11-03T21:49:49.097 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2026-11-03T21:49:49.097 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2026-11-03T21:49:49.097 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2026-11-03T21:49:49.097 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2026-11-03T21:49:49.097 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper [main] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2026-11-03T21:49:49.114 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - 
+2026-11-03T21:49:49.130 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - 11 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+2026-11-03T21:49:49.133 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-11-03T21:49:49.133 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-11-03T21:49:49.133 INFO org.springframework.mock.web.MockServletContext [main] - Initializing Spring TestDispatcherServlet ''
+2026-11-03T21:49:49.133 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] - Initializing Servlet ''
+2026-11-03T21:49:49.134 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - No MultipartResolver 'multipartResolver' declared
+2026-11-03T21:49:49.134 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@4c8a9266
+2026-11-03T21:49:49.135 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected org.springframework.web.servlet.theme.FixedThemeResolver@63ad5fe7
+2026-11-03T21:49:49.135 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected DefaultRequestToViewNameTranslator
+2026-11-03T21:49:49.135 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Detected SessionFlashMapManager
+2026-11-03T21:49:49.135 DEBUG org.springframework.test.web.servlet.TestDispatcherServlet [main] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-11-03T21:49:49.135 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] - Completed initialization in 1 ms
+2026-11-03T21:49:49.135 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - GET "/web/sicknote/new", parameters={masked}, headers={} in DispatcherServlet ''
+2026-11-03T21:49:49.135 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] - Mapped to org.synyx.urlaubsverwaltung.sicknote.sicknote.SickNoteViewController#newSickNote(Long, String, Optional, Model)
+2026-11-03T21:49:49.137 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@495bc9e7]
+2026-11-03T21:49:49.141 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@6e7fa4b0]
+2026-11-03T21:49:49.142 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@36d39655]
+2026-11-03T21:49:49.145 TRACE org.springframework.web.method.HandlerMethod [main] - Arguments: [1, null, Optional.empty, {}]
+2026-11-03T21:49:49.146 INFO org.synyx.urlaubsverwaltung.sicknote.sicknote.SickNoteViewController [main] - sick note of last work day found
+2026-11-03T21:49:49.150 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] - Applying default cacheSeconds=-1
+2026-11-03T21:49:49.151 TRACE org.springframework.test.web.servlet.TestDispatcherServlet [main] - Rendering view [org.springframework.web.servlet.view.RedirectView: [RedirectView]; URL [/web/sicknote/extend]] 
+2026-11-03T21:49:49.151 DEBUG org.springframework.web.servlet.view.RedirectView [main] - View [RedirectView], model {}
+2026-11-03T21:49:49.152 DEBUG org.springframework.test.web.servlet.TestDispatcherServlet [main] - Completed 302 FOUND, headers={masked}
+2026-11-03T21:49:49.272 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

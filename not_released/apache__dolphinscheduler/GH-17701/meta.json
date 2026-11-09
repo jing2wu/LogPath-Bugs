@@ -1,0 +1,33 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-17701",
+ "summary": "[Bug] [SqlTask] When field names are duplicated in a query statement, the result set suffers from name collision, causing values to overwrite each other",
+ "fix_commit": "9ce565ecc8d3f752ef4f12be247a8af0d42c20bc",
+ "buggy_version": "9ce565ecc8 with dolphinscheduler-task-plugin/dolphinscheduler-task-sql/src/main/java/org/apache/dolphinscheduler/plugin/task/sql/SqlTask.java reverted to 9ce565ecc8^",
+ "jdk": "17",
+ "module": "dolphinscheduler-task-plugin/dolphinscheduler-task-sql",
+ "tests": [
+  "SqlTaskTest#testResultProcess_DuplicateColumnLabels_ThrowsTaskException"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-task-plugin/dolphinscheduler-task-sql/src/main/java/org/apache/dolphinscheduler/plugin/task/sql/SqlTask.java:248",
+  "dolphinscheduler-task-plugin/dolphinscheduler-task-sql/src/main/java/org/apache/dolphinscheduler/plugin/task/sql/SqlTask.java:253"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "SqlTaskTest#testResultProcess_DuplicateColumnLabels_ThrowsTaskException": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

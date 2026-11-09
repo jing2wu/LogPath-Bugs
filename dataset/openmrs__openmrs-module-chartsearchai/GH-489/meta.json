@@ -1,0 +1,35 @@
+{
+ "project": "openmrs__openmrs-module-chartsearchai",
+ "issue": "GH-489",
+ "summary": "Follow-ups from #487: the ended-order phrase ahead of its drug, and the unpinned multi-name combination walk",
+ "fix_commit": "fd24ea36368758245d3b87668ce276528e1c5b88",
+ "buggy_version": "fd24ea3636 with api/src/main/java/org/openmrs/module/chartsearchai/api/impl/EndedOrderStatement.java, api/src/main/java/org/openmrs/module/chartsearchai/reference/DrugSafetyValidator.java reverted to fd24ea3636^",
+ "jdk": "17",
+ "module": "api",
+ "tests": [
+  "LlmInferenceServiceEndedOrderStatementContextTest#aPhraseAheadOfAnotherDrugDoesNotStateThisOnesEnd"
+ ],
+ "faulty_lines": [
+  "api/src/main/java/org/openmrs/module/chartsearchai/reference/DrugSafetyValidator.java:1899",
+  "api/src/main/java/org/openmrs/module/chartsearchai/reference/DrugSafetyValidator.java:1920",
+  "api/src/main/java/org/openmrs/module/chartsearchai/reference/DrugSafetyValidator.java:1923",
+  "api/src/main/java/org/openmrs/module/chartsearchai/reference/DrugSafetyValidator.java:1924"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 324,
+ "pairs_exported": 12,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 324,
+ "stable": true,
+ "runs": {
+  "LlmInferenceServiceEndedOrderStatementContextTest#aPhraseAheadOfAnotherDrugDoesNotStateThisOnesEnd": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

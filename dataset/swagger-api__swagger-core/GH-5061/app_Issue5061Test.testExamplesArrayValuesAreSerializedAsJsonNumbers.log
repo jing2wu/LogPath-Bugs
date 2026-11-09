@@ -1,0 +1,433 @@
+2026-11-03T20:44:03.601 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE Issue5061Test.testExamplesArrayValuesAreSerializedAsJsonNumbers()[pri:0, instance:io.swagger.v3.core.converting.Issue5061Test@821330f] 302277308
+2026-11-03T20:44:03.605 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:44:03.611 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:44:03.611 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:44:03.611 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:44:05.593 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve class io.swagger.v3.core.converting.Issue5061Test$ModelWithExamplesArray
+2026-11-03T20:44:05.593 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@5d1b1c2a
+2026-11-03T20:44:06.103 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel ModelWithExamplesArray class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:44:06.120 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve [simple type, class java.math.BigDecimal]
+2026-11-03T20:44:06.120 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@5d1b1c2a
+2026-11-03T20:44:06.120 TRACE io.swagger.v3.core.jackson.ModelResolver [main] - Can't check class [simple type, class java.math.BigDecimal], java.math.BigDecimal
+2026-11-03T20:44:06.362 DEBUG io.swagger.v3.core.converter.ModelConverterContextImpl [main] - resolve class java.lang.String
+2026-11-03T20:44:06.362 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - trying extension io.swagger.v3.core.jackson.ModelResolver@5d1b1c2a
+2026-11-03T20:44:06.377 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel ModelWithExamplesArray class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {bigDecimalWithExamples=class JsonSchema {
+            class Schema {
+                type: [number]
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+                booleanSchemaValue: null
+            }
+        }, stringWithExamples=class JsonSchema {
+            class Schema {
+                type: [string]
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+                booleanSchemaValue: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:44:06.394 TRACE io.swagger.v3.core.converter.ModelConverterContextImpl [main] - defineModel ModelWithExamplesArray class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: {bigDecimalWithExamples=class JsonSchema {
+            class Schema {
+                type: [number]
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+                booleanSchemaValue: null
+            }
+        }, stringWithExamples=class JsonSchema {
+            class Schema {
+                type: [string]
+                format: null
+                $ref: null
+                description: null
+                title: null
+                multipleOf: null
+                maximum: null
+                exclusiveMaximum: null
+                minimum: null
+                exclusiveMinimum: null
+                maxLength: null
+                minLength: null
+                pattern: null
+                maxItems: null
+                minItems: null
+                uniqueItems: null
+                maxProperties: null
+                minProperties: null
+                required: null
+                not: null
+                properties: null
+                additionalProperties: null
+                nullable: null
+                readOnly: null
+                writeOnly: null
+                example: null
+                externalDocs: null
+                deprecated: null
+                discriminator: null
+                xml: null
+                patternProperties: null
+                contains: null
+                $id: null
+                $anchor: null
+                $schema: null
+                $vocabulary: null
+                $dynamicAnchor: null
+                $dynamicRef: null
+                const: null
+                contentEncoding: null
+                contentMediaType: null
+                contentSchema: null
+                propertyNames: null
+                unevaluatedProperties: null
+                maxContains: null
+                minContains: null
+                additionalItems: null
+                unevaluatedItems: null
+                _if: null
+                _else: null
+                then: null
+                dependentRequired: null
+                dependentSchemas: null
+                $comment: null
+                prefixItems: null
+                booleanSchemaValue: null
+            }
+        }}
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:44:06.601 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE Issue5061Test.testExamplesArrayValuesAreSerializedAsJsonNumbers()[pri:0, instance:io.swagger.v3.core.converting.Issue5061Test@821330f] 302277308
+2026-11-03T20:44:06.602 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:44:06.602 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:44:06.602 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:44:06.602 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

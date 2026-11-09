@@ -1,0 +1,34 @@
+{
+ "project": "terrakube-io__terrakube",
+ "issue": "GH-1773",
+ "summary": "CLI triggered plans losing file permissions",
+ "fix_commit": "760d766b500bc9d9c6b9df466754c7d9992fa3ae",
+ "buggy_version": "760d766b50 with executor/src/main/java/io/terrakube/executor/service/workspace/SetupWorkspaceImpl.java reverted to 760d766b50^",
+ "jdk": "25",
+ "module": "executor",
+ "tests": [
+  "SetupWorkspaceTest#keepsExecutableBitFromTarGz"
+ ],
+ "faulty_lines": [
+  "executor/src/main/java/io/terrakube/executor/service/workspace/SetupWorkspaceImpl.java:403",
+  "executor/src/main/java/io/terrakube/executor/service/workspace/SetupWorkspaceImpl.java:404",
+  "executor/src/main/java/io/terrakube/executor/service/workspace/SetupWorkspaceImpl.java:66"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 7,
+ "pairs_exported": 7,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 7,
+ "stable": true,
+ "runs": {
+  "SetupWorkspaceTest#keepsExecutableBitFromTarGz": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

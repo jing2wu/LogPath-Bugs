@@ -1,0 +1,48 @@
+{
+ "project": "nitrite__nitrite-java",
+ "issue": "GH-990",
+ "summary": "bug: migration from 3.x to 4.x with MVStore module fails",
+ "fix_commit": "2e0b69e2fc7d9b72c66e63b479052211a8cb45c9",
+ "buggy_version": "2e0b69e2fc with nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java, nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/compat/v1/UpgradeUtil.java reverted to 2e0b69e2fc^",
+ "jdk": "17",
+ "module": "nitrite-mvstore-adapter",
+ "tests": [
+  "NitriteTest#testUpdateDocumentsFromVersion3"
+ ],
+ "faulty_lines": [
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:108",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:213",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:214",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:217",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:218",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:219",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:222",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:223",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:224",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:225",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:226",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:227",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:228",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:40",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:41",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/MVStoreUtils.java:51",
+  "nitrite-mvstore-adapter/src/main/java/org/dizitart/no2/mvstore/compat/v1/UpgradeUtil.java:193"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 144,
+ "pairs_exported": 32,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 144,
+ "stable": true,
+ "runs": {
+  "NitriteTest#testUpdateDocumentsFromVersion3": {
+   "threads": 11,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

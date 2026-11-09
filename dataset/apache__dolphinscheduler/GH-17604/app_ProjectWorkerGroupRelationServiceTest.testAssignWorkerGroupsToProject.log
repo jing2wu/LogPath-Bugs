@@ -1,0 +1,6 @@
+2026-11-03T20:03:16.893 INFO org.apache.dolphinscheduler.api.service.impl.ProjectWorkerGroupRelationServiceImpl [main] - Success to delete worker groups [[test]] for the project [test] .
+2026-11-03T20:03:16.913 INFO org.apache.dolphinscheduler.api.service.impl.ProjectWorkerGroupRelationServiceImpl [main] - Success to add worker group [test] for the project [test] .
+2026-11-03T20:03:16.955 INFO org.apache.dolphinscheduler.api.service.impl.ProjectWorkerGroupRelationServiceImpl [main] - Success to delete worker groups [[test]] for the project [test] .
+2026-11-03T20:03:16.958 INFO org.apache.dolphinscheduler.api.service.impl.ProjectWorkerGroupRelationServiceImpl [main] - Success to add worker group [test] for the project [test] .
+2026-11-03T20:03:16.989 ERROR org.apache.dolphinscheduler.api.service.impl.ProjectWorkerGroupRelationServiceImpl [main] - Failed to delete worker groups [[test]] for the project [test].
+2026-11-03T20:03:17.010 ERROR org.apache.dolphinscheduler.api.service.impl.ProjectWorkerGroupRelationServiceImpl [main] - Failed to delete worker groups [[test1]] for the project [test].

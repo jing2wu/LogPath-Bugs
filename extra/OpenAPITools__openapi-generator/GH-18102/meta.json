@@ -1,0 +1,53 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-18102",
+ "summary": "[BUG][JAVA] Model generation of array with uniqueItems=true is not working",
+ "fix_commit": "5ed2283e019231d525dd51f46b60a7c9d0fa8947",
+ "buggy_version": "5ed2283e01 with modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java reverted to 5ed2283e01^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "SpringCodegenTest#testCollectionTypesWithDefaults_issue_18102"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1038",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1039",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1106",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1112",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1158",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1161",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1162",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1164",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1165",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1184",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1185",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1186",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1187",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1188",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1189",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1190",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1191",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1193",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1194",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1195",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1196",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractJavaCodegen.java:1205"
+ ],
+ "covering_pairs": 22,
+ "shortest_covering_pair": 161,
+ "pairs_exported": 71,
+ "covering_pairs_printed": 22,
+ "shortest_covering_pair_printed": 161,
+ "stable": true,
+ "runs": {
+  "SpringCodegenTest#testCollectionTypesWithDefaults_issue_18102": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

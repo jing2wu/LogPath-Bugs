@@ -1,0 +1,40 @@
+{
+ "project": "pf4j__pf4j",
+ "issue": "GH-701",
+ "summary": "The plugins attribute of an inherited Extension annotation does not reach the subclass",
+ "fix_commit": "6e1bdbf715e1f99c00361a2360e53b4bf7b6fc4f",
+ "buggy_version": "6e1bdbf715 with pf4j/src/main/java/org/pf4j/asm/ExtensionInfo.java, pf4j/src/main/java/org/pf4j/asm/ExtensionVisitor.java reverted to 6e1bdbf715^",
+ "jdk": "17",
+ "module": "pf4j",
+ "tests": [
+  "AbstractExtensionFinderTest#findSkipsExtensionWhoseInheritedRequiredPluginIsNotStarted"
+ ],
+ "faulty_lines": [
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionInfo.java:100",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionInfo.java:102",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionInfo.java:108",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionInfo.java:95",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionInfo.java:96",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionInfo.java:97",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionInfo.java:98",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionVisitor.java:49",
+  "pf4j/src/main/java/org/pf4j/asm/ExtensionVisitor.java:61"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 25,
+ "pairs_exported": 9,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 25,
+ "stable": true,
+ "runs": {
+  "AbstractExtensionFinderTest#findSkipsExtensionWhoseInheritedRequiredPluginIsNotStarted": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

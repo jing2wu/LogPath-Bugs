@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-22349",
+ "summary": "[BUG][Kotlin] Empty (invalid) data class generated when using discriminator and kotlinx.serialization",
+ "fix_commit": "039de98d4f195c9d8ae8c86c032a02c77391c9c7",
+ "buggy_version": "039de98d4f with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinClientCodegen.java reverted to 039de98d4f^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "KotlinClientCodegenModelTest#emptyModelKotlinxSerializationTest"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinClientCodegen.java:991",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinClientCodegen.java:992"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 626,
+ "pairs_exported": 65,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 626,
+ "stable": true,
+ "runs": {
+  "KotlinClientCodegenModelTest#emptyModelKotlinxSerializationTest": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

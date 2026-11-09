@@ -1,0 +1,29 @@
+2026-11-03T21:49:42.932 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:49:43.051 FINER java.lang.ProcessBuilder start - ProcessBuilder.start(): pid: 3940071, dir: null, cmd: "/home/user/.sdkman/candidates/java/21.0.12+1.1-zulu/bin/java" "-Dnet.bytebuddy.agent.attacher.dump=" "-cp" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.13/byte-buddy-agent-1.14.13.jar" "net.bytebuddy.agent.Attacher" "com.sun.tools.attach.VirtualMachine" "3939991" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.13/byte-buddy-agent-1.14.13.jar" "false" ""
+java.lang.RuntimeException: ProcessBuilder.start() debug
+2026-11-03T21:49:44.547 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.644 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.655 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.672 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.682 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.691 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.705 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.717 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.725 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.735 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.750 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.758 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.767 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.778 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.790 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.804 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.819 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.829 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.839 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.848 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.856 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.866 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.875 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.889 INFO org.synyx.urlaubsverwaltung.account.AccountInteractionServiceImpl [main] - Created holidays account: null
+2026-11-03T21:49:44.978 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

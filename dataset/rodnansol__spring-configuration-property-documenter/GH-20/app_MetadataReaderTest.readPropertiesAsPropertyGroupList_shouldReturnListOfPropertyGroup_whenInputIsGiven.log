@@ -1,0 +1,11 @@
+2026-11-03T22:16:02.873 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry loadTestEngines - Discovered TestEngines:
+- junit-jupiter (group ID: org.junit.jupiter, artifact ID: junit-jupiter-engine, version: 5.9.0, location: jar:file:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar!/org/junit/jupiter/engine/JupiterTestEngine.class)
+2026-11-03T22:16:02.904 CONFIG org.junit.platform.launcher.core.ServiceLoaderRegistry load - Loaded PostDiscoveryFilter instances: []
+2026-11-03T22:16:02.913 CONFIG org.junit.platform.launcher.core.ServiceLoaderRegistry load - Loaded LauncherDiscoveryListener instances: []
+2026-11-03T22:16:02.916 CONFIG org.junit.platform.launcher.core.ServiceLoaderRegistry load - Loaded TestExecutionListener instances: [org.junit.platform.launcher.listeners.UniqueIdTrackingListener@66a3ffec]
+2026-11-03T22:16:02.923 CONFIG org.junit.platform.launcher.core.ServiceLoaderRegistry load - Loaded LauncherSessionListener instances: []
+2026-11-03T22:16:03.344 TRACE org.rodnansol.core.generator.reader.MetadataReader [main] - Configuration metadata contains number of group:[0] and properties:[0]
+2026-11-03T22:16:03.403 TRACE org.rodnansol.core.generator.reader.MetadataReader [main] - Configuration metadata contains number of group:[0] and properties:[0]
+2026-11-03T22:16:03.419 TRACE org.rodnansol.core.generator.reader.MetadataReader [main] - Configuration metadata contains number of group:[1] and properties:[1]
+2026-11-03T22:16:03.427 TRACE org.rodnansol.core.generator.reader.MetadataReader [main] - Configuration metadata contains number of group:[3] and properties:[4]
+2026-11-03T22:16:03.437 TRACE org.rodnansol.core.generator.reader.MetadataReader [main] - Configuration metadata contains number of group:[4] and properties:[5]

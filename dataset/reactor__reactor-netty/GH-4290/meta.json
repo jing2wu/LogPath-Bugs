@@ -1,0 +1,37 @@
+{
+ "project": "reactor__reactor-netty",
+ "issue": "GH-4290",
+ "summary": "WebSocket over HTTP/2: server streams.active gauge leaks and connections.active goes negative after the connection closes",
+ "fix_commit": "c430260dad0f816c95974cfeafcd66506a81fdf7",
+ "buggy_version": "c430260dad with reactor-netty-http/src/main/java/reactor/netty/http/server/WebsocketServerOperations.java reverted to c430260dad^",
+ "jdk": "17",
+ "module": "reactor-netty-http",
+ "tests": [
+  "HttpMetricsHandlerTests#testServerConnectionsWebsocketMicrometerHttp2"
+ ],
+ "faulty_lines": [
+  "reactor-netty-http/src/main/java/reactor/netty/http/server/WebsocketServerOperations.java:324",
+  "reactor-netty-http/src/main/java/reactor/netty/http/server/WebsocketServerOperations.java:350",
+  "reactor-netty-http/src/main/java/reactor/netty/http/server/WebsocketServerOperations.java:351",
+  "reactor-netty-http/src/main/java/reactor/netty/http/server/WebsocketServerOperations.java:353",
+  "reactor-netty-http/src/main/java/reactor/netty/http/server/WebsocketServerOperations.java:354",
+  "reactor-netty-http/src/main/java/reactor/netty/http/server/WebsocketServerOperations.java:355"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 491,
+ "pairs_exported": 37,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 491,
+ "stable": true,
+ "runs": {
+  "HttpMetricsHandlerTests#testServerConnectionsWebsocketMicrometerHttp2": {
+   "threads": 17,
+   "log_threads": 3,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

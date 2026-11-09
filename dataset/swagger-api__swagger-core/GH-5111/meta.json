@@ -1,0 +1,60 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-5111",
+ "summary": "[Bug]: A Java raw Object is always resolved to OAS 3.1 object",
+ "fix_commit": "a25200409e5ffca7ddf662e81ceb47690d8f8db3",
+ "buggy_version": "a25200409e with modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java, modules/swagger-core/src/main/java/io/swagger/v3/core/util/PrimitiveType.java reverted to a25200409e^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "ModelResolverOAS31Test#testOAS31Fields",
+  "Oas31ObjectFieldTest#listOfObjectItemsShouldBeEmptySchema",
+  "Oas31ObjectFieldTest#mapOfObjectAdditionalPropertiesShouldBeEmptySchema",
+  "Oas31ObjectFieldTest#rawObjectPropertyShouldBeEmptySchema"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:3574",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:3575",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:605",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:606",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:607",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:623",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:624",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/PrimitiveType.java:242"
+ ],
+ "covering_pairs": 20,
+ "shortest_covering_pair": 288,
+ "pairs_exported": 79,
+ "covering_pairs_printed": 20,
+ "shortest_covering_pair_printed": 288,
+ "stable": true,
+ "runs": {
+  "ModelResolverOAS31Test#testOAS31Fields": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Oas31ObjectFieldTest#listOfObjectItemsShouldBeEmptySchema": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Oas31ObjectFieldTest#mapOfObjectAdditionalPropertiesShouldBeEmptySchema": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Oas31ObjectFieldTest#rawObjectPropertyShouldBeEmptySchema": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

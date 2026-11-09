@@ -1,0 +1,11 @@
+2026-11-03T21:40:38.704 DEBUG XPathEqExpr [main] - XPathEqExpr@40cb698e()
+2026-11-03T21:40:39.145 INFO XFormParser [main] - Parsing form...
+2026-11-03T21:40:39.156 INFO XFormParser [main] - Reading XML and parsing with kXML2 finished in 4.243 ms
+2026-11-03T21:40:39.164 INFO XFormParser [main] - Consolidating text finished in 7.418 ms
+2026-11-03T21:40:39.320 INFO XFormParser [main] - Title: "Value changed event"
+2026-11-03T21:40:39.666 INFO XFormParser [main] - Creating FormDef from parsed XML finished in 501.515 ms
+2026-11-03T21:40:39.760 TRACE XPathPathExpr [main] - getRefValue returning empty node value for /data/source[1]
+2026-11-03T21:40:39.789 INFO org.javarosa.core.test.Scenario [main] - Answer IntegerData{n=12} at /data/source[0]
+2026-11-03T21:40:39.812 INFO org.javarosa.core.model.actions.ActionController [main] - Event xforms-value-changed triggering action setvalue in context /data
+2026-11-03T21:40:39.813 TRACE XPathPathExpr [main] - getRefValue returning empty node value for /data/calculate[1]
+2026-11-03T21:40:39.822 TRACE XPathPathExpr [main] - getRefValue returning node value 12.0 for /data/source[1]

@@ -1,0 +1,45 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-11958",
+ "summary": "[BUG] python generates wrong model name and model file name",
+ "fix_commit": "41451ff5ee33257aeaf1a4abfed9f6ae861dd982",
+ "buggy_version": "41451ff5ee with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java reverted to 41451ff5ee^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "PythonClientTest#testToModel"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:637",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:639",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:642",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:643",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:644",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:645",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:648",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:649",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:650",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:651",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:653",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:654",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:658",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:663"
+ ],
+ "covering_pairs": 7,
+ "shortest_covering_pair": 519,
+ "pairs_exported": 7,
+ "covering_pairs_printed": 7,
+ "shortest_covering_pair_printed": 519,
+ "stable": true,
+ "runs": {
+  "PythonClientTest#testToModel": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 12
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

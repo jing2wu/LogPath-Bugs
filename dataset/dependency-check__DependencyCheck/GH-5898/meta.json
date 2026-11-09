@@ -1,0 +1,40 @@
+{
+ "project": "dependency-check__DependencyCheck",
+ "issue": "GH-5898",
+ "summary": "Pip analyzer not showing vulnerabilities",
+ "fix_commit": "949661be7154cae1923652928a8eaa0878e64fa5",
+ "buggy_version": "949661be71 with core/src/main/java/org/owasp/dependencycheck/analyzer/PipAnalyzer.java, core/src/main/java/org/owasp/dependencycheck/analyzer/PipfileAnalyzer.java reverted to 949661be71^",
+ "jdk": "17",
+ "module": "core",
+ "tests": [
+  "PipAnalyzerTest#testAnalyzePackageJson",
+  "PipfileAnalyzerTest#testAnalyzePackageJson"
+ ],
+ "faulty_lines": [
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/PipAnalyzer.java:77",
+  "core/src/main/java/org/owasp/dependencycheck/analyzer/PipfileAnalyzer.java:84"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 101,
+ "pairs_exported": 92,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 101,
+ "stable": true,
+ "runs": {
+  "PipAnalyzerTest#testAnalyzePackageJson": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "PipfileAnalyzerTest#testAnalyzePackageJson": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

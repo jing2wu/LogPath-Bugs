@@ -1,0 +1,47 @@
+{
+ "project": "pmd__pmd",
+ "issue": "GH-6961",
+ "summary": "[doc] When a rule's description has a link to another rule in the exact wrong position, the doc generation crashes",
+ "fix_commit": "a24c49986ee429e4907a182383f5902a5f816694",
+ "buggy_version": "a24c49986e with pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleDocGenerator.java, pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java reverted to a24c49986e^",
+ "jdk": "17",
+ "module": "pmd-doc",
+ "tests": [
+  "RuleTagCheckerTest#testAllChecks"
+ ],
+ "faulty_lines": [
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleDocGenerator.java:339",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:148",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:149",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:72",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:73",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:74",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:75",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:76",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:77",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:78",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:79",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:80",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:81",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:82",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:83",
+  "pmd-doc/src/main/java/net/sourceforge/pmd/doc/internal/RuleTagChecker.java:84"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 38,
+ "pairs_exported": 1,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 38,
+ "stable": true,
+ "runs": {
+  "RuleTagCheckerTest#testAllChecks": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

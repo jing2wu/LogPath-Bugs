@@ -1,0 +1,34 @@
+{
+ "project": "getodk__javarosa",
+ "issue": "GH-668",
+ "summary": "xforms-value-changed events fired before dependent calculations are recomputed",
+ "fix_commit": "3b174cac08484eb9dbbe8aa36b3d997c41ee5d04",
+ "buggy_version": "3b174cac08 with src/main/java/org/javarosa/core/model/FormDef.java reverted to 3b174cac08^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "SetValueActionTest#xformsValueChanged_triggeredAfterRecomputation"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/javarosa/core/model/FormDef.java:396",
+  "src/main/java/org/javarosa/core/model/FormDef.java:397",
+  "src/main/java/org/javarosa/core/model/FormDef.java:402"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 438,
+ "pairs_exported": 9,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 438,
+ "stable": true,
+ "runs": {
+  "SetValueActionTest#xformsValueChanged_triggeredAfterRecomputation": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

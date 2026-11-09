@@ -1,0 +1,32 @@
+{
+ "project": "skylot__jadx",
+ "issue": "GH-2949",
+ "summary": "[core] Unexpected throw in synchronized method [dx/d8]",
+ "fix_commit": "c5aedb312cbdd31e13ca1359b003c7a0d1400451",
+ "buggy_version": "c5aedb312c with jadx-core/src/main/java/jadx/core/dex/trycatch/ExceptionHandler.java reverted to c5aedb312c^",
+ "jdk": "17",
+ "module": "jadx-core",
+ "tests": [
+  "TestSynchronized7#test"
+ ],
+ "faulty_lines": [
+  "jadx-core/src/main/java/jadx/core/dex/trycatch/ExceptionHandler.java:199"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 6133,
+ "pairs_exported": 33,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "TestSynchronized7#test": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,48 @@
+{
+ "project": "agentscope-ai__agentscope-java",
+ "issue": "GH-714",
+ "summary": "[Bug]:RAGFlowClient\u4e2d\u91cd\u8bd5\u673a\u5236\u65e0\u6cd5\u6b63\u786e\u5904\u7406",
+ "fix_commit": "6b535067a463c81fc65f9c9ded9b9471d363f014",
+ "buggy_version": "6b535067a4 with agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java reverted to 6b535067a4^",
+ "jdk": "17",
+ "module": "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow",
+ "tests": [
+  "RAGFlowClientTest#testRetryKeepsFinalErrorResponseBodyReadable",
+  "RAGFlowClientTest#testRetryReturnsFinalErrorResponseAfterEarlierIOException"
+ ],
+ "faulty_lines": [
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:318",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:324",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:325",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:329",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:330",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:340",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:364",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:365",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:366",
+  "agentscope-extensions/agentscope-extensions-rag/agentscope-extensions-rag-ragflow/src/main/java/io/agentscope/core/rag/integration/ragflow/RAGFlowClient.java:371"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 14,
+ "pairs_exported": 3,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "RAGFlowClientTest#testRetryKeepsFinalErrorResponseBodyReadable": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "RAGFlowClientTest#testRetryReturnsFinalErrorResponseAfterEarlierIOException": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

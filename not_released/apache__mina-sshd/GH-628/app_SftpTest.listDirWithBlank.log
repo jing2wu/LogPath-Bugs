@@ -1,0 +1,34 @@
+2026-11-03T21:02:48.075 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:02:49.158 INFO org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider [main] - generateKeyPair(EC) generating host key=nistp256
+2026-11-03T21:02:49.611 INFO org.apache.sshd.common.io.DefaultIoServiceFactoryFactory [main] - Using Nio2ServiceFactoryFactory
+2026-11-03T21:02:49.673 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=40783
+2026-11-03T21:02:50.219 WARN com.jcraft.jsch.JSch [main] - Permanently added '[127.0.0.1]:40783' (ECDSA) to the list of known hosts.
+2026-11-03T21:02:50.327 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[250a946](port=0)-nio2-thread-5] - Session sshd@/127.0.0.1:46462 authenticated
+2026-11-03T21:02:50.605 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[4bdbfbc6]-nio2-thread-4] - Server at /127.0.0.1:40783 presented unverified EC key: SHA256:0GXBuD+DzwQhl1PgnQVLbw/y/jHmL5pP7diSLONT+eU
+2026-11-03T21:02:50.779 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[250a946](port=0)-nio2-thread-11] - Session listDirWithBlank@/127.0.0.1:46468 authenticated
+2026-11-03T21:02:51.587 WARN org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[250a946](port=0)-nio2-thread-5] - exceptionCaught(ServerSessionImpl[listDirWithBlank@/127.0.0.1:46468])[state=Opened] IOException: Connection reset
+2026-11-03T21:02:51.750 WARN com.jcraft.jsch.JSch [main] - Permanently added '[127.0.0.1]:40783' (ECDSA) to the list of known hosts.
+2026-11-03T21:02:51.782 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[250a946](port=0)-nio2-thread-8] - Session sshd@/127.0.0.1:46484 authenticated
+2026-11-03T21:02:51.863 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[4bdbfbc6]-nio2-thread-4] - Server at /127.0.0.1:40783 presented unverified EC key: SHA256:0GXBuD+DzwQhl1PgnQVLbw/y/jHmL5pP7diSLONT+eU
+2026-11-03T21:02:52.023 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[250a946](port=0)-nio2-thread-14] - Session listDirWithBlank@/127.0.0.1:46498 authenticated
+2026-11-03T21:02:52.313 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:02:52.322 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=42985
+2026-11-03T21:02:52.369 WARN com.jcraft.jsch.JSch [main] - Permanently added '[127.0.0.1]:42985' (ECDSA) to the list of known hosts.
+2026-11-03T21:02:52.438 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[4998944b](port=0)-nio2-thread-3] - Session sshd@/127.0.0.1:48730 authenticated
+2026-11-03T21:02:52.513 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[3d44f15d]-nio2-thread-4] - Server at /127.0.0.1:42985 presented unverified EC key: SHA256:0GXBuD+DzwQhl1PgnQVLbw/y/jHmL5pP7diSLONT+eU
+2026-11-03T21:02:52.620 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[4998944b](port=0)-nio2-thread-9] - Session listDirWithBlank@/127.0.0.1:48732 authenticated
+2026-11-03T21:02:52.846 WARN org.apache.sshd.server.channel.ChannelSession [sshd-SftpSubsystem-57312-thread-1] - onExit(ChannelSession[id=0, recipient=0]-ServerSessionImpl[listDirWithBlank@/127.0.0.1:48732]) code=0 message='' SshException closing shell: Write attempt on closing session: SSH_MSG_CHANNEL_REQUEST
+2026-11-03T21:02:52.945 WARN com.jcraft.jsch.JSch [main] - Permanently added '[127.0.0.1]:42985' (ECDSA) to the list of known hosts.
+2026-11-03T21:02:52.978 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[4998944b](port=0)-nio2-thread-6] - Session sshd@/127.0.0.1:48748 authenticated
+2026-11-03T21:02:53.076 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[3d44f15d]-nio2-thread-3] - Server at /127.0.0.1:42985 presented unverified EC key: SHA256:0GXBuD+DzwQhl1PgnQVLbw/y/jHmL5pP7diSLONT+eU
+2026-11-03T21:02:53.200 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[4998944b](port=0)-nio2-thread-14] - Session listDirWithBlank@/127.0.0.1:48752 authenticated
+2026-11-03T21:02:53.373 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-03T21:02:53.379 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=40353
+2026-11-03T21:02:53.414 WARN com.jcraft.jsch.JSch [main] - Permanently added '[127.0.0.1]:40353' (ECDSA) to the list of known hosts.
+2026-11-03T21:02:53.428 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[1be598c](port=0)-nio2-thread-4] - Session sshd@/127.0.0.1:46106 authenticated
+2026-11-03T21:02:53.487 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[155ab4b]-nio2-thread-4] - Server at /127.0.0.1:40353 presented unverified EC key: SHA256:0GXBuD+DzwQhl1PgnQVLbw/y/jHmL5pP7diSLONT+eU
+2026-11-03T21:02:53.551 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[1be598c](port=0)-nio2-thread-10] - Session listDirWithBlank@/127.0.0.1:46108 authenticated
+2026-11-03T21:02:53.689 WARN com.jcraft.jsch.JSch [main] - Permanently added '[127.0.0.1]:40353' (ECDSA) to the list of known hosts.
+2026-11-03T21:02:53.702 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[1be598c](port=0)-nio2-thread-6] - Session sshd@/127.0.0.1:46116 authenticated
+2026-11-03T21:02:53.749 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[155ab4b]-nio2-thread-6] - Server at /127.0.0.1:40353 presented unverified EC key: SHA256:0GXBuD+DzwQhl1PgnQVLbw/y/jHmL5pP7diSLONT+eU
+2026-11-03T21:02:53.820 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[1be598c](port=0)-nio2-thread-12] - Session listDirWithBlank@/127.0.0.1:46118 authenticated

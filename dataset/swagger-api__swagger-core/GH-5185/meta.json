@@ -1,0 +1,39 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-5185",
+ "summary": "[Bug]: @Schema with format = \"uri-reference\" on java.net.URI field resolves to format: uri when using ModelConverters",
+ "fix_commit": "6f799eedee6110b7deb82cd093b663db14d06654",
+ "buggy_version": "6f799eedee with modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java reverted to 6f799eedee^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "Ticket5185Test#testExplicitFormatOverridesTypeDerivedFormat",
+  "Ticket5185Test#testExplicitFormatPrecedenceForStringAndNumericTypes"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:3179"
+ ],
+ "covering_pairs": 10,
+ "shortest_covering_pair": 434,
+ "pairs_exported": 18,
+ "covering_pairs_printed": 10,
+ "shortest_covering_pair_printed": 434,
+ "stable": true,
+ "runs": {
+  "Ticket5185Test#testExplicitFormatOverridesTypeDerivedFormat": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Ticket5185Test#testExplicitFormatPrecedenceForStringAndNumericTypes": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

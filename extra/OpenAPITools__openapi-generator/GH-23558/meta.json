@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23558",
+ "summary": "[BUG] (Dart-Dio) import-mappings are ignored in some import statements",
+ "fix_commit": "388f031deaf7f9186b219960a1f76cf2dcfd34ea",
+ "buggy_version": "388f031dea with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultGenerator.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/DartDioClientCodegen.java reverted to 388f031dea^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "DartDioClientCodegenTest#testImportMappingsInSerializersAndBarrelFile"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/DartDioClientCodegen.java:619",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/DartDioClientCodegen.java:620"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 834,
+ "pairs_exported": 86,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 834,
+ "stable": true,
+ "runs": {
+  "DartDioClientCodegenTest#testImportMappingsInSerializersAndBarrelFile": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

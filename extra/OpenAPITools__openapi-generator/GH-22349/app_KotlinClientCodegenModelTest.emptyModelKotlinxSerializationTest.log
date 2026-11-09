@@ -1,0 +1,1470 @@
+2026-11-03T20:58:33.882 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T20:58:34.658 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testLocalVariablesUseSanitizedDataTypeNamesForAnyOfProperty_19942(org.openapitools.codegen.kotlin.ClientLibrary)[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 753600908
+2026-11-03T20:58:34.658 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsThreetenbp()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 750965355
+2026-11-03T20:58:34.658 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.polymorphicKotlinxSerialization()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -1044445466
+2026-11-03T20:58:34.658 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.givenSchemaObjectPropertyNameContainsDollarSignWhenGenerateThenDollarSignIsProperlyEscapedInAnnotation()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -88716211
+2026-11-03T20:58:34.658 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.arrayPropertyTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 1201242299
+2026-11-03T20:58:34.660 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsString()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -913750865
+2026-11-03T20:58:34.660 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsJava8()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 1081669226
+2026-11-03T20:58:34.660 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsThreetenbpLocalDateTime()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -1642701619
+2026-11-03T20:58:34.660 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.sanitizeModelNames(java.lang.String,org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest$ModelNameTest)[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 1335105507
+2026-11-03T20:58:34.662 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.emptyModelKotlinxSerializationTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -459831906
+2026-11-03T20:58:34.662 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.listPropertyTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -1286677152
+2026-11-03T20:58:34.662 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testIntArrayToEnum()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 21965619
+2026-11-03T20:58:34.662 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testNativeClientExplodedQueryParamObject()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 160070226
+2026-11-03T20:58:34.662 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testOmitGradleWrapperDoesNotGenerateWrapper()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -614069104
+2026-11-03T20:58:34.662 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.mapPropertyTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 159911514
+2026-11-03T20:58:34.662 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.simpleModelTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 1040488164
+2026-11-03T20:58:34.663 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsJava8LocalDateTime()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 1818068586
+2026-11-03T20:58:34.663 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testFailOnUnknownPropertiesAdditionalProperty()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -1122548415
+2026-11-03T20:58:34.663 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.polymorphicJacksonSerialization()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -501866870
+2026-11-03T20:58:34.663 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.complexPropertyTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] -1157541746
+2026-11-03T20:58:34.663 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testLocalVariablesUseSanitizedDataTypeNamesForOneOfProperty_19942(org.openapitools.codegen.kotlin.ClientLibrary)[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@64db4967] 1618941538
+2026-11-03T20:58:34.663 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:34.698 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:34.698 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:34.698 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testLocalVariablesUseSanitizedDataTypeNamesForAnyOfProperty_19942(org.openapitools.codegen.kotlin.ClientLibrary)[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] 355448534
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsThreetenbp()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] 352812981
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.polymorphicKotlinxSerialization()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -1442597840
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.givenSchemaObjectPropertyNameContainsDollarSignWhenGenerateThenDollarSignIsProperlyEscapedInAnnotation()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -486868585
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.arrayPropertyTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] 803089925
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsString()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -1311903239
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsJava8()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] 683516852
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsThreetenbpLocalDateTime()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -2040853993
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.sanitizeModelNames(java.lang.String,org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest$ModelNameTest)[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] 936953133
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.emptyModelKotlinxSerializationTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -857984280
+2026-11-03T20:58:35.319 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.listPropertyTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -1684829526
+2026-11-03T20:58:35.320 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testIntArrayToEnum()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -376186755
+2026-11-03T20:58:35.321 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testNativeClientExplodedQueryParamObject()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -238082148
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testOmitGradleWrapperDoesNotGenerateWrapper()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -1012221478
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.mapPropertyTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -238240860
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.simpleModelTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] 642335790
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.selectDateLibraryAsJava8LocalDateTime()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] 1419916212
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testFailOnUnknownPropertiesAdditionalProperty()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -1520700789
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.polymorphicJacksonSerialization()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -900019244
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.complexPropertyTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] -1555694120
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.testLocalVariablesUseSanitizedDataTypeNamesForOneOfProperty_19942(org.openapitools.codegen.kotlin.ClientLibrary)[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@4d1ff6b1] 1220789164
+2026-11-03T20:58:35.322 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:35.327 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:35.327 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:35.328 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:36.521 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.emptyModelKotlinxSerializationTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@2b80e5a9] -1422056992
+2026-11-03T20:58:36.521 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:36.521 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:36.521 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:36.521 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:37.258 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - Environment variable KOTLIN_POST_PROCESS_FILE not defined so the Kotlin code may not be properly formatted. To define it, try 'export KOTLIN_POST_PROCESS_FILE="/usr/local/bin/ktlint -F"' (Linux/Mac)
+2026-11-03T20:58:37.258 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:58:37.889 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='kotlin', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={serializationLibrary=kotlinx_serialization, gitHost=github.com, modelPackage=model, releaseNote=Minor update, gitUserId=GIT_USER_ID, gitRepoId=GIT_REPO_ID}, importMappings={}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T20:58:38.208 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:58:40.624 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/kotlin/empty-model.yaml', outputDir='/tmp/test1602809515558804561', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T20:58:40.680 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.0
+info:
+  title: Test Empty Model
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    Response:
+      type: "object"
+      properties:
+        result_or_error:
+          nullable: true
+          discriminator:
+            propertyName: "_type"
+            mapping:
+              result: "#/components/schemas/EmptyModel"
+              error: "#/components/schemas/Error"
+          oneOf:
+            - $ref: "#/components/schemas/EmptyModel"
+            - $ref: "#/components/schemas/Error"
+    EmptyModel:
+      type: object
+      properties:
+        _type:
+          required:
+            - "_type"
+          type: string
+          default: "result"
+      additionalProperties: false
+    Error:
+      type: object
+      required:
+        - "code"
+      properties:
+        code:
+          type: integer
+        _type:
+          required:
+            - "_type"
+          type: string
+          default: "error"
+      additionalProperties: false
+2026-11-03T20:58:41.035 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:58:41.366 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T20:58:41.390 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T20:58:41.394 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: kotlin (client)
+2026-11-03T20:58:41.394 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'kotlin' is considered stable.
+2026-11-03T20:58:41.395 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - Environment variable KOTLIN_POST_PROCESS_FILE not defined so the Kotlin code may not be properly formatted. To define it, try 'export KOTLIN_POST_PROCESS_FILE="/usr/local/bin/ktlint -F"' (Linux/Mac)
+2026-11-03T20:58:41.395 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:58:41.567 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as Response_result_or_error. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings Response_result_or_error=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings Response_result_or_error=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:58:41.582 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:41.615 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:41.729 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for result_or_error: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Response_result_or_error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:41.781 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='ResponseResultOrError', baseName='result_or_error', complexType='ResponseResultOrError', getter='getResultOrError', setter='setResultOrError', description='null', dataType='ResponseResultOrError', datatypeWithEnum='ResponseResultOrError', dataFormat='null', name='resultOrError', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.result_or_error;', baseType='ResponseResultOrError', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Response_result_or_error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='resultOrError', nameInPascalCase='ResultOrError', nameInSnakeCase='RESULT_OR_ERROR', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Response_result_or_error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:41.820 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:41.829 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='_type', complexType='null', getter='getType', setter='setType', description='null', dataType='kotlin.String', datatypeWithEnum='kotlin.String', dataFormat='null', name='type', min='null', max='null', defaultValue='"result"', defaultValueWithParam=' = data._type;', baseType='kotlin.String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "default" : "result",
+  "required" : [ "_type" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='type', nameInPascalCase='Type', nameInSnakeCase='TYPE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:41.853 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class IntegerSchema {
+    class Schema {
+        type: integer
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:41.861 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='code', complexType='null', getter='getCode', setter='setCode', description='null', dataType='kotlin.Int', datatypeWithEnum='kotlin.Int', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='kotlin.Int', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:41.863 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:41.869 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='_type', complexType='null', getter='getType', setter='setType', description='null', dataType='kotlin.String', datatypeWithEnum='kotlin.String', dataFormat='null', name='type', min='null', max='null', defaultValue='"error"', defaultValueWithParam=' = data._type;', baseType='kotlin.String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "default" : "error",
+  "required" : [ "_type" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='type', nameInPascalCase='Type', nameInSnakeCase='TYPE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:41.890 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for one_of_0: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/EmptyModel
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:41.897 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='EmptyModel', baseName='one_of_0', complexType='EmptyModel', getter='getOneOf0', setter='setOneOf0', description='null', dataType='EmptyModel', datatypeWithEnum='EmptyModel', dataFormat='null', name='oneOf0', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.one_of_0;', baseType='EmptyModel', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/EmptyModel"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='oneOf0', nameInPascalCase='OneOf0', nameInSnakeCase='ONE_OF0', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/EmptyModel, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:41.897 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for one_of_1: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:41.905 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='Error', baseName='one_of_1', complexType='Error', getter='getOneOf1', setter='setOneOf1', description='null', dataType='Error', datatypeWithEnum='Error', dataFormat='null', name='oneOf1', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.one_of_1;', baseType='Error', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='oneOf1', nameInPascalCase='OneOf1', nameInSnakeCase='ONE_OF1', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:41.912 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for EmptyModel: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/EmptyModel
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:41.917 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='EmptyModel', baseName='EmptyModel', complexType='EmptyModel', getter='getEmptyModel', setter='setEmptyModel', description='null', dataType='EmptyModel', datatypeWithEnum='EmptyModel', dataFormat='null', name='emptyModel', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.EmptyModel;', baseType='EmptyModel', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/EmptyModel"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='emptyModel', nameInPascalCase='EmptyModel', nameInSnakeCase='EMPTY_MODEL', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/EmptyModel, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:41.972 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Error: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:41.979 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='Error', baseName='Error', complexType='Error', getter='getError', setter='setError', description='null', dataType='Error', datatypeWithEnum='Error', dataFormat='null', name='error', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Error;', baseType='Error', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='error', nameInPascalCase='Error', nameInSnakeCase='ERROR', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:41.997 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:41.999 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for _type : null required=false
+2026-11-03T20:58:41.999 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class IntegerSchema {
+    class Schema {
+        type: integer
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:41.999 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for code : null required=true
+2026-11-03T20:58:42.000 DEBUG org.openapitools.codegen.DefaultCodegen [main] - The property `_type` already defined in the child model. Using the one from child.
+2026-11-03T20:58:42.000 DEBUG org.openapitools.codegen.DefaultCodegen [main] - The property `code` already defined in the child model. Using the one from child.
+2026-11-03T20:58:42.070 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/model/EmptyModel.kt
+2026-11-03T20:58:42.077 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/test/kotlin/model/EmptyModelTest.kt
+2026-11-03T20:58:42.081 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/docs/EmptyModel.md
+2026-11-03T20:58:42.116 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/model/Error.kt
+2026-11-03T20:58:42.119 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/test/kotlin/model/ErrorTest.kt
+2026-11-03T20:58:42.123 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/docs/Error.md
+2026-11-03T20:58:42.146 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/model/Response.kt
+2026-11-03T20:58:42.151 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/test/kotlin/model/ResponseTest.kt
+2026-11-03T20:58:42.160 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/docs/Response.md
+2026-11-03T20:58:42.182 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/model/ResponseResultOrError.kt
+2026-11-03T20:58:42.186 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/test/kotlin/model/ResponseResultOrErrorTest.kt
+2026-11-03T20:58:42.196 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/docs/ResponseResultOrError.md
+2026-11-03T20:58:42.199 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:42.208 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/README.md
+2026-11-03T20:58:42.211 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/build.gradle
+2026-11-03T20:58:42.215 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/settings.gradle
+2026-11-03T20:58:42.221 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/gradlew
+2026-11-03T20:58:42.225 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/gradlew.bat
+2026-11-03T20:58:42.228 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/gradle/wrapper/gradle-wrapper.properties
+2026-11-03T20:58:42.235 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/gradle/wrapper/gradle-wrapper.jar
+2026-11-03T20:58:42.240 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/ApiClient.kt
+2026-11-03T20:58:42.243 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/ApiAbstractions.kt
+2026-11-03T20:58:42.245 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/PartConfig.kt
+2026-11-03T20:58:42.247 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/RequestConfig.kt
+2026-11-03T20:58:42.251 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/RequestMethod.kt
+2026-11-03T20:58:42.256 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/Serializer.kt
+2026-11-03T20:58:42.258 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/AtomicBooleanAdapter.kt
+2026-11-03T20:58:42.260 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/AtomicIntegerAdapter.kt
+2026-11-03T20:58:42.261 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/AtomicLongAdapter.kt
+2026-11-03T20:58:42.263 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/URIAdapter.kt
+2026-11-03T20:58:42.264 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/URLAdapter.kt
+2026-11-03T20:58:42.266 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/BigIntegerAdapter.kt
+2026-11-03T20:58:42.268 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/BigDecimalAdapter.kt
+2026-11-03T20:58:42.276 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/LocalDateAdapter.kt
+2026-11-03T20:58:42.278 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/LocalDateTimeAdapter.kt
+2026-11-03T20:58:42.281 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/OffsetDateTimeAdapter.kt
+2026-11-03T20:58:42.284 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/UUIDAdapter.kt
+2026-11-03T20:58:42.287 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/StringBuilderAdapter.kt
+2026-11-03T20:58:42.288 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/proguard-rules.pro
+2026-11-03T20:58:42.292 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/Errors.kt
+2026-11-03T20:58:42.294 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/ResponseExtensions.kt
+2026-11-03T20:58:42.296 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/src/main/kotlin/org/openapitools/client/infrastructure/ApiResponse.kt
+2026-11-03T20:58:42.299 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/.openapi-generator-ignore
+2026-11-03T20:58:42.300 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/.openapi-generator/VERSION
+2026-11-03T20:58:42.311 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test1602809515558804561/.openapi-generator/FILES
+2026-11-03T20:58:42.406 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.emptyModelKotlinxSerializationTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@117fa1ca] -1858347519
+2026-11-03T20:58:42.407 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:42.407 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:42.407 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:42.407 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:42.439 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.emptyModelKotlinxSerializationTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@61caf5ef] -511233498
+2026-11-03T20:58:42.439 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:42.439 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:42.439 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:42.439 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:42.452 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - Environment variable KOTLIN_POST_PROCESS_FILE not defined so the Kotlin code may not be properly formatted. To define it, try 'export KOTLIN_POST_PROCESS_FILE="/usr/local/bin/ktlint -F"' (Linux/Mac)
+2026-11-03T20:58:42.453 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:58:42.455 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='kotlin', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={serializationLibrary=kotlinx_serialization, gitHost=github.com, modelPackage=model, releaseNote=Minor update, gitUserId=GIT_USER_ID, gitRepoId=GIT_REPO_ID}, importMappings={}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T20:58:42.466 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:58:42.636 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/kotlin/empty-model.yaml', outputDir='/tmp/test17766423299271954302', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T20:58:42.637 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.0
+info:
+  title: Test Empty Model
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    Response:
+      type: "object"
+      properties:
+        result_or_error:
+          nullable: true
+          discriminator:
+            propertyName: "_type"
+            mapping:
+              result: "#/components/schemas/EmptyModel"
+              error: "#/components/schemas/Error"
+          oneOf:
+            - $ref: "#/components/schemas/EmptyModel"
+            - $ref: "#/components/schemas/Error"
+    EmptyModel:
+      type: object
+      properties:
+        _type:
+          required:
+            - "_type"
+          type: string
+          default: "result"
+      additionalProperties: false
+    Error:
+      type: object
+      required:
+        - "code"
+      properties:
+        code:
+          type: integer
+        _type:
+          required:
+            - "_type"
+          type: string
+          default: "error"
+      additionalProperties: false
+2026-11-03T20:58:42.653 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:58:42.829 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T20:58:42.830 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T20:58:42.830 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: kotlin (client)
+2026-11-03T20:58:42.830 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'kotlin' is considered stable.
+2026-11-03T20:58:42.830 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - Environment variable KOTLIN_POST_PROCESS_FILE not defined so the Kotlin code may not be properly formatted. To define it, try 'export KOTLIN_POST_PROCESS_FILE="/usr/local/bin/ktlint -F"' (Linux/Mac)
+2026-11-03T20:58:42.830 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:58:42.836 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as Response_result_or_error. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings Response_result_or_error=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings Response_result_or_error=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:58:42.837 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:42.837 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:42.841 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for result_or_error: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Response_result_or_error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:42.855 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='ResponseResultOrError', baseName='result_or_error', complexType='ResponseResultOrError', getter='getResultOrError', setter='setResultOrError', description='null', dataType='ResponseResultOrError', datatypeWithEnum='ResponseResultOrError', dataFormat='null', name='resultOrError', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.result_or_error;', baseType='ResponseResultOrError', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Response_result_or_error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='resultOrError', nameInPascalCase='ResultOrError', nameInSnakeCase='RESULT_OR_ERROR', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Response_result_or_error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:42.860 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:42.864 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='_type', complexType='null', getter='getType', setter='setType', description='null', dataType='kotlin.String', datatypeWithEnum='kotlin.String', dataFormat='null', name='type', min='null', max='null', defaultValue='"result"', defaultValueWithParam=' = data._type;', baseType='kotlin.String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "default" : "result",
+  "required" : [ "_type" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='type', nameInPascalCase='Type', nameInSnakeCase='TYPE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:42.875 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class IntegerSchema {
+    class Schema {
+        type: integer
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:42.882 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='code', complexType='null', getter='getCode', setter='setCode', description='null', dataType='kotlin.Int', datatypeWithEnum='kotlin.Int', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='kotlin.Int', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:42.886 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:42.895 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='_type', complexType='null', getter='getType', setter='setType', description='null', dataType='kotlin.String', datatypeWithEnum='kotlin.String', dataFormat='null', name='type', min='null', max='null', defaultValue='"error"', defaultValueWithParam=' = data._type;', baseType='kotlin.String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "default" : "error",
+  "required" : [ "_type" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='type', nameInPascalCase='Type', nameInSnakeCase='TYPE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:42.913 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for one_of_0: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/EmptyModel
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:42.917 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='EmptyModel', baseName='one_of_0', complexType='EmptyModel', getter='getOneOf0', setter='setOneOf0', description='null', dataType='EmptyModel', datatypeWithEnum='EmptyModel', dataFormat='null', name='oneOf0', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.one_of_0;', baseType='EmptyModel', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/EmptyModel"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='oneOf0', nameInPascalCase='OneOf0', nameInSnakeCase='ONE_OF0', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/EmptyModel, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:42.918 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for one_of_1: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:42.922 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='Error', baseName='one_of_1', complexType='Error', getter='getOneOf1', setter='setOneOf1', description='null', dataType='Error', datatypeWithEnum='Error', dataFormat='null', name='oneOf1', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.one_of_1;', baseType='Error', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='oneOf1', nameInPascalCase='OneOf1', nameInSnakeCase='ONE_OF1', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:42.924 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for EmptyModel: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/EmptyModel
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:42.929 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='EmptyModel', baseName='EmptyModel', complexType='EmptyModel', getter='getEmptyModel', setter='setEmptyModel', description='null', dataType='EmptyModel', datatypeWithEnum='EmptyModel', dataFormat='null', name='emptyModel', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.EmptyModel;', baseType='EmptyModel', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/EmptyModel"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='emptyModel', nameInPascalCase='EmptyModel', nameInSnakeCase='EMPTY_MODEL', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/EmptyModel, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:42.930 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Error: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:42.933 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='Error', baseName='Error', complexType='Error', getter='getError', setter='setError', description='null', dataType='Error', datatypeWithEnum='Error', dataFormat='null', name='error', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Error;', baseType='Error', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='error', nameInPascalCase='Error', nameInSnakeCase='ERROR', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:42.934 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:42.934 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for _type : null required=false
+2026-11-03T20:58:42.934 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class IntegerSchema {
+    class Schema {
+        type: integer
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:42.934 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for code : null required=true
+2026-11-03T20:58:42.934 DEBUG org.openapitools.codegen.DefaultCodegen [main] - The property `_type` already defined in the child model. Using the one from child.
+2026-11-03T20:58:42.934 DEBUG org.openapitools.codegen.DefaultCodegen [main] - The property `code` already defined in the child model. Using the one from child.
+2026-11-03T20:58:42.945 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/model/EmptyModel.kt
+2026-11-03T20:58:42.947 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/test/kotlin/model/EmptyModelTest.kt
+2026-11-03T20:58:42.949 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/docs/EmptyModel.md
+2026-11-03T20:58:42.959 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/model/Error.kt
+2026-11-03T20:58:42.961 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/test/kotlin/model/ErrorTest.kt
+2026-11-03T20:58:42.962 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/docs/Error.md
+2026-11-03T20:58:42.969 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/model/Response.kt
+2026-11-03T20:58:42.971 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/test/kotlin/model/ResponseTest.kt
+2026-11-03T20:58:42.973 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/docs/Response.md
+2026-11-03T20:58:42.982 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/model/ResponseResultOrError.kt
+2026-11-03T20:58:42.983 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/test/kotlin/model/ResponseResultOrErrorTest.kt
+2026-11-03T20:58:42.985 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/docs/ResponseResultOrError.md
+2026-11-03T20:58:42.985 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:42.987 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/README.md
+2026-11-03T20:58:42.989 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/build.gradle
+2026-11-03T20:58:42.991 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/settings.gradle
+2026-11-03T20:58:42.992 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/gradlew
+2026-11-03T20:58:42.993 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/gradlew.bat
+2026-11-03T20:58:42.994 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/gradle/wrapper/gradle-wrapper.properties
+2026-11-03T20:58:42.995 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/gradle/wrapper/gradle-wrapper.jar
+2026-11-03T20:58:42.997 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/ApiClient.kt
+2026-11-03T20:58:42.998 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/ApiAbstractions.kt
+2026-11-03T20:58:42.999 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/PartConfig.kt
+2026-11-03T20:58:43.000 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/RequestConfig.kt
+2026-11-03T20:58:43.001 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/RequestMethod.kt
+2026-11-03T20:58:43.003 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/Serializer.kt
+2026-11-03T20:58:43.004 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/AtomicBooleanAdapter.kt
+2026-11-03T20:58:43.005 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/AtomicIntegerAdapter.kt
+2026-11-03T20:58:43.007 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/AtomicLongAdapter.kt
+2026-11-03T20:58:43.010 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/URIAdapter.kt
+2026-11-03T20:58:43.012 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/URLAdapter.kt
+2026-11-03T20:58:43.014 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/BigIntegerAdapter.kt
+2026-11-03T20:58:43.015 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/BigDecimalAdapter.kt
+2026-11-03T20:58:43.017 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/LocalDateAdapter.kt
+2026-11-03T20:58:43.018 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/LocalDateTimeAdapter.kt
+2026-11-03T20:58:43.021 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/OffsetDateTimeAdapter.kt
+2026-11-03T20:58:43.022 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/UUIDAdapter.kt
+2026-11-03T20:58:43.024 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/StringBuilderAdapter.kt
+2026-11-03T20:58:43.025 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/proguard-rules.pro
+2026-11-03T20:58:43.027 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/Errors.kt
+2026-11-03T20:58:43.028 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/ResponseExtensions.kt
+2026-11-03T20:58:43.030 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/src/main/kotlin/org/openapitools/client/infrastructure/ApiResponse.kt
+2026-11-03T20:58:43.031 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/.openapi-generator-ignore
+2026-11-03T20:58:43.031 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/.openapi-generator/VERSION
+2026-11-03T20:58:43.033 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test17766423299271954302/.openapi-generator/FILES
+2026-11-03T20:58:43.068 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.emptyModelKotlinxSerializationTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@6357db93] -485222454
+2026-11-03T20:58:43.068 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:43.069 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:43.069 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:43.069 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:43.081 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinClientCodegenModelTest.emptyModelKotlinxSerializationTest()[pri:0, instance:org.openapitools.codegen.kotlin.KotlinClientCodegenModelTest@7de76d77] -39605842
+2026-11-03T20:58:43.081 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:58:43.081 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:58:43.081 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:58:43.081 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:58:43.085 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - Environment variable KOTLIN_POST_PROCESS_FILE not defined so the Kotlin code may not be properly formatted. To define it, try 'export KOTLIN_POST_PROCESS_FILE="/usr/local/bin/ktlint -F"' (Linux/Mac)
+2026-11-03T20:58:43.085 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:58:43.086 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='kotlin', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={serializationLibrary=kotlinx_serialization, gitHost=github.com, modelPackage=model, releaseNote=Minor update, gitUserId=GIT_USER_ID, gitRepoId=GIT_REPO_ID}, importMappings={}, languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T20:58:43.092 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:58:43.224 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/3_0/kotlin/empty-model.yaml', outputDir='/tmp/test11468119387552954467', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T20:58:43.225 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: 3.0.0
+info:
+  title: Test Empty Model
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    Response:
+      type: "object"
+      properties:
+        result_or_error:
+          nullable: true
+          discriminator:
+            propertyName: "_type"
+            mapping:
+              result: "#/components/schemas/EmptyModel"
+              error: "#/components/schemas/Error"
+          oneOf:
+            - $ref: "#/components/schemas/EmptyModel"
+            - $ref: "#/components/schemas/Error"
+    EmptyModel:
+      type: object
+      properties:
+        _type:
+          required:
+            - "_type"
+          type: string
+          default: "result"
+      additionalProperties: false
+    Error:
+      type: object
+      required:
+        - "code"
+      properties:
+        code:
+          type: integer
+        _type:
+          required:
+            - "_type"
+          type: string
+          default: "error"
+      additionalProperties: false
+2026-11-03T20:58:43.241 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:58:43.372 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T20:58:43.372 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T20:58:43.373 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: kotlin (client)
+2026-11-03T20:58:43.373 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'kotlin' is considered stable.
+2026-11-03T20:58:43.373 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - Environment variable KOTLIN_POST_PROCESS_FILE not defined so the Kotlin code may not be properly formatted. To define it, try 'export KOTLIN_POST_PROCESS_FILE="/usr/local/bin/ktlint -F"' (Linux/Mac)
+2026-11-03T20:58:43.373 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:58:43.376 INFO org.openapitools.codegen.InlineModelResolver [main] - Inline schema created as Response_result_or_error. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings Response_result_or_error=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings Response_result_or_error=NewModel,ModelA=NewModelA in CLI).
+2026-11-03T20:58:43.379 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:43.379 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:43.384 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for result_or_error: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Response_result_or_error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:43.388 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='ResponseResultOrError', baseName='result_or_error', complexType='ResponseResultOrError', getter='getResultOrError', setter='setResultOrError', description='null', dataType='ResponseResultOrError', datatypeWithEnum='ResponseResultOrError', dataFormat='null', name='resultOrError', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.result_or_error;', baseType='ResponseResultOrError', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Response_result_or_error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=true, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='resultOrError', nameInPascalCase='ResultOrError', nameInSnakeCase='RESULT_OR_ERROR', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Response_result_or_error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:43.392 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:43.396 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='_type', complexType='null', getter='getType', setter='setType', description='null', dataType='kotlin.String', datatypeWithEnum='kotlin.String', dataFormat='null', name='type', min='null', max='null', defaultValue='"result"', defaultValueWithParam=' = data._type;', baseType='kotlin.String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "default" : "result",
+  "required" : [ "_type" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='type', nameInPascalCase='Type', nameInSnakeCase='TYPE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:43.403 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class IntegerSchema {
+    class Schema {
+        type: integer
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:43.406 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='code', complexType='null', getter='getCode', setter='setCode', description='null', dataType='kotlin.Int', datatypeWithEnum='kotlin.Int', dataFormat='null', name='code', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.code;', baseType='kotlin.Int', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=true, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='code', nameInPascalCase='Code', nameInSnakeCase='CODE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:43.406 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:43.411 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='_type', complexType='null', getter='getType', setter='setType', description='null', dataType='kotlin.String', datatypeWithEnum='kotlin.String', dataFormat='null', name='type', min='null', max='null', defaultValue='"error"', defaultValueWithParam=' = data._type;', baseType='kotlin.String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "default" : "error",
+  "required" : [ "_type" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='type', nameInPascalCase='Type', nameInSnakeCase='TYPE', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:43.425 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for one_of_0: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/EmptyModel
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:43.428 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='EmptyModel', baseName='one_of_0', complexType='EmptyModel', getter='getOneOf0', setter='setOneOf0', description='null', dataType='EmptyModel', datatypeWithEnum='EmptyModel', dataFormat='null', name='oneOf0', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.one_of_0;', baseType='EmptyModel', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/EmptyModel"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='oneOf0', nameInPascalCase='OneOf0', nameInSnakeCase='ONE_OF0', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/EmptyModel, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:43.429 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for one_of_1: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:43.433 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='Error', baseName='one_of_1', complexType='Error', getter='getOneOf1', setter='setOneOf1', description='null', dataType='Error', datatypeWithEnum='Error', dataFormat='null', name='oneOf1', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.one_of_1;', baseType='Error', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='oneOf1', nameInPascalCase='OneOf1', nameInSnakeCase='ONE_OF1', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:43.434 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for EmptyModel: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/EmptyModel
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:43.438 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='EmptyModel', baseName='EmptyModel', complexType='EmptyModel', getter='getEmptyModel', setter='setEmptyModel', description='null', dataType='EmptyModel', datatypeWithEnum='EmptyModel', dataFormat='null', name='emptyModel', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.EmptyModel;', baseType='EmptyModel', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/EmptyModel"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='emptyModel', nameInPascalCase='EmptyModel', nameInSnakeCase='EMPTY_MODEL', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/EmptyModel, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:43.444 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Error: class Schema {
+    type: null
+    format: null
+    $ref: #/components/schemas/Error
+    description: null
+    title: null
+    multipleOf: null
+    maximum: null
+    exclusiveMaximum: null
+    minimum: null
+    exclusiveMinimum: null
+    maxLength: null
+    minLength: null
+    pattern: null
+    maxItems: null
+    minItems: null
+    uniqueItems: null
+    maxProperties: null
+    minProperties: null
+    required: null
+    not: null
+    properties: null
+    additionalProperties: null
+    nullable: null
+    readOnly: null
+    writeOnly: null
+    example: null
+    externalDocs: null
+    deprecated: null
+    discriminator: null
+    xml: null
+}
+2026-11-03T20:58:43.449 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='Error', baseName='Error', complexType='Error', getter='getError', setter='setError', description='null', dataType='Error', datatypeWithEnum='Error', dataFormat='null', name='error', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Error;', baseType='Error', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/Error"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='error', nameInPascalCase='Error', nameInSnakeCase='ERROR', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=#/components/schemas/Error, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:58:43.451 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for _type: class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: [_type]
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:43.451 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for _type : null required=false
+2026-11-03T20:58:43.451 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for code: class IntegerSchema {
+    class Schema {
+        type: integer
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:58:43.451 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Cached fromProperty for code : null required=true
+2026-11-03T20:58:43.451 DEBUG org.openapitools.codegen.DefaultCodegen [main] - The property `_type` already defined in the child model. Using the one from child.
+2026-11-03T20:58:43.451 DEBUG org.openapitools.codegen.DefaultCodegen [main] - The property `code` already defined in the child model. Using the one from child.
+2026-11-03T20:58:43.468 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/model/EmptyModel.kt
+2026-11-03T20:58:43.470 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/test/kotlin/model/EmptyModelTest.kt
+2026-11-03T20:58:43.473 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/docs/EmptyModel.md
+2026-11-03T20:58:43.485 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/model/Error.kt
+2026-11-03T20:58:43.488 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/test/kotlin/model/ErrorTest.kt
+2026-11-03T20:58:43.490 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/docs/Error.md
+2026-11-03T20:58:43.501 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/model/Response.kt
+2026-11-03T20:58:43.502 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/test/kotlin/model/ResponseTest.kt
+2026-11-03T20:58:43.505 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/docs/Response.md
+2026-11-03T20:58:43.515 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/model/ResponseResultOrError.kt
+2026-11-03T20:58:43.517 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/test/kotlin/model/ResponseResultOrErrorTest.kt
+2026-11-03T20:58:43.518 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/docs/ResponseResultOrError.md
+2026-11-03T20:58:43.519 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:58:43.520 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/README.md
+2026-11-03T20:58:43.521 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/build.gradle
+2026-11-03T20:58:43.522 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/settings.gradle
+2026-11-03T20:58:43.523 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/gradlew
+2026-11-03T20:58:43.524 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/gradlew.bat
+2026-11-03T20:58:43.525 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/gradle/wrapper/gradle-wrapper.properties
+2026-11-03T20:58:43.526 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/gradle/wrapper/gradle-wrapper.jar
+2026-11-03T20:58:43.528 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/ApiClient.kt
+2026-11-03T20:58:43.530 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/ApiAbstractions.kt
+2026-11-03T20:58:43.531 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/PartConfig.kt
+2026-11-03T20:58:43.532 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/RequestConfig.kt
+2026-11-03T20:58:43.534 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/RequestMethod.kt
+2026-11-03T20:58:43.535 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/Serializer.kt
+2026-11-03T20:58:43.537 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/AtomicBooleanAdapter.kt
+2026-11-03T20:58:43.538 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/AtomicIntegerAdapter.kt
+2026-11-03T20:58:43.540 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/AtomicLongAdapter.kt
+2026-11-03T20:58:43.541 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/URIAdapter.kt
+2026-11-03T20:58:43.542 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/URLAdapter.kt
+2026-11-03T20:58:43.545 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/BigIntegerAdapter.kt
+2026-11-03T20:58:43.546 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/BigDecimalAdapter.kt
+2026-11-03T20:58:43.549 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/LocalDateAdapter.kt
+2026-11-03T20:58:43.550 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/LocalDateTimeAdapter.kt
+2026-11-03T20:58:43.552 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/OffsetDateTimeAdapter.kt
+2026-11-03T20:58:43.554 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/UUIDAdapter.kt
+2026-11-03T20:58:43.556 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/StringBuilderAdapter.kt
+2026-11-03T20:58:43.557 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/proguard-rules.pro
+2026-11-03T20:58:43.559 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/Errors.kt
+2026-11-03T20:58:43.561 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/ResponseExtensions.kt
+2026-11-03T20:58:43.566 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/src/main/kotlin/org/openapitools/client/infrastructure/ApiResponse.kt
+2026-11-03T20:58:43.567 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/.openapi-generator-ignore
+2026-11-03T20:58:43.568 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/.openapi-generator/VERSION
+2026-11-03T20:58:43.570 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test11468119387552954467/.openapi-generator/FILES
+2026-11-03T20:58:43.605 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

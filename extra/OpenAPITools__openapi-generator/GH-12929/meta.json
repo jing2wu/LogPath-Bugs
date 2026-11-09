@@ -1,0 +1,48 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-12929",
+ "summary": "[BUG] AllOf in openapi file causing generator stackoverflow ",
+ "fix_commit": "965eb2a02fd23f52d1d931b1684f56cc51553f7d",
+ "buggy_version": "965eb2a02f with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java reverted to 965eb2a02f^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "JavaClientCodegenTest#testLogicToAvoidStackOverflow"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3193",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3212",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3223",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3246",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3276",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3285",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3286",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3292",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3311",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3340",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3401",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3497",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java:1344",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java:1394",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java:1419",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java:1427",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/utils/ModelUtils.java:1435"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 626,
+ "pairs_exported": 24,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 626,
+ "stable": true,
+ "runs": {
+  "JavaClientCodegenTest#testLogicToAvoidStackOverflow": {
+   "threads": 4,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

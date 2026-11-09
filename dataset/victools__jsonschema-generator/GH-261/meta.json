@@ -1,0 +1,38 @@
+{
+ "project": "victools__jsonschema-generator",
+ "issue": "GH-261",
+ "summary": "Map additionalProperties sometimes missing with interface value",
+ "fix_commit": "7db0d1acbf48738ec207a3c580c3505dc8bb1c86",
+ "buggy_version": "7db0d1acbf with jsonschema-generator/src/main/java/com/github/victools/jsonschema/generator/impl/SchemaGenerationContextImpl.java reverted to 7db0d1acbf^",
+ "jdk": "17",
+ "module": "jsonschema-generator",
+ "tests": [
+  "AdditionalPropertiesModuleTest#testAdditionalPropertyWithSubtype"
+ ],
+ "faulty_lines": [
+  "jsonschema-generator/src/main/java/com/github/victools/jsonschema/generator/impl/SchemaGenerationContextImpl.java:335",
+  "jsonschema-generator/src/main/java/com/github/victools/jsonschema/generator/impl/SchemaGenerationContextImpl.java:337",
+  "jsonschema-generator/src/main/java/com/github/victools/jsonschema/generator/impl/SchemaGenerationContextImpl.java:338",
+  "jsonschema-generator/src/main/java/com/github/victools/jsonschema/generator/impl/SchemaGenerationContextImpl.java:339",
+  "jsonschema-generator/src/main/java/com/github/victools/jsonschema/generator/impl/SchemaGenerationContextImpl.java:340",
+  "jsonschema-generator/src/main/java/com/github/victools/jsonschema/generator/impl/SchemaGenerationContextImpl.java:341",
+  "jsonschema-generator/src/main/java/com/github/victools/jsonschema/generator/impl/SchemaGenerationContextImpl.java:342"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 67,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 67,
+ "stable": true,
+ "runs": {
+  "AdditionalPropertiesModuleTest#testAdditionalPropertyWithSubtype": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

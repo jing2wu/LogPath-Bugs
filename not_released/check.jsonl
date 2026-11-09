@@ -1,0 +1,29 @@
+{"project": "BrightSpots__rcv", "issue": "GH-621", "problems": [], "path_entries": 1163, "no_source_entries": 11, "pairs": 17}
+{"project": "Graylog2__graylog2-server", "issue": "GH-26833", "problems": [], "path_entries": 69, "pairs": 4}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-18443", "problems": [], "path_entries": 740, "pairs": 8}
+{"project": "OpenAPITools__openapi-generator", "issue": "GH-25067", "problems": [], "path_entries": 63137, "no_source_entries": 430, "pairs": 88}
+{"project": "OpenIntegrationEngine__engine", "issue": "GH-454", "problems": [], "path_entries": 68, "no_source_entries": 19, "pairs": 3}
+{"project": "TNG__JGiven", "issue": "GH-1801", "problems": [], "path_entries": 75870, "no_source_entries": 66462, "pairs": 139}
+{"project": "agentscope-ai__agentscope-java", "issue": "GH-1289", "problems": [], "path_entries": 397, "pairs": 10}
+{"project": "agentscope-ai__agentscope-java", "issue": "GH-1339", "problems": [], "path_entries": 64, "pairs": 2}
+{"project": "agentscope-ai__agentscope-java", "issue": "GH-1979", "problems": [], "path_entries": 117, "pairs": 9}
+{"project": "agentscope-ai__agentscope-java", "issue": "GH-2197", "problems": [], "path_entries": 169, "pairs": 3}
+{"project": "agentscope-ai__agentscope-java", "issue": "GH-2359", "problems": [], "path_entries": 1073, "pairs": 18}
+{"project": "agentscope-ai__agentscope-java", "issue": "GH-2366", "problems": [], "path_entries": 1578, "pairs": 12}
+{"project": "agentscope-ai__agentscope-java", "issue": "GH-2981", "problems": [], "path_entries": 1277, "pairs": 7}
+{"project": "agentscope-ai__agentscope-java", "issue": "GH-714", "problems": [], "path_entries": 60, "pairs": 3}
+{"project": "apache__dolphinscheduler", "issue": "GH-10403", "problems": [], "path_entries": 15, "pairs": 1}
+{"project": "apache__logging-log4j2", "issue": "GH-1550", "problems": [], "path_entries": 1626, "no_source_entries": 55, "pairs": 8}
+{"project": "apache__mina-sshd", "issue": "GH-318", "problems": [], "path_entries": 36251, "pairs": 68}
+{"project": "apache__mina-sshd", "issue": "GH-628", "problems": [], "path_entries": 20555, "pairs": 17}
+{"project": "apache__mina-sshd", "issue": "GH-733", "problems": [], "path_entries": 13074, "pairs": 15}
+{"project": "apache__shardingsphere", "issue": "GH-39189", "problems": [], "path_entries": 13042, "no_source_entries": 489, "pairs": 8}
+{"project": "elastic__apm-agent-java", "issue": "GH-2284", "problems": [], "path_entries": 2973, "pairs": 39}
+{"project": "ohs-foundation__fhir-gateway", "issue": "GH-42", "problems": [], "path_entries": 138, "pairs": 7}
+{"project": "pmd__pmd", "issue": "GH-6952", "problems": [], "path_entries": 10704, "pairs": 24}
+{"project": "reactor__reactor-netty", "issue": "GH-4251", "problems": [], "path_entries": 21323, "no_source_entries": 10182, "pairs": 80}
+{"project": "reactor__reactor-netty", "issue": "GH-4415", "problems": [], "path_entries": 33754, "no_source_entries": 17614, "pairs": 111}
+{"project": "s4u__pgpverify-maven-plugin", "issue": "GH-499", "problems": [], "path_entries": 316, "pairs": 4}
+{"project": "skylot__jadx", "issue": "GH-2949", "problems": [], "path_entries": 11998, "no_source_entries": 362, "pairs": 33}
+{"project": "zaproxy__zaproxy", "issue": "GH-7134", "problems": [], "path_entries": 3774, "no_source_entries": 42, "pairs": 42}
+{"project": "zsmartsystems__com.zsmartsystems.zigbee", "issue": "GH-1306", "problems": [], "path_entries": 43, "pairs": 1}

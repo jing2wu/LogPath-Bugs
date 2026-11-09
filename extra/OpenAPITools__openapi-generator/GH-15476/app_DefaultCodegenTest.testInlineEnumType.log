@@ -1,0 +1,312 @@
+2026-11-03T20:23:37.457 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultCodegenTest.testInlineEnumType()[pri:0, instance:org.openapitools.codegen.DefaultCodegenTest@4b3a01d8] 2142257915
+2026-11-03T20:23:37.460 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:23:37.465 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:23:37.466 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:23:37.466 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:23:37.741 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [TestNG-test=Surefire test-1] - Loaded raw data: openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Enum test
+servers:
+  - url: http://localhost:3000
+paths:
+  /fake/request-object-with-inline-enum:
+    post:
+      operationId: fakeRequestObjectWithInlineEnum
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: Contains property enumType that represents inline enum.
+              properties:
+                id:
+                  type: number
+                enumType:
+                  type: string
+                  enum:
+                    - one
+                    - two
+                    - three
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EnumPatternObject'
+  /fake/request-object-with-referenced-enum:
+    post:
+      operationId: fakeRequestObjectWithReferencedEnum
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: Contains property enumType that represents referenced enum.
+              properties:
+                id:
+                  type: number
+                enumType:
+                  $ref: '#/components/schemas/StringEnum'
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EnumPatternObject'
+  /fake/request-array-with-inline-enum:
+    post:
+      operationId: fakeRequestArrayWithInlineEnum
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: Contains property enumTypes that represents array of inline enums.
+              properties:
+                id:
+                  type: number
+                enumTypes:
+                  type: array
+                  items:
+                    type: string
+                    enum:
+                      - one
+                      - two
+                      - three
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EnumPatternObject'
+  /fake/request-array-with-referenced-enum:
+    post:
+      operationId: fakeRequestArrayWithReferencedEnum
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: Contains property enumTypes that represents array of referenced enums.
+              properties:
+                id:
+                  type: number
+                enumTypes:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/StringEnum'
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EnumPatternObject'
+  /fake/request-map-with-inline-enum:
+    post:
+      operationId: fakeRequestMapWithInlineEnum
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: Contains property enumTypes that represents map of inline enums.
+              properties:
+                id:
+                  type: number
+                enumTypes:
+                  type: object
+                  additionalProperties:
+                    type: string
+                    enum:
+                      - one
+                      - two
+                      - three
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EnumPatternObject'
+  /fake/request-map-with-referenced-enum:
+    post:
+      operationId: fakeRequestMapWithReferencedEnum
+      requestBody:
+        content:
+          application/json:
+            schema:
+              description: Contains property enumTypes that represents map of referenced enums.
+              properties:
+                id:
+                  type: number
+                enumTypes:
+                  type: object
+                  additionalProperties:
+                    $ref: '#/components/schemas/StringEnum'
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EnumPatternObject'
+  /fake/multipart-request-with-inline-enum:
+    post:
+      operationId: fakeRequestMultipartWithInlineEnum
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              description: Contains property enumType that represents inline enum.
+              properties:
+                id:
+                  type: number
+                enumType:
+                  type: string
+                  enum:
+                    - one
+                    - two
+                    - three
+  /fake/multipart-request-with-referenced-enum:
+    post:
+      operationId: fakeRequestMultipartWithReferencedEnum
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              description: Contains property enumType that represents referenced enum.
+              properties:
+                id:
+                  type: number
+                enumType:
+                  $ref: '#/components/schemas/StringEnum'
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EnumPatternObject'
+components:
+  schemas:
+    StringEnum:
+      type: string
+      enum:
+        - one
+        - two
+        - three
+    NumberEnum:
+      type: number
+      enum:
+        - 1
+        - 2
+        - 3
+    EnumPatternObject:
+      type: object
+      properties:
+        string-enum:
+          $ref: "#/components/schemas/StringEnum"
+        nullable-string-enum:
+          nullable: true
+          allOf:
+            - $ref: "#/components/schemas/StringEnum"
+        number-enum:
+          $ref: "#/components/schemas/NumberEnum"
+        nullable-number-enum:
+          nullable: true
+          allOf:
+            - $ref: "#/components/schemas/NumberEnum"
+        default-number-enum:
+          default: 2
+          allOf:
+            - $ref: "#/components/schemas/NumberEnum"
+        allof-number-enum:
+          allOf:
+            - $ref: "#/components/schemas/NumberEnum"
+2026-11-03T20:23:38.142 INFO org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline schema created as fakeRequestObjectWithInlineEnum_request. To have complete control of the model name, set the `title` field or use the inlineSchemaNameMapping option (--inline-schema-name-mappings in CLI).
+2026-11-03T20:23:38.146 INFO org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline schema created as fakeRequestObjectWithReferencedEnum_request. To have complete control of the model name, set the `title` field or use the inlineSchemaNameMapping option (--inline-schema-name-mappings in CLI).
+2026-11-03T20:23:38.169 INFO org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline schema created as fakeRequestArrayWithInlineEnum_request. To have complete control of the model name, set the `title` field or use the inlineSchemaNameMapping option (--inline-schema-name-mappings in CLI).
+2026-11-03T20:23:38.175 INFO org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline schema created as fakeRequestArrayWithReferencedEnum_request. To have complete control of the model name, set the `title` field or use the inlineSchemaNameMapping option (--inline-schema-name-mappings in CLI).
+2026-11-03T20:23:38.183 INFO org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline schema created as fakeRequestMapWithInlineEnum_request. To have complete control of the model name, set the `title` field or use the inlineSchemaNameMapping option (--inline-schema-name-mappings in CLI).
+2026-11-03T20:23:38.184 INFO org.openapitools.codegen.InlineModelResolver [TestNG-test=Surefire test-1] - Inline schema created as fakeRequestMapWithReferencedEnum_request. To have complete control of the model name, set the `title` field or use the inlineSchemaNameMapping option (--inline-schema-name-mappings in CLI).
+2026-11-03T20:23:38.426 WARN org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - escapeUnsafeCharacters should be overridden in the code generator with proper logic to escape unsafe characters
+2026-11-03T20:23:38.509 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for id : class NumberSchema {
+    class Schema {
+        type: number
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:23:38.568 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='number', baseName='id', complexType='number', getter='getId', setter='setId', description='null', dataType='BigDecimal', datatypeWithEnum='BigDecimal', dataFormat='null', name='id', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.id;', baseType='number', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "number"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=true, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Id', nameInSnakeCase='ID', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:23:38.574 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for enumType : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T20:23:38.580 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='enumType', complexType='string', getter='getEnumType', setter='setEnumType', description='null', dataType='String', datatypeWithEnum='EnumTypeEnum', dataFormat='null', name='enumType', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.enumType;', baseType='string', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string",
+  "enum" : [ "one", "two", "three" ]
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=true, isInnerEnum=true, isEnumRef=true, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=[one, two, three], allowableValues={values=[one, two, three]}, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='EnumType', nameInSnakeCase='ENUM_TYPE', enumName='EnumTypeEnum', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:23:38.793 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE DefaultCodegenTest.testInlineEnumType()[pri:0, instance:org.openapitools.codegen.DefaultCodegenTest@4b3a01d8] 2142257915
+2026-11-03T20:23:38.793 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:23:38.793 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:23:38.793 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:23:38.793 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

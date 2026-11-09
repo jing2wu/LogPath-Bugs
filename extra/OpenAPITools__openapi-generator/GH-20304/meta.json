@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-20304",
+ "summary": "[BUG] [OpenAPI 3.1] siblings of `$ref` are lost",
+ "fix_commit": "554e10dc345e5142ef222fc3da5d74d6cb167cd0",
+ "buggy_version": "554e10dc34 with modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java reverted to 554e10dc34^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "OpenAPINormalizerTest#testOpenAPINormalizerNormalizeReferenceSchema"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:698",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:699"
+ ],
+ "covering_pairs": 8,
+ "shortest_covering_pair": 87,
+ "pairs_exported": 11,
+ "covering_pairs_printed": 8,
+ "shortest_covering_pair_printed": 87,
+ "stable": true,
+ "runs": {
+  "OpenAPINormalizerTest#testOpenAPINormalizerNormalizeReferenceSchema": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

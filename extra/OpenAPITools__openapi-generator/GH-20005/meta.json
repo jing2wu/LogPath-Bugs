@@ -1,0 +1,34 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-20005",
+ "summary": "[BUG] [JAVA] allOf object are not correctly generated with properties REF_AS_PARENT_IN_ALLOF=true and REFACTOR_ALLOF_WITH_PROPERTIES_ONLY=true",
+ "fix_commit": "301af6050b517f518ab534edce3f728e5100dbf8",
+ "buggy_version": "301af6050b with modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java reverted to 301af6050b^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "OpenAPINormalizerTest#testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1330",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:758",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:766"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 637,
+ "pairs_exported": 6,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 637,
+ "stable": true,
+ "runs": {
+  "OpenAPINormalizerTest#testOpenAPINormalizerRefAsParentInAllOfAndRefactorAllOfWithProperties": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

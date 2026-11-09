@@ -1,0 +1,8 @@
+2026-11-03T20:04:59.291 TRACE org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - Initializing index 'spoc'...
+2026-11-03T20:04:59.725 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - context index has not been created yet: context index file /tmp/nativestore-wrap-test14818710925086013734/contexts.dat does not exist
+2026-11-03T20:04:59.725 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - initializing context cache
+2026-11-03T20:04:59.786 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - context index construction complete
+2026-11-03T20:04:59.805 TRACE org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - Initializing index 'spoc'...
+2026-11-03T20:04:59.832 TRACE org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - No uncompleted transactions found
+2026-11-03T20:05:00.188 ERROR org.eclipse.rdf4j.sail.nativerdf.NativeSailStore [main] - Encountered an unexpected problem while trying to commit
+java.lang.RuntimeException: simulated failure during commit

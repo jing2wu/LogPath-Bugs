@@ -1,0 +1,37 @@
+{
+ "project": "Beilstein-Institut__BChemXtract",
+ "issue": "GH-143",
+ "summary": "fix: java.lang.NullPointerException: Cannot invoke \"org.openscience.cdk.interfaces.IAtom.setIsAromatic(boolean)\" because the return value of \"org.openscience.cdk.interfaces.IBond.getEnd()\" is null",
+ "fix_commit": "865068cead7fdd8800d4fad6e12434a6ed05dc02",
+ "buggy_version": "865068cead with src/main/java/org/beilstein/chemxtract/converter/BondConverter.java, src/main/java/org/beilstein/chemxtract/converter/FragmentConverter.java, src/main/java/org/beilstein/chemxtract/utils/AttachmentHandler.java reverted to 865068cead^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "MultiAttachmentTest#crossingBondsSpanningTwoFragmentsStillExtract"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/beilstein/chemxtract/converter/BondConverter.java:92",
+  "src/main/java/org/beilstein/chemxtract/converter/FragmentConverter.java:161",
+  "src/main/java/org/beilstein/chemxtract/converter/FragmentConverter.java:162",
+  "src/main/java/org/beilstein/chemxtract/utils/AttachmentHandler.java:150",
+  "src/main/java/org/beilstein/chemxtract/utils/AttachmentHandler.java:151",
+  "src/main/java/org/beilstein/chemxtract/utils/AttachmentHandler.java:152"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 148,
+ "pairs_exported": 120,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 148,
+ "stable": true,
+ "runs": {
+  "MultiAttachmentTest#crossingBondsSpanningTwoFragmentsStillExtract": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

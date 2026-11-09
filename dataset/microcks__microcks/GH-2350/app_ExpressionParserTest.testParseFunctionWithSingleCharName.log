@@ -1,0 +1,7 @@
+2026-11-03T21:44:19.024 DEBUG io.github.microcks.util.el.ExpressionParser [main] - hasRedirect:false
+2026-11-03T21:44:19.034 DEBUG io.github.microcks.util.el.ExpressionParser [main] - hasFallback:false
+2026-11-03T21:44:19.037 DEBUG io.github.microcks.util.el.ExpressionParser [main] - hasVariable:false hasArgs:false isPostmanFunction:false varBeforeArgs:true
+2026-11-03T21:44:19.037 INFO io.github.microcks.util.el.ExpressionParser [main] - No ELFunction or complex VariableReference expressions found... Returning simple VariableReference
+2026-11-03T21:44:19.083 DEBUG io.github.microcks.util.el.ExpressionParser [main] - Expression accumulated. Pursuing with index 9 on 9
+2026-11-03T21:44:19.268 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

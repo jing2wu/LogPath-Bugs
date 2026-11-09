@@ -1,0 +1,39 @@
+{
+ "project": "urlaubsverwaltung__urlaubsverwaltung",
+ "issue": "GH-5022",
+ "summary": "Krankmeldung: Verl\u00e4ngerungen k\u00f6nnen invalide Krankmeldungen erzeugen",
+ "fix_commit": "86a85c321af32c69d6ef4a08f52336c56d721299",
+ "buggy_version": "86a85c321a with src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/SickNoteViewController.java, src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/extend/SickNoteExtendViewController.java reverted to 86a85c321a^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "SickNoteViewControllerTest#ensureGetNewSickNoteDoesNotRedirectToExtendIfSickNoteIsNotFull"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/SickNoteViewController.java:221",
+  "src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/extend/SickNoteExtendViewController.java:111",
+  "src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/extend/SickNoteExtendViewController.java:112",
+  "src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/extend/SickNoteExtendViewController.java:231",
+  "src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/extend/SickNoteExtendViewController.java:232",
+  "src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/extend/SickNoteExtendViewController.java:233",
+  "src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/extend/SickNoteExtendViewController.java:234",
+  "src/main/java/org/synyx/urlaubsverwaltung/sicknote/sicknote/extend/SickNoteExtendViewController.java:80"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 134,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 134,
+ "stable": true,
+ "runs": {
+  "SickNoteViewControllerTest#ensureGetNewSickNoteDoesNotRedirectToExtendIfSickNoteIsNotFull": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 3
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

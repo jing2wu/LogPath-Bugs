@@ -1,0 +1,209 @@
+2026-11-03T19:55:59.604 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinSpringServerCodegenTest.testNoRequestMappingAnnotation()[pri:0, instance:org.openapitools.codegen.kotlin.spring.KotlinSpringServerCodegenTest@52045dbe] 288733330
+2026-11-03T19:55:59.613 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:55:59.633 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:55:59.634 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:55:59.634 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T19:56:01.385 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - Generating with dryRun=false
+2026-11-03T19:56:01.798 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [TestNG-test=Surefire test-1] - Loaded raw data: openapi: "3.0.1"
+info:
+  title: test
+  version: "1.0"
+paths:
+  /api/v1/test/{id}:
+    get:
+      tags: [Test v1]
+      operationId: test1
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: string
+      responses:
+        200:
+          description: OK
+2026-11-03T19:56:02.540 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [TestNG-test=Surefire test-1] - No .openapi-generator-ignore file found.
+2026-11-03T19:56:02.545 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - OpenAPI Generator: kotlin-spring (server)
+2026-11-03T19:56:02.545 INFO org.openapitools.codegen.DefaultGenerator [TestNG-test=Surefire test-1] - Generator 'kotlin-spring' is considered stable.
+2026-11-03T19:56:02.553 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [TestNG-test=Surefire test-1] - Environment variable KOTLIN_POST_PROCESS_FILE not defined so the Kotlin code may not be properly formatted. To define it, try 'export KOTLIN_POST_PROCESS_FILE="/usr/local/bin/ktlint -F"' (Linux/Mac)
+2026-11-03T19:56:02.553 INFO org.openapitools.codegen.languages.AbstractKotlinCodegen [TestNG-test=Surefire test-1] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T19:56:02.578 INFO org.openapitools.codegen.languages.KotlinSpringServerCodegen [TestNG-test=Surefire test-1] - Setup code generator for Kotlin Spring Cloud Client
+2026-11-03T19:56:02.906 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:56:02.994 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:56:03.052 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - fromOperation => operation: class Operation {
+    tags: [Test v1]
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: test1
+    parameters: [class PathParameter {
+        class Parameter {
+            name: id
+            in: null
+            description: null
+            required: null
+            deprecated: null
+            allowEmptyValue: null
+            style: simple
+            explode: false
+            allowReserved: null
+            schema: class StringSchema {
+                class Schema {
+                    type: string
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: null
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            content: null
+            $ref: null
+        }
+        in: path
+        required: false
+    }]
+    requestBody: null
+    responses: class ApiResponses {
+        {200=class ApiResponse {
+            description: OK
+            headers: null
+            content: null
+            links: null
+            extensions: null
+            $ref: null
+        }}
+        extensions: null
+    }
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T19:56:03.868 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for id : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:56:04.003 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging from property return: CodegenProperty{openApiType='string', baseName='id', complexType='null', getter='getId', setter='setId', description='null', dataType='kotlin.String', datatypeWithEnum='kotlin.String', dataFormat='null', name='id', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.id;', baseType='kotlin.String', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Id', nameInSnakeCase='ID', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T19:56:04.011 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging fromProperty for id : class StringSchema {
+    class Schema {
+        type: string
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T19:56:04.011 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - Cached fromProperty for id : null required=false
+2026-11-03T19:56:04.016 DEBUG org.openapitools.codegen.DefaultCodegen [TestNG-test=Surefire test-1] - debugging codegenParameter return: CodegenParameter{isFormParam=false, isQueryParam=false, isPathParam=true, isHeaderParam=false, isCookieParam=false, isBodyParam=false, isContainer=false, isCollectionFormatMulti=false, isPrimitiveType=true, isModel=false, isExplode=false, baseName='id', paramName='id', dataType='kotlin.String', datatypeWithEnum='null', dataFormat='null', collectionFormat='null', description='null', unescapedDescription='null', baseType='null', containerType='null', defaultValue='null', enumDefaultValue='null', enumName='null', style='simple', deepObject='false', allowEmptyValue='false', example='id_example', examples='null', jsonSchema='{
+  "name" : "id",
+  "in" : "path",
+  "required" : false,
+  "style" : "simple",
+  "explode" : false,
+  "schema" : {
+    "type" : "string"
+  }
+}', isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isAnyType=false, isArray=false, isMap=false, isFile=false, isEnum=false, isEnumRef=false, _enum=null, allowableValues=null, items=null, mostInnerItems=null, additionalProperties=null, vars=[], requiredVars=[], vendorExtensions={}, hasValidation=false, maxProperties=null, minProperties=null, isNullable=false, isDeprecated=false, required=false, maximum='null', exclusiveMaximum=false, minimum='null', exclusiveMinimum=false, maxLength=null, minLength=null, pattern='null', maxItems=null, minItems=null, uniqueItems=false, uniqueItemsBoolean=null, contentType=null, multipleOf=null, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, schema=CodegenProperty{openApiType='string', baseName='id', complexType='null', getter='getId', setter='setId', description='null', dataType='kotlin.String', datatypeWithEnum='kotlin.String', dataFormat='null', name='id', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.id;', baseType='kotlin.String', containerType='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, hasMoreNonReadOnly=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='Id', nameInSnakeCase='ID', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}, content=null, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false}
+2026-11-03T19:56:04.116 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:56:04.386 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/src/main/kotlin/org/openapitools/api/TestV1Api.kt
+2026-11-03T19:56:04.392 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/src/main/kotlin/org/openapitools/api/TestV1ApiClient.kt
+2026-11-03T19:56:04.397 INFO org.openapitools.codegen.utils.URLPathUtils [TestNG-test=Surefire test-1] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T19:56:04.626 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/README.md
+2026-11-03T19:56:04.640 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/pom.xml
+2026-11-03T19:56:04.646 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/build.gradle.kts
+2026-11-03T19:56:04.651 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/settings.gradle
+2026-11-03T19:56:04.658 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/src/main/kotlin/org/openapitools/configuration/ApiKeyRequestInterceptor.kt
+2026-11-03T19:56:04.665 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/src/main/kotlin/org/openapitools/configuration/ClientConfiguration.kt
+2026-11-03T19:56:04.679 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/.openapi-generator-ignore
+2026-11-03T19:56:04.680 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/.openapi-generator/VERSION
+2026-11-03T19:56:04.693 INFO org.openapitools.codegen.TemplateManager [TestNG-test=Surefire test-1] - writing file /tmp/test8849088453925816206/.openapi-generator/FILES
+2026-11-03T19:56:04.962 DEBUG org.testng.internal.Graph [main] - [Graph] ADDING NODE KotlinSpringServerCodegenTest.testNoRequestMappingAnnotation()[pri:0, instance:org.openapitools.codegen.kotlin.spring.KotlinSpringServerCodegenTest@52045dbe] 288733330
+2026-11-03T19:56:04.963 DEBUG org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T19:56:04.963 DEBUG org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T19:56:04.967 DEBUG org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T19:56:04.967 DEBUG org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES

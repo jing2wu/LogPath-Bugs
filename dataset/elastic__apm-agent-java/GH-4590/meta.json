@@ -1,0 +1,38 @@
+{
+ "project": "elastic__apm-agent-java",
+ "issue": "GH-4590",
+ "summary": "Custom HttpURLConnection throwing unchecked exception can stall the agent",
+ "fix_commit": "5cabf9ceeaea99f7a811b896064bf7aa8b131e5d",
+ "buggy_version": "5cabf9ceea with apm-agent-core/src/main/java/co/elastic/apm/agent/report/AbstractIntakeApiHandler.java, apm-agent-core/src/main/java/co/elastic/apm/agent/report/HttpUtils.java reverted to 5cabf9ceea^",
+ "jdk": "17",
+ "module": "apm-agent-core",
+ "tests": [
+  "IntakeV2ReportingEventHandlerTest#testCleanupFailureDoesNotRetainConnection"
+ ],
+ "faulty_lines": [
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/report/AbstractIntakeApiHandler.java:221",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/report/AbstractIntakeApiHandler.java:225",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/report/HttpUtils.java:32",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/report/HttpUtils.java:60",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/report/HttpUtils.java:65",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/report/HttpUtils.java:67",
+  "apm-agent-core/src/main/java/co/elastic/apm/agent/report/HttpUtils.java:68"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 114,
+ "pairs_exported": 6,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 114,
+ "stable": true,
+ "runs": {
+  "IntakeV2ReportingEventHandlerTest#testCleanupFailureDoesNotRetainConnection": {
+   "threads": 12,
+   "log_threads": 8,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

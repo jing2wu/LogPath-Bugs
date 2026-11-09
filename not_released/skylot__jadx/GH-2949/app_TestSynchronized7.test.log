@@ -1,0 +1,44 @@
+2026-11-05T11:36:12.448 INFO jadx.tests.api.IntegrationTest [Test worker] - Using dex input
+2026-11-05T11:36:12.477 DEBUG jadx.api.JadxArgsValidator [Test worker] - Effective jadx args: JadxArgs{inputFiles=[/tmp/junit-16040883560815821300/jadx-tmp-classes14307392697627510038/jadx/tests/integration/synchronize/TestSynchronized7$TestCls.class], outDir=/tmp/junit-16040883560815821300, outDirSrc=/tmp/junit-16040883560815821300/sources, outDirRes=/tmp/junit-16040883560815821300/resources, threadsCount=1, decompilationMode=AUTO, showInconsistentCode=true, useImports=true, skipResources=true, skipSources=false, includeDependencies=false, userRenamesMappingsPath=null, userRenamesMappingsMode=READ, deobfuscationOn=false, generatedRenamesMappingFile=null, generatedRenamesMappingFileMode=IGNORE, resourceNameSource=AUTO, useSourceNameAsClassNameAlias=NEVER, sourceNameRepeatLimit=10, useKotlinMethodsForVarNames=APPLY, insertDebugLines=false, extractFinally=true, deobfuscationMinLength=0, deobfuscationMaxLength=2147483647, deobfuscationWhitelist=[android.support.v4.*, android.support.v7.*, android.support.v4.os.*, android.support.annotation.Px, androidx.core.os.*, androidx.annotation.Px], escapeUnicode=false, replaceConsts=true, restoreSwitchOverString=true, respectBytecodeAccModifiers=false, exportGradleType=null, skipXmlPrettyPrint=false, fsCaseSensitive=false, renameFlags=[CASE, VALID, PRINTABLE], outputFormat=JAVA, commentsLevel=DEBUG, codeCache=InMemoryCodeCache: size=0, codeWriter=AnnotatedCodeWriter, useDxInput=true, pluginOptions={}, cfgOutput=false, rawCFGOutput=false, useHeadersForDetectResourceExtensions=false, typeUpdatesLimitCount=10}
+2026-11-05T11:36:12.501 INFO jadx.api.JadxDecompiler [Test worker] - loading ...
+2026-11-05T11:36:12.542 DEBUG jadx.core.plugins.JadxPluginManager [Test worker] - Loading plugin: smali-input
+2026-11-05T11:36:12.543 DEBUG jadx.core.plugins.JadxPluginManager [Test worker] - Loading plugin: java-convert
+2026-11-05T11:36:12.543 DEBUG jadx.core.plugins.JadxPluginManager [Test worker] - Loading plugin: dex-input
+2026-11-05T11:36:12.543 DEBUG jadx.core.plugins.JadxPluginManager [Test worker] - Loading plugin: java-input
+2026-11-05T11:36:12.543 DEBUG jadx.core.plugins.JadxPluginManager [Test worker] - Loading plugin: raung-input
+2026-11-05T11:36:12.545 DEBUG jadx.api.JadxDecompiler [Test worker] - Resolved plugins: [dex-input, java-convert, raung-input, smali-input]
+2026-11-05T11:36:12.560 DEBUG jadx.api.JadxDecompiler [Test worker] - Loaded custom passes: 0 []
+2026-11-05T11:36:12.571 DEBUG jadx.plugins.input.javaconvert.JavaConvertLoader [Test worker] - Converting class files ...
+2026-11-05T11:36:12.578 DEBUG jadx.plugins.input.javaconvert.JavaConvertLoader [Test worker] - Packed 1 class files into jar: /tmp/jadx-3335123718375822118.jar
+2026-11-05T11:36:12.591 DEBUG jadx.plugins.input.javaconvert.JavaConvertLoader [Test worker] - Converting to dex ...
+2026-11-05T11:36:12.678 DEBUG jadx.plugins.input.javaconvert.JavaConvertLoader [Test worker] - Converted /tmp/jadx-3335123718375822118.jar to 1 dex
+2026-11-05T11:36:12.689 DEBUG jadx.plugins.input.dex.DexFileLoader [Test worker] - Loading dex: /tmp/jadx-10950636587804514500/classes.dex
+2026-11-05T11:36:12.695 DEBUG jadx.api.JadxDecompiler [Test worker] - Loaded using 1 inputs plugin in 135 ms
+2026-11-05T11:36:13.137 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - 'resources.arsc' or 'resources.pb' file not found
+2026-11-05T11:36:13.138 INFO jadx.core.dex.nodes.RootNode [Test worker] - Loaded classes: 1, methods: 3, instructions: 27
+2026-11-05T11:36:18.205 DEBUG jadx.core.clsp.ClsSet [Test worker] - Clst file loaded in 5044ms, android api: 34, classes: 6208, methods: 59962
+2026-11-05T11:36:18.506 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'SignatureProcessor' - 5ms
+2026-11-05T11:36:18.506 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-SignatureProcessor:0' - 0ms
+2026-11-05T11:36:18.506 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'OverrideMethodVisitor' - 0ms
+2026-11-05T11:36:18.506 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-OverrideMethodVisitor:1' - 0ms
+2026-11-05T11:36:19.292 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'AddAndroidConstants' - 786ms
+2026-11-05T11:36:19.292 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-AddAndroidConstants:2' - 0ms
+2026-11-05T11:36:19.292 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'DeobfuscatorVisitor' - 0ms
+2026-11-05T11:36:19.292 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-DeobfuscatorVisitor:3' - 0ms
+2026-11-05T11:36:19.292 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'SourceFileRename' - 0ms
+2026-11-05T11:36:19.292 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-SourceFileRename:4' - 0ms
+2026-11-05T11:36:19.297 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'RenameVisitor' - 5ms
+2026-11-05T11:36:19.297 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'SaveDeobfMapping' - 0ms
+2026-11-05T11:36:19.297 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-SaveDeobfMapping:5' - 0ms
+2026-11-05T11:36:19.337 DEBUG jadx.core.dex.visitors.usage.UsageInfoVisitor [Test worker] - Apply usage data in 2ms
+2026-11-05T11:36:19.337 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'UsageInfoVisitor' - 40ms
+2026-11-05T11:36:19.337 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-UsageInfoVisitor:6' - 0ms
+2026-11-05T11:36:19.337 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'CollectConstValues' - 0ms
+2026-11-05T11:36:19.337 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-CollectConstValues:7' - 0ms
+2026-11-05T11:36:19.340 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'ProcessAnonymous' - 3ms
+2026-11-05T11:36:19.340 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-ProcessAnonymous:8' - 0ms
+2026-11-05T11:36:19.340 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'ProcessMethodsForInline' - 0ms
+2026-11-05T11:36:19.340 DEBUG jadx.core.dex.nodes.RootNode [Test worker] - Prepare pass: 'Checks-for-ProcessMethodsForInline:9' - 0ms
+2026-11-05T11:36:19.342 DEBUG jadx.core.dex.visitors.kotlin.ProcessKotlinInternals [Test worker] - Kotlin Intrinsics class not found
+2026-11-05T11:36:19.345 DEBUG jadx.api.JadxDecompiler [Test worker] - Load finished
+2026-11-05T11:36:19.669 DEBUG jadx.core.dex.nodes.ClassNode [Test worker] - Var reference 'VarRef{VarNode{r0v0}, name=th, mth=jadx.tests.integration.synchronize.TestSynchronized7$TestCls.test():void}' incorrect (ref pos is zero) and was removed from metadata

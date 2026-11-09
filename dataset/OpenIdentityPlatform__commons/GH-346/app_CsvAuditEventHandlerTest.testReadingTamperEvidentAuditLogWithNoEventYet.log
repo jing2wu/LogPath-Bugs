@@ -1,0 +1,48 @@
+181 [main] TRACE org.forgerock.audit.handlers.csv.CsvAuditEventHandler - Audit logging to: /tmp/CsvAuditEventHandlerTest16441845233223784446
+558 [main] TRACE org.forgerock.audit.handlers.csv.CsvAuditEventHandler - Audit logging to: /tmp/CsvAuditEventHandlerTest16854936373486506088
+746 [main] TRACE org.forgerock.audit.handlers.csv.SecureCsvWriter - Header written to file
+748 [main] TRACE org.forgerock.audit.handlers.csv.CsvFormatter - Formatted event: "_id1","timestamp","transactionId-X","/ts82rtRpvH+d+j9BMVpw9UupZODU0QQ6SjTvaNGLEg=",
+826 [main] TRACE org.forgerock.audit.handlers.csv.SecureCsvWriter - Triggering a new signature task to be executed in 5 MINUTES
+899 [main] TRACE org.forgerock.audit.handlers.csv.SecureCsvWriter - Calculated new Signature
+900 [main] TRACE org.forgerock.audit.handlers.csv.CsvFormatter - Formatted event: ,,,,"bPFKzr3gC0bUd7hLv6jcSo802UyfQN3VnGoRJkUhONj+R6ssuo2pFxKd98XrJu/Sy+ckSg2jVYofTGCKfQCGGbXKTdwH4SRBaNsV4bm8t/Q5bpeu6SVEy8aRP90c+6OwWkSdRB4TJUVImv9pmsH3eI/sg4MPZdQke9B4cgoAEt9qKIUavjREyMkDQIbct3W9E5klLzb80PoMc4s++SgJA7/WNm2alPk+GRqYYSYKY96iJcFWIGNrtra5FWGXmLyC821L6Z6VpcOr2KoX2LBRKSoActew/a8dK80ldYCZ+aDS6IG4K/KsxidljRXXLWoMPArVMfiVOu8geetBx/RWKw=="
+981 [main] TRACE org.forgerock.audit.handlers.csv.SecureCsvWriter - Signature written to file
+1057 [main] TRACE org.forgerock.audit.handlers.csv.SecureCsvWriter - Signature written to secureStorage
+ass [B, array length: -1, nRefs: 4, depth: 2, bytes: 222, ex: n/a
+2026-11-03T21:54:57.073 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: 15, nRefs: 5, depth: 2, bytes: 228, ex: n/a
+2026-11-03T21:54:57.074 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 6, depth: 2, bytes: 249, ex: n/a
+2026-11-03T21:54:57.074 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: 168, nRefs: 6, depth: 2, bytes: 253, ex: n/a
+2026-11-03T21:54:57.157 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T21:54:57.159 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: com.sun.crypto.provider.SealedObjectForKeyProtector$DeserializationChecker@b09fac1
+2026-11-03T21:54:57.160 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter ALLOWED, class: class javax.crypto.spec.SecretKeySpec, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:57.161 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter ALLOWED: class javax.crypto.spec.SecretKeySpec, array length: -1, nRefs: 1, depth: 1, bytes: 94, ex: n/a
+2026-11-03T21:54:57.162 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter UNDECIDED, primitive class: byte, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:57.162 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: -1, nRefs: 4, depth: 2, bytes: 126, ex: n/a
+2026-11-03T21:54:57.167 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter UNDECIDED, primitive class: byte, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:57.168 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: 32, nRefs: 5, depth: 2, bytes: 132, ex: n/a
+2026-11-03T21:54:57.478 FINE jdk.internal.event.EventHelper logX509CertificateEvent - X509Certificate: Alg:SHA256withRSA, Serial:3d:40:24:5b, Subject:CN=a, Issuer:CN=a, Key type:RSA, Length:2048, Cert Id:-433972325, Valid from:9/11/15, 3:33 AM, Valid until:12/10/15, 2:33 AM
+2026-11-03T21:54:57.478 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T21:54:57.479 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: com.sun.crypto.provider.JceKeyStore$DeserializationChecker@34a0ef00
+2026-11-03T21:54:57.479 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class com.sun.crypto.provider.SealedObjectForKeyProtector, array length: -1, nRefs: 1, depth: 1, bytes: 70, ex: n/a
+2026-11-03T21:54:57.479 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 2, depth: 2, bytes: 155, ex: n/a
+2026-11-03T21:54:57.479 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 2, depth: 2, bytes: 203, ex: n/a
+2026-11-03T21:54:57.480 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class javax.crypto.SealedObject, array length: -1, nRefs: 2, depth: 2, bytes: 203, ex: n/a
+2026-11-03T21:54:57.480 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: -1, nRefs: 4, depth: 2, bytes: 222, ex: n/a
+2026-11-03T21:54:57.481 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: 15, nRefs: 5, depth: 2, bytes: 228, ex: n/a
+2026-11-03T21:54:57.481 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 6, depth: 2, bytes: 249, ex: n/a
+2026-11-03T21:54:57.481 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: 168, nRefs: 6, depth: 2, bytes: 253, ex: n/a
+2026-11-03T21:54:57.483 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T21:54:57.483 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: com.sun.crypto.provider.SealedObjectForKeyProtector$DeserializationChecker@44de94c3
+2026-11-03T21:54:57.484 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter ALLOWED, class: class javax.crypto.spec.SecretKeySpec, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:57.484 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter ALLOWED: class javax.crypto.spec.SecretKeySpec, array length: -1, nRefs: 1, depth: 1, bytes: 94, ex: n/a
+2026-11-03T21:54:57.484 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter UNDECIDED, primitive class: byte, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:57.484 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: -1, nRefs: 4, depth: 2, bytes: 126, ex: n/a
+2026-11-03T21:54:57.485 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter UNDECIDED, primitive class: byte, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:57.485 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: 32, nRefs: 5, depth: 2, bytes: 132, ex: n/a
+2026-11-03T21:54:58.019 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: null
+2026-11-03T21:54:58.019 FINER java.io.ObjectInputFilter$Config traceFilter - Builtin factory: null -> new: com.sun.crypto.provider.SealedObjectForKeyProtector$DeserializationChecker@6c101cc1
+2026-11-03T21:54:58.019 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter ALLOWED, class: class javax.crypto.spec.SecretKeySpec, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:58.020 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter ALLOWED: class javax.crypto.spec.SecretKeySpec, array length: -1, nRefs: 1, depth: 1, bytes: 94, ex: n/a
+2026-11-03T21:54:58.020 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter UNDECIDED, primitive class: byte, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:58.020 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: -1, nRefs: 4, depth: 2, bytes: 126, ex: n/a
+2026-11-03T21:54:58.021 FINER java.io.ObjectInputFilter$Config traceFilter - Pattern filter UNDECIDED, primitive class: byte, filter: java.base/java.lang.Enum;java.base/java.security.KeyRep;java.base/java.security.KeyRep$Type;java.base/javax.crypto.spec.SecretKeySpec;!*
+2026-11-03T21:54:58.021 FINER java.io.ObjectInputStream filterCheck - ObjectInputFilter UNDECIDED: class [B, array length: 32, nRefs: 5, depth: 2, bytes: 132, ex: n/a

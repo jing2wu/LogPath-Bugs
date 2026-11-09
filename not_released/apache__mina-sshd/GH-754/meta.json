@@ -1,0 +1,54 @@
+{
+ "project": "apache__mina-sshd",
+ "issue": "GH-754",
+ "summary": "Port Forwarding can't start after Port bind Error",
+ "fix_commit": "9d1ff5dd0d9b96f91b34ef24a7d759171ea35972",
+ "buggy_version": "9d1ff5dd0d with sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java reverted to 9d1ff5dd0d^",
+ "jdk": "17",
+ "module": "sshd-core",
+ "tests": [
+  "PortForwardingTest#localForwardingNativeError"
+ ],
+ "faulty_lines": [
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:935",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:936",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:937",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:939",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:940",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:941",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:942",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:943",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:944",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:945",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:947",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:948",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:949",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:951",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:952",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:953",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:954",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:955",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:956",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:957",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:958",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:959",
+  "sshd-core/src/main/java/org/apache/sshd/common/forward/DefaultForwarder.java:960"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 12,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "PortForwardingTest#localForwardingNativeError": {
+   "threads": 64,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23997",
+ "summary": "[BUG] [JAVA][SPRING] @JsonTypeName ignores x-discriminator-value and discriminator mappings",
+ "fix_commit": "d3dde379a7b401ce971f4e89902dc4e6966b0b72",
+ "buggy_version": "d3dde379a7 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java reverted to d3dde379a7^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "SpringCodegenTest#issue24003"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:579",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:580"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 984,
+ "pairs_exported": 121,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 984,
+ "stable": true,
+ "runs": {
+  "SpringCodegenTest#issue24003": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

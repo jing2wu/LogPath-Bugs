@@ -1,0 +1,39 @@
+2026-11-03T21:54:26.667 INFO org.unreal.modelrouter.router.http.WebClientPool [main] - WebClientPool 初始化完成
+2026-11-03T21:54:26.680 DEBUG org.unreal.modelrouter.router.http.WebClientPool [main] - 创建 WebClient: baseUrl=http://metadata.google.internal
+2026-11-03T21:54:26.693 DEBUG reactor.util.Loggers [main] - Using Slf4j logging framework
+2026-11-03T21:54:26.734 DEBUG io.netty.util.internal.logging.InternalLoggerFactory [main] - Using SLF4J as the default logging framework
+2026-11-03T21:54:26.736 DEBUG io.netty.util.internal.PlatformDependent0 [main] - Java version: 17
+2026-11-03T21:54:26.737 DEBUG io.netty.util.internal.PlatformDependent0 [main] - -Dio.netty.noUnsafe: false
+2026-11-03T21:54:26.737 DEBUG io.netty.util.internal.PlatformDependent0 [main] - Thread.isVirtual() is not available: 
+java.lang.NoSuchMethodException: java.lang.Thread.isVirtual()
+2026-11-03T21:54:26.741 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.lang.BaseVirtualThread is not available: 
+java.lang.ClassNotFoundException: java.lang.BaseVirtualThread
+2026-11-03T21:54:26.743 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.theUnsafe: available
+2026-11-03T21:54:26.744 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe base methods: all available
+2026-11-03T21:54:26.745 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.storeFence: available
+2026-11-03T21:54:26.745 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Buffer.address: available
+2026-11-03T21:54:26.746 DEBUG io.netty.util.internal.PlatformDependent0 [main] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+2026-11-03T21:54:26.747 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Bits.unaligned: available, true
+2026-11-03T21:54:26.748 DEBUG io.netty.util.internal.PlatformDependent0 [main] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @17046283
+2026-11-03T21:54:26.750 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2026-11-03T21:54:26.750 DEBUG io.netty.util.internal.PlatformDependent [main] - sun.misc.Unsafe: available
+2026-11-03T21:54:26.750 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2026-11-03T21:54:26.750 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2026-11-03T21:54:26.751 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.maxDirectMemory: -1 bytes
+2026-11-03T21:54:26.751 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2026-11-03T21:54:26.752 DEBUG io.netty.util.internal.CleanerJava9 [main] - java.nio.ByteBuffer.cleaner(): available
+2026-11-03T21:54:26.752 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.noPreferDirect: false
+2026-11-03T21:54:26.778 DEBUG io.netty.util.internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2026-11-03T21:54:26.778 DEBUG io.netty.util.internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2026-11-03T21:54:26.805 DEBUG io.netty.util.ResourceLeakDetector [main] - -Dio.netty.leakDetection.level: simple
+2026-11-03T21:54:26.805 DEBUG io.netty.util.ResourceLeakDetector [main] - -Dio.netty.leakDetection.targetRecords: 4
+2026-11-03T21:54:26.823 DEBUG io.netty.handler.codec.compression.Brotli [main] - brotli4j not in the classpath; Brotli support will be unavailable.
+2026-11-03T21:54:27.203 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2026-11-03T21:54:27.204 TRACE _org.springframework.web.util.RfcUriParser [main] - scheme set to 'http'
+2026-11-03T21:54:27.204 TRACE _org.springframework.web.util.RfcUriParser [main] - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+2026-11-03T21:54:27.204 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> HOST_OR_PATH, index=5, componentIndex=5
+2026-11-03T21:54:27.204 TRACE _org.springframework.web.util.RfcUriParser [main] - host set to ''
+2026-11-03T21:54:27.204 TRACE _org.springframework.web.util.RfcUriParser [main] - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+2026-11-03T21:54:27.206 TRACE _org.springframework.web.util.RfcUriParser [main] - host set to 'metadata.google.internal'

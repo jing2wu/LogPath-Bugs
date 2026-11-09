@@ -1,0 +1,32 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-17704",
+ "summary": "[Bug] [HttpTask] The output parameters of an HTTP task cannot be referenced in downstream tasks.",
+ "fix_commit": "4f693a5fa14a433b35d559c612e8e07382cc2910",
+ "buggy_version": "4f693a5fa1 with dolphinscheduler-task-plugin/dolphinscheduler-task-http/src/main/java/org/apache/dolphinscheduler/plugin/task/http/HttpTask.java reverted to 4f693a5fa1^",
+ "jdk": "17",
+ "module": "dolphinscheduler-task-plugin/dolphinscheduler-task-http",
+ "tests": [
+  "HttpTaskTest#testHandleSetsVarPoolToTaskExecutionContext"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-task-plugin/dolphinscheduler-task-http/src/main/java/org/apache/dolphinscheduler/plugin/task/http/HttpTask.java:76"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 108,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 108,
+ "stable": true,
+ "runs": {
+  "HttpTaskTest#testHandleSetsVarPoolToTaskExecutionContext": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

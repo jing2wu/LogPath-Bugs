@@ -1,0 +1,33 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-4967",
+ "summary": "[Bug]: RequiredMode.NOT_REQUIRED is not respected by properties annotated with @NotBlank and @NotEmpty",
+ "fix_commit": "23d2971e6f9d2b765615efd874185f1501532f57",
+ "buggy_version": "23d2971e6f with modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java reverted to 23d2971e6f^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "ModelPropertyTest#testNotBlankNotEmptyWithRequiredModeNotRequired"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:1844",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java:1870"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 792,
+ "pairs_exported": 11,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 792,
+ "stable": true,
+ "runs": {
+  "ModelPropertyTest#testNotBlankNotEmptyWithRequiredModeNotRequired": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,13 @@
+638 [main] DEBUG org.apache.maven.plugins.assembly.archive.task.AddDependencySetsTask - Processing DependencySet (output=tmp/)
+642 [main] DEBUG org.apache.maven.plugins.assembly.archive.task.AddDependencySetsTask - Filtering dependency artifacts WITHOUT transitive dependency path information.
+662 [main] DEBUG org.apache.maven.plugins.assembly.archive.task.AddDependencySetsTask - Adding 1 dependency artifacts.
+665 [main] DEBUG org.apache.maven.plugins.assembly.archive.task.AddDependencySetsTask - Adding dependency artifact null.
+699 [main] WARN org.apache.maven.plugins.assembly.archive.task.AddDependencySetsTask - The mode: 12 contains nonsensical permissions:
+- World has write access, but user does not.
+- World has write access, but group does not.
+- Group has execute/list access, but user does not.
+700 [main] WARN org.apache.maven.plugins.assembly.archive.task.AddDependencySetsTask - The mode: 12 contains nonsensical permissions:
+- World has write access, but user does not.
+- World has write access, but group does not.
+- Group has execute/list access, but user does not.
+771 [main] DEBUG org.apache.maven.plugins.assembly.archive.task.AddArtifactTask - Adding artifact: null with file: /tmp/junit-16185419818442301367/junit6213046762241607722.tmp to assembly location: tmp/dep-1.war.

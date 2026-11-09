@@ -1,0 +1,55 @@
+2026-11-03T21:20:06.397 DEBUG io.netty.util.internal.logging.InternalLoggerFactory [main] - Using SLF4J as the default logging framework
+2026-11-03T21:20:06.403 DEBUG io.netty.util.internal.PlatformDependent0 [main] - Java version: 25
+2026-11-03T21:20:06.404 DEBUG io.netty.util.internal.PlatformDependent0 [main] - -Dio.netty.noUnsafe: false
+2026-11-03T21:20:06.407 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.theUnsafe: available
+2026-11-03T21:20:06.419 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe base methods: all available
+2026-11-03T21:20:06.423 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.storeFence: available
+2026-11-03T21:20:06.424 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Buffer.address: available
+2026-11-03T21:20:06.425 DEBUG io.netty.util.internal.PlatformDependent0 [main] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+2026-11-03T21:20:06.430 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Bits.unaligned: available, true
+2026-11-03T21:20:06.431 DEBUG io.netty.util.internal.PlatformDependent0 [main] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5c671d7f
+2026-11-03T21:20:06.438 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2026-11-03T21:20:06.439 DEBUG io.netty.util.internal.PlatformDependent [main] - sun.misc.Unsafe: available
+2026-11-03T21:20:06.439 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2026-11-03T21:20:06.439 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2026-11-03T21:20:06.443 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.maxDirectMemory: -1 bytes
+2026-11-03T21:20:06.443 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2026-11-03T21:20:06.449 DEBUG io.netty.util.internal.CleanerJava9 [main] - java.nio.ByteBuffer.cleaner(): available
+2026-11-03T21:20:06.449 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.noPreferDirect: false
+2026-11-03T21:20:06.491 DEBUG reactor.util.Loggers [main] - Using Slf4j logging framework
+2026-11-03T21:20:06.582 DEBUG io.netty.util.internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2026-11-03T21:20:06.582 DEBUG io.netty.util.internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2026-11-03T21:20:06.624 DEBUG io.netty.util.ResourceLeakDetector [main] - -Dio.netty.leakDetection.level: simple
+2026-11-03T21:20:06.625 DEBUG io.netty.util.ResourceLeakDetector [main] - -Dio.netty.leakDetection.targetRecords: 4
+2026-11-03T21:20:06.656 DEBUG io.netty.handler.codec.compression.Brotli [main] - brotli4j not in the classpath; Brotli support will be unavailable.
+2026-11-03T21:20:06.826 FINER java.lang.ProcessBuilder start - ProcessBuilder.start(): pid: 3887257, dir: null, cmd: "/home/user/.sdkman/candidates/java/25.0.4+1.1-zulu/bin/java" "-Dnet.bytebuddy.agent.attacher.dump=" "-cp" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar" "net.bytebuddy.agent.Attacher" "com.sun.tools.attach.VirtualMachine" "3886998" "/home/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar" "false" ""
+java.lang.RuntimeException: ProcessBuilder.start() debug
+2026-11-03T21:20:11.823 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2026-11-03T21:20:11.824 TRACE _org.springframework.web.util.RfcUriParser [main] - scheme set to 'https'
+2026-11-03T21:20:11.824 TRACE _org.springframework.web.util.RfcUriParser [main] - SCHEME_OR_PATH -> START, index=5, componentIndex=0
+2026-11-03T21:20:11.824 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> HOST_OR_PATH, index=6, componentIndex=6
+2026-11-03T21:20:11.824 TRACE _org.springframework.web.util.RfcUriParser [main] - host set to ''
+2026-11-03T21:20:11.827 TRACE _org.springframework.web.util.RfcUriParser [main] - HOST_OR_PATH -> HOST, index=7, componentIndex=8
+2026-11-03T21:20:11.831 TRACE _org.springframework.web.util.RfcUriParser [main] - host set to 'registry.terraform.io'
+2026-11-03T21:20:11.837 DEBUG org.springframework.test.util.ReflectionTestUtils [main] - Setting field 'webClient' of type [null] on target object [io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob@4001d8c1] or target class [class io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob] to value [org.springframework.web.reactive.function.client.DefaultWebClient@1dab9dd6]
+2026-11-03T21:20:11.855 DEBUG org.springframework.test.util.ReflectionTestUtils [main] - Setting field 'providerRepository' of type [null] on target object [io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob@4001d8c1] or target class [class io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob] to value [Mock for ProviderRepository, hashCode: 1784551034]
+2026-11-03T21:20:11.862 DEBUG org.springframework.test.util.ReflectionTestUtils [main] - Setting field 'providerVersionRepository' of type [null] on target object [io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob@4001d8c1] or target class [class io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob] to value [Mock for ProviderVersionRepository, hashCode: 876600793]
+2026-11-03T21:20:11.865 DEBUG org.springframework.test.util.ReflectionTestUtils [main] - Setting field 'providerImplementationRepository' of type [null] on target object [io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob@4001d8c1] or target class [class io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob] to value [Mock for ProviderImplementationRepository, hashCode: 1729954747]
+2026-11-03T21:20:11.873 INFO io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob [main] - ProviderRefreshJob running for providerId=56f5b1c5-4836-4128-af0c-b7763ffca1bb
+2026-11-03T21:20:11.889 INFO io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob [main] - Checking registry for new versions of coder/coderd
+2026-11-03T21:20:11.905 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> HOST_OR_PATH, index=0, componentIndex=0
+2026-11-03T21:20:11.905 TRACE _org.springframework.web.util.RfcUriParser [main] - HOST_OR_PATH -> PATH, index=1, componentIndex=0
+2026-11-03T21:20:11.905 TRACE _org.springframework.web.util.RfcUriParser [main] - path set to '/v1/providers/{namespace}/{name}/versions'
+2026-11-03T21:20:12.426 DEBUG io.micrometer.common.util.internal.logging.InternalLoggerFactory [main] - Using SLF4J as the default logging framework
+2026-11-03T21:20:12.631 TRACE org.springframework.core.codec.StringDecoder [main] - Decoded "{"versions":[{"platforms":[{"arch":"amd64","os":"linux"}],"version":"0.0.22","protocols":["5.0"]}]}"
+2026-11-03T21:20:12.778 INFO io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob [main] - Found 1 new version(s) for coder/coderd: 0.0.22
+2026-11-03T21:20:12.780 INFO io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob [main] - Created version 0.0.22 for provider coderd
+2026-11-03T21:20:12.783 TRACE _org.springframework.web.util.RfcUriParser [main] - START -> HOST_OR_PATH, index=0, componentIndex=0
+2026-11-03T21:20:12.783 TRACE _org.springframework.web.util.RfcUriParser [main] - HOST_OR_PATH -> PATH, index=1, componentIndex=0
+2026-11-03T21:20:12.784 TRACE _org.springframework.web.util.RfcUriParser [main] - path set to '/v1/providers/{namespace}/{name}/{version}/download/{os}/{arch}'
+2026-11-03T21:20:12.787 TRACE org.springframework.core.codec.StringDecoder [main] - Decoded "{"signing_keys":{"gpg_public_keys":[{"trust_signature":"-----BEGIN PGP SIGNATURE-----aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-----END PGP SIGNATURE-----"}]},"os":"linux","arch":"amd64"}"
+2026-11-03T21:20:12.790 DEBUG io.terrakube.api.plugin.scheduler.provider.ProviderRefreshJob [main] - Created implementation linux/amd64 for coderd v0.0.22
+2026-11-03T21:20:13.227 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

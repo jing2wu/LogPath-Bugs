@@ -1,0 +1,44 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-24851",
+ "summary": "[BUG][KOTLIN][jvm-ktor] Inline enum array default generates invalid Kotlin -> compile error",
+ "fix_commit": "5a0fa873919d662c2223df94637cea25bfbca2aa",
+ "buggy_version": "5a0fa87391 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinClientCodegen.java reverted to 5a0fa87391^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "KotlinClientCodegenApiTest#testInlineEnumArrayDefaultUsesItemValues_24851",
+  "KotlinServerCodegenTest#inlineEnumArrayParameterDefaultUsesItemValues"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java:1281",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java:1282",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java:1298",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java:1316",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractKotlinCodegen.java:1317",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/KotlinClientCodegen.java:1226"
+ ],
+ "covering_pairs": 72,
+ "shortest_covering_pair": 219,
+ "pairs_exported": 171,
+ "covering_pairs_printed": 72,
+ "shortest_covering_pair_printed": 219,
+ "stable": true,
+ "runs": {
+  "KotlinClientCodegenApiTest#testInlineEnumArrayDefaultUsesItemValues_24851": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  },
+  "KotlinServerCodegenTest#inlineEnumArrayParameterDefaultUsesItemValues": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

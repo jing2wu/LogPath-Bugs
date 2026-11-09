@@ -1,0 +1,554 @@
+2026-11-03T21:40:04.499 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Properties loaded:
+analyzer.cocoapods.enabled='true'
+proxy.disableSchemas='true'
+cve.url.modified.validfordays='7'
+cve.url.base='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-%d.json.gz'
+analyzer.dependencybundling.enabled='true'
+cve.url.original='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz'
+odc.ecosystem.maxquerylimit.native='1000'
+data.connection_string='jdbc:h2:file:%s;AUTOCOMMIT=ON;CACHE_SIZE=65536;'
+archive.scan.depth='3'
+analyzer.cmake.enabled='true'
+analyzer.pipfile.enabled='true'
+odc.application.name='Dependency-Check Core'
+analyzer.retirejs.repo.validforhours='24'
+analyzer.node.package.enabled='true'
+analyzer.pe.enabled='true'
+analyzer.central.url='https://search.maven.org/solrsearch/select'
+downloader.quick.query.timestamp='true'
+analyzer.retirejs.repo.js.url='https://raw.githubusercontent.com/Retirejs/retire.js/master/repository/jsrepository.json'
+analyzer.archive.enabled='true'
+cpe.url='https://static.nvd.nist.gov/feeds/xml/cpe/dictionary/official-cpe-dictionary_v2.3.xml.gz'
+analyzer.nvdcve.enabled='true'
+analyzer.jar.enabled='true'
+analyzer.cpe.enabled='true'
+analyzer.knownexploited.enabled='true'
+data.writelock.shutdownhook='org.owasp.dependencycheck.utils.WriteLockCleanupHook'
+analyzer.central.query='%s?q=1:%s&wt=xml'
+analyzer.dependencymerging.enabled='true'
+odc.settings.mask='.*password.*,.*token.*'
+cpe.validfordays='30'
+central.content.url='https://search.maven.org/remotecontent?filepath='
+analyzer.node.audit.url='https://registry.npmjs.org/-/npm/v1/security/audits'
+odc.application.version='8.4.1-SNAPSHOT'
+analyzer.msbuildproject.enabled='true'
+data.user='dcuser'
+engine.version.url='https://jeremylong.github.io/DependencyCheck/current.txt'
+analyzer.autoconf.enabled='true'
+odc.autoupdate='true'
+analyzer.cpesuppression.enabled='true'
+analyzer.retirejs.enabled='true'
+cve.check.validforhours='0'
+analyzer.assembly.enabled='true'
+cve.cpe.startswith.filter='cpe:2.3:a:'
+odc.analysis.timeout='20'
+analyzer.nexus.url='https://repository.sonatype.org/service/local/'
+analyzer.hint.enabled='true'
+analyzer.dart.enabled='true'
+analyzer.retired.enabled='false'
+analyzer.bundle.audit.path='/usr/local/bin/bundle-audit'
+database.batchinsert.enabled='true'
+analyzer.openssl.enabled='true'
+analyzer.swift.package.manager.enabled='true'
+analyzer.nuspec.enabled='true'
+analyzer.central.retry.count='7'
+updater.nvdcve.enabled='true'
+analyzer.mix.audit.enabled='true'
+max.download.threads='2'
+analyzer.central.enabled='true'
+analyzer.python.distribution.enabled='true'
+analyzer.nexus.enabled='false'
+analyzer.ossindex.enabled='false'
+analyzer.central.parallel.analysis='false'
+analyzer.nexus.proxy='true'
+cve.startyear='2017'
+analyzer.maveninstall.enabled='true'
+odc.ecosystem.maxquerylimit.default='100'
+nvd.newyear.grace.period='10'
+downloader.tls.protocols='TLSv1.1,TLSv1.2,TLSv1.3'
+data.file_name='odc.mv.db'
+analyzer.ruby.gemspec.enabled='true'
+analyzer.composer.lock.enabled='true'
+data.version='5.4'
+analyzer.vulnerabilitysuppression.enabled='true'
+kev.check.validforhours='24'
+analyzer.libman.enabled='true'
+data.directory='[JAR]/data/7.0'
+analyzer.experimental.enabled='false'
+analyzer.golang.mod.enabled='true'
+analyzer.filename.enabled='true'
+analyzer.python.package.enabled='true'
+updater.versioncheck.enabled='true'
+ecosystem.skip.cpeanalyzer='npm'
+analyzer.falsepositive.enabled='true'
+kev.url='https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json'
+analyzer.pip.enabled='true'
+analyzer.node.audit.enabled='true'
+analyzer.npm.cpe.enabled='true'
+database.batchinsert.maxsize='1000'
+analyzer.nugetconf.enabled='true'
+data.password='********'
+cve.url.modified='https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz'
+2026-11-03T21:40:04.700 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Settings.getDataFile() - file: '/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data'
+2026-11-03T21:40:04.702 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Data directory: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data
+2026-11-03T21:40:04.708 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Connection String: 'jdbc:h2:file:/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;'
+2026-11-03T21:40:04.728 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Settings.getDataFile() - file: '/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data'
+2026-11-03T21:40:04.785 DEBUG org.owasp.dependencycheck.utils.WriteLock [main] - Lock file created (main) 4dc518745c8ae3ef452e3e4ef85c0b92 @ 2026-11-03 21:40:04.785
+2026-11-03T21:40:04.786 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Settings.getDataFile() - file: '/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data'
+2026-11-03T21:40:04.786 TRACE org.owasp.dependencycheck.BaseDBTestCase [main] - DB file name odc.mv.db
+2026-11-03T21:40:04.786 TRACE org.owasp.dependencycheck.BaseDBTestCase [main] - Ensuring /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/odc.mv.db exists
+2026-11-03T21:40:04.786 TRACE org.owasp.dependencycheck.BaseDBTestCase [main] - Extracting database to /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data
+2026-11-03T21:40:05.440 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Settings.getDataFile() - file: '/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data'
+2026-11-03T21:40:05.441 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Data directory: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data
+2026-11-03T21:40:05.443 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Connection String: 'jdbc:h2:file:/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;'
+2026-11-03T21:40:05.443 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Settings.getDataFile() - file: '/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data'
+2026-11-03T21:40:05.444 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Need to create DB Structure: false
+2026-11-03T21:40:05.444 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Loading database connection
+2026-11-03T21:40:05.444 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Connection String: jdbc:h2:file:/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/odc;AUTOCOMMIT=ON;CACHE_SIZE=65536;
+2026-11-03T21:40:05.444 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Database User: dcuser
+2026-11-03T21:40:06.056 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Database product: h2
+2026-11-03T21:40:06.144 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:06.168 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 4.0
+2026-11-03T21:40:06.168 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Updating database structure
+2026-11-03T21:40:18.206 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:18.206 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 4.1
+2026-11-03T21:40:18.206 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Updating database structure
+2026-11-03T21:40:18.953 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:18.954 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 4.2
+2026-11-03T21:40:18.956 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Updating database structure
+2026-11-03T21:40:27.418 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:27.418 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 5.0
+2026-11-03T21:40:27.419 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Updating database structure
+2026-11-03T21:40:27.421 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:27.422 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 5.1
+2026-11-03T21:40:27.422 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Updating database structure
+2026-11-03T21:40:27.425 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:27.425 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 5.2
+2026-11-03T21:40:27.425 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Updating database structure
+2026-11-03T21:40:27.427 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:27.427 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 5.2.1
+2026-11-03T21:40:27.427 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Updating database structure
+2026-11-03T21:40:27.429 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:27.429 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 5.3
+2026-11-03T21:40:27.430 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - Updating database structure
+2026-11-03T21:40:27.433 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DC Schema: 5.4
+2026-11-03T21:40:27.433 DEBUG org.owasp.dependencycheck.data.nvdcve.DatabaseManager [main] - DB Schema: 5.4
+2026-11-03T21:40:28.117 DEBUG org.owasp.dependencycheck.utils.WriteLock [main] - Lock released (main) 4dc518745c8ae3ef452e3e4ef85c0b92 @ 2026-11-03 21:40:28.117
+2026-11-03T21:40:28.278 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Archive Analyzer
+2026-11-03T21:40:28.282 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer File Name Analyzer
+2026-11-03T21:40:28.365 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Jar Analyzer
+2026-11-03T21:40:28.391 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Hint Analyzer
+2026-11-03T21:40:28.463 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer CPE Analyzer
+2026-11-03T21:40:28.493 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer False Positive Analyzer
+2026-11-03T21:40:28.508 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Dependency Bundling Analyzer
+2026-11-03T21:40:28.514 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Dependency Merging Analyzer
+2026-11-03T21:40:28.521 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer NVD CVE Analyzer
+2026-11-03T21:40:28.542 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Vulnerability Suppression Analyzer
+2026-11-03T21:40:28.553 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Central Analyzer
+2026-11-03T21:40:28.562 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Nexus Analyzer
+2026-11-03T21:40:28.568 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Artifactory Analyzer
+2026-11-03T21:40:28.579 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Nuspec Analyzer
+2026-11-03T21:40:28.590 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Nugetconf Analyzer
+2026-11-03T21:40:28.610 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer MSBuild Project Analyzer
+2026-11-03T21:40:28.624 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Assembly Analyzer
+2026-11-03T21:40:28.686 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer OpenSSL Source Analyzer
+2026-11-03T21:40:28.745 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Node.js Package Analyzer
+2026-11-03T21:40:28.753 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Node Audit Analyzer
+2026-11-03T21:40:28.760 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Yarn Audit Analyzer
+2026-11-03T21:40:28.766 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Pnpm Audit Analyzer
+2026-11-03T21:40:28.805 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer RetireJS Analyzer
+2026-11-03T21:40:28.865 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Ruby Bundle Audit Analyzer
+2026-11-03T21:40:28.988 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Version Filter Analyzer
+2026-11-03T21:40:29.027 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Sonatype OSS Index Analyzer
+2026-11-03T21:40:29.162 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Known Exploited Vulnerability Analyzer
+2026-11-03T21:40:29.175 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Unused Suppression Rule Analyzer
+2026-11-03T21:40:29.185 DEBUG org.owasp.dependencycheck.analyzer.AnalyzerService [main] - Loaded Analyzer Libman Analyzer
+2026-11-03T21:40:29.200 DEBUG org.owasp.dependencycheck.utils.Settings [main] - Settings.getDataFile() - file: '/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data'
+2026-11-03T21:40:29.220 INFO org.apache.commons.jcs.engine.control.CompositeCacheManager [main] - Instance is null, returning unconfigured instance
+2026-11-03T21:40:29.240 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:40:29.270 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:40:29.275 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:40:29.276 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered JMImplementation:type=MBeanServerDelegate
+2026-11-03T21:40:29.304 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.RuntimeImpl
+2026-11-03T21:40:29.305 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Runtime
+2026-11-03T21:40:29.308 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Runtime
+2026-11-03T21:40:29.311 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Runtime
+2026-11-03T21:40:29.311 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Runtime
+2026-11-03T21:40:29.331 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotThreadImpl
+2026-11-03T21:40:29.333 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Threading
+2026-11-03T21:40:29.333 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Threading
+2026-11-03T21:40:29.334 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Threading
+2026-11-03T21:40:29.334 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Threading
+2026-11-03T21:40:29.354 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.OperatingSystemImpl
+2026-11-03T21:40:29.355 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=OperatingSystem
+2026-11-03T21:40:29.357 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=OperatingSystem
+2026-11-03T21:40:29.357 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=OperatingSystem
+2026-11-03T21:40:29.358 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=OperatingSystem
+2026-11-03T21:40:29.373 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T21:40:29.375 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:40:29.375 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:40:29.376 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:40:29.381 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeCacheManager,type=MemoryManager
+2026-11-03T21:40:29.382 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryManagerImpl
+2026-11-03T21:40:29.383 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:40:29.383 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:40:29.383 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:40:29.383 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace Manager,type=MemoryManager
+2026-11-03T21:40:29.399 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:40:29.400 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:40:29.400 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:40:29.401 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:40:29.402 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+2026-11-03T21:40:29.402 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:40:29.402 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:40:29.402 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:40:29.403 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:40:29.403 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Metaspace,type=MemoryPool
+2026-11-03T21:40:29.403 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:40:29.404 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:40:29.404 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:40:29.404 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:40:29.404 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+2026-11-03T21:40:29.404 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:40:29.405 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:40:29.411 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:40:29.411 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:40:29.411 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=Compressed Class Space,type=MemoryPool
+2026-11-03T21:40:29.414 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:40:29.415 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:40:29.415 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:40:29.417 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:40:29.417 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Eden Space,type=MemoryPool
+2026-11-03T21:40:29.418 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:40:29.418 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:40:29.418 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:40:29.418 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:40:29.419 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Gen,type=MemoryPool
+2026-11-03T21:40:29.419 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:40:29.419 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:40:29.419 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:40:29.419 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:40:29.430 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Survivor Space,type=MemoryPool
+2026-11-03T21:40:29.442 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryPoolImpl
+2026-11-03T21:40:29.442 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:40:29.442 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:40:29.443 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:40:29.443 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+2026-11-03T21:40:29.445 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.CompilationImpl
+2026-11-03T21:40:29.446 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Compilation
+2026-11-03T21:40:29.446 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Compilation
+2026-11-03T21:40:29.446 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Compilation
+2026-11-03T21:40:29.447 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Compilation
+2026-11-03T21:40:29.448 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.MemoryImpl
+2026-11-03T21:40:29.448 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=Memory
+2026-11-03T21:40:29.453 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=Memory
+2026-11-03T21:40:29.453 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=Memory
+2026-11-03T21:40:29.454 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=Memory
+2026-11-03T21:40:29.457 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+2026-11-03T21:40:29.457 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.util.logging:type=Logging
+2026-11-03T21:40:29.458 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.util.logging:type=Logging
+2026-11-03T21:40:29.458 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.util.logging:type=Logging
+2026-11-03T21:40:29.463 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.util.logging:type=Logging
+2026-11-03T21:40:29.464 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ClassLoadingImpl
+2026-11-03T21:40:29.464 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:type=ClassLoading
+2026-11-03T21:40:29.465 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:type=ClassLoading
+2026-11-03T21:40:29.465 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:type=ClassLoading
+2026-11-03T21:40:29.467 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:type=ClassLoading
+2026-11-03T21:40:29.486 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=DiagnosticCommand
+2026-11-03T21:40:29.487 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=DiagnosticCommand
+2026-11-03T21:40:29.487 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=DiagnosticCommand
+2026-11-03T21:40:29.487 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=DiagnosticCommand
+2026-11-03T21:40:29.500 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T21:40:29.503 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:40:29.503 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:40:29.503 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:40:29.503 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Young Generation,type=GarbageCollector
+2026-11-03T21:40:29.504 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+2026-11-03T21:40:29.504 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:40:29.504 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:40:29.504 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:40:29.504 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.lang:name=G1 Old Generation,type=GarbageCollector
+2026-11-03T21:40:29.510 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for com.sun.management.internal.HotSpotDiagnostic
+2026-11-03T21:40:29.510 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:40:29.511 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:40:29.511 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:40:29.511 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered com.sun.management:type=HotSpotDiagnostic
+2026-11-03T21:40:29.515 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:40:29.516 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped,type=BufferPool
+2026-11-03T21:40:29.517 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped,type=BufferPool
+2026-11-03T21:40:29.517 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped,type=BufferPool
+2026-11-03T21:40:29.517 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped,type=BufferPool
+2026-11-03T21:40:29.517 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:40:29.517 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=direct,type=BufferPool
+2026-11-03T21:40:29.519 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=direct,type=BufferPool
+2026-11-03T21:40:29.520 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=direct,type=BufferPool
+2026-11-03T21:40:29.520 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=direct,type=BufferPool
+2026-11-03T21:40:29.521 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+2026-11-03T21:40:29.523 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:40:29.523 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:40:29.524 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:40:29.524 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+2026-11-03T21:40:29.538 FINER javax.management.StandardMBean getMBeanInfo - Building MBeanInfo for jdk.management.jfr.FlightRecorderMXBeanImpl
+2026-11-03T21:40:29.541 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:40:29.543 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:40:29.543 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:40:29.543 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered jdk.management.jfr:type=FlightRecorder
+2026-11-03T21:40:29.548 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean - ObjectName = org.apache.commons.jcs:type=JCSAdminBean
+2026-11-03T21:40:29.548 FINER com.sun.jmx.mbeanserver.Repository addMBean - name = org.apache.commons.jcs:type=JCSAdminBean
+2026-11-03T21:40:29.549 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository - Send create notification of object org.apache.commons.jcs:type=JCSAdminBean
+2026-11-03T21:40:29.549 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.registered org.apache.commons.jcs:type=JCSAdminBean
+2026-11-03T21:40:29.549 DEBUG org.apache.commons.jcs.engine.control.event.ElementEventQueue [main] - Constructed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@5d58dc61
+2026-11-03T21:40:29.552 DEBUG org.apache.commons.jcs.utils.threadpool.ThreadPoolManager [main] - Initializing ThreadPoolManager
+2026-11-03T21:40:29.553 INFO org.apache.commons.jcs.utils.threadpool.ThreadPoolManager [main] - thread_pool.default PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2026-11-03T21:40:29.553 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheManager [main] - ThreadPoolManager = org.apache.commons.jcs.utils.threadpool.ThreadPoolManager@1e258d3b
+2026-11-03T21:40:29.553 INFO org.apache.commons.jcs.engine.control.CompositeCacheManager [main] - Setting default auxiliaries to ODC
+2026-11-03T21:40:29.554 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.default.cacheattributes'
+2026-11-03T21:40:29.574 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxMemoryIdleTimeSeconds] to [3600].
+2026-11-03T21:40:29.575 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [diskUsagePattern] to [UPDATE].
+2026-11-03T21:40:29.575 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [shrinkerIntervalSeconds] to [60].
+2026-11-03T21:40:29.575 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxObjects] to [0].
+2026-11-03T21:40:29.575 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [memoryCacheName] to [org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache].
+2026-11-03T21:40:29.575 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [useMemoryShrinker] to [false].
+2026-11-03T21:40:29.575 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for "jcs.default.cacheattributes".
+2026-11-03T21:40:29.576 INFO org.apache.commons.jcs.engine.control.CompositeCacheManager [main] - setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2026-11-03T21:40:29.576 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.default.elementattributes'
+2026-11-03T21:40:29.583 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isEternal] to [false].
+2026-11-03T21:40:29.583 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isSpool] to [true].
+2026-11-03T21:40:29.583 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isLateral] to [false].
+2026-11-03T21:40:29.583 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isRemote] to [false].
+2026-11-03T21:40:29.583 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [idleTime] to [1800].
+2026-11-03T21:40:29.583 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxLife] to [86400].
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for "jcs.default.elementattributes".
+2026-11-03T21:40:29.584 INFO org.apache.commons.jcs.engine.control.CompositeCacheManager [main] - setting defaultElementAttributes to [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1793763629576, LastAccessTime = 1793763629576, getTimeToLiveSeconds() = 86399, createTime = 1793763629576 ]
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.region.CENTRAL.elementattributes'
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isLateral] to [false].
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxLife] to [2592000].
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isRemote] to [false].
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isSpool] to [true].
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for "jcs.region.CENTRAL.elementattributes".
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.region.CENTRAL.cacheattributes'
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [diskUsagePattern] to [UPDATE].
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxObjects] to [0].
+2026-11-03T21:40:29.584 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for "jcs.region.CENTRAL.cacheattributes".
+2026-11-03T21:40:29.592 INFO org.apache.commons.jcs.engine.memory.AbstractDoubleLinkedListMemoryCache [main] - initialized MemoryCache for CENTRAL
+2026-11-03T21:40:29.593 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - Constructed cache with name [CENTRAL] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2026-11-03T21:40:29.593 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing region name 'CENTRAL', value 'ODC'
+2026-11-03T21:40:29.593 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing auxiliary named "ODC".
+2026-11-03T21:40:29.593 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - parseAuxiliary ODC
+2026-11-03T21:40:29.600 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.auxiliary.ODC.attributes'
+2026-11-03T21:40:29.613 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [diskPath] to [/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache].
+2026-11-03T21:40:29.614 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [optimizeAtRemoveCount] to [300000].
+2026-11-03T21:40:29.614 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [eventQueueType] to [POOLED].
+2026-11-03T21:40:29.614 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [shutdownSpoolTimeLimit] to [60].
+2026-11-03T21:40:29.614 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxPurgatorySize] to [10000000].
+2026-11-03T21:40:29.614 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxKeySize] to [1000000].
+2026-11-03T21:40:29.614 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [eventQueuePoolName] to [disk_cache_event_queue].
+2026-11-03T21:40:29.614 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for 'jcs.auxiliary.ODC.attributes'
+2026-11-03T21:40:29.616 INFO org.apache.commons.jcs.utils.config.OptionConverter [main] - Could not find value for key jcs.auxiliary.ODC.cacheeventlogger
+2026-11-03T21:40:29.616 INFO org.apache.commons.jcs.auxiliary.AuxiliaryCacheConfigurator [main] - No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2026-11-03T21:40:29.616 INFO org.apache.commons.jcs.utils.config.OptionConverter [main] - Could not find value for key jcs.auxiliary.ODC.serializer
+2026-11-03T21:40:29.617 INFO org.apache.commons.jcs.auxiliary.AuxiliaryCacheConfigurator [main] - Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@6b0325d0] for auxiliary [jcs.auxiliary.ODC]
+2026-11-03T21:40:29.623 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCacheFactory [main] - Creating DiskCache for attributes = IndexedDiskCacheAttributes 
+ diskPath = /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache
+ maxPurgatorySize   = 10000000
+ maxKeySize  = 1000000
+ optimizeAtRemoveCount  = 300000
+ shutdownSpoolTimeLimit  = 60
+ optimizeOnShutdown  = true
+ clearDiskOnStartup  = false
+2026-11-03T21:40:29.631 DEBUG org.apache.commons.jcs.engine.CacheEventQueueFactory [main] - threadPoolName = [disk_cache_event_queue] poolType = POOLED 
+2026-11-03T21:40:29.635 DEBUG org.apache.commons.jcs.engine.AbstractCacheEventQueue [main] - Constructed: CacheEventQueue [listenerId=-1532732865, cacheName=CENTRAL]
+2026-11-03T21:40:29.636 DEBUG org.apache.commons.jcs.utils.threadpool.ThreadPoolManager [main] - Creating pool for name [disk_cache_event_queue]
+2026-11-03T21:40:29.636 INFO org.apache.commons.jcs.utils.threadpool.ThreadPoolManager [main] - thread_pool.disk_cache_event_queue PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2026-11-03T21:40:29.636 DEBUG org.apache.commons.jcs.utils.threadpool.ThreadPoolManager [main] - Creating a non bounded Linked Queue to use for the pool
+2026-11-03T21:40:29.647 DEBUG org.apache.commons.jcs.utils.threadpool.ThreadPoolManager [main] - PoolName = [disk_cache_event_queue]
+2026-11-03T21:40:29.649 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [CENTRAL] Cache file root directory: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache
+2026-11-03T21:40:29.650 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [CENTRAL] Set maxKeySize to: '1000000'
+2026-11-03T21:40:29.651 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [CENTRAL] Indexed Disk Cache is alive.
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.region.POM.elementattributes'
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxLife] to [7776000].
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isSpool] to [true].
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isRemote] to [false].
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isLateral] to [false].
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for "jcs.region.POM.elementattributes".
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.region.POM.cacheattributes'
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxObjects] to [0].
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [diskUsagePattern] to [UPDATE].
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for "jcs.region.POM.cacheattributes".
+2026-11-03T21:40:29.651 INFO org.apache.commons.jcs.engine.memory.AbstractDoubleLinkedListMemoryCache [main] - initialized MemoryCache for POM
+2026-11-03T21:40:29.651 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - Constructed cache with name [POM] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing region name 'POM', value 'ODC'
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing auxiliary named "ODC".
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - parseAuxiliary ODC
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.auxiliary.ODC.attributes'
+2026-11-03T21:40:29.651 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [diskPath] to [/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache].
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [optimizeAtRemoveCount] to [300000].
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [eventQueueType] to [POOLED].
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [shutdownSpoolTimeLimit] to [60].
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxPurgatorySize] to [10000000].
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxKeySize] to [1000000].
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [eventQueuePoolName] to [disk_cache_event_queue].
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for 'jcs.auxiliary.ODC.attributes'
+2026-11-03T21:40:29.652 INFO org.apache.commons.jcs.utils.config.OptionConverter [main] - Could not find value for key jcs.auxiliary.ODC.cacheeventlogger
+2026-11-03T21:40:29.652 INFO org.apache.commons.jcs.auxiliary.AuxiliaryCacheConfigurator [main] - No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2026-11-03T21:40:29.652 INFO org.apache.commons.jcs.utils.config.OptionConverter [main] - Could not find value for key jcs.auxiliary.ODC.serializer
+2026-11-03T21:40:29.652 INFO org.apache.commons.jcs.auxiliary.AuxiliaryCacheConfigurator [main] - Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@25589735] for auxiliary [jcs.auxiliary.ODC]
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCacheFactory [main] - Creating DiskCache for attributes = IndexedDiskCacheAttributes 
+ diskPath = /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache
+ maxPurgatorySize   = 10000000
+ maxKeySize  = 1000000
+ optimizeAtRemoveCount  = 300000
+ shutdownSpoolTimeLimit  = 60
+ optimizeOnShutdown  = true
+ clearDiskOnStartup  = false
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.engine.CacheEventQueueFactory [main] - threadPoolName = [disk_cache_event_queue] poolType = POOLED 
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.engine.AbstractCacheEventQueue [main] - Constructed: CacheEventQueue [listenerId=-1532732865, cacheName=POM]
+2026-11-03T21:40:29.652 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [POM] Cache file root directory: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache
+2026-11-03T21:40:29.652 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [POM] Set maxKeySize to: '1000000'
+2026-11-03T21:40:29.652 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [POM] Indexed Disk Cache is alive.
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.region.NODEAUDIT.elementattributes'
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isRemote] to [false].
+2026-11-03T21:40:29.652 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isSpool] to [true].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [isLateral] to [false].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxLife] to [86400].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for "jcs.region.NODEAUDIT.elementattributes".
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.region.NODEAUDIT.cacheattributes'
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [diskUsagePattern] to [UPDATE].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxObjects] to [0].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for "jcs.region.NODEAUDIT.cacheattributes".
+2026-11-03T21:40:29.653 INFO org.apache.commons.jcs.engine.memory.AbstractDoubleLinkedListMemoryCache [main] - initialized MemoryCache for NODEAUDIT
+2026-11-03T21:40:29.653 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - Constructed cache with name [NODEAUDIT] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing region name 'NODEAUDIT', value 'ODC'
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing auxiliary named "ODC".
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - parseAuxiliary ODC
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsing options for 'jcs.auxiliary.ODC.attributes'
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [diskPath] to [/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [optimizeAtRemoveCount] to [300000].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [eventQueueType] to [POOLED].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [shutdownSpoolTimeLimit] to [60].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxPurgatorySize] to [10000000].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [maxKeySize] to [1000000].
+2026-11-03T21:40:29.653 DEBUG org.apache.commons.jcs.utils.config.PropertySetter [main] - Setting property [eventQueuePoolName] to [disk_cache_event_queue].
+2026-11-03T21:40:29.654 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - End of parsing for 'jcs.auxiliary.ODC.attributes'
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.utils.config.OptionConverter [main] - Could not find value for key jcs.auxiliary.ODC.cacheeventlogger
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.auxiliary.AuxiliaryCacheConfigurator [main] - No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.utils.config.OptionConverter [main] - Could not find value for key jcs.auxiliary.ODC.serializer
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.auxiliary.AuxiliaryCacheConfigurator [main] - Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@46994f26] for auxiliary [jcs.auxiliary.ODC]
+2026-11-03T21:40:29.654 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCacheFactory [main] - Creating DiskCache for attributes = IndexedDiskCacheAttributes 
+ diskPath = /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache
+ maxPurgatorySize   = 10000000
+ maxKeySize  = 1000000
+ optimizeAtRemoveCount  = 300000
+ shutdownSpoolTimeLimit  = 60
+ optimizeOnShutdown  = true
+ clearDiskOnStartup  = false
+2026-11-03T21:40:29.654 DEBUG org.apache.commons.jcs.engine.CacheEventQueueFactory [main] - threadPoolName = [disk_cache_event_queue] poolType = POOLED 
+2026-11-03T21:40:29.654 DEBUG org.apache.commons.jcs.engine.AbstractCacheEventQueue [main] - Constructed: CacheEventQueue [listenerId=-1532732865, cacheName=NODEAUDIT]
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [NODEAUDIT] Cache file root directory: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [NODEAUDIT] Set maxKeySize to: '1000000'
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [main] - Region [NODEAUDIT] Indexed Disk Cache is alive.
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.engine.control.CompositeCacheConfigurator [main] - Parsed regions [CENTRAL, POM, NODEAUDIT]
+2026-11-03T21:40:29.654 INFO org.apache.commons.jcs.engine.control.CompositeCacheManager [main] - Finished configuration in 101 ms.
+2026-11-03T21:40:29.654 DEBUG org.apache.commons.jcs.engine.control.CompositeCacheManager [main] - attr = [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1793763629654, LastAccessTime = 1793763629576, getTimeToLiveSeconds() = 86400, createTime = 1793763629654 ]
+2026-11-03T21:40:29.702 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - Checking file /home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/test-classes/Pipfile
+2026-11-03T21:40:29.734 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: aiodns 2.0.0
+2026-11-03T21:40:29.788 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: aiohttp 3.6.2
+2026-11-03T21:40:29.789 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: aiokafka 0.5.0
+2026-11-03T21:40:29.794 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: apscheduler 3.6.3
+2026-11-03T21:40:29.795 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: asyncpg 0.20.1
+2026-11-03T21:40:29.796 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: attrs 20.1.0
+2026-11-03T21:40:29.797 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: boto3 1.14.49
+2026-11-03T21:40:29.800 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: botocore 1.17.49
+2026-11-03T21:40:29.802 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: cchardet 2.1.6
+2026-11-03T21:40:29.806 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: certifi 2019.6.16
+2026-11-03T21:40:29.807 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: cffi 1.14.2
+2026-11-03T21:40:29.807 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: chardet 3.0.4
+2026-11-03T21:40:29.808 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: GitPython 3.1.7
+2026-11-03T21:40:29.812 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: gunicorn 19.9.0
+2026-11-03T21:40:29.817 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: idna 2.8
+2026-11-03T21:40:29.821 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: idna_ssl 1.1.0
+2026-11-03T21:40:29.822 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: importlib-metadata 1.7.0
+2026-11-03T21:40:29.824 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: insights-core 3.0.182
+2026-11-03T21:40:29.827 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: kafka-python 1.4.3
+2026-11-03T21:40:29.828 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: lockfile 0.12.2
+2026-11-03T21:40:29.830 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: msgpack 0.6.1
+2026-11-03T21:40:29.832 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: peewee 3.10.0
+2026-11-03T21:40:29.834 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: psycopg2-binary 2.8.3
+2026-11-03T21:40:29.835 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: pyrsistent 0.16.0
+2026-11-03T21:40:29.837 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: python-dateutil 2.8.0
+2026-11-03T21:40:29.838 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: pytz 2019.2
+2026-11-03T21:40:29.840 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: redis 3.3.6
+2026-11-03T21:40:29.843 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: requests 2.22.0
+2026-11-03T21:40:29.844 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: six 1.12.0
+2026-11-03T21:40:29.846 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: swagger-ui-bundle 0.0.5
+2026-11-03T21:40:29.847 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: tornado 6.0.3
+2026-11-03T21:40:29.850 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: urllib3 1.25.9
+2026-11-03T21:40:29.853 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: yarl 1.5.1
+2026-11-03T21:40:29.855 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: watchtower 0.6.0
+2026-11-03T21:40:29.856 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: zipp 3.1.0
+2026-11-03T21:40:29.858 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: py-flags 1.1.2
+2026-11-03T21:40:29.861 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: CacheControl 0.12.5
+2026-11-03T21:40:29.864 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: prometheus_client 0.7.1
+2026-11-03T21:40:29.867 DEBUG org.owasp.dependencycheck.analyzer.PipfileAnalyzer [main] - package, version: PyYAML 5.3.1
+2026-11-03T21:40:29.883 INFO org.apache.commons.jcs.engine.control.event.ElementEventQueue [main] - Element event queue destroyed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@5d58dc61
+2026-11-03T21:40:29.884 FINER com.sun.jmx.mbeanserver.Repository retrieve - name = org.apache.commons.jcs:type=JCSAdminBean
+2026-11-03T21:40:29.884 FINER com.sun.jmx.mbeanserver.Repository remove - name = org.apache.commons.jcs:type=JCSAdminBean
+2026-11-03T21:40:29.884 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor unregisterFromRepository - Send delete notification of object org.apache.commons.jcs:type=JCSAdminBean
+2026-11-03T21:40:29.884 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification - JMX.mbean.unregistered org.apache.commons.jcs:type=JCSAdminBean
+2026-11-03T21:40:29.885 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [NODEAUDIT] fromRemote [false]
+2026-11-03T21:40:29.887 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [NODEAUDIT] auxiliary [NODEAUDIT]
+2026-11-03T21:40:29.888 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [NODEAUDIT] put 0 into auxiliary NODEAUDIT
+2026-11-03T21:40:29.991 INFO org.apache.commons.jcs.auxiliary.disk.AbstractDiskCache [Thread-9] - No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2026-11-03T21:40:29.992 INFO org.apache.commons.jcs.auxiliary.disk.AbstractDiskCache [main] - In dispose, destroying event queue.
+2026-11-03T21:40:30.000 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [NODEAUDIT] Saving keys to: NODEAUDIT, key count: 0
+2026-11-03T21:40:30.000 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDisk [IndexedDiskCache-DisposalThread] - Resetting Indexed File [/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache/NODEAUDIT.key]
+2026-11-03T21:40:30.012 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [NODEAUDIT] Finished saving keys.
+2026-11-03T21:40:30.012 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [NODEAUDIT] Closing files, base filename: NODEAUDIT
+2026-11-03T21:40:30.012 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [NODEAUDIT] Shutdown complete.
+2026-11-03T21:40:30.013 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [NODEAUDIT] disposing of memory cache.
+2026-11-03T21:40:30.013 INFO org.apache.commons.jcs.engine.memory.AbstractMemoryCache [main] - Memory Cache dispose called.
+2026-11-03T21:40:30.013 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [CENTRAL] fromRemote [false]
+2026-11-03T21:40:30.013 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [CENTRAL] auxiliary [CENTRAL]
+2026-11-03T21:40:30.013 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [CENTRAL] put 0 into auxiliary CENTRAL
+2026-11-03T21:40:30.116 INFO org.apache.commons.jcs.auxiliary.disk.AbstractDiskCache [Thread-10] - No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2026-11-03T21:40:30.116 INFO org.apache.commons.jcs.auxiliary.disk.AbstractDiskCache [main] - In dispose, destroying event queue.
+2026-11-03T21:40:30.118 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [CENTRAL] Saving keys to: CENTRAL, key count: 0
+2026-11-03T21:40:30.118 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDisk [IndexedDiskCache-DisposalThread] - Resetting Indexed File [/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache/CENTRAL.key]
+2026-11-03T21:40:30.121 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [CENTRAL] Finished saving keys.
+2026-11-03T21:40:30.121 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [CENTRAL] Closing files, base filename: CENTRAL
+2026-11-03T21:40:30.121 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [CENTRAL] Shutdown complete.
+2026-11-03T21:40:30.122 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [CENTRAL] disposing of memory cache.
+2026-11-03T21:40:30.122 INFO org.apache.commons.jcs.engine.memory.AbstractMemoryCache [main] - Memory Cache dispose called.
+2026-11-03T21:40:30.122 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [POM] fromRemote [false]
+2026-11-03T21:40:30.122 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [POM] auxiliary [POM]
+2026-11-03T21:40:30.122 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [POM] put 0 into auxiliary POM
+2026-11-03T21:40:30.224 INFO org.apache.commons.jcs.auxiliary.disk.AbstractDiskCache [Thread-11] - No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2026-11-03T21:40:30.225 INFO org.apache.commons.jcs.auxiliary.disk.AbstractDiskCache [main] - In dispose, destroying event queue.
+2026-11-03T21:40:30.227 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [POM] Saving keys to: POM, key count: 0
+2026-11-03T21:40:30.227 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDisk [IndexedDiskCache-DisposalThread] - Resetting Indexed File [/home/user/log-dataset/logpath-bugs-work/workspace/rwork/dependency-check__DependencyCheck_x1/core/target/data/cache/POM.key]
+2026-11-03T21:40:30.228 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [POM] Finished saving keys.
+2026-11-03T21:40:30.228 DEBUG org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [POM] Closing files, base filename: POM
+2026-11-03T21:40:30.228 INFO org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCache [IndexedDiskCache-DisposalThread] - Region [POM] Shutdown complete.
+2026-11-03T21:40:30.228 INFO org.apache.commons.jcs.engine.control.CompositeCache [main] - In DISPOSE, [POM] disposing of memory cache.
+2026-11-03T21:40:30.228 INFO org.apache.commons.jcs.engine.memory.AbstractMemoryCache [main] - Memory Cache dispose called.

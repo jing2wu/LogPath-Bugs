@@ -1,0 +1,5 @@
+2026-11-03T21:46:51.646 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:46:51.676 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:46:52.741 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy 8025e26cc80029d9e08bbee8e755fb7079445e49ca066b37506b07e53d69ed84 has no custom dictionaries.
+2026-11-03T21:46:52.773 WARN ai.philterd.phileas.services.split.SplitFactory [main] - No matching split service found for character. Defaulting to newline split service.
+2026-11-03T21:46:52.785 DEBUG ai.philterd.phileas.services.split.NewLineSplitService [main] - Split large input exceeding threshold into 1 splits using new line split method.

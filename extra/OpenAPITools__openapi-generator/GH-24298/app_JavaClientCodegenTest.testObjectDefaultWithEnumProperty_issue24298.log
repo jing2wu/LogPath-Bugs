@@ -1,0 +1,1194 @@
+2026-11-03T20:38:32.300 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T20:38:33.775 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAllowModelWithNoProperties()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1878427124
+2026-11-03T20:38:33.775 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -50295346
+2026-11-03T20:38:33.775 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAnyType()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -385681396
+2026-11-03T20:38:33.776 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testFreeFormObjects()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1405835246
+2026-11-03T20:38:33.776 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOneOfInterfaceWithEnumDiscriminatorHavingCustomDescription3_1()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1039008774
+2026-11-03T20:38:33.776 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpAsyncClient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2081527968
+2026-11-03T20:38:33.776 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOneOfInterfaceInheritedEnumDiscriminator()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 657138481
+2026-11-03T20:38:33.783 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithGeneratedClientAsBeanEnabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -45598635
+2026-11-03T20:38:33.783 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAuthorizationScopeValues_Issue6733()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -299780554
+2026-11-03T20:38:33.783 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testClassesAreValidJavaOkHttpGson()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -217904301
+2026-11-03T20:38:33.783 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testInitialConfigValues()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -77307862
+2026-11-03T20:38:33.783 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testIsOverriddenProperty()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1264772571
+2026-11-03T20:38:33.783 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithCustomUserAgent()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -662675171
+2026-11-03T20:38:33.783 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.processOptsConfiguresRxJavaOptions(java.util.Map,java.util.Map)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1636466854
+2026-11-03T20:38:33.784 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.annotationLibraryDoesNotCauseImportConflicts()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1278527777
+2026-11-03T20:38:33.790 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testForJavaNativeJsonSubtype()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -186133026
+2026-11-03T20:38:33.790 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testVertXAuthInfoWithHyphenSeparatedSecurityScheme()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1594229859
+2026-11-03T20:38:33.790 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testEnumCaseSensitive_issue8084()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1398544799
+2026-11-03T20:38:33.790 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGenerateParameterId()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1204846973
+2026-11-03T20:38:33.790 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateHandleURIEnum()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1374878981
+2026-11-03T20:38:33.790 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testQueryParamsExploded_whenQueryParamIsNull()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1338380496
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientJsonCreatorWithNullable_issue12790()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -452463861
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.givenOneOfUsesInterfacesAndLibraryNotJacksonWhenGenerateThenOneOfInterfaceDoesNotHaveJacksonImports(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 270888661
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithUseSingleRequestParameter_static()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -537684183
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.doesNotGenerateJacksonJsonFormatAnnotation_whenLibraryIsGson_andSerializeBigDecimalAsStringIsTrue()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -11568491
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.supportsJackson3WithOpenApiNullableForSpringBoot4Libraries(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2096988250
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileGenerateCorrectJsonbCreator_issue12622()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2016444597
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldGenerateBlockingAndNoBlockingOperationsForWebClient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1515748814
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.sealedOneOfInterfaceMicroprofileJackson()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -883741590
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testCustomMethodParamsAreCamelizedWhenUsingFeign()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1157459453
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.arraysInRequestBody()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 986186958
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.replaceOneOfByDiscriminatorMapping(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1186498222
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldProperlyExplodeRestTemplateQueryParameters_issue907()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -575528915
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAdditionalPropertiesPutForConfigValues()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1744459062
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testImportMappingResult()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1548511852
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithPerformBeanValidationDisabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2132116640
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testReferencedHeader()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -2082839224
+2026-11-03T20:38:33.791 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithXMLAndJackson3AndOpenApiNullable_issue_23860()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1107499325
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGeneratePingSomeObj()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1954118858
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testExtraAnnotations(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1734833798
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDeprecatedProperty()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1040683846
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testSchemaMapping()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1656741573
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testReferencedHeader2()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1160811898
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithUseSingleRequestParameter_static_issue_20668()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1544168204
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMultiPartSpecifiesFileName_Issue17367()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 455351256
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.annotationLibraryGeneratesCorrectImports()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1078252438
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testForJavaNativeClientOverrideSetter()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -171241638
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAuthorizationsMethodsSizeWhenFiltered()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -296037912
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.processOptsConvertsConfiguredSupportUrlQuery()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1440304379
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testApacheHttpClientWithJackson3()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -2098005721
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.setsDefaultSerializationLibrary(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1724149307
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithUseBeanValidationDisabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1127183290
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithUseSingleRequestParameter_issue_19406()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1104608833
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testForJavaApacheHttpClientOverrideSetter()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -454642725
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileRestClientIncorrectVersion()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1415313975
+2026-11-03T20:38:33.792 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRequiredAndNullableAreBothTrue()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1135985660
+2026-11-03T20:38:33.793 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testUseDeductionForOneInterfaces()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -662593607
+2026-11-03T20:38:33.793 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldGenerateCorrectXmlAnnotations(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1589071087
+2026-11-03T20:38:33.802 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.generatesJacksonJsonFormatAnnotation_whenLibraryIsJackson_andSerializeBigDecimalAsStringIsTrue()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 7460944
+2026-11-03T20:38:33.802 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testHandleConstantParams()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1603709468
+2026-11-03T20:38:33.802 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testUseBeanValidationGeneratesEmailAnnotation()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2019675253
+2026-11-03T20:38:33.803 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.supportsJackson3ForSpringBoot4Libraries(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -804957449
+2026-11-03T20:38:33.803 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithUseSingleRequestParameter_static_issue_20668()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -652624688
+2026-11-03T20:38:33.803 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDiscriminatorWithMappingIssue14731()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1307616535
+2026-11-03T20:38:33.803 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDefaultMicroprofileRestClientVersion()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1604888539
+2026-11-03T20:38:33.803 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNativeClientWithUseSingleRequestParameter()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 866194257
+2026-11-03T20:38:33.804 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOneOfClassWithAnnotation()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -908344226
+2026-11-03T20:38:33.804 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileFormMultipartArray()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 958024568
+2026-11-03T20:38:33.804 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithUseBeanValidationEnabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1295103319
+2026-11-03T20:38:33.804 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.escapeName()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1729978572
+2026-11-03T20:38:33.804 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRetrofit2CookieParamsOmittedFromSignature()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -361281371
+2026-11-03T20:38:33.808 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testEnumDiscriminatorDefaultValueIsNotString()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -611019393
+2026-11-03T20:38:33.808 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.generateAllArgsConstructor_REFACTOR_ALLOF_WITH_PROPERTIES_ONLY()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 890702667
+2026-11-03T20:38:33.808 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.nullValuesInComposedSchema()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 563698943
+2026-11-03T20:38:33.808 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientSupportListOfStringReturnType_issue7118()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1965959699
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithGeneratedClientAsBeanDisabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 571154574
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testBuilderJavaClient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1392275958
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithUseAbstractionForFiles()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 277261920
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testPackageNamesSetInvokerDerivedFromModel()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1576858834
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.allOfWithSeveralRefsButOnlyOneIsMarkedAsParent()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1630851863
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJavaClientDefaultValues_issueNoNumber()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1040878152
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testFeignHc5TemplateDirDefaultsToFeign()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1196464620
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAllOfClassWithAnnotations(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -998206092
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.givenComplexObjectHasDefaultValueWhenGenerateThenDefaultAssignmentsAreValid()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1182744881
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.oneOf_issue_912()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1670515122
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.gsonCodeDoesNotContainJacksonReferences(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 491876983
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldNotAddAdditionalModelAnnotationsToAbstractOpenApiSchema_issue15684(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -705061091
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithFreeFormInQueryParameters()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1040443177
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGeneratedAuthClassesJersey()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 976546607
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.disableDiscriminatorJsonIgnorePropertiesIsTrueThenJsonIgnorePropertiesShouldBeNotAdded()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1877292678
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.queryParameterJsonSerialization(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -151679463
+2026-11-03T20:38:33.809 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.generateAllArgsConstructor()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 91381423
+2026-11-03T20:38:33.810 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testReturnTypeMapping()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 880858030
+2026-11-03T20:38:33.810 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJspecify(java.lang.String,boolean,boolean)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -263164777
+2026-11-03T20:38:33.817 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOneOfInterfaceWithAnnotation()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 378443773
+2026-11-03T20:38:33.817 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testSwagger2TagImportRestAssured()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 594197372
+2026-11-03T20:38:33.817 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMapOfInnerEnum_issue19393()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 361707787
+2026-11-03T20:38:33.818 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.sealedInterfaceScenariosWebClient(java.lang.String,java.util.Map)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 364624583
+2026-11-03T20:38:33.818 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithAndWithoutParentExtension()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1390911820
+2026-11-03T20:38:33.818 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testCharsetInContentTypeCorrectlyEncodedForFeignApi_issue19895()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 755582965
+2026-11-03T20:38:33.818 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientMultipartFormParamsGuardAgainstEmptyLists()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 779852759
+2026-11-03T20:38:33.818 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithGeneratedOAuthTokenSuppliers()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -506087853
+2026-11-03T20:38:33.818 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileRestClientVersion_1_4_1()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1548530267
+2026-11-03T20:38:33.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithUseAbstractionForFiles()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2063265980
+2026-11-03T20:38:33.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testClassesAreValidJavaJersey2()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1996517404
+2026-11-03T20:38:33.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testEnumWithImplements()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 768004311
+2026-11-03T20:38:33.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testClassesAreValidJavaJersey3()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1996517435
+2026-11-03T20:38:33.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWithoutBeanValidationDoesNotGenerateEmailAnnotation()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1267956453
+2026-11-03T20:38:33.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientJsonCreatorWithNullable_issue12790()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1402961433
+2026-11-03T20:38:33.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testForJavaApacheHttpClientJsonSubtype()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1037964568
+2026-11-03T20:38:33.828 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldGenerateCorrectJaxbAnnotations(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1771462177
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithJackson3()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -511308856
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNotDuplicateOauth2FlowsScopes()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 74724673
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileRestClientVersion_3_0()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 814864665
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOpenapiGeneratorIgnoreListOption()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1295809670
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNativeClientWhiteSpacePathParamEncoding()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1828191434
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.oneOfWithInnerModelTest()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1984396824
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithAndWithoutDiscriminator()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1723969171
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithXMLAndJackson3_issue_23860()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -443370883
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOkHttpGsonHandleURIEnum()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1891412548
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.sealedInterfaceScenariosRestClient(java.lang.String,java.util.Map)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 602215291
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithUseSingleRequestParameter_issue_19407()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 251864508
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientResponseTypeWithUseAbstractionForFiles_issue16589()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 907043784
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldProperlyExplodeWebClientQueryParameters()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 606879388
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileHandleURIEnum()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1312627918
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAllOfWithSinglePrimitiveTypeRef()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1857796922
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGetSchemaTypeWithComposedSchemaWithAllOf()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1773710374
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithPerformBeanValidationEnabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 155653763
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDiscriminatorWithoutMappingIssue14731()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1830639511
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.updateCodegenPropertyEnumWithCustomNames()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -831215553
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithGeneratedOAuthTokenSuppliers()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 510295940
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testSupportedSecuritySchemesJersey()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 264340702
+2026-11-03T20:38:33.829 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testLogicToAvoidStackOverflow()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2114331588
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testObjectDefaultWithEnumProperty_issue24298()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1376918999
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGeneratePing()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1781465159
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.updateCodegenPropertyEnum()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1831743504
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.oneOfTest()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 943752753
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithJackson3AndOpenApiNullable()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 422132046
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testSettersForConfigValues()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -535131243
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.callNativeServiceWithEmptyResponseSync()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1241704189
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testTypedAndNonTypedComposedSchemaGeneration_3_1()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 231556403
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testFeignHc5CustomTemplateDirIsPreserved()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1718112807
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.allOfWithSeveralRefsAndRefAsParentInAllOfNormalizationIsTrue()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -635100184
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithUseBeanValidationEnabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -720018377
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testParametersAreCorrectlyOrderedWhenUsingRetrofit()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -171456239
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateResponseTypeWithUseAbstractionForFiles()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1058273298
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithFreeFormInQueryParameters()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1862210326
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithXML_issue_19137()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2035397656
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testQueryParamsExploded_whenQueryParamIsNull_restclient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 425778962
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNativeClientExplodedQueryParamObject()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 598064421
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientSupportListOfStringReturnType_issue7118()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 299280951
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithFreeFormInQueryParameters()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1093078458
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientFormMultipart()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1903252201
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDeprecatedPropertyJersey3()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -879260169
+2026-11-03T20:38:33.830 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testFailOnUnknownPropertiesAdditionalProperty()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -947406762
+2026-11-03T20:38:33.831 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.oneOfInterfaceMicroprofileJackson()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 2091964398
+2026-11-03T20:38:33.831 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.disableDiscriminatorJsonIgnorePropertiesIsTrueThenJsonIgnorePropertiesShouldBeAdded()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1923390503
+2026-11-03T20:38:33.831 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDuplicatedOperationId()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1415203529
+2026-11-03T20:38:33.831 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithDefaultUserAgent()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1432132321
+2026-11-03T20:38:33.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNativeClientExplodedQueryParamWithArrayProperty()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1080394772
+2026-11-03T20:38:33.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.callNativeServiceWithEmptyResponseAsync()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1054612620
+2026-11-03T20:38:33.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientResponseTypeWithUseAbstractionForFiles_issue16589()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1333559644
+2026-11-03T20:38:33.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileGenerateCorrectJacksonGenerator_issue18336()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1784055095
+2026-11-03T20:38:33.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testEnumCaseInsensitive_issue8084()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 740394116
+2026-11-03T20:38:33.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testBearerAuth()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 769924453
+2026-11-03T20:38:33.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAuthorizationScopeValues_Issue392()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] 1613970397
+2026-11-03T20:38:33.841 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testPackageNamesSetInvokerDerivedFromApi()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -2092718399
+2026-11-03T20:38:33.842 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testUseBeanValidationGeneratesEmailAnnotationWithJavax()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@3a588b5f] -1342664293
+2026-11-03T20:38:33.847 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:38:33.936 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:38:33.936 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:38:33.936 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAllowModelWithNoProperties()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 2027477829
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 98755359
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAnyType()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -236630691
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testFreeFormObjects()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1554885951
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOneOfInterfaceWithEnumDiscriminatorHavingCustomDescription3_1()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -889958069
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpAsyncClient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2064388623
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOneOfInterfaceInheritedEnumDiscriminator()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 806189186
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithGeneratedClientAsBeanEnabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 103452070
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAuthorizationScopeValues_Issue6733()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -150729849
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testClassesAreValidJavaOkHttpGson()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -68853596
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testInitialConfigValues()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 71742843
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testIsOverriddenProperty()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1413823276
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithCustomUserAgent()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -513624466
+2026-11-03T20:38:36.919 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.processOptsConfiguresRxJavaOptions(java.util.Map,java.util.Map)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1785517559
+2026-11-03T20:38:36.920 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.annotationLibraryDoesNotCauseImportConflicts()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1129477072
+2026-11-03T20:38:36.920 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testForJavaNativeJsonSubtype()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -37082321
+2026-11-03T20:38:36.920 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testVertXAuthInfoWithHyphenSeparatedSecurityScheme()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1445179154
+2026-11-03T20:38:36.920 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testEnumCaseSensitive_issue8084()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1547595504
+2026-11-03T20:38:36.920 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGenerateParameterId()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1055796268
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateHandleURIEnum()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1225828276
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testQueryParamsExploded_whenQueryParamIsNull()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1189329791
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientJsonCreatorWithNullable_issue12790()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -303413156
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.givenOneOfUsesInterfacesAndLibraryNotJacksonWhenGenerateThenOneOfInterfaceDoesNotHaveJacksonImports(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 419939366
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithUseSingleRequestParameter_static()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -388633478
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.doesNotGenerateJacksonJsonFormatAnnotation_whenLibraryIsGson_andSerializeBigDecimalAsStringIsTrue()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 137482214
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.supportsJackson3WithOpenApiNullableForSpringBoot4Libraries(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2048928341
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileGenerateCorrectJsonbCreator_issue12622()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2129471994
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldGenerateBlockingAndNoBlockingOperationsForWebClient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1664799519
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.sealedOneOfInterfaceMicroprofileJackson()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -734690885
+2026-11-03T20:38:36.924 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testCustomMethodParamsAreCamelizedWhenUsingFeign()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1306510158
+2026-11-03T20:38:36.925 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.arraysInRequestBody()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1135237663
+2026-11-03T20:38:36.925 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.replaceOneOfByDiscriminatorMapping(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1335548927
+2026-11-03T20:38:36.925 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldProperlyExplodeRestTemplateQueryParameters_issue907()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -426478210
+2026-11-03T20:38:36.925 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAdditionalPropertiesPutForConfigValues()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1893509767
+2026-11-03T20:38:36.925 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testImportMappingResult()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1697562557
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithPerformBeanValidationDisabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2013799951
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testReferencedHeader()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1933788519
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithXMLAndJackson3AndOpenApiNullable_issue_23860()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -958448620
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGeneratePingSomeObj()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1805068153
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testExtraAnnotations(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1585783093
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDeprecatedProperty()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1189734551
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testSchemaMapping()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1805792278
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testReferencedHeader2()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1011761193
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithUseSingleRequestParameter_static_issue_20668()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1395117499
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMultiPartSpecifiesFileName_Issue17367()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 604401961
+2026-11-03T20:38:36.930 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.annotationLibraryGeneratesCorrectImports()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -929201733
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testForJavaNativeClientOverrideSetter()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -22190933
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAuthorizationsMethodsSizeWhenFiltered()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -146987207
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.processOptsConvertsConfiguredSupportUrlQuery()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1291253674
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testApacheHttpClientWithJackson3()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1948955016
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.setsDefaultSerializationLibrary(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1575098602
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithUseBeanValidationDisabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1276233995
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithUseSingleRequestParameter_issue_19406()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1253659538
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testForJavaApacheHttpClientOverrideSetter()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -305592020
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileRestClientIncorrectVersion()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1564364680
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRequiredAndNullableAreBothTrue()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -986934955
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testUseDeductionForOneInterfaces()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -513542902
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldGenerateCorrectXmlAnnotations(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1440020382
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.generatesJacksonJsonFormatAnnotation_whenLibraryIsJackson_andSerializeBigDecimalAsStringIsTrue()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 156511649
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testHandleConstantParams()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1752760173
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testUseBeanValidationGeneratesEmailAnnotation()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2126241338
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.supportsJackson3ForSpringBoot4Libraries(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -655906744
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithUseSingleRequestParameter_static_issue_20668()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -503573983
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDiscriminatorWithMappingIssue14731()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1158565830
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDefaultMicroprofileRestClientVersion()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1753939244
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNativeClientWithUseSingleRequestParameter()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1015244962
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOneOfClassWithAnnotation()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -759293521
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileFormMultipartArray()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1107075273
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithUseBeanValidationEnabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1146052614
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.escapeName()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1580927867
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRetrofit2CookieParamsOmittedFromSignature()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -212230666
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testEnumDiscriminatorDefaultValueIsNotString()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -461968688
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.generateAllArgsConstructor_REFACTOR_ALLOF_WITH_PROPERTIES_ONLY()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1039753372
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.nullValuesInComposedSchema()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 712749648
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientSupportListOfStringReturnType_issue7118()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 2115010404
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithGeneratedClientAsBeanDisabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 720205279
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testBuilderJavaClient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1243225253
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithUseAbstractionForFiles()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 426312625
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testPackageNamesSetInvokerDerivedFromModel()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1725909539
+2026-11-03T20:38:36.931 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.allOfWithSeveralRefsButOnlyOneIsMarkedAsParent()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1779902568
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJavaClientDefaultValues_issueNoNumber()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -891827447
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testFeignHc5TemplateDirDefaultsToFeign()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1047413915
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAllOfClassWithAnnotations(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -849155387
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.givenComplexObjectHasDefaultValueWhenGenerateThenDefaultAssignmentsAreValid()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1033694176
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.oneOf_issue_912()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1521464417
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.gsonCodeDoesNotContainJacksonReferences(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 640927688
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldNotAddAdditionalModelAnnotationsToAbstractOpenApiSchema_issue15684(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -556010386
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithFreeFormInQueryParameters()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1189493882
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGeneratedAuthClassesJersey()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1125597312
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.disableDiscriminatorJsonIgnorePropertiesIsTrueThenJsonIgnorePropertiesShouldBeNotAdded()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1728241973
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.queryParameterJsonSerialization(java.lang.String)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2628758
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.generateAllArgsConstructor()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 240432128
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testReturnTypeMapping()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1029908735
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJspecify(java.lang.String,boolean,boolean)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -114114072
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOneOfInterfaceWithAnnotation()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 527494478
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testSwagger2TagImportRestAssured()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 743248077
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMapOfInnerEnum_issue19393()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 510758492
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.sealedInterfaceScenariosWebClient(java.lang.String,java.util.Map)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 513675288
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithAndWithoutParentExtension()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1241861115
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testCharsetInContentTypeCorrectlyEncodedForFeignApi_issue19895()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 904633670
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientMultipartFormParamsGuardAgainstEmptyLists()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 928903464
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithGeneratedOAuthTokenSuppliers()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -357037148
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileRestClientVersion_1_4_1()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1399479562
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithUseAbstractionForFiles()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2082650611
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testClassesAreValidJavaJersey2()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 2145568109
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testEnumWithImplements()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 917055016
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testClassesAreValidJavaJersey3()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 2145568140
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWithoutBeanValidationDoesNotGenerateEmailAnnotation()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1417007158
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientJsonCreatorWithNullable_issue12790()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1253910728
+2026-11-03T20:38:36.932 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testForJavaApacheHttpClientJsonSubtype()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -888913863
+2026-11-03T20:38:36.933 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldGenerateCorrectJaxbAnnotations(org.openapitools.codegen.java.JavaClientCodegenTest$Library)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1622411472
+2026-11-03T20:38:36.933 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithJackson3()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -362258151
+2026-11-03T20:38:36.933 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNotDuplicateOauth2FlowsScopes()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 223775378
+2026-11-03T20:38:36.933 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileRestClientVersion_3_0()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 963915370
+2026-11-03T20:38:36.933 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOpenapiGeneratorIgnoreListOption()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1444860375
+2026-11-03T20:38:36.933 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNativeClientWhiteSpacePathParamEncoding()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1679140729
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.oneOfWithInnerModelTest()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 2133447529
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithAndWithoutDiscriminator()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1574918466
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithXMLAndJackson3_issue_23860()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -294320178
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testOkHttpGsonHandleURIEnum()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1742361843
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.sealedInterfaceScenariosRestClient(java.lang.String,java.util.Map)[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 751265996
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithUseSingleRequestParameter_issue_19407()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 400915213
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientResponseTypeWithUseAbstractionForFiles_issue16589()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1056094489
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.shouldProperlyExplodeWebClientQueryParameters()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 755930093
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileHandleURIEnum()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1163577213
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAllOfWithSinglePrimitiveTypeRef()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 2006847627
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGetSchemaTypeWithComposedSchemaWithAllOf()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1922761079
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithPerformBeanValidationEnabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 304704468
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDiscriminatorWithoutMappingIssue14731()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1979690216
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.updateCodegenPropertyEnumWithCustomNames()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -682164848
+2026-11-03T20:38:36.940 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithGeneratedOAuthTokenSuppliers()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 659346645
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testSupportedSecuritySchemesJersey()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 413391407
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testLogicToAvoidStackOverflow()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2031585003
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testObjectDefaultWithEnumProperty_issue24298()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1525969704
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testGeneratePing()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1930515864
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.updateCodegenPropertyEnum()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1980794209
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.oneOfTest()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1092803458
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithJackson3AndOpenApiNullable()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 571182751
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testSettersForConfigValues()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -386080538
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.callNativeServiceWithEmptyResponseSync()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1390754894
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testTypedAndNonTypedComposedSchemaGeneration_3_1()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 380607108
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testFeignHc5CustomTemplateDirIsPreserved()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1569062102
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.allOfWithSeveralRefsAndRefAsParentInAllOfNormalizationIsTrue()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -486049479
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testJdkHttpClientWithUseBeanValidationEnabled()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -570967672
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testParametersAreCorrectlyOrderedWhenUsingRetrofit()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -22405534
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateResponseTypeWithUseAbstractionForFiles()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1207324003
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientWithFreeFormInQueryParameters()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 2011261031
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithXML_issue_19137()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2110518935
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testQueryParamsExploded_whenQueryParamIsNull_restclient()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 574829667
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNativeClientExplodedQueryParamObject()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 747115126
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientSupportListOfStringReturnType_issue7118()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 448331656
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientWithFreeFormInQueryParameters()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1242129163
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestClientFormMultipart()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 2052302906
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDeprecatedPropertyJersey3()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -730209464
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testFailOnUnknownPropertiesAdditionalProperty()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -798356057
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.oneOfInterfaceMicroprofileJackson()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -2053952193
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.disableDiscriminatorJsonIgnorePropertiesIsTrueThenJsonIgnorePropertiesShouldBeAdded()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1774339798
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testDuplicatedOperationId()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1564254234
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testRestTemplateWithDefaultUserAgent()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1581183026
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testNativeClientExplodedQueryParamWithArrayProperty()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1229445477
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.callNativeServiceWithEmptyResponseAsync()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1203663325
+2026-11-03T20:38:36.941 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testWebClientResponseTypeWithUseAbstractionForFiles_issue16589()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1184508939
+2026-11-03T20:38:36.942 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testMicroprofileGenerateCorrectJacksonGenerator_issue18336()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1635004390
+2026-11-03T20:38:36.942 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testEnumCaseInsensitive_issue8084()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 889444821
+2026-11-03T20:38:36.942 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testBearerAuth()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 918975158
+2026-11-03T20:38:36.942 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testAuthorizationScopeValues_Issue392()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] 1763021102
+2026-11-03T20:38:36.942 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testPackageNamesSetInvokerDerivedFromApi()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1943667694
+2026-11-03T20:38:36.942 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testUseBeanValidationGeneratesEmailAnnotationWithJavax()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@433ae0b0] -1193613588
+2026-11-03T20:38:36.942 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:38:36.960 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:38:36.964 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:38:36.964 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:38:38.749 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testObjectDefaultWithEnumProperty_issue24298()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@355b53cc] 1293215300
+2026-11-03T20:38:38.749 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:38:38.749 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:38:38.749 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:38:38.749 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:38:39.158 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T20:38:39.166 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='java', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={gitRepoId=GIT_REPO_ID, gitHost=github.com, releaseNote=Minor update, gitUserId=GIT_USER_ID}, importMappings={}, forcedGenerateSchemas=[], languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T20:38:39.492 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:38:43.279 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/bugs/issue_24298.yaml', outputDir='/tmp/test14502603038414982810', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, quiet=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T20:38:44.306 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: "3.1.0"
+info:
+  title: Enum Default Issue Demo
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    OutputFormat:
+      type: object
+      properties:
+        order:
+          type: string
+          enum:
+            - IMPORTANCE
+            - SIMILARITY
+        limit:
+          type: integer
+      default:
+        order: SIMILARITY
+        limit: 10
+    Formatter:
+      type: object
+      properties:
+        format:
+          $ref: '#/components/schemas/OutputFormat'
+2026-11-03T20:38:45.512 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:38:45.666 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T20:38:45.698 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T20:38:45.698 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: java (client)
+2026-11-03T20:38:45.698 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'java' is considered stable.
+2026-11-03T20:38:45.728 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [main] - Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+2026-11-03T20:38:45.731 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:38:45.829 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:38:45.875 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T20:38:45.944 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:45.990 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:46.165 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for order: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:46.205 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='order', complexType='null', getter='getOrder', setter='setOrder', description='null', dataType='String', datatypeWithEnum='OrderEnum', dataFormat='null', name='order', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.order;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "enum" : [ "IMPORTANCE", "SIMILARITY" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=true, isInnerEnum=true, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=[IMPORTANCE, SIMILARITY], allowableValues={values=[IMPORTANCE, SIMILARITY]}, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='order', nameInPascalCase='Order', nameInSnakeCase='ORDER', enumName='OrderEnum', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:46.206 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for limit: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:46.212 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='limit', complexType='null', getter='getLimit', setter='setLimit', description='null', dataType='Integer', datatypeWithEnum='Integer', dataFormat='null', name='limit', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.limit;', baseType='Integer', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='limit', nameInPascalCase='Limit', nameInSnakeCase='LIMIT', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:46.247 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for format: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OutputFormat
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:46.253 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OutputFormat', baseName='format', complexType='OutputFormat', getter='getFormat', setter='setFormat', description='null', dataType='OutputFormat', datatypeWithEnum='OutputFormat', dataFormat='null', name='format', min='null', max='null', defaultValue='new OutputFormat().order("SIMILARITY").limit(10)', defaultValueWithParam=' = data.format;', baseType='OutputFormat', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OutputFormat"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='format', nameInPascalCase='Format', nameInSnakeCase='FORMAT', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/OutputFormat, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:46.505 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/model/Formatter.java
+2026-11-03T20:38:46.517 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/test/java/org/openapitools/client/model/FormatterTest.java
+2026-11-03T20:38:46.535 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/docs/Formatter.md
+2026-11-03T20:38:46.575 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/model/OutputFormat.java
+2026-11-03T20:38:46.577 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/test/java/org/openapitools/client/model/OutputFormatTest.java
+2026-11-03T20:38:46.581 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/docs/OutputFormat.md
+2026-11-03T20:38:46.586 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:46.735 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/pom.xml
+2026-11-03T20:38:46.745 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/README.md
+2026-11-03T20:38:46.751 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/build.gradle
+2026-11-03T20:38:46.760 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/build.sbt
+2026-11-03T20:38:46.765 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/settings.gradle
+2026-11-03T20:38:46.767 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/gradle.properties
+2026-11-03T20:38:46.773 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/AndroidManifest.xml
+2026-11-03T20:38:46.779 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/.travis.yml
+2026-11-03T20:38:46.839 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/ApiClient.java
+2026-11-03T20:38:46.854 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/ServerConfiguration.java
+2026-11-03T20:38:46.865 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/ServerVariable.java
+2026-11-03T20:38:46.872 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/.github/workflows/maven.yml
+2026-11-03T20:38:46.880 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/api/openapi.yaml
+2026-11-03T20:38:46.890 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/StringUtil.java
+2026-11-03T20:38:46.899 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/auth/HttpBasicAuth.java
+2026-11-03T20:38:46.902 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/auth/HttpBearerAuth.java
+2026-11-03T20:38:46.910 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/auth/ApiKeyAuth.java
+2026-11-03T20:38:46.919 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/gradlew
+2026-11-03T20:38:46.926 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/gradlew.bat
+2026-11-03T20:38:46.927 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/gradle/wrapper/gradle-wrapper.properties
+2026-11-03T20:38:46.954 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/gradle/wrapper/gradle-wrapper.jar
+2026-11-03T20:38:46.956 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/git_push.sh
+2026-11-03T20:38:46.958 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/.gitignore
+2026-11-03T20:38:46.968 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/ApiException.java
+2026-11-03T20:38:46.974 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/Configuration.java
+2026-11-03T20:38:46.977 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/Pair.java
+2026-11-03T20:38:46.983 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/auth/Authentication.java
+2026-11-03T20:38:46.993 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/ApiCallback.java
+2026-11-03T20:38:47.007 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/ApiResponse.java
+2026-11-03T20:38:47.020 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/JSON.java
+2026-11-03T20:38:47.026 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/ProgressRequestBody.java
+2026-11-03T20:38:47.028 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/ProgressResponseBody.java
+2026-11-03T20:38:47.034 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/GzipRequestInterceptor.java
+2026-11-03T20:38:47.042 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/src/main/java/org/openapitools/client/model/AbstractOpenApiSchema.java
+2026-11-03T20:38:47.051 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/.openapi-generator-ignore
+2026-11-03T20:38:47.052 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/.openapi-generator/VERSION
+2026-11-03T20:38:47.084 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test14502603038414982810/.openapi-generator/FILES
+2026-11-03T20:38:48.857 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testObjectDefaultWithEnumProperty_issue24298()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@1eb3b8c0] 913132344
+2026-11-03T20:38:48.857 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:38:48.857 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:38:48.857 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:38:48.857 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:38:49.074 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testObjectDefaultWithEnumProperty_issue24298()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@46c1f043] 1585152699
+2026-11-03T20:38:49.074 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:38:49.075 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:38:49.075 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:38:49.075 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:38:49.081 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T20:38:49.082 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='java', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={gitRepoId=GIT_REPO_ID, gitHost=github.com, releaseNote=Minor update, gitUserId=GIT_USER_ID}, importMappings={}, forcedGenerateSchemas=[], languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T20:38:49.104 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:38:49.345 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/bugs/issue_24298.yaml', outputDir='/tmp/test3481601671162087535', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, quiet=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T20:38:49.354 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: "3.1.0"
+info:
+  title: Enum Default Issue Demo
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    OutputFormat:
+      type: object
+      properties:
+        order:
+          type: string
+          enum:
+            - IMPORTANCE
+            - SIMILARITY
+        limit:
+          type: integer
+      default:
+        order: SIMILARITY
+        limit: 10
+    Formatter:
+      type: object
+      properties:
+        format:
+          $ref: '#/components/schemas/OutputFormat'
+2026-11-03T20:38:49.399 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:38:49.642 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T20:38:49.645 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T20:38:49.645 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: java (client)
+2026-11-03T20:38:49.645 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'java' is considered stable.
+2026-11-03T20:38:49.646 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [main] - Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+2026-11-03T20:38:49.646 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:38:49.651 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:38:49.653 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T20:38:49.657 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:49.657 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:49.664 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for order: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:49.671 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='order', complexType='null', getter='getOrder', setter='setOrder', description='null', dataType='String', datatypeWithEnum='OrderEnum', dataFormat='null', name='order', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.order;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "enum" : [ "IMPORTANCE", "SIMILARITY" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=true, isInnerEnum=true, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=[IMPORTANCE, SIMILARITY], allowableValues={values=[IMPORTANCE, SIMILARITY]}, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='order', nameInPascalCase='Order', nameInSnakeCase='ORDER', enumName='OrderEnum', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:49.672 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for limit: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:49.680 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='limit', complexType='null', getter='getLimit', setter='setLimit', description='null', dataType='Integer', datatypeWithEnum='Integer', dataFormat='null', name='limit', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.limit;', baseType='Integer', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='limit', nameInPascalCase='Limit', nameInSnakeCase='LIMIT', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:49.706 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for format: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OutputFormat
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:49.715 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OutputFormat', baseName='format', complexType='OutputFormat', getter='getFormat', setter='setFormat', description='null', dataType='OutputFormat', datatypeWithEnum='OutputFormat', dataFormat='null', name='format', min='null', max='null', defaultValue='new OutputFormat().order("SIMILARITY").limit(10)', defaultValueWithParam=' = data.format;', baseType='OutputFormat', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OutputFormat"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='format', nameInPascalCase='Format', nameInSnakeCase='FORMAT', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/OutputFormat, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:49.784 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/model/Formatter.java
+2026-11-03T20:38:49.787 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/test/java/org/openapitools/client/model/FormatterTest.java
+2026-11-03T20:38:49.797 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/docs/Formatter.md
+2026-11-03T20:38:49.822 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/model/OutputFormat.java
+2026-11-03T20:38:49.822 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/test/java/org/openapitools/client/model/OutputFormatTest.java
+2026-11-03T20:38:49.826 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/docs/OutputFormat.md
+2026-11-03T20:38:49.827 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:49.876 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/pom.xml
+2026-11-03T20:38:49.883 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/README.md
+2026-11-03T20:38:49.895 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/build.gradle
+2026-11-03T20:38:49.903 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/build.sbt
+2026-11-03T20:38:49.905 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/settings.gradle
+2026-11-03T20:38:49.909 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/gradle.properties
+2026-11-03T20:38:49.910 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/AndroidManifest.xml
+2026-11-03T20:38:49.912 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/.travis.yml
+2026-11-03T20:38:49.926 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/ApiClient.java
+2026-11-03T20:38:49.928 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/ServerConfiguration.java
+2026-11-03T20:38:49.933 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/ServerVariable.java
+2026-11-03T20:38:49.942 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/.github/workflows/maven.yml
+2026-11-03T20:38:49.943 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/api/openapi.yaml
+2026-11-03T20:38:49.951 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/StringUtil.java
+2026-11-03T20:38:49.956 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/auth/HttpBasicAuth.java
+2026-11-03T20:38:49.962 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/auth/HttpBearerAuth.java
+2026-11-03T20:38:49.964 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/auth/ApiKeyAuth.java
+2026-11-03T20:38:49.969 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/gradlew
+2026-11-03T20:38:49.979 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/gradlew.bat
+2026-11-03T20:38:49.980 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/gradle/wrapper/gradle-wrapper.properties
+2026-11-03T20:38:49.981 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/gradle/wrapper/gradle-wrapper.jar
+2026-11-03T20:38:49.990 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/git_push.sh
+2026-11-03T20:38:49.995 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/.gitignore
+2026-11-03T20:38:50.001 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/ApiException.java
+2026-11-03T20:38:50.012 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/Configuration.java
+2026-11-03T20:38:50.017 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/Pair.java
+2026-11-03T20:38:50.023 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/auth/Authentication.java
+2026-11-03T20:38:50.031 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/ApiCallback.java
+2026-11-03T20:38:50.036 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/ApiResponse.java
+2026-11-03T20:38:50.048 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/JSON.java
+2026-11-03T20:38:50.053 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/ProgressRequestBody.java
+2026-11-03T20:38:50.060 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/ProgressResponseBody.java
+2026-11-03T20:38:50.062 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/GzipRequestInterceptor.java
+2026-11-03T20:38:50.073 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/src/main/java/org/openapitools/client/model/AbstractOpenApiSchema.java
+2026-11-03T20:38:50.075 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/.openapi-generator-ignore
+2026-11-03T20:38:50.076 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/.openapi-generator/VERSION
+2026-11-03T20:38:50.090 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test3481601671162087535/.openapi-generator/FILES
+2026-11-03T20:38:50.388 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testObjectDefaultWithEnumProperty_issue24298()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@208ba9c7] 944061503
+2026-11-03T20:38:50.388 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:38:50.388 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:38:50.388 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:38:50.388 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:38:50.591 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE JavaClientCodegenTest.testObjectDefaultWithEnumProperty_issue24298()[pri:0, instance:org.openapitools.codegen.java.JavaClientCodegenTest@1946f26] 424542622
+2026-11-03T20:38:50.592 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T20:38:50.592 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T20:38:50.592 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T20:38:50.592 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T20:38:50.602 INFO org.openapitools.codegen.DefaultGenerator [main] - Generating with dryRun=false
+2026-11-03T20:38:50.602 DEBUG org.openapitools.codegen.config.GeneratorSettings [main] - GeneratorSettings#build: GeneratorSettings{generatorName='java', apiPackage='null', modelPackage='null', invokerPackage='null', packageName='null', apiNameSuffix='null', modelNamePrefix='null', modelNameSuffix='null', groupId='null', artifactId='null', artifactVersion='null', library='null', instantiationTypes={}, typeMappings={}, additionalProperties={gitRepoId=GIT_REPO_ID, gitHost=github.com, releaseNote=Minor update, gitUserId=GIT_USER_ID}, importMappings={}, forcedGenerateSchemas=[], languageSpecificPrimitives=[], openapiGeneratorIgnoreList=[], reservedWordsMappings={}, gitHost='github.com', gitUserId='GIT_USER_ID', gitRepoId='GIT_REPO_ID', releaseNote='Minor update', httpUserAgent='null'}
+2026-11-03T20:38:50.634 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:38:50.820 DEBUG org.openapitools.codegen.config.WorkflowSettings [main] - WorkflowSettings#build: WorkflowSettings{inputSpec='src/test/resources/bugs/issue_24298.yaml', outputDir='/tmp/test9987033805342382595', verbose=false, skipOverwrite=false, removeOperationIdPrefix=false, logToStderr=false, validateSpec=true, enablePostProcessFile=false, enableMinimalUpdate=false, quiet=false, strictSpecBehavior=true, templateDir='null', templatingEngineName='mustache', ignoreFileOverride='null', globalProperties={}, generateAliasAsModel=false}
+2026-11-03T20:38:50.830 DEBUG io.swagger.v3.parser.OpenAPIV3Parser [main] - Loaded raw data: openapi: "3.1.0"
+info:
+  title: Enum Default Issue Demo
+  version: 1.0.0
+paths: {}
+components:
+  schemas:
+    OutputFormat:
+      type: object
+      properties:
+        order:
+          type: string
+          enum:
+            - IMPORTANCE
+            - SIMILARITY
+        limit:
+          type: integer
+      default:
+        order: SIMILARITY
+        limit: 10
+    Formatter:
+      type: object
+      properties:
+        format:
+          $ref: '#/components/schemas/OutputFormat'
+2026-11-03T20:38:50.901 TRACE org.openapitools.codegen.languages.AsciidocDocumentationCodegen [main] - start asciidoc codegen
+2026-11-03T20:38:51.095 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T20:38:51.099 INFO org.openapitools.codegen.ignore.CodegenIgnoreProcessor [main] - No .openapi-generator-ignore file found.
+2026-11-03T20:38:51.099 INFO org.openapitools.codegen.DefaultGenerator [main] - OpenAPI Generator: java (client)
+2026-11-03T20:38:51.099 INFO org.openapitools.codegen.DefaultGenerator [main] - Generator 'java' is considered stable.
+2026-11-03T20:38:51.100 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [main] - Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+2026-11-03T20:38:51.100 INFO org.openapitools.codegen.languages.AbstractJavaCodegen [main] - NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+2026-11-03T20:38:51.108 DEBUG org.openapitools.codegen.OpenAPINormalizer [main] - processing rule NORMALIZE_31SPEC => true
+2026-11-03T20:38:51.120 WARN org.openapitools.codegen.DefaultCodegen [main] - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.
+2026-11-03T20:38:51.120 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:51.121 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:51.124 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for order: class JsonSchema {
+    class Schema {
+        type: [string]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:51.137 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='order', complexType='null', getter='getOrder', setter='setOrder', description='null', dataType='String', datatypeWithEnum='OrderEnum', dataFormat='null', name='order', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.order;', baseType='String', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "enum" : [ "IMPORTANCE", "SIMILARITY" ],
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=true, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=true, isInnerEnum=true, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=[IMPORTANCE, SIMILARITY], allowableValues={values=[IMPORTANCE, SIMILARITY]}, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='order', nameInPascalCase='Order', nameInSnakeCase='ORDER', enumName='OrderEnum', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:51.141 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for limit: class JsonSchema {
+    class Schema {
+        type: [integer]
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:51.148 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='integer', baseName='limit', complexType='null', getter='getLimit', setter='setLimit', description='null', dataType='Integer', datatypeWithEnum='Integer', dataFormat='null', name='limit', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.limit;', baseType='Integer', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "type" : "integer"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=true, isModel=false, isContainer=false, isString=false, isNumeric=true, isInteger=true, isShort=false, isLong=false, isUnboundedInteger=true, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='limit', nameInPascalCase='Limit', nameInSnakeCase='LIMIT', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:51.171 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for format: class JsonSchema {
+    class Schema {
+        type: null
+        format: null
+        $ref: #/components/schemas/OutputFormat
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+        patternProperties: null
+        contains: null
+        $id: null
+        $anchor: null
+        $schema: null
+        $vocabulary: null
+        $dynamicAnchor: null
+        $dynamicRef: null
+        const: null
+        contentEncoding: null
+        contentMediaType: null
+        contentSchema: null
+        propertyNames: null
+        unevaluatedProperties: null
+        maxContains: null
+        minContains: null
+        additionalItems: null
+        unevaluatedItems: null
+        _if: null
+        _else: null
+        then: null
+        dependentRequired: null
+        dependentSchemas: null
+        $comment: null
+        prefixItems: null
+        booleanSchemaValue: null
+    }
+}
+2026-11-03T20:38:51.183 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='OutputFormat', baseName='format', complexType='OutputFormat', getter='getFormat', setter='setFormat', description='null', dataType='OutputFormat', datatypeWithEnum='OutputFormat', dataFormat='null', name='format', min='null', max='null', defaultValue='new OutputFormat().order("SIMILARITY").limit(10)', defaultValueWithParam=' = data.format;', baseType='OutputFormat', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "$ref" : "#/components/schemas/OutputFormat"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=true, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='format', nameInPascalCase='Format', nameInSnakeCase='FORMAT', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=#/components/schemas/OutputFormat, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T20:38:51.364 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/model/Formatter.java
+2026-11-03T20:38:51.373 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/test/java/org/openapitools/client/model/FormatterTest.java
+2026-11-03T20:38:51.399 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/docs/Formatter.md
+2026-11-03T20:38:51.426 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/model/OutputFormat.java
+2026-11-03T20:38:51.427 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/test/java/org/openapitools/client/model/OutputFormatTest.java
+2026-11-03T20:38:51.434 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/docs/OutputFormat.md
+2026-11-03T20:38:51.439 INFO org.openapitools.codegen.utils.URLPathUtils [main] - 'host' (OAS 2.0) or 'servers' (OAS 3.0) not defined in the spec. Default to [http://localhost] for server URL [http://localhost/]
+2026-11-03T20:38:51.504 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/pom.xml
+2026-11-03T20:38:51.518 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/README.md
+2026-11-03T20:38:51.524 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/build.gradle
+2026-11-03T20:38:51.532 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/build.sbt
+2026-11-03T20:38:51.533 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/settings.gradle
+2026-11-03T20:38:51.538 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/gradle.properties
+2026-11-03T20:38:51.546 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/AndroidManifest.xml
+2026-11-03T20:38:51.547 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/.travis.yml
+2026-11-03T20:38:51.577 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/ApiClient.java
+2026-11-03T20:38:51.589 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/ServerConfiguration.java
+2026-11-03T20:38:51.592 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/ServerVariable.java
+2026-11-03T20:38:51.602 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/.github/workflows/maven.yml
+2026-11-03T20:38:51.603 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/api/openapi.yaml
+2026-11-03T20:38:51.614 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/StringUtil.java
+2026-11-03T20:38:51.626 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/auth/HttpBasicAuth.java
+2026-11-03T20:38:51.632 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/auth/HttpBearerAuth.java
+2026-11-03T20:38:51.641 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/auth/ApiKeyAuth.java
+2026-11-03T20:38:51.643 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/gradlew
+2026-11-03T20:38:51.653 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/gradlew.bat
+2026-11-03T20:38:51.668 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/gradle/wrapper/gradle-wrapper.properties
+2026-11-03T20:38:51.669 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/gradle/wrapper/gradle-wrapper.jar
+2026-11-03T20:38:51.670 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/git_push.sh
+2026-11-03T20:38:51.691 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/.gitignore
+2026-11-03T20:38:51.696 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/ApiException.java
+2026-11-03T20:38:51.709 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/Configuration.java
+2026-11-03T20:38:51.719 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/Pair.java
+2026-11-03T20:38:51.721 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/auth/Authentication.java
+2026-11-03T20:38:51.732 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/ApiCallback.java
+2026-11-03T20:38:51.739 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/ApiResponse.java
+2026-11-03T20:38:51.753 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/JSON.java
+2026-11-03T20:38:51.755 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/ProgressRequestBody.java
+2026-11-03T20:38:51.768 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/ProgressResponseBody.java
+2026-11-03T20:38:51.779 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/GzipRequestInterceptor.java
+2026-11-03T20:38:51.782 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/src/main/java/org/openapitools/client/model/AbstractOpenApiSchema.java
+2026-11-03T20:38:51.792 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/.openapi-generator-ignore
+2026-11-03T20:38:51.792 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/.openapi-generator/VERSION
+2026-11-03T20:38:51.807 INFO org.openapitools.codegen.TemplateManager [main] - writing file /tmp/test9987033805342382595/.openapi-generator/FILES
+2026-11-03T20:38:52.155 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

@@ -1,0 +1,34 @@
+{
+ "project": "reactor__reactor-netty",
+ "issue": "GH-4210",
+ "summary": "NullPointerException in SniProvider when AsyncMapping returns null",
+ "fix_commit": "4e228a48e2440dfbdfe41bd017fcb224ecb3118e",
+ "buggy_version": "4e228a48e2 with reactor-netty-core/src/main/java/reactor/netty/tcp/SniProvider.java, reactor-netty-core/src/main/java/reactor/netty/tcp/SslProvider.java reverted to 4e228a48e2^",
+ "jdk": "17",
+ "module": "reactor-netty-http",
+ "tests": [
+  "HttpServerTests#testSniSupportAsyncMappingsReturningNull"
+ ],
+ "faulty_lines": [
+  "reactor-netty-core/src/main/java/reactor/netty/tcp/SniProvider.java:115",
+  "reactor-netty-core/src/main/java/reactor/netty/tcp/SniProvider.java:124",
+  "reactor-netty-core/src/main/java/reactor/netty/tcp/SniProvider.java:125"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 108,
+ "pairs_exported": 28,
+ "covering_pairs_printed": 6,
+ "shortest_covering_pair_printed": 108,
+ "stable": true,
+ "runs": {
+  "HttpServerTests#testSniSupportAsyncMappingsReturningNull": {
+   "threads": 17,
+   "log_threads": 4,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

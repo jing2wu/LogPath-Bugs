@@ -1,0 +1,99 @@
+2026-11-05T10:58:07.707 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry loadTestEngines - Discovered TestEngines with IDs: [junit-jupiter (group ID: org.junit.jupiter, artifact ID: junit-jupiter-engine, version: 5.8.2, location: jar:file:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar!/org/junit/jupiter/engine/JupiterTestEngine.class), junit-vintage (group ID: org.junit.vintage, artifact ID: junit-vintage-engine, version: 5.8.2, location: jar:file:/home/user/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.2/junit-vintage-engine-5.8.2.jar!/org/junit/vintage/engine/VintageTestEngine.class)]
+2026-11-05T10:58:07.733 CONFIG org.junit.platform.launcher.core.ServiceLoaderRegistry load - Loaded PostDiscoveryFilter instances: []
+2026-11-05T10:58:07.740 CONFIG org.junit.platform.launcher.core.ServiceLoaderRegistry load - Loaded LauncherDiscoveryListener instances: []
+2026-11-05T10:58:07.742 CONFIG org.junit.platform.launcher.core.ServiceLoaderRegistry load - Loaded TestExecutionListener instances: [org.junit.platform.launcher.listeners.UniqueIdTrackingListener@bd4dc25]
+2026-11-05T10:58:07.746 CONFIG org.junit.platform.launcher.core.ServiceLoaderRegistry load - Loaded LauncherSessionListener instances: []
+2026-11-05T10:58:07.752 FINE org.junit.platform.launcher.core.EngineDiscoveryOrchestrator discoverSafely - Discovering tests during Launcher discovery phase in engine 'junit-jupiter'.
+2026-11-05T10:58:07.908 FINE org.junit.platform.launcher.core.EngineDiscoveryOrchestrator discoverSafely - Discovering tests during Launcher discovery phase in engine 'junit-vintage'.
+2026-11-05T10:58:07.936 CONFIG org.junit.platform.launcher.core.EngineDiscoveryOrchestrator lambda$logTestDescriptorExclusionReasons$7 - 0 containers and 25 tests were Unknown
+2026-11-05T10:58:07.936 FINE org.junit.platform.launcher.core.EngineDiscoveryOrchestrator lambda$logTestDescriptorExclusionReasons$7 - The following containers and tests were Unknown: testCreateUserIfNotExists(), testRevokeProject(), testBatchActivateUser(), testGrantDataSource(), testRevokeProjectById(), testAuthorizedUser(), testQueryUser(), testUpdateUser(), testVerifyUserName(), testQueryUserList(), testGrantProjectByCode(), testRegisterUser(), testSelectByIds(), testGetUserIdByName(), testActivateUser(), testQueryAllGeneralUsers(), testQueryUserListPage(), testCreateUser(), testDeleteUserById(), testGrantProjectWithReadPerm(), testGrantProject(), testGrantNamespaces(), testCreateUserForLdap(), getUserInfo(), testUnauthorizedUser()
+2026-11-05T10:58:07.945 FINE org.junit.platform.launcher.core.EngineDiscoveryOrchestrator discoverSafely - Discovering tests during Launcher execution phase in engine 'junit-jupiter'.
+2026-11-05T10:58:07.953 FINE org.junit.platform.launcher.core.EngineDiscoveryOrchestrator discoverSafely - Discovering tests during Launcher execution phase in engine 'junit-vintage'.
+2026-11-05T10:58:07.955 CONFIG org.junit.platform.launcher.core.EngineDiscoveryOrchestrator lambda$logTestDescriptorExclusionReasons$7 - 0 containers and 25 tests were Unknown
+2026-11-05T10:58:07.955 FINE org.junit.platform.launcher.core.EngineDiscoveryOrchestrator lambda$logTestDescriptorExclusionReasons$7 - The following containers and tests were Unknown: testCreateUserIfNotExists(), testRevokeProject(), testBatchActivateUser(), testGrantDataSource(), testRevokeProjectById(), testAuthorizedUser(), testQueryUser(), testUpdateUser(), testVerifyUserName(), testQueryUserList(), testGrantProjectByCode(), testRegisterUser(), testSelectByIds(), testGetUserIdByName(), testActivateUser(), testQueryAllGeneralUsers(), testQueryUserListPage(), testCreateUser(), testDeleteUserById(), testGrantProjectWithReadPerm(), testGrantProject(), testGrantNamespaces(), testCreateUserForLdap(), getUserInfo(), testUnauthorizedUser()
+2026-11-05T10:58:07.993 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering default extension [org.junit.jupiter.engine.extension.DisabledCondition@5b1ebf56]
+2026-11-05T10:58:07.993 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering default extension [org.junit.jupiter.engine.extension.TempDirectory@294a6b8e]
+2026-11-05T10:58:07.994 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering default extension [org.junit.jupiter.engine.extension.TimeoutExtension@4b1d6571]
+2026-11-05T10:58:07.994 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering default extension [org.junit.jupiter.engine.extension.RepeatedTestExtension@1b835480]
+2026-11-05T10:58:07.994 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering default extension [org.junit.jupiter.engine.extension.TestInfoParameterResolver@3549bca9]
+2026-11-05T10:58:07.995 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering default extension [org.junit.jupiter.engine.extension.TestReporterParameterResolver@4f25b795]
+2026-11-05T10:58:08.007 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering local extension [org.mockito.junit.jupiter.MockitoExtension@64b73e7a]
+2026-11-05T10:58:08.050 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering synthetic extension [org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$339/0x00007824e811bb30@fd8294b] from source [method org.apache.dolphinscheduler.api.service.UsersServiceTest.before]
+2026-11-05T10:58:08.051 FINER org.junit.jupiter.engine.extension.MutableExtensionRegistry registerExtension - Registering synthetic extension [org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor$$Lambda$341/0x00007824e811e248@75c9e76b] from source [method org.apache.dolphinscheduler.api.service.UsersServiceTest.after]
+2026-11-05T10:58:08.057 FINER org.junit.jupiter.engine.execution.ConditionEvaluator logResult - Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] on [class org.apache.dolphinscheduler.api.service.UsersServiceTest] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+2026-11-05T10:58:08.169 FINER org.junit.jupiter.engine.execution.ConditionEvaluator logResult - Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] on [public void org.apache.dolphinscheduler.api.service.UsersServiceTest.testGrantUDFFunction()] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+2026-11-05T10:58:09.633 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.s3.access.key.secret -> <access.key.secret>
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property shell.env_source_list -> 
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property ml.mlflow.preset_repository -> https://github.com/apache/dolphinscheduler-mlflow
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.hdfs.fs.defaultFS -> hdfs://mycluster:8020
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property support.hive.oneSession -> false
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.base.dir -> logs
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property yarn.resourcemanager.ha.rm.ids -> 192.168.xx.xx,192.168.xx.xx
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.aws.s3.bucket.name -> dolphinscheduler
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.huawei.cloud.obs.endpoint -> obs.cn-southwest-2.huaweicloud.com
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property datasource.encryption.salt -> !@#$%^&*
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property conda.path -> /opt/anaconda3/etc/profile.d/conda.sh
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.s3.bucket.name -> <bucket.name>
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.enable -> false
+2026-11-05T10:58:09.637 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.azure.subId -> minioadmin
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.azure.blob.storage.account.name -> <your-account-name>
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.huawei.cloud.obs.bucket.name -> dolphinscheduler
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.target -> OSS
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.azure.blob.storage.connection.string -> <your-connection-string>
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property alert.rpc.port -> 50052
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.alibaba.cloud.region -> cn-hangzhou
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.s3.region -> <region>
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.aws.secret.access.key -> minioadmin
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.huawei.cloud.access.key.id -> <your-access-key-id>
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property task.resource.limit.state -> false
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property datasource.encryption.enable -> false
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property development.state -> false
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property login.user.keytab.username -> hdfs-mycluster@ESZ.COM
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.storage.upload.base.path -> /dolphinscheduler
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.google.cloud.storage.bucket.name -> <your-bucket>
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.alibaba.cloud.oss.endpoint -> https://oss-cn-hangzhou.aliyuncs.com
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property login.user.keytab.path -> /opt/hdfs.headless.keytab
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.alibaba.cloud.oss.bucket.name -> dolphinscheduler
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.azure.client.id -> minioadmin
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.s3.endpoint -> <endpoint>
+2026-11-05T10:58:09.638 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property appId.collect -> log
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.azure.blob.storage.container.name -> <your-container>
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.aws.access.key.id -> minioadmin
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.hdfs.root.user -> hdfs
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property shell.interceptor.type -> bash
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property kerberos.expire.time -> 2
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property data.basedir.path -> /tmp/dolphinscheduler
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.azure.tenant.id -> minioadmin
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.alibaba.cloud.access.key.secret -> <your-access-key-secret>
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property hadoop.security.authentication.startup.state -> false
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property dolphin.scheduler.network.interface.restrict -> docker0
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.storage.type -> LOCAL
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.oss.access.key.secret -> <access.key.secret>
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.oss.bucket.name -> <bucket.name>
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property yarn.job.history.status.address -> http://ds1:19888/ws/v1/history/mapreduce/jobs/%s
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property yarn.application.status.address -> http://ds1:%s/ws/v1/cluster/apps/%s
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property ml.mlflow.preset_repository_version -> "main"
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.oss.access.key.id -> <access.key.id>
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.aws.region -> cn-north-1
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property java.security.krb5.conf.path -> /opt/krb5.conf
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property sudo.enable -> true
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.s3.access.key.id -> <access.key.id>
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.google.cloud.storage.credential -> /path/to/credential
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.aws.s3.endpoint -> http://localhost:9000
+2026-11-05T10:58:09.639 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.google.cloud.storage.credential -> /path/to/credential
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.google.cloud.storage.bucket.name -> <your-bucket>
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.oss.endpoint -> <endpoint>
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property data-quality.jar.dir -> 
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property remote.logging.thread.pool.size -> 10
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.manager.httpaddress.port -> 8088
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.azure.client.secret -> minioadmin
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.query.interval -> 10000
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.alibaba.cloud.access.key.id -> <your-access-key-id>
+2026-11-05T10:58:09.640 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePropertyDelegate [main] - Get property resource.huawei.cloud.access.key.secret -> <your-access-key-secret>
+2026-11-05T10:58:09.648 DEBUG org.apache.dolphinscheduler.common.config.ImmutablePriorityPropertyDelegate [main] - Get config value from properties, key: resource.storage.upload.base.path actualKey: resource.storage.upload.base.path, value: /dolphinscheduler
+2026-11-05T10:58:10.049 ERROR org.apache.dolphinscheduler.api.service.impl.UsersServiceImpl [main] - User does not exist, userId:2.
+2026-11-05T10:58:10.074 INFO org.apache.dolphinscheduler.api.service.UsersServiceTest [main] - {msg=user 2 not exists, status=USER_NOT_EXIST}
+2026-11-05T10:58:10.086 INFO org.apache.dolphinscheduler.api.service.impl.UsersServiceImpl [main] - User is granted permission for UDF, userName:userTest0001.
+2026-11-05T10:58:10.086 INFO org.apache.dolphinscheduler.api.service.UsersServiceTest [main] - {msg=success, status=SUCCESS}
+2026-11-05T10:58:10.087 INFO org.apache.dolphinscheduler.api.service.impl.UsersServiceImpl [main] - User is granted permission for UDF, userName:null.
+2026-11-05T10:58:10.087 INFO org.apache.dolphinscheduler.api.service.UsersServiceTest [main] - {msg=success, status=SUCCESS}

@@ -1,0 +1,42 @@
+{
+ "project": "phax__phoss-smp",
+ "issue": "GH-238",
+ "summary": "The audit table in the Administration tool does not include the user name for API calls",
+ "fix_commit": "b338ed08ef5b4faa9acc87247bb987b4d068fee9",
+ "buggy_version": "b338ed08ef with phoss-smp-backend-mongodb/src/main/java/com/helger/phoss/smp/backend/mongodb/audit/AuditManagerMongoDB.java, phoss-smp-backend/src/main/java/com/helger/phoss/smp/domain/user/SMPUserManagerPhoton.java, phoss-smp-webapp/src/main/java/com/helger/phoss/smp/servlet/SMPApplicationXServletHandler.java reverted to b338ed08ef^",
+ "jdk": "17",
+ "module": "phoss-smp-backend",
+ "tests": [
+  "SMPAPIUserIDTest#testBasicAuthenticationSetsRequestUser",
+  "SMPAPIUserIDTest#testBearerAuthenticationSetsRequestUser"
+ ],
+ "faulty_lines": [
+  "phoss-smp-backend-mongodb/src/main/java/com/helger/phoss/smp/backend/mongodb/audit/AuditManagerMongoDB.java:43",
+  "phoss-smp-backend/src/main/java/com/helger/phoss/smp/domain/user/SMPUserManagerPhoton.java:135",
+  "phoss-smp-backend/src/main/java/com/helger/phoss/smp/domain/user/SMPUserManagerPhoton.java:177",
+  "phoss-smp-webapp/src/main/java/com/helger/phoss/smp/servlet/SMPApplicationXServletHandler.java:126"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 28,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "SMPAPIUserIDTest#testBasicAuthenticationSetsRequestUser": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SMPAPIUserIDTest#testBearerAuthenticationSetsRequestUser": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

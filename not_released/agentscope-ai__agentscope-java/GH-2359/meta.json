@@ -1,0 +1,67 @@
+{
+ "project": "agentscope-ai__agentscope-java",
+ "issue": "GH-2359",
+ "summary": "[Bug]:\u8fde\u7eed\u4f1a\u8bdd\u538b\u7f29\u65f6\u4f1a\u8fc7\u6ee4\u4e0a\u4e00\u8f6e\u6458\u8981\uff0c\u5bfc\u81f4\u539f\u59cb\u7528\u6237\u610f\u56fe\u4e22\u5931",
+ "fix_commit": "17fee94f4fc3bf308903785d99eaaec9c20325b1",
+ "buggy_version": "17fee94f4f with agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/MemoryFlushManager.java, agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactor.java reverted to 17fee94f4f^",
+ "jdk": "17",
+ "module": "agentscope-harness",
+ "tests": [
+  "ConversationCompactorTest#compactIfNeeded_chainedCompactionUsesPreviousSummaryAndNewPrefix",
+  "ConversationCompactorTest#compactIfNeeded_mergesMultiplePriorSummariesIntoOneReplacement",
+  "ConversationCompactorTest#compactIfNeeded_routesPriorSummaryToSummaryInputButNotFlushOrTail",
+  "ConversationCompactorTest#compactIfNeeded_skipsFlushWhenDisabledAndStillUsesPriorSummary",
+  "ConversationCompactorTest#compactIfNeeded_summaryOnlyPrefixDoesNotBecomeEmptyHistory"
+ ],
+ "faulty_lines": [
+  "agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/MemoryFlushManager.java:355",
+  "agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/MemoryFlushManager.java:361",
+  "agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactor.java:120",
+  "agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactor.java:134",
+  "agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactor.java:180",
+  "agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactor.java:456",
+  "agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactor.java:457",
+  "agentscope-harness/src/main/java/io/agentscope/harness/agent/memory/compaction/ConversationCompactor.java:476"
+ ],
+ "covering_pairs": 17,
+ "shortest_covering_pair": 12,
+ "pairs_exported": 18,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "ConversationCompactorTest#compactIfNeeded_chainedCompactionUsesPreviousSummaryAndNewPrefix": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ConversationCompactorTest#compactIfNeeded_mergesMultiplePriorSummariesIntoOneReplacement": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ConversationCompactorTest#compactIfNeeded_routesPriorSummaryToSummaryInputButNotFlushOrTail": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ConversationCompactorTest#compactIfNeeded_skipsFlushWhenDisabledAndStillUsesPriorSummary": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ConversationCompactorTest#compactIfNeeded_summaryOnlyPrefixDoesNotBecomeEmptyHistory": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

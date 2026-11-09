@@ -1,0 +1,46 @@
+{
+ "project": "swagger-api__swagger-core",
+ "issue": "GH-5051",
+ "summary": "[Bug]: Array schema description leaks into items",
+ "fix_commit": "6143beea76144a2ae1ab2a09f1c99a59ef83acfb",
+ "buggy_version": "6143beea76 with modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java reverted to 6143beea76^",
+ "jdk": "17",
+ "module": "modules/swagger-core",
+ "tests": [
+  "ArrayOfSubclassTest#extractSubclassArray_oas31",
+  "Issue5055Test#testArrayMetadataDoesNotLeakToItemsRef"
+ ],
+ "faulty_lines": [
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:1027",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:1028",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:1029",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:1030",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:1031",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:1043",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:553",
+  "modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java:555"
+ ],
+ "covering_pairs": 8,
+ "shortest_covering_pair": 462,
+ "pairs_exported": 50,
+ "covering_pairs_printed": 8,
+ "shortest_covering_pair_printed": 462,
+ "stable": true,
+ "runs": {
+  "ArrayOfSubclassTest#extractSubclassArray_oas31": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Issue5055Test#testArrayMetadataDoesNotLeakToItemsRef": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,16 @@
+2026-11-03T21:28:25.601 ERROR neqsim.thermo.system.SystemThermo [main] - error in SystemThermo Class...createDatabase() method
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+2026-11-03T21:28:25.950 INFO neqsim.thermo.phase.PhaseGEUnifac [main] - checking unifac groups...
+2026-11-03T21:28:25.951 INFO neqsim.thermo.phase.PhaseGEUnifac [main] - finished finding interaction coefficient...A
+2026-11-03T21:28:25.951 INFO neqsim.thermo.phase.PhaseGEUnifacPSRK [main] - finished finding interaction coefficient...B
+2026-11-03T21:28:25.955 INFO neqsim.thermo.phase.PhaseGEUnifacPSRK [main] - finished finding interaction coefficient...C
+2026-11-03T21:28:26.038 INFO neqsim.thermo.phase.PhaseGEUnifac [main] - checking unifac groups...
+2026-11-03T21:28:26.039 INFO neqsim.thermo.phase.PhaseGEUnifac [main] - finished finding interaction coefficient...A
+2026-11-03T21:28:26.039 INFO neqsim.thermo.phase.PhaseGEUnifacPSRK [main] - finished finding interaction coefficient...B
+2026-11-03T21:28:26.039 INFO neqsim.thermo.phase.PhaseGEUnifacPSRK [main] - finished finding interaction coefficient...C
+2026-11-03T21:28:26.224 INFO neqsim.thermo.phase.PhaseGEUnifac [main] - checking unifac groups...
+2026-11-03T21:28:26.224 INFO neqsim.thermo.phase.PhaseGEUnifac [main] - finished finding interaction coefficient...A
+2026-11-03T21:28:26.224 INFO neqsim.thermo.phase.PhaseGEUnifacPSRK [main] - finished finding interaction coefficient...B
+2026-11-03T21:28:26.224 INFO neqsim.thermo.phase.PhaseGEUnifacPSRK [main] - finished finding interaction coefficient...C
+2026-11-03T21:28:26.429 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

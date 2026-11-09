@@ -1,0 +1,49 @@
+{
+ "project": "vaadin-miki__super-fields",
+ "issue": "GH-339",
+ "summary": "Setting fraction/integer digits should not be destructive",
+ "fix_commit": "56f5b80660b18da58d2c6548c458a56e7216945d",
+ "buggy_version": "56f5b80660 with superfields/src/main/java/org/vaadin/miki/superfields/numbers/AbstractSuperNumberField.java reverted to 56f5b80660^",
+ "jdk": "17",
+ "module": "superfields",
+ "tests": [
+  "SuperBigDecimalFieldTest#testMaximumFractionDigits",
+  "SuperBigDecimalFieldTest#testMinimumFractionDigits",
+  "SuperDoubleFieldTest#testMaximumFractionDigits"
+ ],
+ "faulty_lines": [
+  "superfields/src/main/java/org/vaadin/miki/superfields/numbers/AbstractSuperNumberField.java:168",
+  "superfields/src/main/java/org/vaadin/miki/superfields/numbers/AbstractSuperNumberField.java:250",
+  "superfields/src/main/java/org/vaadin/miki/superfields/numbers/AbstractSuperNumberField.java:261",
+  "superfields/src/main/java/org/vaadin/miki/superfields/numbers/AbstractSuperNumberField.java:272"
+ ],
+ "covering_pairs": 9,
+ "shortest_covering_pair": 21,
+ "pairs_exported": 15,
+ "covering_pairs_printed": 9,
+ "shortest_covering_pair_printed": 21,
+ "stable": true,
+ "runs": {
+  "SuperBigDecimalFieldTest#testMaximumFractionDigits": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SuperBigDecimalFieldTest#testMinimumFractionDigits": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SuperDoubleFieldTest#testMaximumFractionDigits": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

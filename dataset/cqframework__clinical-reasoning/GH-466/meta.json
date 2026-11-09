@@ -1,0 +1,61 @@
+{
+ "project": "cqframework__clinical-reasoning",
+ "issue": "GH-466",
+ "summary": "Care-Gaps Concurrent modification exception",
+ "fix_commit": "862b4b1fa2494f6c5891b080566e16e54a19b713",
+ "buggy_version": "862b4b1fa2 with cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java reverted to 862b4b1fa2^",
+ "jdk": "17",
+ "module": "cqf-fhir-cr",
+ "tests": [
+  "R4CareGapsTest#ProportionBooleanBasisSingleGroup_Subject_groupScoringDef",
+  "R4CareGapsTest#ProportionBooleanBasisSingleGroup_Subject_noImprovementNotation"
+ ],
+ "faulty_lines": [
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:158",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:159",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:160",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:161",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:162",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:163",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:323",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:324",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:325",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:326",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:328",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:329",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:336",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:337",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:338",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:339",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:340",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:341",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:467",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:469",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:470",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:472",
+  "cqf-fhir-cr/src/main/java/org/opencds/cqf/fhir/cr/measure/r4/R4CareGapsService.java:477"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 4,
+ "pairs_exported": 5,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 4,
+ "stable": true,
+ "runs": {
+  "R4CareGapsTest#ProportionBooleanBasisSingleGroup_Subject_groupScoringDef": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "R4CareGapsTest#ProportionBooleanBasisSingleGroup_Subject_noImprovementNotation": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

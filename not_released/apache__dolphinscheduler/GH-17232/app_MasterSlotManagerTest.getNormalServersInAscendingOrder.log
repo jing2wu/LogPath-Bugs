@@ -1,0 +1,5 @@
+2026-11-05T10:43:59.619 INFO org.apache.dolphinscheduler.server.master.cluster.MasterSlotManager [main] - Do rebalance success, current master slot: 0, total master slots: 1
+2026-11-05T10:43:59.621 INFO org.apache.dolphinscheduler.server.master.cluster.MasterSlotManager [main] - Do rebalance success, current master slot: 0, total master slots: 2
+2026-11-05T10:43:59.622 INFO org.apache.dolphinscheduler.server.master.cluster.MasterSlotManager [main] - Do rebalance success, current master slot: 0, total master slots: 3
+2026-11-05T10:43:59.622 DEBUG org.apache.dolphinscheduler.server.master.cluster.MasterSlotManager [main] - No need to rebalance, the currentSlot: 0, totalSlots: 3 doesn't changed
+2026-11-05T10:43:59.624 INFO org.apache.dolphinscheduler.server.master.cluster.MasterSlotManager [main] - Do rebalance success, current master slot: 1, total master slots: 2

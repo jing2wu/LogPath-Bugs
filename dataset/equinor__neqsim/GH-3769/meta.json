@@ -1,0 +1,45 @@
+{
+ "project": "equinor__neqsim",
+ "issue": "GH-3769",
+ "summary": "SystemUNIFAC` throws `ArrayIndexOutOfBoundsException`: the group array and the group list are never synchronised",
+ "fix_commit": "bc240a88a3a56226a303ae8f4c2ae02f288efe94",
+ "buggy_version": "bc240a88a3 with src/main/java/neqsim/thermo/component/ComponentGEUnifac.java, src/main/java/neqsim/thermo/component/ComponentGEUnifacUMRPRU.java, src/main/java/neqsim/thermo/phase/PhaseGEUnifac.java reverted to bc240a88a3^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "UnifacGroupSynchronizationTest#methanolWaterCanBeConfiguredAndInitializedRepeatedly"
+ ],
+ "faulty_lines": [
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:101",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:102",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:112",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:322",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:47",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:54",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:55",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:86",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifac.java:87",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifacUMRPRU.java:118",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifacUMRPRU.java:54",
+  "src/main/java/neqsim/thermo/component/ComponentGEUnifacUMRPRU.java:95",
+  "src/main/java/neqsim/thermo/phase/PhaseGEUnifac.java:137",
+  "src/main/java/neqsim/thermo/phase/PhaseGEUnifac.java:138"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 1897,
+ "pairs_exported": 6,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 1897,
+ "stable": true,
+ "runs": {
+  "UnifacGroupSynchronizationTest#methanolWaterCanBeConfiguredAndInitializedRepeatedly": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 2
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

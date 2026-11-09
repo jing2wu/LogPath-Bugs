@@ -1,0 +1,51 @@
+2026-11-03T22:08:33.915 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry loadTestEngines - Discovered TestEngines with IDs: [junit-jupiter (group ID: org.junit.jupiter, artifact ID: junit-jupiter-engine, version: 5.7.2, location: jar:file:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar!/org/junit/jupiter/engine/JupiterTestEngine.class)]
+2026-11-03T22:08:33.987 CONFIG org.junit.platform.launcher.core.ServiceLoaderTestExecutionListenerRegistry loadListeners - Loaded TestExecutionListener instances: []
+2026-11-03T22:08:34.719 DEBUG io.netty.util.internal.logging.InternalLoggerFactory [ForkJoinPool-1-worker-1] - Using SLF4J as the default logging framework
+2026-11-03T22:08:34.723 DEBUG io.netty.util.ResourceLeakDetector [ForkJoinPool-1-worker-1] - -Dio.netty.leakDetection.level: simple
+2026-11-03T22:08:34.723 DEBUG io.netty.util.ResourceLeakDetector [ForkJoinPool-1-worker-1] - -Dio.netty.leakDetection.targetRecords: 4
+2026-11-03T22:08:34.740 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - -Dio.netty.noUnsafe: false
+2026-11-03T22:08:34.740 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - Java version: 17
+2026-11-03T22:08:34.742 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - sun.misc.Unsafe.theUnsafe: available
+2026-11-03T22:08:34.742 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - sun.misc.Unsafe.copyMemory: available
+2026-11-03T22:08:34.743 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - java.nio.Buffer.address: available
+2026-11-03T22:08:34.746 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+2026-11-03T22:08:34.747 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - java.nio.Bits.unaligned: available, true
+2026-11-03T22:08:34.748 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @77e4c80f
+2026-11-03T22:08:34.750 DEBUG io.netty.util.internal.PlatformDependent0 [ForkJoinPool-1-worker-1] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2026-11-03T22:08:34.750 DEBUG io.netty.util.internal.PlatformDependent [ForkJoinPool-1-worker-1] - sun.misc.Unsafe: available
+2026-11-03T22:08:34.752 DEBUG io.netty.util.internal.PlatformDependent [ForkJoinPool-1-worker-1] - maxDirectMemory: 4294967296 bytes (maybe)
+2026-11-03T22:08:34.752 DEBUG io.netty.util.internal.PlatformDependent [ForkJoinPool-1-worker-1] - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2026-11-03T22:08:34.752 DEBUG io.netty.util.internal.PlatformDependent [ForkJoinPool-1-worker-1] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2026-11-03T22:08:34.753 DEBUG io.netty.util.internal.PlatformDependent [ForkJoinPool-1-worker-1] - -Dio.netty.maxDirectMemory: -1 bytes
+2026-11-03T22:08:34.753 DEBUG io.netty.util.internal.PlatformDependent [ForkJoinPool-1-worker-1] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2026-11-03T22:08:34.754 DEBUG io.netty.util.internal.CleanerJava9 [ForkJoinPool-1-worker-1] - java.nio.ByteBuffer.cleaner(): available
+2026-11-03T22:08:34.754 DEBUG io.netty.util.internal.PlatformDependent [ForkJoinPool-1-worker-1] - -Dio.netty.noPreferDirect: false
+2026-11-03T22:08:34.762 DEBUG io.netty.buffer.AbstractByteBuf [ForkJoinPool-1-worker-1] - -Dio.netty.buffer.checkAccessible: true
+2026-11-03T22:08:34.762 DEBUG io.netty.buffer.AbstractByteBuf [ForkJoinPool-1-worker-1] - -Dio.netty.buffer.checkBounds: true
+2026-11-03T22:08:34.763 DEBUG io.netty.util.ResourceLeakDetectorFactory [ForkJoinPool-1-worker-1] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@e050885
+2026-11-03T22:08:34.894 TRACE org.eclipse.hono.client.command.kafka.KafkaBasedCommandResponseSender [ForkJoinPool-1-worker-1] - publish command response [CommandResponse{tenantId='test-tenant', deviceId='test-device', contentType='the-content-type', status=200, correlationId='960d9371-2273-4f01-af4d-835eceea62af', replyToId='', messagingType='kafka'}]
+2026-11-03T22:08:35.101 TRACE org.eclipse.hono.client.command.kafka.KafkaBasedCommandResponseSender [ForkJoinPool-1-worker-1] - sending message to Kafka [topic: hono.command_response.test-tenant, tenantId: test-tenant, deviceId: test-device]
+2026-11-03T22:08:35.106 DEBUG io.netty.util.internal.InternalThreadLocalMap [ForkJoinPool-1-worker-1] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2026-11-03T22:08:35.106 DEBUG io.netty.util.internal.InternalThreadLocalMap [ForkJoinPool-1-worker-1] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.numHeapArenas: 32
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.numDirectArenas: 32
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.pageSize: 8192
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.maxOrder: 11
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.chunkSize: 16777216
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.smallCacheSize: 256
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.normalCacheSize: 64
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.useCacheForAllThreads: true
+2026-11-03T22:08:35.109 DEBUG io.netty.buffer.PooledByteBufAllocator [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2026-11-03T22:08:35.120 DEBUG io.netty.buffer.ByteBufUtil [ForkJoinPool-1-worker-1] - -Dio.netty.allocator.type: pooled
+2026-11-03T22:08:35.120 DEBUG io.netty.buffer.ByteBufUtil [ForkJoinPool-1-worker-1] - -Dio.netty.threadLocalDirectBufferSize: 0
+2026-11-03T22:08:35.120 DEBUG io.netty.buffer.ByteBufUtil [ForkJoinPool-1-worker-1] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2026-11-03T22:08:35.121 TRACE org.eclipse.hono.client.command.kafka.KafkaBasedCommandResponseSender [ForkJoinPool-1-worker-1] - producing message [topic: hono.command_response.test-tenant, key: test-device, partition: null, timestamp: null, headers: {testHeader2=testHeader2Value,testHeader1=testHeader1Value,creation-time=1793765314923,correlation-id=960d9371-2273-4f01-af4d-835eceea62af,device_id=test-device,status=200,content-type=the-content-type}]
+2026-11-03T22:08:35.123 TRACE org.eclipse.hono.client.kafka.producer.MessagingKafkaProducerConfigProperties [ForkJoinPool-1-worker-1] - setting Kafka config property [enable.idempotence=true]
+2026-11-03T22:08:35.124 TRACE org.eclipse.hono.client.kafka.producer.MessagingKafkaProducerConfigProperties [ForkJoinPool-1-worker-1] - setting Kafka config property [key.serializer=org.apache.kafka.common.serialization.StringSerializer]
+2026-11-03T22:08:35.124 TRACE org.eclipse.hono.client.kafka.producer.MessagingKafkaProducerConfigProperties [ForkJoinPool-1-worker-1] - setting Kafka config property [value.serializer=io.vertx.kafka.client.serialization.BufferSerializer]
+2026-11-03T22:08:35.753 TRACE org.eclipse.hono.client.command.kafka.KafkaBasedCommandResponseSender [ForkJoinPool-1-worker-1] - message produced to Kafka [topic: hono.command_response.test-tenant, key: test-device, partition: 0, offset: 0, timestamp: -1]

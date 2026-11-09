@@ -1,0 +1,48 @@
+{
+ "project": "equinor__neqsim",
+ "issue": "GH-2299",
+ "summary": "RVP calc does not use volume correction",
+ "fix_commit": "2a0ee275e645aea10cdc24b0d2566a4339fc6dfc",
+ "buggy_version": "2a0ee275e6 with src/main/java/neqsim/thermodynamicoperations/flashops/TVfractionFlash.java reverted to 2a0ee275e6^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "Standard_ASTM_D6377Test#testCalculate",
+  "Standard_ASTM_D6377Test#testCalculate2",
+  "Standard_ASTM_D6377Test#testCalculate3"
+ ],
+ "faulty_lines": [
+  "src/main/java/neqsim/thermodynamicoperations/flashops/TVfractionFlash.java:35",
+  "src/main/java/neqsim/thermodynamicoperations/flashops/TVfractionFlash.java:71",
+  "src/main/java/neqsim/thermodynamicoperations/flashops/TVfractionFlash.java:72"
+ ],
+ "covering_pairs": 277,
+ "shortest_covering_pair": 970,
+ "pairs_exported": 277,
+ "covering_pairs_printed": 277,
+ "shortest_covering_pair_printed": 970,
+ "stable": true,
+ "runs": {
+  "Standard_ASTM_D6377Test#testCalculate": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Standard_ASTM_D6377Test#testCalculate2": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Standard_ASTM_D6377Test#testCalculate3": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

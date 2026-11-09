@@ -1,0 +1,62 @@
+{
+ "project": "epam__dm.ai",
+ "issue": "GH-409",
+ "summary": "Teammate.java: postJSAction runs unconditionally even when skipFieldUpdate=true (requireCliOutputFile strict-mode CLI failure)",
+ "fix_commit": "f49b84ac7289fac2d30d291497b4466e2be73744",
+ "buggy_version": "f49b84ac72 with dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java reverted to f49b84ac72^",
+ "jdk": "17",
+ "module": "dmtools-core",
+ "tests": [
+  "TeammateRunJobFlowCoverageTest#testPostJSActionSkippedWhenStrictModeCliOutputMissing"
+ ],
+ "faulty_lines": [
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:814",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:815",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:817",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:818",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:819",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:820",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:821",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:822",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:823",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:824",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:825",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:826",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:827",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:828",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:829",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:830",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:831",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:833",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:834",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:835",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:836",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:837",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:838",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:839",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:840",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:841",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:842",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:843",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:845",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:846",
+  "dmtools-core/src/main/java/com/github/istin/dmtools/teammate/Teammate.java:847"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 44,
+ "pairs_exported": 25,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 44,
+ "stable": true,
+ "runs": {
+  "TeammateRunJobFlowCoverageTest#testPostJSActionSkippedWhenStrictModeCliOutputMissing": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

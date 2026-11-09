@@ -1,0 +1,33 @@
+{
+ "project": "pmd__pmd",
+ "issue": "GH-7013",
+ "summary": "[core] PMDConfiguration - \"Can't mix setClasspath with getAuxClasspath!\"",
+ "fix_commit": "65dca5ed07186213bda4df65a6fae0ce31feaa46",
+ "buggy_version": "65dca5ed07 with pmd-core/src/main/java/net/sourceforge/pmd/PMDConfiguration.java, pmd-core/src/main/java/net/sourceforge/pmd/PmdAnalysis.java reverted to 65dca5ed07^",
+ "jdk": "17",
+ "module": "pmd-core",
+ "tests": [
+  "PmdAnalysisTest#testCreateConfigWithCustomClasspath"
+ ],
+ "faulty_lines": [
+  "pmd-core/src/main/java/net/sourceforge/pmd/PMDConfiguration.java:351",
+  "pmd-core/src/main/java/net/sourceforge/pmd/PmdAnalysis.java:221"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 31,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "PmdAnalysisTest#testCreateConfigWithCustomClasspath": {
+   "threads": 5,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 12
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

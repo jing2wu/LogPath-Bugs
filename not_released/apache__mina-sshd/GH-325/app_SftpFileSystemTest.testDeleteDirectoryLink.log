@@ -1,0 +1,14 @@
+2026-11-05T11:10:27.865 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:10:28.265 INFO org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider [main] - generateKeyPair(EC) generating host key=nistp256
+2026-11-05T11:10:28.486 INFO org.apache.sshd.common.io.DefaultIoServiceFactoryFactory [main] - Using Nio2ServiceFactoryFactory
+2026-11-05T11:10:28.518 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=36971
+2026-11-05T11:10:28.859 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[3fc7abf6]-nio2-thread-4] - Server at /127.0.0.1:36971 presented unverified EC key: SHA256:bcIMHSWvjQS+FA18l6SxN8byKyxCPkovOoR2YtyRb1g
+2026-11-05T11:10:29.030 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[60deefed](port=0)-nio2-thread-5] - Session testDeleteDirectoryLink@/127.0.0.1:52966 authenticated
+2026-11-05T11:10:29.592 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:10:29.596 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=37571
+2026-11-05T11:10:29.640 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[3fc7abf6]-nio2-thread-17] - Server at /127.0.0.1:37571 presented unverified EC key: SHA256:bcIMHSWvjQS+FA18l6SxN8byKyxCPkovOoR2YtyRb1g
+2026-11-05T11:10:29.756 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[27bd124a](port=0)-nio2-thread-6] - Session testDeleteDirectoryLink@/127.0.0.1:59558 authenticated
+2026-11-05T11:10:29.977 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:10:29.980 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=38037
+2026-11-05T11:10:30.008 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[3fc7abf6]-nio2-thread-12] - Server at /127.0.0.1:38037 presented unverified EC key: SHA256:bcIMHSWvjQS+FA18l6SxN8byKyxCPkovOoR2YtyRb1g
+2026-11-05T11:10:30.115 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[561f982f](port=0)-nio2-thread-5] - Session testDeleteDirectoryLink@/127.0.0.1:58458 authenticated

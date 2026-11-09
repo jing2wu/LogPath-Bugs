@@ -1,0 +1,50 @@
+{
+ "project": "jenkins-infra__plugin-health-scoring",
+ "issue": "GH-483",
+ "summary": "Renovate probe doesn't detect all supported config file names",
+ "fix_commit": "f347c18eb12700a4ce723ce77f6ff4661ff2692f",
+ "buggy_version": "f347c18eb1 with core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java, core/src/main/java/io/jenkins/pluginhealth/scoring/probes/DependabotProbe.java, core/src/main/java/io/jenkins/pluginhealth/scoring/probes/RenovateProbe.java reverted to f347c18eb1^",
+ "jdk": "21",
+ "module": "core",
+ "tests": [
+  "DependabotProbeTest#shouldDetectMissingGithubConfigurationFolder",
+  "RenovateProbeTest#shouldAcceptAnyOfRenovateConfigFileLocation"
+ ],
+ "faulty_lines": [
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:51",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:52",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:53",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:54",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:55",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:57",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:58",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:60",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/AbstractDependencyBotConfigurationProbe.java:61",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/DependabotProbe.java:60",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/RenovateProbe.java:45",
+  "core/src/main/java/io/jenkins/pluginhealth/scoring/probes/RenovateProbe.java:60"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 8,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 8,
+ "stable": true,
+ "runs": {
+  "DependabotProbeTest#shouldDetectMissingGithubConfigurationFolder": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "RenovateProbeTest#shouldAcceptAnyOfRenovateConfigFileLocation": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

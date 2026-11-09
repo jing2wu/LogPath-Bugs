@@ -1,0 +1,33 @@
+{
+ "project": "eclipse-hono__hono",
+ "issue": "GH-2945",
+ "summary": "Kafka based Command response does not contain tenant ID",
+ "fix_commit": "846bcdedc633ed6dc09beaed1056a053503aee0e",
+ "buggy_version": "846bcdedc6 with clients/command-kafka/src/main/java/org/eclipse/hono/client/command/kafka/KafkaBasedCommandResponseSender.java reverted to 846bcdedc6^",
+ "jdk": "17",
+ "module": "clients/command-kafka",
+ "tests": [
+  "KafkaBasedCommandResponseSenderTest#testIfValidCommandResponseKafkaRecordIsSent"
+ ],
+ "faulty_lines": [
+  "clients/command-kafka/src/main/java/org/eclipse/hono/client/command/kafka/KafkaBasedCommandResponseSender.java:78",
+  "clients/command-kafka/src/main/java/org/eclipse/hono/client/command/kafka/KafkaBasedCommandResponseSender.java:79"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 45,
+ "pairs_exported": 6,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 45,
+ "stable": true,
+ "runs": {
+  "KafkaBasedCommandResponseSenderTest#testIfValidCommandResponseKafkaRecordIsSent": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

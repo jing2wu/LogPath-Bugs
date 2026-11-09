@@ -1,0 +1,45 @@
+{
+ "project": "apache__mina-sshd",
+ "issue": "GH-318",
+ "summary": "Support for more than one jump host",
+ "fix_commit": "12e5283710a95a48d17ba70a7082fefe936b4964",
+ "buggy_version": "12e5283710 with sshd-core/src/main/java/org/apache/sshd/client/SshClient.java, sshd-core/src/main/java/org/apache/sshd/core/CoreModuleProperties.java reverted to 12e5283710^",
+ "jdk": "17",
+ "module": "sshd-core",
+ "tests": [
+  "ProxyTest#testProxyCascade",
+  "ProxyTest#testProxyInfinite"
+ ],
+ "faulty_lines": [
+  "sshd-core/src/main/java/org/apache/sshd/client/SshClient.java:551",
+  "sshd-core/src/main/java/org/apache/sshd/client/SshClient.java:675",
+  "sshd-core/src/main/java/org/apache/sshd/client/SshClient.java:677",
+  "sshd-core/src/main/java/org/apache/sshd/client/SshClient.java:678",
+  "sshd-core/src/main/java/org/apache/sshd/client/SshClient.java:679",
+  "sshd-core/src/main/java/org/apache/sshd/client/SshClient.java:681",
+  "sshd-core/src/main/java/org/apache/sshd/core/CoreModuleProperties.java:792"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 1003,
+ "pairs_exported": 68,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "ProxyTest#testProxyCascade": {
+   "threads": 194,
+   "log_threads": 63,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "ProxyTest#testProxyInfinite": {
+   "threads": 109,
+   "log_threads": 6,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

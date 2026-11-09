@@ -1,0 +1,45 @@
+{
+ "project": "agentscope-ai__agentscope-java",
+ "issue": "GH-1289",
+ "summary": "[Bug]:load_skill_through_path tool description broken, causes model to pass invalid path='.'",
+ "fix_commit": "887728a47597d1083588e1787c4349f2f5b5babf",
+ "buggy_version": "887728a475 with agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java reverted to 887728a475^",
+ "jdk": "17",
+ "module": "agentscope-core",
+ "tests": [
+  "SkillBoxToolsTest#testInvalidResourcePathDoesNotActivateSkill"
+ ],
+ "faulty_lines": [
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:111",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:112",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:113",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:158",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:161",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:162",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:173",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:174",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:256",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:283",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:82",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:83",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:84",
+  "agentscope-core/src/main/java/io/agentscope/core/skill/SkillToolFactory.java:85"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 24,
+ "pairs_exported": 10,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "SkillBoxToolsTest#testInvalidResourcePathDoesNotActivateSkill": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

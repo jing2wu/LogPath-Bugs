@@ -1,0 +1,2 @@
+2026-11-03T22:35:32.325 ERROR finergit.ast.JavaFileVisitor [Test worker] - JavaFileVisitor#visit(PatternInstanceofExpression) is not implemented yet.
+2026-11-03T22:35:32.334 ERROR finergit.ast.JavaFileVisitor [Test worker] - JavaFileVisitor#visit(PatternInstanceofExpression) is not implemented yet.

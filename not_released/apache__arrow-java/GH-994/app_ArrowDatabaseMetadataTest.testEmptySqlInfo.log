@@ -1,0 +1,733 @@
+2026-11-05T17:26:30.670 INFO org.apache.arrow.memory.BaseAllocator [main] - Debug mode disabled. Enable with the VM option -Darrow.memory.debug.allocator=true.
+2026-11-05T17:26:30.680 INFO org.apache.arrow.memory.DefaultAllocationManagerOption [main] - allocation manager type not specified, using netty as the default type
+2026-11-05T17:26:30.682 INFO org.apache.arrow.memory.CheckAllocator [main] - Using DefaultAllocationManager at memory/memory-netty/target/classes/org/apache/arrow/memory/netty/DefaultAllocationManagerFactory.class
+2026-11-05T17:26:30.703 DEBUG io.netty.util.internal.logging.InternalLoggerFactory [main] - Using SLF4J as the default logging framework
+2026-11-05T17:26:30.703 DEBUG io.netty.util.ResourceLeakDetector [main] - -Dio.netty.leakDetection.level: simple
+2026-11-05T17:26:30.703 DEBUG io.netty.util.ResourceLeakDetector [main] - -Dio.netty.leakDetection.targetRecords: 4
+2026-11-05T17:26:30.707 DEBUG io.netty.util.internal.PlatformDependent0 [main] - Java version: 17
+2026-11-05T17:26:30.708 DEBUG io.netty.util.internal.PlatformDependent0 [main] - -Dio.netty.noUnsafe: false
+2026-11-05T17:26:30.708 DEBUG io.netty.util.internal.PlatformDependent0 [main] - Thread.isVirtual() is not available: 
+java.lang.NoSuchMethodException: no such method: java.lang.Thread.isVirtual()boolean/invokeVirtual
+2026-11-05T17:26:30.710 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe.theUnsafe: available
+2026-11-05T17:26:30.710 DEBUG io.netty.util.internal.PlatformDependent0 [main] - sun.misc.Unsafe base methods: all available
+2026-11-05T17:26:30.711 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Buffer.address: available
+2026-11-05T17:26:30.712 DEBUG io.netty.util.internal.PlatformDependent0 [main] - direct buffer constructor: available
+2026-11-05T17:26:30.712 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.Bits.unaligned: available, true
+2026-11-05T17:26:30.713 DEBUG io.netty.util.internal.PlatformDependent0 [main] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: symbolic reference class is not accessible: class jdk.internal.misc.Unsafe, from class io.netty.util.internal.PlatformDependent0 (unnamed module @2dbe250d)
+2026-11-05T17:26:30.714 DEBUG io.netty.util.internal.PlatformDependent0 [main] - java.nio.DirectByteBuffer.<init>(long, {int,long}): available
+2026-11-05T17:26:30.714 DEBUG io.netty.util.internal.PlatformDependent [main] - sun.misc.Unsafe: available
+2026-11-05T17:26:30.714 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.tmpdir: /home/user/log-dataset/logpath-bugs-work/workspace/rwork/apache__arrow-java_x0/flight/flight-sql-jdbc-core/target (java.io.tmpdir)
+2026-11-05T17:26:30.714 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2026-11-05T17:26:30.714 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.maxDirectMemory: 4294967296 bytes
+2026-11-05T17:26:30.715 DEBUG io.netty.util.internal.CleanerJava9 [main] - java.nio.ByteBuffer.cleaner(): available
+2026-11-05T17:26:30.716 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.noPreferDirect: false
+2026-11-05T17:26:30.718 DEBUG io.netty.util.internal.PlatformDependent [main] - -Dio.netty.jfr.enabled: true
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.numHeapArenas: 32
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.numDirectArenas: 32
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.pageSize: 8192
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxOrder: 9
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.chunkSize: 4194304
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.smallCacheSize: 256
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.normalCacheSize: 64
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.useCacheForAllThreads: false
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2026-11-05T17:26:30.718 DEBUG io.netty.buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+2026-11-05T17:26:30.721 DEBUG io.netty.util.internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2026-11-05T17:26:30.721 DEBUG io.netty.util.internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2026-11-05T17:26:30.727 TRACE arrow.allocator [allocation.logger] - Memory Usage: 
+32 direct arena(s):
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Chunk(s) at 0~25%:
+none
+Chunk(s) at 0~50%:
+none
+Chunk(s) at 25~75%:
+none
+Chunk(s) at 50~100%:
+none
+Chunk(s) at 75~100%:
+none
+Chunk(s) at 100%:
+none
+small subpages:
+Large buffers outstanding: 0 totaling 0 bytes.
+Normal buffers outstanding: 0 totaling 0 bytes.
+2026-11-05T17:26:30.730 DEBUG io.netty.buffer.AbstractByteBuf [main] - -Dio.netty.buffer.checkAccessible: true
+2026-11-05T17:26:30.730 DEBUG io.netty.buffer.AbstractByteBuf [main] - -Dio.netty.buffer.checkBounds: true
+2026-11-05T17:26:30.730 DEBUG io.netty.util.ResourceLeakDetectorFactory [main] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d611f1c
+2026-11-05T17:26:30.745 DEBUG org.apache.arrow.memory.rounding.DefaultRoundingPolicy [main] - -Dorg.apache.memory.allocator.pageSize: 8192
+2026-11-05T17:26:30.745 DEBUG org.apache.arrow.memory.rounding.DefaultRoundingPolicy [main] - -Dorg.apache.memory.allocator.maxOrder: 11
+2026-11-05T17:26:30.847 FINE io.grpc.netty.Utils <clinit> - Epoll is not available, using Nio.
+java.lang.ClassNotFoundException: io.netty.channel.epoll.Epoll
+2026-11-05T17:26:31.004 FINE io.grpc.internal.ServerImplBuilder getTracerFactories - Unable to apply census stats
+java.lang.ClassNotFoundException: io.grpc.census.InternalCensusStatsAccessor
+2026-11-05T17:26:31.005 FINE io.grpc.internal.ServerImplBuilder getTracerFactories - Unable to apply census stats
+java.lang.ClassNotFoundException: io.grpc.census.InternalCensusTracingAccessor
+2026-11-05T17:26:31.012 DEBUG io.netty.channel.MultithreadEventLoopGroup [main] - -Dio.netty.eventLoopThreads: 32
+2026-11-05T17:26:31.015 DEBUG io.netty.channel.nio.NioIoHandler [main] - -Dio.netty.noKeySetOptimization: false
+2026-11-05T17:26:31.016 DEBUG io.netty.channel.nio.NioIoHandler [main] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2026-11-05T17:26:31.022 DEBUG io.netty.util.concurrent.GlobalEventExecutor [main] - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2026-11-05T17:26:31.030 DEBUG io.netty.util.internal.PlatformDependent [main] - org.jctools-core.MpscChunkedArrayQueue: available
+2026-11-05T17:26:31.036 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5a2f401a
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@45311a99
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@7037a680
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@492c8137
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@420b55ed
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@f237ae7
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@42edde25
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6fe5da76
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@77d95e5a
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6339e604
+2026-11-05T17:26:31.039 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4f8900b0
+2026-11-05T17:26:31.040 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@e7e455d
+2026-11-05T17:26:31.040 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@33e8e146
+2026-11-05T17:26:31.040 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1f4d38f9
+2026-11-05T17:26:31.040 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@18463720
+2026-11-05T17:26:31.040 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@64eeddd8
+2026-11-05T17:26:31.040 TRACE io.netty.channel.nio.NioIoHandler [main] - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@10f8e2d2
+2026-11-05T17:26:31.045 FINE io.grpc.netty.Utils getByteBufAllocator - Using custom allocator: forceHeapBuffer=false, defaultPreferDirect=true
+2026-11-05T17:26:31.046 FINE io.grpc.netty.Utils createByteBufAllocator - Creating allocator, preferDirect=true
+2026-11-05T17:26:31.046 FINE io.grpc.netty.Utils createByteBufAllocator - Forcing maxOrder=8
+2026-11-05T17:26:31.047 FINE io.grpc.netty.Utils getByteBufAllocator - Using custom allocator: forceHeapBuffer=false, defaultPreferDirect=true
+2026-11-05T17:26:31.057 DEBUG io.netty.channel.DefaultChannelId [grpc-nio-boss-ELG-1-1] - -Dio.netty.processId: 1315651 (auto-detected)
+2026-11-05T17:26:31.059 DEBUG io.netty.util.NetUtil [grpc-nio-boss-ELG-1-1] - -Djava.net.preferIPv4Stack: false
+2026-11-05T17:26:31.059 DEBUG io.netty.util.NetUtil [grpc-nio-boss-ELG-1-1] - -Djava.net.preferIPv6Addresses: false
+2026-11-05T17:26:31.060 DEBUG io.netty.util.NetUtilInitializations [grpc-nio-boss-ELG-1-1] - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2026-11-05T17:26:31.060 DEBUG io.netty.util.NetUtil [grpc-nio-boss-ELG-1-1] - /proc/sys/net/core/somaxconn: 4096
+2026-11-05T17:26:31.061 DEBUG io.netty.channel.DefaultChannelId [grpc-nio-boss-ELG-1-1] - -Dio.netty.machineId: ac:1f:6b:ff:fe:f6:38:8f (auto-detected)
+2026-11-05T17:26:31.072 DEBUG io.netty.buffer.AdaptiveByteBufAllocator [grpc-nio-boss-ELG-1-1] - -Dio.netty.allocator.useCachedMagazinesForNonEventLoopThreads: false
+2026-11-05T17:26:31.077 DEBUG io.netty.util.Recycler [grpc-nio-boss-ELG-1-1] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2026-11-05T17:26:31.077 DEBUG io.netty.util.Recycler [grpc-nio-boss-ELG-1-1] - -Dio.netty.recycler.ratio: 8
+2026-11-05T17:26:31.077 DEBUG io.netty.util.Recycler [grpc-nio-boss-ELG-1-1] - -Dio.netty.recycler.chunkSize: 32
+2026-11-05T17:26:31.077 DEBUG io.netty.util.Recycler [grpc-nio-boss-ELG-1-1] - -Dio.netty.recycler.blocking: false
+2026-11-05T17:26:31.077 DEBUG io.netty.util.Recycler [grpc-nio-boss-ELG-1-1] - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2026-11-05T17:26:31.081 DEBUG io.netty.buffer.ByteBufUtil [grpc-nio-boss-ELG-1-1] - -Dio.netty.allocator.type: adaptive
+2026-11-05T17:26:31.081 DEBUG io.netty.buffer.ByteBufUtil [grpc-nio-boss-ELG-1-1] - -Dio.netty.threadLocalDirectBufferSize: 0
+2026-11-05T17:26:31.081 DEBUG io.netty.buffer.ByteBufUtil [grpc-nio-boss-ELG-1-1] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2026-11-05T17:26:31.082 DEBUG io.netty.bootstrap.ChannelInitializerExtensions [grpc-nio-boss-ELG-1-1] - -Dio.netty.bootstrap.extensions: null
+2026-11-05T17:26:31.087 INFO org.apache.arrow.driver.jdbc.FlightServerTestExtension [main] - Started org.apache.arrow.flight.FlightServer as org.apache.arrow.flight.FlightServer@36511772
+2026-11-05T17:26:31.089 FINE io.grpc.internal.ServerImplBuilder getTracerFactories - Unable to apply census stats
+java.lang.ClassNotFoundException: io.grpc.census.InternalCensusStatsAccessor
+2026-11-05T17:26:31.089 FINE io.grpc.internal.ServerImplBuilder getTracerFactories - Unable to apply census stats
+java.lang.ClassNotFoundException: io.grpc.census.InternalCensusTracingAccessor
+2026-11-05T17:26:31.090 FINE io.grpc.netty.Utils getByteBufAllocator - Using custom allocator: forceHeapBuffer=false, defaultPreferDirect=true
+2026-11-05T17:26:31.090 FINE io.grpc.netty.Utils getByteBufAllocator - Using custom allocator: forceHeapBuffer=false, defaultPreferDirect=true
+2026-11-05T17:26:31.091 INFO org.apache.arrow.driver.jdbc.FlightServerTestExtension [main] - Started org.apache.arrow.flight.FlightServer as org.apache.arrow.flight.FlightServer@546083d6
+2026-11-05T17:26:31.174 FINE io.grpc.internal.ManagedChannelImplBuilder <clinit> - Unable to apply census stats
+java.lang.ClassNotFoundException: io.grpc.census.InternalCensusStatsAccessor
+2026-11-05T17:26:31.177 FINE io.grpc.NameResolverRegistry getHardCodedClasses - Unable to find IntentNameResolverProvider
+java.lang.ClassNotFoundException: io.grpc.binder.internal.IntentNameResolverProvider
+2026-11-05T17:26:31.181 FINE io.grpc.NameResolverRegistry getDefaultRegistry - Service loader found io.grpc.internal.DnsNameResolverProvider@e7b3e54
+2026-11-05T17:26:31.181 FINE io.grpc.NameResolverRegistry getDefaultRegistry - Service loader found io.grpc.netty.UdsNameResolverProvider@78d61f17
+2026-11-05T17:26:31.189 FINE io.grpc.internal.ManagedChannelImplBuilder getEffectiveInterceptors - Unable to apply census stats
+java.lang.ClassNotFoundException: io.grpc.census.InternalCensusTracingAccessor
+2026-11-05T17:26:31.200 FINEST io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Channel for 'directaddress:///localhost/127.0.0.1:35295' created
+2026-11-05T17:26:31.205 FINE io.grpc.LoadBalancerRegistry getDefaultRegistry - Service loader found Provider{policy=round_robin, priority=5, available=true}
+2026-11-05T17:26:31.205 FINE io.grpc.LoadBalancerRegistry getDefaultRegistry - Service loader found RandomSubsettingLoadBalancerProvider{policy=random_subsetting_experimental, priority=5, available=true}
+2026-11-05T17:26:31.206 FINE io.grpc.LoadBalancerRegistry getDefaultRegistry - Service loader found OutlierDetectionLoadBalancerProvider{policy=outlier_detection_experimental, priority=5, available=true}
+2026-11-05T17:26:31.206 FINE io.grpc.LoadBalancerRegistry getDefaultRegistry - Service loader found PickFirstLoadBalancerProvider{policy=pick_first, priority=5, available=true}
+2026-11-05T17:26:31.250 FINER io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Exiting idle mode
+2026-11-05T17:26:31.253 FINEST io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Resolved address: [[[localhost/127.0.0.1:35295]/{}]], config={}
+2026-11-05T17:26:31.253 FINER io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Address resolved: [[[localhost/127.0.0.1:35295]/{}]]
+2026-11-05T17:26:31.255 FINEST io.grpc.ChannelLogger log - [Subchannel<9>: (localhost:35295)] Subchannel for [[[localhost/127.0.0.1:35295]/{}]] created
+2026-11-05T17:26:31.258 FINEST io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Child Subchannel started
+2026-11-05T17:26:31.259 FINER io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Entering CONNECTING state with picker: FixedResultPicker(PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false, authority-override=null})
+2026-11-05T17:26:31.259 FINER io.grpc.ChannelLogger log - [Subchannel<9>: (localhost:35295)] CONNECTING as requested
+2026-11-05T17:26:31.260 FINER io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Entering CONNECTING state with picker: FixedResultPicker(PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false, authority-override=null})
+2026-11-05T17:26:31.295 FINE io.grpc.netty.Utils getByteBufAllocator - Using custom allocator: forceHeapBuffer=false, defaultPreferDirect=true
+2026-11-05T17:26:31.300 FINEST io.grpc.ChannelLogger log - [NettyClientTransport<10>: (localhost/127.0.0.1:35295)] WaitUntilActive started
+2026-11-05T17:26:31.302 FINER io.grpc.ChannelLogger log - [Subchannel<9>: (localhost:35295)] Started transport NettyClientTransport<10>: (localhost/127.0.0.1:35295)
+2026-11-05T17:26:31.304 FINER io.grpc.ChannelLogger log - [NettyClientTransport<10>: (localhost/127.0.0.1:35295)] WaitUntilActive completed
+2026-11-05T17:26:31.304 FINEST io.grpc.ChannelLogger log - [NettyClientTransport<10>: (localhost/127.0.0.1:35295)] Plaintext started
+2026-11-05T17:26:31.305 FINER io.grpc.ChannelLogger log - [NettyClientTransport<10>: (localhost/127.0.0.1:35295)] Plaintext completed
+2026-11-05T17:26:31.306 FINE io.grpc.Context$LazyStorage <clinit> - Storage override doesn't exist. Using default
+java.lang.ClassNotFoundException: io.grpc.override.ContextStorageOverride
+2026-11-05T17:26:31.312 FINEST io.grpc.netty.NettyServerHandler$ServerChannelLogger log - WaitUntilActive started
+2026-11-05T17:26:31.312 FINEST io.grpc.netty.NettyServerHandler$ServerChannelLogger log - WaitUntilActive completed
+2026-11-05T17:26:31.312 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] OUTBOUND SETTINGS: ack=false settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=2147483647}
+2026-11-05T17:26:31.312 FINEST io.grpc.netty.NettyServerHandler$ServerChannelLogger log - Plaintext started
+2026-11-05T17:26:31.313 FINEST io.grpc.netty.NettyServerHandler$ServerChannelLogger log - Plaintext completed
+2026-11-05T17:26:31.314 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] OUTBOUND SETTINGS: ack=false settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=2147483647}
+2026-11-05T17:26:31.375 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2026-11-05T17:26:31.375 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2026-11-05T17:26:31.380 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] INBOUND SETTINGS: ack=false settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=2147483647}
+2026-11-05T17:26:31.380 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] INBOUND SETTINGS: ack=false settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=2147483647}
+2026-11-05T17:26:31.381 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] OUTBOUND SETTINGS: ack=true
+2026-11-05T17:26:31.381 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] OUTBOUND SETTINGS: ack=true
+2026-11-05T17:26:31.381 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2026-11-05T17:26:31.381 FINER io.grpc.ChannelLogger log - [Subchannel<9>: (localhost:35295)] READY
+2026-11-05T17:26:31.384 FINER io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Entering READY state with picker: FixedResultPicker(PickResult{subchannel=Subchannel<9>: (localhost:35295), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false, authority-override=null})
+2026-11-05T17:26:31.384 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2026-11-05T17:26:31.384 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] INBOUND SETTINGS: ack=true
+2026-11-05T17:26:31.384 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] INBOUND SETTINGS: ack=true
+2026-11-05T17:26:31.390 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[:authority: localhost:35295, :path: /arrow.flight.protocol.FlightService/Handshake, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: JDBC Flight SQL Driver 19.0.0-SNAPSHOT grpc-java-netty/1.79.0, grpc-accept-encoding: gzip, authorization: Basic ZmxpZ2h0LXRlc3QtdXNlcjpmbGlnaHQtdGVzdC1wYXNzd29yZA==] padding=0 endStream=false
+2026-11-05T17:26:31.396 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] INBOUND HEADERS: streamId=3 headers=GrpcHttp2RequestHeaders[:path: /arrow.flight.protocol.FlightService/Handshake, :authority: localhost:35295, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: JDBC Flight SQL Driver 19.0.0-SNAPSHOT grpc-java-netty/1.79.0, grpc-accept-encoding: gzip, authorization: Basic ZmxpZ2h0LXRlc3QtdXNlcjpmbGlnaHQtdGVzdC1wYXNzd29yZA==] padding=0 endStream=false
+2026-11-05T17:26:31.398 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] OUTBOUND DATA: streamId=3 padding=0 endStream=true length=5 bytes=0000000000
+2026-11-05T17:26:31.404 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] INBOUND DATA: streamId=3 padding=0 endStream=true length=5 bytes=0000000000
+2026-11-05T17:26:31.404 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] OUTBOUND PING: ack=false bytes=1234
+2026-11-05T17:26:31.405 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] INBOUND PING: ack=false bytes=1234
+2026-11-05T17:26:31.405 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] OUTBOUND PING: ack=true bytes=1234
+2026-11-05T17:26:31.406 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] INBOUND PING: ack=true bytes=1234
+2026-11-05T17:26:31.406 FINE io.grpc.netty.NettyServerHandler$FrameListener onPingAckRead - Window: 1,048,576
+2026-11-05T17:26:31.428 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, set-cookie: k=v, authorization: Bearer xUEqHSNvSIC1FaRVoyHpCQ==, grpc-status: 0] padding=0 endStream=true
+2026-11-05T17:26:31.430 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] INBOUND HEADERS: streamId=3 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, set-cookie: k=v, authorization: Bearer xUEqHSNvSIC1FaRVoyHpCQ==, grpc-status: 0] padding=0 endStream=true
+2026-11-05T17:26:31.980 FINE io.grpc.internal.ManagedChannelImplBuilder getEffectiveInterceptors - Unable to apply census stats
+java.lang.ClassNotFoundException: io.grpc.census.InternalCensusTracingAccessor
+2026-11-05T17:26:31.981 FINEST io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Channel for 'directaddress:///localhost/127.0.0.1:44719' created
+2026-11-05T17:26:31.981 FINER io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Exiting idle mode
+2026-11-05T17:26:31.982 FINEST io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Resolved address: [[[localhost/127.0.0.1:44719]/{}]], config={}
+2026-11-05T17:26:31.982 FINER io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Address resolved: [[[localhost/127.0.0.1:44719]/{}]]
+2026-11-05T17:26:31.982 FINEST io.grpc.ChannelLogger log - [Subchannel<14>: (localhost:44719)] Subchannel for [[[localhost/127.0.0.1:44719]/{}]] created
+2026-11-05T17:26:31.982 FINEST io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Child Subchannel started
+2026-11-05T17:26:31.982 FINER io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Entering CONNECTING state with picker: FixedResultPicker(PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false, authority-override=null})
+2026-11-05T17:26:31.982 FINER io.grpc.ChannelLogger log - [Subchannel<14>: (localhost:44719)] CONNECTING as requested
+2026-11-05T17:26:31.982 FINER io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Entering CONNECTING state with picker: FixedResultPicker(PickResult{subchannel=null, streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false, authority-override=null})
+2026-11-05T17:26:31.983 FINE io.grpc.netty.Utils getByteBufAllocator - Using custom allocator: forceHeapBuffer=false, defaultPreferDirect=true
+2026-11-05T17:26:31.983 FINER io.grpc.ChannelLogger log - [Subchannel<14>: (localhost:44719)] Started transport NettyClientTransport<15>: (localhost/127.0.0.1:44719)
+2026-11-05T17:26:31.983 FINEST io.grpc.ChannelLogger log - [NettyClientTransport<15>: (localhost/127.0.0.1:44719)] WaitUntilActive started
+2026-11-05T17:26:31.984 FINER io.grpc.ChannelLogger log - [NettyClientTransport<15>: (localhost/127.0.0.1:44719)] WaitUntilActive completed
+2026-11-05T17:26:31.984 FINEST io.grpc.ChannelLogger log - [NettyClientTransport<15>: (localhost/127.0.0.1:44719)] Plaintext started
+2026-11-05T17:26:31.984 FINER io.grpc.ChannelLogger log - [NettyClientTransport<15>: (localhost/127.0.0.1:44719)] Plaintext completed
+2026-11-05T17:26:31.984 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND SETTINGS: ack=false settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=2147483647}
+2026-11-05T17:26:31.984 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2026-11-05T17:26:31.984 FINEST io.grpc.netty.NettyServerHandler$ServerChannelLogger log - WaitUntilActive started
+2026-11-05T17:26:31.985 FINEST io.grpc.netty.NettyServerHandler$ServerChannelLogger log - WaitUntilActive completed
+2026-11-05T17:26:31.985 FINEST io.grpc.netty.NettyServerHandler$ServerChannelLogger log - Plaintext started
+2026-11-05T17:26:31.985 FINEST io.grpc.netty.NettyServerHandler$ServerChannelLogger log - Plaintext completed
+2026-11-05T17:26:31.985 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND SETTINGS: ack=false settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=2147483647}
+2026-11-05T17:26:31.986 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2026-11-05T17:26:31.986 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND SETTINGS: ack=false settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=2147483647}
+2026-11-05T17:26:31.986 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND SETTINGS: ack=true
+2026-11-05T17:26:31.986 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND SETTINGS: ack=false settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=2147483647}
+2026-11-05T17:26:31.986 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND SETTINGS: ack=true
+2026-11-05T17:26:31.986 FINER io.grpc.ChannelLogger log - [Subchannel<14>: (localhost:44719)] READY
+2026-11-05T17:26:31.986 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2026-11-05T17:26:31.986 FINER io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Entering READY state with picker: FixedResultPicker(PickResult{subchannel=Subchannel<14>: (localhost:44719), streamTracerFactory=null, status=Status{code=OK, description=null, cause=null}, drop=false, authority-override=null})
+2026-11-05T17:26:31.986 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2026-11-05T17:26:31.987 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND SETTINGS: ack=true
+2026-11-05T17:26:31.987 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[:authority: localhost:44719, :path: /arrow.flight.protocol.FlightService/Handshake, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: JDBC Flight SQL Driver 19.0.0-SNAPSHOT grpc-java-netty/1.79.0, grpc-accept-encoding: gzip, authorization: Basic ZmxpZ2h0LXRlc3QtdXNlcjpmbGlnaHQtdGVzdC1wYXNzd29yZA==] padding=0 endStream=false
+2026-11-05T17:26:31.987 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND DATA: streamId=3 padding=0 endStream=true length=5 bytes=0000000000
+2026-11-05T17:26:31.987 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND SETTINGS: ack=true
+2026-11-05T17:26:31.988 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND HEADERS: streamId=3 headers=GrpcHttp2RequestHeaders[:path: /arrow.flight.protocol.FlightService/Handshake, :authority: localhost:44719, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: JDBC Flight SQL Driver 19.0.0-SNAPSHOT grpc-java-netty/1.79.0, grpc-accept-encoding: gzip, authorization: Basic ZmxpZ2h0LXRlc3QtdXNlcjpmbGlnaHQtdGVzdC1wYXNzd29yZA==] padding=0 endStream=false
+2026-11-05T17:26:31.988 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND DATA: streamId=3 padding=0 endStream=true length=5 bytes=0000000000
+2026-11-05T17:26:31.988 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND PING: ack=false bytes=1234
+2026-11-05T17:26:31.988 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND PING: ack=false bytes=1234
+2026-11-05T17:26:31.988 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND PING: ack=true bytes=1234
+2026-11-05T17:26:31.989 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND PING: ack=true bytes=1234
+2026-11-05T17:26:31.989 FINE io.grpc.netty.NettyServerHandler$FrameListener onPingAckRead - Window: 1,048,576
+2026-11-05T17:26:31.989 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, set-cookie: k=v, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==, grpc-status: 0] padding=0 endStream=true
+2026-11-05T17:26:31.990 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND HEADERS: streamId=3 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, set-cookie: k=v, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==, grpc-status: 0] padding=0 endStream=true
+2026-11-05T17:26:32.015 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND HEADERS: streamId=5 headers=GrpcHttp2OutboundHeaders[:authority: localhost:44719, :path: /arrow.flight.protocol.FlightService/GetFlightInfo, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: JDBC Flight SQL Driver 19.0.0-SNAPSHOT grpc-java-netty/1.79.0, cookie: k=v, grpc-accept-encoding: gzip, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==] padding=0 endStream=false
+2026-11-05T17:26:32.015 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND DATA: streamId=5 padding=0 endStream=true length=74 bytes=0000000045080212410a3f747970652e676f6f676c65617069732e636f6d2f6172726f772e666c696768742e70726f746f636f6c2e73716c2e436f6d6d616e64...
+2026-11-05T17:26:32.016 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND HEADERS: streamId=5 headers=GrpcHttp2RequestHeaders[:path: /arrow.flight.protocol.FlightService/GetFlightInfo, :authority: localhost:44719, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: JDBC Flight SQL Driver 19.0.0-SNAPSHOT grpc-java-netty/1.79.0, cookie: k=v, grpc-accept-encoding: gzip, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==] padding=0 endStream=false
+2026-11-05T17:26:32.016 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND DATA: streamId=5 padding=0 endStream=true length=74 bytes=0000000045080212410a3f747970652e676f6f676c65617069732e636f6d2f6172726f772e666c696768742e70726f746f636f6c2e73716c2e436f6d6d616e64...
+2026-11-05T17:26:32.097 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND HEADERS: streamId=5 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2026-11-05T17:26:32.098 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND DATA: streamId=5 padding=0 endStream=false length=1100 bytes=00000004470aa007ffffffff980300001000000000000a000e0006000d0008000a000000000004001000000000010a000c000000080004000a00000008000000...
+2026-11-05T17:26:32.099 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND HEADERS: streamId=5 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
+2026-11-05T17:26:32.099 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND HEADERS: streamId=5 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2026-11-05T17:26:32.101 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND DATA: streamId=5 padding=0 endStream=false length=1100 bytes=00000004470aa007ffffffff980300001000000000000a000e0006000d0008000a000000000004001000000000010a000c000000080004000a00000008000000...
+2026-11-05T17:26:32.101 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND PING: ack=false bytes=1234
+2026-11-05T17:26:32.102 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND HEADERS: streamId=5 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2026-11-05T17:26:32.102 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND PING: ack=false bytes=1234
+2026-11-05T17:26:32.103 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND PING: ack=true bytes=1234
+2026-11-05T17:26:32.103 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND PING: ack=true bytes=1234
+2026-11-05T17:26:32.103 FINE io.grpc.netty.NettyClientHandler$FrameListener onPingAckRead - Window: 1,048,576
+2026-11-05T17:26:32.104 DEBUG org.apache.arrow.vector.ipc.ReadChannel [main] - Reading buffer with size: 4
+2026-11-05T17:26:32.105 DEBUG org.apache.arrow.vector.ipc.ReadChannel [main] - Reading buffer with size: 4
+2026-11-05T17:26:32.105 DEBUG org.apache.arrow.vector.ipc.ReadChannel [main] - Reading buffer with size: 920
+2026-11-05T17:26:32.129 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND HEADERS: streamId=7 headers=GrpcHttp2OutboundHeaders[:authority: localhost:44719, :path: /arrow.flight.protocol.FlightService/DoGet, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: JDBC Flight SQL Driver 19.0.0-SNAPSHOT grpc-java-netty/1.79.0, cookie: k=v, grpc-accept-encoding: gzip, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==] padding=0 endStream=false
+2026-11-05T17:26:32.130 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND DATA: streamId=7 padding=0 endStream=true length=72 bytes=00000000430a410a3f747970652e676f6f676c65617069732e636f6d2f6172726f772e666c696768742e70726f746f636f6c2e73716c2e436f6d6d616e644765...
+2026-11-05T17:26:32.131 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND HEADERS: streamId=7 headers=GrpcHttp2RequestHeaders[:path: /arrow.flight.protocol.FlightService/DoGet, :authority: localhost:44719, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: JDBC Flight SQL Driver 19.0.0-SNAPSHOT grpc-java-netty/1.79.0, cookie: k=v, grpc-accept-encoding: gzip, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==] padding=0 endStream=false
+2026-11-05T17:26:32.131 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND DATA: streamId=7 padding=0 endStream=true length=72 bytes=00000000430a410a3f747970652e676f6f676c65617069732e636f6d2f6172726f772e666c696768742e70726f746f636f6c2e73716c2e436f6d6d616e644765...
+2026-11-05T17:26:32.299 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND HEADERS: streamId=7 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2026-11-05T17:26:32.300 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND HEADERS: streamId=7 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, authorization: Bearer OTF7th9dTpKt0MRicw+lcg==, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2026-11-05T17:26:32.305 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND DATA: streamId=7 padding=0 endStream=false length=928 bytes=000000039b1298071000000000000a000e0006000d0008000a000000000004001000000000010a000c000000080004000a000000080000000800000000000000...
+2026-11-05T17:26:32.305 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND DATA: streamId=7 padding=0 endStream=false length=928 bytes=000000039b1298071000000000000a000e0006000d0008000a000000000004001000000000010a000c000000080004000a000000080000000800000000000000...
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.333 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.334 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [flight-server-default-executor-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.341 DEBUG org.apache.arrow.memory.util.MemoryUtil [flight-server-default-executor-1] - Constructor for direct buffer found and made accessible
+2026-11-05T17:26:32.341 DEBUG org.apache.arrow.memory.util.MemoryUtil [flight-server-default-executor-1] - direct buffer constructor: available
+2026-11-05T17:26:32.346 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND DATA: streamId=7 padding=0 endStream=false length=715 bytes=00000002c612c0051000000000000a000e0006000d0008000a000000000004001000000000030a000c000000080004000a00000008000000bc0100001b000000...
+2026-11-05T17:26:32.347 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND DATA: streamId=7 padding=0 endStream=false length=715 bytes=00000002c612c0051000000000000a000e0006000d0008000a000000000004001000000000030a000c000000080004000a00000008000000bc0100001b000000...
+2026-11-05T17:26:32.347 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] OUTBOUND HEADERS: streamId=7 headers=GrpcHttp2OutboundHeaders[grpc-status: 0] padding=0 endStream=true
+2026-11-05T17:26:32.347 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] INBOUND HEADERS: streamId=7 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.352 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.353 TRACE org.apache.arrow.vector.ipc.message.ArrowRecordBatch [ArrowFlightConnection-4-1] - Buffer in RecordBatch at 0, length: 0
+2026-11-05T17:26:32.360 FINEST io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] shutdown() called
+2026-11-05T17:26:32.360 FINER io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Entering SHUTDOWN state
+2026-11-05T17:26:32.361 FINER io.grpc.ChannelLogger log - [Subchannel<14>: (localhost:44719)] NettyClientTransport<15>: (localhost/127.0.0.1:44719) SHUTDOWN with UNAVAILABLE(Channel shutdown invoked)
+2026-11-05T17:26:32.361 FINE io.grpc.netty.NettyClientHandler close - Network channel being closed by the application.
+2026-11-05T17:26:32.361 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-5] - [id: 0x25a2254c, L:/127.0.0.1:57412 - R:localhost/127.0.0.1:44719] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=0 bytes=
+2026-11-05T17:26:32.362 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-6] - [id: 0xac85f12a, L:/127.0.0.1:44719 - R:/127.0.0.1:57412] INBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=0 bytes=
+2026-11-05T17:26:32.363 FINE io.grpc.netty.NettyClientHandler channelInactive - Network channel is closed
+2026-11-05T17:26:32.363 FINER io.grpc.ChannelLogger log - [Subchannel<14>: (localhost:44719)] NettyClientTransport<15>: (localhost/127.0.0.1:44719) Terminated
+2026-11-05T17:26:32.363 FINER io.grpc.ChannelLogger log - [Subchannel<14>: (localhost:44719)] Terminated
+2026-11-05T17:26:32.363 FINER io.grpc.ChannelLogger log - [Channel<12>: (directaddress:///localhost/127.0.0.1:44719)] Terminated
+2026-11-05T17:26:32.382 FINEST io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] shutdown() called
+2026-11-05T17:26:32.382 FINER io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Entering SHUTDOWN state
+2026-11-05T17:26:32.382 FINER io.grpc.ChannelLogger log - [Subchannel<9>: (localhost:35295)] NettyClientTransport<10>: (localhost/127.0.0.1:35295) SHUTDOWN with UNAVAILABLE(Channel shutdown invoked)
+2026-11-05T17:26:32.383 FINE io.grpc.netty.NettyClientHandler close - Network channel being closed by the application.
+2026-11-05T17:26:32.383 DEBUG io.grpc.netty.NettyClientHandler [grpc-nio-worker-ELG-3-2] - [id: 0x70d64d40, L:/127.0.0.1:40708 - R:localhost/127.0.0.1:35295] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=0 bytes=
+2026-11-05T17:26:32.383 FINE io.grpc.netty.NettyClientHandler channelInactive - Network channel is closed
+2026-11-05T17:26:32.383 DEBUG io.grpc.netty.NettyServerHandler [grpc-nio-worker-ELG-3-3] - [id: 0x4485ca9f, L:/127.0.0.1:35295 - R:/127.0.0.1:40708] INBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=0 bytes=
+2026-11-05T17:26:32.383 FINER io.grpc.ChannelLogger log - [Subchannel<9>: (localhost:35295)] NettyClientTransport<10>: (localhost/127.0.0.1:35295) Terminated
+2026-11-05T17:26:32.383 FINER io.grpc.ChannelLogger log - [Subchannel<9>: (localhost:35295)] Terminated
+2026-11-05T17:26:32.383 FINER io.grpc.ChannelLogger log - [Channel<7>: (directaddress:///localhost/127.0.0.1:35295)] Terminated
+2026-11-05T17:26:32.387 DEBUG org.apache.arrow.flight.FlightServer [main] - Server was terminated within 3s
+2026-11-05T17:26:32.387 DEBUG org.apache.arrow.flight.FlightServer [main] - Server was terminated within 3s

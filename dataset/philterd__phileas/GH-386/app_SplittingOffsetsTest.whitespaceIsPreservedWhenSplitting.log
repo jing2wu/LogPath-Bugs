@@ -1,0 +1,9 @@
+2026-11-03T21:50:33.194 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:50:33.208 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:50:33.546 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy fa246f72d86e564e has no custom dictionaries.
+2026-11-03T21:50:33.557 DEBUG ai.philterd.phileas.services.split.SplitFactory [main] - Instantiating a line width split service.
+2026-11-03T21:50:33.623 INFO ai.philterd.phileas.services.filters.filtering.PlainTextFilterService [main] - Initializing plain text filter service.
+2026-11-03T21:50:33.623 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Getting filters for policy.
+2026-11-03T21:50:33.630 DEBUG ai.philterd.phileas.services.FilterPolicyLoader [main] - Policy 1aaaa55c28a57915 has no custom dictionaries.
+2026-11-03T21:50:33.631 DEBUG ai.philterd.phileas.services.split.SplitFactory [main] - Instantiating a newline split service.
+2026-11-03T21:50:33.633 DEBUG ai.philterd.phileas.services.split.NewLineSplitService [main] - Split large input exceeding threshold into 9 splits using new line split method.

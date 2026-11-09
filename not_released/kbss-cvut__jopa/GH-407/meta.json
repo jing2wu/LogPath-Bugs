@@ -1,0 +1,32 @@
+{
+ "project": "kbss-cvut__jopa",
+ "issue": "GH-407",
+ "summary": "Selection by identifier is broken in SOQL",
+ "fix_commit": "f27941e1ff2265cc0cf7fa4010c8af211cc37016",
+ "buggy_version": "f27941e1ff with jopa-impl/src/main/java/cz/cvut/kbss/jopa/query/soql/SoqlQueryListener.java reverted to f27941e1ff^",
+ "jdk": "17",
+ "module": "jopa-impl",
+ "tests": [
+  "SoqlQueryParserTest#parseQueryHandlesVariableCorrespondingToEntityIdentifier"
+ ],
+ "faulty_lines": [
+  "jopa-impl/src/main/java/cz/cvut/kbss/jopa/query/soql/SoqlQueryListener.java:297"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 17,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "SoqlQueryParserTest#parseQueryHandlesVariableCorrespondingToEntityIdentifier": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,33 @@
+{
+ "project": "agentscope-ai__agentscope-java",
+ "issue": "GH-2981",
+ "summary": "[Bug] DashScopeHttpClient.isMultimodalModel() misses qwen3.8-flash (and other 3.8 variants except -max), causing AUTO endpoint routing to the wrong API",
+ "fix_commit": "3a04de0d1d6853a21eb5533b86b74a5527c19999",
+ "buggy_version": "3a04de0d1d with agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/DashScopeHttpClient.java reverted to 3a04de0d1d^",
+ "jdk": "17",
+ "module": "agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope",
+ "tests": [
+  "DashScopeChatModelTest#testQwen38FlashAutoRoutingAndMessageFormat"
+ ],
+ "faulty_lines": [
+  "agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/DashScopeHttpClient.java:396",
+  "agentscope-extensions/agentscope-extensions-model/agentscope-extensions-model-dashscope/src/main/java/io/agentscope/extensions/model/dashscope/DashScopeHttpClient.java:405"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 433,
+ "pairs_exported": 7,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "DashScopeChatModelTest#testQwen38FlashAutoRoutingAndMessageFormat": {
+   "threads": 4,
+   "log_threads": 2,
+   "status": "fail",
+   "tests_run": 2
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "several threads (approximate)"
+}

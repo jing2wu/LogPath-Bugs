@@ -1,0 +1,32 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23278",
+ "summary": "[BUG][rust] oneOf array enums produce invalid syntax for generated object types",
+ "fix_commit": "165465a92ae243f657313fbae161127f26938b2e",
+ "buggy_version": "165465a92a with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustClientCodegen.java reverted to 165465a92a^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "RustClientCodegenTest#testArrayWithObjectEnumValues"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/RustClientCodegen.java:303"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 648,
+ "pairs_exported": 94,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 648,
+ "stable": true,
+ "runs": {
+  "RustClientCodegenTest#testArrayWithObjectEnumValues": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

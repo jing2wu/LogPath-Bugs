@@ -1,0 +1,47 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-14869",
+ "summary": "[Bug] [API] Global and local parameters are not replaced with XX value in SQL/SHELL components",
+ "fix_commit": "f6a6794289ff984227548ff74affcf83fbced289",
+ "buggy_version": "f6a6794289 with dolphinscheduler-task-plugin/dolphinscheduler-task-api/src/main/java/org/apache/dolphinscheduler/plugin/task/api/AbstractTask.java reverted to f6a6794289^",
+ "jdk": "17",
+ "module": "dolphinscheduler-task-plugin/dolphinscheduler-task-sql",
+ "tests": [
+  "SqlTaskTest#testReplacingHiveLoadSql",
+  "SqlTaskTest#testReplacingSelectSql",
+  "SqlTaskTest#testReplacingSqlNonGreedy"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-task-plugin/dolphinscheduler-task-api/src/main/java/org/apache/dolphinscheduler/plugin/task/api/AbstractTask.java:201",
+  "dolphinscheduler-task-plugin/dolphinscheduler-task-api/src/main/java/org/apache/dolphinscheduler/plugin/task/api/AbstractTask.java:41"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 7,
+ "pairs_exported": 10,
+ "covering_pairs_printed": 4,
+ "shortest_covering_pair_printed": 7,
+ "stable": true,
+ "runs": {
+  "SqlTaskTest#testReplacingHiveLoadSql": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SqlTaskTest#testReplacingSelectSql": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "SqlTaskTest#testReplacingSqlNonGreedy": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

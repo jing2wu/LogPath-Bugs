@@ -1,0 +1,31 @@
+2026-11-03T19:49:17.405 TRACE org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - Applying default cacheSeconds=-1
+2026-11-03T19:49:17.435 INFO org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - PUT prefix   
+2026-11-03T19:49:17.568 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - Initializing MemoryStore...
+2026-11-03T19:49:18.378 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - MemoryStore initialized
+2026-11-03T19:49:20.011 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.XMLSchemaDatatypeHandler
+2026-11-03T19:49:20.014 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.RDFDatatypeHandler
+2026-11-03T19:49:20.017 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.DBPediaDatatypeHandler
+2026-11-03T19:49:20.027 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.VirtuosoGeometryDatatypeHandler
+2026-11-03T19:49:20.030 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.GeoSPARQLDatatypeHandler
+2026-11-03T19:49:20.051 DEBUG org.eclipse.rdf4j.rio.LanguageHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.languages.RFC3066LanguageHandler
+2026-11-03T19:49:20.061 DEBUG org.eclipse.rdf4j.rio.LanguageHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.languages.BCP47LanguageHandler
+2026-11-03T19:49:20.644 TRACE org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - Applying default cacheSeconds=-1
+2026-11-03T19:49:20.644 INFO org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - PUT prefix 	
+2026-11-03T19:49:20.644 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - Initializing MemoryStore...
+2026-11-03T19:49:20.658 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - MemoryStore initialized
+2026-11-03T19:49:20.707 TRACE org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - Applying default cacheSeconds=-1
+2026-11-03T19:49:20.707 INFO org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - PUT prefix 
+2026-11-03T19:49:20.707 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - Initializing MemoryStore...
+2026-11-03T19:49:20.714 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - MemoryStore initialized
+2026-11-03T19:49:20.738 TRACE org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - Applying default cacheSeconds=-1
+2026-11-03T19:49:20.741 INFO org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - PUT prefix -
+2026-11-03T19:49:20.741 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - Initializing MemoryStore...
+2026-11-03T19:49:20.751 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - MemoryStore initialized
+2026-11-03T19:49:20.799 TRACE org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - Applying default cacheSeconds=-1
+2026-11-03T19:49:20.799 INFO org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - PUT prefix rdf 4j
+2026-11-03T19:49:20.799 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - Initializing MemoryStore...
+2026-11-03T19:49:20.806 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - MemoryStore initialized
+2026-11-03T19:49:20.839 TRACE org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - Applying default cacheSeconds=-1
+2026-11-03T19:49:20.839 INFO org.eclipse.rdf4j.http.server.repository.namespaces.NamespaceController [main] - PUT prefix rdf-4j
+2026-11-03T19:49:20.839 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - Initializing MemoryStore...
+2026-11-03T19:49:20.843 DEBUG org.eclipse.rdf4j.sail.memory.MemoryStore [main] - MemoryStore initialized

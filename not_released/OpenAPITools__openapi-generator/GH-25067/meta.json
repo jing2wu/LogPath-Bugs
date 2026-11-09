@@ -1,0 +1,38 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-25067",
+ "summary": "[BUG][Python] Header parameter with content: application/json is not JSON serialized",
+ "fix_commit": "a5e4173d6caa3c24affa52dd71135e96a0bb049e",
+ "buggy_version": "a5e4173d6c with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java reverted to a5e4173d6c^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "PythonClientCodegenTest#testJsonContentHeaderUsesJsonSerialization"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1023",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:621",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:622",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:623",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:624",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:625",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:626"
+ ],
+ "covering_pairs": 9,
+ "shortest_covering_pair": 73,
+ "pairs_exported": 88,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "PythonClientCodegenTest#testJsonContentHeaderUsesJsonSerialization": {
+   "threads": 3,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

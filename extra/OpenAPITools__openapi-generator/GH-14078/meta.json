@@ -1,0 +1,82 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-14078",
+ "summary": "[BUG][Python] additionalProperties sometimes breaks",
+ "fix_commit": "3eb90a69e637bd7bf00bcc76aec72716f5ea2b54",
+ "buggy_version": "3eb90a69e6 with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java reverted to 3eb90a69e6^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "DefaultCodegenTest#testAdditionalPropertiesAnyType",
+  "DefaultCodegenTest#testAdditionalPropertiesPresentInModelProperties",
+  "DefaultCodegenTest#testAdditionalPropertiesPresentInModels",
+  "DefaultCodegenTest#testAdditionalPropertiesPresentInParameters",
+  "DefaultCodegenTest#testAdditionalPropertiesPresentInResponses"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3036",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3042",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3046",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3856",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3857",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3858",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3859",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3860",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3861",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:3862",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:7358",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1066",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1070",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1071",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1072",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1073",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1074",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1075",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1076",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1077",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:1513",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:2275",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/PythonClientCodegen.java:241"
+ ],
+ "covering_pairs": 37,
+ "shortest_covering_pair": 33,
+ "pairs_exported": 164,
+ "covering_pairs_printed": 37,
+ "shortest_covering_pair_printed": 33,
+ "stable": true,
+ "runs": {
+  "DefaultCodegenTest#testAdditionalPropertiesAnyType": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "DefaultCodegenTest#testAdditionalPropertiesPresentInModelProperties": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "DefaultCodegenTest#testAdditionalPropertiesPresentInModels": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "DefaultCodegenTest#testAdditionalPropertiesPresentInParameters": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "DefaultCodegenTest#testAdditionalPropertiesPresentInResponses": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

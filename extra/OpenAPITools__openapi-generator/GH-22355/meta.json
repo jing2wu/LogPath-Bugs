@@ -1,0 +1,41 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-22355",
+ "summary": "[BUG] [SWIFT] Array items cannot be nullable",
+ "fix_commit": "cd242fd161b9e13cd0c3f99f5ab606b4ae88dcc2",
+ "buggy_version": "cd242fd161 with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/Swift5ClientCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/Swift6ClientCodegen.java reverted to cd242fd161^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "Swift5ClientCodegenTest#nullableArrayItemsTest",
+  "Swift6ClientCodegenTest#testNullableArrayItems"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/Swift5ClientCodegen.java:772",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/Swift6ClientCodegen.java:818",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/Swift6ClientCodegen.java:828"
+ ],
+ "covering_pairs": 60,
+ "shortest_covering_pair": 305,
+ "pairs_exported": 79,
+ "covering_pairs_printed": 60,
+ "shortest_covering_pair_printed": 305,
+ "stable": true,
+ "runs": {
+  "Swift5ClientCodegenTest#nullableArrayItemsTest": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "Swift6ClientCodegenTest#testNullableArrayItems": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,28 @@
+2026-11-03T20:06:40.406 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - Initializing NativeStore...
+2026-11-03T20:06:40.502 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - Data dir is /tmp/junit9009858073287118950
+2026-11-03T20:06:41.042 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - Data store upgraded to version devel
+2026-11-03T20:06:41.297 DEBUG org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - No indexes specified, using default indexes: spoc,posc
+2026-11-03T20:06:41.302 TRACE org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - Initializing index 'spoc'...
+2026-11-03T20:06:41.491 TRACE org.eclipse.rdf4j.sail.nativerdf.TripleStore [main] - Initializing index 'posc'...
+2026-11-03T20:06:41.626 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - context index has not been created yet: context index file /tmp/junit9009858073287118950/contexts.dat does not exist
+2026-11-03T20:06:41.627 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - initializing context cache
+2026-11-03T20:06:41.726 DEBUG org.eclipse.rdf4j.sail.nativerdf.ContextStore [main] - context index construction complete
+2026-11-03T20:06:41.808 DEBUG org.eclipse.rdf4j.sail.nativerdf.NativeStore [main] - NativeStore initialized
+2026-11-03T20:06:42.648 DEBUG org.eclipse.rdf4j.rio.RDFParserRegistry [main] - Registered service class org.eclipse.rdf4j.rio.trig.TriGParserFactory
+2026-11-03T20:06:42.657 DEBUG org.eclipse.rdf4j.rio.RDFParserRegistry [main] - Registered service class org.eclipse.rdf4j.rio.trigstar.TriGStarParserFactory
+2026-11-03T20:06:42.663 DEBUG org.eclipse.rdf4j.rio.RDFParserRegistry [main] - Registered service class org.eclipse.rdf4j.rio.ntriples.NTriplesParserFactory
+2026-11-03T20:06:42.673 DEBUG org.eclipse.rdf4j.rio.RDFParserRegistry [main] - Registered service class org.eclipse.rdf4j.rio.turtle.TurtleParserFactory
+2026-11-03T20:06:42.675 DEBUG org.eclipse.rdf4j.rio.RDFParserRegistry [main] - Registered service class org.eclipse.rdf4j.rio.turtlestar.TurtleStarParserFactory
+2026-11-03T20:06:42.686 DEBUG org.eclipse.rdf4j.rio.RDFParserRegistry [main] - Registered service class org.eclipse.rdf4j.rio.binary.BinaryRDFParserFactory
+2026-11-03T20:06:42.699 DEBUG org.eclipse.rdf4j.rio.RDFParserRegistry [main] - Registered service class org.eclipse.rdf4j.rio.nquads.NQuadsParserFactory
+2026-11-03T20:06:42.918 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.XMLSchemaDatatypeHandler
+2026-11-03T20:06:42.931 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.RDFDatatypeHandler
+2026-11-03T20:06:42.934 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.DBPediaDatatypeHandler
+2026-11-03T20:06:42.944 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.VirtuosoGeometryDatatypeHandler
+2026-11-03T20:06:42.950 DEBUG org.eclipse.rdf4j.rio.DatatypeHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.datatypes.GeoSPARQLDatatypeHandler
+2026-11-03T20:06:42.969 DEBUG org.eclipse.rdf4j.rio.LanguageHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.languages.RFC3066LanguageHandler
+2026-11-03T20:06:42.973 DEBUG org.eclipse.rdf4j.rio.LanguageHandlerRegistry [main] - Registered service class org.eclipse.rdf4j.rio.languages.BCP47LanguageHandler
+2026-11-03T20:06:44.163 ERROR org.eclipse.rdf4j.sail.nativerdf.NativeSailStore [main] - Encountered an unexpected problem while trying to add a statement
+java.lang.IllegalArgumentException: value parameter should be a URI, BNode or Literal
+2026-11-03T20:06:44.329 ERROR org.eclipse.rdf4j.sail.nativerdf.NativeSailStore [main] - Encountered an unexpected problem while trying to add a statement
+java.lang.IllegalArgumentException: value parameter should be a URI, BNode or Literal

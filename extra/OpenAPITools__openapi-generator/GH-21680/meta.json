@@ -1,0 +1,36 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-21680",
+ "summary": "[BUG][TYPESCRIPT-FETCH] Bug generating Typescript when array has both \"items\" and \"properties\" attributes",
+ "fix_commit": "351b601368f741b518d25735a00de67000722c73",
+ "buggy_version": "351b601368 with modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java reverted to 351b601368^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "OpenAPINormalizerTest#testOpenAPINormalizerOtherThanObjectWithProperties"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/InlineModelResolver.java:359",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1963",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:1965",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:208",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/OpenAPINormalizer.java:705"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 677,
+ "pairs_exported": 3,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 677,
+ "stable": true,
+ "runs": {
+  "OpenAPINormalizerTest#testOpenAPINormalizerOtherThanObjectWithProperties": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

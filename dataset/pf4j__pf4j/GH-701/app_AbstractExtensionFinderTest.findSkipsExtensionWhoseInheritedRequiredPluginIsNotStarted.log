@@ -1,0 +1,10 @@
+1496 [main] DEBUG org.pf4j.AbstractExtensionFinder - Enable check for extension dependencies via ASM.
+1502 [main] DEBUG org.pf4j.AbstractExtensionFinder - Finding extensions of extension point 'test.Greeting'
+1502 [main] DEBUG org.pf4j.AbstractExtensionFinder - Finding extensions of extension point 'test.Greeting' for plugin 'plugin3'
+1503 [main] TRACE org.pf4j.AbstractExtensionFinder - Checking extensions from plugin 'plugin3'
+1504 [main] TRACE org.pf4j.AbstractExtensionFinder - Load annotation for 'test.FooGreetingChild' using asm
+1529 [main] DEBUG org.pf4j.AbstractExtensionFinder - Loading class 'test.FooGreetingChild' using class loader 'org.pf4j.AbstractExtensionFinderTest$ExtensionClassLoader@b16e202'
+1533 [main] DEBUG org.pf4j.AbstractExtensionFinder - Checking extension type 'test.FooGreetingChild'
+1545 [main] DEBUG org.pf4j.AbstractExtensionFinder - Added extension 'test.FooGreetingChild' with ordinal 0
+1545 [main] DEBUG org.pf4j.AbstractExtensionFinder - Found 1 extensions for extension point 'test.Greeting'
+1545 [main] DEBUG org.pf4j.AbstractExtensionFinder - Found 1 extensions for extension point 'test.Greeting'

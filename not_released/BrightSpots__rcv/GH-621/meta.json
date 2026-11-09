@@ -1,0 +1,44 @@
+{
+ "project": "BrightSpots__rcv",
+ "issue": "GH-621",
+ "summary": "NPE when tabulating by precinct",
+ "fix_commit": "a8308e8614c332815b83ae45422b16c39e6649cd",
+ "buggy_version": "a8308e8614 with src/main/java/network/brightspots/rcv/ResultsWriter.java, src/main/java/network/brightspots/rcv/Tabulator.java reverted to a8308e8614^",
+ "jdk": "17",
+ "module": "",
+ "tests": [
+  "TabulatorTests#tabulateByPrecinctWithoutPrecincts"
+ ],
+ "faulty_lines": [
+  "src/main/java/network/brightspots/rcv/ResultsWriter.java:277",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:81",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:844",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:854",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:855",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:856",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:857",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:858",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:859",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:860",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:882",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:93",
+  "src/main/java/network/brightspots/rcv/Tabulator.java:94"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 67,
+ "pairs_exported": 17,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "TabulatorTests#tabulateByPrecinctWithoutPrecincts": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

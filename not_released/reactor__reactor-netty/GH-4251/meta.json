@@ -1,0 +1,32 @@
+{
+ "project": "reactor__reactor-netty",
+ "issue": "GH-4251",
+ "summary": "HttpClient with H2+ HTTP/1.1 fallback sometimes throws IOExceptionfrom SimpleDequePoolwhen server only supports HTTP/1.1",
+ "fix_commit": "63fe670db7c0284a91d5cf3bc2f4a04f8bcf4812",
+ "buggy_version": "63fe670db7 with reactor-netty-http/src/main/java/reactor/netty/http/client/Http2ConnectionProvider.java reverted to 63fe670db7^",
+ "jdk": "17",
+ "module": "reactor-netty-http",
+ "tests": [
+  "Http11EvictionPredicateLivenessTest#deadIdleHttp11ConnectionIsEvictedOnAcquire"
+ ],
+ "faulty_lines": [
+  "reactor-netty-http/src/main/java/reactor/netty/http/client/Http2ConnectionProvider.java:694"
+ ],
+ "covering_pairs": 3,
+ "shortest_covering_pair": 222,
+ "pairs_exported": 80,
+ "covering_pairs_printed": 3,
+ "shortest_covering_pair_printed": 222,
+ "stable": false,
+ "runs": {
+  "Http11EvictionPredicateLivenessTest#deadIdleHttp11ConnectionIsEvictedOnAcquire": {
+   "threads": 19,
+   "log_threads": 11,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "several threads (approximate)"
+}

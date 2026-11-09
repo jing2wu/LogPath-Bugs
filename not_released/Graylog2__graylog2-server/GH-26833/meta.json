@@ -1,0 +1,47 @@
+{
+ "project": "Graylog2__graylog2-server",
+ "issue": "GH-26833",
+ "summary": "CEF: empty value in numerically-typed field logs a stack trace per message",
+ "fix_commit": "199fefc3ff18dd80d8e3fa211ee5752d7c930685",
+ "buggy_version": "199fefc3ff with graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java, graylog2-server/src/main/java/org/graylog/plugins/cef/parser/MappedMessage.java reverted to 199fefc3ff^",
+ "jdk": "21",
+ "module": "graylog2-server",
+ "tests": [
+  "MappedMessageTest#emptyValueIsSkippedForEveryNumericType"
+ ],
+ "faulty_lines": [
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:231",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:232",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:235",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:236",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:239",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:240",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:243",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:244",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:247",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:248",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/CEFMapping.java:312",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/MappedMessage.java:49",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/MappedMessage.java:50",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/MappedMessage.java:52",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/MappedMessage.java:54",
+  "graylog2-server/src/main/java/org/graylog/plugins/cef/parser/MappedMessage.java:57"
+ ],
+ "covering_pairs": 4,
+ "shortest_covering_pair": 15,
+ "pairs_exported": 4,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "MappedMessageTest#emptyValueIsSkippedForEveryNumericType": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-18959",
+ "summary": "[BUG][JAVA][Spring] Pattern message not working in path param, query param and  header param",
+ "fix_commit": "5532203f9f421582ee219fcf187ff451948ad3b2",
+ "buggy_version": "5532203f9f with modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java, modules/openapi-generator/src/main/java/org/openapitools/codegen/VendorExtension.java reverted to 5532203f9f^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "SpringCodegenTest#testXPatternMessage_issue18959"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/DefaultCodegen.java:5123",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/VendorExtension.java:24"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 785,
+ "pairs_exported": 60,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 785,
+ "stable": true,
+ "runs": {
+  "SpringCodegenTest#testXPatternMessage_issue18959": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

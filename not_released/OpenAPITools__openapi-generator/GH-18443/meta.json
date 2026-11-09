@@ -1,0 +1,46 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-18443",
+ "summary": "[BUG] [ExampleGenerator] Generated examples from nested composed schema types are missing (allOf of allOf)",
+ "fix_commit": "e36172090e4ed7c0658ec181a8217f392068c909",
+ "buggy_version": "e36172090e with modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java reverted to e36172090e^",
+ "jdk": "17",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "ExampleGeneratorTest#generateFromResponseSchemaWithAllOfChildComposedModel"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:367",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:368",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:369",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:370",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:371",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:372",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:373",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:374",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:375",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:376",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:377",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:390",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:391",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:402",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/examples/ExampleGenerator.java:403"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 28,
+ "pairs_exported": 8,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": true,
+ "runs": {
+  "ExampleGeneratorTest#generateFromResponseSchemaWithAllOfChildComposedModel": {
+   "threads": 4,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

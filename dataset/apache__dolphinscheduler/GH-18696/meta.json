@@ -1,0 +1,39 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-18696",
+ "summary": "[Bug][HTTP] Query parameters are not sent with DELETE requests",
+ "fix_commit": "c366e26217d589378eaa98b64f9b29808927a662",
+ "buggy_version": "c366e26217 with dolphinscheduler-common/src/main/java/org/apache/dolphinscheduler/common/utils/OkHttpUtils.java, dolphinscheduler-task-plugin/dolphinscheduler-task-http/src/main/java/org/apache/dolphinscheduler/plugin/task/http/HttpTask.java reverted to c366e26217^",
+ "jdk": "17",
+ "module": "dolphinscheduler-task-plugin/dolphinscheduler-task-http",
+ "tests": [
+  "HttpTaskTest#testDeleteRequestSendsHttpParameterParamsAsQuery"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-common/src/main/java/org/apache/dolphinscheduler/common/utils/OkHttpUtils.java:250",
+  "dolphinscheduler-common/src/main/java/org/apache/dolphinscheduler/common/utils/OkHttpUtils.java:251",
+  "dolphinscheduler-common/src/main/java/org/apache/dolphinscheduler/common/utils/OkHttpUtils.java:254",
+  "dolphinscheduler-common/src/main/java/org/apache/dolphinscheduler/common/utils/OkHttpUtils.java:271",
+  "dolphinscheduler-common/src/main/java/org/apache/dolphinscheduler/common/utils/OkHttpUtils.java:272",
+  "dolphinscheduler-common/src/main/java/org/apache/dolphinscheduler/common/utils/OkHttpUtils.java:273",
+  "dolphinscheduler-task-plugin/dolphinscheduler-task-http/src/main/java/org/apache/dolphinscheduler/plugin/task/http/HttpTask.java:197",
+  "dolphinscheduler-task-plugin/dolphinscheduler-task-http/src/main/java/org/apache/dolphinscheduler/plugin/task/http/HttpTask.java:199"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 105,
+ "pairs_exported": 2,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 105,
+ "stable": true,
+ "runs": {
+  "HttpTaskTest#testDeleteRequestSendsHttpParameterParamsAsQuery": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

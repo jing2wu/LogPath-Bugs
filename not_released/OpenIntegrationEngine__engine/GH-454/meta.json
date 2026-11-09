@@ -1,0 +1,38 @@
+{
+ "project": "OpenIntegrationEngine__engine",
+ "issue": "GH-454",
+ "summary": "[BUG] Oracle MirthDB does not seem to store transformed or encoded content",
+ "fix_commit": "864ede756b0d99f061f8778ba209adf3f2600066",
+ "buggy_version": "864ede756b with donkey/src/main/java/com/mirth/connect/donkey/server/data/jdbc/JdbcDao.java reverted to 864ede756b^",
+ "jdk": "17",
+ "module": "donkey",
+ "tests": [
+  "OracleJdbcDaoTest#testBatchInsertMessageContentKeepsStatementOpenUntilExecuted"
+ ],
+ "faulty_lines": [
+  "donkey/src/main/java/com/mirth/connect/donkey/server/data/jdbc/JdbcDao.java:240",
+  "donkey/src/main/java/com/mirth/connect/donkey/server/data/jdbc/JdbcDao.java:241",
+  "donkey/src/main/java/com/mirth/connect/donkey/server/data/jdbc/JdbcDao.java:242",
+  "donkey/src/main/java/com/mirth/connect/donkey/server/data/jdbc/JdbcDao.java:243",
+  "donkey/src/main/java/com/mirth/connect/donkey/server/data/jdbc/JdbcDao.java:261",
+  "donkey/src/main/java/com/mirth/connect/donkey/server/data/jdbc/JdbcDao.java:264",
+  "donkey/src/main/java/com/mirth/connect/donkey/server/data/jdbc/JdbcDao.java:265"
+ ],
+ "covering_pairs": 2,
+ "shortest_covering_pair": 25,
+ "pairs_exported": 3,
+ "covering_pairs_printed": 2,
+ "shortest_covering_pair_printed": 25,
+ "stable": false,
+ "runs": {
+  "OracleJdbcDaoTest#testBatchInsertMessageContentKeepsStatementOpenUntilExecuted": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

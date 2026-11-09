@@ -1,0 +1,21 @@
+2026-11-05T11:07:32.763 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:07:33.146 INFO org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider [main] - generateKeyPair(EC) generating host key=nistp256
+2026-11-05T11:07:33.349 INFO org.apache.sshd.common.io.DefaultIoServiceFactoryFactory [main] - Using Nio2ServiceFactoryFactory
+2026-11-05T11:07:33.379 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=41811
+2026-11-05T11:07:33.718 WARN com.jcraft.jsch.JSch [main] - Permanently added '127.0.0.1' (ECDSA) to the list of known hosts.
+2026-11-05T11:07:33.765 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[13004dd8](port=0)-nio2-thread-3] - Session sshd@/127.0.0.1:33160 authenticated
+2026-11-05T11:07:33.843 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[52ba21e4]-nio2-thread-4] - Server at /127.0.0.1:41811 presented unverified EC key: SHA256:WkMog4r0gx0PI8Rlv1UvlBVlZT+9u7vN/IdstNcmxCw
+2026-11-05T11:07:33.988 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[13004dd8](port=0)-nio2-thread-8] - Session testZeroRead@/127.0.0.1:33162 authenticated
+2026-11-05T11:07:34.556 WARN org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[13004dd8](port=0)-nio2-thread-5] - exceptionCaught(ServerSessionImpl[testZeroRead@/127.0.0.1:33162])[state=Opened] IOException: Broken pipe
+2026-11-05T11:07:34.570 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:07:34.575 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=37253
+2026-11-05T11:07:34.618 WARN com.jcraft.jsch.JSch [main] - Permanently added '127.0.0.1' (ECDSA) to the list of known hosts.
+2026-11-05T11:07:34.626 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[71662b15](port=0)-nio2-thread-3] - Session sshd@/127.0.0.1:51948 authenticated
+2026-11-05T11:07:34.663 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[53425450]-nio2-thread-4] - Server at /127.0.0.1:37253 presented unverified EC key: SHA256:WkMog4r0gx0PI8Rlv1UvlBVlZT+9u7vN/IdstNcmxCw
+2026-11-05T11:07:34.766 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[71662b15](port=0)-nio2-thread-9] - Session testZeroRead@/127.0.0.1:51962 authenticated
+2026-11-05T11:07:35.043 INFO ROOT [main] - Using ch.qos.logback.classic.Logger logger(s) at level=INFO
+2026-11-05T11:07:35.045 INFO org.apache.sshd.server.SshServer [main] - start() listen on auto-allocated port=45373
+2026-11-05T11:07:35.086 WARN com.jcraft.jsch.JSch [main] - Permanently added '127.0.0.1' (ECDSA) to the list of known hosts.
+2026-11-05T11:07:35.092 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[142f0ac1](port=0)-nio2-thread-4] - Session sshd@/127.0.0.1:34562 authenticated
+2026-11-05T11:07:35.160 WARN org.apache.sshd.client.keyverifier.AcceptAllServerKeyVerifier [sshd-SshClient[745e1fb7]-nio2-thread-4] - Server at /127.0.0.1:45373 presented unverified EC key: SHA256:WkMog4r0gx0PI8Rlv1UvlBVlZT+9u7vN/IdstNcmxCw
+2026-11-05T11:07:35.219 INFO org.apache.sshd.server.session.ServerSessionImpl [sshd-SshServer[142f0ac1](port=0)-nio2-thread-11] - Session testZeroRead@/127.0.0.1:34574 authenticated

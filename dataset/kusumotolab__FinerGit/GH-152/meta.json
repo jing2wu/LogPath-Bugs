@@ -1,0 +1,34 @@
+{
+ "project": "kusumotolab__FinerGit",
+ "issue": "GH-152",
+ "summary": "PatternInstanceofExpression is not handled: \"instanceof\" keyword is dropped and an ERROR is logged",
+ "fix_commit": "d55a3d53558dfee5a43b7c97f4911f514c47b8a9",
+ "buggy_version": "d55a3d5355 with src/main/java/finergit/ast/JavaFileVisitor.java reverted to d55a3d5355^",
+ "jdk": "25",
+ "module": "",
+ "tests": [
+  "JavaFileVisitorTest#testPatternInstanceof"
+ ],
+ "faulty_lines": [
+  "src/main/java/finergit/ast/JavaFileVisitor.java:1766",
+  "src/main/java/finergit/ast/JavaFileVisitor.java:1767",
+  "src/main/java/finergit/ast/JavaFileVisitor.java:1768"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 126,
+ "pairs_exported": 1,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 126,
+ "stable": true,
+ "runs": {
+  "JavaFileVisitorTest#testPatternInstanceof": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": null
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

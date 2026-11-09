@@ -1,0 +1,55 @@
+{
+ "project": "intersoftdatalabs-in__percussioncms",
+ "issue": "GH-4604",
+ "summary": "issue 4532 slice 8: EditorHost restore prior revision",
+ "fix_commit": "19bb3c76bdc7eeb6cd07313ac9fb03a8864b4346",
+ "buggy_version": "19bb3c76bd with projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java reverted to 19bb3c76bd^",
+ "jdk": "21",
+ "module": "projects/sitemanage",
+ "tests": [
+  "PSItemServiceRestoreRevisionTest#blankIdIsForbidden",
+  "PSItemServiceRestoreRevisionTest#missingComponentSummaryMapsToNotFound",
+  "PSItemServiceRestoreRevisionTest#noAssignmentMapsToForbidden",
+  "PSItemServiceRestoreRevisionTest#readerAssignmentMapsToForbidden"
+ ],
+ "faulty_lines": [
+  "projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java:748",
+  "projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java:749",
+  "projects/sitemanage/src/main/java/com/percussion/itemmanagement/service/impl/PSItemService.java:750"
+ ],
+ "covering_pairs": 0,
+ "shortest_covering_pair": null,
+ "pairs_exported": 15,
+ "covering_pairs_printed": 0,
+ "shortest_covering_pair_printed": null,
+ "stable": false,
+ "runs": {
+  "PSItemServiceRestoreRevisionTest#blankIdIsForbidden": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "PSItemServiceRestoreRevisionTest#missingComponentSummaryMapsToNotFound": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "PSItemServiceRestoreRevisionTest#noAssignmentMapsToForbidden": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  },
+  "PSItemServiceRestoreRevisionTest#readerAssignmentMapsToForbidden": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

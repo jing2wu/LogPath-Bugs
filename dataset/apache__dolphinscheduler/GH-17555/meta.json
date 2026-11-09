@@ -1,0 +1,43 @@
+{
+ "project": "apache__dolphinscheduler",
+ "issue": "GH-17555",
+ "summary": "[Bug] [Master] TaskDispatchableEvent might block when the queue exist hight priority delay event",
+ "fix_commit": "2cdf39fc099d9f25c1c2a7b696738ff0f4348a10",
+ "buggy_version": "2cdf39fc09 with dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/WorkerGroupDispatcher.java, dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java reverted to 2cdf39fc09^",
+ "jdk": "17",
+ "module": "dolphinscheduler-master",
+ "tests": [
+  "WorkerGroupDispatcherCoordinatorTest#addTaskToWorkerGroup_NewWorkerGroup_ShouldAddTask"
+ ],
+ "faulty_lines": [
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/WorkerGroupDispatcher.java:118",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:33",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:34",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:35",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:36",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:48",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:49",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:50",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:51",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:52",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:53",
+  "dolphinscheduler-master/src/main/java/org/apache/dolphinscheduler/server/master/engine/task/dispatcher/event/TaskDispatchableEvent.java:55"
+ ],
+ "covering_pairs": 1,
+ "shortest_covering_pair": 21,
+ "pairs_exported": 3,
+ "covering_pairs_printed": 1,
+ "shortest_covering_pair_printed": 21,
+ "stable": true,
+ "runs": {
+  "WorkerGroupDispatcherCoordinatorTest#addTaskToWorkerGroup_NewWorkerGroup_ShouldAddTask": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

@@ -1,0 +1,4 @@
+2026-11-05T11:35:03.774 DEBUG com.mirth.connect.donkey.server.data.jdbc.OracleJdbcDao [Test worker] - Opened connection
+2026-11-05T11:35:04.012 DEBUG com.mirth.connect.donkey.server.data.jdbc.OracleJdbcDao [Test worker] - abc/1/0: batch inserting message content (Processed Raw)
+2026-11-05T11:35:04.016 DEBUG com.mirth.connect.donkey.server.data.jdbc.OracleJdbcDao [Test worker] - abc/1/0: batch inserting message content (Transformed)
+2026-11-05T11:35:04.018 DEBUG com.mirth.connect.donkey.server.data.jdbc.OracleJdbcDao [Test worker] - abc/1/0: batch inserting message content (Encoded)

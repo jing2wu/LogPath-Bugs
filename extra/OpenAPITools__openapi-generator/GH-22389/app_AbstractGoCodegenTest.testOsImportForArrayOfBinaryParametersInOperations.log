@@ -1,0 +1,1067 @@
+2026-11-03T21:20:07.041 DEBUG com.tngtech.archunit.ArchConfiguration [main] - No configuration found in classpath at archunit.properties => Using default configuration
+2026-11-03T21:20:07.384 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.mockAbstractCodegen()[pri:0, instance:null] -1638615491
+2026-11-03T21:20:07.384 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:07.390 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:07.390 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:07.390 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:07.400 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.getTypeDeclarationTest()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@5e2a3040] 1433042188
+2026-11-03T21:20:07.400 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testInitialConfigValues()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@5e2a3040] -944034014
+2026-11-03T21:20:07.402 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testOsImportForArrayOfBinaryParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@5e2a3040] 1231454954
+2026-11-03T21:20:07.402 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testAdditionalPropertiesPutForConfigValues()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@5e2a3040] -490302914
+2026-11-03T21:20:07.404 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testSettersForConfigValues()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@5e2a3040] 1659180639
+2026-11-03T21:20:07.404 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testTimeImportForArrayOfDateTimeParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@5e2a3040] 2074302905
+2026-11-03T21:20:07.404 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:07.412 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:07.412 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:07.412 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:07.732 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.mockAbstractCodegen()[pri:0, instance:null] -1638615491
+2026-11-03T21:20:07.732 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:07.732 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:07.732 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:07.732 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:07.739 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.getTypeDeclarationTest()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@18d910b3] 270097791
+2026-11-03T21:20:07.742 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testInitialConfigValues()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@18d910b3] -2106978411
+2026-11-03T21:20:07.743 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testOsImportForArrayOfBinaryParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@18d910b3] 68510557
+2026-11-03T21:20:07.749 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testAdditionalPropertiesPutForConfigValues()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@18d910b3] -1653247311
+2026-11-03T21:20:07.749 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testSettersForConfigValues()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@18d910b3] 496236242
+2026-11-03T21:20:07.749 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testTimeImportForArrayOfDateTimeParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@18d910b3] 911358508
+2026-11-03T21:20:07.749 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:07.755 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:07.756 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:07.756 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:08.591 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.mockAbstractCodegen()[pri:0, instance:null] -1638615491
+2026-11-03T21:20:08.598 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:08.599 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:08.599 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:08.599 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:08.610 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testOsImportForArrayOfBinaryParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@4ed5a1b0] 974255194
+2026-11-03T21:20:08.611 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:08.612 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:08.612 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:08.612 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:14.964 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: null
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class ObjectSchema {
+                    class Schema {
+                        type: object
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: {files=class ArraySchema {
+                            class Schema {
+                                type: array
+                                format: null
+                                $ref: null
+                                description: null
+                                title: null
+                                multipleOf: null
+                                maximum: null
+                                exclusiveMaximum: null
+                                minimum: null
+                                exclusiveMinimum: null
+                                maxLength: null
+                                minLength: null
+                                pattern: null
+                                maxItems: null
+                                minItems: null
+                                uniqueItems: null
+                                maxProperties: null
+                                minProperties: null
+                                required: null
+                                not: null
+                                properties: null
+                                additionalProperties: null
+                                nullable: null
+                                readOnly: null
+                                writeOnly: null
+                                example: null
+                                externalDocs: null
+                                deprecated: null
+                                discriminator: null
+                                xml: null
+                            }
+                        }}
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: null
+    }
+    responses: null
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:20:15.096 WARN org.openapitools.codegen.DefaultCodegen [main] - Empty operationId found for path: post /upload. Renamed to auto-generated operationId: uploadPost
+2026-11-03T21:20:15.225 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class ObjectSchema {
+                class Schema {
+                    type: object
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: {files=class ArraySchema {
+                        class Schema {
+                            type: array
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }}
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: null
+}
+2026-11-03T21:20:15.242 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty files: class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:15.247 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for files: class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:15.612 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Files: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:15.635 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:20:15.644 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='array', baseName='files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='[]*os.File', datatypeWithEnum='[]*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.files;', baseType='array', containerType='array', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "items" : {
+    "type" : "string",
+    "format" : "binary"
+  },
+  "type" : "array"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=true, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=true, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:20:15.656 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for inner: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:15.693 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='inner', complexType='*os.File', getter='getInner', setter='setInner', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='inner', nameInPascalCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:20:15.775 WARN org.openapitools.codegen.DefaultCodegen [main] - Could not compute datatypeWithEnum from *os.File, null
+2026-11-03T21:20:16.026 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.mockAbstractCodegen()[pri:0, instance:null] -1638615491
+2026-11-03T21:20:16.027 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:16.027 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:16.027 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:16.027 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:16.047 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testOsImportForArrayOfBinaryParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@509bf2d5] 1004029311
+2026-11-03T21:20:16.047 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:16.047 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:16.048 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:16.048 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:16.094 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.mockAbstractCodegen()[pri:0, instance:null] -1638615491
+2026-11-03T21:20:16.094 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:16.094 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:16.094 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:16.094 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:16.106 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testOsImportForArrayOfBinaryParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@23ba2c1e] 251035336
+2026-11-03T21:20:16.107 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:16.107 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:16.107 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:16.107 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:16.130 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: null
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class ObjectSchema {
+                    class Schema {
+                        type: object
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: {files=class ArraySchema {
+                            class Schema {
+                                type: array
+                                format: null
+                                $ref: null
+                                description: null
+                                title: null
+                                multipleOf: null
+                                maximum: null
+                                exclusiveMaximum: null
+                                minimum: null
+                                exclusiveMinimum: null
+                                maxLength: null
+                                minLength: null
+                                pattern: null
+                                maxItems: null
+                                minItems: null
+                                uniqueItems: null
+                                maxProperties: null
+                                minProperties: null
+                                required: null
+                                not: null
+                                properties: null
+                                additionalProperties: null
+                                nullable: null
+                                readOnly: null
+                                writeOnly: null
+                                example: null
+                                externalDocs: null
+                                deprecated: null
+                                discriminator: null
+                                xml: null
+                            }
+                        }}
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: null
+    }
+    responses: null
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:20:16.138 WARN org.openapitools.codegen.DefaultCodegen [main] - Empty operationId found for path: post /upload. Renamed to auto-generated operationId: uploadPost
+2026-11-03T21:20:16.139 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class ObjectSchema {
+                class Schema {
+                    type: object
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: {files=class ArraySchema {
+                        class Schema {
+                            type: array
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }}
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: null
+}
+2026-11-03T21:20:16.144 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty files: class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:16.144 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for files: class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:16.167 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Files: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:16.174 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:20:16.175 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='array', baseName='files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='[]*os.File', datatypeWithEnum='[]*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.files;', baseType='array', containerType='array', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "items" : {
+    "type" : "string",
+    "format" : "binary"
+  },
+  "type" : "array"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=true, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=true, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:20:16.180 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for inner: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:16.204 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='inner', complexType='*os.File', getter='getInner', setter='setInner', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='inner', nameInPascalCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:20:16.204 WARN org.openapitools.codegen.DefaultCodegen [main] - Could not compute datatypeWithEnum from *os.File, null
+2026-11-03T21:20:16.262 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.mockAbstractCodegen()[pri:0, instance:null] -1638615491
+2026-11-03T21:20:16.263 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:16.263 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:16.263 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:16.263 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:16.266 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testOsImportForArrayOfBinaryParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@6eacf3be] 1508460136
+2026-11-03T21:20:16.266 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:16.266 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:16.266 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:16.266 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:16.291 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.mockAbstractCodegen()[pri:0, instance:null] -1638615491
+2026-11-03T21:20:16.291 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:16.291 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:16.295 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:16.295 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:16.297 TRACE org.testng.internal.Graph [main] - [Graph] ADDING NODE AbstractGoCodegenTest.testOsImportForArrayOfBinaryParametersInOperations()[pri:0, instance:org.openapitools.codegen.go.AbstractGoCodegenTest@6fb514db] 1525770117
+2026-11-03T21:20:16.301 TRACE org.testng.internal.Graph [main] - [Graph] ================ SORTING
+2026-11-03T21:20:16.301 TRACE org.testng.internal.Graph [main] - [Graph] =============== DONE SORTING
+2026-11-03T21:20:16.301 TRACE org.testng.internal.Graph [main] - [Graph] ====== SORTED NODES
+2026-11-03T21:20:16.301 TRACE org.testng.internal.Graph [main] - [Graph] ====== END SORTED NODES
+2026-11-03T21:20:16.316 DEBUG org.openapitools.codegen.DefaultCodegen [main] - fromOperation => operation: class Operation {
+    tags: null
+    summary: null
+    description: null
+    externalDocs: null
+    operationId: null
+    parameters: null
+    requestBody: class RequestBody {
+        description: null
+        content: class Content {
+            {multipart/form-data=class MediaType {
+                schema: class ObjectSchema {
+                    class Schema {
+                        type: object
+                        format: null
+                        $ref: null
+                        description: null
+                        title: null
+                        multipleOf: null
+                        maximum: null
+                        exclusiveMaximum: null
+                        minimum: null
+                        exclusiveMinimum: null
+                        maxLength: null
+                        minLength: null
+                        pattern: null
+                        maxItems: null
+                        minItems: null
+                        uniqueItems: null
+                        maxProperties: null
+                        minProperties: null
+                        required: null
+                        not: null
+                        properties: {files=class ArraySchema {
+                            class Schema {
+                                type: array
+                                format: null
+                                $ref: null
+                                description: null
+                                title: null
+                                multipleOf: null
+                                maximum: null
+                                exclusiveMaximum: null
+                                minimum: null
+                                exclusiveMinimum: null
+                                maxLength: null
+                                minLength: null
+                                pattern: null
+                                maxItems: null
+                                minItems: null
+                                uniqueItems: null
+                                maxProperties: null
+                                minProperties: null
+                                required: null
+                                not: null
+                                properties: null
+                                additionalProperties: null
+                                nullable: null
+                                readOnly: null
+                                writeOnly: null
+                                example: null
+                                externalDocs: null
+                                deprecated: null
+                                discriminator: null
+                                xml: null
+                            }
+                        }}
+                        additionalProperties: null
+                        nullable: null
+                        readOnly: null
+                        writeOnly: null
+                        example: null
+                        externalDocs: null
+                        deprecated: null
+                        discriminator: null
+                        xml: null
+                    }
+                }
+                examples: null
+                example: null
+                encoding: null
+            }}
+        }
+        required: null
+    }
+    responses: null
+    callbacks: null
+    deprecated: null
+    security: null
+    servers: null
+}
+2026-11-03T21:20:16.322 WARN org.openapitools.codegen.DefaultCodegen [main] - Empty operationId found for path: post /upload. Renamed to auto-generated operationId: uploadPost
+2026-11-03T21:20:16.323 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromRequestBodyToFormParameters= class RequestBody {
+    description: null
+    content: class Content {
+        {multipart/form-data=class MediaType {
+            schema: class ObjectSchema {
+                class Schema {
+                    type: object
+                    format: null
+                    $ref: null
+                    description: null
+                    title: null
+                    multipleOf: null
+                    maximum: null
+                    exclusiveMaximum: null
+                    minimum: null
+                    exclusiveMinimum: null
+                    maxLength: null
+                    minLength: null
+                    pattern: null
+                    maxItems: null
+                    minItems: null
+                    uniqueItems: null
+                    maxProperties: null
+                    minProperties: null
+                    required: null
+                    not: null
+                    properties: {files=class ArraySchema {
+                        class Schema {
+                            type: array
+                            format: null
+                            $ref: null
+                            description: null
+                            title: null
+                            multipleOf: null
+                            maximum: null
+                            exclusiveMaximum: null
+                            minimum: null
+                            exclusiveMinimum: null
+                            maxLength: null
+                            minLength: null
+                            pattern: null
+                            maxItems: null
+                            minItems: null
+                            uniqueItems: null
+                            maxProperties: null
+                            minProperties: null
+                            required: null
+                            not: null
+                            properties: null
+                            additionalProperties: null
+                            nullable: null
+                            readOnly: null
+                            writeOnly: null
+                            example: null
+                            externalDocs: null
+                            deprecated: null
+                            discriminator: null
+                            xml: null
+                        }
+                    }}
+                    additionalProperties: null
+                    nullable: null
+                    readOnly: null
+                    writeOnly: null
+                    example: null
+                    externalDocs: null
+                    deprecated: null
+                    discriminator: null
+                    xml: null
+                }
+            }
+            examples: null
+            example: null
+            encoding: null
+        }}
+    }
+    required: null
+}
+2026-11-03T21:20:16.328 DEBUG org.openapitools.codegen.DefaultCodegen [main] - Debugging fromFormProperty files: class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:16.328 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for files: class ArraySchema {
+    class Schema {
+        type: array
+        format: null
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:16.339 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for Files: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:16.350 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:20:16.352 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='array', baseName='files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='[]*os.File', datatypeWithEnum='[]*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.files;', baseType='array', containerType='array', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "items" : {
+    "type" : "string",
+    "format" : "binary"
+  },
+  "type" : "array"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=true, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=false, isFile=false, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=true, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=CodegenProperty{openApiType='string', baseName='Files', complexType='*os.File', getter='getFiles', setter='setFiles', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Files', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.Files;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=false, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='files', nameInPascalCase='Files', nameInSnakeCase='FILES', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=null, dependentRequired=null, contains=null}
+2026-11-03T21:20:16.370 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging fromProperty for inner: class BinarySchema {
+    class Schema {
+        type: string
+        format: binary
+        $ref: null
+        description: null
+        title: null
+        multipleOf: null
+        maximum: null
+        exclusiveMaximum: null
+        minimum: null
+        exclusiveMinimum: null
+        maxLength: null
+        minLength: null
+        pattern: null
+        maxItems: null
+        minItems: null
+        uniqueItems: null
+        maxProperties: null
+        minProperties: null
+        required: null
+        not: null
+        properties: null
+        additionalProperties: null
+        nullable: null
+        readOnly: null
+        writeOnly: null
+        example: null
+        externalDocs: null
+        deprecated: null
+        discriminator: null
+        xml: null
+    }
+}
+2026-11-03T21:20:16.385 DEBUG org.openapitools.codegen.DefaultCodegen [main] - debugging from property return: CodegenProperty{openApiType='string', baseName='inner', complexType='*os.File', getter='getInner', setter='setInner', description='null', dataType='*os.File', datatypeWithEnum='*os.File', dataFormat='binary', name='Inner', min='null', max='null', defaultValue='null', defaultValueWithParam=' = data.inner;', baseType='*os.File', containerType='null', containerTypeMapped='null', title='null', unescapedDescription='null', maxLength=null, minLength=null, pattern='null', example='null', jsonSchema='{
+  "format" : "binary",
+  "type" : "string"
+}', minimum='null', maximum='null', exclusiveMinimum=false, exclusiveMaximum=false, required=false, deprecated=false, isPrimitiveType=false, isModel=false, isContainer=false, isString=false, isNumeric=false, isInteger=false, isShort=false, isLong=false, isUnboundedInteger=false, isNumber=false, isFloat=false, isDouble=false, isDecimal=false, isByteArray=false, isBinary=true, isFile=true, isBoolean=false, isDate=false, isDateTime=false, isUuid=false, isUri=false, isEmail=false, isPassword=false, isFreeFormObject=false, isArray=false, isMap=false, isOptional=false, isEnum=false, isInnerEnum=false, isEnumRef=false, isAnyType=false, isReadOnly=false, isWriteOnly=false, isNullable=false, isSelfReference=false, isCircularReference=false, isDiscriminator=false, isNew=false, isOverridden=null, _enum=null, allowableValues=null, items=null, additionalProperties=null, vars=[], requiredVars=[], mostInnerItems=null, vendorExtensions={}, hasValidation=false, isInherited=false, discriminatorValue='null', nameInCamelCase='inner', nameInPascalCase='Inner', nameInSnakeCase='INNER', enumName='null', maxItems=null, minItems=null, maxProperties=null, minProperties=null, uniqueItems=false, uniqueItemsBoolean=null, multipleOf=null, isXmlAttribute=false, xmlPrefix='null', xmlName='null', xmlNamespace='null', isXmlWrapped=false, isNull=false, isVoid=false, getAdditionalPropertiesIsAnyType=false, getHasVars=false, getHasRequired=false, getHasDiscriminatorWithNonEmptyMapping=false, composedSchemas=null, hasMultipleTypes=false, hasSanitizedName=true, requiredVarsMap=null, ref=null, schemaIsFromAdditionalProperties=false, isBooleanSchemaTrue=false, isBooleanSchemaFalse=false, format=binary, dependentRequired=null, contains=null}
+2026-11-03T21:20:16.385 WARN org.openapitools.codegen.DefaultCodegen [main] - Could not compute datatypeWithEnum from *os.File, null
+2026-11-03T21:20:16.419 FINE java.lang.Shutdown logRuntimeExit - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)

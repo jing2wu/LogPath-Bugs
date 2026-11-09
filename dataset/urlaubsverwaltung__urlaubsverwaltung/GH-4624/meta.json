@@ -1,0 +1,32 @@
+{
+ "project": "urlaubsverwaltung__urlaubsverwaltung",
+ "issue": "GH-4624",
+ "summary": "Verfall von Resturlaub pro Mitarbeitenden deaktivieren standardm\u00e4ig aktiviert",
+ "fix_commit": "a48b1f066bdc80461a04d450abd3b58dc6bbe68d",
+ "buggy_version": "a48b1f066b with src/main/java/org/synyx/urlaubsverwaltung/account/AccountInteractionServiceImpl.java reverted to a48b1f066b^",
+ "jdk": "21",
+ "module": "",
+ "tests": [
+  "AccountInteractionServiceImplTest#testDefaultAccountCreation"
+ ],
+ "faulty_lines": [
+  "src/main/java/org/synyx/urlaubsverwaltung/account/AccountInteractionServiceImpl.java:60"
+ ],
+ "covering_pairs": 23,
+ "shortest_covering_pair": 112,
+ "pairs_exported": 23,
+ "covering_pairs_printed": 23,
+ "shortest_covering_pair_printed": 112,
+ "stable": true,
+ "runs": {
+  "AccountInteractionServiceImplTest#testDefaultAccountCreation": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 24
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": true,
+ "alignment": "single thread"
+}

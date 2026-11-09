@@ -1,0 +1,33 @@
+{
+ "project": "OpenAPITools__openapi-generator",
+ "issue": "GH-23102",
+ "summary": "[BUG] [Python] OpenAPI code generator ignores pattern constraint on array items",
+ "fix_commit": "397645c2cf5065e566898650b899ffcef5d8fee6",
+ "buggy_version": "397645c2cf with modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java reverted to 397645c2cf^",
+ "jdk": "21",
+ "module": "modules/openapi-generator",
+ "tests": [
+  "PythonFastapiCodegenTest#testRegexPatternCheckedForArrayItems"
+ ],
+ "faulty_lines": [
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:1425",
+  "modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/AbstractPythonCodegen.java:1426"
+ ],
+ "covering_pairs": 6,
+ "shortest_covering_pair": 400,
+ "pairs_exported": 86,
+ "covering_pairs_printed": 6,
+ "shortest_covering_pair_printed": 400,
+ "stable": true,
+ "runs": {
+  "PythonFastapiCodegenTest#testRegexPatternCheckedForArrayItems": {
+   "threads": 2,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}

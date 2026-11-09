@@ -1,0 +1,47 @@
+{
+ "project": "citrusframework__citrus",
+ "issue": "GH-1094",
+ "summary": "ClasspathResourceResolver unable to resolve from nested jar",
+ "fix_commit": "902df4f0a3a68c09b7945bfb2c1a638d2923ede2",
+ "buggy_version": "902df4f0a3 with core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java reverted to 902df4f0a3^",
+ "jdk": "17",
+ "module": "core/citrus-api",
+ "tests": [
+  "ClassPathResourceResolverTest#loadFromFatJarSpringBoot"
+ ],
+ "faulty_lines": [
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:160",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:164",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:166",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:168",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:214",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:215",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:216",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:217",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:219",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:221",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:222",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:223",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:224",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:242",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:74",
+  "core/citrus-api/src/main/java/org/citrusframework/spi/ClasspathResourceResolver.java:75"
+ ],
+ "covering_pairs": 14,
+ "shortest_covering_pair": 23,
+ "pairs_exported": 16,
+ "covering_pairs_printed": 14,
+ "shortest_covering_pair_printed": 23,
+ "stable": true,
+ "runs": {
+  "ClassPathResourceResolverTest#loadFromFatJarSpringBoot": {
+   "threads": 1,
+   "log_threads": 1,
+   "status": "fail",
+   "tests_run": 1
+  }
+ },
+ "fixed_rerun": "pass",
+ "whole_class_run": false,
+ "alignment": "single thread"
+}
