@@ -1,4 +1,4 @@
-"""Export the usable bugs as an AgenTrace-style log-pair dataset.
+"""Export the usable bugs as a log-pair dataset.
 
 For every usable bug (one fix commit per issue: the one with the shortest covering pair), each fix
 test that produced a covering pair is re-run on the buggy version under SELogger with

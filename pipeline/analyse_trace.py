@@ -1,7 +1,7 @@
 """Summarise a SELogger omni trace (weave=EXEC+CALL+LINE) as log pairs.
 
 Only production classes count (classes not loaded from */test-classes/).  A log event is a CALL to
-a logging method (Log4j2 Logger, commons-logging Log, JUL Logger).  Following the AgenTrace setup,
+a logging method (Log4j2 Logger, commons-logging Log, JUL Logger).  Following prior work on log-based path reconstruction,
 two consecutive log events on the same thread form a pair; its ground-truth path is the ordered,
 duplicate-free list of (class, line) executed between them, both log lines included.
 
