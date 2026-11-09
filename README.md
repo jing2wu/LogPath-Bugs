@@ -134,6 +134,8 @@ Central. The logs and paths in the dataset do not.
 `funnel/manual_removed.csv` lists the 73 repositories removed by hand with their category.
 `funnel/runs.csv` lists every run with its outcome, and `funnel/bugs.csv` the 216 issues that reached the
 final checks.
+`funnel/benchmarks/` holds the logging measurements of the Defects4J and GitBug-Java projects (same
+measurement as the size and logging rules): 14 of 17 and 32 of 55 have no logging call in production code.
 
 The scripts are the ones used to build the dataset. They read paths from environment variables (`LRB_WORK`,
 `LRB_PIPELINE_OUT`, `LRB_SELOGGER_JAR`) and call the GitHub API through `gh`.
