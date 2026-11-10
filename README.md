@@ -83,8 +83,48 @@ A pair file holds every pair that covers the fault and, per test, up to 500 dist
 
 ## Running a bug again
 
-The dataset can be used without running anything. To rerun a bug you need the project's repository, the
-JDK named in `meta.json`, and Maven or Gradle. For pf4j #670 (Maven, JDK 17):
+The dataset can be used without running anything. There are two ways to rerun a bug.
+
+### From the runnable packages
+
+The packages are on Zenodo: https://doi.org/10.5281/zenodo.24100839 (17.9 GB in total). They do not need the
+original repositories or Maven Central.
+
+| File | Content |
+|---|---|
+| `<owner>__<repo>.zip` (57 files) | One folder per bug with the repository (buggy and fixed version), the dataset files, and `reproduce.sh`; the dependencies of the project's bugs in `m2/` or `gradle-home/`. |
+| `tools.zip` | The JDKs (8, 11, 17, 21, 25), Maven 3.9.6, and the patched SELogger, for Linux on x86-64. |
+| `run_all_docker.sh` | Runs the bugs of the downloaded projects in Docker and writes `results/summary.txt`. |
+
+On Linux x86-64, unzip `tools.zip` and a project next to each other and run a bug directly:
+
+```bash
+unzip -q tools.zip && unzip -q pf4j__pf4j.zip
+cd pf4j__pf4j/GH-670
+./reproduce.sh buggy     # the test fails; the log is in repo/pf4j/target/app.log
+./reproduce.sh fixed     # the test passes
+./reproduce.sh buggy --trace    # also records the executed lines into ./trace
+```
+
+On other systems, or to run everything, use Docker (on Apple silicon, turn on Rosetta in Docker Desktop):
+
+```bash
+./run_all_docker.sh                 # every project zip in the folder
+./run_all_docker.sh pf4j__pf4j      # only this project
+```
+
+We ran all 116 bugs from these packages in a container that had nothing else: each one fails on the buggy
+version and passes on the fixed one. 111 run without network access. Four contact an external service during
+the test (DependencyCheck #7976, plugin-modernizer-tool #572, hilla #1935, opensearch security #5832), and
+citrus #1676 starts a container; `run_all_docker.sh` turns the network on for these five. For citrus #1676 the
+container also needs the host's Docker socket (`-v /var/run/docker.sock:/var/run/docker.sock`); without it the
+test is skipped and the script reports `CHECK`. The three reactor-netty bugs were built against Reactor snapshots that are no longer
+published; their packages use the releases of those snapshots (`bundle.json` names them).
+
+### From the original repository
+
+You need the project's repository, the JDK named in `meta.json`, and Maven or Gradle. For pf4j #670 (Maven,
+JDK 17):
 
 ```bash
 git clone https://github.com/pf4j/pf4j && cd pf4j
@@ -113,8 +153,8 @@ python3 ../LogPath-Bugs/checker/trace_pairs.py ../trace . "$T" 47b006a0be \
 different logging configuration (Logback, Log4j 2, java.util.logging), a different module, or Gradle;
 `pipeline/pipeline.py` handles these cases (`run_tests`, `run_tests_gradle`, `inject_argline`).
 
-Rerunning depends on the repositories and their dependencies still being available on GitHub and Maven
-Central. The logs and paths in the dataset do not.
+This way depends on the repositories and their dependencies still being available on GitHub and Maven
+Central. The runnable packages do not.
 
 ## How the bugs were selected
 
