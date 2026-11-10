@@ -106,15 +106,16 @@ cd pf4j__pf4j/GH-670
 ./reproduce.sh buggy --trace    # also records the executed lines into ./trace
 ```
 
-On other systems, or to run everything, use Docker (on Apple silicon, turn on Rosetta in Docker Desktop):
+On other systems, or to run everything, use Docker (on Apple silicon, Docker Desktop runs the x86-64 image
+through Rosetta):
 
 ```bash
 ./run_all_docker.sh                 # every project zip in the folder
 ./run_all_docker.sh pf4j__pf4j      # only this project
 ```
 
-We ran all 116 bugs from these packages in a container that had nothing else: each one fails on the buggy
-version and passes on the fixed one. 111 run without network access. Four contact an external service during
+We ran all 116 bugs from these packages in a container that had nothing else (Linux, x86-64): each one fails
+on the buggy version and passes on the fixed one. 111 run without network access. Four contact an external service during
 the test (DependencyCheck #7976, plugin-modernizer-tool #572, hilla #1935, opensearch security #5832), and
 citrus #1676 starts a container; `run_all_docker.sh` turns the network on for these five. For citrus #1676 the
 container also needs the host's Docker socket (`-v /var/run/docker.sock:/var/run/docker.sock`); without it the
