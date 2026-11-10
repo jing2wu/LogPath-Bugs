@@ -1,13 +1,14 @@
-LogPath-Bugs is distributed under two licenses.
+LogPath-Bugs is distributed under two licenses:
 
-Data (dataset/, extra/, not_released/, funnel/): Creative Commons Attribution 4.0 International (CC BY 4.0),
-https://creativecommons.org/licenses/by/4.0/
+- the data (dataset/, extra/, not_released/, funnel/, and the data files of the runnable bundles) under the
+  Creative Commons Attribution 4.0 International License (CC BY 4.0),
+  https://creativecommons.org/licenses/by/4.0/legalcode
+- the code (pipeline/, checker/, and the reproduce.sh scripts of the runnable bundles) under the MIT License, below.
 
-Code (pipeline/*.py, checker/): MIT License, below.
-
-The log messages, file names, and line references in the data come from the projects listed in
-dataset/index.jsonl and remain under those projects' licenses. pipeline/selogger-0.6.0-asm98.jar is built from
-SELogger (MIT, see pipeline/SELOGGER_LICENSE).
+Third-party material keeps its own license: the log messages, file names, line references and bug reports
+(issue.md) come from the projects listed in dataset/index.jsonl and remain under those projects' licenses, as do
+the project sources and dependency artifacts in the runnable bundles. pipeline/selogger-0.6.0-asm98.jar is built
+from SELogger (MIT, see pipeline/SELOGGER_LICENSE).
 
 --------------------------------------------------------------------------------
 

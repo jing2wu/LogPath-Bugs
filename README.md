@@ -20,13 +20,14 @@ one.
 | `pipeline/` | The scripts that built the dataset and the patched SELogger. |
 | `checker/` | An independent checker and a script that turns a new SELogger trace into log pairs. |
 
-The three bug folders share one layout: `<owner>__<repo>/<issue>/`, with three files per bug.
+The three bug folders share one layout: `<owner>__<repo>/<issue>/`, with four files per bug.
 
 | File | Content |
 |---|---|
 | `meta.json` | The issue, the fix commit, how the buggy version is derived, JDK, module, failing test(s), faulty lines, number of pairs and of pairs that cover the fault, shortest covering path, and the outcome of the checks. |
 | `app_<TestClass>.<method>.log` | Everything the failing test printed, at all log levels. |
 | `pairs.jsonl` | One log pair per line (see below). |
+| `issue.md` | The bug report: the GitHub issue with its comments, as fetched on 2026-11-09. |
 
 The source code is not included. The buggy version is the fix commit with the files listed in
 `meta.json` → `buggy_version` reverted to the parent commit, so the new test is present and the code under test
@@ -163,5 +164,6 @@ To be added.
 
 ## License
 
-Data: CC BY 4.0. Code: MIT. Log messages and source references come from the listed projects and
-remain under their licenses. See `LICENSE`.
+Data: CC BY 4.0. Code (`pipeline/`, `checker/`, `reproduce.sh`): MIT. Log messages, source references, bug
+reports, project sources and dependencies come from the listed projects and remain under their licenses. See
+`LICENSE`.
