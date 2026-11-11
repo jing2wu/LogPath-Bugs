@@ -33,6 +33,9 @@ The source code is not included. The buggy version is the fix commit with the fi
 `meta.json` → `buggy_version` reverted to the parent commit, so the new test is present and the code under test
 is the old one. All line numbers in the dataset refer to this buggy version.
 
+In the logs and the pairs, the IP address, the host name, and the user name of the machine that recorded them
+are replaced by `192.0.2.1`, `example-host`, and `user`.
+
 ## Example: pf4j #670
 
 Issue: "Extension#ordinal is never read by the ASM-based ExtensionInfo". Fix commit `47b006a0be`.
